@@ -1,0 +1,18 @@
+array(2) {
+  [0]=>
+  object(obj2)#%d (1) {
+    ["ryat"]=>
+    int(1)
+  }
+  [1]=>
+  array(1) {
+    [0]=>
+    array(1) {
+      [0]=>
+      object(obj2)#%d (1) {
+        ["ryat"]=>
+        int(1)
+      }
+    }
+  }
+}

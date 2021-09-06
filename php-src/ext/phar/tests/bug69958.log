@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught exception 'BadMethodCallException' with message 'phar "%s/bug69958.tar" exists and must be unlinked prior to conversion' in %s/bug69958.php:%d
+Stack trace:
+#0 %s/bug69958.php(%d): PharData->convertToData(%d)
+#1 {main}
+  thrown in %s/bug69958.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught BadMethodCallException: phar "/root/php-src/ext/phar/tests/bug69958.tar" exists and must be unlinked prior to conversion in /root/php-src/ext/phar/tests/bug69958.php:3
+Stack trace:
+#0 /root/php-src/ext/phar/tests/bug69958.php(3): PharData->convertToData(2)
+#1 {main}
+  thrown in /root/php-src/ext/phar/tests/bug69958.php on line 3
+---- FAILED

@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Warning: First argument of class_alias() must be a name of user defined class in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: First argument of class_alias() must be a name of user defined class in /root/php-src/Zend/tests/class_alias_006.php on line 3
+---- FAILED

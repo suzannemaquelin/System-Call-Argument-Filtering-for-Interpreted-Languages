@@ -1,0 +1,5 @@
+bc math warning: non-zero scale in base
+string(5) "1.000"
+bc math warning: non-zero scale in modulus
+string(5) "1.000"
+===DONE===

@@ -1,0 +1,23 @@
+Test::f1()
+array(1) {
+  [0]=>
+  int(42)
+}
+Test::f2()
+NULL
+Test::f2()
+NULL
+Test::f3()
+array(0) {
+}
+Test::f4()
+array(1) {
+  [0]=>
+  int(25)
+}
+
+Fatal error: Uncaught TypeError: Argument 1 passed to Test::f1() must be of the type array, integer given, called in %s on line %d and defined in %s:%d
+Stack trace:
+#0 %s(%d): Test::f1(1)
+#1 {main}
+  thrown in %s on line %d

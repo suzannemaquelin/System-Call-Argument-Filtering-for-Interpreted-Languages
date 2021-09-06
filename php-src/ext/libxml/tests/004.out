@@ -1,0 +1,30 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: stream_context_create(): options should have the form ["wrappername"]["optionname"] = $value in /root/php-src/ext/libxml/tests/004.php on line 10
+
+Warning: libxml_set_streams_context() expects parameter 1 to be resource, null given in /root/php-src/ext/libxml/tests/004.php on line 16
+NULL
+bool(true)
+
+Warning: libxml_set_streams_context() expects parameter 1 to be resource, string given in /root/php-src/ext/libxml/tests/004.php on line 16
+NULL
+bool(true)
+
+Warning: libxml_set_streams_context() expects parameter 1 to be resource, integer given in /root/php-src/ext/libxml/tests/004.php on line 16
+NULL
+bool(true)
+
+Warning: libxml_set_streams_context() expects parameter 1 to be resource, object given in /root/php-src/ext/libxml/tests/004.php on line 16
+NULL
+bool(true)
+
+Warning: libxml_set_streams_context() expects parameter 1 to be resource, array given in /root/php-src/ext/libxml/tests/004.php on line 16
+NULL
+bool(true)
+NULL
+bool(true)
+NULL
+bool(true)
+NULL
+bool(true)
+Done

@@ -1,0 +1,28 @@
+
+---- EXPECTED OUTPUT
+Notice: Array to string conversion in %s on line %d
+
+Warning: Class 'Array' not found in %s on line %d
+
+Warning: Closure::bindTo() expects parameter 1 to be object, array given in %s on line 25
+
+Warning: Closure::bindTo() expects at most 2 parameters, 3 given in %s on line %d
+
+Warning: Closure::bindTo() expects at least 1 parameter, 0 given in %s on line %d
+
+Warning: Cannot bind an instance to a static closure in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Array to string conversion in /root/php-src/Zend/tests/closure_040.php on line 24
+
+Warning: Class 'Array' not found in /root/php-src/Zend/tests/closure_040.php on line 24
+
+Warning: Closure::bindTo() expects parameter 1 to be object, array given in /root/php-src/Zend/tests/closure_040.php on line 25
+
+Warning: Closure::bindTo() expects at most 2 parameters, 3 given in /root/php-src/Zend/tests/closure_040.php on line 26
+
+Warning: Closure::bindTo() expects at least 1 parameter, 0 given in /root/php-src/Zend/tests/closure_040.php on line 27
+
+Warning: Cannot bind an instance to a static closure in /root/php-src/Zend/tests/closure_040.php on line 28
+---- FAILED

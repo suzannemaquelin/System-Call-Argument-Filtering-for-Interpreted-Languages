@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing get_class_vars() : error conditions ***
+
+-- Testing get_class_vars() function with more than expected no. of arguments --
+
+Warning: get_class_vars() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/class_object/get_class_vars_error.php on line 15
+NULL
+
+-- Testing get_class_vars() function with less than expected no. of arguments --
+
+Warning: get_class_vars() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/class_object/get_class_vars_error.php on line 19
+NULL
+===DONE===

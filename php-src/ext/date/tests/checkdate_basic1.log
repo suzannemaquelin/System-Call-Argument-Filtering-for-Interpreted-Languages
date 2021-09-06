@@ -1,0 +1,41 @@
+
+---- EXPECTED OUTPUT
+*** Testing checkdate() : basic functionality ***
+-- The following are all valid dates --
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+-- The following are all invalid dates --
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing checkdate() : basic functionality ***
+-- The following are all valid dates --
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+-- The following are all invalid dates --
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+===DONE===
+---- FAILED

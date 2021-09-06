@@ -1,0 +1,7 @@
+
+---- EXPECTED OUTPUT
+string(81) "得很幸福。有一天，一个长得很丑的老人带着一只木马来到王"
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(81) "得很幸福。有一天，一个长得很丑的老人带着一只木马来到王"
+---- FAILED

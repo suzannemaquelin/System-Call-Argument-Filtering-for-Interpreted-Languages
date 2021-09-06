@@ -1,0 +1,20 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing error conditions ***
+
+-- Testing with  Non-existing file --
+
+Warning: file_get_contents(/no/such/file/or/dir): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/file/file_get_contents_error.php on line 13
+
+-- Testing No.of arguments less than expected --
+
+Warning: file_get_contents() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/file_get_contents_error.php on line 16
+
+-- Testing No.of arguments greater than expected --
+
+Warning: file_get_contents() expects at most 5 parameters, 6 given in /root/php-src/ext/standard/tests/file/file_get_contents_error.php on line 22
+
+-- Testing for invalid negative maxlen values --
+Warning: file_get_contents(): length must be greater than or equal to zero in /root/php-src/ext/standard/tests/file/file_get_contents_error.php on line 25
+bool(false)
+
+*** Done ***

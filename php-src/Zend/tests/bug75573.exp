@@ -1,0 +1,10 @@
+Warning: Creating default object from empty value in %sbug75573.php on line %d
+
+Notice: Only variable references should be returned by reference in %sbug75573.php on line %d
+string(3) "abc"
+array(2) {
+  ["foo"]=>
+  string(3) "bar"
+  ["name"]=>
+  string(3) "abc"
+}

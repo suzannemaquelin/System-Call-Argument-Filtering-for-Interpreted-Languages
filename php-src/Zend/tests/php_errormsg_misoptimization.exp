@@ -1,0 +1,4 @@
+Notice: Undefined variable: undef in %s on line %d
+
+Warning: A non-numeric value encountered in %s on line %d
+int(1)

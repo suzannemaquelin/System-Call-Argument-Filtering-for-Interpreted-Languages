@@ -1,0 +1,14 @@
+
+---- EXPECTED OUTPUT
+Warning: unserialize(): %s in %sbug74101.php on line %d
+
+Notice: unserialize(): Error at offset 48 of 74 bytes in %sbug74101.php on line %d
+bool(false)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: unserialize(): Numerical result out of range in /root/php-src/ext/standard/tests/serialize/bug74101.php on line 3
+
+Notice: unserialize(): Error at offset 48 of 74 bytes in /root/php-src/ext/standard/tests/serialize/bug74101.php on line 3
+bool(false)
+---- FAILED

@@ -1,0 +1,195 @@
+
+---- EXPECTED OUTPUT
+*** Testing unlink() : variation ***
+-- removing unlinkVar8.tmp/file.tmp --
+file removed
+-- unlinking soft link unlinkVar8.tmp/file.tmp --
+file unlinked
+-- unlinking hard link unlinkVar8.tmp/file.tmp --
+file unlinked
+-- removing ./unlinkVar8.tmp/file.tmp --
+file removed
+-- unlinking soft link ./unlinkVar8.tmp/file.tmp --
+file unlinked
+-- unlinking hard link ./unlinkVar8.tmp/file.tmp --
+file unlinked
+-- removing unlinkVar8.tmp/../unlinkVar8.tmp/file.tmp --
+file removed
+-- unlinking soft link unlinkVar8.tmp/../unlinkVar8.tmp/file.tmp --
+file unlinked
+-- unlinking hard link unlinkVar8.tmp/../unlinkVar8.tmp/file.tmp --
+file unlinked
+-- removing unlinkVar8.tmp/../BADDIR/file.tmp --
+
+Warning: unlink(unlinkVar8.tmp/../BADDIR/file.tmp): No such file or directory in %s on line %d
+-- unlinking soft link unlinkVar8.tmp/../BADDIR/file.tmp --
+
+Warning: unlink(unlinkVar8.tmp/../BADDIR/file.tmp): No such file or directory in %s on line %d
+-- unlinking hard link unlinkVar8.tmp/../BADDIR/file.tmp --
+
+Warning: unlink(unlinkVar8.tmp/../BADDIR/file.tmp): No such file or directory in %s on line %d
+-- removing BADDIR/file.tmp --
+
+Warning: unlink(BADDIR/file.tmp): No such file or directory in %s on line %d
+-- unlinking soft link BADDIR/file.tmp --
+
+Warning: unlink(BADDIR/file.tmp): No such file or directory in %s on line %d
+-- unlinking hard link BADDIR/file.tmp --
+
+Warning: unlink(BADDIR/file.tmp): No such file or directory in %s on line %d
+-- removing /%s/unlinkVar8.tmp/file.tmp --
+file removed
+-- unlinking soft link /%s/unlinkVar8.tmp/file.tmp --
+file unlinked
+-- unlinking hard link /%s/unlinkVar8.tmp/file.tmp --
+file unlinked
+-- removing /%s/./unlinkVar8.tmp/file.tmp --
+file removed
+-- unlinking soft link /%s/./unlinkVar8.tmp/file.tmp --
+file unlinked
+-- unlinking hard link /%s/./unlinkVar8.tmp/file.tmp --
+file unlinked
+-- removing /%s/unlinkVar8.tmp/../unlinkVar8.tmp/file.tmp --
+file removed
+-- unlinking soft link /%s/unlinkVar8.tmp/../unlinkVar8.tmp/file.tmp --
+file unlinked
+-- unlinking hard link /%s/unlinkVar8.tmp/../unlinkVar8.tmp/file.tmp --
+file unlinked
+-- removing /%s/BADDIR/file.tmp --
+
+Warning: unlink(/%s/BADDIR/file.tmp): No such file or directory in %s on line %d
+-- unlinking soft link /%s/BADDIR/file.tmp --
+
+Warning: unlink(/%s/BADDIR/file.tmp): No such file or directory in %s on line %d
+-- unlinking hard link /%s/BADDIR/file.tmp --
+
+Warning: unlink(/%s/BADDIR/file.tmp): No such file or directory in %s on line %d
+-- removing unlinkVar8.tmp/file.tmp/ --
+
+Warning: unlink(unlinkVar8.tmp/file.tmp/): Not a directory in %s on line %d
+-- unlinking soft link unlinkVar8.tmp/file.tmp/ --
+
+Warning: unlink(unlinkVar8.tmp/file.tmp/): %s directory in %s on line %d
+-- unlinking hard link unlinkVar8.tmp/file.tmp/ --
+
+Warning: unlink(unlinkVar8.tmp/file.tmp/): Not a directory in %s on line %d
+-- removing /%s/unlinkVar8.tmp/file.tmp/ --
+
+Warning: unlink(/%s/unlinkVar8.tmp/file.tmp/): Not a directory in %s on line %d
+-- unlinking soft link /%s/unlinkVar8.tmp/file.tmp/ --
+
+Warning: unlink(/%s/unlinkVar8.tmp/file.tmp/): %s directory in %s on line %d
+-- unlinking hard link /%s/unlinkVar8.tmp/file.tmp/ --
+
+Warning: unlink(/%s/unlinkVar8.tmp/file.tmp/): Not a directory in %s on line %d
+-- removing unlinkVar8.tmp//file.tmp --
+file removed
+-- unlinking soft link unlinkVar8.tmp//file.tmp --
+file unlinked
+-- unlinking hard link unlinkVar8.tmp//file.tmp --
+file unlinked
+-- removing /%s//unlinkVar8.tmp//file.tmp --
+file removed
+-- unlinking soft link /%s//unlinkVar8.tmp//file.tmp --
+file unlinked
+-- unlinking hard link /%s//unlinkVar8.tmp//file.tmp --
+file unlinked
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing unlink() : variation ***
+-- removing unlinkVar8.tmp/file.tmp --
+file removed
+-- unlinking soft link unlinkVar8.tmp/file.tmp --
+file unlinked
+-- unlinking hard link unlinkVar8.tmp/file.tmp --
+file unlinked
+-- removing ./unlinkVar8.tmp/file.tmp --
+file removed
+-- unlinking soft link ./unlinkVar8.tmp/file.tmp --
+file unlinked
+-- unlinking hard link ./unlinkVar8.tmp/file.tmp --
+file unlinked
+-- removing unlinkVar8.tmp/../unlinkVar8.tmp/file.tmp --
+file removed
+-- unlinking soft link unlinkVar8.tmp/../unlinkVar8.tmp/file.tmp --
+file unlinked
+-- unlinking hard link unlinkVar8.tmp/../unlinkVar8.tmp/file.tmp --
+file unlinked
+-- removing unlinkVar8.tmp/../BADDIR/file.tmp --
+
+Warning: unlink(unlinkVar8.tmp/../BADDIR/file.tmp): No such file or directory in /root/php-src/ext/standard/tests/file/unlink_variation8.php on line 59
+-- unlinking soft link unlinkVar8.tmp/../BADDIR/file.tmp --
+
+Warning: unlink(unlinkVar8.tmp/../BADDIR/file.tmp): No such file or directory in /root/php-src/ext/standard/tests/file/unlink_variation8.php on line 83
+-- unlinking hard link unlinkVar8.tmp/../BADDIR/file.tmp --
+
+Warning: unlink(unlinkVar8.tmp/../BADDIR/file.tmp): No such file or directory in /root/php-src/ext/standard/tests/file/unlink_variation8.php on line 83
+-- removing BADDIR/file.tmp --
+
+Warning: unlink(BADDIR/file.tmp): No such file or directory in /root/php-src/ext/standard/tests/file/unlink_variation8.php on line 59
+-- unlinking soft link BADDIR/file.tmp --
+
+Warning: unlink(BADDIR/file.tmp): No such file or directory in /root/php-src/ext/standard/tests/file/unlink_variation8.php on line 83
+-- unlinking hard link BADDIR/file.tmp --
+
+Warning: unlink(BADDIR/file.tmp): No such file or directory in /root/php-src/ext/standard/tests/file/unlink_variation8.php on line 83
+-- removing /root/php-src/unlinkVar8.tmp/file.tmp --
+file removed
+-- unlinking soft link /root/php-src/unlinkVar8.tmp/file.tmp --
+file unlinked
+-- unlinking hard link /root/php-src/unlinkVar8.tmp/file.tmp --
+file unlinked
+-- removing /root/php-src/./unlinkVar8.tmp/file.tmp --
+file removed
+-- unlinking soft link /root/php-src/./unlinkVar8.tmp/file.tmp --
+file unlinked
+-- unlinking hard link /root/php-src/./unlinkVar8.tmp/file.tmp --
+file unlinked
+-- removing /root/php-src/unlinkVar8.tmp/../unlinkVar8.tmp/file.tmp --
+file removed
+-- unlinking soft link /root/php-src/unlinkVar8.tmp/../unlinkVar8.tmp/file.tmp --
+file unlinked
+-- unlinking hard link /root/php-src/unlinkVar8.tmp/../unlinkVar8.tmp/file.tmp --
+file unlinked
+-- removing /root/php-src/BADDIR/file.tmp --
+
+Warning: unlink(/root/php-src/BADDIR/file.tmp): No such file or directory in /root/php-src/ext/standard/tests/file/unlink_variation8.php on line 59
+-- unlinking soft link /root/php-src/BADDIR/file.tmp --
+
+Warning: unlink(/root/php-src/BADDIR/file.tmp): No such file or directory in /root/php-src/ext/standard/tests/file/unlink_variation8.php on line 83
+-- unlinking hard link /root/php-src/BADDIR/file.tmp --
+
+Warning: unlink(/root/php-src/BADDIR/file.tmp): No such file or directory in /root/php-src/ext/standard/tests/file/unlink_variation8.php on line 83
+-- removing unlinkVar8.tmp/file.tmp/ --
+
+Warning: unlink(unlinkVar8.tmp/file.tmp/): Not a directory in /root/php-src/ext/standard/tests/file/unlink_variation8.php on line 59
+-- unlinking soft link unlinkVar8.tmp/file.tmp/ --
+
+Warning: unlink(unlinkVar8.tmp/file.tmp/): Not a directory in /root/php-src/ext/standard/tests/file/unlink_variation8.php on line 83
+-- unlinking hard link unlinkVar8.tmp/file.tmp/ --
+
+Warning: unlink(unlinkVar8.tmp/file.tmp/): Not a directory in /root/php-src/ext/standard/tests/file/unlink_variation8.php on line 83
+-- removing /root/php-src/unlinkVar8.tmp/file.tmp/ --
+
+Warning: unlink(/root/php-src/unlinkVar8.tmp/file.tmp/): Not a directory in /root/php-src/ext/standard/tests/file/unlink_variation8.php on line 59
+-- unlinking soft link /root/php-src/unlinkVar8.tmp/file.tmp/ --
+
+Warning: unlink(/root/php-src/unlinkVar8.tmp/file.tmp/): Not a directory in /root/php-src/ext/standard/tests/file/unlink_variation8.php on line 83
+-- unlinking hard link /root/php-src/unlinkVar8.tmp/file.tmp/ --
+
+Warning: unlink(/root/php-src/unlinkVar8.tmp/file.tmp/): Not a directory in /root/php-src/ext/standard/tests/file/unlink_variation8.php on line 83
+-- removing unlinkVar8.tmp//file.tmp --
+file removed
+-- unlinking soft link unlinkVar8.tmp//file.tmp --
+file unlinked
+-- unlinking hard link unlinkVar8.tmp//file.tmp --
+file unlinked
+-- removing /root/php-src//unlinkVar8.tmp//file.tmp --
+file removed
+-- unlinking soft link /root/php-src//unlinkVar8.tmp//file.tmp --
+file unlinked
+-- unlinking hard link /root/php-src//unlinkVar8.tmp//file.tmp --
+file unlinked
+===DONE===
+---- FAILED

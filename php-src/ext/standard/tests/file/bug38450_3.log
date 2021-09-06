@@ -1,0 +1,22 @@
+
+---- EXPECTED OUTPUT
+Warning: fopen(var://myvar): failed to open stream: "VariableStream::stream_open" call failed in %sbug38450_3.php on line %d
+
+Fatal error: Uncaught ArgumentCountError: Too few arguments to function VariableStream::__construct(), 0 passed and exactly 1 expected in %sbug38450_3.php:7
+Stack trace:
+#0 [internal function]: VariableStream->__construct()
+#1 %s(%d): fopen('var://myvar', 'r+')
+#2 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: fopen(var://myvar): failed to open stream: "VariableStream::stream_open" call failed in /root/php-src/ext/standard/tests/file/bug38450_3.php on line 86
+
+Fatal error: Uncaught ArgumentCountError: Too few arguments to function VariableStream::__construct(), 0 passed and exactly 1 expected in /root/php-src/ext/standard/tests/file/bug38450_3.php:7
+Stack trace:
+#0 [internal function]: VariableStream->__construct()
+#1 /root/php-src/ext/standard/tests/file/bug38450_3.php(86): fopen('var://myvar', 'r+')
+#2 {main}
+  thrown in /root/php-src/ext/standard/tests/file/bug38450_3.php on line 7
+---- FAILED

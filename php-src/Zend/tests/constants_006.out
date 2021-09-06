@@ -1,0 +1,8 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(24) "/root/php-src/Zend/tests"
+string(42) "/root/php-src/Zend/tests/constants_006.php"
+int(7)
+string(21) "test\foo::__construct"
+string(8) "test\foo"
+string(11) "__construct"
+string(4) "test"

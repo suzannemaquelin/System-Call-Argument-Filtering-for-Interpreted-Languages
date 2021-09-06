@@ -1,0 +1,12 @@
+*** Testing preg_quote() : error conditions ***
+
+-- Testing preg_quote() function with Zero arguments --
+
+Warning: preg_quote() expects at least 1 parameter, 0 given in %spreg_quote_error.php on line %d
+NULL
+
+-- Testing preg_quote() function with more than expected no. of arguments --
+
+Warning: preg_quote() expects at most 2 parameters, 3 given in %spreg_quote_error.php on line %d
+NULL
+Done

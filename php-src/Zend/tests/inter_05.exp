@@ -1,0 +1,1 @@
+Fatal error: a cannot implement Exception - it is not an interface in %s on line %d

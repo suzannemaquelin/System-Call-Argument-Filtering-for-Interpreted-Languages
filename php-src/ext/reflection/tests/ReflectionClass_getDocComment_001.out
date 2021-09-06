@@ -1,0 +1,43 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+
+---> Doc comment for class A:
+string(38) "/**
+
+
+		My
+Doc
+		* Comment
+for A
+
+* */"
+
+
+---> Doc comment for class B:
+string(26) "/** My DocComment for B */"
+
+
+---> Doc comment for class C:
+bool(false)
+
+
+---> Doc comment for class D:
+bool(false)
+
+
+---> Doc comment for class E:
+bool(false)
+
+
+---> Doc comment for class F:
+bool(false)
+
+
+---> Doc comment for class G:
+string(27) "/**	** Doc comment for G */"
+
+
+---> Doc comment for class I:
+string(32) "/**
+ * Interface doc comment
+ */"

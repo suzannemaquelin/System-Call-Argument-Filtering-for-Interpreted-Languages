@@ -1,0 +1,12 @@
+*** Testing interface_exists() : error conditions ***
+
+-- Testing interface_exists() function with Zero arguments --
+
+Warning: interface_exists() expects at least 1 parameter, 0 given in %sinterface_exists_error.php on line %d
+NULL
+
+-- Testing interface_exists() function with more than expected no. of arguments --
+
+Warning: interface_exists() expects at most 2 parameters, 3 given in %sinterface_exists_error.php on line %d
+NULL
+===DONE===

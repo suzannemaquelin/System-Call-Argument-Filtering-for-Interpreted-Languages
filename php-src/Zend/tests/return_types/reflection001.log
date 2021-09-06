@@ -1,0 +1,57 @@
+
+---- EXPECTED OUTPUT
+Class [ <user> class A ] {
+  @@ %sreflection001.php 3-7
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <user> public method foo ] {
+      @@ %sreflection001.php 4 - 6
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $a ]
+      }
+      - Return [ array ]
+    }
+  }
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Class [ <user> class A ] {
+  @@ /root/php-src/Zend/tests/return_types/reflection001.php 3-7
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <user> public method foo ] {
+      @@ /root/php-src/Zend/tests/return_types/reflection001.php 4 - 6
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $a ]
+      }
+      - Return [ array ]
+    }
+  }
+}
+---- FAILED

@@ -1,0 +1,6 @@
+array(2) {
+  [0]=>
+  string(%d) "%s/bug69628/image.gIf"
+  [1]=>
+  string(%d) "%s/bug69628/image.jPg"
+}

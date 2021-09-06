@@ -1,0 +1,12 @@
+Overloaded object of type SplFixedArray is not compatible with ArrayObject
+object(ArrayObject)#1 (1) {
+  ["storage":"ArrayObject":private]=>
+  array(3) {
+    [0]=>
+    int(1)
+    [1]=>
+    int(2)
+    [2]=>
+    int(3)
+  }
+}

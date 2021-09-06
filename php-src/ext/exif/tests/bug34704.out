@@ -1,0 +1,29 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(7) {
+  ["FileName"]=>
+  string(12) "bug34704.jpg"
+  ["FileDateTime"]=>
+  int(1559029359)
+  ["FileSize"]=>
+  int(9976)
+  ["FileType"]=>
+  int(2)
+  ["MimeType"]=>
+  string(10) "image/jpeg"
+  ["SectionsFound"]=>
+  string(4) "IFD0"
+  ["COMPUTED"]=>
+  array(5) {
+    ["html"]=>
+    string(24) "width="386" height="488""
+    ["Height"]=>
+    int(488)
+    ["Width"]=>
+    int(386)
+    ["IsColor"]=>
+    int(1)
+    ["ByteOrderMotorola"]=>
+    int(0)
+  }
+}
+===DONE===

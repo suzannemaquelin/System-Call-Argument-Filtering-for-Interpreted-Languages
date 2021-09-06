@@ -1,0 +1,16 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing sizeof() : basic functionality ***
+-- Testing sizeof() for integer type in default, COUNT_NORMAL and COUNT_RECURSIVE modes --
+default mode: int(1)
+
+COUNT_NORMAL mode: int(1)
+
+COUNT_RECURSIVE mode: int(1)
+
+-- Testing sizeof() for float  type in default, COUNT_NORMAL and COUNT_RECURSIVE modes --
+default mode: int(1)
+
+COUNT_NORMAL mode: int(1)
+
+COUNT_RECURSIVE mode: int(1)
+Done

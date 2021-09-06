@@ -1,0 +1,6 @@
+Fatal error: Uncaught InvalidArgumentException: Overloaded object of type DateInterval is not compatible with ArrayObject in %s
+Stack trace:
+%s
+%s
+%s
+%s

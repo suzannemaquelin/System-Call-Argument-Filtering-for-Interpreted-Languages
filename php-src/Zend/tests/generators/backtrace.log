@@ -1,0 +1,13 @@
+
+---- EXPECTED OUTPUT
+#0  f1() called at [%s:%d]
+#1  f2(foo, bar)
+#2  Generator->rewind() called at [%s:%d]
+#3  f3(Generator Object ()) called at [%s:%d]
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+#0  f1() called at [/root/php-src/Zend/tests/generators/backtrace.php:8]
+#1  f2(foo, bar)
+#2  Generator->rewind() called at [/root/php-src/Zend/tests/generators/backtrace.php:13]
+#3  f3(Generator Object ()) called at [/root/php-src/Zend/tests/generators/backtrace.php:17]
+---- FAILED

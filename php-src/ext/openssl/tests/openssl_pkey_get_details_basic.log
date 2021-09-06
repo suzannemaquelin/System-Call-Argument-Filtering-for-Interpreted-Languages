@@ -1,0 +1,41 @@
+
+---- EXPECTED OUTPUT
+Array
+(
+    [bits] => 256
+    [key] => -----BEGIN PUBLIC KEY-----%a
+-----END PUBLIC KEY-----
+
+    [ec] => Array
+        (
+            [curve_name] => prime256v1
+            [curve_oid] => 1.2.840.10045.3.1.7
+            [x] => %a
+            [y] => %a
+            [d] => %a
+        )
+
+    [type] => 3
+)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Array
+(
+    [bits] => 256
+    [key] => -----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPq4hbIWHvB51rdWr8ejrjWo4qVNW
+VugYFtPg/xLQw0mHkIPZ4DvKsqOTOnMoezkbSmVVMuwz9flvnqHGmQvmug==
+-----END PUBLIC KEY-----
+
+    [ec] => Array
+        (
+            [curve_name] => prime256v1
+            [curve_oid] => 1.2.840.10045.3.1.7
+            [x] => >®!l…‡¼u­Õ«ñèëj8©SVVèÓàÿÐÃI
+            [y] => ‡ƒÙà;Ê²£“:s({9JeU2ì3õùož¡Æ™æº
+            [d] => ³äª‡²3µàÁ‰.J=ôï¹k²·Ö$®K¨Ê%¿é¶ èÙ
+        )
+
+    [type] => 3
+)
+---- FAILED

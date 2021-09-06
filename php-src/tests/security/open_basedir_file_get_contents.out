@@ -1,0 +1,52 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing open_basedir configuration [file_get_contents] ***
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+
+Warning: file_get_contents(): open_basedir restriction in effect. File(../bad) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 78
+
+Warning: file_get_contents(../bad): failed to open stream: Operation not permitted in /root/php-src/tests/security/open_basedir.inc on line 78
+bool(false)
+
+Warning: file_get_contents(): open_basedir restriction in effect. File(../bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 79
+
+Warning: file_get_contents(../bad/bad.txt): failed to open stream: Operation not permitted in /root/php-src/tests/security/open_basedir.inc on line 79
+bool(false)
+
+Warning: file_get_contents(): open_basedir restriction in effect. File(..) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 80
+
+Warning: file_get_contents(..): failed to open stream: Operation not permitted in /root/php-src/tests/security/open_basedir.inc on line 80
+bool(false)
+
+Warning: file_get_contents(): open_basedir restriction in effect. File(../) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 81
+
+Warning: file_get_contents(../): failed to open stream: Operation not permitted in /root/php-src/tests/security/open_basedir.inc on line 81
+bool(false)
+
+Warning: file_get_contents(): open_basedir restriction in effect. File(/) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 82
+
+Warning: file_get_contents(/): failed to open stream: Operation not permitted in /root/php-src/tests/security/open_basedir.inc on line 82
+bool(false)
+
+Warning: file_get_contents(): open_basedir restriction in effect. File(../bad/.) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 83
+
+Warning: file_get_contents(../bad/.): failed to open stream: Operation not permitted in /root/php-src/tests/security/open_basedir.inc on line 83
+bool(false)
+
+Warning: file_get_contents(): open_basedir restriction in effect. File(/root/php-src/test/bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 85
+
+Warning: file_get_contents(/root/php-src/test/bad/bad.txt): failed to open stream: Operation not permitted in /root/php-src/tests/security/open_basedir.inc on line 85
+bool(false)
+
+Warning: file_get_contents(): open_basedir restriction in effect. File(/root/php-src/test/bad/../bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 86
+
+Warning: file_get_contents(/root/php-src/test/bad/../bad/bad.txt): failed to open stream: Operation not permitted in /root/php-src/tests/security/open_basedir.inc on line 86
+bool(false)
+string(12) "Hello World!"
+string(12) "Hello World!"
+string(12) "Hello World!"
+string(12) "Hello World!"
+*** Finished testing open_basedir configuration [file_get_contents] ***

@@ -1,0 +1,11 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(2) {
+  ["file1"]=>
+  string(58) "/root/php-src/ext/phar/tests/cache_list/copyonwrite5/file1"
+  ["file2"]=>
+  string(58) "/root/php-src/ext/phar/tests/cache_list/copyonwrite5/file2"
+}
+phar:///root/php-src/ext/phar/tests/cache_list/copyonwrite5.phar.php/file1 file1
+phar:///root/php-src/ext/phar/tests/cache_list/copyonwrite5.phar.php/file2 file2
+phar:///root/php-src/ext/phar/tests/cache_list/copyonwrite5.phar.php/hi hi
+ok

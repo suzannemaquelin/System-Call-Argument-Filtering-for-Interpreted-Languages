@@ -1,0 +1,27 @@
+string(4) "*ක"
+string(5) "*ම*"
+string(2) "*k"
+string(3) "*m*"
+array(1) {
+  [0]=>
+  array(2) {
+    [0]=>
+    array(2) {
+      [0]=>
+      string(0) ""
+      [1]=>
+      int(0)
+    }
+    [1]=>
+    array(2) {
+      [0]=>
+      string(0) ""
+      [1]=>
+      int(3)
+    }
+  }
+}
+NULL
+NULL
+bool(false)
+bool(false)

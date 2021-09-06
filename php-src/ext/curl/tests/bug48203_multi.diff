@@ -1,0 +1,79 @@
+001+ Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+002+ 
+005- Ok for CURLOPT_STDERR
+006- 
+007- Warning: curl_multi_exec(): CURLOPT_WRITEHEADER resource has gone away, resetting to default in %s on line %d
+008- 
+009- Warning: curl_multi_exec(): CURLOPT_WRITEHEADER resource has gone away, resetting to default in %s on line %d
+010- Ok for CURLOPT_WRITEHEADER
+007+ * Found bundle for host localhost: 0x557d8bd26d80 [serially]
+008+ * Server doesn't support multi-use (yet)
+009+ * Expire in 1 ms for 1 (transfer 0x557d8bd1a740)
+010+ * Expire in 2 ms for 1 (transfer 0x557d8bd14e80)
+011+ * Expire in 0 ms for 1 (transfer 0x557d8bd14e80)
+012+ * Expire in 2 ms for 1 (transfer 0x557d8bd1a740)
+013+ * Expire in 0 ms for 1 (transfer 0x557d8bd1a740)
+014+ * Expire in 1 ms for 1 (transfer 0x557d8bd14e80)
+015+ *   Trying 127.0.0.1...
+016+ * TCP_NODELAY set
+017+ * Expire in 149998 ms for 3 (transfer 0x557d8bd14e80)
+018+ * Expire in 200 ms for 4 (transfer 0x557d8bd14e80)
+019+ * Connected to localhost (127.0.0.1) port 8964 (#0)
+020+ > GET / HTTP/1.1
+021+ Host: localhost:8964
+022+ Accept: */*
+012- Warning: curl_multi_exec(): CURLOPT_FILE resource has gone away, resetting to default in %s on line %d
+014- Warning: curl_multi_exec(): CURLOPT_FILE resource has gone away, resetting to default in %s on line %d
+015- Hello World!
+016- Hello World!Hello World!
+017- Hello World!Ok for CURLOPT_FILE
+018- 
+019- Warning: curl_multi_exec(): CURLOPT_INFILE resource has gone away, resetting to default in %s on line %d
+020- 
+021- Warning: curl_multi_exec(): CURLOPT_INFILE resource has gone away, resetting to default in %s on line %d
+022- Ok for CURLOPT_INFILE
+024+ * Hostname 'localhost' was found in DNS cache
+025+ * Expire in 1 ms for 1 (transfer 0x557d8bd1a740)
+026+ *   Trying 127.0.0.1...
+027+ * TCP_NODELAY set
+028+ * Expire in 149997 ms for 3 (transfer 0x557d8bd1a740)
+029+ * Expire in 200 ms for 4 (transfer 0x557d8bd1a740)
+030+ * Connected to localhost (127.0.0.1) port 8964 (#1)
+031+ > GET / HTTP/1.1
+032+ Host: localhost:8964
+033+ Accept: */*
+035+ < HTTP/1.1 200 OK
+036+ < Host: localhost:8964
+037+ < Date: Sun, 08 May 2022 14:04:01 +0000
+038+ < Connection: close
+039+ < X-Powered-By: PHP/7.1.30
+040+ < Content-type: text/html; charset=UTF-8
+041+ < 
+042+ * Closing connection 0
+043+ < HTTP/1.1 200 OK
+044+ < Host: localhost:8964
+045+ < Date: Sun, 08 May 2022 14:04:01 +0000
+046+ < Connection: close
+047+ < X-Powered-By: PHP/7.1.30
+048+ < Content-type: text/html; charset=UTF-8
+049+ < 
+050+ * Could not resolve host: localhost
+051+ * Closing connection 1
+052+ Ok for CURLOPT_STDERR
+053+ 
+054+ Warning: curl_multi_exec(): CURLOPT_WRITEHEADER resource has gone away, resetting to default in /root/php-src/ext/curl/tests/bug48203_multi.php on line 36
+055+ 
+056+ Warning: curl_multi_exec(): CURLOPT_WRITEHEADER resource has gone away, resetting to default in /root/php-src/ext/curl/tests/bug48203_multi.php on line 36
+057+ Ok for CURLOPT_WRITEHEADER
+058+ 
+059+ Warning: curl_multi_exec(): CURLOPT_FILE resource has gone away, resetting to default in /root/php-src/ext/curl/tests/bug48203_multi.php on line 36
+060+ 
+061+ Warning: curl_multi_exec(): CURLOPT_FILE resource has gone away, resetting to default in /root/php-src/ext/curl/tests/bug48203_multi.php on line 36
+062+ Hello World!
+063+ Hello World!Hello World!
+064+ Hello World!Ok for CURLOPT_FILE
+065+ 
+066+ Warning: curl_multi_exec(): CURLOPT_INFILE resource has gone away, resetting to default in /root/php-src/ext/curl/tests/bug48203_multi.php on line 36
+067+ 
+068+ Warning: curl_multi_exec(): CURLOPT_INFILE resource has gone away, resetting to default in /root/php-src/ext/curl/tests/bug48203_multi.php on line 36
+069+ Ok for CURLOPT_INFILE

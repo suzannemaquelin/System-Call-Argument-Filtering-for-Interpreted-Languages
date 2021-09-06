@@ -1,0 +1,14 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught Error: Access to undeclared static property: C::$p in %s:3
+Stack trace:
+#0 {main}
+  thrown in %s on line 3
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Error: Access to undeclared static property: C::$p in /root/php-src/tests/classes/static_properties_undeclared_assign.php:3
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/tests/classes/static_properties_undeclared_assign.php on line 3
+---- FAILED

@@ -1,0 +1,16 @@
+*** Testing class_implements() : variation ***
+--- testing no interfaces ---
+array(0) {
+}
+array(0) {
+}
+
+--- testing autoload ---
+attempting to autoload non_existent
+
+Warning: class_implements(): Class non_existent does not exist and could not be loaded in %s on line %d
+bool(false)
+
+Warning: class_implements(): Class non_existent2 does not exist in %s on line %d
+bool(false)
+===DONE===

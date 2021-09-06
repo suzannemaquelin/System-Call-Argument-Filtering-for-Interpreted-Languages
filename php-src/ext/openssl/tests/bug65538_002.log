@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Warning: remote cafile streams are disabled for security purposes in %s on line %d
+
+Warning: file_get_contents(): Failed to enable crypto in %s on line %d
+
+Warning: file_get_contents(%s): failed to open stream: operation failed in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: remote cafile streams are disabled for security purposes in /root/php-src/ext/openssl/tests/bug65538_002.php on line 10
+
+Warning: file_get_contents(): Failed to enable crypto in /root/php-src/ext/openssl/tests/bug65538_002.php on line 10
+
+Warning: file_get_contents(https://github.com): failed to open stream: operation failed in /root/php-src/ext/openssl/tests/bug65538_002.php on line 10
+---- FAILED

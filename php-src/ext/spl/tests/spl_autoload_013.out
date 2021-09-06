@@ -1,0 +1,22 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(3) {
+  [0]=>
+  object(Closure)#1 (1) {
+    ["parameter"]=>
+    array(1) {
+      ["$class"]=>
+      string(10) "<required>"
+    }
+  }
+  [1]=>
+  object(Autoloader)#2 (1) {
+    ["dir":"Autoloader":private]=>
+    string(2) "d1"
+  }
+  [2]=>
+  object(Autoloader)#3 (1) {
+    ["dir":"Autoloader":private]=>
+    string(2) "d2"
+  }
+}
+===DONE===

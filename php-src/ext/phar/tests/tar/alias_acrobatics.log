@@ -1,0 +1,15 @@
+
+---- EXPECTED OUTPUT
+alias "foo" is already used for archive "%salias_acrobatics.phar.tar" cannot be overloaded with "%salias_acrobatics.2.phar.tar"
+2
+phar error: Unable to add tar-based phar "%salias_acrobatics.2.phar.tar", alias is already in use
+alias "another" is already used for archive "%salias_acrobatics.phar.tar" cannot be overloaded with "%salias_acrobatics.phar.tar"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+alias "foo" is already used for archive "/root/php-src/ext/phar/tests/tar/alias_acrobatics.phar.tar" cannot be overloaded with "/root/php-src/ext/phar/tests/tar/alias_acrobatics.2.phar.tar"
+2
+phar error: Unable to add tar-based phar "/root/php-src/ext/phar/tests/tar/alias_acrobatics.2.phar.tar", alias is already in use
+alias "another" is already used for archive "/root/php-src/ext/phar/tests/tar/alias_acrobatics.phar.tar" cannot be overloaded with "/root/php-src/ext/phar/tests/tar/alias_acrobatics.phar.tar"
+===DONE===
+---- FAILED

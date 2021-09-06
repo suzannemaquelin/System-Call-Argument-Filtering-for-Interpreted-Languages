@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+%unicode|string%(9) "it worked"
+%unicode|string%(%d) "phar://%sphar_bz2.phar/tar_004.php"
+bool(true)
+bool(true)
+
+Warning: Phar::isFileFormat() expects parameter 1 to be integer, array given in %sphar_bz2.php on line %d
+Unknown file format specified
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(9) "it worked"
+string(61) "phar:///root/php-src/ext/phar/tests/phar_bz2.phar/tar_004.php"
+bool(true)
+bool(true)
+
+Warning: Phar::isFileFormat() expects parameter 1 to be integer, array given in /root/php-src/ext/phar/tests/phar_bz2.php on line 32
+Unknown file format specified
+===DONE===
+---- FAILED

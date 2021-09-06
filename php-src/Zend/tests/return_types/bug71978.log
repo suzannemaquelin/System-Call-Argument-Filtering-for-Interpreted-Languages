@@ -1,0 +1,12 @@
+
+---- EXPECTED OUTPUT
+Warning: Declaration of B::foo(string $a) should be compatible with A::foo(int $a) in %s on line %d
+
+Warning: Declaration of B1::foo(string $a): int should be compatible with A1::foo(int $a): int in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: Declaration of B::foo(string $a) should be compatible with A::foo(int $a) in /root/php-src/Zend/tests/return_types/bug71978.php on line 7
+
+Warning: Declaration of B1::foo(string $a): int should be compatible with A1::foo(int $a): int in /root/php-src/Zend/tests/return_types/bug71978.php on line 13
+---- FAILED

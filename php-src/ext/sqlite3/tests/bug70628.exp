@@ -1,0 +1,20 @@
+array(4) {
+  ["Id"]=>
+  int(1)
+  ["Breed"]=>
+  string(5) "canis"
+  ["Name"]=>
+  string(4) "jack"
+  ["Age"]=>
+  int(7)
+}
+array(4) {
+  ["Id"]=>
+  int(2)
+  ["Breed"]=>
+  string(6) "russel"
+  ["Name"]=>
+  NULL
+  ["Age"]=>
+  int(3)
+}

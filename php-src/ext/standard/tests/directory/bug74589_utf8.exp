@@ -1,0 +1,4 @@
+string(%d) "%sbug74589_新建文件夹"
+string(%d) "%sbug74589_新建文件夹%etest.php"
+bool(true)
+===DONE===

@@ -1,0 +1,5 @@
+Warning: array_map\(\) expects parameter 1 to be a valid callback, function '%n' not found or invalid function name in .+
+
+Warning: array_map\(\) expects parameter 1 to be a valid callback, function '%n %i' not found or invalid function name in .+
+
+Warning: array_map\(\) expects parameter 1 to be a valid callback, function '%n %i aoeu %f aoeu %p' not found or invalid function name in .+bug70895.php on line \d+

@@ -1,0 +1,108 @@
+
+---- EXPECTED OUTPUT
+Warning: getdate() expects at most 1 parameter, 2 given in %s on line %d
+bool(false)
+array(11) {
+  ["seconds"]=>
+  int(0)
+  ["minutes"]=>
+  int(0)
+  ["hours"]=>
+  int(0)
+  ["mday"]=>
+  int(27)
+  ["wday"]=>
+  int(2)
+  ["mon"]=>
+  int(6)
+  ["year"]=>
+  int(2006)
+  ["yday"]=>
+  int(177)
+  ["weekday"]=>
+  string(7) "Tuesday"
+  ["month"]=>
+  string(4) "June"
+  [0]=>
+  int(1151366400)
+}
+array(11) {
+  ["seconds"]=>
+  int(%d)
+  ["minutes"]=>
+  int(%d)
+  ["hours"]=>
+  int(%d)
+  ["mday"]=>
+  int(%d)
+  ["wday"]=>
+  int(%d)
+  ["mon"]=>
+  int(%d)
+  ["year"]=>
+  int(%d)
+  ["yday"]=>
+  int(%d)
+  ["weekday"]=>
+  string(%d) "%s"
+  ["month"]=>
+  string(%d) "%s"
+  [0]=>
+  int(%d)
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: getdate() expects at most 1 parameter, 2 given in /root/php-src/ext/date/tests/008.php on line 5
+bool(false)
+array(11) {
+  ["seconds"]=>
+  int(0)
+  ["minutes"]=>
+  int(0)
+  ["hours"]=>
+  int(0)
+  ["mday"]=>
+  int(27)
+  ["wday"]=>
+  int(2)
+  ["mon"]=>
+  int(6)
+  ["year"]=>
+  int(2006)
+  ["yday"]=>
+  int(177)
+  ["weekday"]=>
+  string(7) "Tuesday"
+  ["month"]=>
+  string(4) "June"
+  [0]=>
+  int(1151366400)
+}
+array(11) {
+  ["seconds"]=>
+  int(26)
+  ["minutes"]=>
+  int(4)
+  ["hours"]=>
+  int(14)
+  ["mday"]=>
+  int(8)
+  ["wday"]=>
+  int(0)
+  ["mon"]=>
+  int(5)
+  ["year"]=>
+  int(2022)
+  ["yday"]=>
+  int(127)
+  ["weekday"]=>
+  string(6) "Sunday"
+  ["month"]=>
+  string(3) "May"
+  [0]=>
+  int(1652018666)
+}
+Done
+---- FAILED

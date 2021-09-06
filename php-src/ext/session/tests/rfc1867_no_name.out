@@ -1,0 +1,34 @@
+string(13) "rfc1867-tests"
+array(2) {
+  ["file1"]=>
+  array(5) {
+    ["name"]=>
+    string(9) "file1.txt"
+    ["type"]=>
+    string(0) ""
+    ["tmp_name"]=>
+    string(14) "/tmp/phpT89KeY"
+    ["error"]=>
+    int(0)
+    ["size"]=>
+    int(1)
+  }
+  ["file2"]=>
+  array(5) {
+    ["name"]=>
+    string(9) "file2.txt"
+    ["type"]=>
+    string(0) ""
+    ["tmp_name"]=>
+    string(14) "/tmp/phpx9ynla"
+    ["error"]=>
+    int(0)
+    ["size"]=>
+    int(1)
+  }
+}
+NULL
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so: cannot open shared object file: No such file or directory in Unknown on line 0

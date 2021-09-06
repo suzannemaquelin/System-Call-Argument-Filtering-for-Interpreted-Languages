@@ -1,0 +1,26 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing Error Conditions ***
+
+Warning: extract() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/array/extract_error.php on line 7
+NULL
+
+Notice: A non well formed numeric value encountered in /root/php-src/ext/standard/tests/array/extract_error.php on line 11
+
+Warning: extract(): Invalid extract type in /root/php-src/ext/standard/tests/array/extract_error.php on line 11
+NULL
+
+Warning: extract(): Invalid extract type in /root/php-src/ext/standard/tests/array/extract_error.php on line 12
+NULL
+
+Warning: extract() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/extract_error.php on line 16
+NULL
+
+Warning: extract() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/extract_error.php on line 20
+NULL
+
+Warning: extract() expects at most 3 parameters, 4 given in /root/php-src/ext/standard/tests/array/extract_error.php on line 23
+NULL
+
+Warning: extract(): specified extract type requires the prefix parameter in /root/php-src/ext/standard/tests/array/extract_error.php on line 26
+NULL
+Done

@@ -1,0 +1,12 @@
+*** Testing var_export() : error conditions ***
+
+-- Testing var_export() function with Zero arguments --
+
+Warning: var_export() expects at least 1 parameter, 0 given in %s on line 12
+NULL
+
+-- Testing var_export() function with more than expected no. of arguments --
+
+Warning: var_export() expects at most 2 parameters, 3 given in %s on line 19
+NULL
+===DONE===

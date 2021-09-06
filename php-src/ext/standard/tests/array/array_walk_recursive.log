@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+1 foo
+2 foo
+3 foo
+bool(true)
+1 bar
+2 bar
+3 bar
+bool(true)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+1 foo
+2 foo
+3 foo
+bool(true)
+1 bar
+2 bar
+3 bar
+bool(true)
+---- FAILED

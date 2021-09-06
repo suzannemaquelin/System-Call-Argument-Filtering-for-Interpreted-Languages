@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Within test directory
+object(SQLite3)#1 (0) {
+}
+bool(true)
+Above test directory
+
+Warning: SQLite3::__construct(): open_basedir restriction in effect. File(/root/php-src/ext/sqlite3/bad6277d0c6f2a24.db) is not within the allowed path(s): (.) in /root/php-src/ext/sqlite3/tests/sqlite3_21_security.php on line 15
+Exception: open_basedir prohibits opening /root/php-src/ext/sqlite3/bad6277d0c6f2a24.db in /root/php-src/ext/sqlite3/tests/sqlite3_21_security.php:15
+Stack trace:
+#0 /root/php-src/ext/sqlite3/tests/sqlite3_21_security.php(15): SQLite3->__construct('../bad6277d0c6f...')
+#1 {main}
+Done

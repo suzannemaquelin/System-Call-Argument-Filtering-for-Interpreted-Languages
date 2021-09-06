@@ -1,0 +1,127 @@
+
+---- EXPECTED OUTPUT
+====>Class_does_not_exist
+__autoload(Class_does_not_exist)
+string(41) "Class Class_does_not_exist does not exist"
+====>NoCtor
+====>newInstance()
+object(NoCtor)#%d (0) {
+}
+====>newInstance(25)
+string(86) "Class NoCtor does not have a constructor, so you cannot pass any constructor arguments"
+====>newInstance(25, 42)
+string(86) "Class NoCtor does not have a constructor, so you cannot pass any constructor arguments"
+
+====>WithCtor
+====>newInstance()
+WithCtor::__construct()
+array(0) {
+}
+object(WithCtor)#%d (0) {
+}
+====>newInstance(25)
+WithCtor::__construct()
+array(1) {
+  [0]=>
+  int(25)
+}
+object(WithCtor)#%d (0) {
+}
+====>newInstance(25, 42)
+WithCtor::__construct()
+array(2) {
+  [0]=>
+  int(25)
+  [1]=>
+  int(42)
+}
+object(WithCtor)#%d (0) {
+}
+
+====>WithCtorWithArgs
+====>newInstance()
+Exception: Too few arguments to function WithCtorWithArgs::__construct(), 0 passed and exactly 1 expected
+====>newInstance(25)
+WithCtorWithArgs::__construct(25)
+array(1) {
+  [0]=>
+  int(25)
+}
+object(WithCtorWithArgs)#%d (0) {
+}
+====>newInstance(25, 42)
+WithCtorWithArgs::__construct(25)
+array(2) {
+  [0]=>
+  int(25)
+  [1]=>
+  int(42)
+}
+object(WithCtorWithArgs)#%d (0) {
+}
+
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+====>Class_does_not_exist
+__autoload(Class_does_not_exist)
+string(41) "Class Class_does_not_exist does not exist"
+====>NoCtor
+====>newInstance()
+object(NoCtor)#1 (0) {
+}
+====>newInstance(25)
+string(86) "Class NoCtor does not have a constructor, so you cannot pass any constructor arguments"
+====>newInstance(25, 42)
+string(86) "Class NoCtor does not have a constructor, so you cannot pass any constructor arguments"
+
+====>WithCtor
+====>newInstance()
+WithCtor::__construct()
+array(0) {
+}
+object(WithCtor)#2 (0) {
+}
+====>newInstance(25)
+WithCtor::__construct()
+array(1) {
+  [0]=>
+  int(25)
+}
+object(WithCtor)#2 (0) {
+}
+====>newInstance(25, 42)
+WithCtor::__construct()
+array(2) {
+  [0]=>
+  int(25)
+  [1]=>
+  int(42)
+}
+object(WithCtor)#2 (0) {
+}
+
+====>WithCtorWithArgs
+====>newInstance()
+Exception: Too few arguments to function WithCtorWithArgs::__construct(), 0 passed and exactly 1 expected
+====>newInstance(25)
+WithCtorWithArgs::__construct(25)
+array(1) {
+  [0]=>
+  int(25)
+}
+object(WithCtorWithArgs)#2 (0) {
+}
+====>newInstance(25, 42)
+WithCtorWithArgs::__construct(25)
+array(2) {
+  [0]=>
+  int(25)
+  [1]=>
+  int(42)
+}
+object(WithCtorWithArgs)#2 (0) {
+}
+
+===DONE===
+---- FAILED

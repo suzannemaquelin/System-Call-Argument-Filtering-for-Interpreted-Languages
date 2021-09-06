@@ -1,0 +1,10 @@
+
+---- EXPECTED OUTPUT
+Warning: SQLite3Stmt::reset(): The SQLite3 object has not been correctly initialised in %s
+==DONE==
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: SQLite3Stmt::reset(): The SQLite3 object has not been correctly initialised in /root/php-src/ext/sqlite3/tests/bug66550.php on line 11
+==DONE==
+---- FAILED

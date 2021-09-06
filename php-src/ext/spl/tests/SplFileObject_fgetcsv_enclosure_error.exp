@@ -1,0 +1,2 @@
+Warning: SplFileObject::fgetcsv(): enclosure must be a character in %s on line %d
+bool(false)

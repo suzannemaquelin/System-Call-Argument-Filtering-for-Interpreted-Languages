@@ -1,0 +1,60 @@
+
+---- EXPECTED OUTPUT
+LOG tests...no base
+float(3.1354942159291)
+float(NAN)
+float(3.1548704948923)
+float(NAN)
+float(3.1354942159291)
+float(3.1354942159291)
+float(3.1354942159291)
+float(3.1548704948923)
+float(3.1548704948923)
+float(-INF)
+float(0)
+float(-INF)
+
+ LOG tests...base
+float(2.2617809780285)
+float(NAN)
+float(2.275758008814)
+float(NAN)
+float(2.2617809780285)
+float(2.2617809780285)
+float(2.2617809780285)
+float(2.275758008814)
+float(2.275758008814)
+float(-INF)
+float(0)
+float(-INF)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+ LOG tests...no base
+float(3.1354942159291)
+float(NAN)
+float(3.1548704948923)
+float(NAN)
+float(3.1354942159291)
+float(3.1354942159291)
+float(3.1354942159291)
+float(3.1548704948923)
+float(3.1548704948923)
+float(-INF)
+float(0)
+float(-INF)
+
+ LOG tests...base
+float(2.2617809780285)
+float(NAN)
+float(2.275758008814)
+float(NAN)
+float(2.2617809780285)
+float(2.2617809780285)
+float(2.2617809780285)
+float(2.275758008814)
+float(2.275758008814)
+float(-INF)
+float(0)
+float(-INF)
+---- FAILED

@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Notice: Undefined offset: 5 in %s on line %d
+
+Notice: Undefined index: duke in %s on line %d
+NULL
+NULL
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined offset: 5 in /root/php-src/Zend/tests/list_keyed_undefined.php on line 8
+
+Notice: Undefined index: duke in /root/php-src/Zend/tests/list_keyed_undefined.php on line 8
+NULL
+NULL
+---- FAILED

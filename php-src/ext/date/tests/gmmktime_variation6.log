@@ -1,0 +1,189 @@
+
+---- EXPECTED OUTPUT
+*** Testing gmmktime() : usage variation ***
+
+--float 10.5--
+int(1281254888)
+
+--float .5--
+int(965722088)
+
+--empty array--
+
+Warning: gmmktime() expects parameter 6 to be integer, array given in %s on line %d
+bool(false)
+
+--int indexed array--
+
+Warning: gmmktime() expects parameter 6 to be integer, array given in %s on line %d
+bool(false)
+
+--associative array--
+
+Warning: gmmktime() expects parameter 6 to be integer, array given in %s on line %d
+bool(false)
+
+--nested arrays--
+
+Warning: gmmktime() expects parameter 6 to be integer, array given in %s on line %d
+bool(false)
+
+--uppercase NULL--
+int(965722088)
+
+--lowercase null--
+int(965722088)
+
+--lowercase true--
+int(997258088)
+
+--lowercase false--
+int(965722088)
+
+--uppercase TRUE--
+int(997258088)
+
+--uppercase FALSE--
+int(965722088)
+
+--empty string DQ--
+
+Warning: gmmktime() expects parameter 6 to be integer, string given in %s on line %d
+bool(false)
+
+--empty string SQ--
+
+Warning: gmmktime() expects parameter 6 to be integer, string given in %s on line %d
+bool(false)
+
+--string DQ--
+
+Warning: gmmktime() expects parameter 6 to be integer, string given in %s on line %d
+bool(false)
+
+--string SQ--
+
+Warning: gmmktime() expects parameter 6 to be integer, string given in %s on line %d
+bool(false)
+
+--mixed case string--
+
+Warning: gmmktime() expects parameter 6 to be integer, string given in %s on line %d
+bool(false)
+
+--heredoc--
+
+Warning: gmmktime() expects parameter 6 to be integer, string given in %s on line %d
+bool(false)
+
+--instance of classWithToString--
+
+Warning: gmmktime() expects parameter 6 to be integer, object given in %s on line %d
+bool(false)
+
+--instance of classWithoutToString--
+
+Warning: gmmktime() expects parameter 6 to be integer, object given in %s on line %d
+bool(false)
+
+--undefined var--
+int(965722088)
+
+--unset var--
+int(965722088)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing gmmktime() : usage variation ***
+
+--float 10.5--
+int(1281254888)
+
+--float .5--
+int(965722088)
+
+--empty array--
+
+Warning: gmmktime() expects parameter 6 to be integer, array given in /root/php-src/ext/date/tests/gmmktime_variation6.php on line 90
+bool(false)
+
+--int indexed array--
+
+Warning: gmmktime() expects parameter 6 to be integer, array given in /root/php-src/ext/date/tests/gmmktime_variation6.php on line 90
+bool(false)
+
+--associative array--
+
+Warning: gmmktime() expects parameter 6 to be integer, array given in /root/php-src/ext/date/tests/gmmktime_variation6.php on line 90
+bool(false)
+
+--nested arrays--
+
+Warning: gmmktime() expects parameter 6 to be integer, array given in /root/php-src/ext/date/tests/gmmktime_variation6.php on line 90
+bool(false)
+
+--uppercase NULL--
+int(965722088)
+
+--lowercase null--
+int(965722088)
+
+--lowercase true--
+int(997258088)
+
+--lowercase false--
+int(965722088)
+
+--uppercase TRUE--
+int(997258088)
+
+--uppercase FALSE--
+int(965722088)
+
+--empty string DQ--
+
+Warning: gmmktime() expects parameter 6 to be integer, string given in /root/php-src/ext/date/tests/gmmktime_variation6.php on line 90
+bool(false)
+
+--empty string SQ--
+
+Warning: gmmktime() expects parameter 6 to be integer, string given in /root/php-src/ext/date/tests/gmmktime_variation6.php on line 90
+bool(false)
+
+--string DQ--
+
+Warning: gmmktime() expects parameter 6 to be integer, string given in /root/php-src/ext/date/tests/gmmktime_variation6.php on line 90
+bool(false)
+
+--string SQ--
+
+Warning: gmmktime() expects parameter 6 to be integer, string given in /root/php-src/ext/date/tests/gmmktime_variation6.php on line 90
+bool(false)
+
+--mixed case string--
+
+Warning: gmmktime() expects parameter 6 to be integer, string given in /root/php-src/ext/date/tests/gmmktime_variation6.php on line 90
+bool(false)
+
+--heredoc--
+
+Warning: gmmktime() expects parameter 6 to be integer, string given in /root/php-src/ext/date/tests/gmmktime_variation6.php on line 90
+bool(false)
+
+--instance of classWithToString--
+
+Warning: gmmktime() expects parameter 6 to be integer, object given in /root/php-src/ext/date/tests/gmmktime_variation6.php on line 90
+bool(false)
+
+--instance of classWithoutToString--
+
+Warning: gmmktime() expects parameter 6 to be integer, object given in /root/php-src/ext/date/tests/gmmktime_variation6.php on line 90
+bool(false)
+
+--undefined var--
+int(965722088)
+
+--unset var--
+int(965722088)
+===DONE===
+---- FAILED

@@ -1,0 +1,5 @@
+bool(false)
+bool(false)
+
+Notice: Undefined property: DateInterval::$abcde in %s on line %d
+NULL

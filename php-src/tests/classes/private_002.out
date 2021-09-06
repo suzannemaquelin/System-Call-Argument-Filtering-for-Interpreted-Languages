@@ -1,0 +1,9 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Call pass::show()
+Call fail::show()
+
+Fatal error: Uncaught Error: Call to private method pass::show() from context 'fail' in /root/php-src/tests/classes/private_002.php:18
+Stack trace:
+#0 /root/php-src/tests/classes/private_002.php(22): fail::show()
+#1 {main}
+  thrown in /root/php-src/tests/classes/private_002.php on line 18

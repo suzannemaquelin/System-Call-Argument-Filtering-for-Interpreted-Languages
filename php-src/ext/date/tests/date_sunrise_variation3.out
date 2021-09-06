@@ -1,0 +1,195 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing date_sunrise() : usage variation ***
+
+--int 0--
+string(5) "01:10"
+float(1.1742086857716)
+int(1218177627)
+
+--int 1--
+string(5) "01:09"
+float(1.1552603061579)
+int(1218177558)
+
+--int 12345--
+bool(false)
+bool(false)
+bool(false)
+
+--int -12345--
+bool(false)
+bool(false)
+bool(false)
+
+--empty array--
+
+Warning: date_sunrise() expects parameter 3 to be float, array given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 91
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, array given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 92
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, array given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 93
+bool(false)
+
+--int indexed array--
+
+Warning: date_sunrise() expects parameter 3 to be float, array given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 91
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, array given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 92
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, array given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 93
+bool(false)
+
+--associative array--
+
+Warning: date_sunrise() expects parameter 3 to be float, array given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 91
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, array given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 92
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, array given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 93
+bool(false)
+
+--nested arrays--
+
+Warning: date_sunrise() expects parameter 3 to be float, array given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 91
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, array given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 92
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, array given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 93
+bool(false)
+
+--uppercase NULL--
+string(5) "01:10"
+float(1.1742086857716)
+int(1218177627)
+
+--lowercase null--
+string(5) "01:10"
+float(1.1742086857716)
+int(1218177627)
+
+--lowercase true--
+string(5) "01:09"
+float(1.1552603061579)
+int(1218177558)
+
+--lowercase false--
+string(5) "01:10"
+float(1.1742086857716)
+int(1218177627)
+
+--uppercase TRUE--
+string(5) "01:09"
+float(1.1552603061579)
+int(1218177558)
+
+--uppercase FALSE--
+string(5) "01:10"
+float(1.1742086857716)
+int(1218177627)
+
+--empty string DQ--
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 91
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 92
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 93
+bool(false)
+
+--empty string SQ--
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 91
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 92
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 93
+bool(false)
+
+--string DQ--
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 91
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 92
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 93
+bool(false)
+
+--string SQ--
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 91
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 92
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 93
+bool(false)
+
+--mixed case string--
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 91
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 92
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 93
+bool(false)
+
+--heredoc--
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 91
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 92
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, string given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 93
+bool(false)
+
+--instance of classWithToString--
+
+Warning: date_sunrise() expects parameter 3 to be float, object given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 91
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, object given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 92
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, object given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 93
+bool(false)
+
+--instance of classWithoutToString--
+
+Warning: date_sunrise() expects parameter 3 to be float, object given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 91
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, object given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 92
+bool(false)
+
+Warning: date_sunrise() expects parameter 3 to be float, object given in /root/php-src/ext/date/tests/date_sunrise_variation3.php on line 93
+bool(false)
+
+--undefined var--
+string(5) "01:10"
+float(1.1742086857716)
+int(1218177627)
+
+--unset var--
+string(5) "01:10"
+float(1.1742086857716)
+int(1218177627)
+===DONE===

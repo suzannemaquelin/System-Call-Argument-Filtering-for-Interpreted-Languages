@@ -1,0 +1,4 @@
+bool(true)
+
+Warning: socket_set_nonblock(): supplied resource is not a valid Socket resource in %s on line %d
+bool(false)

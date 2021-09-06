@@ -1,0 +1,5 @@
+Warning: pcntl_alarm() expects exactly 1 parameter, 0 given in %s
+NULL
+int(0)
+bool(true)
+bool(true)

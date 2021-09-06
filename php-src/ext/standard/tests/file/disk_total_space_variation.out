@@ -1,0 +1,55 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing with a directory ***
+float(294126039040)
+
+Testing for the return type ***
+bool(true)
+
+*** Testing with different directory combinations ***
+-- Iteration 1 --
+float(294126039040)
+
+-- Iteration 2 --
+float(294126039040)
+
+-- Iteration 3 --
+float(294126039040)
+
+-- Iteration 4 --
+float(294126039040)
+
+-- Iteration 5 --
+float(294126039040)
+
+-- Iteration 6 --
+float(294126039040)
+
+-- Iteration 7 --
+float(294126039040)
+
+-- Iteration 8 --
+float(294126039040)
+
+-- Iteration 9 --
+
+Warning: disk_total_space() expects parameter 1 to be a valid path, string given in /root/php-src/ext/standard/tests/file/disk_total_space_variation.php on line 49
+NULL
+
+-- Iteration 10 --
+
+Warning: disk_total_space() expects parameter 1 to be a valid path, string given in /root/php-src/ext/standard/tests/file/disk_total_space_variation.php on line 49
+NULL
+
+-- Iteration 11 --
+
+Warning: disk_total_space() expects parameter 1 to be a valid path, string given in /root/php-src/ext/standard/tests/file/disk_total_space_variation.php on line 49
+NULL
+
+-- Iteration 12 --
+
+Warning: disk_total_space() expects parameter 1 to be a valid path, string given in /root/php-src/ext/standard/tests/file/disk_total_space_variation.php on line 49
+NULL
+*** Testing with Binary Input ***
+float(294126039040)
+
+--- Done ---

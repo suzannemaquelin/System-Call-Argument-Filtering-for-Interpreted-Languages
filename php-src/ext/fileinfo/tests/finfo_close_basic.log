@@ -1,0 +1,17 @@
+
+---- EXPECTED OUTPUT
+*** Testing finfo_close() : basic functionality ***
+resource(%d) of type (file_info)
+bool(true)
+object(finfo)#%d (%d) {
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing finfo_close() : basic functionality ***
+resource(6) of type (file_info)
+bool(true)
+object(finfo)#1 (0) {
+}
+===DONE===
+---- FAILED

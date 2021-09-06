@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Declaration of TestScalar::method(): int must be compatible with Test::method(): iterable in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Declaration of TestScalar::method(): int must be compatible with Test::method(): iterable in /root/php-src/Zend/tests/type_declarations/iterable_005.php on line 25
+---- FAILED

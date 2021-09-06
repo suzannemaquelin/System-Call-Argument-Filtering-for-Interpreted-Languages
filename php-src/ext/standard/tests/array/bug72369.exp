@@ -1,0 +1,4 @@
+array(1) refcount(%d){
+  ["test"]=>
+  string(3) "xxx" refcount(%d)
+}

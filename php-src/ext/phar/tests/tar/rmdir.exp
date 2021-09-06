@@ -1,0 +1,6 @@
+a
+
+Warning: rmdir(): phar error: Directory not empty in %srmdir.php on line %d
+bool(false)
+a
+bool(true)

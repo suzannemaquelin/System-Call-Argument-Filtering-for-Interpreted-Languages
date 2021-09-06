@@ -1,0 +1,23 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing finfo_open() : error functionality ***
+
+Warning: finfo_open(/root/php-src/foobarfile): failed to open stream: No such file or directory in /root/php-src/ext/fileinfo/tests/finfo_open_error.php on line 12
+
+Warning: finfo_open(/root/php-src/foobarfile): failed to open stream: No such file or directory in /root/php-src/ext/fileinfo/tests/finfo_open_error.php on line 12
+
+Warning: finfo_open(): Failed to load magic database at '/root/php-src/foobarfile'. in /root/php-src/ext/fileinfo/tests/finfo_open_error.php on line 12
+bool(false)
+
+Warning: finfo_open() expects parameter 1 to be integer, array given in /root/php-src/ext/fileinfo/tests/finfo_open_error.php on line 13
+bool(false)
+
+Warning: finfo_open() expects at most 2 parameters, 3 given in /root/php-src/ext/fileinfo/tests/finfo_open_error.php on line 14
+bool(false)
+
+Notice: finfo_open(): Warning: using regular magic file `/root/php-src/ext/fileinfo/tests/magic' in /root/php-src/ext/fileinfo/tests/finfo_open_error.php on line 15
+resource(6) of type (file_info)
+
+Warning: finfo_open() expects parameter 1 to be integer, string given in /root/php-src/ext/fileinfo/tests/finfo_open_error.php on line 16
+bool(false)
+finfo::finfo() expects parameter 1 to be integer, string given
+===DONE===

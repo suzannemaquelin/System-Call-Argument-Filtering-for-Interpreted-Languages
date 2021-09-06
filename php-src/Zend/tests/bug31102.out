@@ -1,0 +1,12 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+__autoload(Test1,1)
+Caught: Test1::__construct
+__autoload(Test2,2)
+Caught: __autoload
+__autoload(Test3,3)
+
+Fatal error: Uncaught Error: Class 'Test3' not found in /root/php-src/Zend/tests/bug31102.php(28) : eval()'d code:1
+Stack trace:
+#0 /root/php-src/Zend/tests/bug31102.php(28): eval()
+#1 {main}
+  thrown in /root/php-src/Zend/tests/bug31102.php(28) : eval()'d code on line 1

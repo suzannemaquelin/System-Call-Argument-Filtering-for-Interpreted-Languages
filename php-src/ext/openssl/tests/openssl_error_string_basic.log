@@ -1,0 +1,47 @@
+
+---- EXPECTED OUTPUT
+string(89) "error:0607A082:digital envelope routines:EVP_CIPHER_CTX_set_key_length:invalid key length"
+bool(false)
+int(15)
+
+PKEY errors
+openssl_pkey_export_to_file opening: ok
+openssl_pkey_export_to_file pem: ok
+openssl_pkey_export_to_file write: ok
+openssl_pkey_export: ok
+openssl_pkey_get_public: ok
+openssl_private_encrypt: ok
+openssl_private_decrypt: ok
+openssl_private_(en|de)crypt padding: ok
+X509 errors
+openssl_x509_export_to_file open: ok
+openssl_x509_export_to_file pem: ok
+openssl_x509_export_to_file write: ok
+openssl_x509_checkpurpose purpose: ok
+CSR errors
+openssl_csr_get_subject open: ok
+openssl_csr_get_subjec pem: ok
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(89) "error:0607A082:digital envelope routines:EVP_CIPHER_CTX_set_key_length:invalid key length"
+bool(false)
+int(15)
+
+PKEY errors
+openssl_pkey_export_to_file opening: ok
+openssl_pkey_export_to_file pem: ok
+openssl_pkey_export_to_file write: ok
+openssl_pkey_export: ok
+openssl_pkey_get_public: ok
+openssl_private_encrypt: ok
+openssl_private_decrypt: ok
+openssl_private_(en|de)crypt padding: ok
+X509 errors
+openssl_x509_export_to_file open: ok
+openssl_x509_export_to_file pem: ok
+openssl_x509_export_to_file write: ok
+openssl_x509_checkpurpose purpose: ok
+CSR errors
+openssl_csr_get_subject open: ok
+openssl_csr_get_subjec pem: ok
+---- FAILED

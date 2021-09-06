@@ -1,0 +1,159 @@
+
+---- EXPECTED OUTPUT
+*** Testing mkdir() : usage variation ***
+
+--float 10.5--
+Directory created
+
+--float -10.5--
+Directory created
+
+--float 12.3456789000e10--
+Directory created
+
+--float -12.3456789000e10--
+Directory created
+
+--float .5--
+Directory created
+
+--empty array--
+Error: 2 - mkdir() expects parameter 2 to be integer, array given, %s(%d)
+
+--int indexed array--
+Error: 2 - mkdir() expects parameter 2 to be integer, array given, %s(%d)
+
+--associative array--
+Error: 2 - mkdir() expects parameter 2 to be integer, array given, %s(%d)
+
+--nested arrays--
+Error: 2 - mkdir() expects parameter 2 to be integer, array given, %s(%d)
+
+--uppercase NULL--
+Directory created
+
+--lowercase null--
+Directory created
+
+--lowercase true--
+Directory created
+
+--lowercase false--
+Directory created
+
+--uppercase TRUE--
+Directory created
+
+--uppercase FALSE--
+Directory created
+
+--empty string DQ--
+Error: 2 - mkdir() expects parameter 2 to be integer, string given, %s(%d)
+
+--empty string SQ--
+Error: 2 - mkdir() expects parameter 2 to be integer, string given, %s(%d)
+
+--string DQ--
+Error: 2 - mkdir() expects parameter 2 to be integer, string given, %s(%d)
+
+--string SQ--
+Error: 2 - mkdir() expects parameter 2 to be integer, string given, %s(%d)
+
+--mixed case string--
+Error: 2 - mkdir() expects parameter 2 to be integer, string given, %s(%d)
+
+--heredoc--
+Error: 2 - mkdir() expects parameter 2 to be integer, string given, %s(%d)
+
+--instance of classWithToString--
+Error: 2 - mkdir() expects parameter 2 to be integer, object given, %s(%d)
+
+--instance of classWithoutToString--
+Error: 2 - mkdir() expects parameter 2 to be integer, object given, %s(%d)
+
+--undefined var--
+Directory created
+
+--unset var--
+Directory created
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mkdir() : usage variation ***
+
+--float 10.5--
+Directory created
+
+--float -10.5--
+Directory created
+
+--float 12.3456789000e10--
+Directory created
+
+--float -12.3456789000e10--
+Directory created
+
+--float .5--
+Directory created
+
+--empty array--
+Error: 2 - mkdir() expects parameter 2 to be integer, array given, /root/php-src/ext/standard/tests/file/mkdir_variation2.php(98)
+
+--int indexed array--
+Error: 2 - mkdir() expects parameter 2 to be integer, array given, /root/php-src/ext/standard/tests/file/mkdir_variation2.php(98)
+
+--associative array--
+Error: 2 - mkdir() expects parameter 2 to be integer, array given, /root/php-src/ext/standard/tests/file/mkdir_variation2.php(98)
+
+--nested arrays--
+Error: 2 - mkdir() expects parameter 2 to be integer, array given, /root/php-src/ext/standard/tests/file/mkdir_variation2.php(98)
+
+--uppercase NULL--
+Directory created
+
+--lowercase null--
+Directory created
+
+--lowercase true--
+Directory created
+
+--lowercase false--
+Directory created
+
+--uppercase TRUE--
+Directory created
+
+--uppercase FALSE--
+Directory created
+
+--empty string DQ--
+Error: 2 - mkdir() expects parameter 2 to be integer, string given, /root/php-src/ext/standard/tests/file/mkdir_variation2.php(98)
+
+--empty string SQ--
+Error: 2 - mkdir() expects parameter 2 to be integer, string given, /root/php-src/ext/standard/tests/file/mkdir_variation2.php(98)
+
+--string DQ--
+Error: 2 - mkdir() expects parameter 2 to be integer, string given, /root/php-src/ext/standard/tests/file/mkdir_variation2.php(98)
+
+--string SQ--
+Error: 2 - mkdir() expects parameter 2 to be integer, string given, /root/php-src/ext/standard/tests/file/mkdir_variation2.php(98)
+
+--mixed case string--
+Error: 2 - mkdir() expects parameter 2 to be integer, string given, /root/php-src/ext/standard/tests/file/mkdir_variation2.php(98)
+
+--heredoc--
+Error: 2 - mkdir() expects parameter 2 to be integer, string given, /root/php-src/ext/standard/tests/file/mkdir_variation2.php(98)
+
+--instance of classWithToString--
+Error: 2 - mkdir() expects parameter 2 to be integer, object given, /root/php-src/ext/standard/tests/file/mkdir_variation2.php(98)
+
+--instance of classWithoutToString--
+Error: 2 - mkdir() expects parameter 2 to be integer, object given, /root/php-src/ext/standard/tests/file/mkdir_variation2.php(98)
+
+--undefined var--
+Directory created
+
+--unset var--
+Directory created
+===DONE===
+---- FAILED

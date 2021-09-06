@@ -1,0 +1,3 @@
+Warning: scandir(): Directory name cannot be empty in %s on line %d
+bool(false)
+Done

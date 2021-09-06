@@ -1,0 +1,25 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Ok - ReflectionProperty::__construct() expects exactly 2 parameters, 0 given
+Ok - ReflectionProperty::__construct() expects exactly 2 parameters, 1 given
+Ok - ReflectionProperty::__construct() expects exactly 2 parameters, 3 given
+
+Warning: ReflectionProperty::getName() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionProperty_error.php on line 26
+NULL
+
+Warning: ReflectionProperty::isPrivate() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionProperty_error.php on line 27
+NULL
+
+Warning: ReflectionProperty::isProtected() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionProperty_error.php on line 28
+NULL
+
+Warning: ReflectionProperty::isPublic() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionProperty_error.php on line 29
+NULL
+
+Warning: ReflectionProperty::isStatic() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionProperty_error.php on line 30
+NULL
+
+Warning: ReflectionProperty::getModifiers() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionProperty_error.php on line 31
+NULL
+
+Warning: ReflectionProperty::isDefault() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionProperty_error.php on line 32
+NULL

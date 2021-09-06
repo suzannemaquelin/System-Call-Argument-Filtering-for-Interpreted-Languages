@@ -1,0 +1,27 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_intersect_ukey() : usage variation ***
+
+-- Result of strings containing integers intersection --
+array(2) {
+  [0]=>
+  string(1) "1"
+  [1]=>
+  string(1) "2"
+}
+
+-- Result of strings containing floating points intersection --
+array(2) {
+  ["0.00"]=>
+  string(4) "1.00"
+  ["1.00"]=>
+  string(4) "2.00"
+}
+
+-- Result of strings containing integers and strings containing floating points intersection --
+array(2) {
+  [0]=>
+  string(1) "1"
+  [1]=>
+  string(1) "2"
+}
+===DONE===

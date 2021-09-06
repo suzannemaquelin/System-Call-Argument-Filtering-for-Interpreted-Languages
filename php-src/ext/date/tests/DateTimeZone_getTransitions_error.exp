@@ -1,0 +1,7 @@
+*** Testing DateTimeZone::getTransitions() : error conditions ***
+
+-- Testing DateTimeZone::getTransitions() function with more than expected no. of arguments --
+
+Warning: DateTimeZone::getTransitions() expects at most 2 parameters, 3 given in %s on line %d
+bool(false)
+===DONE===

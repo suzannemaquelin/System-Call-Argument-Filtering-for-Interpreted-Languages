@@ -1,0 +1,1 @@
+Fatal error: Cannot redefine class constant testClass::TEST_CONST in %s on line 5

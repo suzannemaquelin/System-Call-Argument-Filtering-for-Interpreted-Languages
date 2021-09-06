@@ -1,0 +1,27 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_merge() : usage variations ***
+array(5) {
+  ["zero"]=>
+  string(4) "zero"
+  ["one"]=>
+  string(2) "un"
+  ["two"]=>
+  string(4) "deux"
+  ["un"]=>
+  string(4) "eins"
+  ["deux"]=>
+  string(4) "zwei"
+}
+array(5) {
+  ["zero"]=>
+  string(4) "zero"
+  ["un"]=>
+  string(4) "eins"
+  ["deux"]=>
+  string(4) "zwei"
+  ["one"]=>
+  string(2) "un"
+  ["two"]=>
+  string(4) "deux"
+}
+Done

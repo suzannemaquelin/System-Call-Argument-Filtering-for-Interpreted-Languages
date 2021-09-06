@@ -1,0 +1,11 @@
+
+---- EXPECTED OUTPUT
+phar error: corrupt zip archive, conflicting file count in end of central directory record in zip-based phar "%scount1.zip"
+phar error: corrupt zip archive, conflicting file count in end of central directory record in zip-based phar "%scount2.zip"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+phar error: corrupt zip archive, conflicting file count in end of central directory record in zip-based phar "/root/php-src/ext/phar/tests/zip/files/count1.zip"
+phar error: corrupt zip archive, conflicting file count in end of central directory record in zip-based phar "/root/php-src/ext/phar/tests/zip/files/count2.zip"
+===DONE===
+---- FAILED

@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+*** Testing mail() : basic functionality ***
+bool(true)
+%w1%wTo: user@example.com
+%w2%wSubject: Test Subject
+%w3%w
+%w4%wA Message
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mail() : basic functionality ***
+bool(true)
+     1	To: user@example.com
+     2	Subject: Test Subject
+     3	
+     4	A Message
+===DONE===
+---- FAILED

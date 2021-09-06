@@ -1,0 +1,53 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing tempnam() in creation of unique files ***
+-- Iteration 1 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar1/tempnam_variation1.tmpZyjAmL
+File permissions are => 100600
+File inode is => 17881445
+File created in => directory specified
+-- Iteration 2 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar1/tempnam_variation1.tmpIgGxU8
+File permissions are => 100600
+File inode is => 17881446
+File created in => directory specified
+-- Iteration 3 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar1/tempnam_variation1.tmp9O3Dsw
+File permissions are => 100600
+File inode is => 17881447
+File created in => directory specified
+-- Iteration 4 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar1/tempnam_variation1.tmpERrU0T
+File permissions are => 100600
+File inode is => 17881448
+File created in => directory specified
+-- Iteration 5 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar1/tempnam_variation1.tmp1obozh
+File permissions are => 100600
+File inode is => 17881449
+File created in => directory specified
+-- Iteration 6 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar1/tempnam_variation1.tmpU3a97E
+File permissions are => 100600
+File inode is => 17881450
+File created in => directory specified
+-- Iteration 7 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar1/tempnam_variation1.tmpnzeaH2
+File permissions are => 100600
+File inode is => 17881451
+File created in => directory specified
+-- Iteration 8 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar1/tempnam_variation1.tmpmyGsgq
+File permissions are => 100600
+File inode is => 17881452
+File created in => directory specified
+-- Iteration 9 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar1/tempnam_variation1.tmpVh6ZPN
+File permissions are => 100600
+File inode is => 17881453
+File created in => directory specified
+-- Iteration 10 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar1/tempnam_variation1.tmp0E5Lpb
+File permissions are => 100600
+File inode is => 17881454
+File created in => directory specified
+*** Done ***

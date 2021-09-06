@@ -1,0 +1,17 @@
+
+---- EXPECTED OUTPUT
+#0 %s(%d): test('\xD1\x82\xD0\xB5\xD1\x81\xD1\x82')
+#1 {main}
+Exception in %s:%d
+Stack trace:
+#0 %s(%d): test('\xD1\x82\xD0\xB5\xD1\x81\xD1\x82')
+#1 {main}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+#0 /root/php-src/Zend/tests/bug61362.php(7): test('\xD1\x82\xD0\xB5\xD1\x81\xD1\x82')
+#1 {main}
+Exception in /root/php-src/Zend/tests/bug61362.php:3
+Stack trace:
+#0 /root/php-src/Zend/tests/bug61362.php(7): test('\xD1\x82\xD0\xB5\xD1\x81\xD1\x82')
+#1 {main}
+---- FAILED

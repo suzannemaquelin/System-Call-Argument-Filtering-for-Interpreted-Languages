@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Use of undefined constant bar - assumed 'bar' in /root/php-src/Zend/tests/bug43344_1.php on line 13
+bar
+
+Notice: Use of undefined constant bar - assumed 'bar' in /root/php-src/Zend/tests/bug43344_1.php on line 3
+bar
+
+Notice: Use of undefined constant bar - assumed 'bar' in /root/php-src/Zend/tests/bug43344_1.php on line 6
+bar
+
+Notice: Use of undefined constant bar - assumed 'bar' in /root/php-src/Zend/tests/bug43344_1.php on line 9
+bar

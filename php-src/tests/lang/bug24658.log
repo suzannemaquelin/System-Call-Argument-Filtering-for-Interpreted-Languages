@@ -1,0 +1,61 @@
+
+---- EXPECTED OUTPUT
+object(foo)#%d (0) {
+}
+object(foo)#%d (0) {
+}
+object(foo)#%d (0) {
+}
+object(foo)#%d (0) {
+}
+===no_typehint===
+object(foo)#%d (0) {
+}
+int(1)
+int(2)
+===no_typehint_ref===
+object(foo)#%d (0) {
+}
+int(1)
+int(2)
+===typehint===
+object(foo)#%d (0) {
+}
+
+Fatal error: Uncaught TypeError: Argument 1 passed to typehint() must be an instance of foo, integer given in %s:%d
+Stack trace:
+#0 [internal function]: typehint(1, 1)
+#1 %s(%d): array_walk(Array, 'typehint')
+#2 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(foo)#1 (0) {
+}
+object(foo)#1 (0) {
+}
+object(foo)#1 (0) {
+}
+object(foo)#1 (0) {
+}
+===no_typehint===
+object(foo)#2 (0) {
+}
+int(1)
+int(2)
+===no_typehint_ref===
+object(foo)#2 (0) {
+}
+int(1)
+int(2)
+===typehint===
+object(foo)#2 (0) {
+}
+
+Fatal error: Uncaught TypeError: Argument 1 passed to typehint() must be an instance of foo, integer given in /root/php-src/tests/lang/bug24658.php:6
+Stack trace:
+#0 [internal function]: typehint(1, 1)
+#1 /root/php-src/tests/lang/bug24658.php(26): array_walk(Array, 'typehint')
+#2 {main}
+  thrown in /root/php-src/tests/lang/bug24658.php on line 6
+---- FAILED

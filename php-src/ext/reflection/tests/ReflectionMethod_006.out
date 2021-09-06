@@ -1,0 +1,51 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Ok - ReflectionMethod::__construct() expects exactly 1 parameter, 0 given
+Ok - ReflectionMethod::__construct() expects exactly 1 parameter, 3 given
+
+Warning: ReflectionMethod::isFinal() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionMethod_006.php on line 20
+NULL
+
+Warning: ReflectionMethod::isAbstract() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionMethod_006.php on line 21
+NULL
+
+Warning: ReflectionMethod::isPrivate() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionMethod_006.php on line 22
+NULL
+
+Warning: ReflectionMethod::isProtected() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionMethod_006.php on line 23
+NULL
+
+Warning: ReflectionMethod::isPublic() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionMethod_006.php on line 24
+NULL
+
+Warning: ReflectionMethod::isStatic() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionMethod_006.php on line 25
+NULL
+
+Warning: ReflectionMethod::isConstructor() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionMethod_006.php on line 26
+NULL
+
+Warning: ReflectionMethod::isDestructor() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionMethod_006.php on line 27
+NULL
+
+Warning: ReflectionMethod::getModifiers() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionMethod_006.php on line 28
+NULL
+
+Warning: ReflectionFunctionAbstract::isInternal() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionMethod_006.php on line 29
+NULL
+
+Warning: ReflectionFunctionAbstract::isUserDefined() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionMethod_006.php on line 30
+NULL
+
+Warning: ReflectionFunctionAbstract::getFileName() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionMethod_006.php on line 31
+NULL
+
+Warning: ReflectionFunctionAbstract::getStartLine() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionMethod_006.php on line 32
+NULL
+
+Warning: ReflectionFunctionAbstract::getEndLine() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionMethod_006.php on line 33
+NULL
+
+Warning: ReflectionFunctionAbstract::getStaticVariables() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionMethod_006.php on line 34
+NULL
+
+Warning: ReflectionFunctionAbstract::getName() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionMethod_006.php on line 35
+NULL

@@ -1,0 +1,31 @@
+
+---- EXPECTED OUTPUT
+1=>123
+2=>123
+23=>a2b
+24=>22
+25=>42
+===KEY===
+2=>123
+22=>abc
+23=>a2b
+24=>22
+a2d=>7
+25=>42
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+1=>123
+2=>123
+23=>a2b
+24=>22
+25=>42
+===KEY===
+2=>123
+22=>abc
+23=>a2b
+24=>22
+a2d=>7
+25=>42
+===DONE===
+---- FAILED

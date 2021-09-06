@@ -1,0 +1,25 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined index: epic_magic in /root/php-src/ext/spl/tests/bug62978.php on line 8
+NULL
+
+Notice: Undefined index: epic_magic in /root/php-src/ext/spl/tests/bug62978.php on line 9
+NULL
+
+Notice: Undefined variable: c in /root/php-src/ext/spl/tests/bug62978.php on line 10
+NULL
+
+Notice: Undefined index: epic_magic in /root/php-src/ext/spl/tests/bug62978.php on line 13
+NULL
+
+Notice: Undefined index: epic_magic in /root/php-src/ext/spl/tests/bug62978.php on line 14
+NULL
+
+Notice: Undefined index: epic_magic in /root/php-src/ext/spl/tests/bug62978.php on line 17
+NULL
+bool(false)
+
+Notice: Resource ID#5 used as offset, casting to integer (5) in /root/php-src/ext/spl/tests/bug62978.php on line 21
+
+Notice: Undefined offset: 5 in /root/php-src/ext/spl/tests/bug62978.php on line 21
+NULL

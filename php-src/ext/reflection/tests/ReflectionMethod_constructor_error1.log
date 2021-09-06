@@ -1,0 +1,78 @@
+
+---- EXPECTED OUTPUT
+Wrong type of argument (bool):
+ReflectionException: Invalid method name 1 in %s
+Stack trace:
+#0 %s ReflectionMethod->__construct('1')
+#1 {main}
+Wrong type of argument (int):
+ReflectionException: Invalid method name 3 in %s
+Stack trace:
+#0 %s ReflectionMethod->__construct('3')
+#1 {main}
+Wrong type of argument (bool, string):
+ReflectionException: The parameter class is expected to be either a string or an object in %s
+Stack trace:
+#0 %s ReflectionMethod->__construct(true, 'foo')
+#1 {main}
+Wrong type of argument (string, bool):
+ReflectionException: Method TestClass::1() does not exist in %s
+Stack trace:
+#0 %s ReflectionMethod->__construct('TestClass', '1')
+#1 {main}
+No method given:
+ReflectionException: Invalid method name TestClass in %s
+Stack trace:
+#0 %s ReflectionMethod->__construct('TestClass')
+#1 {main}
+Class and Method in same string, bad method name:
+ReflectionException: Method TestClass::foop::dedoop() does not exist in %s
+Stack trace:
+#0 %s ReflectionMethod->__construct('TestClass::foop...')
+#1 {main}
+Class and Method in same string, bad class name:
+ReflectionException: Class TestCla does not exist in %s
+Stack trace:
+#0 %s ReflectionMethod->__construct('TestCla::foo')
+#1 {main}
+Class and Method in same string (ok):
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Wrong type of argument (bool):
+ReflectionException: Invalid method name 1 in /root/php-src/ext/reflection/tests/ReflectionMethod_constructor_error1.php:12
+Stack trace:
+#0 /root/php-src/ext/reflection/tests/ReflectionMethod_constructor_error1.php(12): ReflectionMethod->__construct('1')
+#1 {main}
+Wrong type of argument (int):
+ReflectionException: Invalid method name 3 in /root/php-src/ext/reflection/tests/ReflectionMethod_constructor_error1.php:18
+Stack trace:
+#0 /root/php-src/ext/reflection/tests/ReflectionMethod_constructor_error1.php(18): ReflectionMethod->__construct('3')
+#1 {main}
+Wrong type of argument (bool, string):
+ReflectionException: The parameter class is expected to be either a string or an object in /root/php-src/ext/reflection/tests/ReflectionMethod_constructor_error1.php:24
+Stack trace:
+#0 /root/php-src/ext/reflection/tests/ReflectionMethod_constructor_error1.php(24): ReflectionMethod->__construct(true, 'foo')
+#1 {main}
+Wrong type of argument (string, bool):
+ReflectionException: Method TestClass::1() does not exist in /root/php-src/ext/reflection/tests/ReflectionMethod_constructor_error1.php:30
+Stack trace:
+#0 /root/php-src/ext/reflection/tests/ReflectionMethod_constructor_error1.php(30): ReflectionMethod->__construct('TestClass', '1')
+#1 {main}
+No method given:
+ReflectionException: Invalid method name TestClass in /root/php-src/ext/reflection/tests/ReflectionMethod_constructor_error1.php:36
+Stack trace:
+#0 /root/php-src/ext/reflection/tests/ReflectionMethod_constructor_error1.php(36): ReflectionMethod->__construct('TestClass')
+#1 {main}
+Class and Method in same string, bad method name:
+ReflectionException: Method TestClass::foop::dedoop() does not exist in /root/php-src/ext/reflection/tests/ReflectionMethod_constructor_error1.php:42
+Stack trace:
+#0 /root/php-src/ext/reflection/tests/ReflectionMethod_constructor_error1.php(42): ReflectionMethod->__construct('TestClass::foop...')
+#1 {main}
+Class and Method in same string, bad class name:
+ReflectionException: Class TestCla does not exist in /root/php-src/ext/reflection/tests/ReflectionMethod_constructor_error1.php:48
+Stack trace:
+#0 /root/php-src/ext/reflection/tests/ReflectionMethod_constructor_error1.php(48): ReflectionMethod->__construct('TestCla::foo')
+#1 {main}
+Class and Method in same string (ok):
+---- FAILED

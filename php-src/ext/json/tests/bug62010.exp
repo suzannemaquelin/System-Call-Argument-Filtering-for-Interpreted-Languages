@@ -1,0 +1,3 @@
+NULL
+bool(true)
+string(50) "Single unpaired UTF-16 surrogate in unicode escape"

@@ -1,0 +1,7 @@
+
+---- EXPECTED OUTPUT
+If you see this, try to increase OBJECT_COUNT to 100,000
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+If you see this, try to increase OBJECT_COUNT to 100,000
+---- FAILED

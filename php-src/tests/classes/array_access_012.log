@@ -1,0 +1,18 @@
+
+---- EXPECTED OUTPUT
+Notice: Indirect modification of overloaded element of ArrayAccessImpl has no effect in %sarray_access_012.php on line 24
+
+Fatal error: Uncaught Error: Cannot assign by reference to overloaded object in %sarray_access_012.php:24
+Stack trace:
+#0 {main}
+  thrown in %sarray_access_012.php on line 24
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Indirect modification of overloaded element of ArrayAccessImpl has no effect in /root/php-src/tests/classes/array_access_012.php on line 24
+
+Fatal error: Uncaught Error: Cannot assign by reference to overloaded object in /root/php-src/tests/classes/array_access_012.php:24
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/tests/classes/array_access_012.php on line 24
+---- FAILED

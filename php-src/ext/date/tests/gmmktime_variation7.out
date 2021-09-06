@@ -1,0 +1,18 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing gmmktime() : usage variation ***
+
+-- Testing gmmktime() function with one optional argument --
+int(1651997099)
+
+-- Testing gmmktime() function with two optional argument --
+int(1651997339)
+
+-- Testing gmmktime() function with three optional argument --
+int(1651997288)
+
+-- Testing gmmktime() function with four optional argument --
+int(1659946088)
+
+-- Testing gmmktime() function with five optional argument --
+int(1659946088)
+===DONE===

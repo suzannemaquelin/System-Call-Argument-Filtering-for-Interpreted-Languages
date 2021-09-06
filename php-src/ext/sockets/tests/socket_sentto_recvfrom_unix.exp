@@ -1,0 +1,6 @@
+Warning: socket_create(): Unable to create socket [%d]: Protocol not supported in %s on line %d
+bool(false)
+
+Warning: socket_sendto() expects at least 5 parameters, 4 given in %s on line %d
+bool(false)
+Received Ping!

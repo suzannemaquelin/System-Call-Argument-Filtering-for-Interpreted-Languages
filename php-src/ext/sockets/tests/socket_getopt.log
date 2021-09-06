@@ -1,0 +1,39 @@
+
+---- EXPECTED OUTPUT
+Setting IP_MULTICAST_TTL
+bool(true)
+int(9)
+
+Setting IP_MULTICAST_LOOP
+bool(true)
+int(0)
+bool(true)
+int(1)
+
+Setting IP_MULTICAST_IF
+interface 0:
+bool(true)
+int(0)
+interface 1:
+bool(true)
+int(1)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Setting IP_MULTICAST_TTL
+bool(true)
+int(9)
+
+Setting IP_MULTICAST_LOOP
+bool(true)
+int(0)
+bool(true)
+int(1)
+
+Setting IP_MULTICAST_IF
+interface 0:
+bool(true)
+int(0)
+interface 1:
+bool(true)
+int(1)
+---- FAILED

@@ -1,0 +1,10 @@
+[Successful compilation of /root/php-src/sapi/phpdbg/tests/phpdbg_break_next.php]
+prompt> A
+[Breakpoint #0 added at 7f46bc0810c0]
+[Breakpoint #0 in 7f46bc0810c0 at /root/php-src/sapi/phpdbg/tests/phpdbg_break_next.php:4, hits: 1]
+>00004: phpdbg_break_next();
+ 00005: echo 'B';
+ 00006: 
+prompt> B
+[Script ended normally]
+prompt>

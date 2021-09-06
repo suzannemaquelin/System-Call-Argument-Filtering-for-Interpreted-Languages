@@ -1,0 +1,6 @@
+object(ReflectionMethod)#2 (2) {
+  ["name"]=>
+  string(10) "sayHelloTo"
+  ["class"]=>
+  string(5) "Hello"
+}

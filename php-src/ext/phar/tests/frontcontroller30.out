@@ -1,0 +1,125 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+oops did not run
+array(26) {
+  ["PDO_MYSQL_TEST_DB"]=>
+  string(4) "test"
+  ["MYSQL_TEST_PASSWD"]=>
+  string(4) "test"
+  ["MYSQL_TEST_PASS"]=>
+  string(4) "test"
+  ["HOSTNAME"]=>
+  string(12) "8a42d42cec47"
+  ["SHLVL"]=>
+  string(1) "1"
+  ["HOME"]=>
+  string(5) "/root"
+  ["OLDPWD"]=>
+  string(40) "/root/stage1/interpreter-static-analysis"
+  ["MYSQL_TEST_USER"]=>
+  string(4) "test"
+  ["PATH_TRANSLATED"]=>
+  string(50) "/root/php-src/ext/phar/tests/frontcontroller30.php"
+  ["SCRIPT_FILENAME"]=>
+  string(50) "/root/php-src/ext/phar/tests/frontcontroller30.php"
+  ["ZEND_DONT_UNLOAD_MODULES"]=>
+  string(1) "0"
+  ["TEST_PHP_EXECUTABLE"]=>
+  string(20) "/opt/php-7.1/bin/php"
+  ["_"]=>
+  string(49) "/root/stage1/interpreter-tracing/TR_strace/strace"
+  ["REQUEST_URI"]=>
+  string(5) "/huh?"
+  ["PDO_MYSQL_TEST_DSN"]=>
+  string(42) "mysql:dbname=test;host=localhost;port=3306"
+  ["TERM"]=>
+  string(5) "xterm"
+  ["MYSQL_TEST_DB"]=>
+  string(4) "test"
+  ["PATH"]=>
+  string(60) "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+  ["PDO_MYSQL_TEST_PASS"]=>
+  string(4) "test"
+  ["TEST_PHPDBG_EXECUTABLE"]=>
+  string(32) "/root/php-src/sapi/phpdbg/phpdbg"
+  ["REDIRECT_STATUS"]=>
+  string(1) "1"
+  ["PDO_MYSQL_TEST_USER"]=>
+  string(4) "test"
+  ["REQUEST_METHOD"]=>
+  string(3) "GET"
+  ["PWD"]=>
+  string(13) "/root/php-src"
+  ["SCRIPT_NAME"]=>
+  string(5) "/huh?"
+  ["USE_ZEND_ALLOC"]=>
+  string(1) "1"
+}
+array(32) {
+  ["PDO_MYSQL_TEST_DB"]=>
+  string(4) "test"
+  ["MYSQL_TEST_PASSWD"]=>
+  string(4) "test"
+  ["MYSQL_TEST_PASS"]=>
+  string(4) "test"
+  ["HOSTNAME"]=>
+  string(12) "8a42d42cec47"
+  ["SHLVL"]=>
+  string(1) "1"
+  ["HOME"]=>
+  string(5) "/root"
+  ["OLDPWD"]=>
+  string(40) "/root/stage1/interpreter-static-analysis"
+  ["MYSQL_TEST_USER"]=>
+  string(4) "test"
+  ["PATH_TRANSLATED"]=>
+  string(50) "/root/php-src/ext/phar/tests/frontcontroller30.php"
+  ["SCRIPT_FILENAME"]=>
+  string(50) "/root/php-src/ext/phar/tests/frontcontroller30.php"
+  ["ZEND_DONT_UNLOAD_MODULES"]=>
+  string(1) "0"
+  ["TEST_PHP_EXECUTABLE"]=>
+  string(20) "/opt/php-7.1/bin/php"
+  ["_"]=>
+  string(49) "/root/stage1/interpreter-tracing/TR_strace/strace"
+  ["REQUEST_URI"]=>
+  string(5) "/huh?"
+  ["PDO_MYSQL_TEST_DSN"]=>
+  string(42) "mysql:dbname=test;host=localhost;port=3306"
+  ["TERM"]=>
+  string(5) "xterm"
+  ["MYSQL_TEST_DB"]=>
+  string(4) "test"
+  ["PATH"]=>
+  string(60) "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+  ["PDO_MYSQL_TEST_PASS"]=>
+  string(4) "test"
+  ["TEST_PHPDBG_EXECUTABLE"]=>
+  string(32) "/root/php-src/sapi/phpdbg/phpdbg"
+  ["REDIRECT_STATUS"]=>
+  string(1) "1"
+  ["PDO_MYSQL_TEST_USER"]=>
+  string(4) "test"
+  ["REQUEST_METHOD"]=>
+  string(3) "GET"
+  ["PWD"]=>
+  string(13) "/root/php-src"
+  ["SCRIPT_NAME"]=>
+  string(50) "/root/php-src/ext/phar/tests/frontcontroller30.php"
+  ["USE_ZEND_ALLOC"]=>
+  string(1) "1"
+  ["PHP_SELF"]=>
+  string(50) "/root/php-src/ext/phar/tests/frontcontroller30.php"
+  ["DOCUMENT_ROOT"]=>
+  string(0) ""
+  ["REQUEST_TIME_FLOAT"]=>
+  float(1652019045.1595)
+  ["REQUEST_TIME"]=>
+  int(1652019045)
+  ["argv"]=>
+  array(1) {
+    [0]=>
+    string(50) "/root/php-src/ext/phar/tests/frontcontroller30.php"
+  }
+  ["argc"]=>
+  int(1)
+}

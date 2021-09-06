@@ -1,0 +1,37 @@
+
+---- EXPECTED OUTPUT
+*** Testing readdir() : usage variations ***
+
+-- Reading Directory Contents with Previous Handle --
+string(1) "."
+string(2) ".."
+string(23) "readdir_variation61.tmp"
+string(23) "readdir_variation62.tmp"
+string(23) "readdir_variation63.tmp"
+
+-- Reading Directory Contents with Current Handle (no arguments supplied) --
+string(1) "."
+string(2) ".."
+string(23) "readdir_variation61.tmp"
+string(23) "readdir_variation62.tmp"
+string(23) "readdir_variation63.tmp"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing readdir() : usage variations ***
+
+-- Reading Directory Contents with Previous Handle --
+string(1) "."
+string(2) ".."
+string(23) "readdir_variation61.tmp"
+string(23) "readdir_variation62.tmp"
+string(23) "readdir_variation63.tmp"
+
+-- Reading Directory Contents with Current Handle (no arguments supplied) --
+string(1) "."
+string(2) ".."
+string(23) "readdir_variation61.tmp"
+string(23) "readdir_variation62.tmp"
+string(23) "readdir_variation63.tmp"
+===DONE===
+---- FAILED

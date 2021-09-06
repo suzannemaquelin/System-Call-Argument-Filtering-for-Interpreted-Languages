@@ -1,0 +1,23 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+/root/php-src/ext/phar/tests/extract/file1.txt
+/root/php-src/ext/phar/tests/extract/file2.txt
+/root/php-src/ext/phar/tests/extract/one
+/root/php-src/ext/phar/tests/extract/subdir
+/root/php-src/ext/phar/tests/extract/subdir/ectory
+/root/php-src/ext/phar/tests/extract/subdir/ectory/file.txt
+string(2) "hi"
+string(3) "hi3"
+string(3) "hi2"
+bool(false)
+Invalid argument, expected a filename (string) or array of filenames
+
+Warning: Phar::extractTo() expects parameter 1 to be a valid path, array given in /root/php-src/ext/phar/tests/phar_extract.php on line 44
+Invalid argument, extraction path must be non-zero length
+Unable to use path "/root/php-src/ext/phar/tests/oops" for extraction, it is a file, must be a directory
+Invalid argument, array of filenames to extract contains non-string value
+Extraction from phar "/root/php-src/ext/phar/tests/tempmanifest1.phar.php" failed: Cannot extract "file1.txt" to "/root/php-src/ext/phar/tests/extract/file1.txt", path already exists
+string(5) "first"
+string(2) "hi"
+Cannot extract to "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...", destination directory is too long for filesystem
+Extraction from phar "/root/php-src/ext/phar/tests/tempmanifest1.phar.php" failed: Cannot extract "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..." to "/root/php-src/ext/phar/tests/extract...", extracted filename is too long for filesystem
+===DONE===

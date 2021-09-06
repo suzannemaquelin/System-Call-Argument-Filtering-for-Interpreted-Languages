@@ -1,0 +1,5 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(78) "phar:///root/php-src/ext/phar/tests/phar_dir_iterate.phar.php/another.file.txt"
+string(73) "phar:///root/php-src/ext/phar/tests/phar_dir_iterate.phar.php/sub/top.txt"
+string(69) "phar:///root/php-src/ext/phar/tests/phar_dir_iterate.phar.php/top.txt"
+===DONE===

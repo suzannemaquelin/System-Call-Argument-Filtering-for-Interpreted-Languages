@@ -1,0 +1,38 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+<people>
+</people>
+<people>
+  <person gender="male">Joe
+  </person>
+</people>
+<people>
+  <person gender="male">Jane
+  </person>
+</people>
+<people>
+  <person gender="female">Jane
+  </person>
+  <person gender="male">Joe
+  </person>
+</people>
+
+Warning: main(): Cannot add element person number 3 when only 2 such elements exist in /root/php-src/ext/simplexml/tests/027.php on line 34
+<people>
+  <person gender="female">Jane
+  </person>
+  <person gender="male">Joe
+  </person>
+  <person gender="male">Minni-me
+  </person>
+</people>
+<people>
+  <person gender="female">Jane
+  </person>
+  <person gender="male">Joe
+  </person>
+  <person gender="male">Minni-me
+  </person>
+  <person gender="error">
+  </person>
+</people>
+===DONE===

@@ -1,0 +1,14 @@
+object(Closure)#2 (1) {
+  ["parameter"]=>
+  array(1) {
+    ["$number"]=>
+    string(10) "<required>"
+  }
+}
+object(Closure)#2 (1) {
+  ["parameter"]=>
+  array(1) {
+    ["$someThing"]=>
+    string(10) "<required>"
+  }
+}

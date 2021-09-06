@@ -1,0 +1,65 @@
+
+---- EXPECTED OUTPUT
+bool(false)
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(true)
+bool(false)
+bool(true)
+
+Notice: Object of class Bar could not be converted to int in %s on line %d
+bool(false)
+
+Notice: Object of class Bar could not be converted to int in %s on line %d
+bool(true)
+
+Notice: Object of class Bar could not be converted to int in %s on line %d
+bool(true)
+
+Notice: Object of class Bar could not be converted to int in %s on line %d
+bool(false)
+
+Notice: Object of class Bar could not be converted to float in %s on line %d
+bool(true)
+
+Notice: Object of class Bar could not be converted to float in %s on line %d
+bool(false)
+
+Notice: Object of class Bar could not be converted to int in %s on line %d
+bool(true)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(false)
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(true)
+bool(false)
+bool(true)
+
+Notice: Object of class Bar could not be converted to int in /root/php-src/Zend/tests/objects_001.php on line 16
+bool(false)
+
+Notice: Object of class Bar could not be converted to int in /root/php-src/Zend/tests/objects_001.php on line 17
+bool(true)
+
+Notice: Object of class Bar could not be converted to int in /root/php-src/Zend/tests/objects_001.php on line 18
+bool(true)
+
+Notice: Object of class Bar could not be converted to int in /root/php-src/Zend/tests/objects_001.php on line 19
+bool(false)
+
+Notice: Object of class Bar could not be converted to float in /root/php-src/Zend/tests/objects_001.php on line 20
+bool(true)
+
+Notice: Object of class Bar could not be converted to float in /root/php-src/Zend/tests/objects_001.php on line 21
+bool(false)
+
+Notice: Object of class Bar could not be converted to int in /root/php-src/Zend/tests/objects_001.php on line 22
+bool(true)
+Done
+---- FAILED

@@ -1,0 +1,1 @@
+Fatal error: escapeshellcmd(): Input string contains NULL bytes in %s on line %d

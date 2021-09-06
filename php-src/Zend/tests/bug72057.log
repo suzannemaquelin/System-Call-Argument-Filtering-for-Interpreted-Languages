@@ -1,0 +1,18 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught Exception: My custom error in %s:%d
+Stack trace:
+#0 %s(%d): {closure}(8, 'A non well form...', '%s', %d, Array)
+#1 %s(%d): {closure}('7as')
+#2 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Exception: My custom error in /root/php-src/Zend/tests/bug72057.php:5
+Stack trace:
+#0 /root/php-src/Zend/tests/bug72057.php(9): {closure}(8, 'A non well form...', '/root/php-src/Z...', 9, Array)
+#1 /root/php-src/Zend/tests/bug72057.php(9): {closure}('7as')
+#2 {main}
+  thrown in /root/php-src/Zend/tests/bug72057.php on line 5
+---- FAILED

@@ -1,0 +1,32 @@
+
+---- EXPECTED OUTPUT
+Warning: libxml_set_external_entity_loader() expects parameter 1 to be a valid callback, array must have exactly two members in %s on line %d
+NULL
+
+Warning: libxml_set_external_entity_loader() expects exactly 1 parameter, 0 given in %s on line %d
+NULL
+
+Warning: libxml_set_external_entity_loader() expects exactly 1 parameter, 2 given in %s on line %d
+NULL
+bool(true)
+
+Warning: DOMDocument::validate(): Could not load the external subset "http://example.com/foobar" in %s on line %d
+Exception: Too few arguments to function {closure}(), 3 passed and exactly 4 expected
+Done.
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: libxml_set_external_entity_loader() expects parameter 1 to be a valid callback, array must have exactly two members in /root/php-src/ext/libxml/tests/libxml_set_external_entity_loader_error1.php on line 10
+NULL
+
+Warning: libxml_set_external_entity_loader() expects exactly 1 parameter, 0 given in /root/php-src/ext/libxml/tests/libxml_set_external_entity_loader_error1.php on line 11
+NULL
+
+Warning: libxml_set_external_entity_loader() expects exactly 1 parameter, 2 given in /root/php-src/ext/libxml/tests/libxml_set_external_entity_loader_error1.php on line 12
+NULL
+bool(true)
+
+Warning: DOMDocument::validate(): Could not load the external subset "http://example.com/foobar" in /root/php-src/ext/libxml/tests/libxml_set_external_entity_loader_error1.php on line 16
+Exception: Too few arguments to function {closure}(), 3 passed and exactly 4 expected
+Done.
+---- FAILED

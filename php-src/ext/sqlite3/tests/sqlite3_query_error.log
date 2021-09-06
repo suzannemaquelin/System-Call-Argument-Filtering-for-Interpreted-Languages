@@ -1,0 +1,23 @@
+
+---- EXPECTED OUTPUT
+Testing SQLite3 query without parameters
+
+Warning: SQLite3::query() expects exactly 1 parameter, 0 given in %s on line %d
+Testing SQLite3 query with one array parameter
+
+Warning: SQLite3::query() expects parameter 1 to be %binary_string_optional%, array given in %s on line %d
+Testing SQLite3 qeury with empty string parameter
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Testing SQLite3 query without parameters
+
+Warning: SQLite3::query() expects exactly 1 parameter, 0 given in /root/php-src/ext/sqlite3/tests/sqlite3_query_error.php on line 5
+Testing SQLite3 query with one array parameter
+
+Warning: SQLite3::query() expects parameter 1 to be string, array given in /root/php-src/ext/sqlite3/tests/sqlite3_query_error.php on line 8
+Testing SQLite3 qeury with empty string parameter
+bool(false)
+Done
+---- FAILED

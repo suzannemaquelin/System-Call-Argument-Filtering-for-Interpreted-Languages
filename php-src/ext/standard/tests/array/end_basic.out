@@ -1,0 +1,15 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing end() : basic functionality ***
+
+-- Initial Position: --
+0 => zero
+
+-- Call to end() --
+string(3) "two"
+
+-- Current Position: --
+200 => two
+
+-- Add a new element to array --
+string(3) "foo"
+===DONE===

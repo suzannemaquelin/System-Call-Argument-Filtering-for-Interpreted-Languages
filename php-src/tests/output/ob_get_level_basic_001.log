@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+*** Testing ob_get_level() : basic functionality ***
+
+-- Testing ob_get_level() function with Zero arguments --
+int(0)
+int(1)
+int(2)
+int(1)
+int(0)
+
+Notice: ob_end_flush(): failed to delete and flush buffer. No buffer to delete or flush in %s on line 26
+int(0)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing ob_get_level() : basic functionality ***
+
+-- Testing ob_get_level() function with Zero arguments --
+int(0)
+int(1)
+int(2)
+int(1)
+int(0)
+
+Notice: ob_end_flush(): failed to delete and flush buffer. No buffer to delete or flush in /root/php-src/tests/output/ob_get_level_basic_001.php on line 26
+int(0)
+Done
+---- FAILED

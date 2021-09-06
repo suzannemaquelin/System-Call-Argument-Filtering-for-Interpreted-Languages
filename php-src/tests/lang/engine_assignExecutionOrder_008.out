@@ -1,0 +1,20 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+$i=f(): good
+$$x=f(): good
+${'i'}=f(): good
+$i[0]=f(): good
+$i[0][0]=f(): good
+$i->p=f(): 
+Warning: Creating default object from empty value in /root/php-src/tests/lang/engine_assignExecutionOrder_008.php on line 30
+good
+$i->p->q=f(): 
+Warning: Creating default object from empty value in /root/php-src/tests/lang/engine_assignExecutionOrder_008.php on line 34
+good
+$i->p[0]=f(): good
+$i->p[0]->p=f(): 
+Warning: Creating default object from empty value in /root/php-src/tests/lang/engine_assignExecutionOrder_008.php on line 42
+good
+C::$p=f(): good
+C::$p[0]=f(): good
+C::$p->q=f(): good

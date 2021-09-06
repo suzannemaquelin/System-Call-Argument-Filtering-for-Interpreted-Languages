@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+string(9) "x.changed"
+
+Warning: Parameter 1 to C::__construct() expected to be a reference, value given in %sbug42976.php on line 15
+string(10) "x.original"
+
+Warning: Parameter 1 to C::__construct() expected to be a reference, value given in %sbug42976.php on line 18
+string(10) "x.original"
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(9) "x.changed"
+
+Warning: Parameter 1 to C::__construct() expected to be a reference, value given in /root/php-src/ext/reflection/tests/bug42976.php on line 15
+string(10) "x.original"
+
+Warning: Parameter 1 to C::__construct() expected to be a reference, value given in /root/php-src/ext/reflection/tests/bug42976.php on line 18
+string(10) "x.original"
+Done
+---- FAILED

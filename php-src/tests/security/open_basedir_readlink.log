@@ -1,0 +1,61 @@
+
+---- EXPECTED OUTPUT
+*** Testing open_basedir configuration [readlink] ***
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+
+Warning: readlink(): open_basedir restriction in effect. File(symlink.txt) is not within the allowed path(s): (.) in %s on line %d
+bool(false)
+
+Warning: readlink(): open_basedir restriction in effect. File(../ok/symlink.txt) is not within the allowed path(s): (.) in %s on line %d
+bool(false)
+
+Warning: readlink(): open_basedir restriction in effect. File(../ok/./symlink.txt) is not within the allowed path(s): (.) in %s on line %d
+bool(false)
+
+Warning: readlink(): open_basedir restriction in effect. File(./symlink.txt) is not within the allowed path(s): (.) in %s on line %d
+bool(false)
+
+Warning: readlink(): open_basedir restriction in effect. File(%s/test/ok/symlink.txt) is not within the allowed path(s): (.) in %s on line %d
+bool(false)
+
+Warning: symlink(): open_basedir restriction in effect. File(%s/test/bad/bad.txt) is not within the allowed path(s): (.) in %s on line %d
+bool(false)
+
+Warning: readlink(): open_basedir restriction in effect. File(%s/test/ok/symlink.txt) is not within the allowed path(s): (.) in %s on line %d
+bool(false)
+*** Finished testing open_basedir configuration [readlink] ***
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing open_basedir configuration [readlink] ***
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+
+Warning: readlink(): open_basedir restriction in effect. File(symlink.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_readlink.php on line 16
+bool(false)
+
+Warning: readlink(): open_basedir restriction in effect. File(../ok/symlink.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_readlink.php on line 17
+bool(false)
+
+Warning: readlink(): open_basedir restriction in effect. File(../ok/./symlink.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_readlink.php on line 18
+bool(false)
+
+Warning: readlink(): open_basedir restriction in effect. File(./symlink.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_readlink.php on line 19
+bool(false)
+
+Warning: readlink(): open_basedir restriction in effect. File(/root/php-src/tests/security/test/ok/symlink.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_readlink.php on line 20
+bool(false)
+
+Warning: symlink(): open_basedir restriction in effect. File(/root/php-src/tests/security/test/bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_readlink.php on line 24
+bool(false)
+
+Warning: readlink(): open_basedir restriction in effect. File(/root/php-src/tests/security/test/ok/symlink.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_readlink.php on line 25
+bool(false)
+*** Finished testing open_basedir configuration [readlink] ***
+---- FAILED

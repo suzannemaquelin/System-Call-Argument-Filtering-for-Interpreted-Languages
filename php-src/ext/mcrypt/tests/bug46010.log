@@ -1,0 +1,22 @@
+
+---- EXPECTED OUTPUT
+Deprecated: Function mcrypt_encrypt() is deprecated in %s%ebug46010.php on line 4
+string(16) "f7a2ce11d4002294"
+
+Deprecated: Function mcrypt_encrypt() is deprecated in %s%ebug46010.php on line 5
+string(16) "f7a2ce11d4002294"
+
+Deprecated: Function mcrypt_encrypt() is deprecated in %s%ebug46010.php on line 6
+string(16) "f7a2ce11d4002294"
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Deprecated: Function mcrypt_encrypt() is deprecated in /root/php-src/ext/mcrypt/tests/bug46010.php on line 4
+string(16) "f7a2ce11d4002294"
+
+Deprecated: Function mcrypt_encrypt() is deprecated in /root/php-src/ext/mcrypt/tests/bug46010.php on line 5
+string(16) "f7a2ce11d4002294"
+
+Deprecated: Function mcrypt_encrypt() is deprecated in /root/php-src/ext/mcrypt/tests/bug46010.php on line 6
+string(16) "f7a2ce11d4002294"
+---- FAILED

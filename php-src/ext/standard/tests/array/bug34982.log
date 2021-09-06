@@ -1,0 +1,41 @@
+
+---- EXPECTED OUTPUT
+Array
+(
+    [0] => changed
+    [1] => Array
+        (
+            [0] => changed
+        )
+
+)
+Array
+(
+    [0] => element 1
+    [1] => Array
+        (
+            [0] => subelement1
+        )
+
+)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Array
+(
+    [0] => changed
+    [1] => Array
+        (
+            [0] => changed
+        )
+
+)
+Array
+(
+    [0] => element 1
+    [1] => Array
+        (
+            [0] => subelement1
+        )
+
+)
+---- FAILED

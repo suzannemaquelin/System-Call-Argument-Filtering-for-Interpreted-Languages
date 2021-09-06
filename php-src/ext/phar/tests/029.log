@@ -1,0 +1,13 @@
+
+---- EXPECTED OUTPUT
+bool(true)
+bool(true)
+alias "copy" is already used for archive "%s029.1.phar.php" cannot be overloaded with "%s029.2.phar.php"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(true)
+bool(true)
+alias "copy" is already used for archive "/root/php-src/ext/phar/tests/029.1.phar.php" cannot be overloaded with "/root/php-src/ext/phar/tests/029.2.phar.php"
+===DONE===
+---- FAILED

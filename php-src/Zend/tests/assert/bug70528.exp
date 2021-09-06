@@ -1,0 +1,5 @@
+Warning: assert(): assert(new \stdClass() instanceof $bar) failed in %sbug70528.php on line %d
+
+Warning: assert(): assert(new \stdClass() instanceof Bar) failed in %sbug70528.php on line %d
+
+Warning: assert(): assert(new \stdClass() instanceof \Foo\Bar) failed in %sbug70528.php on line %d

@@ -1,0 +1,28 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(4) "DATA"
+string(46) "~!@#$%^&*()_QWERTYUIOPASDFGHJKLZXCVBNM<>>?"}{:"
+string(0) ""
+
+Warning: filter_var(): First argument is expected to be a valid callback in /root/php-src/ext/filter/tests/029.php on line 11
+NULL
+
+Warning: filter_var(): First argument is expected to be a valid callback in /root/php-src/ext/filter/tests/029.php on line 12
+NULL
+
+Warning: filter_var(): First argument is expected to be a valid callback in /root/php-src/ext/filter/tests/029.php on line 13
+NULL
+string(4) "data"
+string(46) "~!@#$%^&*()_qwertyuiopasdfghjklzxcvbnm<>>?"}{:"
+string(0) ""
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+int(1)
+string(4) "test"
+Done

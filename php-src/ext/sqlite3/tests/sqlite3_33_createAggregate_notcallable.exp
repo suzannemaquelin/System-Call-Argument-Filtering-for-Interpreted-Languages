@@ -1,0 +1,5 @@
+Warning: SQLite3::createAggregate(): Not a valid callback function aggregate_test_step in %s on line %d
+
+Warning: SQLite3::createAggregate(): Not a valid callback function aggregate_test_final in %s on line %d
+bool(true)
+Done

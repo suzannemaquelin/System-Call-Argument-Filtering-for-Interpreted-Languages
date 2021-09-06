@@ -1,0 +1,73 @@
+
+---- EXPECTED OUTPUT
+resource(%d) of type (OpenSSL X.509)
+resource(%d) of type (OpenSSL X.509)
+resource(%d) of type (OpenSSL X.509)
+resource(%d) of type (OpenSSL X.509)
+
+Warning: openssl_csr_sign(): cannot get cert from parameter 2 in %s on line %d
+bool(false)
+
+Warning: openssl_csr_sign(): cannot get private key from parameter 3 in %s on line %d
+bool(false)
+
+Warning: openssl_csr_sign() expects parameter 4 to be integer, string given in %s on line %d
+NULL
+
+Warning: openssl_csr_sign() expects parameter 5 to be array, string given in %s on line %d
+NULL
+
+Warning: openssl_csr_sign(): cannot get CSR from parameter 1 in %s on line %d
+bool(false)
+
+Warning: openssl_csr_sign(): cannot get CSR from parameter 1 in %s on line %d
+bool(false)
+
+Warning: openssl_csr_sign(): cannot get cert from parameter 2 in %s on line %d
+bool(false)
+
+Warning: openssl_csr_sign(): key array must be of the form array(0 => key, 1 => phrase) in %s on line %d
+
+Warning: openssl_csr_sign(): cannot get private key from parameter 3 in %s on line %d
+bool(false)
+
+Warning: openssl_csr_sign() expects parameter 4 to be integer, array given in %s on line %d
+NULL
+resource(%d) of type (OpenSSL X.509)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+resource(6) of type (OpenSSL X.509)
+resource(7) of type (OpenSSL X.509)
+resource(9) of type (OpenSSL X.509)
+resource(12) of type (OpenSSL X.509)
+
+Warning: openssl_csr_sign(): cannot get cert from parameter 2 in /root/php-src/ext/openssl/tests/openssl_csr_sign_basic.php on line 31
+bool(false)
+
+Warning: openssl_csr_sign(): cannot get private key from parameter 3 in /root/php-src/ext/openssl/tests/openssl_csr_sign_basic.php on line 32
+bool(false)
+
+Warning: openssl_csr_sign() expects parameter 4 to be integer, string given in /root/php-src/ext/openssl/tests/openssl_csr_sign_basic.php on line 33
+NULL
+
+Warning: openssl_csr_sign() expects parameter 5 to be array, string given in /root/php-src/ext/openssl/tests/openssl_csr_sign_basic.php on line 34
+NULL
+
+Warning: openssl_csr_sign(): cannot get CSR from parameter 1 in /root/php-src/ext/openssl/tests/openssl_csr_sign_basic.php on line 35
+bool(false)
+
+Warning: openssl_csr_sign(): cannot get CSR from parameter 1 in /root/php-src/ext/openssl/tests/openssl_csr_sign_basic.php on line 36
+bool(false)
+
+Warning: openssl_csr_sign(): cannot get cert from parameter 2 in /root/php-src/ext/openssl/tests/openssl_csr_sign_basic.php on line 37
+bool(false)
+
+Warning: openssl_csr_sign(): key array must be of the form array(0 => key, 1 => phrase) in /root/php-src/ext/openssl/tests/openssl_csr_sign_basic.php on line 38
+
+Warning: openssl_csr_sign(): cannot get private key from parameter 3 in /root/php-src/ext/openssl/tests/openssl_csr_sign_basic.php on line 38
+bool(false)
+
+Warning: openssl_csr_sign() expects parameter 4 to be integer, array given in /root/php-src/ext/openssl/tests/openssl_csr_sign_basic.php on line 39
+NULL
+resource(13) of type (OpenSSL X.509)
+---- FAILED

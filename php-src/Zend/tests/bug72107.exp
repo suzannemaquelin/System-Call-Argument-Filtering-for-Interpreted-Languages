@@ -1,0 +1,3 @@
+Warning: Cannot call func_get_args() dynamically in %s on line %d
+
+Notice: Undefined variable: undef in %s on line %d

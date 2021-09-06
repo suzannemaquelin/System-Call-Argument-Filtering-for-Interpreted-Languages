@@ -1,0 +1,53 @@
+
+---- EXPECTED OUTPUT
+*** Testing array_intersect_ukey() : usage variation ***
+
+-- Testing array_intersect_ukey() function using class with static method as callback --
+array(2) {
+  ["blue"]=>
+  int(1)
+  ["green"]=>
+  int(3)
+}
+array(2) {
+  ["blue"]=>
+  int(1)
+  ["green"]=>
+  int(3)
+}
+
+-- Testing array_intersect_uassoc() function using class with regular method as callback --
+array(2) {
+  ["blue"]=>
+  int(1)
+  ["green"]=>
+  int(3)
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_intersect_ukey() : usage variation ***
+
+-- Testing array_intersect_ukey() function using class with static method as callback --
+array(2) {
+  ["blue"]=>
+  int(1)
+  ["green"]=>
+  int(3)
+}
+array(2) {
+  ["blue"]=>
+  int(1)
+  ["green"]=>
+  int(3)
+}
+
+-- Testing array_intersect_uassoc() function using class with regular method as callback --
+array(2) {
+  ["blue"]=>
+  int(1)
+  ["green"]=>
+  int(3)
+}
+===DONE===
+---- FAILED

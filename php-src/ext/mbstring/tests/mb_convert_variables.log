@@ -1,0 +1,57 @@
+
+---- EXPECTED OUTPUT
+== SCALER TEST ==
+SJIS
+日本語テキストです。01234５６７８９。
+JIS
+日本語テキストです。01234５６７８９。
+EUC-JP
+k/qWe4zqg2WDTINYg2eCxYK3gUIwMTIzNIJUglWCVoJXgliBQg==
+EUC-JP
+GyRCRnxLXDhsJUYlLSU5JUgkRyQ5ISMbKEIwMTIzNBskQiM1IzYjNyM4IzkhIxsoQg==
+EUC-JP
+日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。
+== ARRAY TEST ==
+EUC-JP
+日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。
+EUC-JP
+日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。
+== OBJECT TEST ==
+EUC-JP
+日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。
+EUC-JP
+日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。
+== SCALER, ARRAY AND OBJECT TEST ==
+EUC-JP
+日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。
+日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。
+日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+== SCALER TEST ==
+SJIS
+日本語テキストです。01234５６７８９。
+JIS
+日本語テキストです。01234５６７８９。
+EUC-JP
+k/qWe4zqg2WDTINYg2eCxYK3gUIwMTIzNIJUglWCVoJXgliBQg==
+EUC-JP
+GyRCRnxLXDhsJUYlLSU5JUgkRyQ5ISMbKEIwMTIzNBskQiM1IzYjNyM4IzkhIxsoQg==
+EUC-JP
+日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。
+== ARRAY TEST ==
+EUC-JP
+日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。
+EUC-JP
+日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。
+== OBJECT TEST ==
+EUC-JP
+日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。
+EUC-JP
+日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。
+== SCALER, ARRAY AND OBJECT TEST ==
+EUC-JP
+日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。
+日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。
+日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。日本語テキストです。01234５６７８９。
+---- FAILED

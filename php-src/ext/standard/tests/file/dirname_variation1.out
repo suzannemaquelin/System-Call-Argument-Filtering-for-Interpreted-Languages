@@ -1,0 +1,83 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing dirname() : usage variation ***
+
+--int 0--
+string(1) "."
+
+--int 1--
+string(1) "."
+
+--int 12345--
+string(1) "."
+
+--int -12345--
+string(1) "."
+
+--float 10.5--
+string(1) "."
+
+--float -10.5--
+string(1) "."
+
+--float 12.3456789000e10--
+string(1) "."
+
+--float -12.3456789000e10--
+string(1) "."
+
+--float .5--
+string(1) "."
+
+--empty array--
+Error: 2 - dirname() expects parameter 1 to be string, array given, /root/php-src/ext/standard/tests/file/dirname_variation1.php(97)
+NULL
+
+--int indexed array--
+Error: 2 - dirname() expects parameter 1 to be string, array given, /root/php-src/ext/standard/tests/file/dirname_variation1.php(97)
+NULL
+
+--associative array--
+Error: 2 - dirname() expects parameter 1 to be string, array given, /root/php-src/ext/standard/tests/file/dirname_variation1.php(97)
+NULL
+
+--nested arrays--
+Error: 2 - dirname() expects parameter 1 to be string, array given, /root/php-src/ext/standard/tests/file/dirname_variation1.php(97)
+NULL
+
+--uppercase NULL--
+string(0) ""
+
+--lowercase null--
+string(0) ""
+
+--lowercase true--
+string(1) "."
+
+--lowercase false--
+string(0) ""
+
+--uppercase TRUE--
+string(1) "."
+
+--uppercase FALSE--
+string(0) ""
+
+--empty string DQ--
+string(0) ""
+
+--empty string SQ--
+string(0) ""
+
+--instance of classWithToString--
+string(1) "."
+
+--instance of classWithoutToString--
+Error: 2 - dirname() expects parameter 1 to be string, object given, /root/php-src/ext/standard/tests/file/dirname_variation1.php(97)
+NULL
+
+--undefined var--
+string(0) ""
+
+--unset var--
+string(0) ""
+===DONE===

@@ -1,0 +1,15 @@
+
+---- EXPECTED OUTPUT
+*** Test copy(): Trying to create a copy of file with the same source name ***
+bool(false)
+bool(true)
+int(1500)
+*** Done ***
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Test copy(): Trying to create a copy of file with the same source name ***
+bool(false)
+bool(true)
+int(1500)
+*** Done ***
+---- FAILED

@@ -1,0 +1,18 @@
+*** Testing date_sun_info() : usage variations ***
+
+-- Testing date_sun_info() function with less than expected no. of arguments --
+
+Warning: date_sun_info() expects exactly 3 parameters, 0 given in %s on line %d
+bool(false)
+
+Warning: date_sun_info() expects exactly 3 parameters, 1 given in %s on line %d
+bool(false)
+
+Warning: date_sun_info() expects exactly 3 parameters, 2 given in %s on line %d
+bool(false)
+
+-- Testing date_sun_info() function with more than expected no. of arguments --
+
+Warning: date_create() expects at most 2 parameters, 4 given in %s on line %d
+bool(false)
+===Done===

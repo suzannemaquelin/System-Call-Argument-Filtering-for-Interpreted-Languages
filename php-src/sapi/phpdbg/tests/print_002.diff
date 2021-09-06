@@ -1,0 +1,35 @@
+004+ [Breakpoint #0 in foo() at /root/php-src/sapi/phpdbg/tests/print_002.php:14, hits: 1]
+005+ >00014: 	function foo($baz) {
+006+  00015: 		var_dump(strrev($baz));
+004- [Breakpoint #0 in foo() at %s:15, hits: 1]
+005- >00015: 		var_dump(strrev($baz));
+007-  00017: 
+008- prompt> [Stack in foo() (8 ops)]
+009- L14-16 foo() %s - %s + 8 ops
+010-  L14   #0     RECV                    1                                         $baz                
+011-  L15   #1     INIT_FCALL%s %d %s "var_dump"                               
+012-  L15   #2     INIT_FCALL%s %d %s "strrev"                                 
+013-  L15   #3     SEND_VAR                $baz                 1                                        
+014-  L15   #4     DO_%cCALL                                                          @0                  
+015-  L15   #5     SEND_VAR                @0                   1                                        
+016-  L15   #6     DO_%cCALL                                                                              
+017-  L16   #7     RETURN                  null                                                          
+018- prompt> [L15 %s INIT_FCALL%s %d %s "var_dump"                                %s]
+008+ prompt> [Stack in foo() (15 ops)]
+009+ L14-16 foo() /root/php-src/sapi/phpdbg/tests/print_002.php - 0x7fc0a6284000 + 15 ops
+010+  L14   #0     EXT_NOP                                                                               
+011+  L14   #1     RECV                    1                                         $baz                
+012+  L15   #2     EXT_STMT                                                                              
+013+  L15   #3     INIT_FCALL              96                   "var_dump"                               
+014+  L15   #4     EXT_FCALL_BEGIN                                                                       
+015+  L15   #5     INIT_FCALL              96                   "strrev"                                 
+016+  L15   #6     EXT_FCALL_BEGIN                                                                       
+017+  L15   #7     SEND_VAR                $baz                 1                                        
+018+  L15   #8     DO_FCALL                                                          @0                  
+019+  L15   #9     EXT_FCALL_END                                                                         
+020+  L15   #10    SEND_VAR                @0                   1                                        
+021+  L15   #11    DO_FCALL                                                                              
+022+  L15   #12    EXT_FCALL_END                                                                         
+023+  L16   #13    EXT_STMT                                                                              
+024+  L16   #14    RETURN                  null                                                          
+025+ prompt> [L14      0x7fc0a6284020 RECV                    1                                         $baz                 /root/php-src/sapi/phpdbg/tests/print_002.php]

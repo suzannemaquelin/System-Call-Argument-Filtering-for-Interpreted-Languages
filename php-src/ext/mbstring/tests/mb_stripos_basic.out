@@ -1,0 +1,59 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_stripos() : basic functionality***
+
+ -- ASCII Strings, needle should be found --
+int(4)
+int(4)
+int(4)
+int(4)
+int(4)
+int(4)
+int(4)
+int(4)
+int(4)
+int(4)
+int(4)
+int(4)
+
+ -- ASCII Strings, needle should not be found --
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+
+ -- Greek Strings, needle should be found --
+int(11)
+int(11)
+int(11)
+int(11)
+int(11)
+int(11)
+int(11)
+int(11)
+int(11)
+int(11)
+int(11)
+int(11)
+
+ -- ASCII Strings, needle should not be found --
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+Done

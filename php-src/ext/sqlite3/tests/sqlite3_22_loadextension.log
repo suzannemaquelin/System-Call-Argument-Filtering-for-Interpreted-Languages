@@ -1,0 +1,14 @@
+
+---- EXPECTED OUTPUT
+Warning: SQLite3::loadExtension(): Unable to load extension at '.%emyext.txt' in %s on line %d
+bool(false)
+bool(true)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: SQLite3::loadExtension(): Unable to load extension at './myext.txt' in /root/php-src/ext/sqlite3/tests/sqlite3_22_loadextension.php on line 9
+bool(false)
+bool(true)
+Done
+---- FAILED

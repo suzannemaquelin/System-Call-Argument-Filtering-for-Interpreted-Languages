@@ -1,0 +1,1 @@
+/opt/php-7.1/bin/php: symbol lookup error: /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: undefined symbol: print

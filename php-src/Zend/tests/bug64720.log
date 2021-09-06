@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught Error: Access to undeclared static property: Stat::$requests in %sbug64720.php:12
+Stack trace:
+#0 [internal function]: Stat->__destruct()
+#1 {main}
+  thrown in %sbug64720.php on line 12
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Error: Access to undeclared static property: Stat::$requests in /root/php-src/Zend/tests/bug64720.php:12
+Stack trace:
+#0 [internal function]: Stat->__destruct()
+#1 {main}
+  thrown in /root/php-src/Zend/tests/bug64720.php on line 12
+---- FAILED

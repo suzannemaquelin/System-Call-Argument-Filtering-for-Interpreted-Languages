@@ -1,0 +1,21 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+__call:
+string(3) "ABC"
+__call:
+string(3) "ABC"
+__call:
+string(3) "XYZ"
+__call:
+string(3) "WWW"
+__call:
+string(3) "ABC"
+__callstatic:
+string(1) "A"
+__callstatic:
+string(1) "B"
+__callstatic:
+string(1) "C"
+__callstatic:
+string(3) "FOO"
+__callstatic:
+string(3) "FOO"

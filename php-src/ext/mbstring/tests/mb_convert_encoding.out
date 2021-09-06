@@ -1,0 +1,25 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+== BASIC TEST ==
+EUC-JP: 日本語テキストです。01234５６７８９。
+EUC-JP: 日本語テキストです。01234５６７８９。
+SJIS: k/qWe4zqg2WDTINYg2eCxYK3gUIwMTIzNIJUglWCVoJXgliBQg==
+JIS: GyRCRnxLXDhsJUYlLSU5JUgkRyQ5ISMbKEIwMTIzNBskQiM1IzYjNyM4IzkhIxsoQg==
+== STRING ENCODING LIST ==
+EUC-JP: 日本語テキストです。01234５６７８９。
+SJIS: k/qWe4zqg2WDTINYg2eCxYK3gUIwMTIzNIJUglWCVoJXgliBQg==
+JIS: GyRCRnxLXDhsJUYlLSU5JUgkRyQ5ISMbKEIwMTIzNBskQiM1IzYjNyM4IzkhIxsoQg==
+== ARRAY ENCODING LIST ==
+EUC-JP: 日本語テキストです。01234５６７８９。
+SJIS: k/qWe4zqg2WDTINYg2eCxYK3gUIwMTIzNIJUglWCVoJXgliBQg==
+JIS: GyRCRnxLXDhsJUYlLSU5JUgkRyQ5ISMbKEIwMTIzNBskQiM1IzYjNyM4IzkhIxsoQg==
+== DETECT ORDER ==
+EUC-JP: 日本語テキストです。01234５６７８９。
+SJIS: k/qWe4zqg2WDTINYg2eCxYK3gUIwMTIzNIJUglWCVoJXgliBQg==
+JIS: GyRCRnxLXDhsJUYlLSU5JUgkRyQ5ISMbKEIwMTIzNBskQiM1IzYjNyM4IzkhIxsoQg==
+== INVALID PARAMETER ==
+INT: 1234
+EUC-JP: 
+ERR: Warning
+BAD: 
+ERR: Warning
+MP:

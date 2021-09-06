@@ -1,0 +1,3 @@
+Warning: curl_exec(): CURLOPT_STDERR resource has gone away, resetting to stderr in %sbug48203.php on line %d
+%A
+Ok

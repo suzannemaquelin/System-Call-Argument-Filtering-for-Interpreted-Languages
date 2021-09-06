@@ -1,0 +1,20 @@
+
+---- EXPECTED OUTPUT
+Warning: file_put_contents(phar://%screate_new_phar_b.phar.tar/a.php): failed to open stream: phar error: write operations disabled by the php.ini setting phar.readonly in %screate_new_phar_b.php on line %d
+
+Warning: include(phar://%screate_new_phar_b.phar.tar/a.php): failed to open stream: %s in %screate_new_phar_b.php on line %d
+
+Warning: include(): Failed opening 'phar://%screate_new_phar_b.phar.tar/a.php' for inclusion (include_path='%s') in %screate_new_phar_b.php on line %d
+
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: file_put_contents(phar:///root/php-src/ext/phar/tests/tar/create_new_phar_b.phar.tar/a.php): failed to open stream: phar error: write operations disabled by the php.ini setting phar.readonly in /root/php-src/ext/phar/tests/tar/create_new_phar_b.php on line 4
+
+Warning: include(phar:///root/php-src/ext/phar/tests/tar/create_new_phar_b.phar.tar/a.php): failed to open stream: phar error: invalid url or non-existent phar "phar:///root/php-src/ext/phar/tests/tar/create_new_phar_b.phar.tar/a.php" in /root/php-src/ext/phar/tests/tar/create_new_phar_b.php on line 5
+
+Warning: include(): Failed opening 'phar:///root/php-src/ext/phar/tests/tar/create_new_phar_b.phar.tar/a.php' for inclusion (include_path='.:/opt/php-7.1/lib/php') in /root/php-src/ext/phar/tests/tar/create_new_phar_b.php on line 5
+
+===DONE===
+---- FAILED

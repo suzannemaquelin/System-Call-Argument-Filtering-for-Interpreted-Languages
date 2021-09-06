@@ -1,0 +1,35 @@
+
+---- EXPECTED OUTPUT
+ArrayIteratorEx::rewind
+ArrayIteratorEx::valid
+ArrayIteratorEx::current
+ArrayIteratorEx::key
+int(0)
+int(1)
+ArrayIteratorEx::next
+ArrayIteratorEx::valid
+ArrayIteratorEx::current
+ArrayIteratorEx::key
+int(1)
+int(2)
+ArrayIteratorEx::next
+ArrayIteratorEx::valid
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+ArrayIteratorEx::rewind
+ArrayIteratorEx::valid
+ArrayIteratorEx::current
+ArrayIteratorEx::key
+int(0)
+int(1)
+ArrayIteratorEx::next
+ArrayIteratorEx::valid
+ArrayIteratorEx::current
+ArrayIteratorEx::key
+int(1)
+int(2)
+ArrayIteratorEx::next
+ArrayIteratorEx::valid
+===DONE===
+---- FAILED

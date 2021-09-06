@@ -1,0 +1,6 @@
+string(15) "mycustomsession"
+array(1) {
+  ["foo"]=>
+  string(4) "hoge"
+}
+string(7) "otherid"

@@ -1,0 +1,137 @@
+
+---- EXPECTED OUTPUT
+*** Testing usort() : object functionality ***
+-- Testing usort() with StaticClass objects --
+bool(true)
+array(4) {
+  [0]=>
+  object(StaticClass)#%d (0) {
+  }
+  [1]=>
+  object(StaticClass)#%d (0) {
+  }
+  [2]=>
+  object(StaticClass)#%d (0) {
+  }
+  [3]=>
+  object(StaticClass)#%d (0) {
+  }
+}
+-- Testing usort() with EmptyClass objects --
+bool(true)
+array(4) {
+  [0]=>
+  object(EmptyClass)#%d (0) {
+  }
+  [1]=>
+  object(EmptyClass)#%d (0) {
+  }
+  [2]=>
+  object(EmptyClass)#%d (0) {
+  }
+  [3]=>
+  object(EmptyClass)#%d (0) {
+  }
+}
+-- Testing usort() with ChildClass objects --
+bool(true)
+array(4) {
+  [0]=>
+  object(ChildClass)#%d (2) {
+    ["child_value"]=>
+    int(15)
+    ["pub_value"]=>
+    NULL
+  }
+  [1]=>
+  object(ChildClass)#%d (2) {
+    ["child_value"]=>
+    int(20)
+    ["pub_value"]=>
+    NULL
+  }
+  [2]=>
+  object(ChildClass)#%d (2) {
+    ["child_value"]=>
+    int(500)
+    ["pub_value"]=>
+    NULL
+  }
+  [3]=>
+  object(ChildClass)#%d (2) {
+    ["child_value"]=>
+    int(700)
+    ["pub_value"]=>
+    NULL
+  }
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing usort() : object functionality ***
+-- Testing usort() with StaticClass objects --
+bool(true)
+array(4) {
+  [0]=>
+  object(StaticClass)#1 (0) {
+  }
+  [1]=>
+  object(StaticClass)#2 (0) {
+  }
+  [2]=>
+  object(StaticClass)#3 (0) {
+  }
+  [3]=>
+  object(StaticClass)#4 (0) {
+  }
+}
+-- Testing usort() with EmptyClass objects --
+bool(true)
+array(4) {
+  [0]=>
+  object(EmptyClass)#5 (0) {
+  }
+  [1]=>
+  object(EmptyClass)#6 (0) {
+  }
+  [2]=>
+  object(EmptyClass)#7 (0) {
+  }
+  [3]=>
+  object(EmptyClass)#8 (0) {
+  }
+}
+-- Testing usort() with ChildClass objects --
+bool(true)
+array(4) {
+  [0]=>
+  object(ChildClass)#2 (2) {
+    ["child_value"]=>
+    int(15)
+    ["pub_value"]=>
+    NULL
+  }
+  [1]=>
+  object(ChildClass)#4 (2) {
+    ["child_value"]=>
+    int(20)
+    ["pub_value"]=>
+    NULL
+  }
+  [2]=>
+  object(ChildClass)#3 (2) {
+    ["child_value"]=>
+    int(500)
+    ["pub_value"]=>
+    NULL
+  }
+  [3]=>
+  object(ChildClass)#1 (2) {
+    ["child_value"]=>
+    int(700)
+    ["pub_value"]=>
+    NULL
+  }
+}
+===DONE===
+---- FAILED

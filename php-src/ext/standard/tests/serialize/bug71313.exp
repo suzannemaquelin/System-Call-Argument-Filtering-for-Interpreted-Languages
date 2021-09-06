@@ -1,0 +1,6 @@
+Fatal error: Uncaught UnexpectedValueException: Error at offset 82 of 113 bytes in %s%ebug71313.php:2
+Stack trace:
+#0 [internal function]: SplObjectStorage->unserialize('%s')
+#1 %s%ebug71313.php(2): unserialize('%s')
+#2 {main}
+  thrown in %s%ebug71313.php on line 2

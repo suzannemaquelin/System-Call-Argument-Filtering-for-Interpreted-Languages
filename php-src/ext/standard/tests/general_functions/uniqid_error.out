@@ -1,0 +1,16 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing uniqid() : error conditions ***
+
+-- Testing uniqid() function with more than expected no. of arguments --
+
+Warning: uniqid() expects at most 2 parameters, 3 given in /root/php-src/ext/standard/tests/general_functions/uniqid_error.php on line 12
+NULL
+
+-- Testing uniqid() function with invalid values for $prefix --
+
+Warning: uniqid() expects parameter 1 to be string, array given in /root/php-src/ext/standard/tests/general_functions/uniqid_error.php on line 20
+
+Warning: uniqid() expects parameter 1 to be string, resource given in /root/php-src/ext/standard/tests/general_functions/uniqid_error.php on line 21
+
+Warning: uniqid() expects parameter 1 to be string, object given in /root/php-src/ext/standard/tests/general_functions/uniqid_error.php on line 22
+===DONE===

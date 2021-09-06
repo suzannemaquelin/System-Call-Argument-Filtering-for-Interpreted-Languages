@@ -1,0 +1,43 @@
+
+---- EXPECTED OUTPUT
+array(1) {
+  ["a"]=>
+  int(1)
+}
+array(3) {
+  ["a"]=>
+  int(1)
+  ["aa"]=>
+  int(4)
+  ["cc"]=>
+  int(6)
+}
+
+Notice: Undefined property: C::$b in %s on line %d
+
+Notice: Undefined property: C::$c in %s on line %d
+int(1)
+NULL
+NULL
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(1) {
+  ["a"]=>
+  int(1)
+}
+array(3) {
+  ["a"]=>
+  int(1)
+  ["aa"]=>
+  int(4)
+  ["cc"]=>
+  int(6)
+}
+
+Notice: Undefined property: C::$b in /root/php-src/Zend/tests/get_class_vars_002.php on line 20
+
+Notice: Undefined property: C::$c in /root/php-src/Zend/tests/get_class_vars_002.php on line 20
+int(1)
+NULL
+NULL
+---- FAILED

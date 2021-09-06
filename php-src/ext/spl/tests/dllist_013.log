@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+Exception: Offset invalid or out of range
+7
+7
+6
+5
+4
+3
+2
+1
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Exception: Offset invalid or out of range
+7
+7
+6
+5
+4
+3
+2
+1
+===DONE===
+---- FAILED

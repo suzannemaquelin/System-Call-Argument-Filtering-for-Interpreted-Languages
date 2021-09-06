@@ -1,0 +1,71 @@
+
+---- EXPECTED OUTPUT
+Accessing I from global scope:
+array(1) {
+  [0]=>
+  string(4) "pubI"
+}
+Accessing C from global scope:
+array(3) {
+  [0]=>
+  string(4) "pubI"
+  [1]=>
+  string(4) "pubC"
+  [2]=>
+  string(9) "testFromC"
+}
+Accessing I from C:
+array(1) {
+  [0]=>
+  string(4) "pubI"
+}
+Accessing C from C:
+array(5) {
+  [0]=>
+  string(4) "pubI"
+  [1]=>
+  string(5) "privC"
+  [2]=>
+  string(5) "protC"
+  [3]=>
+  string(4) "pubC"
+  [4]=>
+  string(9) "testFromC"
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Accessing I from global scope:
+array(1) {
+  [0]=>
+  string(4) "pubI"
+}
+Accessing C from global scope:
+array(3) {
+  [0]=>
+  string(4) "pubI"
+  [1]=>
+  string(4) "pubC"
+  [2]=>
+  string(9) "testFromC"
+}
+Accessing I from C:
+array(1) {
+  [0]=>
+  string(4) "pubI"
+}
+Accessing C from C:
+array(5) {
+  [0]=>
+  string(4) "pubI"
+  [1]=>
+  string(5) "privC"
+  [2]=>
+  string(5) "protC"
+  [3]=>
+  string(4) "pubC"
+  [4]=>
+  string(9) "testFromC"
+}
+Done
+---- FAILED

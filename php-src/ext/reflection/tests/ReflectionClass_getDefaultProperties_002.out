@@ -1,0 +1,25 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: ReflectionClass::getDefaultProperties() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionClass_getDefaultProperties_002.php on line 5
+NULL
+
+Warning: ReflectionClass::getDefaultProperties() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionClass_getDefaultProperties_002.php on line 6
+NULL
+
+Warning: ReflectionClass::getDefaultProperties() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionClass_getDefaultProperties_002.php on line 7
+NULL
+
+Warning: ReflectionClass::getDefaultProperties() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionClass_getDefaultProperties_002.php on line 8
+NULL
+
+Warning: ReflectionClass::getStaticProperties() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionClass_getDefaultProperties_002.php on line 9
+NULL
+
+Warning: ReflectionClass::getStaticProperties() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionClass_getDefaultProperties_002.php on line 10
+NULL
+
+Warning: ReflectionClass::getStaticProperties() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionClass_getDefaultProperties_002.php on line 11
+NULL
+
+Warning: ReflectionClass::getStaticProperties() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionClass_getDefaultProperties_002.php on line 12
+NULL

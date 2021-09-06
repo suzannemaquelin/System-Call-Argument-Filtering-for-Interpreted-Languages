@@ -1,0 +1,54 @@
+*** Testing with a directory ***
+float(%d)
+
+Testing for the return type ***
+bool(true)
+
+*** Testing with different directory combinations ***
+-- Iteration 1 --
+float(%d)
+
+-- Iteration 2 --
+float(%d)
+
+-- Iteration 3 --
+float(%d)
+
+-- Iteration 4 --
+float(%d)
+
+-- Iteration 5 --
+float(%d)
+
+-- Iteration 6 --
+float(%d)
+
+-- Iteration 7 --
+float(%d)
+
+-- Iteration 8 --
+float(%d)
+
+-- Iteration 9 --
+
+Warning: disk_total_space() expects parameter 1 to be a valid path, string given in %s on line %d
+NULL
+
+-- Iteration 10 --
+
+Warning: disk_total_space() expects parameter 1 to be a valid path, string given in %s on line %d
+NULL
+
+-- Iteration 11 --
+
+Warning: disk_total_space() expects parameter 1 to be a valid path, string given in %s on line %d
+NULL
+
+-- Iteration 12 --
+
+Warning: disk_total_space() expects parameter 1 to be a valid path, string given in %s on line %d
+NULL
+*** Testing with Binary Input ***
+float(%d)
+
+--- Done ---

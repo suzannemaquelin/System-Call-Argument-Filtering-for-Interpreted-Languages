@@ -1,0 +1,16 @@
+array(2) {
+  [0]=>
+  object(obj)#%d (1) {
+    ["data"]=>
+    NULL
+  }
+  [1]=>
+  object(obj)#%d (1) {
+    ["data"]=>
+    NULL
+  }
+}
+object(obj)#1 (1) {
+  ["data"]=>
+  NULL
+}

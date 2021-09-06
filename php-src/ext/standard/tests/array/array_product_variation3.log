@@ -1,0 +1,39 @@
+
+---- EXPECTED OUTPUT
+*** Testing array_product() : variations - negative numbers***
+
+-- Testing array_product() function with one negative number --
+int(-2)
+
+-- Testing array_product() function with two negative numbers --
+int(6)
+
+-- Testing array_product() function with three negative numbers --
+int(-24)
+
+-- Testing array_product() function with negative floats --
+float(-1.5)
+
+-- Testing array_product() function with negative floats --
+float(-9.9999999E+15)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_product() : variations - negative numbers***
+
+-- Testing array_product() function with one negative number --
+int(-2)
+
+-- Testing array_product() function with two negative numbers --
+int(6)
+
+-- Testing array_product() function with three negative numbers --
+int(-24)
+
+-- Testing array_product() function with negative floats --
+float(-1.5)
+
+-- Testing array_product() function with negative floats --
+float(-9.9999999E+15)
+===DONE===
+---- FAILED

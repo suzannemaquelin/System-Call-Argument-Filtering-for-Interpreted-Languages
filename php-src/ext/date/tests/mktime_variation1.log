@@ -1,0 +1,223 @@
+
+---- EXPECTED OUTPUT
+*** Testing mktime() : usage variation -  unexpected values to first argument $hour***
+
+-- int 0 --
+int(%i)
+
+-- int 12345 --
+int(%i)
+
+-- int -12345 --
+int(%i)
+
+-- float 10.5 --
+int(%i)
+
+-- float -10.5 --
+int(%i)
+
+-- float .5 --
+int(%i)
+
+-- empty array --
+
+Warning: mktime() expects parameter 1 to be integer, array given in %s on line %d
+bool(false)
+
+-- int indexed array --
+
+Warning: mktime() expects parameter 1 to be integer, array given in %s on line %d
+bool(false)
+
+-- associative array --
+
+Warning: mktime() expects parameter 1 to be integer, array given in %s on line %d
+bool(false)
+
+-- nested arrays --
+
+Warning: mktime() expects parameter 1 to be integer, array given in %s on line %d
+bool(false)
+
+-- uppercase NULL --
+int(%i)
+
+-- lowercase null --
+int(%i)
+
+-- lowercase true --
+int(%i)
+
+-- lowercase false --
+int(%i)
+
+-- uppercase TRUE --
+int(%i)
+
+-- uppercase FALSE --
+int(%i)
+
+-- empty string DQ --
+
+Warning: mktime() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- empty string SQ --
+
+Warning: mktime() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- string DQ --
+
+Warning: mktime() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- string SQ --
+
+Warning: mktime() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- mixed case string --
+
+Warning: mktime() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- heredoc --
+
+Warning: mktime() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- instance of classWithToString --
+
+Warning: mktime() expects parameter 1 to be integer, object given in %s on line %d
+bool(false)
+
+-- instance of classWithoutToString --
+
+Warning: mktime() expects parameter 1 to be integer, object given in %s on line %d
+bool(false)
+
+-- undefined var --
+int(%i)
+
+-- unset var --
+int(%i)
+
+-- resource --
+
+Warning: mktime() expects parameter 1 to be integer, resource given in %s on line %d
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mktime() : usage variation -  unexpected values to first argument $hour***
+
+-- int 0 --
+int(1651964703)
+
+-- int 12345 --
+int(1696406703)
+
+-- int -12345 --
+int(1607526303)
+
+-- float 10.5 --
+int(1652000703)
+
+-- float -10.5 --
+int(1651928703)
+
+-- float .5 --
+int(1651964703)
+
+-- empty array --
+
+Warning: mktime() expects parameter 1 to be integer, array given in /root/php-src/ext/date/tests/mktime_variation1.php on line 104
+bool(false)
+
+-- int indexed array --
+
+Warning: mktime() expects parameter 1 to be integer, array given in /root/php-src/ext/date/tests/mktime_variation1.php on line 104
+bool(false)
+
+-- associative array --
+
+Warning: mktime() expects parameter 1 to be integer, array given in /root/php-src/ext/date/tests/mktime_variation1.php on line 104
+bool(false)
+
+-- nested arrays --
+
+Warning: mktime() expects parameter 1 to be integer, array given in /root/php-src/ext/date/tests/mktime_variation1.php on line 104
+bool(false)
+
+-- uppercase NULL --
+int(1651964703)
+
+-- lowercase null --
+int(1651964703)
+
+-- lowercase true --
+int(1651968303)
+
+-- lowercase false --
+int(1651964703)
+
+-- uppercase TRUE --
+int(1651968303)
+
+-- uppercase FALSE --
+int(1651964703)
+
+-- empty string DQ --
+
+Warning: mktime() expects parameter 1 to be integer, string given in /root/php-src/ext/date/tests/mktime_variation1.php on line 104
+bool(false)
+
+-- empty string SQ --
+
+Warning: mktime() expects parameter 1 to be integer, string given in /root/php-src/ext/date/tests/mktime_variation1.php on line 104
+bool(false)
+
+-- string DQ --
+
+Warning: mktime() expects parameter 1 to be integer, string given in /root/php-src/ext/date/tests/mktime_variation1.php on line 104
+bool(false)
+
+-- string SQ --
+
+Warning: mktime() expects parameter 1 to be integer, string given in /root/php-src/ext/date/tests/mktime_variation1.php on line 104
+bool(false)
+
+-- mixed case string --
+
+Warning: mktime() expects parameter 1 to be integer, string given in /root/php-src/ext/date/tests/mktime_variation1.php on line 104
+bool(false)
+
+-- heredoc --
+
+Warning: mktime() expects parameter 1 to be integer, string given in /root/php-src/ext/date/tests/mktime_variation1.php on line 104
+bool(false)
+
+-- instance of classWithToString --
+
+Warning: mktime() expects parameter 1 to be integer, object given in /root/php-src/ext/date/tests/mktime_variation1.php on line 104
+bool(false)
+
+-- instance of classWithoutToString --
+
+Warning: mktime() expects parameter 1 to be integer, object given in /root/php-src/ext/date/tests/mktime_variation1.php on line 104
+bool(false)
+
+-- undefined var --
+int(1651964703)
+
+-- unset var --
+int(1651964703)
+
+-- resource --
+
+Warning: mktime() expects parameter 1 to be integer, resource given in /root/php-src/ext/date/tests/mktime_variation1.php on line 104
+bool(false)
+===DONE===
+---- FAILED

@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing function_exists() : error conditions ***
+
+Too many arguments
+
+Warning: function_exists() expects exactly 1 parameter, 2 given in /root/php-src/Zend/tests/function_exists_error.php on line 13
+NULL
+
+Too few arguments
+
+Warning: function_exists() expects exactly 1 parameter, 0 given in /root/php-src/Zend/tests/function_exists_error.php on line 16
+NULL
+===Done===

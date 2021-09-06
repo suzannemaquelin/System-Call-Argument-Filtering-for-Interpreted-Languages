@@ -1,0 +1,39 @@
+
+---- EXPECTED OUTPUT
+*** Testing usort() : usage variation ***
+
+-- Sorting $array_arg containing different references --
+bool(true)
+array(5) {
+  [0]=>
+  &int(-5)
+  [1]=>
+  &int(0)
+  [2]=>
+  int(10)
+  [3]=>
+  &int(100)
+  [4]=>
+  int(200)
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing usort() : usage variation ***
+
+-- Sorting $array_arg containing different references --
+bool(true)
+array(5) {
+  [0]=>
+  &int(-5)
+  [1]=>
+  &int(0)
+  [2]=>
+  int(10)
+  [3]=>
+  &int(100)
+  [4]=>
+  int(200)
+}
+===DONE===
+---- FAILED

@@ -1,0 +1,9 @@
+
+---- EXPECTED OUTPUT
+The President of the USA is Barack Hussein Obama II
+The Prime Minister of the UK is David William Donald Cameron
+---- ACTUAL OUTPUT
+Hello World!
+Hello World!Hello World!
+Hello World!
+---- FAILED

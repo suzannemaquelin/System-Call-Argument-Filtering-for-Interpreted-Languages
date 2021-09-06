@@ -1,0 +1,231 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(2)
+int(1)
+int(2)
+object(MyStorage)#1 (2) {
+  ["bla"]=>
+  int(26)
+  ["storage":"SplObjectStorage":private]=>
+  array(2) {
+    ["0000000033e197c7000000002232d6e9"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#2 (1) {
+        ["test"]=>
+        int(1)
+      }
+      ["inf"]=>
+      string(3) "foo"
+    }
+    ["0000000033e197c6000000002232d6e9"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#3 (1) {
+        ["test"]=>
+        int(2)
+      }
+      ["inf"]=>
+      int(42)
+    }
+  }
+}
+string(140) "C:9:"MyStorage":118:{x:i:2;O:9:"TestClass":1:{s:4:"test";i:1;},s:3:"foo";;O:9:"TestClass":1:{s:4:"test";i:2;},i:42;;m:a:1:{s:3:"bla";i:26;}}"
+===UNSERIALIZE===
+int(2)
+int(1)
+int(2)
+object(MyStorage)#4 (2) {
+  ["bla"]=>
+  int(26)
+  ["storage":"SplObjectStorage":private]=>
+  array(2) {
+    ["0000000033e197c0000000002232d6e9"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#5 (1) {
+        ["test"]=>
+        int(1)
+      }
+      ["inf"]=>
+      string(3) "foo"
+    }
+    ["0000000033e197c3000000002232d6e9"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#6 (1) {
+        ["test"]=>
+        int(2)
+      }
+      ["inf"]=>
+      int(42)
+    }
+  }
+}
+===UNSERIALIZE2===
+object(MyStorage)#11 (2) {
+  ["bla"]=>
+  int(26)
+  ["storage":"SplObjectStorage":private]=>
+  array(4) {
+    ["0000000033e197c9000000002232d6e9"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#12 (1) {
+        ["test"]=>
+        int(1)
+      }
+      ["inf"]=>
+      string(3) "foo"
+    }
+    ["0000000033e197c8000000002232d6e9"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#13 (1) {
+        ["test"]=>
+        int(2)
+      }
+      ["inf"]=>
+      int(42)
+    }
+    ["0000000033e197cb000000002232d6e9"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#14 (1) {
+        ["test"]=>
+        int(3)
+      }
+      ["inf"]=>
+      object(stdClass)#15 (0) {
+      }
+    }
+    ["0000000033e197d5000000002232d6e9"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#16 (1) {
+        ["test"]=>
+        int(4)
+      }
+      ["inf"]=>
+      object(TestClass)#17 (1) {
+        ["test"]=>
+        int(5)
+      }
+    }
+  }
+}
+int(1)
+object(TestClass)#3 (1) {
+  ["test"]=>
+  int(2)
+}
+int(42)
+string(3) "bar"
+===UNSERIALIZE3===
+object(MyStorage)#11 (2) {
+  ["bla"]=>
+  int(26)
+  ["storage":"SplObjectStorage":private]=>
+  array(4) {
+    ["0000000033e197d4000000002232d6e9"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#17 (1) {
+        ["test"]=>
+        int(1)
+      }
+      ["inf"]=>
+      string(3) "foo"
+    }
+    ["0000000033e197d5000000002232d6e9"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#16 (1) {
+        ["test"]=>
+        int(2)
+      }
+      ["inf"]=>
+      string(3) "bar"
+    }
+    ["0000000033e197ca000000002232d6e9"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#15 (1) {
+        ["test"]=>
+        int(3)
+      }
+      ["inf"]=>
+      object(stdClass)#14 (0) {
+      }
+    }
+    ["0000000033e197c8000000002232d6e9"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#13 (1) {
+        ["test"]=>
+        int(4)
+      }
+      ["inf"]=>
+      object(TestClass)#12 (1) {
+        ["test"]=>
+        int(5)
+      }
+    }
+  }
+}
+int(2)
+object(TestClass)#7 (1) {
+  ["test"]=>
+  int(3)
+}
+===UNSERIALIZE4===
+object(MyStorage)#8 (2) {
+  ["bla"]=>
+  int(26)
+  ["storage":"SplObjectStorage":private]=>
+  array(4) {
+    ["0000000033e197ce000000002232d6e9"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#11 (1) {
+        ["test"]=>
+        int(1)
+      }
+      ["inf"]=>
+      string(3) "foo"
+    }
+    ["0000000033e197c9000000002232d6e9"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#12 (1) {
+        ["test"]=>
+        int(2)
+      }
+      ["inf"]=>
+      string(3) "bar"
+    }
+    ["0000000033e197c8000000002232d6e9"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#13 (1) {
+        ["test"]=>
+        int(3)
+      }
+      ["inf"]=>
+      string(8) "replaced"
+    }
+    ["0000000033e197cb000000002232d6e9"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#14 (1) {
+        ["test"]=>
+        int(4)
+      }
+      ["inf"]=>
+      object(TestClass)#15 (1) {
+        ["test"]=>
+        int(5)
+      }
+    }
+  }
+}
+===DONE===

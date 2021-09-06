@@ -1,0 +1,37 @@
+*** Testing get_resource_type() : variation test ***
+
+-- bool --
+
+Warning: get_resource_type() expects parameter 1 to be resource, boolean given in %s on line %d
+NULL
+
+-- int 10 --
+
+Warning: get_resource_type() expects parameter 1 to be resource, integer given in %s on line %d
+NULL
+
+-- float 10.5 --
+
+Warning: get_resource_type() expects parameter 1 to be resource, float given in %s on line %d
+NULL
+
+-- string --
+
+Warning: get_resource_type() expects parameter 1 to be resource, string given in %s on line %d
+NULL
+
+-- array --
+
+Warning: get_resource_type() expects parameter 1 to be resource, array given in %s on line %d
+NULL
+
+-- NULL --
+
+Warning: get_resource_type() expects parameter 1 to be resource, null given in %s on line %d
+NULL
+
+-- Object --
+
+Warning: get_resource_type() expects parameter 1 to be resource, object given in %s on line %d
+NULL
+===DONE===

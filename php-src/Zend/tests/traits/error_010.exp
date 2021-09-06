@@ -1,0 +1,1 @@
+Fatal error: Failed to evaluate a trait precedence (test). Method of trait foo was defined to be excluded multiple times in %s on line %d

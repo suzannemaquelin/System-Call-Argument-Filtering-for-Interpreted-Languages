@@ -1,0 +1,45 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+creating send socket
+resource(6) of type (Socket)
+creating receive socket
+resource(7) of type (Socket)
+bool(true)
+int(11)
+array(3) {
+  ["name"]=>
+  array(0) {
+  }
+  ["buffer_size"]=>
+  int(2000)
+  ["controllen"]=>
+  int(32)
+}
+Array
+(
+    [name] => 
+    [control] => Array
+        (
+            [0] => Array
+                (
+                    [level] => 1
+                    [type] => 1
+                    [data] => Array
+                        (
+                            [0] => Resource id #8
+                            [1] => Resource id #9
+                            [2] => Resource id #10
+                            [3] => Resource id #11
+                        )
+
+                )
+
+        )
+
+    [iov] => Array
+        (
+            [0] => test thing
+
+        )
+
+    [flags] => 0
+)

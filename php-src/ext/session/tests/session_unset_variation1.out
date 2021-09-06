@@ -1,0 +1,17 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing session_unset() : variation ***
+bool(false)
+bool(true)
+NULL
+array(1) {
+  ["foo"]=>
+  string(12) "Hello World!"
+}
+bool(true)
+bool(false)
+array(1) {
+  ["foo"]=>
+  string(12) "Hello World!"
+}
+bool(false)
+Done

@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+a: 1 array_key_exists: true property_exists: true
+b: 1 array_key_exists: true property_exists: true
+c: 0 array_key_exists: true property_exists: true
+d: null array_key_exists: true property_exists: true
+e:  array_key_exists: true property_exists: true
+f: Array array_key_exists: true property_exists: true
+z:  array_key_exists: true property_exists: false
+:  array_key_exists: true property_exists: false
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+a: 1 array_key_exists: true property_exists: true
+b: 1 array_key_exists: true property_exists: true
+c: 0 array_key_exists: true property_exists: true
+d: null array_key_exists: true property_exists: true
+e:  array_key_exists: true property_exists: true
+f: Array array_key_exists: true property_exists: true
+z:  array_key_exists: true property_exists: false
+:  array_key_exists: true property_exists: false
+---- FAILED

@@ -1,0 +1,97 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing shuffle() : with arrays having default keys ***
+
+-- input array of integers before shuffle() function is applied --
+array(9) {
+  [0]=>
+  int(0)
+  [1]=>
+  int(10)
+  [2]=>
+  int(20)
+  [3]=>
+  int(30)
+  [4]=>
+  int(40)
+  [5]=>
+  int(50)
+  [6]=>
+  int(60)
+  [7]=>
+  int(70)
+  [8]=>
+  int(80)
+}
+
+-- return value from shuffle() function --
+bool(true)
+
+-- resultant array after shuffle() function is applied --
+array(9) {
+  [0]=>
+  int(80)
+  [1]=>
+  int(40)
+  [2]=>
+  int(0)
+  [3]=>
+  int(70)
+  [4]=>
+  int(20)
+  [5]=>
+  int(50)
+  [6]=>
+  int(10)
+  [7]=>
+  int(30)
+  [8]=>
+  int(60)
+}
+
+-- input array of strings before shuffle() function is applied --
+array(9) {
+  [0]=>
+  string(3) "one"
+  [1]=>
+  string(3) "two"
+  [2]=>
+  string(5) "three"
+  [3]=>
+  string(4) "four"
+  [4]=>
+  string(4) "five"
+  [5]=>
+  string(1) " "
+  [6]=>
+  string(3) "six"
+  [7]=>
+  string(1) " "
+  [8]=>
+  string(5) "seven"
+}
+
+-- return value from shuffle() function --
+bool(true)
+
+-- resultant array after shuffle() function is applied --
+array(9) {
+  [0]=>
+  string(1) " "
+  [1]=>
+  string(4) "four"
+  [2]=>
+  string(5) "three"
+  [3]=>
+  string(3) "six"
+  [4]=>
+  string(1) " "
+  [5]=>
+  string(3) "one"
+  [6]=>
+  string(4) "five"
+  [7]=>
+  string(5) "seven"
+  [8]=>
+  string(3) "two"
+}
+Done

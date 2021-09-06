@@ -1,0 +1,286 @@
+
+---- EXPECTED OUTPUT
+Notice: A non well formed numeric value encountered in %s on line %d
+
+Notice: A non well formed numeric value encountered in %s on line %d
+int(5)
+
+Warning: A non-numeric value encountered in %s on line %d
+
+Warning: A non-numeric value encountered in %s on line %d
+int(0)
+---
+
+Notice: A non well formed numeric value encountered in %s on line %d
+
+Notice: A non well formed numeric value encountered in %s on line %d
+int(-2)
+
+Warning: A non-numeric value encountered in %s on line %d
+
+Warning: A non-numeric value encountered in %s on line %d
+int(0)
+---
+
+Notice: A non well formed numeric value encountered in %s on line %d
+
+Notice: A non well formed numeric value encountered in %s on line %d
+int(143)
+
+Warning: A non-numeric value encountered in %s on line %d
+
+Warning: A non-numeric value encountered in %s on line %d
+int(0)
+---
+
+Notice: A non well formed numeric value encountered in %s on line %d
+
+Notice: A non well formed numeric value encountered in %s on line %d
+float(0.89473684210526)
+
+Warning: A non-numeric value encountered in %s on line %d
+
+Warning: A non-numeric value encountered in %s on line %d
+
+Warning: Division by zero in %s on line %d
+float(NAN)
+---
+
+Notice: A non well formed numeric value encountered in %s on line %d
+
+Notice: A non well formed numeric value encountered in %s on line %d
+float(3.0910586430935E+39)
+
+Warning: A non-numeric value encountered in %s on line %d
+
+Warning: A non-numeric value encountered in %s on line %d
+int(1)
+---
+
+Notice: A non well formed numeric value encountered in %s on line %d
+
+Notice: A non well formed numeric value encountered in %s on line %d
+int(31)
+
+Warning: A non-numeric value encountered in %s on line %d
+
+Warning: A non-numeric value encountered in %s on line %d
+---
+
+Notice: A non well formed numeric value encountered in %s on line %d
+
+Notice: A non well formed numeric value encountered in %s on line %d
+int(%d)
+
+Warning: A non-numeric value encountered in %s on line %d
+
+Warning: A non-numeric value encountered in %s on line %d
+int(0)
+---
+
+Notice: A non well formed numeric value encountered in %s on line %d
+
+Notice: A non well formed numeric value encountered in %s on line %d
+int(0)
+
+Warning: A non-numeric value encountered in %s on line %d
+
+Warning: A non-numeric value encountered in %s on line %d
+int(0)
+---
+
+Notice: A non well formed numeric value encountered in %s on line %d
+int(63)
+
+Notice: A non well formed numeric value encountered in %s on line %d
+int(71)
+
+Warning: A non-numeric value encountered in %s on line %d
+int(73)
+
+Warning: A non-numeric value encountered in %s on line %d
+int(79)
+---
+
+Notice: A non well formed numeric value encountered in %s on line %d
+int(81)
+
+Notice: A non well formed numeric value encountered in %s on line %d
+int(97)
+
+Warning: A non-numeric value encountered in %s on line %d
+int(0)
+
+Warning: A non-numeric value encountered in %s on line %d
+int(0)
+---
+
+Notice: A non well formed numeric value encountered in %s on line %d
+int(28)
+
+Notice: A non well formed numeric value encountered in %s on line %d
+int(252)
+
+Warning: A non-numeric value encountered in %s on line %d
+int(137)
+
+Warning: A non-numeric value encountered in %s on line %d
+int(139)
+---
+
+Notice: A non well formed numeric value encountered in %s on line %d
+int(149)
+
+Warning: A non-numeric value encountered in %s on line %d
+int(0)
+---
+
+Notice: A non well formed numeric value encountered in %s on line %d
+int(-151)
+
+Warning: A non-numeric value encountered in %s on line %d
+int(0)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 3
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 3
+int(5)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 4
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 4
+int(0)
+---
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 6
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 6
+int(-2)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 7
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 7
+int(0)
+---
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 9
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 9
+int(143)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 10
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 10
+int(0)
+---
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 12
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 12
+float(0.89473684210526)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 13
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 13
+
+Warning: Division by zero in /root/php-src/Zend/tests/numeric_string_errors.php on line 13
+float(NAN)
+---
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 15
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 15
+float(3.0910586430935E+39)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 16
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 16
+int(1)
+---
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 18
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 18
+int(31)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 20
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 20
+---
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 24
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 24
+int(360639813910528)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 25
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 25
+int(0)
+---
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 27
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 27
+int(0)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 28
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 28
+int(0)
+---
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 30
+int(63)
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 31
+int(71)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 32
+int(73)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 33
+int(79)
+---
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 35
+int(81)
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 36
+int(97)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 37
+int(0)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 38
+int(0)
+---
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 40
+int(28)
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 41
+int(252)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 42
+int(137)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 43
+int(139)
+---
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 45
+int(149)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 46
+int(0)
+---
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 48
+int(-151)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/numeric_string_errors.php on line 49
+int(0)
+---- FAILED

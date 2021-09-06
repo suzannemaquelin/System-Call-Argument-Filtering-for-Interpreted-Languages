@@ -1,0 +1,5 @@
+Warning: DOMDocument::load%r(XML){0,1}%r(): Opening and ending tag mismatch: title line 5 and book %s
+
+Warning: DOMDocument::load%r(XML){0,1}%r(): expected '>' %s
+
+Warning: DOMDocument::load%r(XML){0,1}%r(): Premature end of data in tag books %s

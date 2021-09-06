@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught TypeError: Argument 1 passed to foo() must be an instance of bar, null given, called in %s on line %d and defined in %s:%d
+Stack trace:
+#0 %s(%d): foo(NULL)
+#1 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught TypeError: Argument 1 passed to foo() must be an instance of bar, null given, called in /root/php-src/Zend/tests/type_declarations/inexistent_class_hint_with_scalar_arg.php on line 4 and defined in /root/php-src/Zend/tests/type_declarations/inexistent_class_hint_with_scalar_arg.php:3
+Stack trace:
+#0 /root/php-src/Zend/tests/type_declarations/inexistent_class_hint_with_scalar_arg.php(4): foo(NULL)
+#1 {main}
+  thrown in /root/php-src/Zend/tests/type_declarations/inexistent_class_hint_with_scalar_arg.php on line 3
+---- FAILED

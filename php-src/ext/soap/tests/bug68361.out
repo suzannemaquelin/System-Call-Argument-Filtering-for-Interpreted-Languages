@@ -1,0 +1,15 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Array
+(
+    [0] => anyType ArrayOfEmployeeReturn[]
+    [1] => struct Employee {
+ int id;
+ string department;
+ string name;
+ int age;
+}
+    [2] => struct User {
+ string name;
+ int age;
+}
+)

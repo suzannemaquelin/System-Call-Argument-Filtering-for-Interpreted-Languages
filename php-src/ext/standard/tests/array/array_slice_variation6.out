@@ -1,0 +1,119 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_slice() : usage variations ***
+
+-- $length is -6 --
+array(0) {
+}
+
+-- $length is -5 --
+array(0) {
+}
+
+-- $length is -4 --
+array(0) {
+}
+
+-- $length is -3 --
+array(1) {
+  [0]=>
+  string(3) "two"
+}
+
+-- $length is -2 --
+array(2) {
+  [0]=>
+  string(3) "two"
+  [1]=>
+  string(5) "three"
+}
+
+-- $length is -1 --
+array(3) {
+  [0]=>
+  string(3) "two"
+  [1]=>
+  string(5) "three"
+  [2]=>
+  string(4) "nine"
+}
+
+-- $length is 0 --
+array(0) {
+}
+
+-- $length is 1 --
+array(1) {
+  [0]=>
+  string(3) "two"
+}
+
+-- $length is 2 --
+array(2) {
+  [0]=>
+  string(3) "two"
+  [1]=>
+  string(5) "three"
+}
+
+-- $length is 3 --
+array(3) {
+  [0]=>
+  string(3) "two"
+  [1]=>
+  string(5) "three"
+  [2]=>
+  string(4) "nine"
+}
+
+-- $length is 4 --
+array(4) {
+  [0]=>
+  string(3) "two"
+  [1]=>
+  string(5) "three"
+  [2]=>
+  string(4) "nine"
+  ["ten"]=>
+  int(10)
+}
+
+-- $length is 5 --
+array(4) {
+  [0]=>
+  string(3) "two"
+  [1]=>
+  string(5) "three"
+  [2]=>
+  string(4) "nine"
+  ["ten"]=>
+  int(10)
+}
+
+-- $length is 6 --
+array(4) {
+  [0]=>
+  string(3) "two"
+  [1]=>
+  string(5) "three"
+  [2]=>
+  string(4) "nine"
+  ["ten"]=>
+  int(10)
+}
+
+-- $length is maximum integer value --
+array(4) {
+  [0]=>
+  string(3) "two"
+  [1]=>
+  string(5) "three"
+  [2]=>
+  string(4) "nine"
+  ["ten"]=>
+  int(10)
+}
+
+-- $length is minimum integer value --
+array(0) {
+}
+Done

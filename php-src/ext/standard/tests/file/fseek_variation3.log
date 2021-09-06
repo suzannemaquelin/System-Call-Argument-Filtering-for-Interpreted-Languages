@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+*** Testing fseek() : variation - beyond file boundaries ***
+--- fseek beyond start of file ---
+int(-1)
+after -4 seek: 
+int(0)
+after seek back 1: 39
+int(-1)
+after seek back 20: 
+--- fseek beyond end of file ---
+int(0)
+31323334353637383900000000000000656e64
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing fseek() : variation - beyond file boundaries ***
+--- fseek beyond start of file ---
+int(-1)
+after -4 seek: 
+int(0)
+after seek back 1: 39
+int(-1)
+after seek back 20: 
+--- fseek beyond end of file ---
+int(0)
+31323334353637383900000000000000656e64
+Done
+---- FAILED

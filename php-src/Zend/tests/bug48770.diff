@@ -1,0 +1,3 @@
+001+ Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+001- %unicode|string%(26) "A::func: This should work!"
+002+ This method shouldn't be called when using parent::func!

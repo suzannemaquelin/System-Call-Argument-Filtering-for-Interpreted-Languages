@@ -1,0 +1,205 @@
+
+---- EXPECTED OUTPUT
+*** Testing checkdate() : usage variation -  unexpected values to first argument $month***
+
+-- float 10.5 --
+bool(true)
+
+-- float -10.5 --
+bool(false)
+
+-- float .5 --
+bool(false)
+
+-- empty array --
+
+Warning: checkdate() expects parameter 1 to be integer, array given in %s on line %d
+bool(false)
+
+-- int indexed array --
+
+Warning: checkdate() expects parameter 1 to be integer, array given in %s on line %d
+bool(false)
+
+-- associative array --
+
+Warning: checkdate() expects parameter 1 to be integer, array given in %s on line %d
+bool(false)
+
+-- nested arrays --
+
+Warning: checkdate() expects parameter 1 to be integer, array given in %s on line %d
+bool(false)
+
+-- uppercase NULL --
+bool(false)
+
+-- lowercase null --
+bool(false)
+
+-- lowercase true --
+bool(true)
+
+-- lowercase false --
+bool(false)
+
+-- uppercase TRUE --
+bool(true)
+
+-- uppercase FALSE --
+bool(false)
+
+-- empty string DQ --
+
+Warning: checkdate() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- empty string SQ --
+
+Warning: checkdate() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- string DQ --
+
+Warning: checkdate() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- string SQ --
+
+Warning: checkdate() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- mixed case string --
+
+Warning: checkdate() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- heredoc --
+
+Warning: checkdate() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- instance of classWithToString --
+
+Warning: checkdate() expects parameter 1 to be integer, object given in %s on line %d
+bool(false)
+
+-- instance of classWithoutToString --
+
+Warning: checkdate() expects parameter 1 to be integer, object given in %s on line %d
+bool(false)
+
+-- undefined var --
+bool(false)
+
+-- unset var --
+bool(false)
+
+-- resource --
+
+Warning: checkdate() expects parameter 1 to be integer, resource given in %s on line %d
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing checkdate() : usage variation -  unexpected values to first argument $month***
+
+-- float 10.5 --
+bool(true)
+
+-- float -10.5 --
+bool(false)
+
+-- float .5 --
+bool(false)
+
+-- empty array --
+
+Warning: checkdate() expects parameter 1 to be integer, array given in /root/php-src/ext/date/tests/checkdate_variation1.php on line 90
+bool(false)
+
+-- int indexed array --
+
+Warning: checkdate() expects parameter 1 to be integer, array given in /root/php-src/ext/date/tests/checkdate_variation1.php on line 90
+bool(false)
+
+-- associative array --
+
+Warning: checkdate() expects parameter 1 to be integer, array given in /root/php-src/ext/date/tests/checkdate_variation1.php on line 90
+bool(false)
+
+-- nested arrays --
+
+Warning: checkdate() expects parameter 1 to be integer, array given in /root/php-src/ext/date/tests/checkdate_variation1.php on line 90
+bool(false)
+
+-- uppercase NULL --
+bool(false)
+
+-- lowercase null --
+bool(false)
+
+-- lowercase true --
+bool(true)
+
+-- lowercase false --
+bool(false)
+
+-- uppercase TRUE --
+bool(true)
+
+-- uppercase FALSE --
+bool(false)
+
+-- empty string DQ --
+
+Warning: checkdate() expects parameter 1 to be integer, string given in /root/php-src/ext/date/tests/checkdate_variation1.php on line 90
+bool(false)
+
+-- empty string SQ --
+
+Warning: checkdate() expects parameter 1 to be integer, string given in /root/php-src/ext/date/tests/checkdate_variation1.php on line 90
+bool(false)
+
+-- string DQ --
+
+Warning: checkdate() expects parameter 1 to be integer, string given in /root/php-src/ext/date/tests/checkdate_variation1.php on line 90
+bool(false)
+
+-- string SQ --
+
+Warning: checkdate() expects parameter 1 to be integer, string given in /root/php-src/ext/date/tests/checkdate_variation1.php on line 90
+bool(false)
+
+-- mixed case string --
+
+Warning: checkdate() expects parameter 1 to be integer, string given in /root/php-src/ext/date/tests/checkdate_variation1.php on line 90
+bool(false)
+
+-- heredoc --
+
+Warning: checkdate() expects parameter 1 to be integer, string given in /root/php-src/ext/date/tests/checkdate_variation1.php on line 90
+bool(false)
+
+-- instance of classWithToString --
+
+Warning: checkdate() expects parameter 1 to be integer, object given in /root/php-src/ext/date/tests/checkdate_variation1.php on line 90
+bool(false)
+
+-- instance of classWithoutToString --
+
+Warning: checkdate() expects parameter 1 to be integer, object given in /root/php-src/ext/date/tests/checkdate_variation1.php on line 90
+bool(false)
+
+-- undefined var --
+bool(false)
+
+-- unset var --
+bool(false)
+
+-- resource --
+
+Warning: checkdate() expects parameter 1 to be integer, resource given in /root/php-src/ext/date/tests/checkdate_variation1.php on line 90
+bool(false)
+===DONE===
+---- FAILED

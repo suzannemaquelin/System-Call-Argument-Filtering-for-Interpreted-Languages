@@ -1,0 +1,53 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(5) "array"
+
+Warning: ini_get_all(): Unable to find extension '' in /root/php-src/ext/standard/tests/general_functions/ini_get_all.php on line 4
+bool(false)
+
+Warning: ini_get_all(): Unable to find extension 'nosuchextension' in /root/php-src/ext/standard/tests/general_functions/ini_get_all.php on line 5
+bool(false)
+array(0) {
+}
+array(3) {
+  ["pcre.backtrack_limit"]=>
+  array(3) {
+    ["global_value"]=>
+    string(7) "1000000"
+    ["local_value"]=>
+    string(7) "1000000"
+    ["access"]=>
+    int(7)
+  }
+  ["pcre.jit"]=>
+  array(3) {
+    ["global_value"]=>
+    string(1) "1"
+    ["local_value"]=>
+    string(1) "1"
+    ["access"]=>
+    int(7)
+  }
+  ["pcre.recursion_limit"]=>
+  array(3) {
+    ["global_value"]=>
+    string(6) "100000"
+    ["local_value"]=>
+    string(6) "100000"
+    ["access"]=>
+    int(7)
+  }
+}
+array(3) {
+  ["pcre.backtrack_limit"]=>
+  string(7) "1000000"
+  ["pcre.jit"]=>
+  string(1) "1"
+  ["pcre.recursion_limit"]=>
+  string(6) "100000"
+}
+array(0) {
+}
+
+Warning: ini_get_all(): Unable to find extension '' in /root/php-src/ext/standard/tests/general_functions/ini_get_all.php on line 11
+bool(false)
+Done

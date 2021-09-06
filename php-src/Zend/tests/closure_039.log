@@ -1,0 +1,41 @@
+
+---- EXPECTED OUTPUT
+int(-4)
+Testing with scope given as object
+int(21)
+int(22)
+Testing with scope as string
+int(23)
+int(24)
+
+Fatal error: Uncaught Error: Cannot access private property B::$x in %s:%d
+Stack trace:
+#0 %s(%d): Closure->{closure}()
+#1 {main}
+
+Next Error: Cannot access private property B::$x in %s:%d
+Stack trace:
+#0 %s(%d): Closure->{closure}()
+#1 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(-4)
+Testing with scope given as object
+int(21)
+int(22)
+Testing with scope as string
+int(23)
+int(24)
+
+Fatal error: Uncaught Error: Cannot access private property B::$x in /root/php-src/Zend/tests/closure_039.php:11
+Stack trace:
+#0 /root/php-src/Zend/tests/closure_039.php(43): Closure->{closure}()
+#1 {main}
+
+Next Error: Cannot access private property B::$x in /root/php-src/Zend/tests/closure_039.php:11
+Stack trace:
+#0 /root/php-src/Zend/tests/closure_039.php(43): Closure->{closure}()
+#1 {main}
+  thrown in /root/php-src/Zend/tests/closure_039.php on line 11
+---- FAILED

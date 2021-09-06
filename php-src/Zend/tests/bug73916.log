@@ -1,0 +1,7 @@
+
+---- EXPECTED OUTPUT
+#0  test(Array ([0] => Array ([0] => a),[1] => b Object ())) called at [%sbug73916.php:%d]
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+#0  test(Array ([0] => Array ([0] => a),[1] => b Object ())) called at [/root/php-src/Zend/tests/bug73916.php:7]
+---- FAILED

@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(SimpleXMLElement)#2 (3) {
+  ["@attributes"]=>
+  array(1) {
+    ["id"]=>
+    string(5) "elem1"
+  }
+  ["elem1"]=>
+  string(10) "Bla bla 1."
+  ["elem11"]=>
+  string(10) "Bla bla 2."
+}
+===DONE===

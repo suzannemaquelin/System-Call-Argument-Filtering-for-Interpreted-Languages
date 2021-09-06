@@ -1,0 +1,96 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing gmmktime() : usage variation ***
+
+--float 10.5--
+int(1218183008)
+
+--float -10.5--
+int(1218181808)
+
+--float .5--
+int(1218182408)
+
+--empty array--
+
+Warning: gmmktime() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/gmmktime_variation2.php on line 91
+bool(false)
+
+--int indexed array--
+
+Warning: gmmktime() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/gmmktime_variation2.php on line 91
+bool(false)
+
+--associative array--
+
+Warning: gmmktime() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/gmmktime_variation2.php on line 91
+bool(false)
+
+--nested arrays--
+
+Warning: gmmktime() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/gmmktime_variation2.php on line 91
+bool(false)
+
+--uppercase NULL--
+int(1218182408)
+
+--lowercase null--
+int(1218182408)
+
+--lowercase true--
+int(1218182468)
+
+--lowercase false--
+int(1218182408)
+
+--uppercase TRUE--
+int(1218182468)
+
+--uppercase FALSE--
+int(1218182408)
+
+--empty string DQ--
+
+Warning: gmmktime() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/gmmktime_variation2.php on line 91
+bool(false)
+
+--empty string SQ--
+
+Warning: gmmktime() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/gmmktime_variation2.php on line 91
+bool(false)
+
+--string DQ--
+
+Warning: gmmktime() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/gmmktime_variation2.php on line 91
+bool(false)
+
+--string SQ--
+
+Warning: gmmktime() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/gmmktime_variation2.php on line 91
+bool(false)
+
+--mixed case string--
+
+Warning: gmmktime() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/gmmktime_variation2.php on line 91
+bool(false)
+
+--heredoc--
+
+Warning: gmmktime() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/gmmktime_variation2.php on line 91
+bool(false)
+
+--instance of classWithToString--
+
+Warning: gmmktime() expects parameter 2 to be integer, object given in /root/php-src/ext/date/tests/gmmktime_variation2.php on line 91
+bool(false)
+
+--instance of classWithoutToString--
+
+Warning: gmmktime() expects parameter 2 to be integer, object given in /root/php-src/ext/date/tests/gmmktime_variation2.php on line 91
+bool(false)
+
+--undefined var--
+int(1218182408)
+
+--unset var--
+int(1218182408)
+===DONE===

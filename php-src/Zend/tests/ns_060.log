@@ -1,0 +1,13 @@
+
+---- EXPECTED OUTPUT
+Bar\A
+Foo\A
+Foo\A
+Bar\A
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Bar\A
+Foo\A
+Foo\A
+Bar\A
+---- FAILED

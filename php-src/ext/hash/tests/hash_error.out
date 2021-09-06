@@ -1,0 +1,21 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing hash() : error conditions ***
+
+-- Testing hash() function with less than expected no. of arguments --
+
+Warning: hash() expects at least 2 parameters, 0 given in /root/php-src/ext/hash/tests/hash_error.php on line 11
+NULL
+
+Warning: hash() expects at least 2 parameters, 1 given in /root/php-src/ext/hash/tests/hash_error.php on line 12
+NULL
+
+-- Testing hash() function with more than expected no. of arguments --
+
+Warning: hash() expects at most 3 parameters, 4 given in /root/php-src/ext/hash/tests/hash_error.php on line 16
+NULL
+
+-- Testing hash() function with invalid hash algorithm --
+
+Warning: hash(): Unknown hashing algorithm: foo in /root/php-src/ext/hash/tests/hash_error.php on line 19
+bool(false)
+===Done===

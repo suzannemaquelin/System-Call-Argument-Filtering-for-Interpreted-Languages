@@ -1,0 +1,10 @@
+Warning: SplPriorityQueue::insert() expects exactly 2 parameters, 0 given in %s on line 7
+NULL
+
+Warning: SplPriorityQueue::insert() expects exactly 2 parameters, 1 given in %s on line 8
+NULL
+bool(true)
+
+Warning: SplPriorityQueue::insert() expects exactly 2 parameters, 3 given in %s on line 10
+NULL
+===DONE===

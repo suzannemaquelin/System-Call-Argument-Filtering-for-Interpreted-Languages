@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+*** Testing mb_strrichr() : error conditions ***
+
+-- Testing mb_strrichr() function with more than expected no. of arguments --
+
+Warning: mb_strrichr() expects at most 4 parameters, 5 given in %s on line %d
+NULL
+
+-- Testing mb_strrichr() function with less than expected no. of arguments --
+
+Warning: mb_strrichr() expects at least 2 parameters, 1 given in %s on line %d
+NULL
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_strrichr() : error conditions ***
+
+-- Testing mb_strrichr() function with more than expected no. of arguments --
+
+Warning: mb_strrichr() expects at most 4 parameters, 5 given in /root/php-src/ext/mbstring/tests/mb_strrichr_error1.php on line 18
+NULL
+
+-- Testing mb_strrichr() function with less than expected no. of arguments --
+
+Warning: mb_strrichr() expects at least 2 parameters, 1 given in /root/php-src/ext/mbstring/tests/mb_strrichr_error1.php on line 23
+NULL
+===DONE===
+---- FAILED

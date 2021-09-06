@@ -1,0 +1,8 @@
+001+ Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+001- Hello World!
+002+ 
+003+ Warning: file_get_contents(): SSL: Connection reset by peer in /root/php-src/ext/openssl/tests/ServerClientTestCase.inc(96) : eval()'d code on line 10
+004+ 
+005+ Warning: file_get_contents(): Failed to enable crypto in /root/php-src/ext/openssl/tests/ServerClientTestCase.inc(96) : eval()'d code on line 10
+006+ 
+007+ Warning: file_get_contents(https://127.0.0.1:64321/): failed to open stream: operation failed in /root/php-src/ext/openssl/tests/ServerClientTestCase.inc(96) : eval()'d code on line 10

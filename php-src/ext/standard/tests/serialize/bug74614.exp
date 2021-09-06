@@ -1,0 +1,3 @@
+Warning: unserialize(): %s in %sbug74614.php on line %d
+
+Notice: unserialize(): Error at offset %d of 113 bytes in %s on line %d

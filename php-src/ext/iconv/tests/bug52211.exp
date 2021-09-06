@@ -1,0 +1,2 @@
+Notice: iconv(): Detected an illegal character in input string in %s on line %d
+bool(false)

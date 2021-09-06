@@ -1,0 +1,6 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+UnexpectedValueException: phar error: corrupted central directory entry, no magic signature in zip-based phar "/root/php-src/ext/phar/tests/bug69441.phar" in /root/php-src/ext/phar/tests/bug69441.php:4
+Stack trace:
+#0 /root/php-src/ext/phar/tests/bug69441.php(4): Phar->__construct('/root/php-src/e...', 0)
+#1 {main}
+==DONE==

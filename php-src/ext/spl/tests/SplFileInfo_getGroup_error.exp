@@ -1,0 +1,5 @@
+Fatal error: Uncaught RuntimeException: SplFileInfo::getGroup(): stat failed for not_existing in %s
+Stack trace:
+#0 %s: SplFileInfo->getGroup()
+#1 {main}
+  thrown in %s on line %d

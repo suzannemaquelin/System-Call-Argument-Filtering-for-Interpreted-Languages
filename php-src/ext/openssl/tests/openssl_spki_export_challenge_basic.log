@@ -1,0 +1,101 @@
+
+---- EXPECTED OUTPUT
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+string\(36\) \"[0-9a-f]{8}\-([0-9a-f]{4}\-){3}[0-9a-f]{12}\"
+bool\(false\)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(36) "f307a3a0-0ea2-48a9-b9dd-d1ead058f433"
+bool(false)
+string(36) "b60cfe84-cd36-4777-96e6-bcf76f608907"
+bool(false)
+string(36) "b592c9aa-d738-47dc-bdf8-1b2cd72d55fb"
+bool(false)
+string(36) "ce434ef0-6480-452e-b143-6b1cd045c98e"
+bool(false)
+string(36) "a7b036ac-d936-4800-8301-627afc6f482b"
+bool(false)
+string(36) "53382bcf-f6a4-44b9-9705-af389c0db77e"
+bool(false)
+string(36) "2cc3d6dd-bb04-4c9f-8b5b-c1bd39785c9a"
+bool(false)
+string(36) "b29daff3-be98-4d9b-bccd-3d983208b074"
+bool(false)
+string(36) "2032963f-fe9e-479b-9cb1-3c93f635b13b"
+bool(false)
+string(36) "0269e371-a88e-4f3c-b8ae-bdf03a32e5c7"
+bool(false)
+string(36) "a3de04f9-849c-41ee-8cac-c2ca85c22ba3"
+bool(false)
+string(36) "40f65b34-f500-4ea5-8402-b03c489d17d6"
+bool(false)
+string(36) "cfc313b8-d0f7-4162-96d8-37faba25e378"
+bool(false)
+string(36) "4d9054b9-39ed-4e52-8373-0e56ed26b2c4"
+bool(false)
+string(36) "51e36dd3-3520-4d2b-bc3c-7ca4885064d8"
+bool(false)
+string(36) "3c714c5b-6c2b-4098-8d15-f666efee73b4"
+bool(false)
+string(36) "612a415f-6179-4b57-aa55-f918a4370400"
+bool(false)
+string(36) "9158d051-d6c3-4f17-a6f8-090aefaa30e4"
+bool(false)
+string(36) "a3081ee4-15f5-463f-ac31-7100c49f3934"
+bool(false)
+string(36) "b6bea15b-6dc2-48eb-b2af-e6195f131222"
+bool(false)
+string(36) "76724af4-fbd1-49ee-9ada-02abd029b78a"
+bool(false)
+string(36) "1bcac387-27fa-462a-a2ad-ab33e97f09e6"
+bool(false)
+string(36) "0e20e997-3bf7-41eb-b195-94e4668c3748"
+bool(false)
+string(36) "1e714541-0989-488f-a702-bf87cfbccb3b"
+bool(false)
+---- FAILED

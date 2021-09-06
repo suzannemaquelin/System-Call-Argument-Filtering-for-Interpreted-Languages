@@ -1,0 +1,28 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: openssl_encrypt(): Unknown cipher algorithm in /root/php-src/ext/openssl/tests/openssl_encrypt_error.php on line 11
+bool(false)
+
+Warning: openssl_encrypt() expects parameter 1 to be string, object given in /root/php-src/ext/openssl/tests/openssl_encrypt_error.php on line 12
+NULL
+
+Warning: openssl_encrypt() expects parameter 2 to be string, object given in /root/php-src/ext/openssl/tests/openssl_encrypt_error.php on line 13
+NULL
+
+Warning: openssl_encrypt() expects parameter 3 to be string, object given in /root/php-src/ext/openssl/tests/openssl_encrypt_error.php on line 14
+NULL
+
+Warning: openssl_encrypt() expects parameter 1 to be string, array given in /root/php-src/ext/openssl/tests/openssl_encrypt_error.php on line 15
+NULL
+
+Warning: openssl_encrypt() expects parameter 2 to be string, array given in /root/php-src/ext/openssl/tests/openssl_encrypt_error.php on line 16
+NULL
+
+Warning: openssl_encrypt() expects parameter 3 to be string, array given in /root/php-src/ext/openssl/tests/openssl_encrypt_error.php on line 17
+NULL
+
+Warning: openssl_encrypt(): The authenticated tag cannot be provided for cipher that doesn not support AEAD in /root/php-src/ext/openssl/tests/openssl_encrypt_error.php on line 20
+string(44) "iPR4HulskuaP5Z6me5uImk6BqVyJG73+63tkPauVZYk="
+
+Warning: openssl_encrypt(): Key length cannot be set for the cipher method in /root/php-src/ext/openssl/tests/openssl_encrypt_error.php on line 23
+bool(false)

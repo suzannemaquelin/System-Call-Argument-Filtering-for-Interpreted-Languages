@@ -1,0 +1,2 @@
+Notice: unserialize(): Error at offset 43 of 145 bytes in %s on line %d
+bool(false)

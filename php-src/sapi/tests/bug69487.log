@@ -1,0 +1,22 @@
+
+---- EXPECTED OUTPUT
+Warning: Unknown: Unable to create temporary file, Check permissions in temporary files directory. in Unknown on line 0
+
+Warning: Unknown: POST data can't be buffered; all data discarded in Unknown on line 0
+
+Warning: Cannot modify header information - headers already sent in Unknown on line 0
+bool(false)
+int(0)
+---- ACTUAL OUTPUT
+Warning: Unknown: Unable to create temporary file, Check permissions in temporary files directory. in Unknown on line 0
+
+Warning: Unknown: POST data can't be buffered; all data discarded in Unknown on line 0
+
+Warning: Cannot modify header information - headers already sent in Unknown on line 0
+bool(false)
+int(0)
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so: cannot open shared object file: No such file or directory in Unknown on line 0
+---- FAILED

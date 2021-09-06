@@ -1,0 +1,11 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(4) "Body"
+array(3) {
+  [0]=>
+  string(15) "HTTP/1.0 200 Ok"
+  [1]=>
+  string(12) "Some: Header"
+  [2]=>
+  string(12) "Some: Header"
+}
+==DONE==

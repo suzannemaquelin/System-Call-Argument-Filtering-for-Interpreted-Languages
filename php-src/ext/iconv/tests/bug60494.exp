@@ -1,0 +1,9 @@
+Notice: iconv_mime_decode(): Detected an illegal character in input string in %s on line %d
+bool(false)
+
+Notice: iconv_mime_decode(): Detected an illegal character in input string in %s on line %d
+bool(false)
+
+Notice: iconv_mime_decode(): Detected an illegal character in input string in %s on line %d
+bool(false)
+===DONE===

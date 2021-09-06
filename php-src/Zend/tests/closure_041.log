@@ -1,0 +1,71 @@
+
+---- EXPECTED OUTPUT
+Before binding
+scoped to A: bool(false)
+bound: no
+scoped to A: bool(false)
+bound: no
+scoped to A: bool(true)
+bound: no
+scoped to A: bool(true)
+bound: A
+After binding, no instance
+scoped to A: bool(false)
+bound: no
+scoped to A: bool(false)
+bound: no
+scoped to A: bool(true)
+bound: no
+scoped to A: bool(true)
+bound: no
+After binding, with same-class instance for the bound ones
+
+Warning: Cannot bind an instance to a static closure in %s on line %d
+scoped to A: bool(false)
+bound: A (should be scoped to dummy class)
+
+Warning: Cannot bind an instance to a static closure in %s on line %d
+scoped to A: bool(true)
+bound: A
+After binding, with different instance for the bound ones
+scoped to A: bool(false)
+bound: B (should be scoped to dummy class)
+scoped to A: bool(true)
+bound: B
+Done.
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Before binding
+scoped to A: bool(false)
+bound: no
+scoped to A: bool(false)
+bound: no
+scoped to A: bool(true)
+bound: no
+scoped to A: bool(true)
+bound: A
+After binding, no instance
+scoped to A: bool(false)
+bound: no
+scoped to A: bool(false)
+bound: no
+scoped to A: bool(true)
+bound: no
+scoped to A: bool(true)
+bound: no
+After binding, with same-class instance for the bound ones
+
+Warning: Cannot bind an instance to a static closure in /root/php-src/Zend/tests/closure_041.php on line 53
+scoped to A: bool(false)
+bound: A (should be scoped to dummy class)
+
+Warning: Cannot bind an instance to a static closure in /root/php-src/Zend/tests/closure_041.php on line 55
+scoped to A: bool(true)
+bound: A
+After binding, with different instance for the bound ones
+scoped to A: bool(false)
+bound: B (should be scoped to dummy class)
+scoped to A: bool(true)
+bound: B
+Done.
+---- FAILED

@@ -1,0 +1,6 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; A has a deprecated constructor in /root/php-src/Zend/tests/bug40784.php on line 3
+I'm A
+I'm A
+Done

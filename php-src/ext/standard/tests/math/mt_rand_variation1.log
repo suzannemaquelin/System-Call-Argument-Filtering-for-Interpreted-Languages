@@ -1,0 +1,197 @@
+
+---- EXPECTED OUTPUT
+*** Testing mt_rand() : usage variations ***
+
+-- Iteration 1 --
+int(%i)
+
+-- Iteration 2 --
+int(%i)
+
+-- Iteration 3 --
+int(%i)
+
+-- Iteration 4 --
+int(%i)
+
+-- Iteration 5 --
+int(%i)
+
+-- Iteration 6 --
+int(%i)
+
+-- Iteration 7 --
+int(%i)
+
+-- Iteration 8 --
+int(%i)
+
+-- Iteration 9 --
+int(%i)
+
+-- Iteration 10 --
+int(%i)
+
+-- Iteration 11 --
+int(%i)
+
+-- Iteration 12 --
+int(%i)
+
+-- Iteration 13 --
+int(%i)
+
+-- Iteration 14 --
+int(%i)
+
+-- Iteration 15 --
+int(%i)
+
+-- Iteration 16 --
+int(%i)
+
+-- Iteration 17 --
+
+Warning: mt_rand() expects parameter 1 to be integer, string given in %s on line %d
+NULL
+
+-- Iteration 18 --
+
+Warning: mt_rand() expects parameter 1 to be integer, string given in %s on line %d
+NULL
+
+-- Iteration 19 --
+
+Warning: mt_rand() expects parameter 1 to be integer, array given in %s on line %d
+NULL
+
+-- Iteration 20 --
+
+Warning: mt_rand() expects parameter 1 to be integer, string given in %s on line %d
+NULL
+
+-- Iteration 21 --
+
+Warning: mt_rand() expects parameter 1 to be integer, string given in %s on line %d
+NULL
+
+-- Iteration 22 --
+
+Warning: mt_rand() expects parameter 1 to be integer, string given in %s on line %d
+NULL
+
+-- Iteration 23 --
+
+Warning: mt_rand() expects parameter 1 to be integer, object given in %s on line %d
+NULL
+
+-- Iteration 24 --
+int(%i)
+
+-- Iteration 25 --
+int(%i)
+
+-- Iteration 26 --
+
+Warning: mt_rand() expects parameter 1 to be integer, resource given in %s on line %d
+NULL
+===Done===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mt_rand() : usage variations ***
+
+-- Iteration 1 --
+int(1774633825)
+
+-- Iteration 2 --
+int(2129503475)
+
+-- Iteration 3 --
+int(969782834)
+
+-- Iteration 4 --
+int(703400505)
+
+-- Iteration 5 --
+int(2147483647)
+
+-- Iteration 6 --
+int(1296956666)
+
+-- Iteration 7 --
+int(1788946161)
+
+-- Iteration 8 --
+int(1964433448)
+
+-- Iteration 9 --
+int(829895569)
+
+-- Iteration 10 --
+int(902192763)
+
+-- Iteration 11 --
+int(674233821)
+
+-- Iteration 12 --
+int(273284477)
+
+-- Iteration 13 --
+int(1188793346)
+
+-- Iteration 14 --
+int(1980095314)
+
+-- Iteration 15 --
+int(877461935)
+
+-- Iteration 16 --
+int(919569102)
+
+-- Iteration 17 --
+
+Warning: mt_rand() expects parameter 1 to be integer, string given in /root/php-src/ext/standard/tests/math/mt_rand_variation1.php on line 79
+NULL
+
+-- Iteration 18 --
+
+Warning: mt_rand() expects parameter 1 to be integer, string given in /root/php-src/ext/standard/tests/math/mt_rand_variation1.php on line 79
+NULL
+
+-- Iteration 19 --
+
+Warning: mt_rand() expects parameter 1 to be integer, array given in /root/php-src/ext/standard/tests/math/mt_rand_variation1.php on line 79
+NULL
+
+-- Iteration 20 --
+
+Warning: mt_rand() expects parameter 1 to be integer, string given in /root/php-src/ext/standard/tests/math/mt_rand_variation1.php on line 79
+NULL
+
+-- Iteration 21 --
+
+Warning: mt_rand() expects parameter 1 to be integer, string given in /root/php-src/ext/standard/tests/math/mt_rand_variation1.php on line 79
+NULL
+
+-- Iteration 22 --
+
+Warning: mt_rand() expects parameter 1 to be integer, string given in /root/php-src/ext/standard/tests/math/mt_rand_variation1.php on line 79
+NULL
+
+-- Iteration 23 --
+
+Warning: mt_rand() expects parameter 1 to be integer, object given in /root/php-src/ext/standard/tests/math/mt_rand_variation1.php on line 79
+NULL
+
+-- Iteration 24 --
+int(1976145275)
+
+-- Iteration 25 --
+int(1594071510)
+
+-- Iteration 26 --
+
+Warning: mt_rand() expects parameter 1 to be integer, resource given in /root/php-src/ext/standard/tests/math/mt_rand_variation1.php on line 79
+NULL
+===Done===
+---- FAILED

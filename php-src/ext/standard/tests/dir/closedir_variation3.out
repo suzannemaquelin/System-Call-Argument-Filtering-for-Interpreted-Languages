@@ -1,0 +1,14 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing closedir() : usage variations ***
+
+-- Open a file using fopen() --
+resource(5) of type (stream)
+
+-- Try to close the file pointer using closedir() --
+
+Warning: closedir(): 5 is not a valid Directory resource in /root/php-src/ext/standard/tests/dir/closedir_variation3.php on line 18
+bool(false)
+
+-- Check file pointer: --
+resource(5) of type (stream)
+===DONE===

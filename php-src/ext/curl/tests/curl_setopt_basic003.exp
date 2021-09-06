@@ -1,0 +1,5 @@
+*** curl_setopt() call with CURLOPT_HTTPHEADER
+
+Warning: curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in %s on line %d
+bool(false)
+bool(true)

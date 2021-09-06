@@ -1,0 +1,14 @@
+
+---- EXPECTED OUTPUT
+Notice: Undefined variable: nonesuchvar in %s on line %d
+
+Warning: array_walk() expects parameter 2 to be a valid callback, first array member is not a valid class name or object in %s on line %d
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined variable: nonesuchvar in /root/php-src/Zend/tests/bug31720.php on line 4
+
+Warning: array_walk() expects parameter 2 to be a valid callback, first array member is not a valid class name or object in /root/php-src/Zend/tests/bug31720.php on line 4
+===DONE===
+---- FAILED

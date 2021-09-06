@@ -1,0 +1,93 @@
+
+---- EXPECTED OUTPUT
+*** Testing pathinfo() : usage variation ***
+array(4) {
+  ["dirname"]=>
+  string(1) "."
+  ["basename"]=>
+  string(1) "."
+  ["extension"]=>
+  string(0) ""
+  ["filename"]=>
+  string(0) ""
+}
+array(4) {
+  ["dirname"]=>
+  string(1) "%s"
+  ["basename"]=>
+  string(1) "."
+  ["extension"]=>
+  string(0) ""
+  ["filename"]=>
+  string(0) ""
+}
+array(4) {
+  ["dirname"]=>
+  string(1) "."
+  ["basename"]=>
+  string(10) ".cvsignore"
+  ["extension"]=>
+  string(9) "cvsignore"
+  ["filename"]=>
+  string(0) ""
+}
+string(6) "inet.h"
+string(4) "inet"
+string(1) "h"
+string(17) "/usr/include/arpa"
+string(17) "/usr/include/arpa"
+string(6) "inet.h"
+string(1) "h"
+string(6) "inet.h"
+string(17) "/usr/include/arpa"
+string(6) "inet.h"
+string(17) "/usr/include/arpa"
+string(17) "/usr/include/arpa"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing pathinfo() : usage variation ***
+array(4) {
+  ["dirname"]=>
+  string(1) "."
+  ["basename"]=>
+  string(1) "."
+  ["extension"]=>
+  string(0) ""
+  ["filename"]=>
+  string(0) ""
+}
+array(4) {
+  ["dirname"]=>
+  string(1) "/"
+  ["basename"]=>
+  string(1) "."
+  ["extension"]=>
+  string(0) ""
+  ["filename"]=>
+  string(0) ""
+}
+array(4) {
+  ["dirname"]=>
+  string(1) "."
+  ["basename"]=>
+  string(10) ".cvsignore"
+  ["extension"]=>
+  string(9) "cvsignore"
+  ["filename"]=>
+  string(0) ""
+}
+string(6) "inet.h"
+string(4) "inet"
+string(1) "h"
+string(17) "/usr/include/arpa"
+string(17) "/usr/include/arpa"
+string(6) "inet.h"
+string(1) "h"
+string(6) "inet.h"
+string(17) "/usr/include/arpa"
+string(6) "inet.h"
+string(17) "/usr/include/arpa"
+string(17) "/usr/include/arpa"
+===DONE===
+---- FAILED

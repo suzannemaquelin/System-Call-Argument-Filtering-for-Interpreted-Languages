@@ -1,0 +1,24 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Class [ <user> class just_constants ] {
+  @@ /root/php-src/ext/reflection/tests/bug29986.php 2-9
+
+  - Constants [5] {
+    Constant [ public boolean BOOLEAN_CONSTANT ] { 1 }
+    Constant [ public null NULL_CONSTANT ] {  }
+    Constant [ public string STRING_CONSTANT ] { This is a string }
+    Constant [ public integer INTEGER_CONSTANT ] { 1000 }
+    Constant [ public float FLOAT_CONSTANT ] { 3.14159265 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}

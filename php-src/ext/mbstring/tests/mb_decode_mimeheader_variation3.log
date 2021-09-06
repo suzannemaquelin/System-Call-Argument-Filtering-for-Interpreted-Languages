@@ -1,0 +1,11 @@
+
+---- EXPECTED OUTPUT
+*** Testing mb_decode_mimeheader() : variation ***
+string(48) "e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f3f4f5f6f7f8f9"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_decode_mimeheader() : variation ***
+string(48) "e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f3f4f5f6f7f8f9"
+===DONE===
+---- FAILED

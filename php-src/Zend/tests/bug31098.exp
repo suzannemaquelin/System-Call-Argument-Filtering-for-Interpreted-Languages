@@ -1,0 +1,23 @@
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+ok
+ok
+ok
+ok
+ok
+ok
+ok
+
+Notice: Trying to get property of non-object in %s on line %d
+ok
+
+Warning: Illegal string offset 'wrong' in %s on line %d
+ok
+ok
+
+Warning: Illegal string offset 'wrong' in %s on line %d
+ok

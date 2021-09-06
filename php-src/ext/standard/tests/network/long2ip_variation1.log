@@ -1,0 +1,179 @@
+
+---- EXPECTED OUTPUT
+*** Testing long2ip() : usage variation ***
+
+--float 10.5--
+string(8) "0.0.0.10"
+
+--float -10.5--
+string(15) "255.255.255.246"
+
+--float .5--
+string(7) "0.0.0.0"
+
+--empty array--
+Error: 2 - long2ip() expects parameter 1 to be integer, array given, %slong2ip_variation1.php(%d)
+NULL
+
+--int indexed array--
+Error: 2 - long2ip() expects parameter 1 to be integer, array given, %slong2ip_variation1.php(%d)
+NULL
+
+--associative array--
+Error: 2 - long2ip() expects parameter 1 to be integer, array given, %slong2ip_variation1.php(%d)
+NULL
+
+--nested arrays--
+Error: 2 - long2ip() expects parameter 1 to be integer, array given, %slong2ip_variation1.php(%d)
+NULL
+
+--uppercase NULL--
+string(7) "0.0.0.0"
+
+--lowercase null--
+string(7) "0.0.0.0"
+
+--lowercase true--
+string(7) "0.0.0.1"
+
+--lowercase false--
+string(7) "0.0.0.0"
+
+--uppercase TRUE--
+string(7) "0.0.0.1"
+
+--uppercase FALSE--
+string(7) "0.0.0.0"
+
+--empty string DQ--
+Error: 2 - long2ip() expects parameter 1 to be integer, string given, %slong2ip_variation1.php(%d)
+NULL
+
+--empty string SQ--
+Error: 2 - long2ip() expects parameter 1 to be integer, string given, %slong2ip_variation1.php(%d)
+NULL
+
+--string DQ--
+Error: 2 - long2ip() expects parameter 1 to be integer, string given, %slong2ip_variation1.php(%d)
+NULL
+
+--string SQ--
+Error: 2 - long2ip() expects parameter 1 to be integer, string given, %slong2ip_variation1.php(%d)
+NULL
+
+--mixed case string--
+Error: 2 - long2ip() expects parameter 1 to be integer, string given, %slong2ip_variation1.php(%d)
+NULL
+
+--heredoc--
+Error: 2 - long2ip() expects parameter 1 to be integer, string given, %slong2ip_variation1.php(%d)
+NULL
+
+--instance of classWithToString--
+Error: 2 - long2ip() expects parameter 1 to be integer, object given, %slong2ip_variation1.php(%d)
+NULL
+
+--instance of classWithoutToString--
+Error: 2 - long2ip() expects parameter 1 to be integer, object given, %slong2ip_variation1.php(%d)
+NULL
+
+--undefined var--
+string(7) "0.0.0.0"
+
+--unset var--
+string(7) "0.0.0.0"
+
+--resource--
+Error: 2 - long2ip() expects parameter 1 to be integer, resource given, %slong2ip_variation1.php(%d)
+NULL
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing long2ip() : usage variation ***
+
+--float 10.5--
+string(8) "0.0.0.10"
+
+--float -10.5--
+string(15) "255.255.255.246"
+
+--float .5--
+string(7) "0.0.0.0"
+
+--empty array--
+Error: 2 - long2ip() expects parameter 1 to be integer, array given, /root/php-src/ext/standard/tests/network/long2ip_variation1.php(101)
+NULL
+
+--int indexed array--
+Error: 2 - long2ip() expects parameter 1 to be integer, array given, /root/php-src/ext/standard/tests/network/long2ip_variation1.php(101)
+NULL
+
+--associative array--
+Error: 2 - long2ip() expects parameter 1 to be integer, array given, /root/php-src/ext/standard/tests/network/long2ip_variation1.php(101)
+NULL
+
+--nested arrays--
+Error: 2 - long2ip() expects parameter 1 to be integer, array given, /root/php-src/ext/standard/tests/network/long2ip_variation1.php(101)
+NULL
+
+--uppercase NULL--
+string(7) "0.0.0.0"
+
+--lowercase null--
+string(7) "0.0.0.0"
+
+--lowercase true--
+string(7) "0.0.0.1"
+
+--lowercase false--
+string(7) "0.0.0.0"
+
+--uppercase TRUE--
+string(7) "0.0.0.1"
+
+--uppercase FALSE--
+string(7) "0.0.0.0"
+
+--empty string DQ--
+Error: 2 - long2ip() expects parameter 1 to be integer, string given, /root/php-src/ext/standard/tests/network/long2ip_variation1.php(101)
+NULL
+
+--empty string SQ--
+Error: 2 - long2ip() expects parameter 1 to be integer, string given, /root/php-src/ext/standard/tests/network/long2ip_variation1.php(101)
+NULL
+
+--string DQ--
+Error: 2 - long2ip() expects parameter 1 to be integer, string given, /root/php-src/ext/standard/tests/network/long2ip_variation1.php(101)
+NULL
+
+--string SQ--
+Error: 2 - long2ip() expects parameter 1 to be integer, string given, /root/php-src/ext/standard/tests/network/long2ip_variation1.php(101)
+NULL
+
+--mixed case string--
+Error: 2 - long2ip() expects parameter 1 to be integer, string given, /root/php-src/ext/standard/tests/network/long2ip_variation1.php(101)
+NULL
+
+--heredoc--
+Error: 2 - long2ip() expects parameter 1 to be integer, string given, /root/php-src/ext/standard/tests/network/long2ip_variation1.php(101)
+NULL
+
+--instance of classWithToString--
+Error: 2 - long2ip() expects parameter 1 to be integer, object given, /root/php-src/ext/standard/tests/network/long2ip_variation1.php(101)
+NULL
+
+--instance of classWithoutToString--
+Error: 2 - long2ip() expects parameter 1 to be integer, object given, /root/php-src/ext/standard/tests/network/long2ip_variation1.php(101)
+NULL
+
+--undefined var--
+string(7) "0.0.0.0"
+
+--unset var--
+string(7) "0.0.0.0"
+
+--resource--
+Error: 2 - long2ip() expects parameter 1 to be integer, resource given, /root/php-src/ext/standard/tests/network/long2ip_variation1.php(101)
+NULL
+===DONE===
+---- FAILED

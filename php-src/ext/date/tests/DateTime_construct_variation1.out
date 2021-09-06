@@ -1,0 +1,255 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing new DateTime(): usage variation -  unexpected values to first argument $time***
+
+-- int 0 --
+FAILED: DateTime::__construct(): Failed to parse time string (0) at position 0 (0): Unexpected character
+FAILED: DateTime::__construct(): Failed to parse time string (0) at position 0 (0): Unexpected character
+
+-- int 1 --
+FAILED: DateTime::__construct(): Failed to parse time string (1) at position 0 (1): Unexpected character
+FAILED: DateTime::__construct(): Failed to parse time string (1) at position 0 (1): Unexpected character
+
+-- int 12345 --
+FAILED: DateTime::__construct(): Failed to parse time string (12345) at position 4 (5): Unexpected character
+FAILED: DateTime::__construct(): Failed to parse time string (12345) at position 4 (5): Unexpected character
+
+-- int -12345 --
+FAILED: DateTime::__construct(): Failed to parse time string (-12345) at position 5 (5): Unexpected character
+FAILED: DateTime::__construct(): Failed to parse time string (-12345) at position 5 (5): Unexpected character
+
+-- float 10.5 --
+object(DateTime)#5 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 10:05:00.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+object(DateTime)#5 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 10:05:00.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- float -10.5 --
+FAILED: DateTime::__construct(): Failed to parse time string (-10.5) at position 4 (5): Unexpected character
+FAILED: DateTime::__construct(): Failed to parse time string (-10.5) at position 4 (5): Unexpected character
+
+-- float .5 --
+object(DateTime)#4 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 00:05:00.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+object(DateTime)#4 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 00:05:00.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- empty array --
+FAILED: DateTime::__construct() expects parameter 1 to be string, array given
+FAILED: DateTime::__construct() expects parameter 1 to be string, array given
+
+-- int indexed array --
+FAILED: DateTime::__construct() expects parameter 1 to be string, array given
+FAILED: DateTime::__construct() expects parameter 1 to be string, array given
+
+-- associative array --
+FAILED: DateTime::__construct() expects parameter 1 to be string, array given
+FAILED: DateTime::__construct() expects parameter 1 to be string, array given
+
+-- nested arrays --
+FAILED: DateTime::__construct() expects parameter 1 to be string, array given
+FAILED: DateTime::__construct() expects parameter 1 to be string, array given
+
+-- uppercase NULL --
+object(DateTime)#6 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:30.108451"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+object(DateTime)#6 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:30.109279"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- lowercase null --
+object(DateTime)#6 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:30.110148"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+object(DateTime)#6 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:30.111007"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- lowercase true --
+FAILED: DateTime::__construct(): Failed to parse time string (1) at position 0 (1): Unexpected character
+FAILED: DateTime::__construct(): Failed to parse time string (1) at position 0 (1): Unexpected character
+
+-- lowercase false --
+object(DateTime)#5 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:30.111966"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+object(DateTime)#5 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:30.112815"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- uppercase TRUE --
+FAILED: DateTime::__construct(): Failed to parse time string (1) at position 0 (1): Unexpected character
+FAILED: DateTime::__construct(): Failed to parse time string (1) at position 0 (1): Unexpected character
+
+-- uppercase FALSE --
+object(DateTime)#4 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:30.113757"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+object(DateTime)#4 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:30.114487"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- empty string DQ --
+object(DateTime)#4 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:30.115206"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+object(DateTime)#4 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:30.115913"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- empty string SQ --
+object(DateTime)#4 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:30.116644"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+object(DateTime)#4 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:30.117339"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- string DQ --
+FAILED: DateTime::__construct(): Failed to parse time string (string) at position 0 (s): The timezone could not be found in the database
+FAILED: DateTime::__construct(): Failed to parse time string (string) at position 0 (s): The timezone could not be found in the database
+
+-- string SQ --
+FAILED: DateTime::__construct(): Failed to parse time string (string) at position 0 (s): The timezone could not be found in the database
+FAILED: DateTime::__construct(): Failed to parse time string (string) at position 0 (s): The timezone could not be found in the database
+
+-- mixed case string --
+FAILED: DateTime::__construct(): Failed to parse time string (sTrInG) at position 0 (s): The timezone could not be found in the database
+FAILED: DateTime::__construct(): Failed to parse time string (sTrInG) at position 0 (s): The timezone could not be found in the database
+
+-- heredoc --
+FAILED: DateTime::__construct(): Failed to parse time string (hello world) at position 0 (h): The timezone could not be found in the database
+FAILED: DateTime::__construct(): Failed to parse time string (hello world) at position 0 (h): The timezone could not be found in the database
+
+-- instance of classWithToString --
+FAILED: DateTime::__construct(): Failed to parse time string (Class A object) at position 0 (C): The timezone could not be found in the database
+FAILED: DateTime::__construct(): Failed to parse time string (Class A object) at position 0 (C): The timezone could not be found in the database
+
+-- instance of classWithoutToString --
+FAILED: DateTime::__construct() expects parameter 1 to be string, object given
+FAILED: DateTime::__construct() expects parameter 1 to be string, object given
+
+-- undefined var --
+object(DateTime)#4 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:30.118938"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+object(DateTime)#4 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:30.119586"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- unset var --
+object(DateTime)#4 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:30.120250"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+object(DateTime)#4 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:30.120881"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- resource --
+FAILED: DateTime::__construct() expects parameter 1 to be string, resource given
+FAILED: DateTime::__construct() expects parameter 1 to be string, resource given
+===DONE===

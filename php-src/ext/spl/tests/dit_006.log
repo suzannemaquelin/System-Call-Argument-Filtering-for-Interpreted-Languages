@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+With seek(2) we get %d
+With seek(0) we get %d
+Without seek we get %d
+Seek position %d is out of range
+bool(true)
+bool(true)
+bool(true)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+With seek(2) we get 56
+With seek(0) we get 58
+Without seek we get 58
+Seek position 59 is out of range
+bool(true)
+bool(true)
+bool(true)
+===DONE===
+---- FAILED

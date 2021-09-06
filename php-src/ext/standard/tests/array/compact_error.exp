@@ -1,0 +1,7 @@
+*** Testing compact() : error conditions ***
+
+-- Testing compact() function with Zero arguments --
+
+Warning: compact() expects at least 1 parameter, 0 given in %s on line %d
+NULL
+Done

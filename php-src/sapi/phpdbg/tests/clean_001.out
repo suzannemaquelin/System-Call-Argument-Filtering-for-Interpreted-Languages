@@ -1,0 +1,32 @@
+[Successful compilation of /root/php-src/sapi/phpdbg/tests/clean_001.php]
+prompt> [Breakpoint #0 added at /root/php-src/sapi/phpdbg/tests/clean_001.php:4]
+prompt> [Breakpoint #1 added at foo]
+prompt> 1
+[Breakpoint #0 at /root/php-src/sapi/phpdbg/tests/clean_001.php:4, hits: 1]
+>00004: echo 2;
+ 00005: echo 3;
+ 00006: foo();
+prompt> 23
+[Breakpoint #1 in foo() at /root/php-src/sapi/phpdbg/tests/clean_001.php:8, hits: 1]
+>00008: function foo() {
+ 00009: 	echo 4;
+ 00010: }
+prompt> Do you really want to clean your current environment? (type y or n): Cleaning Execution Environment
+Classes    171
+Functions  1624
+Constants  2157
+Includes   0
+prompt> [Not running]
+prompt> 1
+[Breakpoint #0 at /root/php-src/sapi/phpdbg/tests/clean_001.php:4, hits: 1]
+>00004: echo 2;
+ 00005: echo 3;
+ 00006: foo();
+prompt> 23
+[Breakpoint #1 in foo() at /root/php-src/sapi/phpdbg/tests/clean_001.php:8, hits: 1]
+>00008: function foo() {
+ 00009: 	echo 4;
+ 00010: }
+prompt> 4
+[Script ended normally]
+prompt>

@@ -1,0 +1,15 @@
+*** Testing session_encode() : variation ***
+
+Warning: session_encode(): Cannot encode non-existent session in %s on line %d
+bool(false)
+bool(true)
+bool(false)
+NULL
+bool(false)
+bool(true)
+bool(false)
+bool(true)
+
+Warning: session_encode(): Cannot encode non-existent session in %s on line %d
+bool(false)
+Done

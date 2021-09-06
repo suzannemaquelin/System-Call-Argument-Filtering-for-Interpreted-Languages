@@ -1,0 +1,17 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: ReflectionClass::getConstant() expects exactly 1 parameter, 0 given in /root/php-src/ext/reflection/tests/ReflectionObject_getConstant_error.php on line 7
+NULL
+
+Warning: ReflectionClass::getConstant() expects exactly 1 parameter, 2 given in /root/php-src/ext/reflection/tests/ReflectionObject_getConstant_error.php on line 8
+NULL
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+
+Warning: ReflectionClass::getConstant() expects parameter 1 to be string, array given in /root/php-src/ext/reflection/tests/ReflectionObject_getConstant_error.php on line 13
+NULL
+
+Warning: ReflectionClass::getConstant() expects parameter 1 to be string, object given in /root/php-src/ext/reflection/tests/ReflectionObject_getConstant_error.php on line 14
+NULL

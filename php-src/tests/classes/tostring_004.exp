@@ -1,0 +1,17 @@
+Object with no __toString():
+Try 1:
+Error: 4096 - Object of class stdClass could not be converted to string
+Object
+
+Try 2:
+Error: 4096 - Object of class stdClass could not be converted to string
+
+
+
+Object with bad __toString():
+Try 1:
+Error: 4096 - Method badToString::__toString() must return a string value
+
+
+Try 2:
+Error: 4096 - Method badToString::__toString() must return a string value

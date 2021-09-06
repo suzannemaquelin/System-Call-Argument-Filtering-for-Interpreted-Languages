@@ -1,0 +1,12 @@
+
+---- EXPECTED OUTPUT
+Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; base has a deprecated constructor in %s on line %d
+base::base
+derived::base
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; base has a deprecated constructor in /root/php-src/tests/classes/ctor_name_clash.php on line 2
+base::base
+derived::base
+---- FAILED

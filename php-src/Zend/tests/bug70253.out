@@ -1,0 +1,3 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Allowed memory size of 2097152 bytes exhausted at /root/php-src/Zend/zend_hash.c:264 (tried to allocate 603979776 bytes) in /root/php-src/Zend/tests/bug70253.php on line 2

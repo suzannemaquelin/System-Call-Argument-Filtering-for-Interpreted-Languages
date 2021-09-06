@@ -1,0 +1,16 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(DateTimeZone)#1 (2) {
+  ["timezone_type"]=>
+  int(2)
+  ["timezone"]=>
+  string(3) "EST"
+}
+string(74) "O:12:"DateTimeZone":2:{s:13:"timezone_type";i:2;s:8:"timezone";s:3:"EST";}"
+object(DateTimeZone)#2 (2) {
+  ["timezone_type"]=>
+  int(2)
+  ["timezone"]=>
+  string(3) "EST"
+}
+string(3) "EST"
+===DONE===

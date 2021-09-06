@@ -1,0 +1,12 @@
+010+ [Breakpoint #1 in foo() at /root/php-src/sapi/phpdbg/tests/clean_001.php:8, hits: 1]
+011+ >00008: function foo() {
+012+  00009: 	echo 4;
+010- [Breakpoint #1 in foo() at %s:9, hits: 1]
+011- >00009: 	echo 4;
+013-  00011: 
+026+ [Breakpoint #1 in foo() at /root/php-src/sapi/phpdbg/tests/clean_001.php:8, hits: 1]
+027+ >00008: function foo() {
+028+  00009: 	echo 4;
+026- [Breakpoint #1 in foo() at %s:9, hits: 1]
+027- >00009: 	echo 4;
+029-  00011: 

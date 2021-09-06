@@ -1,0 +1,36 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(9) "127.0.0.1"
+string(13) "255.255.255.0"
+
+Warning: inet_ntop() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/network/inet.php on line 9
+bool(false)
+
+Warning: inet_ntop(): Invalid in_addr value in /root/php-src/ext/standard/tests/network/inet.php on line 10
+bool(false)
+
+Warning: inet_ntop(): Invalid in_addr value in /root/php-src/ext/standard/tests/network/inet.php on line 11
+bool(false)
+
+Warning: inet_ntop(): Invalid in_addr value in /root/php-src/ext/standard/tests/network/inet.php on line 12
+bool(false)
+
+Warning: inet_pton() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/network/inet.php on line 14
+bool(false)
+
+Warning: inet_pton(): Unrecognized address  in /root/php-src/ext/standard/tests/network/inet.php on line 15
+bool(false)
+
+Warning: inet_pton(): Unrecognized address -1 in /root/php-src/ext/standard/tests/network/inet.php on line 16
+bool(false)
+
+Warning: inet_pton(): Unrecognized address abra in /root/php-src/ext/standard/tests/network/inet.php on line 17
+bool(false)
+string(8) "7f000001"
+string(9) "127.0.0.1"
+string(8) "42a3a174"
+string(14) "66.163.161.116"
+string(8) "ffffffff"
+string(15) "255.255.255.255"
+string(8) "00000000"
+string(7) "0.0.0.0"
+Done

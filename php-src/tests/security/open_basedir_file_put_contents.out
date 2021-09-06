@@ -1,0 +1,33 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing open_basedir configuration [file_put_contents] ***
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+
+Warning: file_put_contents(): open_basedir restriction in effect. File(../bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_file_put_contents.php on line 6
+
+Warning: file_put_contents(../bad/bad.txt): failed to open stream: Operation not permitted in /root/php-src/tests/security/open_basedir_file_put_contents.php on line 6
+bool(false)
+
+Warning: file_put_contents(): open_basedir restriction in effect. File(.././bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_file_put_contents.php on line 7
+
+Warning: file_put_contents(.././bad/bad.txt): failed to open stream: Operation not permitted in /root/php-src/tests/security/open_basedir_file_put_contents.php on line 7
+bool(false)
+
+Warning: file_put_contents(): open_basedir restriction in effect. File(../bad/../bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_file_put_contents.php on line 8
+
+Warning: file_put_contents(../bad/../bad/bad.txt): failed to open stream: Operation not permitted in /root/php-src/tests/security/open_basedir_file_put_contents.php on line 8
+bool(false)
+
+Warning: file_put_contents(): open_basedir restriction in effect. File(./.././bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_file_put_contents.php on line 9
+
+Warning: file_put_contents(./.././bad/bad.txt): failed to open stream: Operation not permitted in /root/php-src/tests/security/open_basedir_file_put_contents.php on line 9
+bool(false)
+
+Warning: file_put_contents(): open_basedir restriction in effect. File(/root/php-src/test/bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_file_put_contents.php on line 10
+
+Warning: file_put_contents(/root/php-src/test/bad/bad.txt): failed to open stream: Operation not permitted in /root/php-src/tests/security/open_basedir_file_put_contents.php on line 10
+bool(false)
+*** Finished testing open_basedir configuration [file_put_contents] ***

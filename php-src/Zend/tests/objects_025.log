@@ -1,0 +1,31 @@
+
+---- EXPECTED OUTPUT
+non-static - ok
+static - ok
+non-static - ok
+static - ok
+non-static - ok
+static - ok
+non-static - ok
+static - ok
+
+Fatal error: Uncaught Error: Method name must be a string in %s:%d
+Stack trace:
+#0 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+non-static - ok
+static - ok
+non-static - ok
+static - ok
+non-static - ok
+static - ok
+non-static - ok
+static - ok
+
+Fatal error: Uncaught Error: Method name must be a string in /root/php-src/Zend/tests/objects_025.php:30
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/Zend/tests/objects_025.php on line 30
+---- FAILED

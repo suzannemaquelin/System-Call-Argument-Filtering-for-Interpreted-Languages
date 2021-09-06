@@ -1,0 +1,82 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing exif_tagname() : different types for index argument ***
+
+Notice: Undefined variable: undefined_var in /root/php-src/ext/exif/tests/exif_tagname_variation1.php on line 59
+
+Notice: Undefined variable: unset_var in /root/php-src/ext/exif/tests/exif_tagname_variation1.php on line 62
+
+--- Testing exif_tagname() by supplying different values for 'index' argument ---
+-- Iteration 1 --
+bool(false)
+-- Iteration 2 --
+bool(false)
+-- Iteration 3 --
+bool(false)
+-- Iteration 4 --
+bool(false)
+-- Iteration 5 --
+bool(false)
+-- Iteration 6 --
+bool(false)
+-- Iteration 7 --
+bool(false)
+-- Iteration 8 --
+bool(false)
+-- Iteration 9 --
+bool(false)
+-- Iteration 10 --
+
+Warning: exif_tagname() expects parameter 1 to be integer, array given in /root/php-src/ext/exif/tests/exif_tagname_variation1.php on line 82
+NULL
+-- Iteration 11 --
+
+Warning: exif_tagname() expects parameter 1 to be integer, array given in /root/php-src/ext/exif/tests/exif_tagname_variation1.php on line 82
+NULL
+-- Iteration 12 --
+
+Warning: exif_tagname() expects parameter 1 to be integer, array given in /root/php-src/ext/exif/tests/exif_tagname_variation1.php on line 82
+NULL
+-- Iteration 13 --
+
+Warning: exif_tagname() expects parameter 1 to be integer, array given in /root/php-src/ext/exif/tests/exif_tagname_variation1.php on line 82
+NULL
+-- Iteration 14 --
+
+Warning: exif_tagname() expects parameter 1 to be integer, array given in /root/php-src/ext/exif/tests/exif_tagname_variation1.php on line 82
+NULL
+-- Iteration 15 --
+bool(false)
+-- Iteration 16 --
+bool(false)
+-- Iteration 17 --
+bool(false)
+-- Iteration 18 --
+bool(false)
+-- Iteration 19 --
+
+Warning: exif_tagname() expects parameter 1 to be integer, string given in /root/php-src/ext/exif/tests/exif_tagname_variation1.php on line 82
+NULL
+-- Iteration 20 --
+
+Warning: exif_tagname() expects parameter 1 to be integer, string given in /root/php-src/ext/exif/tests/exif_tagname_variation1.php on line 82
+NULL
+-- Iteration 21 --
+bool(false)
+-- Iteration 22 --
+bool(false)
+-- Iteration 23 --
+
+Warning: exif_tagname() expects parameter 1 to be integer, object given in /root/php-src/ext/exif/tests/exif_tagname_variation1.php on line 82
+NULL
+-- Iteration 24 --
+
+Warning: exif_tagname() expects parameter 1 to be integer, resource given in /root/php-src/ext/exif/tests/exif_tagname_variation1.php on line 82
+NULL
+-- Iteration 25 --
+bool(false)
+-- Iteration 26 --
+bool(false)
+Done
+
+?>
+===Done===

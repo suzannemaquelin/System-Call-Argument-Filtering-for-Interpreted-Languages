@@ -1,0 +1,11 @@
+
+---- EXPECTED OUTPUT
+Counted 2 columns after SELECT id, val FROM test.
+Counted 3 columns after SELECT id, val, val2 FROM test.
+Counted 1 columns after SELECT COUNT(*) FROM test.
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Counted 2 columns after SELECT id, val FROM test.
+Counted 3 columns after SELECT id, val, val2 FROM test.
+Counted 1 columns after SELECT COUNT(*) FROM test.
+---- FAILED

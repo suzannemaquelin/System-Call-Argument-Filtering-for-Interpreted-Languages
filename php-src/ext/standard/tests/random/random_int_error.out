@@ -1,0 +1,4 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+random_int() expects exactly 2 parameters, 0 given
+random_int() expects exactly 2 parameters, 1 given
+Minimum value must be less than or equal to the maximum value

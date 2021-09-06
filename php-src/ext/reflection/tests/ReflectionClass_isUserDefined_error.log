@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Warning: ReflectionClass::isUserDefined() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+
+Warning: ReflectionClass::isUserDefined() expects exactly 0 parameters, 2 given in %s on line %d
+NULL
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: ReflectionClass::isUserDefined() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionClass_isUserDefined_error.php on line 3
+NULL
+
+Warning: ReflectionClass::isUserDefined() expects exactly 0 parameters, 2 given in /root/php-src/ext/reflection/tests/ReflectionClass_isUserDefined_error.php on line 4
+NULL
+---- FAILED

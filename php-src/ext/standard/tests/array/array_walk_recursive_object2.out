@@ -1,0 +1,25 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_walk_recursive() : array of objects ***
+-- For private member --
+value : int(3)
+key : int(0)
+value : int(10)
+key : int(1)
+value : int(20)
+key : int(1)
+value : int(-10)
+key : int(0)
+bool(true)
+-- For public member --
+value : int(3)
+value : int(10)
+value : int(20)
+value : int(-10)
+bool(true)
+-- For protected member --
+value : int(3)
+value : int(10)
+value : int(20)
+value : int(-10)
+bool(true)
+Done

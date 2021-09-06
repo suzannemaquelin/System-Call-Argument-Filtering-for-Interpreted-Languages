@@ -1,0 +1,67 @@
+
+---- EXPECTED OUTPUT
+*** Testing mkdir(): error conditions ***
+
+Warning: mkdir() expects at least 1 parameter, 0 given in %s on line %d
+bool(false)
+
+Warning: mkdir() expects at most 4 parameters, 5 given in %s on line %d
+bool(false)
+
+Notice: Undefined variable: context in %s on line %d
+
+Warning: mkdir() expects at most 4 parameters, 5 given in %s on line %d
+bool(false)
+
+*** Testing rmdir(): error conditions ***
+
+Warning: rmdir() expects at least 1 parameter, 0 given in %s on line %d
+bool(false)
+
+Warning: rmdir() expects at most 2 parameters, 3 given in %s on line %d
+bool(false)
+
+Notice: Undefined variable: context in %s on line %d
+
+Warning: rmdir() expects at most 2 parameters, 3 given in %s on line %d
+bool(false)
+
+*** Testing rmdir() on non-existent directory ***
+
+Warning: rmdir(temp): No such file or directory in %s on line %d
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mkdir(): error conditions ***
+
+Warning: mkdir() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/mkdir_rmdir_error.php on line 10
+bool(false)
+
+Warning: mkdir() expects at most 4 parameters, 5 given in /root/php-src/ext/standard/tests/file/mkdir_rmdir_error.php on line 11
+bool(false)
+
+Notice: Undefined variable: context in /root/php-src/ext/standard/tests/file/mkdir_rmdir_error.php on line 12
+
+Warning: mkdir() expects at most 4 parameters, 5 given in /root/php-src/ext/standard/tests/file/mkdir_rmdir_error.php on line 12
+bool(false)
+
+*** Testing rmdir(): error conditions ***
+
+Warning: rmdir() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/mkdir_rmdir_error.php on line 15
+bool(false)
+
+Warning: rmdir() expects at most 2 parameters, 3 given in /root/php-src/ext/standard/tests/file/mkdir_rmdir_error.php on line 16
+bool(false)
+
+Notice: Undefined variable: context in /root/php-src/ext/standard/tests/file/mkdir_rmdir_error.php on line 17
+
+Warning: rmdir() expects at most 2 parameters, 3 given in /root/php-src/ext/standard/tests/file/mkdir_rmdir_error.php on line 17
+bool(false)
+
+*** Testing rmdir() on non-existent directory ***
+
+Warning: rmdir(temp): No such file or directory in /root/php-src/ext/standard/tests/file/mkdir_rmdir_error.php on line 20
+bool(false)
+Done
+---- FAILED

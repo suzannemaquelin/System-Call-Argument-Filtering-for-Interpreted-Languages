@@ -1,0 +1,12 @@
+*** Testing DateTimeZone::getOffset() : error conditions ***
+
+-- Testing DateTimeZone::getOffset() function with zero arguments --
+
+Warning: DateTimeZone::getOffset() expects exactly 1 parameter, 0 given in %s on line %d
+bool(false)
+
+-- Testing DateTimeZone::getOffset() function with more than expected no. of arguments --
+
+Warning: DateTimeZone::getOffset() expects exactly 1 parameter, 2 given in %s on line %d
+bool(false)
+===DONE===

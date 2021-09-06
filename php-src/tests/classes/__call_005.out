@@ -1,0 +1,15 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: The magic method __call() must have public visibility and cannot be static in /root/php-src/tests/classes/__call_005.php on line 3
+In A::__call(test1, array(1,a))
+object(B)#1 (0) {
+}
+In A::__call(test2, array(1,a))
+object(B)#1 (0) {
+}
+In A::__call(test3, array(1,a))
+object(B)#1 (0) {
+}
+In A::__call(test4, array(1,a))
+object(B)#1 (0) {
+}

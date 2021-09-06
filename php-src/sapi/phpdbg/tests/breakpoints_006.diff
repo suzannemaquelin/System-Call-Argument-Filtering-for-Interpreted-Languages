@@ -1,0 +1,6 @@
+003+ prompt> [Breakpoint #0 in foo() at /root/php-src/sapi/phpdbg/tests/breakpoints_006.php:3, hits: 1]
+004+ >00003: function foo($bar) {
+005+  00004: 	var_dump($bar);
+003- prompt> [Breakpoint #0 in foo() at %s:4, hits: 1]
+004- >00004: 	var_dump($bar);
+006-  00006: 

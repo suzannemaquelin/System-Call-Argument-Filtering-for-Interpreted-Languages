@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Cannot use 'self' as class name as it is reserved in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Cannot use 'self' as class name as it is reserved in /root/php-src/Zend/tests/errmsg_030.php on line 3
+---- FAILED

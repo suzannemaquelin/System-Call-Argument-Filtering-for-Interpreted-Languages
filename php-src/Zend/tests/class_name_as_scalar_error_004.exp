@@ -1,0 +1,1 @@
+Fatal error: parent::class cannot be used for compile-time class name resolution in %s on line %d

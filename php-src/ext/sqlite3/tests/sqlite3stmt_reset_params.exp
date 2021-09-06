@@ -1,0 +1,11 @@
+Creating Table
+bool(true)
+INSERT into table
+bool(true)
+Prepare query
+Reset query
+
+Warning: SQLite3Stmt::reset() expects exactly 0 parameters, %d given in %s on line %d
+Closing database
+bool(true)
+Done

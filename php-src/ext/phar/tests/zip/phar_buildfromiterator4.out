@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+rewind
+valid
+current
+key
+next
+valid
+array(1) {
+  ["a"]=>
+  string(61) "/root/php-src/ext/phar/tests/zip/phar_buildfromiterator4.phpt"
+}
+bool(true)
+===DONE===

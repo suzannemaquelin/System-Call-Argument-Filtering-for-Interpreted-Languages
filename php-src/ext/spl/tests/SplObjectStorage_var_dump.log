@@ -1,0 +1,31 @@
+
+---- EXPECTED OUTPUT
+object(SplObjectStorage)#%d (1) {
+  ["storage":"SplObjectStorage":private]=>
+  array(1) {
+    ["%s"]=>
+    array(2) {
+      ["obj"]=>
+      object(stdClass)#%d (0) {
+      }
+      ["inf"]=>
+      *RECURSION*
+    }
+  }
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(SplObjectStorage)#1 (1) {
+  ["storage":"SplObjectStorage":private]=>
+  array(1) {
+    ["000000005eb91b200000000004610e00"]=>
+    array(2) {
+      ["obj"]=>
+      object(stdClass)#2 (0) {
+      }
+      ["inf"]=>
+      *RECURSION*
+    }
+  }
+}
+---- FAILED

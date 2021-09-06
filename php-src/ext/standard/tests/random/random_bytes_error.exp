@@ -1,0 +1,2 @@
+random_bytes() expects exactly 1 parameter, 0 given
+Length must be greater than 0

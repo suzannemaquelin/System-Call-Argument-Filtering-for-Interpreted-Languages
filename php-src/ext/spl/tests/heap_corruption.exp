@@ -1,0 +1,5 @@
+bool(false)
+Compare Exception: Compare exception
+Corruption Exception: Heap is corrupted, heap properties are no longer ensured.
+bool(true)
+bool(false)

@@ -1,0 +1,7 @@
+Warning: Parameter 1 to ref() expected to be a reference, value given in %sbug72598.php on line 11
+object(class@anonymous)#1 (0) {
+}
+
+Warning: Parameter 1 to ref() expected to be a reference, value given in %sbug72598.php on line 11
+object(class@anonymous)#1 (0) {
+}

@@ -1,0 +1,65 @@
+-- (1)
+
+Warning: filter_var_array() expects parameter 1 to be array, null given in %s on line %d
+NULL
+array(0) {
+}
+array(2) {
+  [0]=>
+  string(1) "1"
+  ["blah"]=>
+  string(4) "hoho"
+}
+bool(false)
+bool(false)
+bool(false)
+-- (2)
+bool(false)
+bool(false)
+bool(false)
+-- (3)
+bool(false)
+bool(false)
+bool(false)
+-- (4)
+bool(false)
+array(0) {
+}
+array(1) {
+  ["var_name"]=>
+  NULL
+}
+array(1) {
+  ["var_name"]=>
+  NULL
+}
+array(1) {
+  ["var_name"]=>
+  string(0) ""
+}
+-- (5)
+
+Warning: filter_var_array(): Empty keys are not allowed in the definition array in %s on line %d
+bool(false)
+
+Warning: filter_var_array(): Empty keys are not allowed in the definition array in %s on line %d
+bool(false)
+bool(false)
+array(1) {
+  [""]=>
+  string(0) ""
+}
+int(-1)
+bool(false)
+array(1) {
+  [""]=>
+  string(0) ""
+}
+int(100000)
+bool(false)
+array(1) {
+  [""]=>
+  string(0) ""
+}
+string(0) ""
+Done

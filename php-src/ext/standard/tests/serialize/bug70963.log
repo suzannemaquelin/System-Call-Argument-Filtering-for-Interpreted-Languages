@@ -1,0 +1,81 @@
+
+---- EXPECTED OUTPUT
+array(2) {
+  [0]=>
+  object(Exception)#%d (6) {
+    ["message":protected]=>
+    string(0) ""
+    ["string":"Exception":private]=>
+    string(0) ""
+    ["code":protected]=>
+    int(0)
+    ["file":protected]=>
+    string(%d) "%s"
+    ["line":protected]=>
+    int(2)
+    ["previous":"Exception":private]=>
+    NULL
+  }
+  [1]=>
+  string(4) "test"
+}
+array(2) {
+  [0]=>
+  object(Exception)#%d (6) {
+    ["message":protected]=>
+    string(0) ""
+    ["string":"Exception":private]=>
+    string(0) ""
+    ["code":protected]=>
+    int(0)
+    ["file":protected]=>
+    string(%d) "%s"
+    ["line":protected]=>
+    int(3)
+    ["previous":"Exception":private]=>
+    NULL
+  }
+  [1]=>
+  string(4) "test"
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(2) {
+  [0]=>
+  object(Exception)#1 (6) {
+    ["message":protected]=>
+    string(0) ""
+    ["string":"Exception":private]=>
+    string(0) ""
+    ["code":protected]=>
+    int(0)
+    ["file":protected]=>
+    string(55) "/root/php-src/ext/standard/tests/serialize/bug70963.php"
+    ["line":protected]=>
+    int(2)
+    ["previous":"Exception":private]=>
+    NULL
+  }
+  [1]=>
+  string(4) "test"
+}
+array(2) {
+  [0]=>
+  object(Exception)#1 (6) {
+    ["message":protected]=>
+    string(0) ""
+    ["string":"Exception":private]=>
+    string(0) ""
+    ["code":protected]=>
+    int(0)
+    ["file":protected]=>
+    string(55) "/root/php-src/ext/standard/tests/serialize/bug70963.php"
+    ["line":protected]=>
+    int(3)
+    ["previous":"Exception":private]=>
+    NULL
+  }
+  [1]=>
+  string(4) "test"
+}
+---- FAILED

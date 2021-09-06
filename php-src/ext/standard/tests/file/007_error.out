@@ -1,0 +1,116 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing error conditions for fopen(), fclsoe() & feof() ***
+
+Warning: fopen() expects at least 2 parameters, 1 given in /root/php-src/ext/standard/tests/file/007_error.php on line 19
+bool(false)
+
+Warning: fopen() expects at least 2 parameters, 0 given in /root/php-src/ext/standard/tests/file/007_error.php on line 20
+bool(false)
+
+Warning: fclose(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_error.php on line 25
+bool(false)
+
+Warning: fclose() expects parameter 1 to be resource, string given in /root/php-src/ext/standard/tests/file/007_error.php on line 26
+bool(false)
+
+Warning: fclose() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/007_error.php on line 27
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_error.php on line 30
+bool(false)
+
+Warning: feof() expects parameter 1 to be resource, string given in /root/php-src/ext/standard/tests/file/007_error.php on line 31
+bool(false)
+
+Warning: feof() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/007_error.php on line 32
+bool(false)
+
+Warning: fopen() expects at most 4 parameters, 5 given in /root/php-src/ext/standard/tests/file/007_error.php on line 35
+bool(false)
+
+Warning: fclose() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/007_error.php on line 38
+bool(false)
+
+Warning: feof() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/007_error.php on line 40
+bool(false)
+-- Testing fopen(), fclose() & feof() with invalid arguments --
+-- Iteration 1 --
+
+Warning: fopen(string): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/file/007_error.php on line 59
+bool(false)
+
+Warning: fclose() expects parameter 1 to be resource, string given in /root/php-src/ext/standard/tests/file/007_error.php on line 60
+bool(false)
+
+Warning: feof() expects parameter 1 to be resource, string given in /root/php-src/ext/standard/tests/file/007_error.php on line 61
+bool(false)
+-- Iteration 2 --
+
+Warning: fopen(10): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/file/007_error.php on line 59
+bool(false)
+
+Warning: fclose() expects parameter 1 to be resource, integer given in /root/php-src/ext/standard/tests/file/007_error.php on line 60
+bool(false)
+
+Warning: feof() expects parameter 1 to be resource, integer given in /root/php-src/ext/standard/tests/file/007_error.php on line 61
+bool(false)
+-- Iteration 3 --
+
+Warning: fopen(10.5): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/file/007_error.php on line 59
+bool(false)
+
+Warning: fclose() expects parameter 1 to be resource, float given in /root/php-src/ext/standard/tests/file/007_error.php on line 60
+bool(false)
+
+Warning: feof() expects parameter 1 to be resource, float given in /root/php-src/ext/standard/tests/file/007_error.php on line 61
+bool(false)
+-- Iteration 4 --
+
+Warning: fopen(1): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/file/007_error.php on line 59
+bool(false)
+
+Warning: fclose() expects parameter 1 to be resource, boolean given in /root/php-src/ext/standard/tests/file/007_error.php on line 60
+bool(false)
+
+Warning: feof() expects parameter 1 to be resource, boolean given in /root/php-src/ext/standard/tests/file/007_error.php on line 61
+bool(false)
+-- Iteration 5 --
+
+Warning: fopen() expects parameter 1 to be a valid path, array given in /root/php-src/ext/standard/tests/file/007_error.php on line 59
+bool(false)
+
+Warning: fclose() expects parameter 1 to be resource, array given in /root/php-src/ext/standard/tests/file/007_error.php on line 60
+bool(false)
+
+Warning: feof() expects parameter 1 to be resource, array given in /root/php-src/ext/standard/tests/file/007_error.php on line 61
+bool(false)
+-- Iteration 6 --
+
+Warning: fopen() expects parameter 1 to be a valid path, object given in /root/php-src/ext/standard/tests/file/007_error.php on line 59
+bool(false)
+
+Warning: fclose() expects parameter 1 to be resource, object given in /root/php-src/ext/standard/tests/file/007_error.php on line 60
+bool(false)
+
+Warning: feof() expects parameter 1 to be resource, object given in /root/php-src/ext/standard/tests/file/007_error.php on line 61
+bool(false)
+-- Iteration 7 --
+
+Warning: fopen(): Filename cannot be empty in /root/php-src/ext/standard/tests/file/007_error.php on line 59
+bool(false)
+
+Warning: fclose() expects parameter 1 to be resource, null given in /root/php-src/ext/standard/tests/file/007_error.php on line 60
+bool(false)
+
+Warning: feof() expects parameter 1 to be resource, null given in /root/php-src/ext/standard/tests/file/007_error.php on line 61
+bool(false)
+-- Iteration 8 --
+
+Warning: fopen(): Filename cannot be empty in /root/php-src/ext/standard/tests/file/007_error.php on line 59
+bool(false)
+
+Warning: fclose() expects parameter 1 to be resource, string given in /root/php-src/ext/standard/tests/file/007_error.php on line 60
+bool(false)
+
+Warning: feof() expects parameter 1 to be resource, string given in /root/php-src/ext/standard/tests/file/007_error.php on line 61
+bool(false)

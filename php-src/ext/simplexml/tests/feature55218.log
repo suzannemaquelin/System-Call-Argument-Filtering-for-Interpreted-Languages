@@ -1,0 +1,135 @@
+
+---- EXPECTED OUTPUT
+getDocNamespaces
+
+Backwards Compatibility:
+recursion:
+array(2) {
+  ["p"]=>
+  string(20) "http://example.org/p"
+  ["t"]=>
+  string(20) "http://example.org/t"
+}
+array(2) {
+  ["p"]=>
+  string(20) "http://example.org/p"
+  ["t"]=>
+  string(20) "http://example.org/t"
+}
+array(2) {
+  ["p"]=>
+  string(20) "http://example.org/p"
+  ["t"]=>
+  string(20) "http://example.org/t"
+}
+
+non recursive:
+array(1) {
+  ["p"]=>
+  string(20) "http://example.org/p"
+}
+array(1) {
+  ["p"]=>
+  string(20) "http://example.org/p"
+}
+array(1) {
+  ["p"]=>
+  string(20) "http://example.org/p"
+}
+
+
+Using new 'from_root' bool set to false:
+recursion:
+array(2) {
+  ["p"]=>
+  string(20) "http://example.org/p"
+  ["t"]=>
+  string(20) "http://example.org/t"
+}
+array(1) {
+  ["t"]=>
+  string(20) "http://example.org/t"
+}
+array(0) {
+}
+
+non recursive:
+array(1) {
+  ["p"]=>
+  string(20) "http://example.org/p"
+}
+array(1) {
+  ["t"]=>
+  string(20) "http://example.org/t"
+}
+array(0) {
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+getDocNamespaces
+
+Backwards Compatibility:
+recursion:
+array(2) {
+  ["p"]=>
+  string(20) "http://example.org/p"
+  ["t"]=>
+  string(20) "http://example.org/t"
+}
+array(2) {
+  ["p"]=>
+  string(20) "http://example.org/p"
+  ["t"]=>
+  string(20) "http://example.org/t"
+}
+array(2) {
+  ["p"]=>
+  string(20) "http://example.org/p"
+  ["t"]=>
+  string(20) "http://example.org/t"
+}
+
+non recursive:
+array(1) {
+  ["p"]=>
+  string(20) "http://example.org/p"
+}
+array(1) {
+  ["p"]=>
+  string(20) "http://example.org/p"
+}
+array(1) {
+  ["p"]=>
+  string(20) "http://example.org/p"
+}
+
+
+Using new 'from_root' bool set to false:
+recursion:
+array(2) {
+  ["p"]=>
+  string(20) "http://example.org/p"
+  ["t"]=>
+  string(20) "http://example.org/t"
+}
+array(1) {
+  ["t"]=>
+  string(20) "http://example.org/t"
+}
+array(0) {
+}
+
+non recursive:
+array(1) {
+  ["p"]=>
+  string(20) "http://example.org/p"
+}
+array(1) {
+  ["t"]=>
+  string(20) "http://example.org/t"
+}
+array(0) {
+}
+===DONE===
+---- FAILED

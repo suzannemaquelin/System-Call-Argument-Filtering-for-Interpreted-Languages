@@ -1,0 +1,14 @@
+
+---- EXPECTED OUTPUT
+Test invalid arguments:
+Warning: ReflectionClass::getMethods() expects parameter 1 to be integer, string given in %s on line 4
+
+Warning: ReflectionClass::getMethods() expects at most 1 parameter, 2 given in %s on line 5
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Test invalid arguments:
+Warning: ReflectionClass::getMethods() expects parameter 1 to be integer, string given in /root/php-src/ext/reflection/tests/ReflectionClass_getMethods_002.php on line 4
+
+Warning: ReflectionClass::getMethods() expects at most 1 parameter, 2 given in /root/php-src/ext/reflection/tests/ReflectionClass_getMethods_002.php on line 5
+---- FAILED

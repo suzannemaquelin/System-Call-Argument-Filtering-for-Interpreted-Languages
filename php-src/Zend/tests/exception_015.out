@@ -1,0 +1,8 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Exception: [] operator not supported for strings in /root/php-src/Zend/tests/exception_015.php on line 4
+
+Fatal error: Uncaught Error: [] operator not supported for strings in /root/php-src/Zend/tests/exception_015.php:9
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/Zend/tests/exception_015.php on line 9

@@ -1,0 +1,2 @@
+Warning: json_decode(): Depth must be lower than %d in %s on line %d
+NULL

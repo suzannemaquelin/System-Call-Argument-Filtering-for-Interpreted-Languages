@@ -1,0 +1,7 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: ob_start(): array must have exactly two members in /root/php-src/tests/output/ob_start_error_003.php on line 11
+
+Notice: ob_start(): failed to create buffer in /root/php-src/tests/output/ob_start_error_003.php on line 11
+bool(false)
+done

@@ -1,0 +1,20 @@
+
+---- EXPECTED OUTPUT
+Warning: Wrong parameter count for socket_sendto() in %s on line %d
+bool(false)
+
+Warning: socket_recvfrom() expects at least 5 parameters, 4 given in %s on line %d
+
+Warning: Wrong parameter count for socket_recvfrom() in %s on line %d
+Received Ping! from remote address 127.0.0.1 and remote port 1223
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: Wrong parameter count for socket_sendto() in /root/php-src/ext/sockets/tests/socket_sentto_recvfrom_ipv4_udp.php on line 11
+bool(false)
+
+Warning: socket_recvfrom() expects at least 5 parameters, 4 given in /root/php-src/ext/sockets/tests/socket_sentto_recvfrom_ipv4_udp.php on line 29
+
+Warning: Wrong parameter count for socket_recvfrom() in /root/php-src/ext/sockets/tests/socket_sentto_recvfrom_ipv4_udp.php on line 30
+Received Ping! from remote address 127.0.0.1 and remote port 1223
+---- FAILED

@@ -1,0 +1,28 @@
+*** Testing preg_replace_callback() : error conditions ***
+
+Arg value is abcdef
+
+Warning: preg_replace_callback(): Delimiter must not be alphanumeric or backslash in %s on line %d
+NULL
+
+Arg value is /[a-zA-Z]
+
+Warning: preg_replace_callback(): No ending delimiter '/' found in %s on line %d
+NULL
+
+Arg value is [a-zA-Z]/
+
+Warning: preg_replace_callback(): Unknown modifier '/' in %s on line %d
+NULL
+
+Arg value is /[a-zA-Z]/F
+
+Warning: preg_replace_callback(): Unknown modifier 'F' in %s on line %d
+NULL
+
+Arg value is Array
+string(9) "number 1."
+
+Arg value is /[a-zA-Z]/
+string(3) " 1."
+===Done===

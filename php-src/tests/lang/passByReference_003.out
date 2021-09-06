@@ -1,0 +1,24 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Passing undefined by value
+
+Notice: Undefined variable: undef1 in /root/php-src/tests/lang/passByReference_003.php on line 13
+
+Inside passbyVal call:
+NULL
+
+After call
+
+Notice: Undefined variable: undef1 in /root/php-src/tests/lang/passByReference_003.php on line 15
+NULL
+
+Passing undefined by reference
+
+Inside passbyRef call:
+NULL
+
+After call
+array(1) {
+  [0]=>
+  NULL
+}

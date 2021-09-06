@@ -1,0 +1,69 @@
+
+---- EXPECTED OUTPUT
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(false)
+bool(true)
+bool(false)
+
+Warning: mkdir(): phar error: cannot create directory "phar://%sdir.phar.php/fails", write operations disabled in %sdir.php on line %d
+
+Warning: mkdir(): phar error: cannot create directory "fails" in phar "%sok.phar", directory already exists in %sdir.php on line %d
+
+Warning: mkdir(): phar error: cannot create directory "sub" in phar "%sok.phar", directory already exists in %sdir.php on line %d
+
+Warning: mkdir(): phar error: cannot create directory "sub/directory.txt" in phar "%sok.phar", phar error: path "sub/directory.txt" exists and is a not a directory in %sdir.php on line %d
+
+Warning: mkdir(): internal corruption of phar "%soops.phar" (truncated manifest at stub end) in %sdir.php on line %d
+
+Warning: mkdir(): phar error: cannot create directory "phar://", no phar archive specified in %sdir.php on line %d
+
+Warning: rmdir(): phar error: cannot remove directory "phar://", no phar archive specified, or phar archive does not exist in %sdir.php on line %d
+
+Warning: rmdir(): phar error: cannot remove directory "hi" in phar "%sunknown.phar", directory does not exist in %sdir.php on line %d
+
+Warning: rmdir(): phar error: cannot rmdir directory "phar://%sdir.phar.php/another/dir", write operations disabled in %sdir.php on line %d
+
+Warning: rmdir(): phar error: cannot remove directory "" in phar "%sdir.phar.php", directory does not exist in %sdir.php on line %d
+
+Warning: rmdir(): phar error: cannot remove directory "" in phar "%sdir.phar.php", directory does not exist in %sdir.php on line %d
+
+Warning: mkdir(): phar error: cannot create directory "" in phar "%sdir.phar.php", phar error: invalid path "" must not be empty in %sdir.php on line %d
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(false)
+bool(true)
+bool(false)
+
+Warning: mkdir(): phar error: cannot create directory "phar:///root/php-src/ext/phar/tests/dir.phar.php/fails", write operations disabled in /root/php-src/ext/phar/tests/dir.php on line 24
+
+Warning: mkdir(): phar error: cannot create directory "fails" in phar "/root/php-src/ext/phar/tests/ok.phar", directory already exists in /root/php-src/ext/phar/tests/dir.php on line 28
+
+Warning: mkdir(): phar error: cannot create directory "sub" in phar "/root/php-src/ext/phar/tests/ok.phar", directory already exists in /root/php-src/ext/phar/tests/dir.php on line 30
+
+Warning: mkdir(): phar error: cannot create directory "sub/directory.txt" in phar "/root/php-src/ext/phar/tests/ok.phar", phar error: path "sub/directory.txt" exists and is a not a directory in /root/php-src/ext/phar/tests/dir.php on line 31
+
+Warning: mkdir(): internal corruption of phar "/root/php-src/ext/phar/tests/oops.phar" (truncated manifest at stub end) in /root/php-src/ext/phar/tests/dir.php on line 33
+
+Warning: mkdir(): phar error: cannot create directory "phar://", no phar archive specified in /root/php-src/ext/phar/tests/dir.php on line 35
+
+Warning: rmdir(): phar error: cannot remove directory "phar://", no phar archive specified, or phar archive does not exist in /root/php-src/ext/phar/tests/dir.php on line 36
+
+Warning: rmdir(): phar error: cannot remove directory "hi" in phar "/root/php-src/ext/phar/tests/unknown.phar", directory does not exist in /root/php-src/ext/phar/tests/dir.php on line 37
+
+Warning: rmdir(): phar error: cannot rmdir directory "phar:///root/php-src/ext/phar/tests/dir.phar.php/another/dir", write operations disabled in /root/php-src/ext/phar/tests/dir.php on line 39
+
+Warning: rmdir(): phar error: cannot remove directory "" in phar "/root/php-src/ext/phar/tests/dir.phar.php", directory does not exist in /root/php-src/ext/phar/tests/dir.php on line 41
+
+Warning: rmdir(): phar error: cannot remove directory "" in phar "/root/php-src/ext/phar/tests/dir.phar.php", directory does not exist in /root/php-src/ext/phar/tests/dir.php on line 42
+
+Warning: mkdir(): phar error: cannot create directory "" in phar "/root/php-src/ext/phar/tests/dir.phar.php", phar error: invalid path "" must not be empty in /root/php-src/ext/phar/tests/dir.php on line 43
+===DONE===
+---- FAILED

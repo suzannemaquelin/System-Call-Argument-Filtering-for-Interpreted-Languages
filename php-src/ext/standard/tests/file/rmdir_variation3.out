@@ -1,0 +1,32 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing rmdir() : variation ***
+-- removing rmdirVar3.tmp/aSubDir --
+Directory removed
+-- removing ./rmdirVar3.tmp/aSubDir --
+Directory removed
+-- removing rmdirVar3.tmp/../rmdirVar3.tmp/aSubDir --
+Directory removed
+-- removing rmdirVar3.tmp/../BADDIR/aSubDir --
+
+Warning: rmdir(rmdirVar3.tmp/../BADDIR/aSubDir): No such file or directory in /root/php-src/ext/standard/tests/file/rmdir_variation3.php on line 47
+-- removing BADDIR/aSubDir --
+
+Warning: rmdir(BADDIR/aSubDir): No such file or directory in /root/php-src/ext/standard/tests/file/rmdir_variation3.php on line 47
+-- removing /root/php-src/rmdirVar3.tmp/aSubDir --
+Directory removed
+-- removing /root/php-src/./rmdirVar3.tmp/aSubDir --
+Directory removed
+-- removing /root/php-src/rmdirVar3.tmp/../rmdirVar3.tmp/aSubDir --
+Directory removed
+-- removing /root/php-src/BADDIR/aSubDir --
+
+Warning: rmdir(/root/php-src/BADDIR/aSubDir): No such file or directory in /root/php-src/ext/standard/tests/file/rmdir_variation3.php on line 47
+-- removing rmdirVar3.tmp/aSubDir/ --
+Directory removed
+-- removing /root/php-src/rmdirVar3.tmp/aSubDir/ --
+Directory removed
+-- removing rmdirVar3.tmp//aSubDir --
+Directory removed
+-- removing /root/php-src//rmdirVar3.tmp//aSubDir --
+Directory removed
+===DONE===

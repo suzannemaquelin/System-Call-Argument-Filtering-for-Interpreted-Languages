@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Notice: Use of undefined constant FATAL - assumed 'FATAL' in %sconstants_scope_001.php on line %d
+FATAL = FATAL
+self::FATAL = Fatal error
+self::FATAL = Worst error
+parent::FATAL = Fatal error
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Use of undefined constant FATAL - assumed 'FATAL' in /root/php-src/tests/classes/constants_scope_001.php on line 9
+FATAL = FATAL
+self::FATAL = Fatal error
+self::FATAL = Worst error
+parent::FATAL = Fatal error
+---- FAILED

@@ -1,0 +1,11 @@
+Warning: ngettext() expects parameter 1 to be string, array given in %s on line 2
+
+Warning: ngettext() expects parameter 2 to be string, array given in %s on line 3
+
+Warning: ngettext() expects parameter 3 to be integer, array given in %s on line 4
+
+Warning: ngettext() expects exactly 3 parameters, 0 given in %s on line 5
+
+Warning: ngettext() expects exactly 3 parameters, 1 given in %s on line 6
+
+Warning: ngettext() expects exactly 3 parameters, 2 given in %s on line 7

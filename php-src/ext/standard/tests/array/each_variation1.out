@@ -1,0 +1,124 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing each() : usage variations ***
+
+-- Iteration 1 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 2 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 3 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 4 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 5 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 6 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 7 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 8 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 9 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 10 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 11 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 12 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 13 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 14 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 15 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 16 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 17 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 18 --
+bool(false)
+
+-- Iteration 19 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 20 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 21 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 22 --
+bool(false)
+
+-- Iteration 23 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 24 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+
+-- Iteration 25 --
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/ext/standard/tests/array/each_variation1.php on line 87
+NULL
+Done

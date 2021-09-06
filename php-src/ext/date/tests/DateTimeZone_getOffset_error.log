@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+*** Testing DateTimeZone::getOffset() : error conditions ***
+
+-- Testing DateTimeZone::getOffset() function with zero arguments --
+
+Warning: DateTimeZone::getOffset() expects exactly 1 parameter, 0 given in %s on line %d
+bool(false)
+
+-- Testing DateTimeZone::getOffset() function with more than expected no. of arguments --
+
+Warning: DateTimeZone::getOffset() expects exactly 1 parameter, 2 given in %s on line %d
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing DateTimeZone::getOffset() : error conditions ***
+
+-- Testing DateTimeZone::getOffset() function with zero arguments --
+
+Warning: DateTimeZone::getOffset() expects exactly 1 parameter, 0 given in /root/php-src/ext/date/tests/DateTimeZone_getOffset_error.php on line 17
+bool(false)
+
+-- Testing DateTimeZone::getOffset() function with more than expected no. of arguments --
+
+Warning: DateTimeZone::getOffset() expects exactly 1 parameter, 2 given in /root/php-src/ext/date/tests/DateTimeZone_getOffset_error.php on line 21
+bool(false)
+===DONE===
+---- FAILED

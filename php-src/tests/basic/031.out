@@ -1,0 +1,12 @@
+array(3) {
+  ["data"]=>
+  string(3) "abc"
+  ["data2"]=>
+  string(9) "more data"
+  ["data3"]=>
+  string(14) "even more data"
+}
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so: cannot open shared object file: No such file or directory in Unknown on line 0

@@ -1,0 +1,22 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing session_set_save_handler() : full handler implementation ***
+string(32) "e33d8fad598032df8c72d2f6fdea6d79"
+string(4) "user"
+array(1) {
+  ["foo"]=>
+  string(5) "hello"
+}
+array(1) {
+  ["foo"]=>
+  string(5) "hello"
+}
+string(32) "e33d8fad598032df8c72d2f6fdea6d79"
+string(4) "user"
+array(1) {
+  ["foo"]=>
+  string(5) "hello"
+}
+array(1) {
+  ["foo"]=>
+  string(5) "hello"
+}

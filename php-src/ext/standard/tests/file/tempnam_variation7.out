@@ -1,0 +1,58 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing tempnam() with invalid/non-existing directory names ***
+-- Iteration 0 --
+
+Notice: tempnam(): file created in the system's temporary directory in /root/php-src/ext/standard/tests/file/tempnam_variation7.php on line 30
+File name is => /tmp/tempnam_variation3.tmp81QcJI
+File permissions are => 100600
+File created in => temp dir
+-- Iteration 1 --
+
+Notice: tempnam(): file created in the system's temporary directory in /root/php-src/ext/standard/tests/file/tempnam_variation7.php on line 30
+File name is => /tmp/tempnam_variation3.tmpXzVpQ9
+File permissions are => 100600
+File created in => temp dir
+-- Iteration 2 --
+File name is => /tmp/tempnam_variation3.tmpMGoNXA
+File permissions are => 100600
+File created in => temp dir
+-- Iteration 3 --
+File name is => /tmp/tempnam_variation3.tmpt6nl51
+File permissions are => 100600
+File created in => temp dir
+-- Iteration 4 --
+File name is => /tmp/tempnam_variation3.tmpgeJ3ct
+File permissions are => 100600
+File created in => temp dir
+-- Iteration 5 --
+
+Notice: tempnam(): file created in the system's temporary directory in /root/php-src/ext/standard/tests/file/tempnam_variation7.php on line 30
+File name is => /tmp/tempnam_variation3.tmpJraYkU
+File permissions are => 100600
+File created in => temp dir
+-- Iteration 6 --
+
+Warning: tempnam() expects parameter 1 to be a valid path, string given in /root/php-src/ext/standard/tests/file/tempnam_variation7.php on line 30
+-- File is not created --
+
+Warning: unlink(): No such file or directory in /root/php-src/ext/standard/tests/file/tempnam_variation7.php on line 57
+-- Iteration 7 --
+
+Warning: tempnam() expects parameter 1 to be a valid path, array given in /root/php-src/ext/standard/tests/file/tempnam_variation7.php on line 30
+-- File is not created --
+
+Warning: unlink(): No such file or directory in /root/php-src/ext/standard/tests/file/tempnam_variation7.php on line 57
+-- Iteration 8 --
+
+Notice: tempnam(): file created in the system's temporary directory in /root/php-src/ext/standard/tests/file/tempnam_variation7.php on line 30
+File name is => /tmp/tempnam_variation3.tmpUeTatl
+File permissions are => 100600
+File created in => temp dir
+-- Iteration 9 --
+
+Notice: tempnam(): file created in the system's temporary directory in /root/php-src/ext/standard/tests/file/tempnam_variation7.php on line 30
+File name is => /tmp/tempnam_variation3.tmpJntxBM
+File permissions are => 100600
+File created in => temp dir
+
+*** Done ***

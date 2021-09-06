@@ -1,0 +1,9 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Only variables should be passed by reference in /root/php-src/Zend/tests/bug72038.php on line 3
+object(stdClass)#1 (0) {
+}
+
+Notice: Only variables should be passed by reference in /root/php-src/Zend/tests/bug72038.php on line 5
+int(2)
+int(1)

@@ -1,0 +1,118 @@
+*** Testing readfile() : usage variation ***
+
+--int 0--
+Error: 2 - readfile() expects parameter 3 to be resource, integer given, %s(%d)
+file not read
+
+--int 1--
+Error: 2 - readfile() expects parameter 3 to be resource, integer given, %s(%d)
+file not read
+
+--int 12345--
+Error: 2 - readfile() expects parameter 3 to be resource, integer given, %s(%d)
+file not read
+
+--int -12345--
+Error: 2 - readfile() expects parameter 3 to be resource, integer given, %s(%d)
+file not read
+
+--float 10.5--
+Error: 2 - readfile() expects parameter 3 to be resource, float given, %s(%d)
+file not read
+
+--float -10.5--
+Error: 2 - readfile() expects parameter 3 to be resource, float given, %s(%d)
+file not read
+
+--float 12.3456789000e10--
+Error: 2 - readfile() expects parameter 3 to be resource, float given, %s(%d)
+file not read
+
+--float -12.3456789000e10--
+Error: 2 - readfile() expects parameter 3 to be resource, float given, %s(%d)
+file not read
+
+--float .5--
+Error: 2 - readfile() expects parameter 3 to be resource, float given, %s(%d)
+file not read
+
+--empty array--
+Error: 2 - readfile() expects parameter 3 to be resource, array given, %s(%d)
+file not read
+
+--int indexed array--
+Error: 2 - readfile() expects parameter 3 to be resource, array given, %s(%d)
+file not read
+
+--associative array--
+Error: 2 - readfile() expects parameter 3 to be resource, array given, %s(%d)
+file not read
+
+--nested arrays--
+Error: 2 - readfile() expects parameter 3 to be resource, array given, %s(%d)
+file not read
+
+--uppercase NULL--
+testing readfile
+
+--lowercase null--
+testing readfile
+
+--lowercase true--
+Error: 2 - readfile() expects parameter 3 to be resource, boolean given, %s(%d)
+file not read
+
+--lowercase false--
+Error: 2 - readfile() expects parameter 3 to be resource, boolean given, %s(%d)
+file not read
+
+--uppercase TRUE--
+Error: 2 - readfile() expects parameter 3 to be resource, boolean given, %s(%d)
+file not read
+
+--uppercase FALSE--
+Error: 2 - readfile() expects parameter 3 to be resource, boolean given, %s(%d)
+file not read
+
+--empty string DQ--
+Error: 2 - readfile() expects parameter 3 to be resource, string given, %s(%d)
+file not read
+
+--empty string SQ--
+Error: 2 - readfile() expects parameter 3 to be resource, string given, %s(%d)
+file not read
+
+--string DQ--
+Error: 2 - readfile() expects parameter 3 to be resource, string given, %s(%d)
+file not read
+
+--string SQ--
+Error: 2 - readfile() expects parameter 3 to be resource, string given, %s(%d)
+file not read
+
+--mixed case string--
+Error: 2 - readfile() expects parameter 3 to be resource, string given, %s(%d)
+file not read
+
+--heredoc--
+Error: 2 - readfile() expects parameter 3 to be resource, string given, %s(%d)
+file not read
+
+--instance of classWithToString--
+Error: 2 - readfile() expects parameter 3 to be resource, object given, %s(%d)
+file not read
+
+--instance of classWithoutToString--
+Error: 2 - readfile() expects parameter 3 to be resource, object given, %s(%d)
+file not read
+
+--undefined var--
+testing readfile
+
+--unset var--
+testing readfile
+
+--file resource--
+Error: 2 - readfile(): supplied resource is not a valid Stream-Context resource, %s(%d)
+testing readfile
+===DONE===

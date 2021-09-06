@@ -1,0 +1,4 @@
+bool(true)
+
+Warning: assert(): assert(false) failed in %s on line %d
+bool(false)

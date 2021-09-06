@@ -1,0 +1,32 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Test readfile(): error conditions ***
+-- Testing readfile() with unexpected no. of arguments --
+
+Warning: readfile() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/readfile_error.php on line 10
+bool(false)
+
+Warning: readfile() expects at most 3 parameters, 4 given in /root/php-src/ext/standard/tests/file/readfile_error.php on line 11
+bool(false)
+
+-- Testing readfile() with invalid arguments --
+
+Warning: readfile(): Filename cannot be empty in /root/php-src/ext/standard/tests/file/readfile_error.php on line 15
+bool(false)
+
+Warning: readfile(): Filename cannot be empty in /root/php-src/ext/standard/tests/file/readfile_error.php on line 16
+bool(false)
+
+Warning: readfile(): Filename cannot be empty in /root/php-src/ext/standard/tests/file/readfile_error.php on line 17
+bool(false)
+
+Warning: readfile() expects parameter 3 to be resource, string given in /root/php-src/ext/standard/tests/file/readfile_error.php on line 18
+bool(false)
+
+Warning: readfile() expects parameter 3 to be resource, boolean given in /root/php-src/ext/standard/tests/file/readfile_error.php on line 19
+bool(false)
+
+-- Testing readfile() with non-existent file --
+
+Warning: readfile(/root/php-src/ext/standard/tests/file/non_existent_file.tmp): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/file/readfile_error.php on line 23
+bool(false)
+Done

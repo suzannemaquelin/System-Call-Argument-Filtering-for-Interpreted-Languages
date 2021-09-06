@@ -1,0 +1,39 @@
+*** Testing array_unique() : two dimensional array for $input argument ***
+
+Notice: Array to string conversion in %sarray_unique_variation8.php on line %d
+
+Notice: Array to string conversion in %sarray_unique_variation8.php on line %d
+
+Notice: Array to string conversion in %sarray_unique_variation8.php on line %d
+
+Notice: Array to string conversion in %sarray_unique_variation8.php on line %d
+
+Notice: Array to string conversion in %sarray_unique_variation8.php on line %d
+
+Notice: Array to string conversion in %sarray_unique_variation8.php on line %d
+
+Notice: Array to string conversion in %sarray_unique_variation8.php on line %d
+
+Notice: Array to string conversion in %sarray_unique_variation8.php on line %d
+
+Notice: Array to string conversion in %sarray_unique_variation8.php on line %d
+
+Notice: Array to string conversion in %sarray_unique_variation8.php on line %d
+
+Notice: Array to string conversion in %sarray_unique_variation8.php on line %d
+
+Notice: Array to string conversion in %sarray_unique_variation8.php on line %d
+array(1) {
+  [0]=>
+  array(4) {
+    [0]=>
+    int(1)
+    [1]=>
+    int(2)
+    [2]=>
+    int(3)
+    [3]=>
+    int(1)
+  }
+}
+Done

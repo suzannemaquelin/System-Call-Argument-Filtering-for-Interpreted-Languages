@@ -1,0 +1,81 @@
+*** Testing tempnam() with absolute and relative paths ***
+
+-- Iteration 1 --
+File name is => %s/tempnam_variation2/tempnam_variation2_sub/tempnam_variation2.tmp%s
+File permissions are => 100600
+File created in => directory specified
+
+-- Iteration 2 --
+File name is => %s/tempnam_variation2/tempnam_variation2_sub/tempnam_variation2.tmp%s
+File permissions are => 100600
+File created in => directory specified
+
+-- Iteration 3 --
+File name is => %s/tempnam_variation2/tempnam_variation2.tmp%s
+File permissions are => 100600
+File created in => directory specified
+
+-- Iteration 4 --
+File name is => %s/tempnam_variation2/tempnam_variation2.tmp%s
+File permissions are => 100600
+File created in => directory specified
+
+-- Iteration 5 --
+File name is => %s/tempnam_variation2/tempnam_variation2.tmp%s
+File permissions are => 100600
+File created in => directory specified
+
+-- Iteration 6 --
+File name is => %s/tempnam_variation2/tempnam_variation2.tmp%s
+File permissions are => 100600
+File created in => directory specified
+
+-- Iteration 7 --
+
+Notice: tempnam(): file created in the system's temporary directory in %stempnam_variation2.php on line %d
+File name is => %s/tempnam_variation2.tmp%s
+File permissions are => 100600
+File created in => temp dir
+
+-- Iteration 8 --
+File name is => %s/tempnam_variation2.tmp%s
+File permissions are => 100600
+File created in => directory specified
+
+-- Iteration 9 --
+
+Notice: tempnam(): file created in the system's temporary directory in %stempnam_variation2.php on line %d
+File name is => %s/tempnam_variation2.tmp%s
+File permissions are => 100600
+File created in => temp dir
+
+-- Iteration 10 --
+
+Notice: tempnam(): file created in the system's temporary directory in %stempnam_variation2.php on line %d
+File name is => %s/tempnam_variation2.tmp%s
+File permissions are => 100600
+File created in => temp dir
+
+-- Iteration 11 --
+File name is => %s/tempnam_variation2/tempnam_variation2_sub/tempnam_variation2.tmp%s
+File permissions are => 100600
+File created in => directory specified
+
+-- Iteration 12 --
+File name is => %s/tempnam_variation2/tempnam_variation2_sub/tempnam_variation2.tmp%s
+File permissions are => 100600
+File created in => directory specified
+
+-- Iteration 13 --
+File name is => %s/tempnam_variation2/tempnam_variation2_sub/tempnam_variation2.tmp%s
+File permissions are => 100600
+File created in => directory specified
+
+-- Iteration 14 --
+
+Notice: tempnam(): file created in the system's temporary directory in %stempnam_variation2.php on line %d
+File name is => %s/tempnam_variation2.tmp%s
+File permissions are => 100600
+File created in => temp dir
+
+*** Done ***

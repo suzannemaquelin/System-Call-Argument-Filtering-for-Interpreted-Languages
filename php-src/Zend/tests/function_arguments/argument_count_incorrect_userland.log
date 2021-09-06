@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+ArgumentCountError
+Too few arguments to function foo(), 0 passed in %s and exactly 1 expected
+ArgumentCountError
+Too few arguments to function bar(), 1 passed in %s and exactly 2 expected
+ArgumentCountError
+Too few arguments to function bat(), 1 passed in %s and exactly 2 expected
+ArgumentCountError
+Too few arguments to function bat(), 1 passed in %s and exactly 2 expected
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+ArgumentCountError
+Too few arguments to function foo(), 0 passed in /root/php-src/Zend/tests/function_arguments/argument_count_incorrect_userland.php on line 4 and exactly 1 expected
+ArgumentCountError
+Too few arguments to function bar(), 1 passed in /root/php-src/Zend/tests/function_arguments/argument_count_incorrect_userland.php on line 12 and exactly 2 expected
+ArgumentCountError
+Too few arguments to function bat(), 1 passed in /root/php-src/Zend/tests/function_arguments/argument_count_incorrect_userland.php on line 21 and exactly 2 expected
+ArgumentCountError
+Too few arguments to function bat(), 1 passed in /root/php-src/Zend/tests/function_arguments/argument_count_incorrect_userland.php on line 28 and exactly 2 expected
+---- FAILED

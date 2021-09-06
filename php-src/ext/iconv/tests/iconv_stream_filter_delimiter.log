@@ -1,0 +1,33 @@
+
+---- EXPECTED OUTPUT
+string(20) "1b244224332473244b24"
+string(10) "41244f1b28"
+string(2) "42"
+string(20) "a4b3a4f3a4cba4c1a4cf"
+string(10) "69636f6e76"
+string(2) "0a"
+string(20) "a4b3a4f3a4cba4c1a4cf"
+string(10) "69636f6e76"
+string(2) "0a"
+
+Warning: stream_filter_append(): unable to create or locate filter "convert.iconv.ISO-2022-JP\0EUC-JP" in %siconv_stream_filter_delimiter.php on line %d
+string(20) "1b244224332473244b24"
+string(10) "41244f1b28"
+string(2) "42"
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(20) "1b244224332473244b24"
+string(10) "41244f1b28"
+string(2) "42"
+string(20) "a4b3a4f3a4cba4c1a4cf"
+string(10) "69636f6e76"
+string(2) "0a"
+string(20) "a4b3a4f3a4cba4c1a4cf"
+string(10) "69636f6e76"
+string(2) "0a"
+
+Warning: stream_filter_append(): unable to create or locate filter "convert.iconv.ISO-2022-JP\0EUC-JP" in /root/php-src/ext/iconv/tests/iconv_stream_filter_delimiter.php on line 23
+string(20) "1b244224332473244b24"
+string(10) "41244f1b28"
+string(2) "42"
+---- FAILED

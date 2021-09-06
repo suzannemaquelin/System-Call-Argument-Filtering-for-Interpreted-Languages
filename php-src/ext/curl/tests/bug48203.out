@@ -1,0 +1,35 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: curl_exec(): CURLOPT_STDERR resource has gone away, resetting to stderr in /root/php-src/ext/curl/tests/bug48203.php on line 13
+* Expire in 0 ms for 6 (transfer 0x55e5e4025e80)
+* Expire in 1 ms for 1 (transfer 0x55e5e4025e80)
+* Expire in 0 ms for 1 (transfer 0x55e5e4025e80)
+* Expire in 1 ms for 1 (transfer 0x55e5e4025e80)
+* Expire in 0 ms for 1 (transfer 0x55e5e4025e80)
+* Expire in 0 ms for 1 (transfer 0x55e5e4025e80)
+* Expire in 2 ms for 1 (transfer 0x55e5e4025e80)
+* Expire in 0 ms for 1 (transfer 0x55e5e4025e80)
+* Expire in 0 ms for 1 (transfer 0x55e5e4025e80)
+* Expire in 2 ms for 1 (transfer 0x55e5e4025e80)
+* Expire in 0 ms for 1 (transfer 0x55e5e4025e80)
+* Expire in 0 ms for 1 (transfer 0x55e5e4025e80)
+* Expire in 0 ms for 1 (transfer 0x55e5e4025e80)
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Expire in 149999 ms for 3 (transfer 0x55e5e4025e80)
+* Expire in 200 ms for 4 (transfer 0x55e5e4025e80)
+* Connected to localhost (127.0.0.1) port 8964 (#0)
+> GET / HTTP/1.1
+Host: localhost:8964
+Accept: */*
+
+< HTTP/1.1 200 OK
+< Host: localhost:8964
+< Date: Sun, 08 May 2022 14:04:01 +0000
+< Connection: close
+< X-Powered-By: PHP/7.1.30
+< Content-type: text/html; charset=UTF-8
+< 
+Hello World!
+Hello World!* Closing connection 0
+Ok

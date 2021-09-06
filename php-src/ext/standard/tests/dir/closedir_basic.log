@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+*** Testing closedir() : basic functionality ***
+
+-- Call closedir() with no arguments: --
+NULL
+-- Check Directory Handle: --
+resource(%d) of type (Unknown)
+
+-- Call closedir() with $dir_handle argument supplied: --
+NULL
+-- Check Directory Handle: --
+resource(%d) of type (Unknown)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing closedir() : basic functionality ***
+
+-- Call closedir() with no arguments: --
+NULL
+-- Check Directory Handle: --
+resource(5) of type (Unknown)
+
+-- Call closedir() with $dir_handle argument supplied: --
+NULL
+-- Check Directory Handle: --
+resource(6) of type (Unknown)
+===DONE===
+---- FAILED

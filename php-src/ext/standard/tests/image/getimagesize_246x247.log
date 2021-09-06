@@ -1,0 +1,39 @@
+
+---- EXPECTED OUTPUT
+array(1) {
+  ["246x247.png"]=>
+  array(6) {
+    [0]=>
+    int(246)
+    [1]=>
+    int(247)
+    [2]=>
+    int(3)
+    [3]=>
+    string(24) "width="246" height="247""
+    ["bits"]=>
+    int(4)
+    ["mime"]=>
+    string(9) "image/png"
+  }
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(1) {
+  ["246x247.png"]=>
+  array(6) {
+    [0]=>
+    int(246)
+    [1]=>
+    int(247)
+    [2]=>
+    int(3)
+    [3]=>
+    string(24) "width="246" height="247""
+    ["bits"]=>
+    int(4)
+    ["mime"]=>
+    string(9) "image/png"
+  }
+}
+---- FAILED

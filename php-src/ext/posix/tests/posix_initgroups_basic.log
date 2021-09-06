@@ -1,0 +1,17 @@
+
+---- EXPECTED OUTPUT
+Basic test of POSIX posix_initgroups function
+
+Warning: posix_initgroups() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+bool(false)
+===DONE====
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Basic test of POSIX posix_initgroups function
+
+Warning: posix_initgroups() expects parameter 2 to be integer, string given in /root/php-src/ext/posix/tests/posix_initgroups_basic.php on line 3
+bool(false)
+bool(false)
+===DONE====
+---- FAILED

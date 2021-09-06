@@ -1,0 +1,4 @@
+Warning: session_decode(): Session is not active. You cannot decode session data in %s on line %d
+
+Warning: session_decode(): Session is not active. You cannot decode session data in %s on line %d
+I live

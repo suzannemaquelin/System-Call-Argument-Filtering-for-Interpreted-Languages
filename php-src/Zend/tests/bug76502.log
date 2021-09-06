@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+---- Exception(Exception()) ----
+before: Exception.previous == Exception
+after : Exception.previous == Exception
+---- Error(Error()) ----
+before: Error.previous == Error
+after : Error.previous == Error
+---- Error(Exception()) ----
+before: Error.previous == Exception
+after : Error.previous == Exception
+---- Exception(Error()) ----
+before: Exception.previous == Error
+after : Exception.previous == Error
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+---- Exception(Exception()) ----
+before: Exception.previous == Exception
+after : Exception.previous == Exception
+---- Error(Error()) ----
+before: Error.previous == Error
+after : Error.previous == Error
+---- Error(Exception()) ----
+before: Error.previous == Exception
+after : Error.previous == Exception
+---- Exception(Error()) ----
+before: Exception.previous == Error
+after : Exception.previous == Error
+---- FAILED

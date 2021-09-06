@@ -1,0 +1,2 @@
+Warning: strtotime() expects parameter 2 to be integer, object given in %sbug70245.php on line %d
+bool(false)

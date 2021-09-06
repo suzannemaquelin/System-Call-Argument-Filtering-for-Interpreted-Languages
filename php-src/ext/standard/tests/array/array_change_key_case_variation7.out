@@ -1,0 +1,32 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_change_key_case() : usage variations ***
+
+-- $input argument is a reference to array --
+Result:
+array(3) {
+  ["ONE"]=>
+  int(1)
+  ["TWO"]=>
+  int(2)
+  ["ABC"]=>
+  string(3) "xyz"
+}
+Original:
+array(3) {
+  ["one"]=>
+  int(1)
+  ["two"]=>
+  int(2)
+  ["ABC"]=>
+  string(3) "xyz"
+}
+Referenced:
+array(3) {
+  ["one"]=>
+  int(1)
+  ["two"]=>
+  int(2)
+  ["ABC"]=>
+  string(3) "xyz"
+}
+Done

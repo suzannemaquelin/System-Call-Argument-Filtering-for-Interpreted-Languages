@@ -1,0 +1,18 @@
+-- Test: requests with 'header' as array --
+string(%d) "POST / HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+Content-Length: 4
+X-Foo: bar
+Content-Type: text/plain
+
+ohai"
+-- Test: requests with 'header' as string --
+string(%d) "POST / HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+Content-Length: 4
+X-Foo: bar
+Content-Type: text/plain
+
+ohai"

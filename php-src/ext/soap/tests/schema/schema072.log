@@ -1,0 +1,11 @@
+
+---- EXPECTED OUTPUT
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://test-uri/"><SOAP-ENV:Body><ns1:testElement><xsd:int>123</xsd:int><xsd:int>123</xsd:int></ns1:testElement></SOAP-ENV:Body></SOAP-ENV:Envelope>
+ok
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://test-uri/"><SOAP-ENV:Body><ns1:testElement><xsd:int>123</xsd:int><xsd:int>123</xsd:int></ns1:testElement></SOAP-ENV:Body></SOAP-ENV:Envelope>
+ok
+---- FAILED

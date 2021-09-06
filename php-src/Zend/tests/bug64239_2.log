@@ -1,0 +1,53 @@
+
+---- EXPECTED OUTPUT
+Array
+(
+    [0] => Array
+        (
+            [file] => %sbug64239_2.php
+            [line] => %d
+            [function] => Bmethod
+            [class] => B
+            [type] => ->
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [file] => %sbug64239_2.php
+            [line] => %d
+            [function] => Bmethod
+            [class] => B
+            [type] => ->
+        )
+
+)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Array
+(
+    [0] => Array
+        (
+            [file] => /root/php-src/Zend/tests/bug64239_2.php
+            [line] => 17
+            [function] => Bmethod
+            [class] => B
+            [type] => ->
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [file] => /root/php-src/Zend/tests/bug64239_2.php
+            [line] => 17
+            [function] => Bmethod
+            [class] => B
+            [type] => ->
+        )
+
+)
+---- FAILED

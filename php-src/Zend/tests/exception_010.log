@@ -1,0 +1,32 @@
+
+---- EXPECTED OUTPUT
+Warning: Exception::getTraceAsString() expects exactly 0 parameters, 1 given in %s on line %d
+
+Warning: Exception::__toString() expects exactly 0 parameters, 1 given in %s on line %d
+
+Warning: Exception::getTrace() expects exactly 0 parameters, 1 given in %s on line %d
+
+Warning: Exception::getLine() expects exactly 0 parameters, 1 given in %s on line %d
+
+Warning: Exception::getFile() expects exactly 0 parameters, 1 given in %s on line %d
+
+Warning: Exception::getMessage() expects exactly 0 parameters, 1 given in %s on line %d
+
+Warning: Exception::getCode() expects exactly 0 parameters, 1 given in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: Exception::getTraceAsString() expects exactly 0 parameters, 1 given in /root/php-src/Zend/tests/exception_010.php on line 4
+
+Warning: Exception::__toString() expects exactly 0 parameters, 1 given in /root/php-src/Zend/tests/exception_010.php on line 6
+
+Warning: Exception::getTrace() expects exactly 0 parameters, 1 given in /root/php-src/Zend/tests/exception_010.php on line 7
+
+Warning: Exception::getLine() expects exactly 0 parameters, 1 given in /root/php-src/Zend/tests/exception_010.php on line 8
+
+Warning: Exception::getFile() expects exactly 0 parameters, 1 given in /root/php-src/Zend/tests/exception_010.php on line 9
+
+Warning: Exception::getMessage() expects exactly 0 parameters, 1 given in /root/php-src/Zend/tests/exception_010.php on line 10
+
+Warning: Exception::getCode() expects exactly 0 parameters, 1 given in /root/php-src/Zend/tests/exception_010.php on line 11
+---- FAILED

@@ -1,0 +1,2 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+internal corruption of phar "/root/php-src/ext/phar/tests/011.phar.php" (compressed and uncompressed size does not match for uncompressed entry)

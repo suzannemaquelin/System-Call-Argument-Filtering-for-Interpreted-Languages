@@ -1,0 +1,18 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Generator 0
+int(1)
+Caught exception!
+Exception in /root/php-src/Zend/tests/generators/mutli_yield_from_with_exception.php:4
+Stack trace:
+#0 /root/php-src/Zend/tests/generators/mutli_yield_from_with_exception.php(9): from()
+#1 [internal function]: gen(Object(Generator))
+#2 /root/php-src/Zend/tests/generators/mutli_yield_from_with_exception.php(25): Generator->next()
+#3 {main}
+Generator 1
+Caught exception!
+ClosedGeneratorException: Generator yielded from aborted, no return value available in /root/php-src/Zend/tests/generators/mutli_yield_from_with_exception.php:9
+Stack trace:
+#0 [internal function]: gen(Object(Generator))
+#1 /root/php-src/Zend/tests/generators/mutli_yield_from_with_exception.php(24): Generator->current()
+#2 {main}
+NULL

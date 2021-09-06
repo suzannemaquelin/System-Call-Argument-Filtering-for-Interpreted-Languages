@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Warning: cal_days_in_month(): invalid date. in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: cal_days_in_month(): invalid date. in /root/php-src/ext/date/tests/cal_days_in_month_invalid_date.php on line 2
+---- FAILED

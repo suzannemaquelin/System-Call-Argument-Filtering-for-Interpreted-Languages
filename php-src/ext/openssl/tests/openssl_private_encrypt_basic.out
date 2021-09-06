@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(true)
+
+Warning: openssl_private_encrypt(): key param is not a valid private key in /root/php-src/ext/openssl/tests/openssl_private_encrypt_basic.php on line 15
+bool(false)
+
+Warning: openssl_private_encrypt(): key param is not a valid private key in /root/php-src/ext/openssl/tests/openssl_private_encrypt_basic.php on line 16
+bool(false)
+
+Warning: openssl_private_encrypt(): key param is not a valid private key in /root/php-src/ext/openssl/tests/openssl_private_encrypt_basic.php on line 17
+bool(false)
+bool(true)
+string(4) "test"

@@ -1,0 +1,33 @@
+
+---- EXPECTED OUTPUT
+*** Testing gmdate() : usage variation ***
+
+-- Testing gmdate() function with partial textual representation of day --
+string(%d) "%s"
+string(3) "Fri"
+
+-- Testing gmdate() function with full textual representation of day --
+string(%d) "%s"
+string(6) "Friday"
+
+-- Testing gmdate() function with English ordinal suffix --
+string(%d) "%s"
+string(2) "th"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing gmdate() : usage variation ***
+
+-- Testing gmdate() function with partial textual representation of day --
+string(3) "Sun"
+string(3) "Fri"
+
+-- Testing gmdate() function with full textual representation of day --
+string(6) "Sunday"
+string(6) "Friday"
+
+-- Testing gmdate() function with English ordinal suffix --
+string(2) "th"
+string(2) "th"
+===DONE===
+---- FAILED

@@ -1,0 +1,8 @@
+Fatal error: Uncaught Exception: Exception message in %s:%d
+Stack trace:
+#0 {main}
+
+Next Error: Error message in %s:%d
+Stack trace:
+#0 {main}
+  thrown in %s on line %d

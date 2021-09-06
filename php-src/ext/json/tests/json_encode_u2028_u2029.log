@@ -1,0 +1,33 @@
+
+---- EXPECTED OUTPUT
+string(12) "["a\u00e1b"]"
+string(8) "["aáb"]"
+string(10) ""a\u2027b""
+string(7) ""a‧b""
+string(10) ""a\u2028b""
+string(10) ""a\u2028b""
+string(10) ""a\u2028b""
+string(7) ""a b""
+string(10) ""a\u2029b""
+string(10) ""a\u2029b""
+string(10) ""a\u2029b""
+string(7) ""a b""
+string(10) ""a\u202ab""
+string(7) ""a‪b""
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(12) "["a\u00e1b"]"
+string(8) "["aáb"]"
+string(10) ""a\u2027b""
+string(7) ""a‧b""
+string(10) ""a\u2028b""
+string(10) ""a\u2028b""
+string(10) ""a\u2028b""
+string(7) ""a b""
+string(10) ""a\u2029b""
+string(10) ""a\u2029b""
+string(10) ""a\u2029b""
+string(7) ""a b""
+string(10) ""a\u202ab""
+string(7) ""a‪b""
+---- FAILED

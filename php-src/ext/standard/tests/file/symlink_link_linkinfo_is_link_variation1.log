@@ -1,0 +1,53 @@
+
+---- EXPECTED OUTPUT
+*** Testing symlink(), link(), linkinfo() and is_link() with linknames stored as members in an object ***
+
+-- Working with soft links --
+bool(true)
+int(%d)
+bool(true)
+
+-- Working with hard links --
+bool(true)
+int(%d)
+bool(false)
+
+*** Testing symlink(), link(), linkinfo() and is_link() with linknames stored as members of an array ***
+
+-- Working with soft links --
+bool(true)
+int(%d)
+bool(true)
+
+-- Working with hard links --
+bool(true)
+int(%d)
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing symlink(), link(), linkinfo() and is_link() with linknames stored as members in an object ***
+
+-- Working with soft links --
+bool(true)
+int(66306)
+bool(true)
+
+-- Working with hard links --
+bool(true)
+int(66306)
+bool(false)
+
+*** Testing symlink(), link(), linkinfo() and is_link() with linknames stored as members of an array ***
+
+-- Working with soft links --
+bool(true)
+int(66306)
+bool(true)
+
+-- Working with hard links --
+bool(true)
+int(66306)
+bool(false)
+Done
+---- FAILED

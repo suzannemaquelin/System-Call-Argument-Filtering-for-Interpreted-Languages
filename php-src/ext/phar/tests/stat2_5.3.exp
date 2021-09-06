@@ -1,0 +1,19 @@
+Warning: is_file() expects exactly 1 parameter, 0 given in %sstat2_5.3.php on line %d
+
+Warning: is_link() expects exactly 1 parameter, 0 given in %sstat2_5.3.php on line %d
+bool(true)
+is_link
+bool(false)
+bool(true)
+bool(false)
+bool(false)
+bool(true)
+string(4) "link"
+string(3) "dir"
+bool(true)
+not found
+bool(false)
+dir
+bool(true)
+bool(false)
+===DONE===

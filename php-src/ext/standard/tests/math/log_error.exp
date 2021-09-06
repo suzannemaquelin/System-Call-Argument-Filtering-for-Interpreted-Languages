@@ -1,0 +1,5 @@
+Warning: log() expects at least 1 parameter, 0 given in %s on line %d
+
+Warning: log() expects at most 2 parameters, 3 given in %s on line %d
+
+Warning: log(): base must be greater than 0 in %s on line %d

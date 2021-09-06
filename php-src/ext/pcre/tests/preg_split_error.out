@@ -1,0 +1,18 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing preg_split() : error conditions ***
+
+-- Testing preg_split() function with Zero arguments --
+
+Warning: preg_split() expects at least 2 parameters, 0 given in /root/php-src/ext/pcre/tests/preg_split_error.php on line 9
+bool(false)
+
+-- Testing preg_split() function with more than expected no. of arguments --
+
+Warning: preg_split() expects at most 4 parameters, 5 given in /root/php-src/ext/pcre/tests/preg_split_error.php on line 17
+bool(false)
+
+-- Testing preg_split() function with less than expected no. of arguments --
+
+Warning: preg_split() expects at least 2 parameters, 1 given in /root/php-src/ext/pcre/tests/preg_split_error.php on line 21
+bool(false)
+Done

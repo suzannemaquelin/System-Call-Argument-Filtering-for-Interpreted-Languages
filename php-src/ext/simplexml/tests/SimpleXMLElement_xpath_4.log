@@ -1,0 +1,14 @@
+
+---- EXPECTED OUTPUT
+Notice: Undefined variable: x in %s on line %d
+
+Warning: simplexml_load_string(): Invalid options in %s on line %d
+bool(false)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined variable: x in /root/php-src/ext/simplexml/tests/SimpleXMLElement_xpath_4.php on line 2
+
+Warning: simplexml_load_string(): Invalid options in /root/php-src/ext/simplexml/tests/SimpleXMLElement_xpath_4.php on line 2
+bool(false)
+---- FAILED

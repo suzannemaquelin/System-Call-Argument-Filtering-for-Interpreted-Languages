@@ -1,0 +1,26 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Class [ <user> class bar extends foo ] {
+  @@ /root/php-src/ext/reflection/tests/bug37964.php 14-17
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [2] {
+    Method [ <user> private method foobar ] {
+      @@ /root/php-src/ext/reflection/tests/bug37964.php 15 - 16
+    }
+
+    Method [ <user, inherits foo> protected method test3 ] {
+      @@ /root/php-src/ext/reflection/tests/bug37964.php 11 - 12
+    }
+  }
+}

@@ -1,0 +1,83 @@
+
+---- EXPECTED OUTPUT
+=> array_multisort:
+
+Name: arr1
+Is passed by reference: yes
+Can be passed by value: yes
+
+Name: sort_order
+Is passed by reference: yes
+Can be passed by value: yes
+
+Name: sort_flags
+Is passed by reference: yes
+Can be passed by value: yes
+
+Name: arr2
+Is passed by reference: yes
+Can be passed by value: yes
+
+=> sort:
+
+Name: arg
+Is passed by reference: yes
+Can be passed by value: no
+
+Name: sort_flags
+Is passed by reference: no
+Can be passed by value: yes
+
+=> user function:
+
+Name: arg1
+Is passed by reference: yes
+Can be passed by value: no
+
+Name: arg2
+Is passed by reference: no
+Can be passed by value: yes
+
+Done.
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+=> array_multisort:
+
+Name: arr1
+Is passed by reference: yes
+Can be passed by value: yes
+
+Name: sort_order
+Is passed by reference: yes
+Can be passed by value: yes
+
+Name: sort_flags
+Is passed by reference: yes
+Can be passed by value: yes
+
+Name: arr2
+Is passed by reference: yes
+Can be passed by value: yes
+
+=> sort:
+
+Name: arg
+Is passed by reference: yes
+Can be passed by value: no
+
+Name: sort_flags
+Is passed by reference: no
+Can be passed by value: yes
+
+=> user function:
+
+Name: arg1
+Is passed by reference: yes
+Can be passed by value: no
+
+Name: arg2
+Is passed by reference: no
+Can be passed by value: yes
+
+Done.
+---- FAILED

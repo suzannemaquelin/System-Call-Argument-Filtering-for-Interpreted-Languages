@@ -1,0 +1,6 @@
+string(8) "RSA-SHA1"
+string(21) "sha1WithRSAEncryption"
+int(65)
+string(7) "RSA-MD5"
+string(20) "md5WithRSAEncryption"
+int(8)

@@ -1,0 +1,32 @@
+
+---- EXPECTED OUTPUT
+Warning: mkdir(): phar error: cannot create directory "phar://", no phar archive specified in %smkdir.php on line %d
+
+Warning: mkdir(): phar error: cannot create directory "" in phar "foo.phar", phar error: invalid path "" must not be empty in %smkdir.php on line %d
+
+Warning: mkdir(): phar error: cannot create directory "a" in phar "%smkdir.phar.php", phar error: path "a" exists and is a not a directory in %smkdir.php on line %d
+
+Warning: rmdir(): phar error: cannot remove directory "phar://", no phar archive specified, or phar archive does not exist in %smkdir.php on line %d
+
+Warning: rmdir(): phar error: cannot remove directory "" in phar "foo.phar", directory does not exist in %smkdir.php on line %d
+
+Warning: rmdir(): phar error: cannot remove directory "a" in phar "%smkdir.phar.php", phar error: path "a" exists and is a not a directory in %smkdir.php on line %d
+Cannot create a directory in magic ".phar" directory
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: mkdir(): phar error: cannot create directory "phar://", no phar archive specified in /root/php-src/ext/phar/tests/mkdir.php on line 5
+
+Warning: mkdir(): phar error: cannot create directory "" in phar "foo.phar", phar error: invalid path "" must not be empty in /root/php-src/ext/phar/tests/mkdir.php on line 6
+
+Warning: mkdir(): phar error: cannot create directory "a" in phar "/root/php-src/ext/phar/tests/mkdir.phar.php", phar error: path "a" exists and is a not a directory in /root/php-src/ext/phar/tests/mkdir.php on line 9
+
+Warning: rmdir(): phar error: cannot remove directory "phar://", no phar archive specified, or phar archive does not exist in /root/php-src/ext/phar/tests/mkdir.php on line 10
+
+Warning: rmdir(): phar error: cannot remove directory "" in phar "foo.phar", directory does not exist in /root/php-src/ext/phar/tests/mkdir.php on line 11
+
+Warning: rmdir(): phar error: cannot remove directory "a" in phar "/root/php-src/ext/phar/tests/mkdir.phar.php", phar error: path "a" exists and is a not a directory in /root/php-src/ext/phar/tests/mkdir.php on line 12
+Cannot create a directory in magic ".phar" directory
+===DONE===
+---- FAILED

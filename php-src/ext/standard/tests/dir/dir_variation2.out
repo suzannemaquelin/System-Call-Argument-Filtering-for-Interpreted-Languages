@@ -1,0 +1,115 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing dir() : unexpected values for $context argument ***
+
+-- Iteration 1 --
+Warning: dir() expects parameter 2 to be resource, integer given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 2 --
+Warning: dir() expects parameter 2 to be resource, integer given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 3 --
+Warning: dir() expects parameter 2 to be resource, integer given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 4 --
+Warning: dir() expects parameter 2 to be resource, integer given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 5 --
+Warning: dir() expects parameter 2 to be resource, float given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 6 --
+Warning: dir() expects parameter 2 to be resource, float given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 7 --
+Warning: dir() expects parameter 2 to be resource, float given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 8 --
+Warning: dir() expects parameter 2 to be resource, float given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 9 --
+Warning: dir() expects parameter 2 to be resource, float given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 10 --
+Warning: dir() expects parameter 2 to be resource, array given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 11 --
+Warning: dir() expects parameter 2 to be resource, array given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 12 --
+Warning: dir() expects parameter 2 to be resource, array given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 13 --
+Warning: dir() expects parameter 2 to be resource, array given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 14 --
+Warning: dir() expects parameter 2 to be resource, array given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 15 --
+Warning: dir() expects parameter 2 to be resource, null given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 16 --
+Warning: dir() expects parameter 2 to be resource, null given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 17 --
+Warning: dir() expects parameter 2 to be resource, boolean given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 18 --
+Warning: dir() expects parameter 2 to be resource, boolean given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 19 --
+Warning: dir() expects parameter 2 to be resource, boolean given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 20 --
+Warning: dir() expects parameter 2 to be resource, boolean given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 21 --
+Warning: dir() expects parameter 2 to be resource, string given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 22 --
+Warning: dir() expects parameter 2 to be resource, string given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 23 --
+Warning: dir() expects parameter 2 to be resource, string given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 24 --
+Warning: dir() expects parameter 2 to be resource, string given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 25 --
+Warning: dir() expects parameter 2 to be resource, string given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 26 --
+Warning: dir() expects parameter 2 to be resource, object given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 27 --
+Warning: dir() expects parameter 2 to be resource, null given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+
+-- Iteration 28 --
+Warning: dir() expects parameter 2 to be resource, null given in /root/php-src/ext/standard/tests/dir/dir_variation2.php on line 93
+NULL
+Done

@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+*** Testing ctype_digit() : error conditions ***
+
+-- Testing ctype_digit() function with Zero arguments --
+
+Warning: ctype_digit() expects exactly 1 parameter, 0 given in %s on line %d
+NULL
+
+-- Testing ctype_digit() function with more than expected no. of arguments --
+
+Warning: ctype_digit() expects exactly 1 parameter, 2 given in %s on line %d
+NULL
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing ctype_digit() : error conditions ***
+
+-- Testing ctype_digit() function with Zero arguments --
+
+Warning: ctype_digit() expects exactly 1 parameter, 0 given in /root/php-src/ext/ctype/tests/ctype_digit_error.php on line 15
+NULL
+
+-- Testing ctype_digit() function with more than expected no. of arguments --
+
+Warning: ctype_digit() expects exactly 1 parameter, 2 given in /root/php-src/ext/ctype/tests/ctype_digit_error.php on line 21
+NULL
+===DONE===
+---- FAILED

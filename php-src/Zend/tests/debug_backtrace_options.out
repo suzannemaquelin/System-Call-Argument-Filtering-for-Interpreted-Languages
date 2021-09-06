@@ -1,0 +1,352 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+==default
+#0  doit(a, b, debug_print_backtrace) called at [/root/php-src/Zend/tests/debug_backtrace_options.php:31]
+#1  foo->doCall(doit, debug_print_backtrace) called at [/root/php-src/Zend/tests/debug_backtrace_options.php:36]
+#2  foo::statCall(doit, debug_print_backtrace) called at [/root/php-src/Zend/tests/debug_backtrace_options.php:39]
+==true
+#0  doit(a, b, debug_print_backtrace) called at [/root/php-src/Zend/tests/debug_backtrace_options.php:31]
+#1  foo->doCall(doit, debug_print_backtrace) called at [/root/php-src/Zend/tests/debug_backtrace_options.php:36]
+#2  foo::statCall(doit, debug_print_backtrace) called at [/root/php-src/Zend/tests/debug_backtrace_options.php:39]
+==false
+#0  doit(a, b, debug_print_backtrace) called at [/root/php-src/Zend/tests/debug_backtrace_options.php:31]
+#1  foo->doCall(doit, debug_print_backtrace) called at [/root/php-src/Zend/tests/debug_backtrace_options.php:36]
+#2  foo::statCall(doit, debug_print_backtrace) called at [/root/php-src/Zend/tests/debug_backtrace_options.php:39]
+==DEBUG_BACKTRACE_PROVIDE_OBJECT
+#0  doit(a, b, debug_print_backtrace) called at [/root/php-src/Zend/tests/debug_backtrace_options.php:31]
+#1  foo->doCall(doit, debug_print_backtrace) called at [/root/php-src/Zend/tests/debug_backtrace_options.php:36]
+#2  foo::statCall(doit, debug_print_backtrace) called at [/root/php-src/Zend/tests/debug_backtrace_options.php:39]
+==DEBUG_BACKTRACE_IGNORE_ARGS
+#0  doit() called at [/root/php-src/Zend/tests/debug_backtrace_options.php:31]
+#1  foo->doCall() called at [/root/php-src/Zend/tests/debug_backtrace_options.php:36]
+#2  foo::statCall() called at [/root/php-src/Zend/tests/debug_backtrace_options.php:39]
+==both
+#0  doit() called at [/root/php-src/Zend/tests/debug_backtrace_options.php:31]
+#1  foo->doCall() called at [/root/php-src/Zend/tests/debug_backtrace_options.php:36]
+#2  foo::statCall() called at [/root/php-src/Zend/tests/debug_backtrace_options.php:39]
+==default
+Array
+(
+    [0] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 15
+            [function] => backtrace_print
+            [args] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 31
+            [function] => doit
+            [args] => Array
+                (
+                    [0] => a
+                    [1] => b
+                    [2] => backtrace_print
+                )
+
+        )
+
+    [2] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 36
+            [function] => doCall
+            [class] => foo
+            [object] => foo Object
+                (
+                )
+
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => doit
+                    [1] => backtrace_print
+                )
+
+        )
+
+    [3] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 40
+            [function] => statCall
+            [class] => foo
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => doit
+                    [1] => backtrace_print
+                )
+
+        )
+
+)
+==true
+Array
+(
+    [0] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 17
+            [function] => backtrace_print
+            [args] => Array
+                (
+                    [0] => 1
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 31
+            [function] => doit
+            [args] => Array
+                (
+                    [0] => a
+                    [1] => b
+                    [2] => backtrace_print
+                )
+
+        )
+
+    [2] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 36
+            [function] => doCall
+            [class] => foo
+            [object] => foo Object
+                (
+                )
+
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => doit
+                    [1] => backtrace_print
+                )
+
+        )
+
+    [3] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 40
+            [function] => statCall
+            [class] => foo
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => doit
+                    [1] => backtrace_print
+                )
+
+        )
+
+)
+==false
+Array
+(
+    [0] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 19
+            [function] => backtrace_print
+            [args] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 31
+            [function] => doit
+            [args] => Array
+                (
+                    [0] => a
+                    [1] => b
+                    [2] => backtrace_print
+                )
+
+        )
+
+    [2] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 36
+            [function] => doCall
+            [class] => foo
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => doit
+                    [1] => backtrace_print
+                )
+
+        )
+
+    [3] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 40
+            [function] => statCall
+            [class] => foo
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => doit
+                    [1] => backtrace_print
+                )
+
+        )
+
+)
+==DEBUG_BACKTRACE_PROVIDE_OBJECT
+Array
+(
+    [0] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 21
+            [function] => backtrace_print
+            [args] => Array
+                (
+                    [0] => 1
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 31
+            [function] => doit
+            [args] => Array
+                (
+                    [0] => a
+                    [1] => b
+                    [2] => backtrace_print
+                )
+
+        )
+
+    [2] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 36
+            [function] => doCall
+            [class] => foo
+            [object] => foo Object
+                (
+                )
+
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => doit
+                    [1] => backtrace_print
+                )
+
+        )
+
+    [3] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 40
+            [function] => statCall
+            [class] => foo
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => doit
+                    [1] => backtrace_print
+                )
+
+        )
+
+)
+==DEBUG_BACKTRACE_IGNORE_ARGS
+Array
+(
+    [0] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 23
+            [function] => backtrace_print
+        )
+
+    [1] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 31
+            [function] => doit
+        )
+
+    [2] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 36
+            [function] => doCall
+            [class] => foo
+            [type] => ->
+        )
+
+    [3] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 40
+            [function] => statCall
+            [class] => foo
+            [type] => ::
+        )
+
+)
+==both
+Array
+(
+    [0] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 25
+            [function] => backtrace_print
+        )
+
+    [1] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 31
+            [function] => doit
+        )
+
+    [2] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 36
+            [function] => doCall
+            [class] => foo
+            [object] => foo Object
+                (
+                )
+
+            [type] => ->
+        )
+
+    [3] => Array
+        (
+            [file] => /root/php-src/Zend/tests/debug_backtrace_options.php
+            [line] => 40
+            [function] => statCall
+            [class] => foo
+            [type] => ::
+        )
+
+)

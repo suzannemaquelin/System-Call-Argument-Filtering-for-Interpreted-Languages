@@ -1,0 +1,23 @@
+
+---- EXPECTED OUTPUT
+object(foo\test)#%d (0) {
+}
+NULL
+
+Fatal error: Uncaught TypeError: Argument 1 passed to foo\bar::__construct() must implement interface foo\foo or be null, instance of stdClass given, called in %s on line %d and defined in %s:%d
+Stack trace:
+#0 %s(%d): foo\bar->__construct(Object(stdClass))
+#1 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(foo\test)#2 (0) {
+}
+NULL
+
+Fatal error: Uncaught TypeError: Argument 1 passed to foo\bar::__construct() must implement interface foo\foo or be null, instance of stdClass given, called in /root/php-src/Zend/tests/ns_072.php on line 22 and defined in /root/php-src/Zend/tests/ns_072.php:10
+Stack trace:
+#0 /root/php-src/Zend/tests/ns_072.php(22): foo\bar->__construct(Object(stdClass))
+#1 {main}
+  thrown in /root/php-src/Zend/tests/ns_072.php on line 10
+---- FAILED

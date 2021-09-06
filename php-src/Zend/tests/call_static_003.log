@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+nonstatic
+string(6) "fOoBaR"
+nonstatic
+string(6) "foOBAr"
+nonstatic
+string(6) "fOOBAr"
+static
+string(3) "bAr"
+static
+string(3) "BAZ"
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+nonstatic
+string(6) "fOoBaR"
+nonstatic
+string(6) "foOBAr"
+nonstatic
+string(6) "fOOBAr"
+static
+string(3) "bAr"
+static
+string(3) "BAZ"
+---- FAILED

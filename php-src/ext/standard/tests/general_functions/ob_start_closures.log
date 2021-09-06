@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+*** Testing ob_start() : closures as output handlers ***
+Output (1): Output (2): Test
+With newlines
+Test
+With newlines
+Output (2): Test
+With newlines
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing ob_start() : closures as output handlers ***
+Output (1): Output (2): Test
+With newlines
+Test
+With newlines
+Output (2): Test
+With newlines
+===DONE===
+---- FAILED

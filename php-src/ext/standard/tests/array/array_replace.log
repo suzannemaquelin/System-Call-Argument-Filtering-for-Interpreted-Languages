@@ -1,0 +1,151 @@
+
+---- EXPECTED OUTPUT
+-- Testing array_replace() --
+array(5) {
+  [0]=>
+  string(11) "dontclobber"
+  [1]=>
+  string(9) "clobbered"
+  ["test2"]=>
+  float(0)
+  ["test3"]=>
+  array(1) {
+    ["testarray2"]=>
+    bool(false)
+  }
+  ["test4"]=>
+  array(1) {
+    ["clobbered3"]=>
+    array(3) {
+      [0]=>
+      int(0)
+      [1]=>
+      int(1)
+      [2]=>
+      int(2)
+    }
+  }
+}
+ -- Testing array_replace_recursive() --
+array(5) {
+  [0]=>
+  string(11) "dontclobber"
+  [1]=>
+  string(9) "clobbered"
+  ["test2"]=>
+  float(0)
+  ["test3"]=>
+  array(2) {
+    ["testarray2"]=>
+    bool(false)
+    [1]=>
+    array(2) {
+      ["testsubarray1"]=>
+      string(12) "dontclobber2"
+      ["testsubarray2"]=>
+      string(12) "dontclobber3"
+    }
+  }
+  ["test4"]=>
+  array(1) {
+    ["clobbered3"]=>
+    array(3) {
+      [0]=>
+      int(0)
+      [1]=>
+      int(1)
+      [2]=>
+      int(2)
+    }
+  }
+}
+ -- Testing array_replace_recursive() w/ endless recusrsion --
+
+Warning: array_replace_recursive(): recursion detected in %s on line %d
+array(1) {
+  [0]=>
+  array(1) {
+    [0]=>
+    array(1) {
+      [0]=>
+      array(0) {
+      }
+    }
+  }
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+ -- Testing array_replace() --
+array(5) {
+  [0]=>
+  string(11) "dontclobber"
+  [1]=>
+  string(9) "clobbered"
+  ["test2"]=>
+  float(0)
+  ["test3"]=>
+  array(1) {
+    ["testarray2"]=>
+    bool(false)
+  }
+  ["test4"]=>
+  array(1) {
+    ["clobbered3"]=>
+    array(3) {
+      [0]=>
+      int(0)
+      [1]=>
+      int(1)
+      [2]=>
+      int(2)
+    }
+  }
+}
+ -- Testing array_replace_recursive() --
+array(5) {
+  [0]=>
+  string(11) "dontclobber"
+  [1]=>
+  string(9) "clobbered"
+  ["test2"]=>
+  float(0)
+  ["test3"]=>
+  array(2) {
+    ["testarray2"]=>
+    bool(false)
+    [1]=>
+    array(2) {
+      ["testsubarray1"]=>
+      string(12) "dontclobber2"
+      ["testsubarray2"]=>
+      string(12) "dontclobber3"
+    }
+  }
+  ["test4"]=>
+  array(1) {
+    ["clobbered3"]=>
+    array(3) {
+      [0]=>
+      int(0)
+      [1]=>
+      int(1)
+      [2]=>
+      int(2)
+    }
+  }
+}
+ -- Testing array_replace_recursive() w/ endless recusrsion --
+
+Warning: array_replace_recursive(): recursion detected in /root/php-src/ext/standard/tests/array/array_replace.php on line 42
+array(1) {
+  [0]=>
+  array(1) {
+    [0]=>
+    array(1) {
+      [0]=>
+      array(0) {
+      }
+    }
+  }
+}
+---- FAILED

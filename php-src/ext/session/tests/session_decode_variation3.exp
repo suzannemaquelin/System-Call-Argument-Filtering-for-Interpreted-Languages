@@ -1,0 +1,30 @@
+*** Testing session_decode() : variation ***
+
+Warning: session_start(): Cannot find serialization handler 'blah' - session startup failed in %s on line %d
+bool(false)
+
+Notice: Undefined variable: _SESSION in %s on line %d
+NULL
+array(3) {
+  ["foo"]=>
+  int(1234567890)
+  ["bar"]=>
+  string(5) "Blah!"
+  ["guff"]=>
+  float(123.456)
+}
+
+Warning: session_decode(): Session is not active. You cannot decode session data in %s on line %d
+bool(false)
+array(3) {
+  ["foo"]=>
+  int(1234567890)
+  ["bar"]=>
+  string(5) "Blah!"
+  ["guff"]=>
+  float(123.456)
+}
+
+Warning: session_destroy(): Trying to destroy uninitialized session in %s on line %d
+bool(false)
+Done

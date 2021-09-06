@@ -1,0 +1,14 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Deprecated: Non-static method ErrorHandling::error_handler() should not be called statically in /root/php-src/Zend/tests/bug74408.php on line 16
+
+Deprecated: Non-static method ErrorHandling::error_handler() should not be called statically in /root/php-src/Zend/tests/bug74408.php on line 17
+
+Deprecated: Non-static method ErrorHandling::error_handler() should not be called statically in Unknown on line 0
+
+Fatal error: Uncaught Error: Class 'NonExistingClass2' not found in /root/php-src/Zend/tests/bug74408.php:8
+Stack trace:
+#0 [internal function]: ErrorHandling::error_handler(8192, 'Non-static meth...', '/root/php-src/Z...', 17, Array)
+#1 /root/php-src/Zend/tests/bug74408.php(17): set_exception_handler('ErrorHandling::...')
+#2 {main}
+  thrown in /root/php-src/Zend/tests/bug74408.php on line 8

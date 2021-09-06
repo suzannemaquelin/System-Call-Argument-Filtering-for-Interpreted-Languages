@@ -1,0 +1,87 @@
+
+---- EXPECTED OUTPUT
+*** Testing krsort() : usage variations ***
+
+-- Testing krsort() by supplying heredoc string array, 'flag' value is defualt --
+bool(true)
+array(3) {
+  ["heredoc string	with!@# and 123
+Test this!!!"]=>
+  string(43) "heredoc string	with!@# and 123
+Test this!!!"
+  ["Heredoc"]=>
+  string(7) "Heredoc"
+  ["HEREDOC"]=>
+  string(7) "HEREDOC"
+}
+
+-- Testing krsort() by supplying heredoc string array, 'flag' = SORT_REGULAR --
+bool(true)
+array(3) {
+  ["heredoc string	with!@# and 123
+Test this!!!"]=>
+  string(43) "heredoc string	with!@# and 123
+Test this!!!"
+  ["Heredoc"]=>
+  string(7) "Heredoc"
+  ["HEREDOC"]=>
+  string(7) "HEREDOC"
+}
+
+-- Testing krsort() by supplying heredoc string array, 'flag' = SORT_STRING --
+bool(true)
+array(3) {
+  ["heredoc string	with!@# and 123
+Test this!!!"]=>
+  string(43) "heredoc string	with!@# and 123
+Test this!!!"
+  ["Heredoc"]=>
+  string(7) "Heredoc"
+  ["HEREDOC"]=>
+  string(7) "HEREDOC"
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing krsort() : usage variations ***
+
+-- Testing krsort() by supplying heredoc string array, 'flag' value is defualt --
+bool(true)
+array(3) {
+  ["heredoc string	with!@# and 123
+Test this!!!"]=>
+  string(43) "heredoc string	with!@# and 123
+Test this!!!"
+  ["Heredoc"]=>
+  string(7) "Heredoc"
+  ["HEREDOC"]=>
+  string(7) "HEREDOC"
+}
+
+-- Testing krsort() by supplying heredoc string array, 'flag' = SORT_REGULAR --
+bool(true)
+array(3) {
+  ["heredoc string	with!@# and 123
+Test this!!!"]=>
+  string(43) "heredoc string	with!@# and 123
+Test this!!!"
+  ["Heredoc"]=>
+  string(7) "Heredoc"
+  ["HEREDOC"]=>
+  string(7) "HEREDOC"
+}
+
+-- Testing krsort() by supplying heredoc string array, 'flag' = SORT_STRING --
+bool(true)
+array(3) {
+  ["heredoc string	with!@# and 123
+Test this!!!"]=>
+  string(43) "heredoc string	with!@# and 123
+Test this!!!"
+  ["Heredoc"]=>
+  string(7) "Heredoc"
+  ["HEREDOC"]=>
+  string(7) "HEREDOC"
+}
+Done
+---- FAILED

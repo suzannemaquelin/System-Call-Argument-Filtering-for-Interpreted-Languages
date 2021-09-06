@@ -1,0 +1,77 @@
+
+---- EXPECTED OUTPUT
+*** Testing error conditions ***
+-- Testing fflush(): with zero argument --
+
+Warning: fflush() expects exactly 1 parameter, 0 given in %s on line %d
+bool(false)
+-- Testing fflush(): with more than expected number of arguments --
+
+Warning: fflush() expects exactly 1 parameter, 2 given in %s on line %d
+bool(false)
+-- Testing fflush(): with invalid arguments --
+-- Iteration 1 --
+
+Warning: fflush() expects parameter 1 to be resource, string given in %s on line %d
+bool(false)
+-- Iteration 2 --
+
+Warning: fflush() expects parameter 1 to be resource, integer given in %s on line %d
+bool(false)
+-- Iteration 3 --
+
+Warning: fflush() expects parameter 1 to be resource, float given in %s on line %d
+bool(false)
+-- Iteration 4 --
+
+Warning: fflush() expects parameter 1 to be resource, boolean given in %s on line %d
+bool(false)
+-- Iteration 5 --
+
+Warning: fflush() expects parameter 1 to be resource, array given in %s on line %d
+bool(false)
+-- Iteration 6 --
+
+Warning: fflush() expects parameter 1 to be resource, object given in %s on line %d
+bool(false)
+
+*** Done ***
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing error conditions ***
+-- Testing fflush(): with zero argument --
+
+Warning: fflush() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/fflush_error.php on line 12
+bool(false)
+-- Testing fflush(): with more than expected number of arguments --
+
+Warning: fflush() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/fflush_error.php on line 22
+bool(false)
+-- Testing fflush(): with invalid arguments --
+-- Iteration 1 --
+
+Warning: fflush() expects parameter 1 to be resource, string given in /root/php-src/ext/standard/tests/file/fflush_error.php on line 39
+bool(false)
+-- Iteration 2 --
+
+Warning: fflush() expects parameter 1 to be resource, integer given in /root/php-src/ext/standard/tests/file/fflush_error.php on line 39
+bool(false)
+-- Iteration 3 --
+
+Warning: fflush() expects parameter 1 to be resource, float given in /root/php-src/ext/standard/tests/file/fflush_error.php on line 39
+bool(false)
+-- Iteration 4 --
+
+Warning: fflush() expects parameter 1 to be resource, boolean given in /root/php-src/ext/standard/tests/file/fflush_error.php on line 39
+bool(false)
+-- Iteration 5 --
+
+Warning: fflush() expects parameter 1 to be resource, array given in /root/php-src/ext/standard/tests/file/fflush_error.php on line 39
+bool(false)
+-- Iteration 6 --
+
+Warning: fflush() expects parameter 1 to be resource, object given in /root/php-src/ext/standard/tests/file/fflush_error.php on line 39
+bool(false)
+
+*** Done ***
+---- FAILED

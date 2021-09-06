@@ -1,0 +1,17 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(0)
+int(8754456)
+int(0)
+int(0)
+int(9876545)
+int(0)
+int(0)
+int(1)
+int(0)
+int(1)
+int(0)
+int(5)
+
+Notice: Object of class test could not be converted to int in /root/php-src/Zend/tests/settype_int.php on line 30
+int(1)
+Done

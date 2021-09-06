@@ -1,0 +1,50 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: exif_read_data(bug72094_1.jpg): Process tag(x3030=UndefinedTa): Illegal format code 0x3030, suppose BYTE in /root/php-src/ext/exif/tests/bug72094.php on line 2
+
+Warning: exif_read_data(bug72094_1.jpg): Process tag(x3030=UndefinedTa): Illegal format code 0x3030, suppose BYTE in /root/php-src/ext/exif/tests/bug72094.php on line 2
+
+Warning: exif_read_data(bug72094_1.jpg): Process tag(x3030=UndefinedTa): Illegal format code 0x3030, suppose BYTE in /root/php-src/ext/exif/tests/bug72094.php on line 2
+
+Warning: exif_read_data(bug72094_1.jpg): Process tag(x3030=UndefinedTa): Illegal format code 0x3030, suppose BYTE in /root/php-src/ext/exif/tests/bug72094.php on line 2
+
+Warning: exif_read_data(bug72094_1.jpg): Process tag(x3030=UndefinedTa): Illegal format code 0x3030, suppose BYTE in /root/php-src/ext/exif/tests/bug72094.php on line 2
+
+Warning: exif_read_data(bug72094_1.jpg): Process tag(x8298=Copyright  ): Illegal format code 0x3030, suppose BYTE in /root/php-src/ext/exif/tests/bug72094.php on line 2
+
+Warning: exif_read_data(bug72094_1.jpg): Illegal IFD offset in /root/php-src/ext/exif/tests/bug72094.php on line 2
+
+Warning: exif_read_data(bug72094_1.jpg): File structure corrupted in /root/php-src/ext/exif/tests/bug72094.php on line 2
+
+Warning: exif_read_data(bug72094_1.jpg): Invalid JPEG file in /root/php-src/ext/exif/tests/bug72094.php on line 2
+
+Warning: exif_read_data(bug72094_2.jpg): Illegal IFD size in /root/php-src/ext/exif/tests/bug72094.php on line 3
+
+Warning: exif_read_data(bug72094_2.jpg): File structure corrupted in /root/php-src/ext/exif/tests/bug72094.php on line 3
+
+Warning: exif_read_data(bug72094_2.jpg): Invalid JPEG file in /root/php-src/ext/exif/tests/bug72094.php on line 3
+
+Warning: exif_read_data(bug72094_3.jpg): Process tag(x3030=UndefinedTa): Illegal format code 0x3030, suppose BYTE in /root/php-src/ext/exif/tests/bug72094.php on line 4
+
+Warning: exif_read_data(bug72094_3.jpg): Process tag(x3030=UndefinedTa): Illegal format code 0x3030, suppose BYTE in /root/php-src/ext/exif/tests/bug72094.php on line 4
+
+Warning: exif_read_data(bug72094_3.jpg): Process tag(x3030=UndefinedTa): Illegal format code 0x3030, suppose BYTE in /root/php-src/ext/exif/tests/bug72094.php on line 4
+
+Warning: exif_read_data(bug72094_3.jpg): Process tag(x3030=UndefinedTa): Illegal format code 0x3030, suppose BYTE in /root/php-src/ext/exif/tests/bug72094.php on line 4
+
+Warning: exif_read_data(bug72094_3.jpg): Process tag(x3030=UndefinedTa): Illegal format code 0x3030, suppose BYTE in /root/php-src/ext/exif/tests/bug72094.php on line 4
+
+Warning: exif_read_data(bug72094_3.jpg): Process tag(x3030=UndefinedTa): Illegal format code 0x3030, suppose BYTE in /root/php-src/ext/exif/tests/bug72094.php on line 4
+
+Warning: exif_read_data(bug72094_3.jpg): Illegal IFD size in /root/php-src/ext/exif/tests/bug72094.php on line 4
+
+Warning: exif_read_data(bug72094_3.jpg): File structure corrupted in /root/php-src/ext/exif/tests/bug72094.php on line 4
+
+Warning: exif_read_data(bug72094_3.jpg): Invalid JPEG file in /root/php-src/ext/exif/tests/bug72094.php on line 4
+
+Warning: exif_read_data(bug72094_4.jpg): Invalid TIFF start (1) in /root/php-src/ext/exif/tests/bug72094.php on line 5
+
+Warning: exif_read_data(bug72094_4.jpg): File structure corrupted in /root/php-src/ext/exif/tests/bug72094.php on line 5
+
+Warning: exif_read_data(bug72094_4.jpg): Invalid JPEG file in /root/php-src/ext/exif/tests/bug72094.php on line 5
+DONE

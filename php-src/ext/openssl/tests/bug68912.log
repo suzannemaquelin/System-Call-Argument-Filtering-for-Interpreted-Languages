@@ -1,0 +1,12 @@
+
+---- EXPECTED OUTPUT
+Warning: openssl_spki_new(): supplied resource is not a valid OpenSSL X.509/key resource in %sbug68912.php on line %d
+
+Warning: openssl_spki_new(): Unable to use supplied private key in %sbug68912.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: openssl_spki_new(): supplied resource is not a valid OpenSSL X.509/key resource in /root/php-src/ext/openssl/tests/bug68912.php on line 7
+
+Warning: openssl_spki_new(): Unable to use supplied private key in /root/php-src/ext/openssl/tests/bug68912.php on line 7
+---- FAILED

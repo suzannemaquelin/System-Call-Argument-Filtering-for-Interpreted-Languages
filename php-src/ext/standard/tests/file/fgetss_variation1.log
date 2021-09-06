@@ -1,0 +1,189 @@
+
+---- EXPECTED OUTPUT
+*** Testing fgetss() : usage variations ***
+
+-- Testing fgetss() with file opened using w mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetss() with file opened using wb mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetss() with file opened using wt mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetss() with file opened using a mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetss() with file opened using ab mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetss() with file opened using at mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetss() with file opened using x mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetss() with file opened using xb mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetss() with file opened using xt mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing fgetss() : usage variations ***
+
+-- Testing fgetss() with file opened using w mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetss() with file opened using wb mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetss() with file opened using wt mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetss() with file opened using a mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetss() with file opened using ab mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetss() with file opened using at mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetss() with file opened using x mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetss() with file opened using xb mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetss() with file opened using xt mode --
+int(445)
+bool(true)
+int(0)
+bool(false)
+-- fgetss() with default length, file pointer at 0 , expected : no character should be read --
+bool(false)
+int(0)
+bool(false)
+Done
+---- FAILED

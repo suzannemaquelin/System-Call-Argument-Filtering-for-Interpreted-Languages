@@ -1,0 +1,15 @@
+
+---- EXPECTED OUTPUT
+*** Testing mb_strlen() : error ***
+
+Warning: mb_strlen(): Unknown encoding "unknown-encoding" in %s on line %d
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_strlen() : error ***
+
+Warning: mb_strlen(): Unknown encoding "unknown-encoding" in /root/php-src/ext/mbstring/tests/mb_strlen_error2.php on line 17
+bool(false)
+Done
+---- FAILED

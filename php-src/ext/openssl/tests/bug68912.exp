@@ -1,0 +1,3 @@
+Warning: openssl_spki_new(): supplied resource is not a valid OpenSSL X.509/key resource in %sbug68912.php on line %d
+
+Warning: openssl_spki_new(): Unable to use supplied private key in %sbug68912.php on line %d

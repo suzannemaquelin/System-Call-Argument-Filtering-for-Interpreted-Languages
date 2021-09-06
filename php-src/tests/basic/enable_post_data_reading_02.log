@@ -1,0 +1,40 @@
+
+---- EXPECTED OUTPUT
+array(0) {
+}
+array(0) {
+}
+string(%d) "-----------------------------20896060251896012921717172737
+Content-Disposition: form-data; name="file1"; filename="file1.txt"
+Content-Type: text/plain-file
+
+1
+-----------------------------20896060251896012921717172737--"
+string(%d) "-----------------------------20896060251896012921717172737
+Content-Disposition: form-data; name="file1"; filename="file1.txt"
+Content-Type: text/plain-file
+
+1
+-----------------------------20896060251896012921717172737--"
+---- ACTUAL OUTPUT
+array(0) {
+}
+array(0) {
+}
+string(219) "-----------------------------20896060251896012921717172737
+Content-Disposition: form-data; name="file1"; filename="file1.txt"
+Content-Type: text/plain-file
+
+1
+-----------------------------20896060251896012921717172737--"
+string(219) "-----------------------------20896060251896012921717172737
+Content-Disposition: form-data; name="file1"; filename="file1.txt"
+Content-Type: text/plain-file
+
+1
+-----------------------------20896060251896012921717172737--"
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so: cannot open shared object file: No such file or directory in Unknown on line 0
+---- FAILED

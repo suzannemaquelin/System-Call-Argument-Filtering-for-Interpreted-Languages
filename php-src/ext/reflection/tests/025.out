@@ -1,0 +1,65 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+/**
+hoho
+*/
+Function [ <user> function test ] {
+  @@ /root/php-src/ext/reflection/tests/025.php 6 - 8
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $a ]
+    Parameter #1 [ <optional> $b = 1 ]
+    Parameter #2 [ <optional> $c = '' ]
+  }
+}
+
+NULL
+--getName--
+string(4) "test"
+--isInternal--
+bool(false)
+--isUserDefined--
+bool(true)
+--getFilename--
+string(42) "/root/php-src/ext/reflection/tests/025.php"
+--getStartline--
+int(6)
+--getEndline--
+int(8)
+--getDocComment--
+string(11) "/**
+hoho
+*/"
+--getStaticVariables--
+array(1) {
+  ["var"]=>
+  int(1)
+}
+--invoke--
+NULL
+--invokeArgs--
+NULL
+--returnsReference--
+bool(false)
+--getParameters--
+array(3) {
+  [0]=>
+  object(ReflectionParameter)#2 (1) {
+    ["name"]=>
+    string(1) "a"
+  }
+  [1]=>
+  object(ReflectionParameter)#3 (1) {
+    ["name"]=>
+    string(1) "b"
+  }
+  [2]=>
+  object(ReflectionParameter)#4 (1) {
+    ["name"]=>
+    string(1) "c"
+  }
+}
+--getNumberOfParameters--
+int(3)
+--getNumberOfRequiredParameters--
+int(1)
+Done

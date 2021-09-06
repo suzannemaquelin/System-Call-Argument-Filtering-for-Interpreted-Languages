@@ -1,0 +1,19 @@
+array(1) {
+  ["a"]=>
+  int(1)
+}
+array(3) {
+  ["a"]=>
+  int(1)
+  ["aa"]=>
+  int(4)
+  ["cc"]=>
+  int(6)
+}
+
+Notice: Undefined property: C::$b in %s on line %d
+
+Notice: Undefined property: C::$c in %s on line %d
+int(1)
+NULL
+NULL

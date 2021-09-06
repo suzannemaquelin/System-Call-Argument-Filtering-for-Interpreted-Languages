@@ -1,0 +1,10 @@
+
+---- EXPECTED OUTPUT
+Warning: str_repeat(): Second argument has to be greater than or equal to 0 in %sbug73646.php on line %d
+bool(true)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: str_repeat(): Second argument has to be greater than or equal to 0 in /root/php-src/ext/mbstring/tests/bug73646.php on line 3
+bool(true)
+---- FAILED

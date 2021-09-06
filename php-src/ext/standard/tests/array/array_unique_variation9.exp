@@ -1,0 +1,27 @@
+Array
+(
+    [0] => acls_channel
+    [2] => ad_zone_assoc
+    [5] => affiliates
+    [8] => banners
+    [11] => campaigns
+    [14] => campaigns_trackers
+    [17] => clients
+    [20] => data_intermediate_ad
+    [22] => data_summary_ad_hourly
+    [24] => data_summary_zone_country_daily
+    [27] => data_summary_zone_country_forecast
+    [30] => data_summary_zone_country_monthly
+    [33] => data_summary_zone_domain_page_daily
+    [36] => data_summary_zone_domain_page_forecast
+    [39] => data_summary_zone_domain_page_monthly
+    [42] => data_summary_zone_site_keyword_daily
+    [45] => data_summary_zone_site_keyword_forecast
+    [48] => data_summary_zone_site_keyword_monthly
+    [51] => data_summary_zone_source_daily
+    [54] => data_summary_zone_source_forecast
+    [57] => data_summary_zone_source_monthly
+    [60] => placement_zone_assoc
+    [63] => trackers
+    [66] => variables
+)

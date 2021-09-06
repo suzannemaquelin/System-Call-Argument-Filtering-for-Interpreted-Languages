@@ -1,0 +1,5 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing error conditions ***
+
+Warning: debug_zval_dump() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/general_functions/debug_zval_dump_e.php on line 10
+Done

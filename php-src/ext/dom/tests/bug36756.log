@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+root
+nodeType: 1
+child
+
+Warning: Couldn't fetch DOMElement. Node no longer exists in %sbug36756.php on line %d
+
+Notice: Undefined property: DOMElement::$nodeType in %sbug36756.php on line %d
+nodeType:
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+root
+nodeType: 1
+child
+
+Warning: Couldn't fetch DOMElement. Node no longer exists in /root/php-src/ext/dom/tests/bug36756.php on line 19
+
+Notice: Undefined property: DOMElement::$nodeType in /root/php-src/ext/dom/tests/bug36756.php on line 19
+nodeType:
+---- FAILED

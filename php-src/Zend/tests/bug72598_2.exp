@@ -1,0 +1,5 @@
+Warning: Parameter 1 to ref() expected to be a reference, value given in %sbug72598_2.php on line 14
+int(0)
+
+Warning: Parameter 1 to ref() expected to be a reference, value given in %sbug72598_2.php on line 14
+int(0)

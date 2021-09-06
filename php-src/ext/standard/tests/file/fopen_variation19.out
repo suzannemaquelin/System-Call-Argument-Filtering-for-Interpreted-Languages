@@ -1,0 +1,15 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing fopen() : variation ***
+*** testing reading of links ***
+soft link:Hello World
+hard link:Hello World
+link of link:Hello World
+*** test appending to links ***
+soft link:Hello World again!
+hard link:Hello World again! again!
+link of link:Hello World again! again! again!
+*** test overwriting links ***
+soft link:Goodbye World
+hard link:Goodbye World
+link of link:Goodbye World
+===DONE===

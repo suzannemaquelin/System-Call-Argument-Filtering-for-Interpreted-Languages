@@ -1,0 +1,45 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Structure of Directory class:
+Class [ <internal:standard> class Directory ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:standard> public method close ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $dir_handle ]
+      }
+    }
+
+    Method [ <internal:standard> public method rewind ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $dir_handle ]
+      }
+    }
+
+    Method [ <internal:standard> public method read ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $dir_handle ]
+      }
+    }
+  }
+}
+Cannot instantiate a valid Directory directly:
+object(Directory)#2 (0) {
+}
+
+Warning: Directory::read(): Unable to find my handle property in /root/php-src/ext/standard/tests/directory/DirectoryClass_basic_001.php on line 15
+bool(false)

@@ -1,0 +1,24 @@
+
+---- EXPECTED OUTPUT
+%unicode|string%(10) "/index.php"
+string(10) "/index.php"
+string(%d) "phar://%sfrontcontroller21.php/index.php"
+string(18) "/index.php?test=hi"
+string(32) "/frontcontroller21.php/index.php"
+string(22) "/frontcontroller21.php"
+string(%d) "%sfrontcontroller21.php"
+string(40) "/frontcontroller21.php/index.php?test=hi"
+---- ACTUAL OUTPUT
+string(10) "/index.php"
+string(10) "/index.php"
+string(78) "phar:///root/php-src/ext/phar/tests/cache_list/frontcontroller21.php/index.php"
+string(18) "/index.php?test=hi"
+string(32) "/frontcontroller21.php/index.php"
+string(22) "/frontcontroller21.php"
+string(61) "/root/php-src/ext/phar/tests/cache_list/frontcontroller21.php"
+string(40) "/frontcontroller21.php/index.php?test=hi"
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so: cannot open shared object file: No such file or directory in Unknown on line 0
+---- FAILED

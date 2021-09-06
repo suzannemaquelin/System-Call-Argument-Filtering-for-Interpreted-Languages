@@ -1,0 +1,21 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Deprecated: Function mcrypt_module_open() is deprecated in /root/php-src/ext/mcrypt/tests/mcrypt_enc_is_block_mode.php on line 2
+
+Deprecated: Function mcrypt_enc_is_block_mode() is deprecated in /root/php-src/ext/mcrypt/tests/mcrypt_enc_is_block_mode.php on line 3
+bool(true)
+
+Deprecated: Function mcrypt_module_open() is deprecated in /root/php-src/ext/mcrypt/tests/mcrypt_enc_is_block_mode.php on line 4
+
+Deprecated: Function mcrypt_enc_is_block_mode() is deprecated in /root/php-src/ext/mcrypt/tests/mcrypt_enc_is_block_mode.php on line 5
+bool(true)
+
+Deprecated: Function mcrypt_module_open() is deprecated in /root/php-src/ext/mcrypt/tests/mcrypt_enc_is_block_mode.php on line 6
+
+Deprecated: Function mcrypt_enc_is_block_mode() is deprecated in /root/php-src/ext/mcrypt/tests/mcrypt_enc_is_block_mode.php on line 7
+bool(false)
+
+Deprecated: Function mcrypt_module_open() is deprecated in /root/php-src/ext/mcrypt/tests/mcrypt_enc_is_block_mode.php on line 8
+
+Deprecated: Function mcrypt_enc_is_block_mode() is deprecated in /root/php-src/ext/mcrypt/tests/mcrypt_enc_is_block_mode.php on line 9
+bool(false)

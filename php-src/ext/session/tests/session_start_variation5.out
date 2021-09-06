@@ -1,0 +1,24 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing session_start() : variation ***
+array(4) {
+  ["colour"]=>
+  string(5) "green"
+  ["animal"]=>
+  string(3) "cat"
+  ["person"]=>
+  string(5) "julia"
+  ["age"]=>
+  int(6)
+}
+NULL
+array(4) {
+  ["colour"]=>
+  string(5) "green"
+  ["animal"]=>
+  string(3) "cat"
+  ["person"]=>
+  string(5) "julia"
+  ["age"]=>
+  int(6)
+}
+Done

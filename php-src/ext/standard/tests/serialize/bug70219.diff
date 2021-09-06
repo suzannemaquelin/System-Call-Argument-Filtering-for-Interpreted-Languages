@@ -1,0 +1,17 @@
+001+ Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+002+ 
+002- array(2) {
+003-   [0]=>
+004-   object(obj)#%d (1) {
+004+ 
+005+ Notice: unserialize(): Error at offset 55 of 56 bytes in /root/php-src/ext/standard/tests/serialize/bug70219.php on line 16
+006+ bool(false)
+005-     ["data"]=>
+006-     NULL
+007-   }
+008-   [1]=>
+009-   &array(1) {
+010-     ["data"]=>
+011-     NULL
+012-   }
+013- }

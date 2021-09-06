@@ -1,0 +1,128 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_product() : usage variation ***
+
+--int 0--
+
+Warning: array_product() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--int 1--
+
+Warning: array_product() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--int 12345--
+
+Warning: array_product() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--int -12345--
+
+Warning: array_product() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--float 10.5--
+
+Warning: array_product() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--float -10.5--
+
+Warning: array_product() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--float 12.3456789000e10--
+
+Warning: array_product() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--float -12.3456789000e10--
+
+Warning: array_product() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--float .5--
+
+Warning: array_product() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--uppercase NULL--
+
+Warning: array_product() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--lowercase null--
+
+Warning: array_product() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--lowercase true--
+
+Warning: array_product() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--lowercase false--
+
+Warning: array_product() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--uppercase TRUE--
+
+Warning: array_product() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--uppercase FALSE--
+
+Warning: array_product() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--empty string DQ--
+
+Warning: array_product() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--empty string SQ--
+
+Warning: array_product() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--string DQ--
+
+Warning: array_product() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--string SQ--
+
+Warning: array_product() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--mixed case string--
+
+Warning: array_product() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--heredoc--
+
+Warning: array_product() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--instance of classWithToString--
+
+Warning: array_product() expects parameter 1 to be array, object given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--instance of classWithoutToString--
+
+Warning: array_product() expects parameter 1 to be array, object given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--undefined var--
+
+Warning: array_product() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+
+--unset var--
+
+Warning: array_product() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/array_product_variation5.php on line 88
+NULL
+===DONE===

@@ -1,0 +1,513 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+ 0  a  1  a  2  a  3  a  4  a  5  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 6  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 5  a  5  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 6  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 4  a  4  a  5  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 6  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 5  a  5  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 6  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 3  a  3  a  4  a  5  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 6  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 5  a  5  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 6  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 4  a  4  a  5  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 6  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 5  a  5  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 6  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 2  a  2  a  3  a  4  a  5  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 6  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 5  a  5  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 6  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 4  a  4  a  5  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 6  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 5  a  5  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 6  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 3  a  3  a  4  a  5  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 6  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 5  a  5  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 6  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 4  a  4  a  5  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 6  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 5  a  5  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 6  a  6  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 7  a  7  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10 
+ b 8  a  8  a  9 
+ b 10 
+ b 9  a  9 
+ b 10

@@ -1,0 +1,18 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_values() : usage variations ***
+
+-- Call array_values() --
+array(3) {
+  [0]=>
+  string(2) "un"
+  [1]=>
+  string(4) "deux"
+  [2]=>
+  string(5) "trois"
+}
+-- Position of Internal Pointer in Result: --
+0 => un
+
+-- Position of Internal Pointer in Original Array: --
+one => un
+Done

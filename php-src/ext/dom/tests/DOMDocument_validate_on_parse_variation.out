@@ -1,0 +1,9 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+validateOnParse set to FALSE: 
+No Error Report Above
+validateOnParse set to TRUE: 
+
+Warning: DOMDocument::loadXML(): No declaration for element NYPHP in Entity, line: 5 in /root/php-src/ext/dom/tests/DOMDocument_validate_on_parse_variation.php on line 23
+
+Warning: DOMDocument::loadXML(): Element from was declared #PCDATA but contains non text nodes in Entity, line: 5 in /root/php-src/ext/dom/tests/DOMDocument_validate_on_parse_variation.php on line 23
+Error Report Above

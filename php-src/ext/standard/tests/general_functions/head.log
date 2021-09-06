@@ -1,0 +1,51 @@
+
+---- EXPECTED OUTPUT
+NULL
+bool(false)
+array(0) {
+}
+
+Warning: Cannot modify header information - headers already sent by (output started at %s:%d) in %s on line %d
+NULL
+
+Warning: Cannot modify header information - headers already sent by (output started at %s:%d) in %s on line %d
+NULL
+bool(true)
+array(0) {
+}
+
+Warning: Cannot modify header information - headers already sent by (output started at %s:%d) in %s on line %d
+NULL
+
+Warning: Cannot modify header information - headers already sent by (output started at %s:%d) in %s on line %d
+NULL
+bool(true)
+array(0) {
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+NULL
+bool(false)
+array(0) {
+}
+
+Warning: Cannot modify header information - headers already sent by (output started at /root/php-src/ext/standard/tests/general_functions/head.php:5) in /root/php-src/ext/standard/tests/general_functions/head.php on line 10
+NULL
+
+Warning: Cannot modify header information - headers already sent by (output started at /root/php-src/ext/standard/tests/general_functions/head.php:5) in /root/php-src/ext/standard/tests/general_functions/head.php on line 11
+NULL
+bool(true)
+array(0) {
+}
+
+Warning: Cannot modify header information - headers already sent by (output started at /root/php-src/ext/standard/tests/general_functions/head.php:5) in /root/php-src/ext/standard/tests/general_functions/head.php on line 14
+NULL
+
+Warning: Cannot modify header information - headers already sent by (output started at /root/php-src/ext/standard/tests/general_functions/head.php:5) in /root/php-src/ext/standard/tests/general_functions/head.php on line 15
+NULL
+bool(true)
+array(0) {
+}
+Done
+---- FAILED

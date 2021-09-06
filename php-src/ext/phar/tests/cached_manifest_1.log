@@ -1,0 +1,31 @@
+
+---- EXPECTED OUTPUT
+string(131) "<?php echo "in b\n";$a = fopen("index.php", "r", true);echo stream_get_contents($a);fclose($a);include dirname(__FILE__) . "/../d";"
+string(1) "b"
+string(1) "d"
+string(9) "index.php"
+string(7) "web.php"
+string(%d) "phar://%snophar.phar/b%cc.php"
+string(%d) "phar://%snophar.phar%cd"
+string(%d) "phar://%snophar.phar%cindex.php"
+string(%d) "phar://%snophar.phar%cweb.php"
+bool(true)
+bool(false)
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(131) "<?php echo "in b\n";$a = fopen("index.php", "r", true);echo stream_get_contents($a);fclose($a);include dirname(__FILE__) . "/../d";"
+string(1) "b"
+string(1) "d"
+string(9) "index.php"
+string(7) "web.php"
+string(61) "phar:///root/php-src/ext/phar/tests/files/nophar.phar/b/c.php"
+string(55) "phar:///root/php-src/ext/phar/tests/files/nophar.phar/d"
+string(63) "phar:///root/php-src/ext/phar/tests/files/nophar.phar/index.php"
+string(61) "phar:///root/php-src/ext/phar/tests/files/nophar.phar/web.php"
+bool(true)
+bool(false)
+bool(false)
+===DONE===
+---- FAILED

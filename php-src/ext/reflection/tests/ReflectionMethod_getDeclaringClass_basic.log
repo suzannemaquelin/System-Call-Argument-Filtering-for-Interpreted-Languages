@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+object(ReflectionClass)#%d (1) {
+  ["name"]=>
+  string(1) "A"
+}
+object(ReflectionClass)#%d (1) {
+  ["name"]=>
+  string(1) "B"
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(ReflectionClass)#2 (1) {
+  ["name"]=>
+  string(1) "A"
+}
+object(ReflectionClass)#1 (1) {
+  ["name"]=>
+  string(1) "B"
+}
+---- FAILED

@@ -1,0 +1,15 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: openssl_csr_new() expects parameter 1 to be array, integer given in /root/php-src/ext/openssl/tests/openssl_csr_new_basic.php on line 4
+NULL
+
+Warning: openssl_csr_new() expects parameter 1 to be array, integer given in /root/php-src/ext/openssl/tests/openssl_csr_new_basic.php on line 5
+NULL
+
+Warning: openssl_csr_new(): key array must be of the form array(0 => key, 1 => phrase) in /root/php-src/ext/openssl/tests/openssl_csr_new_basic.php on line 9
+
+Warning: openssl_csr_new(): add1_attr_by_txt challengePassword_min -> 4 (failed; check error queue and value of string_mask OpenSSL option if illegal characters are reported) in /root/php-src/ext/openssl/tests/openssl_csr_new_basic.php on line 9
+bool(false)
+resource(4) of type (OpenSSL X.509 CSR)
+resource(7) of type (OpenSSL X.509 CSR)
+Done

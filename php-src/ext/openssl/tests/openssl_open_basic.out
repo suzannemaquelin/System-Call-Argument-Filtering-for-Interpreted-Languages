@@ -1,0 +1,7 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(19) "openssl_open() test"
+
+Warning: openssl_open(): unable to coerce parameter 4 into a private key in /root/php-src/ext/openssl/tests/openssl_open_basic.php on line 10
+NULL
+string(19) "openssl_open() test"
+NULL

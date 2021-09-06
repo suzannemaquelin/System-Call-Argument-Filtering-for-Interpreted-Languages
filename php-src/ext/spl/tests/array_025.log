@@ -1,0 +1,59 @@
+
+---- EXPECTED OUTPUT
+ArrayObject Object
+(
+    [storage:ArrayObject:private] => ArrayObject Object
+        (
+            [storage:ArrayObject:private] => Array
+                (
+                    [0] => 1
+                    [1] => 2
+                )
+
+        )
+
+)
+C:11:"ArrayObject":76:{x:i:0;C:11:"ArrayObject":37:{x:i:0;a:2:{i:0;i:1;i:1;i:2;};m:a:0:{}};m:a:0:{}}
+ArrayObject Object
+(
+    [storage:ArrayObject:private] => ArrayObject Object
+        (
+            [storage:ArrayObject:private] => Array
+                (
+                    [0] => 1
+                    [1] => 2
+                )
+
+        )
+
+)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+ArrayObject Object
+(
+    [storage:ArrayObject:private] => ArrayObject Object
+        (
+            [storage:ArrayObject:private] => Array
+                (
+                    [0] => 1
+                    [1] => 2
+                )
+
+        )
+
+)
+C:11:"ArrayObject":76:{x:i:0;C:11:"ArrayObject":37:{x:i:0;a:2:{i:0;i:1;i:1;i:2;};m:a:0:{}};m:a:0:{}}
+ArrayObject Object
+(
+    [storage:ArrayObject:private] => ArrayObject Object
+        (
+            [storage:ArrayObject:private] => Array
+                (
+                    [0] => 1
+                    [1] => 2
+                )
+
+        )
+
+)
+---- FAILED

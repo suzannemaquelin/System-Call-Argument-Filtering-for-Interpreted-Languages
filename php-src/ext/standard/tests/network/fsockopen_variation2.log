@@ -1,0 +1,33 @@
+
+---- EXPECTED OUTPUT
+Open a server socket
+
+Calling fsockopen():
+resource(%d) of type (stream)
+
+Pass some data between the sockets:
+string(10) "0123456789"
+
+Calling fsockopen() with address and port in same string:
+resource(%d) of type (stream)
+
+Pass some data between the sockets:
+string(10) "0123456789"
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Open a server socket
+
+Calling fsockopen():
+resource(6) of type (stream)
+
+Pass some data between the sockets:
+string(10) "0123456789"
+
+Calling fsockopen() with address and port in same string:
+resource(7) of type (stream)
+
+Pass some data between the sockets:
+string(10) "0123456789"
+Done
+---- FAILED

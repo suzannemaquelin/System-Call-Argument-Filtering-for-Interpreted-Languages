@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+*** Testing mktime() : error conditions ***
+
+-- Testing mktime() function with Zero arguments --
+
+Deprecated: mktime(): You should be using the time() function instead in %s on line %d
+int(%d)
+
+-- Testing mktime() function with more than expected no. of arguments --
+
+Warning: mktime() expects at most 6 parameters, 7 given in %s on line %d
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mktime() : error conditions ***
+
+-- Testing mktime() function with Zero arguments --
+
+Deprecated: mktime(): You should be using the time() function instead in /root/php-src/ext/date/tests/mktime_error.php on line 15
+int(1652018703)
+
+-- Testing mktime() function with more than expected no. of arguments --
+
+Warning: mktime() expects at most 6 parameters, 7 given in /root/php-src/ext/date/tests/mktime_error.php on line 25
+bool(false)
+===DONE===
+---- FAILED

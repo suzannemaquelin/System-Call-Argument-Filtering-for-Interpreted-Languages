@@ -1,0 +1,28 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: proc_open(): pi is not a valid descriptor spec/mode in /root/php-src/ext/standard/tests/general_functions/proc_open_pipes3.php on line 13
+
+Warning: proc_open(): Descriptor item must be either an array or a File-Handle in /root/php-src/ext/standard/tests/general_functions/proc_open_pipes3.php on line 16
+array(4) {
+  [3]=>
+  resource(7) of type (Unknown)
+  [4]=>
+  resource(8) of type (Unknown)
+  [5]=>
+  resource(9) of type (Unknown)
+  [6]=>
+  resource(10) of type (Unknown)
+}
+
+Warning: proc_open(test): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/general_functions/proc_open_pipes3.php on line 23
+array(4) {
+  [3]=>
+  resource(7) of type (Unknown)
+  [4]=>
+  resource(8) of type (Unknown)
+  [5]=>
+  resource(9) of type (Unknown)
+  [6]=>
+  resource(10) of type (Unknown)
+}
+END

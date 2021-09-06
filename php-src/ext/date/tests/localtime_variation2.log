@@ -1,0 +1,1081 @@
+
+---- EXPECTED OUTPUT
+*** Testing localtime() : usage variation ***
+
+--int 0--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+
+--int 1--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--int 12345--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--int -12345--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--float 10.5--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--float -10.5--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--float 12.3456789000e10--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--float -12.3456789000e10--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--float .5--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--empty array--
+
+Warning: localtime() expects parameter 2 to be boolean, array given in %s on line %d
+bool(false)
+
+--int indexed array--
+
+Warning: localtime() expects parameter 2 to be boolean, array given in %s on line %d
+bool(false)
+
+--associative array--
+
+Warning: localtime() expects parameter 2 to be boolean, array given in %s on line %d
+bool(false)
+
+--nested arrays--
+
+Warning: localtime() expects parameter 2 to be boolean, array given in %s on line %d
+bool(false)
+
+--uppercase NULL--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+
+--lowercase null--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+
+--lowercase true--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--lowercase false--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+
+--uppercase TRUE--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--uppercase FALSE--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+
+--empty string DQ--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+
+--empty string SQ--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+
+--string DQ--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--string SQ--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--mixed case string--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--heredoc--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--instance of classWithToString--
+
+Warning: localtime() expects parameter 2 to be boolean, object given in %s on line %d
+bool(false)
+
+--instance of classWithoutToString--
+
+Warning: localtime() expects parameter 2 to be boolean, object given in %s on line %d
+bool(false)
+
+--undefined var--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+
+--unset var--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing localtime() : usage variation ***
+
+--int 0--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+
+--int 1--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--int 12345--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--int -12345--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--float 10.5--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--float -10.5--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--float 12.3456789000e10--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--float -12.3456789000e10--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--float .5--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--empty array--
+
+Warning: localtime() expects parameter 2 to be boolean, array given in /root/php-src/ext/date/tests/localtime_variation2.php on line 97
+bool(false)
+
+--int indexed array--
+
+Warning: localtime() expects parameter 2 to be boolean, array given in /root/php-src/ext/date/tests/localtime_variation2.php on line 97
+bool(false)
+
+--associative array--
+
+Warning: localtime() expects parameter 2 to be boolean, array given in /root/php-src/ext/date/tests/localtime_variation2.php on line 97
+bool(false)
+
+--nested arrays--
+
+Warning: localtime() expects parameter 2 to be boolean, array given in /root/php-src/ext/date/tests/localtime_variation2.php on line 97
+bool(false)
+
+--uppercase NULL--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+
+--lowercase null--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+
+--lowercase true--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--lowercase false--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+
+--uppercase TRUE--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--uppercase FALSE--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+
+--empty string DQ--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+
+--empty string SQ--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+
+--string DQ--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--string SQ--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--mixed case string--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--heredoc--
+array(9) {
+  ["tm_sec"]=>
+  int(10)
+  ["tm_min"]=>
+  int(0)
+  ["tm_hour"]=>
+  int(0)
+  ["tm_mday"]=>
+  int(1)
+  ["tm_mon"]=>
+  int(0)
+  ["tm_year"]=>
+  int(70)
+  ["tm_wday"]=>
+  int(4)
+  ["tm_yday"]=>
+  int(0)
+  ["tm_isdst"]=>
+  int(0)
+}
+
+--instance of classWithToString--
+
+Warning: localtime() expects parameter 2 to be boolean, object given in /root/php-src/ext/date/tests/localtime_variation2.php on line 97
+bool(false)
+
+--instance of classWithoutToString--
+
+Warning: localtime() expects parameter 2 to be boolean, object given in /root/php-src/ext/date/tests/localtime_variation2.php on line 97
+bool(false)
+
+--undefined var--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+
+--unset var--
+array(9) {
+  [0]=>
+  int(10)
+  [1]=>
+  int(0)
+  [2]=>
+  int(0)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(70)
+  [6]=>
+  int(4)
+  [7]=>
+  int(0)
+  [8]=>
+  int(0)
+}
+===DONE===
+---- FAILED

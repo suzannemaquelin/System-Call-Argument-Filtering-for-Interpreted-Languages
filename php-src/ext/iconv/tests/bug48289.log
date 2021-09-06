@@ -1,0 +1,17 @@
+
+---- EXPECTED OUTPUT
+Subject: =?UTF-8?Q?=E3=83=86?=
+ =?UTF-8?Q?=E3=82=B9?=
+ =?UTF-8?Q?=E3=83=88?=
+ =?UTF-8?Q?=E3=83=86?=
+ =?UTF-8?Q?=E3=82=B9?=
+ =?UTF-8?Q?=E3=83=88?=
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Subject: =?UTF-8?Q?=E3=83=86?=
+ =?UTF-8?Q?=E3=82=B9?=
+ =?UTF-8?Q?=E3=83=88?=
+ =?UTF-8?Q?=E3=83=86?=
+ =?UTF-8?Q?=E3=82=B9?=
+ =?UTF-8?Q?=E3=83=88?=
+---- FAILED

@@ -1,0 +1,8 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+3
+
+Fatal error: Uncaught TypeError: Argument 1 passed to foo() must be of the type array, integer given, called in /root/php-src/Zend/tests/type_declarations/array_001.php on line 7 and defined in /root/php-src/Zend/tests/type_declarations/array_001.php:2
+Stack trace:
+#0 /root/php-src/Zend/tests/type_declarations/array_001.php(7): foo(123)
+#1 {main}
+  thrown in /root/php-src/Zend/tests/type_declarations/array_001.php on line 2

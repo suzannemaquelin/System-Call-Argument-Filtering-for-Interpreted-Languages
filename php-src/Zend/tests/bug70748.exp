@@ -1,0 +1,3 @@
+Warning: syntax error, unexpected $end, expecting '}' in %sbug70748.ini on line %d
+ in %sbug70748.php on line %d
+bool(false)

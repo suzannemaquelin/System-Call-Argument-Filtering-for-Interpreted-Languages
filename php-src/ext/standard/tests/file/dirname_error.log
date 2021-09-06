@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+*** Testing dirname() : error conditions ***
+
+-- Testing dirname() function with Zero arguments --
+
+Warning: dirname() expects at least 1 parameter, 0 given in %s on line %d
+NULL
+
+-- Testing dirname() function with more than expected no. of arguments --
+
+Warning: dirname() expects at most 2 parameters, 3 given in %s on line %d
+NULL
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing dirname() : error conditions ***
+
+-- Testing dirname() function with Zero arguments --
+
+Warning: dirname() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/dirname_error.php on line 12
+NULL
+
+-- Testing dirname() function with more than expected no. of arguments --
+
+Warning: dirname() expects at most 2 parameters, 3 given in /root/php-src/ext/standard/tests/file/dirname_error.php on line 18
+NULL
+===DONE===
+---- FAILED

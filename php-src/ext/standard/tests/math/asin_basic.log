@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+asin .5  = float(%f)
+Pass
+asin 0.86602540378444 = float(%f)
+Pass
+asin 1.0 = float(%f)
+Pass
+asin 0.0 = float(%f)
+Pass
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+asin .5  = float(30)
+Pass
+asin 0.86602540378444 = float(60)
+Pass
+asin 1.0 = float(90)
+Pass
+asin 0.0 = float(0)
+Pass
+---- FAILED

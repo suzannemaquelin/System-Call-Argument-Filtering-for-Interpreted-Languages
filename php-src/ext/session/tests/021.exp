@@ -1,0 +1,10 @@
+<form action="//bad.net/do.php">
+<fieldset>
+<form action="//php.net/do.php"><input type="hidden" name="PHPSESSID" value="abtest" />
+<fieldset>
+<form action="../do.php"><input type="hidden" name="PHPSESSID" value="abtest" />
+<fieldset>
+<form action="/do.php"><input type="hidden" name="PHPSESSID" value="abtest" />
+<fieldset>
+<form action="/foo/do.php"><input type="hidden" name="PHPSESSID" value="abtest" />
+<fieldset>

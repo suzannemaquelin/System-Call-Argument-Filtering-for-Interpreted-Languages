@@ -1,0 +1,12 @@
+
+---- EXPECTED OUTPUT
+Warning: imap_mail(): No message string in mail command in %s on line %d
+%s
+===DONE===
+---- ACTUAL OUTPUT
+Warning: imap_mail(): No message string in mail command in /home/paper/php-src/ext/imap/tests/bug77020.php on line 2
+2021-10-18 06:35:48 1mcPzg-000cB8-OD Failed to create spool file /var/spool/exim4//input//1mcPzg-000cB8-OD-D: Permission denied
+2021-10-18 06:35:48 1mcPzg-000cB8-OD Failed to create spool file /var/spool/exim4//input//1mcPzg-000cB8-OD-D: Permission denied
+2021-10-18 06:35:48 1mcPzg-000cB8-OD Failed to create spool file /var/spool/exim4//input//1mcPzg-000cB8-OD-D: Permission denied
+===DONE===
+---- FAILED

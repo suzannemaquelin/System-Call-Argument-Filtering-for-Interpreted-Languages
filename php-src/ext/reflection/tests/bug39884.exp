@@ -1,0 +1,4 @@
+object(ReflectionClass)#4 (1) {
+  ["name"]=>
+  string(13) "stubParamTest"
+}

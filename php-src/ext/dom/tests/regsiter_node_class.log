@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+myElement
+HELLO Element
+myAttribute
+HELLO Attribute
+DOMAttr
+
+Fatal error: Uncaught Error: Call to undefined method DOMAttr::testit() in %s:25
+Stack trace:
+#0 {main}
+  thrown in %s on line 25
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+myElement
+HELLO Element
+myAttribute
+HELLO Attribute
+DOMAttr
+
+Fatal error: Uncaught Error: Call to undefined method DOMAttr::testit() in /root/php-src/ext/dom/tests/regsiter_node_class.php:25
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/ext/dom/tests/regsiter_node_class.php on line 25
+---- FAILED

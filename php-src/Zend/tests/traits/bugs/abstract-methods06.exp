@@ -1,0 +1,1 @@
+Fatal error: Declaration of THelloB::hello() must be compatible with THelloA::hello($a) in %s on line %d

@@ -1,0 +1,10 @@
+Creating Table
+bool(true)
+Inserting data
+bool(true)
+Request last inserted id
+
+Warning: SQLite3::lastInsertRowID() expects exactly 0 parameters, %d given in %s on line %d
+Closing database
+bool(true)
+Done

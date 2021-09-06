@@ -1,0 +1,85 @@
+
+---- EXPECTED OUTPUT
+*** Testing array_filter() : usage variations - built-in functions as 'callback' argument ***
+array(6) {
+  [0]=>
+  int(0)
+  [1]=>
+  int(1)
+  [2]=>
+  int(-1)
+  [3]=>
+  int(10)
+  [4]=>
+  int(100)
+  [5]=>
+  int(1000)
+}
+array(8) {
+  [0]=>
+  int(0)
+  [1]=>
+  int(1)
+  [2]=>
+  int(-1)
+  [3]=>
+  int(10)
+  [4]=>
+  int(100)
+  [5]=>
+  int(1000)
+  [6]=>
+  string(5) "Hello"
+  [7]=>
+  NULL
+}
+
+Warning: array_filter() expects parameter 2 to be a valid callback, function 'echo' not found or invalid function name in %s on line %d
+NULL
+
+Warning: array_filter() expects parameter 2 to be a valid callback, function 'exit' not found or invalid function name in %s on line %d
+NULL
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_filter() : usage variations - built-in functions as 'callback' argument ***
+array(6) {
+  [0]=>
+  int(0)
+  [1]=>
+  int(1)
+  [2]=>
+  int(-1)
+  [3]=>
+  int(10)
+  [4]=>
+  int(100)
+  [5]=>
+  int(1000)
+}
+array(8) {
+  [0]=>
+  int(0)
+  [1]=>
+  int(1)
+  [2]=>
+  int(-1)
+  [3]=>
+  int(10)
+  [4]=>
+  int(100)
+  [5]=>
+  int(1000)
+  [6]=>
+  string(5) "Hello"
+  [7]=>
+  NULL
+}
+
+Warning: array_filter() expects parameter 2 to be a valid callback, function 'echo' not found or invalid function name in /root/php-src/ext/standard/tests/array/array_filter_variation9.php on line 22
+NULL
+
+Warning: array_filter() expects parameter 2 to be a valid callback, function 'exit' not found or invalid function name in /root/php-src/ext/standard/tests/array/array_filter_variation9.php on line 25
+NULL
+Done
+---- FAILED

@@ -1,0 +1,66 @@
+
+---- EXPECTED OUTPUT
+Notice: Indirect modification of overloaded property Foo::$arr has no effect in %sbug43201.php on line 13
+
+Notice: Indirect modification of overloaded property Foo::$arr has no effect in %sbug43201.php on line 14
+
+Notice: Undefined variable: ref in %sbug43201.php on line 14
+
+Notice: Undefined variable: undef in %sbug43201.php on line 16
+
+Notice: Indirect modification of overloaded property Foo::$arr has no effect in %sbug43201.php on line 17
+
+Notice: Undefined variable: undef in %sbug43201.php on line 16
+
+Notice: Indirect modification of overloaded property Foo::$arr has no effect in %sbug43201.php on line 17
+
+Notice: Undefined variable: undef in %sbug43201.php on line 16
+
+Notice: Indirect modification of overloaded property Foo::$arr has no effect in %sbug43201.php on line 17
+
+Notice: Undefined variable: undef in %sbug43201.php on line 16
+
+Notice: Indirect modification of overloaded property Foo::$arr has no effect in %sbug43201.php on line 17
+
+Notice: Undefined variable: undef in %sbug43201.php on line 16
+
+Notice: Indirect modification of overloaded property Foo::$arr has no effect in %sbug43201.php on line 17
+
+Notice: Undefined variable: undef in %sbug43201.php on line 16
+
+Notice: Indirect modification of overloaded property Foo::$arr has no effect in %sbug43201.php on line 17
+ok
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Indirect modification of overloaded property Foo::$arr has no effect in /root/php-src/Zend/tests/bug43201.php on line 13
+
+Notice: Indirect modification of overloaded property Foo::$arr has no effect in /root/php-src/Zend/tests/bug43201.php on line 14
+
+Notice: Undefined variable: ref in /root/php-src/Zend/tests/bug43201.php on line 14
+
+Notice: Undefined variable: undef in /root/php-src/Zend/tests/bug43201.php on line 16
+
+Notice: Indirect modification of overloaded property Foo::$arr has no effect in /root/php-src/Zend/tests/bug43201.php on line 17
+
+Notice: Undefined variable: undef in /root/php-src/Zend/tests/bug43201.php on line 16
+
+Notice: Indirect modification of overloaded property Foo::$arr has no effect in /root/php-src/Zend/tests/bug43201.php on line 17
+
+Notice: Undefined variable: undef in /root/php-src/Zend/tests/bug43201.php on line 16
+
+Notice: Indirect modification of overloaded property Foo::$arr has no effect in /root/php-src/Zend/tests/bug43201.php on line 17
+
+Notice: Undefined variable: undef in /root/php-src/Zend/tests/bug43201.php on line 16
+
+Notice: Indirect modification of overloaded property Foo::$arr has no effect in /root/php-src/Zend/tests/bug43201.php on line 17
+
+Notice: Undefined variable: undef in /root/php-src/Zend/tests/bug43201.php on line 16
+
+Notice: Indirect modification of overloaded property Foo::$arr has no effect in /root/php-src/Zend/tests/bug43201.php on line 17
+
+Notice: Undefined variable: undef in /root/php-src/Zend/tests/bug43201.php on line 16
+
+Notice: Indirect modification of overloaded property Foo::$arr has no effect in /root/php-src/Zend/tests/bug43201.php on line 17
+ok
+---- FAILED

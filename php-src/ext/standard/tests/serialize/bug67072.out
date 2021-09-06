@@ -1,0 +1,6 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: Erroneous data format for unserializing 'SplFileObject' in /root/php-src/ext/standard/tests/serialize/bug67072.php on line 2
+
+Notice: unserialize(): Error at offset 24 of 64 bytes in /root/php-src/ext/standard/tests/serialize/bug67072.php on line 2
+===DONE==

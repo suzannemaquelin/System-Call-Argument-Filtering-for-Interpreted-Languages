@@ -1,0 +1,16 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing chmod() : error conditions ***
+
+-- Testing chmod() function with more than expected no. of arguments --
+
+Warning: chmod() expects exactly 2 parameters, 3 given in /root/php-src/ext/standard/tests/file/chmod_error.php on line 16
+NULL
+
+-- Testing chmod() function with less than expected no. of arguments --
+
+Warning: chmod() expects exactly 2 parameters, 1 given in /root/php-src/ext/standard/tests/file/chmod_error.php on line 21
+NULL
+
+Warning: chmod(): No such file or directory in /root/php-src/ext/standard/tests/file/chmod_error.php on line 25
+bool(false)
+===DONE===

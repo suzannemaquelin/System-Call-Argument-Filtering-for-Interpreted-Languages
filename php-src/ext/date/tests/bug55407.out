@@ -1,0 +1,4 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: Declaration of melt\core\DateTime::createFromFormat($format, $time, ?melt\core\DateTimeZone $timezone = NULL) should be compatible with DateTime::createFromFormat($format, $time, $object = NULL) in /root/php-src/ext/date/tests/bug55407.php on line 7
+DONE

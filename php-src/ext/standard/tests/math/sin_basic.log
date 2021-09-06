@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+sin 30 = float(%f)
+Pass
+sin 60 = float(%f)
+Pass
+sin 90 = float(%f)
+Pass
+sin 180 = float(%f)
+Pass
+sin 270 = float(%f)
+Pass
+sin 360 = float(%f)
+Pass
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+sin 30 = float(0.5)
+Pass
+sin 60 = float(0.86602540378444)
+Pass
+sin 90 = float(1)
+Pass
+sin 180 = float(1.2246467991474E-16)
+Pass
+sin 270 = float(-1)
+Pass
+sin 360 = float(-2.4492935982947E-16)
+Pass
+---- FAILED

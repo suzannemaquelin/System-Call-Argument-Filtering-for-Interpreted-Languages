@@ -1,0 +1,106 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing opendir() : usage variations ***
+
+-- Iteration 1 --
+
+Warning: opendir(0): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/opendir_variation1.php on line 95
+bool(false)
+
+-- Iteration 2 --
+
+Warning: opendir(1): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/opendir_variation1.php on line 95
+bool(false)
+
+-- Iteration 3 --
+
+Warning: opendir(12345): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/opendir_variation1.php on line 95
+bool(false)
+
+-- Iteration 4 --
+
+Warning: opendir(-2345): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/opendir_variation1.php on line 95
+bool(false)
+
+-- Iteration 5 --
+
+Warning: opendir(10.5): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/opendir_variation1.php on line 95
+bool(false)
+
+-- Iteration 6 --
+
+Warning: opendir(-10.5): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/opendir_variation1.php on line 95
+bool(false)
+
+-- Iteration 7 --
+
+Warning: opendir(123456789000): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/opendir_variation1.php on line 95
+bool(false)
+
+-- Iteration 8 --
+
+Warning: opendir(1.23456789E-9): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/opendir_variation1.php on line 95
+bool(false)
+
+-- Iteration 9 --
+
+Warning: opendir(0.5): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/opendir_variation1.php on line 95
+bool(false)
+
+-- Iteration 10 --
+bool(false)
+
+-- Iteration 11 --
+bool(false)
+
+-- Iteration 12 --
+
+Warning: opendir(1): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/opendir_variation1.php on line 95
+bool(false)
+
+-- Iteration 13 --
+bool(false)
+
+-- Iteration 14 --
+
+Warning: opendir(1): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/opendir_variation1.php on line 95
+bool(false)
+
+-- Iteration 15 --
+bool(false)
+
+-- Iteration 16 --
+bool(false)
+
+-- Iteration 17 --
+bool(false)
+
+-- Iteration 18 --
+
+Warning: opendir() expects parameter 1 to be a valid path, array given in /root/php-src/ext/standard/tests/dir/opendir_variation1.php on line 95
+NULL
+
+-- Iteration 19 --
+resource(6) of type (stream)
+
+-- Iteration 20 --
+
+Warning: opendir(string): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/opendir_variation1.php on line 95
+bool(false)
+
+-- Iteration 21 --
+resource(7) of type (stream)
+
+-- Iteration 22 --
+resource(8) of type (stream)
+
+-- Iteration 23 --
+bool(false)
+
+-- Iteration 24 --
+bool(false)
+
+-- Iteration 25 --
+
+Warning: opendir() expects parameter 1 to be a valid path, resource given in /root/php-src/ext/standard/tests/dir/opendir_variation1.php on line 95
+NULL
+===DONE===

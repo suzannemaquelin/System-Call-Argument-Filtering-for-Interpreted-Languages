@@ -1,0 +1,12 @@
+
+---- EXPECTED OUTPUT
+Notice: Undefined variable: aa in %sbug60723.php on line %d
+[%s ASIA/Chongqing] PHP Notice:  Undefined variable: aa in %sbug60723.php on line %d
+[%s ASIA/Chongqing] dummy
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined variable: aa in /root/php-src/ext/standard/tests/general_functions/bug60723.php on line 5
+[08-May-2022 22:20:37 ASIA/Chongqing] PHP Notice:  Undefined variable: aa in /root/php-src/ext/standard/tests/general_functions/bug60723.php on line 5
+[08-May-2022 22:20:37 ASIA/Chongqing] dummy
+---- FAILED

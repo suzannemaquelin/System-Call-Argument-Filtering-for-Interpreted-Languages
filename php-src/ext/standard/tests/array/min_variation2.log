@@ -1,0 +1,42 @@
+
+---- EXPECTED OUTPUT
+*** Testing arrays  ***
+int(1)
+int(-2)
+float(2.09)
+string(0) ""
+bool(false)
+bool(false)
+bool(false)
+int(0)
+int(0)
+int(2147483645)
+int(2147483647)
+int(2147483646)
+int(-2147483647)
+%s(-2147483648)
+%s(-2147483649)
+
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+*** Testing arrays  ***
+int(1)
+int(-2)
+float(2.09)
+string(0) ""
+bool(false)
+bool(false)
+bool(false)
+int(0)
+int(0)
+int(2147483645)
+int(2147483647)
+int(2147483646)
+int(-2147483647)
+int(-2147483648)
+int(-2147483649)
+
+Done
+---- FAILED

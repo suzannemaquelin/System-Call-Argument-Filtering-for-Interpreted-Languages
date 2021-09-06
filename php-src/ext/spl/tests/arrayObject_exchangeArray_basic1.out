@@ -1,0 +1,19 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+--> swapIn:  array(1) {
+  ["b"]=>
+  string(25) "adding element to $swapIn"
+}
+
+--> cowRef:  array(0) {
+}
+
+--> ao:  object(ArrayObject)#1 (1) {
+  ["storage":"ArrayObject":private]=>
+  array(2) {
+    ["a"]=>
+    string(21) "adding element to $ao"
+    ["c"]=>
+    string(29) "adding another element to $ao"
+  }
+}

@@ -1,0 +1,4 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: array_merge_recursive(): recursion detected in /root/php-src/ext/standard/tests/array/bug43495.php on line 8
+Done.

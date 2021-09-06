@@ -1,0 +1,89 @@
+
+---- EXPECTED OUTPUT
+*** Testing gmdate() : usage variation ***
+
+--Lowercase Ante meridiem and post meridiem--
+string(2) "%s"
+string(2) "am"
+
+--Uppercase Ante meridiem and post meridiem--
+string(2) "%s"
+string(2) "am"
+
+--Swatch Internet time--
+string(%d) "%d"
+string(3) "380"
+
+--12-hour format without leading zeros--
+string(%d) "%d"
+string(1) "8"
+
+--24-hour format without leading zeros--
+string(%d) "%d"
+string(1) "8"
+
+--12-hour format with leading zeros--
+string(%d) "%d"
+string(2) "08"
+
+--24-hour format with leading zeros--
+string(2) "%d"
+string(2) "08"
+
+--Minutes with leading zeros--
+string(2) "%d"
+string(2) "08"
+
+--Seconds with leading zeros--
+string(2) "%d"
+string(2) "08"
+
+--Milliseconds--
+string(%d) "%d"
+string(6) "000000"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing gmdate() : usage variation ***
+
+--Lowercase Ante meridiem and post meridiem--
+string(2) "pm"
+string(2) "am"
+
+--Uppercase Ante meridiem and post meridiem--
+string(2) "pm"
+string(2) "am"
+
+--Swatch Internet time--
+string(3) "628"
+string(3) "380"
+
+--12-hour format without leading zeros--
+string(1) "2"
+string(1) "8"
+
+--24-hour format without leading zeros--
+string(2) "14"
+string(1) "8"
+
+--12-hour format with leading zeros--
+string(2) "02"
+string(2) "08"
+
+--24-hour format with leading zeros--
+string(2) "14"
+string(2) "08"
+
+--Minutes with leading zeros--
+string(2) "04"
+string(2) "08"
+
+--Seconds with leading zeros--
+string(2) "59"
+string(2) "08"
+
+--Milliseconds--
+string(6) "000000"
+string(6) "000000"
+===DONE===
+---- FAILED

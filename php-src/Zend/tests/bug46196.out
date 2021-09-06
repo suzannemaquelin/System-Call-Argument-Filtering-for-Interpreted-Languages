@@ -1,0 +1,6 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing restore_error_handler() : error bug #46196 ***
+NULL
+bool(true)
+NULL
+===DONE===

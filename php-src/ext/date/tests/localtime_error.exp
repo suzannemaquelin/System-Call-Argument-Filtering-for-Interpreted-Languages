@@ -1,0 +1,7 @@
+*** Testing localtime() : error conditions ***
+
+-- Testing localtime() function with more than expected no. of arguments --
+
+Warning: localtime() expects at most 2 parameters, 3 given in %s on line %d
+bool(false)
+===DONE===

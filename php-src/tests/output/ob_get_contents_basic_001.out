@@ -1,0 +1,22 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing ob_get_contents() : basic functionality ***
+
+-- Testing ob_get_contents() function with Zero arguments --
+bool(false)
+Hello World
+string(12) "Hello World
+"
+
+check that we dont have a reference
+Hello World
+string(12) "Hello World
+"
+
+check that contents disappear after a flush
+Hello World
+string(0) ""
+
+check that no contents found after an end
+Hello World
+bool(false)
+Done

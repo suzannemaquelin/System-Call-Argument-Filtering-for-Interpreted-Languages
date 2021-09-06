@@ -1,0 +1,12 @@
+bool(true)
+
+Warning: openssl_public_encrypt(): key parameter is not a valid public key in %s on line %d
+bool(false)
+
+Warning: openssl_public_encrypt(): key parameter is not a valid public key in %s on line %d
+bool(false)
+
+Warning: openssl_public_encrypt(): key parameter is not a valid public key in %s on line %d
+bool(false)
+bool(true)
+string(4) "test"

@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Warning: DOMDocument::load%r(XML){0,1}%r(): Element book content does not follow the DTD, expecting (title , author), got (title author author ) %s
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: DOMDocument::load(): Element book content does not follow the DTD, expecting (title , author), got (title author author ) in /root/php-src/ext/dom/tests/wrong_book_with_dtd.xml, line: 8 in /root/php-src/ext/dom/tests/DOMDocument_load_variation2.php on line 8
+---- FAILED

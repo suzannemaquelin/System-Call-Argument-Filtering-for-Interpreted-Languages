@@ -1,0 +1,73 @@
+
+---- EXPECTED OUTPUT
+array(0) {
+}
+array(1) {
+  [0]=>
+  int(10)
+}
+array(1) {
+  [0]=>
+  int(1)
+}
+Exception: Too few arguments to function test2(), 0 passed in %s003.php on line %d and exactly 1 expected
+array(2) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+}
+array(0) {
+}
+Exception: Too few arguments to function test3(), 1 passed in %s003.php on line %d and exactly 2 expected
+array(2) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+}
+array(1) {
+  [0]=>
+  int(1)
+}
+
+Warning: func_get_args():  Called from the global scope - no function context in %s on line %d
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(0) {
+}
+array(1) {
+  [0]=>
+  int(10)
+}
+array(1) {
+  [0]=>
+  int(1)
+}
+Exception: Too few arguments to function test2(), 0 passed in /root/php-src/Zend/tests/003.php on line 19 and exactly 1 expected
+array(2) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+}
+array(0) {
+}
+Exception: Too few arguments to function test3(), 1 passed in /root/php-src/Zend/tests/003.php on line 27 and exactly 2 expected
+array(2) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+}
+array(1) {
+  [0]=>
+  int(1)
+}
+
+Warning: func_get_args():  Called from the global scope - no function context in /root/php-src/Zend/tests/003.php on line 40
+bool(false)
+Done
+---- FAILED

@@ -1,0 +1,7 @@
+*** Testing date_create() : error conditions ***
+
+-- Testing date_create() function with more than expected no. of arguments --
+
+Warning: date_create() expects at most 2 parameters, 3 given in %s on line %d
+bool(false)
+===DONE===

@@ -1,0 +1,45 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_reverse() : basic functionality ***
+array(6) {
+  [0]=>
+  float(13.33)
+  [1]=>
+  int(10)
+  [2]=>
+  string(4) "blue"
+  [3]=>
+  string(3) "red"
+  [4]=>
+  string(5) "green"
+  [5]=>
+  string(1) "a"
+}
+array(6) {
+  [5]=>
+  float(13.33)
+  [4]=>
+  int(10)
+  [3]=>
+  string(4) "blue"
+  [2]=>
+  string(3) "red"
+  [1]=>
+  string(5) "green"
+  [0]=>
+  string(1) "a"
+}
+array(6) {
+  [0]=>
+  float(13.33)
+  [1]=>
+  int(10)
+  [2]=>
+  string(4) "blue"
+  [3]=>
+  string(3) "red"
+  [4]=>
+  string(5) "green"
+  [5]=>
+  string(1) "a"
+}
+Done

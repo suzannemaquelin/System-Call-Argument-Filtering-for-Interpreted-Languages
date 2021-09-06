@@ -1,0 +1,31 @@
+**********************************
+Reflecting on property TestClass::pub
+
+isDefault():
+bool(true)
+
+**********************************
+**********************************
+Reflecting on property TestClass::stat
+
+isDefault():
+bool(true)
+
+**********************************
+**********************************
+Reflecting on property TestClass::prot
+
+isDefault():
+bool(true)
+
+**********************************
+**********************************
+Reflecting on property TestClass::priv
+
+isDefault():
+bool(true)
+
+**********************************
+Wrong number of params:
+
+Warning: ReflectionProperty::isDefault() expects exactly 0 parameters, 1 given in %s on line %d

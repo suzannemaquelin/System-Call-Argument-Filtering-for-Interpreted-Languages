@@ -1,0 +1,15 @@
+
+---- EXPECTED OUTPUT
+[callback:1]This call will obtain the content, but will not flush the buffer.
+Notice: ob_get_flush(): failed to send buffer of callback (0) in %s on line 11
+
+Notice: ob_get_flush(): failed to delete buffer of callback (0) in %s on line 11
+string(65) "This call will obtain the content, but will not flush the buffer."
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+[callback:1]This call will obtain the content, but will not flush the buffer.
+Notice: ob_get_flush(): failed to send buffer of callback (0) in /root/php-src/tests/output/ob_start_basic_unerasable_004.php on line 11
+
+Notice: ob_get_flush(): failed to delete buffer of callback (0) in /root/php-src/tests/output/ob_start_basic_unerasable_004.php on line 11
+string(65) "This call will obtain the content, but will not flush the buffer."
+---- FAILED

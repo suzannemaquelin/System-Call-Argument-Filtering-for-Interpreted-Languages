@@ -1,0 +1,15 @@
+Array
+(
+    [0] => X-Powered-By: %s
+    [1] => A: second
+)
+Array
+(
+    [0] => X-Powered-By: %s
+    [1] => A: second
+    [2] => A: third
+)
+Array
+(
+    [0] => X-Powered-By: %s
+)

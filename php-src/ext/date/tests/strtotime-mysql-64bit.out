@@ -1,0 +1,4 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(31) "Fri, 23 May 1997 09:15:28 +0000"
+string(31) "Sun, 31 Dec 2000 18:58:59 +0000"
+string(31) "Wed, 10 Apr 2080 10:10:10 +0000"

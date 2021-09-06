@@ -1,0 +1,27 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: file_get_contents(): test1:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /root/php-src/ext/standard/tests/file/include_userstream_003.php on line 86
+
+Warning: file_get_contents(test1://hello): failed to open stream: no suitable wrapper could be found in /root/php-src/ext/standard/tests/file/include_userstream_003.php on line 86
+
+
+Warning: include(): test1:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /root/php-src/ext/standard/tests/file/include_userstream_003.php on line 87
+
+Warning: include(test1://hello): failed to open stream: no suitable wrapper could be found in /root/php-src/ext/standard/tests/file/include_userstream_003.php on line 87
+
+Warning: include(): Failed opening 'test1://hello' for inclusion (include_path='.:/opt/php-7.1/lib/php') in /root/php-src/ext/standard/tests/file/include_userstream_003.php on line 87
+
+Warning: fopen(): test1:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /root/php-src/ext/standard/tests/file/include_userstream_003.php on line 10
+
+Warning: fopen(test1://hello): failed to open stream: no suitable wrapper could be found in /root/php-src/ext/standard/tests/file/include_userstream_003.php on line 10
+
+Warning: file_get_contents(test2://hello): failed to open stream: "test::stream_open" call failed in /root/php-src/ext/standard/tests/file/include_userstream_003.php on line 88
+
+
+Warning: fopen(): test1:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /root/php-src/ext/standard/tests/file/include_userstream_003.php on line 10
+
+Warning: fopen(test1://hello): failed to open stream: no suitable wrapper could be found in /root/php-src/ext/standard/tests/file/include_userstream_003.php on line 10
+
+Warning: include(test2://hello): failed to open stream: "test::stream_open" call failed in /root/php-src/ext/standard/tests/file/include_userstream_003.php on line 89
+
+Warning: include(): Failed opening 'test2://hello' for inclusion (include_path='.:/opt/php-7.1/lib/php') in /root/php-src/ext/standard/tests/file/include_userstream_003.php on line 89

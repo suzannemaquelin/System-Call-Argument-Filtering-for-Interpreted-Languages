@@ -1,0 +1,4 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined index: peer_certificate in /root/php-src/ext/openssl/tests/ServerClientTestCase.inc(96) : eval()'d code on line 10
+NULL

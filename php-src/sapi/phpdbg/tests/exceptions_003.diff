@@ -1,0 +1,13 @@
+007+ prompt> [L5       0x7f3a08266060 INIT_FCALL_BY_NAME                           "x"                                       /root/php-src/sapi/phpdbg/tests/exceptions_003.php]
+008+ [L0       0x558b74b01468 HANDLE_EXCEPTION                                                                       /root/php-src/sapi/phpdbg/tests/exceptions_003.php]
+007- prompt> [L0 %s HANDLE_EXCEPTION                                                                       %s]
+011- prompt> [L7 %s ECHO                    "ok\n"                                                         %s]
+012+ prompt> [L7       0x7f3a08266120 EXT_STMT                                                                               /root/php-src/sapi/phpdbg/tests/exceptions_003.php]
+015- prompt> ok
+016+ prompt> [L7       0x7f3a08266140 ECHO                    "ok\n"                                                         /root/php-src/sapi/phpdbg/tests/exceptions_003.php]
+017+ ok
+021- prompt> [L10 %s ECHO                    "caught\n"                                                     %s]
+023+ prompt> [L10      0x7f3a082661c0 EXT_STMT                                                                               /root/php-src/sapi/phpdbg/tests/exceptions_003.php]
+025- prompt> caught
+027+ prompt> [L10      0x7f3a082661e0 ECHO                    "caught\n"                                                     /root/php-src/sapi/phpdbg/tests/exceptions_003.php]
+028+ caught

@@ -1,0 +1,2 @@
+Notice: Undefined property: Bar::$bar in %sbug66609.php on line %d
+okey

@@ -1,0 +1,16 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing get_extension_funcs() : error conditions ***
+
+-- Too few arguments --
+
+Warning: get_extension_funcs() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/general_functions/get_extension_funcs_error.php on line 11
+NULL
+
+-- Too many arguments --
+
+Warning: get_extension_funcs() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/general_functions/get_extension_funcs_error.php on line 15
+NULL
+
+-- Invalid extension name --
+bool(false)
+===DONE===

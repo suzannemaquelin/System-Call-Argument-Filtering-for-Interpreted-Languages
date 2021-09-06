@@ -1,0 +1,4 @@
+Called global foo(1, 2)
+Called global foo(3, 4)
+Called global foo(5, 6)
+Called global foo(7, 8)

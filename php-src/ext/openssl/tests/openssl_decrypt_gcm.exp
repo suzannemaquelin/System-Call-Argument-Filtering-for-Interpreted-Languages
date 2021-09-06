@@ -1,0 +1,17 @@
+TEST 0
+bool(true)
+TEST 1
+bool(true)
+TEST 2
+bool(true)
+TEST 3
+bool(true)
+TEST 4
+bool(true)
+TEST 5
+bool(true)
+
+Warning: openssl_decrypt(): Setting of IV length for AEAD mode failed in %s on line %d
+bool(false)
+bool(false)
+bool(false)

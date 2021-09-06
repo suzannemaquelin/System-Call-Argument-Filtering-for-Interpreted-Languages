@@ -1,0 +1,14 @@
+016+ prompt> [L10      0x7f857ce66140 EXT_STMT                                                                               /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+016- prompt> [L10 %s ECHO                    "ok"                                                           %s]
+020+ prompt> [L10      0x7f857ce66160 ECHO                    "ok"                                                           /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+021+ ok
+022+ [L11      0x7f857ce66180 FAST_CALL               J14                                       ~0                   /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+020- prompt> ok
+021- [L11 %s FAST_CALL               J8                                        ~%d                   %s]
+025- prompt> [L12 %s ECHO                    " ... ok"                                                      %s]
+026+ prompt> [L12      0x7f857ce661c0 EXT_STMT                                                                               /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+029- prompt>  ... ok
+030+ prompt> [L12      0x7f857ce661e0 ECHO                    " ... ok"                                                      /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+031+  ... ok
+031- [L11 %s JMP                     J10                                                            %s]
+033+ [L11      0x7f857ce661a0 JMP                     J17                                                            /root/php-src/sapi/phpdbg/tests/stepping_001.php]

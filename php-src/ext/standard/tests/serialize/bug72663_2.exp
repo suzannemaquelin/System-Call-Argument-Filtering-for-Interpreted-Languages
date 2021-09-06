@@ -1,0 +1,6 @@
+Notice: unserialize(): Unexpected end of serialized data in %s on line %d
+
+Notice: unserialize(): Error at offset 46 of 47 bytes in %s on line %d
+
+Notice: unserialize(): Error at offset 79 of 80 bytes in %s on line %d
+bool(false)

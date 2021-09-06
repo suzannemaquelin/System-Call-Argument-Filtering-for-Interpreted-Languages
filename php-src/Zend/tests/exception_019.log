@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught Error: Wrong parameters for Exception([string $message [, long $code [, Throwable $previous = NULL]]]) in %sexception_019.php:%d
+Stack trace:
+#0 %sexception_019.php(%d): Exception->__construct(Object(stdClass))
+#1 {main}
+  thrown in %sexception_019.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Error: Wrong parameters for Exception([string $message [, long $code [, Throwable $previous = NULL]]]) in /root/php-src/Zend/tests/exception_019.php:3
+Stack trace:
+#0 /root/php-src/Zend/tests/exception_019.php(3): Exception->__construct(Object(stdClass))
+#1 {main}
+  thrown in /root/php-src/Zend/tests/exception_019.php on line 3
+---- FAILED

@@ -1,0 +1,11 @@
+Warning: ReflectionClass::isFinal() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+
+Warning: ReflectionClass::isInterface() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+
+Warning: ReflectionClass::isAbstract() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+
+Warning: ReflectionClass::getModifiers() expects exactly 0 parameters, 1 given in %s on line %d
+NULL

@@ -1,0 +1,14 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Exception: foobar in /root/php-src/Zend/tests/gc_030.php:6
+Stack trace:
+#0 [internal function]: foo->__destruct()
+#1 /root/php-src/Zend/tests/gc_030.php(15): gc_collect_cycles()
+#2 {main}
+
+Next Exception: foobar in /root/php-src/Zend/tests/gc_030.php:6
+Stack trace:
+#0 [internal function]: foo->__destruct()
+#1 /root/php-src/Zend/tests/gc_030.php(15): gc_collect_cycles()
+#2 {main}
+  thrown in /root/php-src/Zend/tests/gc_030.php on line 6

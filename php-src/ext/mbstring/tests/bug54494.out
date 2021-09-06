@@ -1,0 +1,7 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+UTF-32LE:
+Length: 12
+68000000e40000006c0000006c000000f60000002000000077000000f6000000720000006c000000640000000a000000
+UCS-2LE:
+Length: 12
+6800e4006c006c00f60020007700f60072006c0064000a00

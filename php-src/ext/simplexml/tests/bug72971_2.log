@@ -1,0 +1,37 @@
+
+---- EXPECTED OUTPUT
+object(SimpleXMLElement)#2 (1) {
+  [0]=>
+  string(7) "new-bar"
+}
+object(SimpleXMLElement)#3 (1) {
+  [0]=>
+  string(6) "ns:bar"
+}
+object(SimpleXMLElement)#3 (1) {
+  [0]=>
+  string(7) "new-bar"
+}
+object(SimpleXMLElement)#2 (1) {
+  [0]=>
+  string(10) "ns:new-bar"
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(SimpleXMLElement)#2 (1) {
+  [0]=>
+  string(7) "new-bar"
+}
+object(SimpleXMLElement)#3 (1) {
+  [0]=>
+  string(6) "ns:bar"
+}
+object(SimpleXMLElement)#3 (1) {
+  [0]=>
+  string(7) "new-bar"
+}
+object(SimpleXMLElement)#2 (1) {
+  [0]=>
+  string(10) "ns:new-bar"
+}
+---- FAILED

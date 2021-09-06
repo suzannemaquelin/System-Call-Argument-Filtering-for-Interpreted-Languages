@@ -1,0 +1,14 @@
+
+---- EXPECTED OUTPUT
+Bug66405 file3.csv
+string %sbug66405%efile1.txt
+string %sbug66405%efile2.md
+string %sbug66405%etestsubdir%efile3.csv
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Bug66405 file3.csv
+string /root/php-src/ext/spl/tests/bug66405/file1.txt
+string /root/php-src/ext/spl/tests/bug66405/file2.md
+string /root/php-src/ext/spl/tests/bug66405/testsubdir/file3.csv
+---- FAILED

@@ -1,0 +1,65 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_strrpos() : usage variations ***
+
+-- Iteration 1 --
+int(8)
+
+-- Iteration 2 --
+int(8)
+
+-- Iteration 3 --
+
+Warning: mb_strrpos(): Offset is greater than the length of haystack string in /root/php-src/ext/mbstring/tests/mb_strrpos_variation3.php on line 75
+bool(false)
+
+-- Iteration 4 --
+
+Warning: mb_strrpos(): Offset is greater than the length of haystack string in /root/php-src/ext/mbstring/tests/mb_strrpos_variation3.php on line 75
+bool(false)
+
+-- Iteration 5 --
+bool(false)
+
+-- Iteration 6 --
+bool(false)
+
+-- Iteration 7 --
+
+Warning: mb_strrpos(): Offset is greater than the length of haystack string in /root/php-src/ext/mbstring/tests/mb_strrpos_variation3.php on line 75
+bool(false)
+
+-- Iteration 8 --
+int(8)
+
+-- Iteration 9 --
+int(8)
+
+-- Iteration 10 --
+int(8)
+
+-- Iteration 11 --
+int(8)
+
+-- Iteration 12 --
+int(8)
+
+-- Iteration 13 --
+int(8)
+
+-- Iteration 14 --
+int(8)
+
+-- Iteration 15 --
+int(8)
+
+-- Iteration 16 --
+
+Notice: Object of class classA could not be converted to int in /root/php-src/ext/mbstring/tests/mb_strrpos_variation3.php on line 75
+int(8)
+
+-- Iteration 17 --
+int(8)
+
+-- Iteration 18 --
+int(8)
+Done

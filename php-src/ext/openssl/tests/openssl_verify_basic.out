@@ -1,0 +1,10 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(1)
+
+Warning: openssl_verify(): supplied key param cannot be coerced into a public key in /root/php-src/ext/openssl/tests/openssl_verify_basic.php on line 9
+bool(false)
+
+Warning: openssl_verify(): supplied key param cannot be coerced into a public key in /root/php-src/ext/openssl/tests/openssl_verify_basic.php on line 10
+bool(false)
+int(0)
+int(0)

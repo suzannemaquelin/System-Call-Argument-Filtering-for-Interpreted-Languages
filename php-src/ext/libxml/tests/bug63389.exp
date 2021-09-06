@@ -1,0 +1,2 @@
+Warning: libxml_set_streams_context() expects parameter 1 to be resource, string given in %sbug63389.php on line %d
+okey

@@ -1,0 +1,7 @@
+*** Testing DateTime::getOffset() : error conditions ***
+
+-- Testing DateTime::getOffset() function with more than expected no. of arguments --
+
+Warning: DateTime::getOffset() expects exactly 0 parameters, 1 given in %s on line %d
+bool(false)
+===DONE===

@@ -1,0 +1,25 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+---( Declaring class: )---
+B::testB
+array(4) {
+  ["hiddenPriv"]=>
+  string(13) "B::hiddenPriv"
+  ["priv"]=>
+  string(7) "B::priv"
+  ["prot"]=>
+  string(7) "B::prot"
+  ["pub"]=>
+  string(6) "B::pub"
+}
+
+---( Superclass: )---
+A::testA
+array(3) {
+  ["prot"]=>
+  string(7) "B::prot"
+  ["pub"]=>
+  string(6) "B::pub"
+  ["hiddenPriv"]=>
+  string(13) "A::hiddenPriv"
+}

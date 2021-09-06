@@ -1,0 +1,7 @@
+*** Testing posix_getgid() : error conditions ***
+
+-- Testing posix_getgid() function with one argument --
+
+Warning: posix_getgid() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+Done

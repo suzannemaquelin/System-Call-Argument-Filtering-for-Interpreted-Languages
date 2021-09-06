@@ -1,0 +1,12 @@
+
+---- EXPECTED OUTPUT
+Warning: preg_match(): Compilation failed: recursive call could loop indefinitely at offset %s in %s on line %s
+bool(false)
+bool(true)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: preg_match(): Compilation failed: recursive call could loop indefinitely at offset 4 in /root/php-src/ext/pcre/tests/bug75539.php on line 3
+bool(false)
+bool(true)
+---- FAILED

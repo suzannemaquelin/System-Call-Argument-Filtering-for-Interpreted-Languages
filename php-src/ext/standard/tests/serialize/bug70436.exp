@@ -1,0 +1,5 @@
+Notice: unserialize(): Error at offset 0 of 3 bytes in %sbug70436.php on line %d
+
+Notice: unserialize(): Error at offset 93 of 94 bytes in %sbug70436.php on line %d
+bool(false)
+DONE

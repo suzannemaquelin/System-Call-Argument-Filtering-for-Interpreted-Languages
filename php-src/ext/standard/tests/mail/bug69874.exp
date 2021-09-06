@@ -1,0 +1,7 @@
+*** Testing mail() : send email without additional headers ***
+bool(true)
+To: user@company.com
+Subject: Test Subject
+
+A Message
+===DONE===

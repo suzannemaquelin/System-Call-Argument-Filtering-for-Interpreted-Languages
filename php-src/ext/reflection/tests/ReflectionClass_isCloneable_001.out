@@ -1,0 +1,21 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+User class
+bool(true)
+bool(true)
+User class - private __clone
+bool(false)
+bool(false)
+Closure
+bool(true)
+bool(true)
+Internal class - SimpleXMLElement
+bool(true)
+bool(true)
+Internal class - XMLWriter
+bool(false)
+bool(false)
+
+Fatal error: Uncaught Error: Trying to clone an uncloneable object of class XMLWriter in /root/php-src/ext/reflection/tests/ReflectionClass_isCloneable_001.php:46
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/ext/reflection/tests/ReflectionClass_isCloneable_001.php on line 46

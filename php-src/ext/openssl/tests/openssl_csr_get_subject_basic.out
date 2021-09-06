@@ -1,0 +1,29 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(6) {
+  ["C"]=>
+  string(2) "NL"
+  ["ST"]=>
+  string(13) "Noord Brabant"
+  ["L"]=>
+  string(4) "Uden"
+  ["O"]=>
+  string(10) "Triconnect"
+  ["OU"]=>
+  string(10) "Triconnect"
+  ["CN"]=>
+  string(15) "*.triconnect.nl"
+}
+array(6) {
+  ["countryName"]=>
+  string(2) "BR"
+  ["stateOrProvinceName"]=>
+  string(17) "Rio Grande do Sul"
+  ["localityName"]=>
+  string(12) "Porto Alegre"
+  ["commonName"]=>
+  string(21) "Henrique do N. Angelo"
+  ["emailAddress"]=>
+  string(16) "hnangelo@php.net"
+  ["organizationName"]=>
+  string(24) "Internet Widgits Pty Ltd"
+}

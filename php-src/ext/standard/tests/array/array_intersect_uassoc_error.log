@@ -1,0 +1,45 @@
+
+---- EXPECTED OUTPUT
+*** Testing array_intersect_uassoc() : error conditions ***
+
+-- Testing array_intersect_uassoc() function with more than expected no. of arguments --
+
+Warning: array_intersect_uassoc() expects parameter 4 to be a valid callback, no array or string given in %s on line %d
+NULL
+
+-- Testing array_intersect_uassoc() function with less than expected no. of arguments --
+
+Warning: array_intersect_uassoc(): at least 3 parameters are required, 2 given in %s on line %d
+NULL
+
+Warning: array_intersect_uassoc() expects parameter 3 to be a valid callback, second array member is not a valid method in %s on line %d
+NULL
+
+-- Testing array_intersect_uassoc() function with no arguments --
+
+Warning: array_intersect_uassoc(): at least 3 parameters are required, 0 given in %s on line %d
+NULL
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_intersect_uassoc() : error conditions ***
+
+-- Testing array_intersect_uassoc() function with more than expected no. of arguments --
+
+Warning: array_intersect_uassoc() expects parameter 4 to be a valid callback, no array or string given in /root/php-src/ext/standard/tests/array/array_intersect_uassoc_error.php on line 25
+NULL
+
+-- Testing array_intersect_uassoc() function with less than expected no. of arguments --
+
+Warning: array_intersect_uassoc(): at least 3 parameters are required, 2 given in /root/php-src/ext/standard/tests/array/array_intersect_uassoc_error.php on line 29
+NULL
+
+Warning: array_intersect_uassoc() expects parameter 3 to be a valid callback, second array member is not a valid method in /root/php-src/ext/standard/tests/array/array_intersect_uassoc_error.php on line 30
+NULL
+
+-- Testing array_intersect_uassoc() function with no arguments --
+
+Warning: array_intersect_uassoc(): at least 3 parameters are required, 0 given in /root/php-src/ext/standard/tests/array/array_intersect_uassoc_error.php on line 34
+NULL
+===DONE===
+---- FAILED

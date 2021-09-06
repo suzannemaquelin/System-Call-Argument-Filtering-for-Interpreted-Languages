@@ -1,0 +1,45 @@
+
+---- EXPECTED OUTPUT
+OK_ASCII_SET
+ASCII
+OK_SJIS_SET
+SJIS
+OK_JIS_SET
+JIS
+OK_UTF-8_SET
+UTF-8
+OK_EUC-JP_SET
+EUC-JP
+== INVALID PARAMETER ==
+ERR: Warning
+OK_BAD_SET
+EUC-JP
+ERR: Warning
+OK_BAD_ARY_SET
+EUC-JP
+ERR: Warning
+OK_BAD_OBJ_SET
+EUC-JP
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+OK_ASCII_SET
+ASCII
+OK_SJIS_SET
+SJIS
+OK_JIS_SET
+JIS
+OK_UTF-8_SET
+UTF-8
+OK_EUC-JP_SET
+EUC-JP
+== INVALID PARAMETER ==
+ERR: Warning
+OK_BAD_SET
+EUC-JP
+ERR: Warning
+OK_BAD_ARY_SET
+EUC-JP
+ERR: Warning
+OK_BAD_OBJ_SET
+EUC-JP
+---- FAILED

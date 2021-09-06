@@ -1,0 +1,49 @@
+
+---- EXPECTED OUTPUT
+(31) "Subject: PrüfungPrüfungkůÔńÓlet"
+(32) "Subject: Prüfung PrüfungkůÔńÓlet"
+(31) "Subject: PrüfungPrüfungkůÔńÓlet"
+2: iconv_mime_decode(): Malformed string
+(0) ""
+(27) "From: サンプル文字列サンプル文字列日本語テキスト"
+(31) "Subject: PrüfungPrüfungkůÔńÓlet"
+(32) "Subject: Prüfung PrüfungkůÔńÓlet"
+(100) "Subject: =?ISO-8859-1?Q?Pr=FCfung?==?ISO-8859-1*de_DE?Q?Pr=FCfung?==?ISO-8859-2?Q?k=F9=D4=F1=D3let?="
+2: iconv_mime_decode(): Malformed string
+(0) ""
+(27) "From: サンプル文字列サンプル文字列日本語テキスト"
+(31) "Subject: PrüfungPrüfungkůÔńÓlet"
+(32) "Subject: Prüfung PrüfungkůÔńÓlet"
+(31) "Subject: PrüfungPrüfungkůÔńÓlet"
+(84) "Subject: Prüfung=?ISO-8859-1*de_DE?Q?Pr=FCfung??   =?ISO-8859-2?X?k=F9=D4=F1=D3let?="
+(27) "From: サンプル文字列サンプル文字列日本語テキスト"
+(31) "Subject: PrüfungPrüfungkůÔńÓlet"
+(32) "Subject: Prüfung PrüfungkůÔńÓlet"
+(100) "Subject: =?ISO-8859-1?Q?Pr=FCfung?==?ISO-8859-1*de_DE?Q?Pr=FCfung?==?ISO-8859-2?Q?k=F9=D4=F1=D3let?="
+(84) "Subject: Prüfung=?ISO-8859-1*de_DE?Q?Pr=FCfung??   =?ISO-8859-2?X?k=F9=D4=F1=D3let?="
+(27) "From: サンプル文字列サンプル文字列日本語テキスト"
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+(31) "Subject: PrüfungPrüfungkůÔńÓlet"
+(32) "Subject: Prüfung PrüfungkůÔńÓlet"
+(31) "Subject: PrüfungPrüfungkůÔńÓlet"
+2: iconv_mime_decode(): Malformed string
+(0) ""
+(27) "From: サンプル文字列サンプル文字列日本語テキスト"
+(31) "Subject: PrüfungPrüfungkůÔńÓlet"
+(32) "Subject: Prüfung PrüfungkůÔńÓlet"
+(100) "Subject: =?ISO-8859-1?Q?Pr=FCfung?==?ISO-8859-1*de_DE?Q?Pr=FCfung?==?ISO-8859-2?Q?k=F9=D4=F1=D3let?="
+2: iconv_mime_decode(): Malformed string
+(0) ""
+(27) "From: サンプル文字列サンプル文字列日本語テキスト"
+(31) "Subject: PrüfungPrüfungkůÔńÓlet"
+(32) "Subject: Prüfung PrüfungkůÔńÓlet"
+(31) "Subject: PrüfungPrüfungkůÔńÓlet"
+(84) "Subject: Prüfung=?ISO-8859-1*de_DE?Q?Pr=FCfung??   =?ISO-8859-2?X?k=F9=D4=F1=D3let?="
+(27) "From: サンプル文字列サンプル文字列日本語テキスト"
+(31) "Subject: PrüfungPrüfungkůÔńÓlet"
+(32) "Subject: Prüfung PrüfungkůÔńÓlet"
+(100) "Subject: =?ISO-8859-1?Q?Pr=FCfung?==?ISO-8859-1*de_DE?Q?Pr=FCfung?==?ISO-8859-2?Q?k=F9=D4=F1=D3let?="
+(84) "Subject: Prüfung=?ISO-8859-1*de_DE?Q?Pr=FCfung??   =?ISO-8859-2?X?k=F9=D4=F1=D3let?="
+(27) "From: サンプル文字列サンプル文字列日本語テキスト"
+---- FAILED

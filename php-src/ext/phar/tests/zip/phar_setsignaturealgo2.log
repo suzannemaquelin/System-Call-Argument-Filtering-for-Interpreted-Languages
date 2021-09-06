@@ -1,0 +1,79 @@
+
+---- EXPECTED OUTPUT
+array(2) {
+  ["hash"]=>
+  string(%d) "%s"
+  ["hash_type"]=>
+  string(5) "SHA-1"
+}
+array(2) {
+  ["hash"]=>
+  string(%d) "%s"
+  ["hash_type"]=>
+  string(3) "MD5"
+}
+array(2) {
+  ["hash"]=>
+  string(%d) "%s"
+  ["hash_type"]=>
+  string(5) "SHA-1"
+}
+array(2) {
+  ["hash"]=>
+  string(%d) "%s"
+  ["hash_type"]=>
+  string(7) "SHA-256"
+}
+array(2) {
+  ["hash"]=>
+  string(%d) "%s"
+  ["hash_type"]=>
+  string(7) "SHA-512"
+}
+array(2) {
+  ["hash"]=>
+  string(%d) "%s"
+  ["hash_type"]=>
+  string(7) "OpenSSL"
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(2) {
+  ["hash"]=>
+  string(40) "96D12D0445D6E1AB2A99AC2D381DD0680F970F33"
+  ["hash_type"]=>
+  string(5) "SHA-1"
+}
+array(2) {
+  ["hash"]=>
+  string(32) "1BC2774DAAC8C1929D4A5184CA5F666A"
+  ["hash_type"]=>
+  string(3) "MD5"
+}
+array(2) {
+  ["hash"]=>
+  string(40) "96D12D0445D6E1AB2A99AC2D381DD0680F970F33"
+  ["hash_type"]=>
+  string(5) "SHA-1"
+}
+array(2) {
+  ["hash"]=>
+  string(64) "B232EA08F67DCB8DF4EE59075DC08894A156863CD2C64AC41BAAECFFF2425989"
+  ["hash_type"]=>
+  string(7) "SHA-256"
+}
+array(2) {
+  ["hash"]=>
+  string(128) "E15C9096013086226997DB260ADB35DE0F5BCCD7DA6A3FCFE340053C7098810AB2EA0DB9FA2CF8B73568A91EC01821961918C35CC61107F3C35E173B2EAF106A"
+  ["hash_type"]=>
+  string(7) "SHA-512"
+}
+array(2) {
+  ["hash"]=>
+  string(256) "AAA7865466C894CD32190F05B36228EAB69DCF1A5F6B2207951723153737EFFCD2D549746C87680FE44ADC2476F2C85105A31815172AFC8CF414E511710AB1D0881A73874B4ABCEE55540D3111CE8426169870B20493BD65FD310F1178C0B52E573D6C18A9DD047302CDEB344DA123F1AC672D5E8D54B9730B0B3EDC017748E8"
+  ["hash_type"]=>
+  string(7) "OpenSSL"
+}
+===DONE===
+---- FAILED

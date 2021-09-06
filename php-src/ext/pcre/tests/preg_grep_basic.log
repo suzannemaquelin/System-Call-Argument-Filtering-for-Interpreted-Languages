@@ -1,0 +1,93 @@
+
+---- EXPECTED OUTPUT
+array(5) {
+  [0]=>
+  string(22) "HTTP://WWW.EXAMPLE.COM"
+  [1]=>
+  string(11) "/index.html"
+  [2]=>
+  string(11) "/info/stat/"
+  [3]=>
+  string(29) "http://test.uk.com/index/html"
+  [4]=>
+  string(17) "/display/dept.php"
+}
+array(2) {
+  [0]=>
+  string(22) "HTTP://WWW.EXAMPLE.COM"
+  [3]=>
+  string(29) "http://test.uk.com/index/html"
+}
+array(5) {
+  [0]=>
+  string(22) "HTTP://WWW.EXAMPLE.COM"
+  [1]=>
+  string(11) "/index.html"
+  [2]=>
+  string(11) "/info/stat/"
+  [3]=>
+  string(29) "http://test.uk.com/index/html"
+  [4]=>
+  string(17) "/display/dept.php"
+}
+array(1) {
+  [3]=>
+  string(29) "http://test.uk.com/index/html"
+}
+array(0) {
+}
+array(3) {
+  [1]=>
+  string(11) "/index.html"
+  [2]=>
+  string(11) "/info/stat/"
+  [4]=>
+  string(17) "/display/dept.php"
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(5) {
+  [0]=>
+  string(22) "HTTP://WWW.EXAMPLE.COM"
+  [1]=>
+  string(11) "/index.html"
+  [2]=>
+  string(11) "/info/stat/"
+  [3]=>
+  string(29) "http://test.uk.com/index/html"
+  [4]=>
+  string(17) "/display/dept.php"
+}
+array(2) {
+  [0]=>
+  string(22) "HTTP://WWW.EXAMPLE.COM"
+  [3]=>
+  string(29) "http://test.uk.com/index/html"
+}
+array(5) {
+  [0]=>
+  string(22) "HTTP://WWW.EXAMPLE.COM"
+  [1]=>
+  string(11) "/index.html"
+  [2]=>
+  string(11) "/info/stat/"
+  [3]=>
+  string(29) "http://test.uk.com/index/html"
+  [4]=>
+  string(17) "/display/dept.php"
+}
+array(1) {
+  [3]=>
+  string(29) "http://test.uk.com/index/html"
+}
+array(0) {
+}
+array(3) {
+  [1]=>
+  string(11) "/index.html"
+  [2]=>
+  string(11) "/info/stat/"
+  [4]=>
+  string(17) "/display/dept.php"
+}
+---- FAILED

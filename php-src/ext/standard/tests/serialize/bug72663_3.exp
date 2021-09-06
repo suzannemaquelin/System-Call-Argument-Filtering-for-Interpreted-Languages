@@ -1,0 +1,3 @@
+Notice: session_decode(): Unexpected end of serialized data in %s on line %d
+array(0) {
+}

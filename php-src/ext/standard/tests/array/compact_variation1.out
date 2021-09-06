@@ -1,0 +1,27 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing compact() : usage variations  - arrays containg references ***
+
+Warning: compact(): recursion detected in /root/php-src/ext/standard/tests/array/compact_variation1.php on line 20
+array(1) {
+  ["a"]=>
+  int(1)
+}
+
+Warning: compact(): recursion detected in /root/php-src/ext/standard/tests/array/compact_variation1.php on line 21
+
+Warning: compact(): recursion detected in /root/php-src/ext/standard/tests/array/compact_variation1.php on line 21
+
+Warning: compact(): recursion detected in /root/php-src/ext/standard/tests/array/compact_variation1.php on line 21
+
+Warning: compact(): recursion detected in /root/php-src/ext/standard/tests/array/compact_variation1.php on line 21
+array(2) {
+  ["a"]=>
+  int(1)
+  ["b"]=>
+  int(2)
+}
+array(1) {
+  ["c"]=>
+  int(3)
+}
+Done

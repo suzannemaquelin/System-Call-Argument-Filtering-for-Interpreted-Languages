@@ -1,0 +1,41 @@
+001+ Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+002-   ["nextSibling"]=>
+003+   ["tagName"]=>
+004+   string(4) "root"
+005+   ["schemaTypeInfo"]=>
+004- %A}
+007+   ["nodeName"]=>
+008+   string(4) "root"
+009+   ["nodeValue"]=>
+010+   string(1) "
+011+ "
+012+   ["nodeType"]=>
+013+   int(1)
+014+   ["parentNode"]=>
+015+   string(22) "(object value omitted)"
+016+   ["childNodes"]=>
+017+   string(22) "(object value omitted)"
+018+   ["firstChild"]=>
+019+   string(22) "(object value omitted)"
+020+   ["lastChild"]=>
+021+   string(22) "(object value omitted)"
+022+   ["previousSibling"]=>
+023+   NULL
+024+   ["nextSibling"]=>
+025+   NULL
+026+   ["attributes"]=>
+027+   string(22) "(object value omitted)"
+028+   ["ownerDocument"]=>
+029+   string(22) "(object value omitted)"
+030+   ["namespaceURI"]=>
+031+   NULL
+032+   ["prefix"]=>
+033+   string(0) ""
+034+   ["localName"]=>
+035+   string(4) "root"
+036+   ["baseURI"]=>
+037+   string(14) "/root/php-src/"
+038+   ["textContent"]=>
+039+   string(1) "
+040+ "
+041+ }

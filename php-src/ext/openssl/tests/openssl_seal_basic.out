@@ -1,0 +1,28 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: openssl_seal(): not a public key (1th member of pubkeys) in /root/php-src/ext/openssl/tests/openssl_seal_basic.php on line 8
+bool(false)
+
+Warning: openssl_seal(): Fourth argument to openssl_seal() must be a non-empty array in /root/php-src/ext/openssl/tests/openssl_seal_basic.php on line 9
+bool(false)
+
+Warning: openssl_seal() expects parameter 1 to be string, array given in /root/php-src/ext/openssl/tests/openssl_seal_basic.php on line 10
+NULL
+
+Warning: openssl_seal() expects parameter 1 to be string, array given in /root/php-src/ext/openssl/tests/openssl_seal_basic.php on line 11
+NULL
+int(19)
+int(19)
+
+Warning: openssl_seal(): not a public key (2th member of pubkeys) in /root/php-src/ext/openssl/tests/openssl_seal_basic.php on line 20
+bool(false)
+
+Warning: openssl_seal() expects parameter 4 to be array, string given in /root/php-src/ext/openssl/tests/openssl_seal_basic.php on line 21
+NULL
+
+Warning: openssl_seal(): Fourth argument to openssl_seal() must be a non-empty array in /root/php-src/ext/openssl/tests/openssl_seal_basic.php on line 22
+bool(false)
+
+Warning: openssl_seal(): not a public key (1th member of pubkeys) in /root/php-src/ext/openssl/tests/openssl_seal_basic.php on line 23
+bool(false)
+Done

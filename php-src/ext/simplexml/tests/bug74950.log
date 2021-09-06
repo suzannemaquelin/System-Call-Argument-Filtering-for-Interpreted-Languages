@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught Exception: Invalid options in %sbug74950.php:%d
+Stack trace:
+#0 %sbug74950.php(%d): SimpleXMLElement->__construct('0', 9000000000)
+#1 {main}
+  thrown in %sbug74950.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Exception: Invalid options in /root/php-src/ext/simplexml/tests/bug74950.php:2
+Stack trace:
+#0 /root/php-src/ext/simplexml/tests/bug74950.php(2): SimpleXMLElement->__construct('0', 9000000000)
+#1 {main}
+  thrown in /root/php-src/ext/simplexml/tests/bug74950.php on line 2
+---- FAILED

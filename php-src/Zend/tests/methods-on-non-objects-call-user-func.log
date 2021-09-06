@@ -1,0 +1,12 @@
+
+---- EXPECTED OUTPUT
+Warning: call_user_func() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in %s on line %d
+NULL
+Alive
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: call_user_func() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /root/php-src/Zend/tests/methods-on-non-objects-call-user-func.php on line 3
+NULL
+Alive
+---- FAILED

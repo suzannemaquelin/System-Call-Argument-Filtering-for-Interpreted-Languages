@@ -1,0 +1,59 @@
+
+---- EXPECTED OUTPUT
+NULL
+
+Warning: error_get_last() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+array(4) {
+  ["type"]=>
+  int(2)
+  ["message"]=>
+  string(54) "error_get_last() expects exactly 0 parameters, 1 given"
+  ["file"]=>
+  string(%i) "%s"
+  ["line"]=>
+  int(4)
+}
+
+Notice: Undefined variable: b in %s on line %d
+array(4) {
+  ["type"]=>
+  int(8)
+  ["message"]=>
+  string(21) "Undefined variable: b"
+  ["file"]=>
+  string(%i) "%s"
+  ["line"]=>
+  int(7)
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+NULL
+
+Warning: error_get_last() expects exactly 0 parameters, 1 given in /root/php-src/ext/standard/tests/general_functions/error_get_last.php on line 4
+NULL
+array(4) {
+  ["type"]=>
+  int(2)
+  ["message"]=>
+  string(54) "error_get_last() expects exactly 0 parameters, 1 given"
+  ["file"]=>
+  string(69) "/root/php-src/ext/standard/tests/general_functions/error_get_last.php"
+  ["line"]=>
+  int(4)
+}
+
+Notice: Undefined variable: b in /root/php-src/ext/standard/tests/general_functions/error_get_last.php on line 7
+array(4) {
+  ["type"]=>
+  int(8)
+  ["message"]=>
+  string(21) "Undefined variable: b"
+  ["file"]=>
+  string(69) "/root/php-src/ext/standard/tests/general_functions/error_get_last.php"
+  ["line"]=>
+  int(7)
+}
+Done
+---- FAILED

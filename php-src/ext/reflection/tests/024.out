@@ -1,0 +1,26 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Object of class [ <user> class C1 ] {
+  @@ /root/php-src/ext/reflection/tests/024.php 2-6
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [3] {
+    Property [ <default> private $p1 ]
+    Property [ <default> protected $p2 ]
+    Property [ <default> public $p3 ]
+  }
+
+  - Dynamic properties [1] {
+    Property [ <dynamic> public $z ]
+  }
+
+  - Methods [0] {
+  }
+}

@@ -1,0 +1,28 @@
+*** Testing stream_filter_remove() : error conditions ***
+
+-- Testing stream_filter_remove() function with Zero arguments --
+
+Warning: stream_filter_remove() expects exactly 1 parameter, 0 given in %s on line %d
+bool(false)
+
+-- Testing stream_filter_remove() function with more than expected no. of arguments --
+
+Warning: stream_filter_remove() expects exactly 1 parameter, 2 given in %s on line %d
+bool(false)
+
+-- Testing stream_filter_remove() function with unexisting stream filter --
+
+Warning: stream_filter_remove() expects parameter 1 to be resource, string given in %s on line %d
+bool(false)
+
+-- Testing stream_filter_remove() function with bad resource --
+
+Warning: stream_filter_remove(): Invalid resource given, not a stream filter in %s on line %d
+bool(false)
+
+-- Testing stream_filter_remove() function with an already removed filter --
+bool(true)
+
+Warning: stream_filter_remove(): Invalid resource given, not a stream filter in %s on line %d
+bool(false)
+===DONE===

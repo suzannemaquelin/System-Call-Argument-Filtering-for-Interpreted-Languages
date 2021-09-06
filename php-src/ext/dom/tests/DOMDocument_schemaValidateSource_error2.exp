@@ -1,0 +1,2 @@
+Warning: DOMDocument::schemaValidateSource(): Element 'books': No matching global declaration available for the validation root. in %s.php on line %d
+bool(false)

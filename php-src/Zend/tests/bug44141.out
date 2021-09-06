@@ -1,0 +1,7 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Error: Call to private X::__construct() from context 'Y' in /root/php-src/Zend/tests/bug44141.php:15
+Stack trace:
+#0 /root/php-src/Zend/tests/bug44141.php(19): Y::cheat(5)
+#1 {main}
+  thrown in /root/php-src/Zend/tests/bug44141.php on line 15

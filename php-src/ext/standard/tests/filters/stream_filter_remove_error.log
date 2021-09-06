@@ -1,0 +1,61 @@
+
+---- EXPECTED OUTPUT
+*** Testing stream_filter_remove() : error conditions ***
+
+-- Testing stream_filter_remove() function with Zero arguments --
+
+Warning: stream_filter_remove() expects exactly 1 parameter, 0 given in %s on line %d
+bool(false)
+
+-- Testing stream_filter_remove() function with more than expected no. of arguments --
+
+Warning: stream_filter_remove() expects exactly 1 parameter, 2 given in %s on line %d
+bool(false)
+
+-- Testing stream_filter_remove() function with unexisting stream filter --
+
+Warning: stream_filter_remove() expects parameter 1 to be resource, string given in %s on line %d
+bool(false)
+
+-- Testing stream_filter_remove() function with bad resource --
+
+Warning: stream_filter_remove(): Invalid resource given, not a stream filter in %s on line %d
+bool(false)
+
+-- Testing stream_filter_remove() function with an already removed filter --
+bool(true)
+
+Warning: stream_filter_remove(): Invalid resource given, not a stream filter in %s on line %d
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing stream_filter_remove() : error conditions ***
+
+-- Testing stream_filter_remove() function with Zero arguments --
+
+Warning: stream_filter_remove() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/filters/stream_filter_remove_error.php on line 16
+bool(false)
+
+-- Testing stream_filter_remove() function with more than expected no. of arguments --
+
+Warning: stream_filter_remove() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/filters/stream_filter_remove_error.php on line 20
+bool(false)
+
+-- Testing stream_filter_remove() function with unexisting stream filter --
+
+Warning: stream_filter_remove() expects parameter 1 to be resource, string given in /root/php-src/ext/standard/tests/filters/stream_filter_remove_error.php on line 23
+bool(false)
+
+-- Testing stream_filter_remove() function with bad resource --
+
+Warning: stream_filter_remove(): Invalid resource given, not a stream filter in /root/php-src/ext/standard/tests/filters/stream_filter_remove_error.php on line 26
+bool(false)
+
+-- Testing stream_filter_remove() function with an already removed filter --
+bool(true)
+
+Warning: stream_filter_remove(): Invalid resource given, not a stream filter in /root/php-src/ext/standard/tests/filters/stream_filter_remove_error.php on line 31
+bool(false)
+===DONE===
+---- FAILED

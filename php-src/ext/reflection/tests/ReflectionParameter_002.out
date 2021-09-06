@@ -1,0 +1,30 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Parameters from staticMethod:
+
+object(ReflectionParameter)#2 (1) {
+  ["name"]=>
+  string(8) "paramOne"
+}
+This param is passed by reference
+
+object(ReflectionParameter)#3 (1) {
+  ["name"]=>
+  string(12) "anotherParam"
+}
+This param is not passed by reference
+
+Parameters from instanceMethod:
+
+object(ReflectionParameter)#1 (1) {
+  ["name"]=>
+  string(10) "firstParam"
+}
+This param is not passed by reference
+
+object(ReflectionParameter)#5 (1) {
+  ["name"]=>
+  string(11) "secondParam"
+}
+This param is passed by reference
+
+done

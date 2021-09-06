@@ -1,0 +1,41 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(class@anonymous)#1 (1) {
+  ["i"]=>
+  int(1)
+}
+object(class@anonymous)#1 (1) {
+  ["i"]=>
+  int(2)
+}
+object(class@anonymous)#1 (1) {
+  ["i"]=>
+  int(3)
+}
+object(class@anonymous)#1 (1) {
+  ["i"]=>
+  int(4)
+}
+object(class@anonymous)#1 (1) {
+  ["i"]=>
+  int(5)
+}
+object(class@anonymous)#1 (1) {
+  ["i"]=>
+  int(6)
+}
+object(class@anonymous)#1 (1) {
+  ["i"]=>
+  int(7)
+}
+object(class@anonymous)#1 (1) {
+  ["i"]=>
+  int(8)
+}
+object(class@anonymous)#1 (1) {
+  ["i"]=>
+  int(9)
+}
+object(class@anonymous)#1 (1) {
+  ["i"]=>
+  int(10)
+}

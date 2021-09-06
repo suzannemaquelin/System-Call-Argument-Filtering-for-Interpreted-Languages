@@ -1,0 +1,115 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+===Array===
+array:0
+array:1
+array:2
+===Manual===
+c::getIterator
+c_iter::__construct
+c_iter::valid = true
+c_iter::current
+0
+c_iter::next
+c_iter::valid = true
+c_iter::current
+1
+c_iter::next
+c_iter::valid = true
+c_iter::current
+2
+c_iter::next
+c_iter::valid = false
+===foreach/std===
+c::getIterator
+c_iter::__construct
+c_iter::valid = true
+c_iter::current
+object:0
+c_iter::next
+c_iter::valid = true
+c_iter::current
+object:1
+c_iter::next
+c_iter::valid = true
+c_iter::current
+object:2
+c_iter::next
+c_iter::valid = false
+===foreach/rec===
+c::getIterator
+c_iter::__construct
+c_iter::valid = true
+c_iter::current
+c::getIterator
+c_iter::__construct
+c_iter::valid = true
+c_iter::current
+double:0:0
+c_iter::next
+c_iter::valid = true
+c_iter::current
+double:0:1
+c_iter::next
+c_iter::valid = true
+c_iter::current
+double:0:2
+c_iter::next
+c_iter::valid = false
+c_iter::next
+c_iter::valid = true
+c_iter::current
+c::getIterator
+c_iter::__construct
+c_iter::valid = true
+c_iter::current
+double:1:0
+c_iter::next
+c_iter::valid = true
+c_iter::current
+double:1:1
+c_iter::next
+c_iter::valid = true
+c_iter::current
+double:1:2
+c_iter::next
+c_iter::valid = false
+c_iter::next
+c_iter::valid = true
+c_iter::current
+c::getIterator
+c_iter::__construct
+c_iter::valid = true
+c_iter::current
+double:2:0
+c_iter::next
+c_iter::valid = true
+c_iter::current
+double:2:1
+c_iter::next
+c_iter::valid = true
+c_iter::current
+double:2:2
+c_iter::next
+c_iter::valid = false
+c_iter::next
+c_iter::valid = false
+===foreach/key===
+c::getIterator
+c_iter::__construct
+c_iter::valid = true
+c_iter::current
+c_iter::key
+object:1st=>0
+c_iter::next
+c_iter::valid = true
+c_iter::current
+c_iter::key
+object:2nd=>1
+c_iter::next
+c_iter::valid = true
+c_iter::current
+c_iter::key
+object:3rd=>2
+c_iter::next
+c_iter::valid = false
+Done

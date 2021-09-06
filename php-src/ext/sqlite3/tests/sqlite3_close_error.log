@@ -1,0 +1,13 @@
+
+---- EXPECTED OUTPUT
+Testing SQLite3 close with one parameter
+
+Warning: SQLite3::close() expects exactly 0 parameters, 1 given in %s on line %d
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Testing SQLite3 close with one parameter
+
+Warning: SQLite3::close() expects exactly 0 parameters, 1 given in /root/php-src/ext/sqlite3/tests/sqlite3_close_error.php on line 5
+Done
+---- FAILED

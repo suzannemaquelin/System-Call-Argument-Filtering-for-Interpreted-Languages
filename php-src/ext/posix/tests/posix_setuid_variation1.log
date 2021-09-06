@@ -1,0 +1,28 @@
+
+---- EXPECTED OUTPUT
+Warning: posix_setuid() expects parameter 1 to be integer, array given in %s on line 15
+bool(false)
+
+Warning: posix_setuid() expects parameter 1 to be integer, array given in %s on line 15
+bool(false)
+
+Warning: posix_setuid() expects parameter 1 to be integer, array given in %s on line 15
+bool(false)
+
+Warning: posix_setuid() expects parameter 1 to be integer, array given in %s on line 15
+bool(false)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: posix_setuid() expects parameter 1 to be integer, array given in /root/php-src/ext/posix/tests/posix_setuid_variation1.php on line 15
+bool(false)
+
+Warning: posix_setuid() expects parameter 1 to be integer, array given in /root/php-src/ext/posix/tests/posix_setuid_variation1.php on line 15
+bool(false)
+
+Warning: posix_setuid() expects parameter 1 to be integer, array given in /root/php-src/ext/posix/tests/posix_setuid_variation1.php on line 15
+bool(false)
+
+Warning: posix_setuid() expects parameter 1 to be integer, array given in /root/php-src/ext/posix/tests/posix_setuid_variation1.php on line 15
+bool(false)
+---- FAILED

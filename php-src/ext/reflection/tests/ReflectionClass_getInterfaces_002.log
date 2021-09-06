@@ -1,0 +1,71 @@
+
+---- EXPECTED OUTPUT
+Array
+(
+    [I6] => ReflectionClass Object
+        (
+            [name] => I6
+        )
+
+    [I2] => ReflectionClass Object
+        (
+            [name] => I2
+        )
+
+    [I1] => ReflectionClass Object
+        (
+            [name] => I1
+        )
+
+    [I4] => ReflectionClass Object
+        (
+            [name] => I4
+        )
+
+    [I3] => ReflectionClass Object
+        (
+            [name] => I3
+        )
+
+    [I5] => ReflectionClass Object
+        (
+            [name] => I5
+        )
+
+)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Array
+(
+    [I6] => ReflectionClass Object
+        (
+            [name] => I6
+        )
+
+    [I2] => ReflectionClass Object
+        (
+            [name] => I2
+        )
+
+    [I1] => ReflectionClass Object
+        (
+            [name] => I1
+        )
+
+    [I4] => ReflectionClass Object
+        (
+            [name] => I4
+        )
+
+    [I3] => ReflectionClass Object
+        (
+            [name] => I3
+        )
+
+    [I5] => ReflectionClass Object
+        (
+            [name] => I5
+        )
+
+)
+---- FAILED

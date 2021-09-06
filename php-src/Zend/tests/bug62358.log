@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Declaration of B::foo($var) must be compatible with I::foo() in %sbug62358.php on line 17
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Declaration of B::foo($var) must be compatible with I::foo() in /root/php-src/Zend/tests/bug62358.php on line 17
+---- FAILED

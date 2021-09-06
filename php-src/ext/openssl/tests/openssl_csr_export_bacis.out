@@ -1,0 +1,14 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(true)
+
+Warning: openssl_csr_export() expects parameter 1 to be resource, string given in /root/php-src/ext/openssl/tests/openssl_csr_export_bacis.php on line 25
+NULL
+
+Warning: openssl_csr_export(): supplied resource is not a valid OpenSSL X.509 CSR resource in /root/php-src/ext/openssl/tests/openssl_csr_export_bacis.php on line 26
+
+Warning: openssl_csr_export(): cannot get CSR from parameter 1 in /root/php-src/ext/openssl/tests/openssl_csr_export_bacis.php on line 26
+bool(false)
+
+Warning: openssl_csr_export() expects parameter 1 to be resource, array given in /root/php-src/ext/openssl/tests/openssl_csr_export_bacis.php on line 27
+NULL
+bool(true)

@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+#0  A->__construct() called at [/root/php-src/Zend/tests/bug30828.php:30]
+#1  B->__construct() called at [/root/php-src/Zend/tests/bug30828.php:42]
+A->__construct
+B->__construct
+#0  A->foo() called at [/root/php-src/Zend/tests/bug30828.php:34]
+#1  B->foo() called at [/root/php-src/Zend/tests/bug30828.php:43]
+A->foo
+B->foo
+#0  A::bar() called at [/root/php-src/Zend/tests/bug30828.php:38]
+#1  B::bar() called at [/root/php-src/Zend/tests/bug30828.php:44]
+A::bar
+B::bar

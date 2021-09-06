@@ -1,0 +1,67 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+*** Testing error conditions ***
+
+-- Testing ( (low < high) && (step = 0) ) --
+Warning: range(): step exceeds the specified range in /root/php-src/ext/standard/tests/array/range_errors.php on line 6
+bool(false)
+
+Warning: range(): step exceeds the specified range in /root/php-src/ext/standard/tests/array/range_errors.php on line 7
+bool(false)
+
+
+-- Testing ( (low > high) && (step = 0) ) --
+Warning: range(): step exceeds the specified range in /root/php-src/ext/standard/tests/array/range_errors.php on line 10
+bool(false)
+
+Warning: range(): step exceeds the specified range in /root/php-src/ext/standard/tests/array/range_errors.php on line 11
+bool(false)
+
+
+-- Testing ( (low < high) && (high-low < step) ) --
+Warning: range(): step exceeds the specified range in /root/php-src/ext/standard/tests/array/range_errors.php on line 14
+bool(false)
+
+
+-- Testing ( (low > high) && (low-high < step) ) --
+Warning: range(): step exceeds the specified range in /root/php-src/ext/standard/tests/array/range_errors.php on line 17
+bool(false)
+
+-- Testing Invalid number of arguments --
+Warning: range() expects at least 2 parameters, 0 given in /root/php-src/ext/standard/tests/array/range_errors.php on line 20
+bool(false)
+
+Warning: range() expects at least 2 parameters, 1 given in /root/php-src/ext/standard/tests/array/range_errors.php on line 21
+bool(false)
+
+Warning: range() expects at most 3 parameters, 4 given in /root/php-src/ext/standard/tests/array/range_errors.php on line 22
+bool(false)
+
+Warning: range(): step exceeds the specified range in /root/php-src/ext/standard/tests/array/range_errors.php on line 23
+bool(false)
+
+Warning: range(): Invalid range string - must be numeric in /root/php-src/ext/standard/tests/array/range_errors.php on line 24
+bool(false)
+
+Warning: range(): step exceeds the specified range in /root/php-src/ext/standard/tests/array/range_errors.php on line 25
+bool(false)
+
+Warning: range(): Invalid range string - must be numeric in /root/php-src/ext/standard/tests/array/range_errors.php on line 26
+bool(false)
+
+-- Testing Invalid steps --
+Warning: range(): Invalid range string - must be numeric in /root/php-src/ext/standard/tests/array/range_errors.php on line 32
+bool(false)
+
+Warning: range(): step exceeds the specified range in /root/php-src/ext/standard/tests/array/range_errors.php on line 32
+bool(false)
+
+Warning: range(): step exceeds the specified range in /root/php-src/ext/standard/tests/array/range_errors.php on line 32
+bool(false)
+
+Warning: range(): Invalid range string - must be numeric in /root/php-src/ext/standard/tests/array/range_errors.php on line 32
+bool(false)
+
+Warning: range(): Invalid range string - must be numeric in /root/php-src/ext/standard/tests/array/range_errors.php on line 32
+bool(false)
+Done

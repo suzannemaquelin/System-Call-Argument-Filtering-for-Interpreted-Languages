@@ -1,0 +1,9 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+SplFileInfo::setFileClass() expects parameter 1 to be a class name derived from SplFileObject, 'SplFileInfo' given
+MyFile::__construct(phar:///root/php-src/ext/phar/tests/files/phar_oo_006.phar.php/a.php)
+a.php
+MyFile::__construct(phar:///root/php-src/ext/phar/tests/files/phar_oo_006.phar.php/b/c.php)
+c.php
+MyFile::__construct(phar:///root/php-src/ext/phar/tests/files/phar_oo_006.phar.php/b.php)
+b.php
+===DONE===

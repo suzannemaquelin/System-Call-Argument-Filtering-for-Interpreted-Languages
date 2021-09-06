@@ -1,0 +1,22 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+== ASCII ==
+40
+40
+== EUC-JP ==
+43
+72
+== SJIS ==
+43
+72
+== JIS ==
+43
+90
+== UTF-8 ==
+43
+101
+== WRONG PARAMETERS ==
+ERR: Warning
+
+ERR: Warning
+
+ERR: Warning

@@ -1,0 +1,183 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing gettimeofday() : usage variation ***
+
+--int 0--
+array(4) {
+  ["sec"]=>
+  int(1652018698)
+  ["usec"]=>
+  int(319701)
+  ["minuteswest"]=>
+  int(-330)
+  ["dsttime"]=>
+  int(0)
+}
+
+--int 1--
+float(1652018698.3207)
+
+--int 12345--
+float(1652018698.3207)
+
+--int -12345--
+float(1652018698.3208)
+
+--float 10.5--
+float(1652018698.3209)
+
+--float -10.5--
+float(1652018698.321)
+
+--float 12.3456789000e10--
+float(1652018698.321)
+
+--float -12.3456789000e10--
+float(1652018698.3211)
+
+--float .5--
+float(1652018698.3212)
+
+--empty array--
+
+Warning: gettimeofday() expects parameter 1 to be boolean, array given in /root/php-src/ext/date/tests/gettimeofday_variation1.php on line 94
+NULL
+
+--int indexed array--
+
+Warning: gettimeofday() expects parameter 1 to be boolean, array given in /root/php-src/ext/date/tests/gettimeofday_variation1.php on line 94
+NULL
+
+--associative array--
+
+Warning: gettimeofday() expects parameter 1 to be boolean, array given in /root/php-src/ext/date/tests/gettimeofday_variation1.php on line 94
+NULL
+
+--nested arrays--
+
+Warning: gettimeofday() expects parameter 1 to be boolean, array given in /root/php-src/ext/date/tests/gettimeofday_variation1.php on line 94
+NULL
+
+--uppercase NULL--
+array(4) {
+  ["sec"]=>
+  int(1652018698)
+  ["usec"]=>
+  int(321718)
+  ["minuteswest"]=>
+  int(-330)
+  ["dsttime"]=>
+  int(0)
+}
+
+--lowercase null--
+array(4) {
+  ["sec"]=>
+  int(1652018698)
+  ["usec"]=>
+  int(322559)
+  ["minuteswest"]=>
+  int(-330)
+  ["dsttime"]=>
+  int(0)
+}
+
+--lowercase true--
+float(1652018698.3234)
+
+--lowercase false--
+array(4) {
+  ["sec"]=>
+  int(1652018698)
+  ["usec"]=>
+  int(323477)
+  ["minuteswest"]=>
+  int(-330)
+  ["dsttime"]=>
+  int(0)
+}
+
+--uppercase TRUE--
+float(1652018698.3243)
+
+--uppercase FALSE--
+array(4) {
+  ["sec"]=>
+  int(1652018698)
+  ["usec"]=>
+  int(324381)
+  ["minuteswest"]=>
+  int(-330)
+  ["dsttime"]=>
+  int(0)
+}
+
+--empty string DQ--
+array(4) {
+  ["sec"]=>
+  int(1652018698)
+  ["usec"]=>
+  int(325246)
+  ["minuteswest"]=>
+  int(-330)
+  ["dsttime"]=>
+  int(0)
+}
+
+--empty string SQ--
+array(4) {
+  ["sec"]=>
+  int(1652018698)
+  ["usec"]=>
+  int(326076)
+  ["minuteswest"]=>
+  int(-330)
+  ["dsttime"]=>
+  int(0)
+}
+
+--string DQ--
+float(1652018698.3269)
+
+--string SQ--
+float(1652018698.327)
+
+--mixed case string--
+float(1652018698.3271)
+
+--heredoc--
+float(1652018698.3271)
+
+--instance of classWithToString--
+
+Warning: gettimeofday() expects parameter 1 to be boolean, object given in /root/php-src/ext/date/tests/gettimeofday_variation1.php on line 94
+NULL
+
+--instance of classWithoutToString--
+
+Warning: gettimeofday() expects parameter 1 to be boolean, object given in /root/php-src/ext/date/tests/gettimeofday_variation1.php on line 94
+NULL
+
+--undefined var--
+array(4) {
+  ["sec"]=>
+  int(1652018698)
+  ["usec"]=>
+  int(327446)
+  ["minuteswest"]=>
+  int(-330)
+  ["dsttime"]=>
+  int(0)
+}
+
+--unset var--
+array(4) {
+  ["sec"]=>
+  int(1652018698)
+  ["usec"]=>
+  int(328287)
+  ["minuteswest"]=>
+  int(-330)
+  ["dsttime"]=>
+  int(0)
+}
+===DONE===

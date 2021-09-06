@@ -1,0 +1,35 @@
+
+---- EXPECTED OUTPUT
+object(DateTimeZone)#%d (2) {
+  ["timezone_type"]=>
+  int(1)
+  ["timezone"]=>
+  string(6) "+01:00"
+}
+string(77) "O:12:"DateTimeZone":2:{s:13:"timezone_type";i:1;s:8:"timezone";s:6:"+01:00";}"
+object(DateTimeZone)#%d (2) {
+  ["timezone_type"]=>
+  int(1)
+  ["timezone"]=>
+  string(6) "+01:00"
+}
+string(6) "+01:00"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(DateTimeZone)#2 (2) {
+  ["timezone_type"]=>
+  int(1)
+  ["timezone"]=>
+  string(6) "+01:00"
+}
+string(77) "O:12:"DateTimeZone":2:{s:13:"timezone_type";i:1;s:8:"timezone";s:6:"+01:00";}"
+object(DateTimeZone)#1 (2) {
+  ["timezone_type"]=>
+  int(1)
+  ["timezone"]=>
+  string(6) "+01:00"
+}
+string(6) "+01:00"
+===DONE===
+---- FAILED

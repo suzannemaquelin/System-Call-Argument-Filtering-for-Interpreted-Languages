@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(foo)#2 (0) {
+}
+object(bar)#2 (0) {
+}
+object(baz)#2 (0) {
+}
+
+Fatal error: Uncaught TypeError: Argument 1 passed to foo::testFoo() must be an instance of foo, instance of stdClass given, called in /root/php-src/Zend/tests/objects_022.php on line 25 and defined in /root/php-src/Zend/tests/objects_022.php:10
+Stack trace:
+#0 /root/php-src/Zend/tests/objects_022.php(25): foo->testFoo(Object(stdClass))
+#1 {main}
+  thrown in /root/php-src/Zend/tests/objects_022.php on line 10

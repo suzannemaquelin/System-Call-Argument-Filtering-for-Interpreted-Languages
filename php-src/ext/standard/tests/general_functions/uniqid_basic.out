@@ -1,0 +1,35 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing uniqid() : basic functionality ***
+
+uniqid() without a prefix
+string(13) "6277d1cf42a8e"
+string(23) "6277d1cf42b572.35818810"
+string(13) "6277d1cf42cb5"
+
+
+uniqid() with a prefix
+string(18) "999996277d1cf42e76"
+string(28) "999996277d1cf42f300.24788829"
+string(18) "999996277d1cf4302a"
+
+string(18) "999996277d1cf430ea"
+string(28) "999996277d1cf431465.50080165"
+string(18) "999996277d1cf431f5"
+
+string(17) "10506277d1cf432b6"
+string(27) "10506277d1cf433101.42081238"
+string(17) "10506277d1cf433bf"
+
+string(13) "6277d1cf43481"
+string(23) "6277d1cf434db7.61546254"
+string(13) "6277d1cf4357a"
+
+string(14) "16277d1cf4363c"
+string(24) "16277d1cf436999.22222146"
+string(14) "16277d1cf43746"
+
+string(13) "6277d1cf4380f"
+string(23) "6277d1cf4386d1.44488618"
+string(13) "6277d1cf4390d"
+
+===DONE===

@@ -1,0 +1,8 @@
+*** Testing dechex() : error conditions ***
+
+Incorrect number of arguments
+
+Warning: dechex() expects exactly 1 parameter, 0 given in %s on line %d
+
+Warning: dechex() expects exactly 1 parameter, 3 given in %s on line %d
+===Done===

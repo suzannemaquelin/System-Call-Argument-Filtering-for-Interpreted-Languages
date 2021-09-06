@@ -1,0 +1,867 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing fputcsv() : with delimiter and enclosure as NULL ***
+
+-- file opened in r+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in a+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in w+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+ --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+b --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in x+t --
+
+Warning: fputcsv(): delimiter must be a character in /root/php-src/ext/standard/tests/file/fputcsv_variation4.php on line 55
+bool(false)
+int(0)
+bool(false)
+string(0) ""
+Done

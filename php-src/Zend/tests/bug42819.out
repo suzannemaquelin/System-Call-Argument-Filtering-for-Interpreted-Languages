@@ -1,0 +1,163 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+first
+foo\C
+foo\foo\C
+foo\foo\foo::C
+foo\foo::C
+foo\foo::C
+1
+1
+second
+foo\C
+foo\foo\C
+foo\foo\foo::C
+foo\C
+foo\foo::C
+1
+1
+Array
+(
+    [11] => 0
+)
+Array
+(
+    [12] => 0
+)
+Array
+(
+    [32] => 0
+)
+Array
+(
+    [11] => 0
+)
+Array
+(
+    [22] => 0
+)
+Array
+(
+    [1] => 0
+)
+Array
+(
+    [1] => 0
+)
+Array
+(
+    [11] => 11
+)
+Array
+(
+    [12] => 11
+)
+Array
+(
+    [32] => 11
+)
+Array
+(
+    [11] => 11
+)
+Array
+(
+    [22] => 11
+)
+Array
+(
+    [1] => 11
+)
+Array
+(
+    [1] => 11
+)
+Array
+(
+    [11] => 12
+)
+Array
+(
+    [12] => 12
+)
+Array
+(
+    [32] => 12
+)
+Array
+(
+    [11] => 12
+)
+Array
+(
+    [22] => 12
+)
+Array
+(
+    [1] => 12
+)
+Array
+(
+    [1] => 12
+)
+Array
+(
+    [11] => 1
+)
+Array
+(
+    [12] => 1
+)
+Array
+(
+    [32] => 1
+)
+Array
+(
+    [11] => 1
+)
+Array
+(
+    [22] => 1
+)
+Array
+(
+    [1] => 1
+)
+Array
+(
+    [1] => 1
+)
+Array
+(
+    [11] => 1
+)
+Array
+(
+    [12] => 1
+)
+Array
+(
+    [32] => 1
+)
+Array
+(
+    [11] => 1
+)
+Array
+(
+    [22] => 1
+)
+Array
+(
+    [1] => 1
+)
+Array
+(
+    [1] => 1
+)
+
+Fatal error: Uncaught Error: Undefined constant 'foo\foo\unknown' in /root/php-src/Zend/tests/bug42819.php:136
+Stack trace:
+#0 /root/php-src/Zend/tests/bug42819.php(137): foo\oops()
+#1 {main}
+  thrown in /root/php-src/Zend/tests/bug42819.php on line 136

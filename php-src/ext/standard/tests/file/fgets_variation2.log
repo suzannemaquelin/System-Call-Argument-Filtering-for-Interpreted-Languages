@@ -1,0 +1,45 @@
+
+---- EXPECTED OUTPUT
+*** Testing fgets() : usage variations ***
+-- Testing fgets() with closed handle --
+
+Warning: fgets(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: fgets(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+-- Testing fgets() with unset handle --
+
+Notice: Undefined variable: file_handle in %s on line %d
+
+Warning: fgets() expects parameter 1 to be resource, null given in %s on line %d
+bool(false)
+
+Notice: Undefined variable: file_handle in %s on line %d
+
+Warning: fgets() expects parameter 1 to be resource, null given in %s on line %d
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing fgets() : usage variations ***
+-- Testing fgets() with closed handle --
+
+Warning: fgets(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/fgets_variation2.php on line 24
+bool(false)
+
+Warning: fgets(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/fgets_variation2.php on line 25
+bool(false)
+-- Testing fgets() with unset handle --
+
+Notice: Undefined variable: file_handle in /root/php-src/ext/standard/tests/file/fgets_variation2.php on line 34
+
+Warning: fgets() expects parameter 1 to be resource, null given in /root/php-src/ext/standard/tests/file/fgets_variation2.php on line 34
+bool(false)
+
+Notice: Undefined variable: file_handle in /root/php-src/ext/standard/tests/file/fgets_variation2.php on line 35
+
+Warning: fgets() expects parameter 1 to be resource, null given in /root/php-src/ext/standard/tests/file/fgets_variation2.php on line 35
+bool(false)
+Done
+---- FAILED

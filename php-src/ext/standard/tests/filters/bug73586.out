@@ -1,0 +1,22 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+<?php
+class append_filter extends php_user_filter {
+    public $stream;
+    function filter($in, $out, &$consumed, $closing) {
+        while ($bucket = stream_bucket_make_writeable($in)) {
+            $consumed += $bucket->datalen;
+            stream_bucket_append($out, $bucket);
+        }
+        if ($closing) {
+            $bucket = stream_bucket_new($this->stream, "FooBar\n");
+            stream_bucket_append($out, $bucket);
+        }
+        return PSFS_PASS_ON;
+    }
+}
+stream_filter_register("append", "append_filter");
+$fin = fopen(__FILE__, 'rb');
+stream_filter_append($fin, 'append', STREAM_FILTER_READ);
+stream_copy_to_stream($fin, STDOUT);
+?>
+FooBar

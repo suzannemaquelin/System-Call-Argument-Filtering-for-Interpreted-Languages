@@ -1,0 +1,5 @@
+int(%d)
+
+Warning: mt_rand(): max(3) is smaller than min(8) in %s on line %d
+bool(false)
+Done.

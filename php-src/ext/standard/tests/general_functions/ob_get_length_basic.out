@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing ob_get_length() : basic functionality ***
+bool(false)
+int(26)
+int(8)
+int(1)
+int(15)
+int(0)
+int(0)
+
+Warning: ob_get_length() expects exactly 0 parameters, 1 given in /root/php-src/ext/standard/tests/general_functions/ob_get_length_basic.php on line 30
+NULL
+===DONE===

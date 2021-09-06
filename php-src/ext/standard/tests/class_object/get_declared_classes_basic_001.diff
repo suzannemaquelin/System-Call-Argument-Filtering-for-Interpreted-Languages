@@ -1,0 +1,320 @@
+001+ Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+006- }
+007- 
+008- -- Ensure userspace classes are listed --
+009- bool(true)
+010- 
+011- -- Ensure userspace interfaces are not listed --
+012- bool(false)
+013- Done
+007+   string(8) "stdClass"
+008+   [1]=>
+009+   string(9) "Exception"
+010+   [2]=>
+011+   string(14) "ErrorException"
+012+   [3]=>
+013+   string(5) "Error"
+014+   [4]=>
+015+   string(10) "ParseError"
+016+   [5]=>
+017+   string(9) "TypeError"
+018+   [6]=>
+019+   string(18) "ArgumentCountError"
+020+   [7]=>
+021+   string(15) "ArithmeticError"
+022+   [8]=>
+023+   string(19) "DivisionByZeroError"
+024+   [9]=>
+025+   string(7) "Closure"
+026+   [10]=>
+027+   string(9) "Generator"
+028+   [11]=>
+029+   string(24) "ClosedGeneratorException"
+030+   [12]=>
+031+   string(14) "_ZendTestClass"
+032+   [13]=>
+033+   string(8) "DateTime"
+034+   [14]=>
+035+   string(17) "DateTimeImmutable"
+036+   [15]=>
+037+   string(12) "DateTimeZone"
+038+   [16]=>
+039+   string(12) "DateInterval"
+040+   [17]=>
+041+   string(10) "DatePeriod"
+042+   [18]=>
+043+   string(11) "LibXMLError"
+044+   [19]=>
+045+   string(7) "SQLite3"
+046+   [20]=>
+047+   string(11) "SQLite3Stmt"
+048+   [21]=>
+049+   string(13) "SQLite3Result"
+050+   [22]=>
+051+   string(8) "CURLFile"
+052+   [23]=>
+053+   string(12) "DOMException"
+054+   [24]=>
+055+   string(13) "DOMStringList"
+056+   [25]=>
+057+   string(11) "DOMNameList"
+058+   [26]=>
+059+   string(21) "DOMImplementationList"
+060+   [27]=>
+061+   string(23) "DOMImplementationSource"
+062+   [28]=>
+063+   string(17) "DOMImplementation"
+064+   [29]=>
+065+   string(7) "DOMNode"
+066+   [30]=>
+067+   string(16) "DOMNameSpaceNode"
+068+   [31]=>
+069+   string(19) "DOMDocumentFragment"
+070+   [32]=>
+071+   string(11) "DOMDocument"
+072+   [33]=>
+073+   string(11) "DOMNodeList"
+074+   [34]=>
+075+   string(15) "DOMNamedNodeMap"
+076+   [35]=>
+077+   string(16) "DOMCharacterData"
+078+   [36]=>
+079+   string(7) "DOMAttr"
+080+   [37]=>
+081+   string(10) "DOMElement"
+082+   [38]=>
+083+   string(7) "DOMText"
+084+   [39]=>
+085+   string(10) "DOMComment"
+086+   [40]=>
+087+   string(11) "DOMTypeinfo"
+088+   [41]=>
+089+   string(18) "DOMUserDataHandler"
+090+   [42]=>
+091+   string(11) "DOMDomError"
+092+   [43]=>
+093+   string(15) "DOMErrorHandler"
+094+   [44]=>
+095+   string(10) "DOMLocator"
+096+   [45]=>
+097+   string(16) "DOMConfiguration"
+098+   [46]=>
+099+   string(15) "DOMCdataSection"
+100+   [47]=>
+101+   string(15) "DOMDocumentType"
+102+   [48]=>
+103+   string(11) "DOMNotation"
+104+   [49]=>
+105+   string(9) "DOMEntity"
+106+   [50]=>
+107+   string(18) "DOMEntityReference"
+108+   [51]=>
+109+   string(24) "DOMProcessingInstruction"
+110+   [52]=>
+111+   string(15) "DOMStringExtend"
+112+   [53]=>
+113+   string(8) "DOMXPath"
+114+   [54]=>
+115+   string(5) "finfo"
+116+   [55]=>
+117+   string(14) "LogicException"
+118+   [56]=>
+119+   string(24) "BadFunctionCallException"
+120+   [57]=>
+121+   string(22) "BadMethodCallException"
+122+   [58]=>
+123+   string(15) "DomainException"
+124+   [59]=>
+125+   string(24) "InvalidArgumentException"
+126+   [60]=>
+127+   string(15) "LengthException"
+128+   [61]=>
+129+   string(19) "OutOfRangeException"
+130+   [62]=>
+131+   string(16) "RuntimeException"
+132+   [63]=>
+133+   string(20) "OutOfBoundsException"
+134+   [64]=>
+135+   string(17) "OverflowException"
+136+   [65]=>
+137+   string(14) "RangeException"
+138+   [66]=>
+139+   string(18) "UnderflowException"
+140+   [67]=>
+141+   string(24) "UnexpectedValueException"
+142+   [68]=>
+143+   string(25) "RecursiveIteratorIterator"
+144+   [69]=>
+145+   string(16) "IteratorIterator"
+146+   [70]=>
+147+   string(14) "FilterIterator"
+148+   [71]=>
+149+   string(23) "RecursiveFilterIterator"
+150+   [72]=>
+151+   string(22) "CallbackFilterIterator"
+152+   [73]=>
+153+   string(31) "RecursiveCallbackFilterIterator"
+154+   [74]=>
+155+   string(14) "ParentIterator"
+156+   [75]=>
+157+   string(13) "LimitIterator"
+158+   [76]=>
+159+   string(15) "CachingIterator"
+160+   [77]=>
+161+   string(24) "RecursiveCachingIterator"
+162+   [78]=>
+163+   string(16) "NoRewindIterator"
+164+   [79]=>
+165+   string(14) "AppendIterator"
+166+   [80]=>
+167+   string(16) "InfiniteIterator"
+168+   [81]=>
+169+   string(13) "RegexIterator"
+170+   [82]=>
+171+   string(22) "RecursiveRegexIterator"
+172+   [83]=>
+173+   string(13) "EmptyIterator"
+174+   [84]=>
+175+   string(21) "RecursiveTreeIterator"
+176+   [85]=>
+177+   string(11) "ArrayObject"
+178+   [86]=>
+179+   string(13) "ArrayIterator"
+180+   [87]=>
+181+   string(22) "RecursiveArrayIterator"
+182+   [88]=>
+183+   string(11) "SplFileInfo"
+184+   [89]=>
+185+   string(17) "DirectoryIterator"
+186+   [90]=>
+187+   string(18) "FilesystemIterator"
+188+   [91]=>
+189+   string(26) "RecursiveDirectoryIterator"
+190+   [92]=>
+191+   string(12) "GlobIterator"
+192+   [93]=>
+193+   string(13) "SplFileObject"
+194+   [94]=>
+195+   string(17) "SplTempFileObject"
+196+   [95]=>
+197+   string(19) "SplDoublyLinkedList"
+198+   [96]=>
+199+   string(8) "SplQueue"
+200+   [97]=>
+201+   string(8) "SplStack"
+202+   [98]=>
+203+   string(7) "SplHeap"
+204+   [99]=>
+205+   string(10) "SplMinHeap"
+206+   [100]=>
+207+   string(10) "SplMaxHeap"
+208+   [101]=>
+209+   string(16) "SplPriorityQueue"
+210+   [102]=>
+211+   string(13) "SplFixedArray"
+212+   [103]=>
+213+   string(16) "SplObjectStorage"
+214+   [104]=>
+215+   string(16) "MultipleIterator"
+216+   [105]=>
+217+   string(14) "SessionHandler"
+218+   [106]=>
+219+   string(22) "__PHP_Incomplete_Class"
+220+   [107]=>
+221+   string(15) "php_user_filter"
+222+   [108]=>
+223+   string(9) "Directory"
+224+   [109]=>
+225+   string(14) "AssertionError"
+226+   [110]=>
+227+   string(12) "PDOException"
+228+   [111]=>
+229+   string(3) "PDO"
+230+   [112]=>
+231+   string(12) "PDOStatement"
+232+   [113]=>
+233+   string(6) "PDORow"
+234+   [114]=>
+235+   string(13) "PharException"
+236+   [115]=>
+237+   string(4) "Phar"
+238+   [116]=>
+239+   string(8) "PharData"
+240+   [117]=>
+241+   string(12) "PharFileInfo"
+242+   [118]=>
+243+   string(19) "ReflectionException"
+244+   [119]=>
+245+   string(10) "Reflection"
+246+   [120]=>
+247+   string(26) "ReflectionFunctionAbstract"
+248+   [121]=>
+249+   string(18) "ReflectionFunction"
+250+   [122]=>
+251+   string(19) "ReflectionGenerator"
+252+   [123]=>
+253+   string(19) "ReflectionParameter"
+254+   [124]=>
+255+   string(14) "ReflectionType"
+256+   [125]=>
+257+   string(19) "ReflectionNamedType"
+258+   [126]=>
+259+   string(16) "ReflectionMethod"
+260+   [127]=>
+261+   string(15) "ReflectionClass"
+262+   [128]=>
+263+   string(16) "ReflectionObject"
+264+   [129]=>
+265+   string(18) "ReflectionProperty"
+266+   [130]=>
+267+   string(23) "ReflectionClassConstant"
+268+   [131]=>
+269+   string(19) "ReflectionExtension"
+270+   [132]=>
+271+   string(23) "ReflectionZendExtension"
+272+   [133]=>
+273+   string(20) "mysqli_sql_exception"
+274+   [134]=>
+275+   string(13) "mysqli_driver"
+276+   [135]=>
+277+   string(6) "mysqli"
+278+   [136]=>
+279+   string(14) "mysqli_warning"
+280+   [137]=>
+281+   string(13) "mysqli_result"
+282+   [138]=>
+283+   string(11) "mysqli_stmt"
+284+   [139]=>
+285+   string(16) "SimpleXMLElement"
+286+   [140]=>
+287+   string(17) "SimpleXMLIterator"
+288+   [141]=>
+289+   string(10) "SoapClient"
+290+   [142]=>
+291+   string(7) "SoapVar"
+292+   [143]=>
+293+   string(10) "SoapServer"
+294+   [144]=>
+295+   string(9) "SoapFault"
+296+   [145]=>
+297+   string(9) "SoapParam"
+298+   [146]=>
+299+   string(10) "SoapHeader"
+300+   [147]=>
+301+   string(9) "XMLReader"
+302+   [148]=>
+303+   string(9) "XMLWriter"
+304+   [149]=>
+305+   string(13) "XSLTProcessor"
+306+   [150]=>
+307+   string(10) "ZipArchive"
+308+   [151]=>
+309+   string(1) "C"
+310+ }
+311+ 
+312+ -- Ensure userspace classes are listed --
+313+ bool(true)
+314+ 
+315+ -- Ensure userspace interfaces are not listed --
+316+ bool(false)
+317+ Done

@@ -1,0 +1,18 @@
+*** Testing date_sunset() : error conditions ***
+
+-- Testing date_sunset() function with Zero arguments --
+
+Warning: date_sunset() expects at least 1 parameter, 0 given in %s on line %d
+bool(false)
+
+-- Testing date_sunset() function with more than expected no. of arguments --
+
+Warning: date_sunset() expects at most 6 parameters, 7 given in %s on line %d
+bool(false)
+
+Warning: date_sunset() expects at most 6 parameters, 7 given in %s on line %d
+bool(false)
+
+Warning: date_sunset() expects at most 6 parameters, 7 given in %s on line %d
+bool(false)
+===DONE===

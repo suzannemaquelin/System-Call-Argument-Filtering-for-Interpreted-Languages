@@ -1,0 +1,110 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing timezone_name_from_abbr() : usage variation -  unexpected values to second argument $gmtOffset***
+
+-- int 0 --
+string(3) "UTC"
+
+-- int 12345 --
+string(3) "UTC"
+
+-- int -12345 --
+string(3) "UTC"
+
+-- float 10.5 --
+string(3) "UTC"
+
+-- float -10.5 --
+string(3) "UTC"
+
+-- float .5 --
+string(3) "UTC"
+
+-- empty array --
+
+Warning: timezone_name_from_abbr() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation2.php on line 99
+bool(false)
+
+-- int indexed array --
+
+Warning: timezone_name_from_abbr() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation2.php on line 99
+bool(false)
+
+-- associative array --
+
+Warning: timezone_name_from_abbr() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation2.php on line 99
+bool(false)
+
+-- nested arrays --
+
+Warning: timezone_name_from_abbr() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation2.php on line 99
+bool(false)
+
+-- uppercase NULL --
+string(3) "UTC"
+
+-- lowercase null --
+string(3) "UTC"
+
+-- lowercase true --
+string(3) "UTC"
+
+-- lowercase false --
+string(3) "UTC"
+
+-- uppercase TRUE --
+string(3) "UTC"
+
+-- uppercase FALSE --
+string(3) "UTC"
+
+-- empty string DQ --
+
+Warning: timezone_name_from_abbr() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation2.php on line 99
+bool(false)
+
+-- empty string SQ --
+
+Warning: timezone_name_from_abbr() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation2.php on line 99
+bool(false)
+
+-- string DQ --
+
+Warning: timezone_name_from_abbr() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation2.php on line 99
+bool(false)
+
+-- string SQ --
+
+Warning: timezone_name_from_abbr() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation2.php on line 99
+bool(false)
+
+-- mixed case string --
+
+Warning: timezone_name_from_abbr() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation2.php on line 99
+bool(false)
+
+-- heredoc --
+
+Warning: timezone_name_from_abbr() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation2.php on line 99
+bool(false)
+
+-- instance of classWithToString --
+
+Warning: timezone_name_from_abbr() expects parameter 2 to be integer, object given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation2.php on line 99
+bool(false)
+
+-- instance of classWithoutToString --
+
+Warning: timezone_name_from_abbr() expects parameter 2 to be integer, object given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation2.php on line 99
+bool(false)
+
+-- undefined var --
+string(3) "UTC"
+
+-- unset var --
+string(3) "UTC"
+
+-- resource --
+
+Warning: timezone_name_from_abbr() expects parameter 2 to be integer, resource given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation2.php on line 99
+bool(false)
+===DONE===

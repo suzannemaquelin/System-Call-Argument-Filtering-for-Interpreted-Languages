@@ -1,0 +1,55 @@
+
+---- EXPECTED OUTPUT
+array(0) {
+}
+array(3) {
+  [0]=>
+  array(1) {
+    [0]=>
+    int(0)
+  }
+  [1]=>
+  array(1) {
+    [0]=>
+    int(1)
+  }
+  [2]=>
+  array(1) {
+    [0]=>
+    int(2)
+  }
+}
+
+Fatal error: Uncaught TypeError: Argument 3 passed to test() must be of the type array, integer given, called in %s:%d
+Stack trace:
+#0 %s(%d): test(Array, Array, 2)
+#1 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(0) {
+}
+array(3) {
+  [0]=>
+  array(1) {
+    [0]=>
+    int(0)
+  }
+  [1]=>
+  array(1) {
+    [0]=>
+    int(1)
+  }
+  [2]=>
+  array(1) {
+    [0]=>
+    int(2)
+  }
+}
+
+Fatal error: Uncaught TypeError: Argument 3 passed to test() must be of the type array, integer given, called in /root/php-src/Zend/tests/variadic/typehint_error.php on line 9 and defined in /root/php-src/Zend/tests/variadic/typehint_error.php:3
+Stack trace:
+#0 /root/php-src/Zend/tests/variadic/typehint_error.php(9): test(Array, Array, 2)
+#1 {main}
+  thrown in /root/php-src/Zend/tests/variadic/typehint_error.php on line 3
+---- FAILED

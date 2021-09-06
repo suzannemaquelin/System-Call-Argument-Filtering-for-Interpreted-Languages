@@ -1,0 +1,20 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+$sub->SubjectImpl::attach($ob1);
+$sub->SubjectImpl::attach($ob1);
+$sub->SubjectImpl::attach($ob2);
+$sub->SubjectImpl::attach($ob3);
+$sub->SubjectImpl::notify();
+$ob1->ObserverImpl::update($sub);
+$ob2->ObserverImpl::update($sub);
+$ob3->ObserverImpl::update($sub);
+$sub->SubjectImpl::detach($ob3);
+$sub->SubjectImpl::notify();
+$ob1->ObserverImpl::update($sub);
+$ob2->ObserverImpl::update($sub);
+$sub->SubjectImpl::detach($ob2);
+$sub->SubjectImpl::detach($ob1);
+$sub->SubjectImpl::notify();
+$sub->SubjectImpl::attach($ob3);
+$sub->SubjectImpl::notify();
+$ob3->ObserverImpl::update($sub);
+===DONE===

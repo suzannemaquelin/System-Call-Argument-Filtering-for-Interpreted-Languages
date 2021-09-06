@@ -1,0 +1,43 @@
+
+---- EXPECTED OUTPUT
+==SECOND==
+int(1)
+array(3) {
+  [0]=>
+  int(21)
+  [1]=>
+  int(22)
+  [2]=>
+  array(1) {
+    [0]=>
+    int(231)
+  }
+}
+int(2)
+array(1) {
+  [0]=>
+  int(231)
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+==SECOND==
+int(1)
+array(3) {
+  [0]=>
+  int(21)
+  [1]=>
+  int(22)
+  [2]=>
+  array(1) {
+    [0]=>
+    int(231)
+  }
+}
+int(2)
+array(1) {
+  [0]=>
+  int(231)
+}
+===DONE===
+---- FAILED

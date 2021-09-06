@@ -1,0 +1,4 @@
+string(49) "An object of class SplFileObject cannot be cloned"
+
+Notice: Undefined variable: y in %sbug72888.php on line %d
+NULL

@@ -1,0 +1,51 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing getdate() : basic functionality ***
+array(11) {
+  ["seconds"]=>
+  int(10)
+  ["minutes"]=>
+  int(30)
+  ["hours"]=>
+  int(5)
+  ["mday"]=>
+  int(1)
+  ["wday"]=>
+  int(4)
+  ["mon"]=>
+  int(1)
+  ["year"]=>
+  int(1970)
+  ["yday"]=>
+  int(0)
+  ["weekday"]=>
+  string(8) "Thursday"
+  ["month"]=>
+  string(7) "January"
+  [0]=>
+  int(10)
+}
+array(11) {
+  ["seconds"]=>
+  int(57)
+  ["minutes"]=>
+  int(34)
+  ["hours"]=>
+  int(19)
+  ["mday"]=>
+  int(8)
+  ["wday"]=>
+  int(0)
+  ["mon"]=>
+  int(5)
+  ["year"]=>
+  int(2022)
+  ["yday"]=>
+  int(127)
+  ["weekday"]=>
+  string(6) "Sunday"
+  ["month"]=>
+  string(3) "May"
+  [0]=>
+  int(1652018697)
+}
+===DONE===

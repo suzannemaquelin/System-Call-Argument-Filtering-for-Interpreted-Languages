@@ -1,0 +1,19 @@
+Warning: max() expects at least 1 parameter, 0 given in %s on line 3
+NULL
+
+Warning: max(): When only one parameter is given, it must be an array in %s on line 4
+NULL
+
+Warning: max(): Array must contain at least one element in %s on line 5
+bool(false)
+
+Warning: max(): When only one parameter is given, it must be an array in %s on line 6
+NULL
+int(2)
+float(2.11)
+string(1) "t"
+bool(true)
+bool(true)
+int(1)
+bool(true)
+Done

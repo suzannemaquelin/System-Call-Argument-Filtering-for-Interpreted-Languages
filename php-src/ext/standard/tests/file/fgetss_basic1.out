@@ -1,0 +1,69 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing fgetss() : Basic operations ***
+
+-- Testing fgetss() with file opened using r mode --
+-- fgetss() with default length, file pointer at 0 --
+string(27) "Testing fgetss() functions
+"
+int(40)
+bool(false)
+-- fgets() with length = 30, file pointer at 0 --
+string(23) "Testing fgetss() functi"
+int(29)
+bool(false)
+
+-- Testing fgetss() with file opened using rb mode --
+-- fgetss() with default length, file pointer at 0 --
+string(27) "Testing fgetss() functions
+"
+int(40)
+bool(false)
+-- fgets() with length = 30, file pointer at 0 --
+string(23) "Testing fgetss() functi"
+int(29)
+bool(false)
+
+-- Testing fgetss() with file opened using rt mode --
+-- fgetss() with default length, file pointer at 0 --
+string(27) "Testing fgetss() functions
+"
+int(40)
+bool(false)
+-- fgets() with length = 30, file pointer at 0 --
+string(23) "Testing fgetss() functi"
+int(29)
+bool(false)
+
+-- Testing fgetss() with file opened using r+ mode --
+-- fgetss() with default length, file pointer at 0 --
+string(27) "Testing fgetss() functions
+"
+int(40)
+bool(false)
+-- fgets() with length = 30, file pointer at 0 --
+string(23) "Testing fgetss() functi"
+int(29)
+bool(false)
+
+-- Testing fgetss() with file opened using r+b mode --
+-- fgetss() with default length, file pointer at 0 --
+string(27) "Testing fgetss() functions
+"
+int(40)
+bool(false)
+-- fgets() with length = 30, file pointer at 0 --
+string(23) "Testing fgetss() functi"
+int(29)
+bool(false)
+
+-- Testing fgetss() with file opened using r+t mode --
+-- fgetss() with default length, file pointer at 0 --
+string(27) "Testing fgetss() functions
+"
+int(40)
+bool(false)
+-- fgets() with length = 30, file pointer at 0 --
+string(23) "Testing fgetss() functi"
+int(29)
+bool(false)
+Done

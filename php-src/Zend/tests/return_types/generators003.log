@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Declaration of SomeCollection::getIterator(): Generator must be compatible with Collection::getIterator(): Iterator in %sgenerators003.php on line 6
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Declaration of SomeCollection::getIterator(): Generator must be compatible with Collection::getIterator(): Iterator in /root/php-src/Zend/tests/return_types/generators003.php on line 6
+---- FAILED

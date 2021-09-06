@@ -1,0 +1,63 @@
+
+---- EXPECTED OUTPUT
+*** Testing mkdir() : usage variation ***
+
+--uppercase NULL--
+Error: 2 - mkdir(): %s, %s(%d)
+
+--lowercase null--
+Error: 2 - mkdir(): %s, %s(%d)
+
+--lowercase false--
+Error: 2 - mkdir(): %s, %s(%d)
+
+--uppercase FALSE--
+Error: 2 - mkdir(): %s, %s(%d)
+
+--empty string DQ--
+Error: 2 - mkdir(): %s, %s(%d)
+
+--empty string SQ--
+Error: 2 - mkdir(): %s, %s(%d)
+
+--undefined var--
+Error: 2 - mkdir(): %s, %s(%d)
+
+--unset var--
+Error: 2 - mkdir(): %s, %s(%d)
+
+--single space--
+directory created
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mkdir() : usage variation ***
+
+--uppercase NULL--
+Error: 2 - mkdir(): No such file or directory, /root/php-src/ext/standard/tests/file/mkdir_variation1.php(73)
+
+--lowercase null--
+Error: 2 - mkdir(): No such file or directory, /root/php-src/ext/standard/tests/file/mkdir_variation1.php(73)
+
+--lowercase false--
+Error: 2 - mkdir(): No such file or directory, /root/php-src/ext/standard/tests/file/mkdir_variation1.php(73)
+
+--uppercase FALSE--
+Error: 2 - mkdir(): No such file or directory, /root/php-src/ext/standard/tests/file/mkdir_variation1.php(73)
+
+--empty string DQ--
+Error: 2 - mkdir(): No such file or directory, /root/php-src/ext/standard/tests/file/mkdir_variation1.php(73)
+
+--empty string SQ--
+Error: 2 - mkdir(): No such file or directory, /root/php-src/ext/standard/tests/file/mkdir_variation1.php(73)
+
+--undefined var--
+Error: 2 - mkdir(): No such file or directory, /root/php-src/ext/standard/tests/file/mkdir_variation1.php(73)
+
+--unset var--
+Error: 2 - mkdir(): No such file or directory, /root/php-src/ext/standard/tests/file/mkdir_variation1.php(73)
+
+--single space--
+directory created
+===DONE===
+---- FAILED

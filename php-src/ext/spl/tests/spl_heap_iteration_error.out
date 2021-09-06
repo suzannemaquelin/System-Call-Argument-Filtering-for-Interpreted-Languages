@@ -1,0 +1,22 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(ext_heap)#1 (4) {
+  ["fail"]=>
+  bool(true)
+  ["flags":"SplHeap":private]=>
+  int(0)
+  ["isCorrupted":"SplHeap":private]=>
+  bool(true)
+  ["heap":"SplHeap":private]=>
+  array(2) {
+    [0]=>
+    array(1) {
+      [0]=>
+      string(7) "foobar2"
+    }
+    [1]=>
+    array(1) {
+      [0]=>
+      string(7) "foobar1"
+    }
+  }
+}

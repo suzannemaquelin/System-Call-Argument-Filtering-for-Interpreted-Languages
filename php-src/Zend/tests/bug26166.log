@@ -1,0 +1,17 @@
+
+---- EXPECTED OUTPUT
+Hello World!
+===NONE===
+string(%d) "Method NoneTest::__toString() must return a string value"
+===THROW===
+
+Fatal error: Method ErrorTest::__toString() must not throw an exception, caught Exception: This is an error! in %sbug26166.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Hello World!
+===NONE===
+string(56) "Method NoneTest::__toString() must return a string value"
+===THROW===
+
+Fatal error: Method ErrorTest::__toString() must not throw an exception, caught Exception: This is an error! in /root/php-src/Zend/tests/bug26166.php on line 0
+---- FAILED

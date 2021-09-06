@@ -1,0 +1,32 @@
+
+---- EXPECTED OUTPUT
+Notice: Undefined index: foo in %s on line %d
+
+Notice: Undefined index: bar in %s on line %d
+NULL
+NULL
+array(0) {
+}
+array(2) {
+  ["foo"]=>
+  NULL
+  ["bar"]=>
+  NULL
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined index: foo in /root/php-src/ext/session/tests/bug24592.php on line 4
+
+Notice: Undefined index: bar in /root/php-src/ext/session/tests/bug24592.php on line 5
+NULL
+NULL
+array(0) {
+}
+array(2) {
+  ["foo"]=>
+  NULL
+  ["bar"]=>
+  NULL
+}
+---- FAILED

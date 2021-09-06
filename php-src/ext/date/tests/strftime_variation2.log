@@ -1,0 +1,195 @@
+
+---- EXPECTED OUTPUT
+*** Testing strftime() : usage variation ***
+
+--float 10.5--
+string(20) "Jan 01 1970 05:30:10"
+
+--float -10.5--
+string(20) "Jan 01 1970 05:29:50"
+
+--float .5--
+string(20) "Jan 01 1970 05:30:00"
+
+--empty array--
+
+Warning: strftime() expects parameter 2 to be integer, array given in %s on line %d
+bool(false)
+
+--int indexed array--
+
+Warning: strftime() expects parameter 2 to be integer, array given in %s on line %d
+bool(false)
+
+--associative array--
+
+Warning: strftime() expects parameter 2 to be integer, array given in %s on line %d
+bool(false)
+
+--nested arrays--
+
+Warning: strftime() expects parameter 2 to be integer, array given in %s on line %d
+bool(false)
+
+--uppercase NULL--
+string(20) "Jan 01 1970 05:30:00"
+
+--lowercase null--
+string(20) "Jan 01 1970 05:30:00"
+
+--lowercase true--
+string(20) "Jan 01 1970 05:30:01"
+
+--lowercase false--
+string(20) "Jan 01 1970 05:30:00"
+
+--uppercase TRUE--
+string(20) "Jan 01 1970 05:30:01"
+
+--uppercase FALSE--
+string(20) "Jan 01 1970 05:30:00"
+
+--empty string DQ--
+
+Warning: strftime() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+--empty string SQ--
+
+Warning: strftime() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+--string DQ--
+
+Warning: strftime() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+--string SQ--
+
+Warning: strftime() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+--mixed case string--
+
+Warning: strftime() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+--heredoc--
+
+Warning: strftime() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+--instance of classWithToString--
+
+Warning: strftime() expects parameter 2 to be integer, object given in %s on line %d
+bool(false)
+
+--instance of classWithoutToString--
+
+Warning: strftime() expects parameter 2 to be integer, object given in %s on line %d
+bool(false)
+
+--undefined var--
+string(20) "Jan 01 1970 05:30:00"
+
+--unset var--
+string(20) "Jan 01 1970 05:30:00"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing strftime() : usage variation ***
+
+--float 10.5--
+string(20) "Jan 01 1970 05:30:10"
+
+--float -10.5--
+string(20) "Jan 01 1970 05:29:50"
+
+--float .5--
+string(20) "Jan 01 1970 05:30:00"
+
+--empty array--
+
+Warning: strftime() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/strftime_variation2.php on line 88
+bool(false)
+
+--int indexed array--
+
+Warning: strftime() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/strftime_variation2.php on line 88
+bool(false)
+
+--associative array--
+
+Warning: strftime() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/strftime_variation2.php on line 88
+bool(false)
+
+--nested arrays--
+
+Warning: strftime() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/strftime_variation2.php on line 88
+bool(false)
+
+--uppercase NULL--
+string(20) "Jan 01 1970 05:30:00"
+
+--lowercase null--
+string(20) "Jan 01 1970 05:30:00"
+
+--lowercase true--
+string(20) "Jan 01 1970 05:30:01"
+
+--lowercase false--
+string(20) "Jan 01 1970 05:30:00"
+
+--uppercase TRUE--
+string(20) "Jan 01 1970 05:30:01"
+
+--uppercase FALSE--
+string(20) "Jan 01 1970 05:30:00"
+
+--empty string DQ--
+
+Warning: strftime() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/strftime_variation2.php on line 88
+bool(false)
+
+--empty string SQ--
+
+Warning: strftime() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/strftime_variation2.php on line 88
+bool(false)
+
+--string DQ--
+
+Warning: strftime() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/strftime_variation2.php on line 88
+bool(false)
+
+--string SQ--
+
+Warning: strftime() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/strftime_variation2.php on line 88
+bool(false)
+
+--mixed case string--
+
+Warning: strftime() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/strftime_variation2.php on line 88
+bool(false)
+
+--heredoc--
+
+Warning: strftime() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/strftime_variation2.php on line 88
+bool(false)
+
+--instance of classWithToString--
+
+Warning: strftime() expects parameter 2 to be integer, object given in /root/php-src/ext/date/tests/strftime_variation2.php on line 88
+bool(false)
+
+--instance of classWithoutToString--
+
+Warning: strftime() expects parameter 2 to be integer, object given in /root/php-src/ext/date/tests/strftime_variation2.php on line 88
+bool(false)
+
+--undefined var--
+string(20) "Jan 01 1970 05:30:00"
+
+--unset var--
+string(20) "Jan 01 1970 05:30:00"
+===DONE===
+---- FAILED

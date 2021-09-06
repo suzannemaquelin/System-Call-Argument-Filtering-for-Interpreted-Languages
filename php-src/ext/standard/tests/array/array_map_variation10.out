@@ -1,0 +1,51 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_map() : anonymous callback function ***
+-- anonymous function with all parameters and body --
+array(3) {
+  [0]=>
+  array(2) {
+    [0]=>
+    int(1)
+    [1]=>
+    int(3)
+  }
+  [1]=>
+  array(2) {
+    [0]=>
+    int(2)
+    [1]=>
+    int(4)
+  }
+  [2]=>
+  array(2) {
+    [0]=>
+    int(3)
+    [1]=>
+    int(5)
+  }
+}
+-- anonymous function with two parameters and passing one array --
+Exception: Too few arguments to function __lambda_func(), 1 passed and exactly 2 expected
+-- anonymous function with NULL parameter --
+array(3) {
+  [0]=>
+  NULL
+  [1]=>
+  NULL
+  [2]=>
+  NULL
+}
+-- anonymous function with NULL body --
+array(3) {
+  [0]=>
+  NULL
+  [1]=>
+  NULL
+  [2]=>
+  NULL
+}
+-- passing NULL as 'arr1' --
+
+Warning: array_map(): Argument #2 should be an array in /root/php-src/ext/standard/tests/array/array_map_variation10.php on line 33
+NULL
+Done

@@ -1,0 +1,45 @@
+
+---- EXPECTED OUTPUT
+*** Testing DateTime::setDate() : error conditions ***
+
+-- Testing DateTime::setDate() function with zero arguments --
+
+Warning: DateTime::setDate() expects exactly 3 parameters, 0 given in %s on line %d
+bool(false)
+
+-- Testing DateTime::setDate() function with less than expected no. of arguments --
+
+Warning: DateTime::setDate() expects exactly 3 parameters, 1 given in %s on line %d
+bool(false)
+
+Warning: DateTime::setDate() expects exactly 3 parameters, 2 given in %s on line %d
+bool(false)
+
+-- Testing DateTime::setDate() function with more than expected no. of arguments --
+
+Warning: DateTime::setDate() expects exactly 3 parameters, 4 given in %s on line %d
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing DateTime::setDate() : error conditions ***
+
+-- Testing DateTime::setDate() function with zero arguments --
+
+Warning: DateTime::setDate() expects exactly 3 parameters, 0 given in /root/php-src/ext/date/tests/DateTime_setDate_error.php on line 15
+bool(false)
+
+-- Testing DateTime::setDate() function with less than expected no. of arguments --
+
+Warning: DateTime::setDate() expects exactly 3 parameters, 1 given in /root/php-src/ext/date/tests/DateTime_setDate_error.php on line 21
+bool(false)
+
+Warning: DateTime::setDate() expects exactly 3 parameters, 2 given in /root/php-src/ext/date/tests/DateTime_setDate_error.php on line 22
+bool(false)
+
+-- Testing DateTime::setDate() function with more than expected no. of arguments --
+
+Warning: DateTime::setDate() expects exactly 3 parameters, 4 given in /root/php-src/ext/date/tests/DateTime_setDate_error.php on line 26
+bool(false)
+===DONE===
+---- FAILED

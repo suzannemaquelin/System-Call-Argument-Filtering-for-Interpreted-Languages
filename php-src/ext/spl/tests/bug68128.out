@@ -1,0 +1,56 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+No children Array
+(
+    [0] => Array
+        (
+            [0] => test1
+        )
+
+    [1] => Array
+        (
+            [0] => t
+        )
+
+    [2] => Array
+        (
+            [0] => 1
+        )
+
+)
+
+Children: Array
+(
+    [0] => Array
+        (
+            [0] => test4
+        )
+
+    [1] => Array
+        (
+            [0] => t
+        )
+
+    [2] => Array
+        (
+            [0] => 4
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [0] => test5
+        )
+
+    [1] => Array
+        (
+            [0] => t
+        )
+
+    [2] => Array
+        (
+            [0] => 5
+        )
+
+)

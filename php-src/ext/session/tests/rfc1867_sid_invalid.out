@@ -1,0 +1,46 @@
+Warning: Unknown: The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,' in Unknown on line 0
+
+Warning: Unknown: Failed to read session data: files (path: ) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct () in Unknown on line 0
+
+Warning: Unknown: The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,' in Unknown on line 0
+
+Warning: Unknown: Failed to read session data: files (path: ) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct () in Unknown on line 0
+string(1) "_"
+bool(true)
+array(2) {
+  ["file1"]=>
+  array(5) {
+    ["name"]=>
+    string(9) "file1.txt"
+    ["type"]=>
+    string(0) ""
+    ["tmp_name"]=>
+    string(14) "/tmp/phpPb6XPx"
+    ["error"]=>
+    int(0)
+    ["size"]=>
+    int(1)
+  }
+  ["file2"]=>
+  array(5) {
+    ["name"]=>
+    string(9) "file2.txt"
+    ["type"]=>
+    string(0) ""
+    ["tmp_name"]=>
+    string(14) "/tmp/php1j01zL"
+    ["error"]=>
+    int(0)
+    ["size"]=>
+    int(1)
+  }
+}
+NULL
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so: cannot open shared object file: No such file or directory in Unknown on line 0

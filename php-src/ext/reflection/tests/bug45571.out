@@ -1,0 +1,21 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Class [ <user> class C extends A ] {
+  @@ /root/php-src/ext/reflection/tests/bug45571.php 12-12
+
+  - Constants [0] {
+  }
+
+  - Static properties [2] {
+    Property [ protected static $b ]
+    Property [ public static $c ]
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}

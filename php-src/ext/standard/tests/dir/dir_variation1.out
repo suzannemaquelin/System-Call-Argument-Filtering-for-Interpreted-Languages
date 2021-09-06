@@ -1,0 +1,77 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing dir() : unexpected values for $directory argument ***
+
+-- Iteration 1 --
+
+Warning: dir() expects parameter 1 to be a valid path, array given in /root/php-src/ext/standard/tests/dir/dir_variation1.php on line 73
+NULL
+
+-- Iteration 2 --
+
+Warning: dir() expects parameter 1 to be a valid path, array given in /root/php-src/ext/standard/tests/dir/dir_variation1.php on line 73
+NULL
+
+-- Iteration 3 --
+
+Warning: dir() expects parameter 1 to be a valid path, array given in /root/php-src/ext/standard/tests/dir/dir_variation1.php on line 73
+NULL
+
+-- Iteration 4 --
+
+Warning: dir() expects parameter 1 to be a valid path, array given in /root/php-src/ext/standard/tests/dir/dir_variation1.php on line 73
+NULL
+
+-- Iteration 5 --
+
+Warning: dir() expects parameter 1 to be a valid path, array given in /root/php-src/ext/standard/tests/dir/dir_variation1.php on line 73
+NULL
+
+-- Iteration 6 --
+bool(false)
+
+-- Iteration 7 --
+bool(false)
+
+-- Iteration 8 --
+
+Warning: dir(1): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/dir_variation1.php on line 73
+bool(false)
+
+-- Iteration 9 --
+bool(false)
+
+-- Iteration 10 --
+
+Warning: dir(1): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/dir_variation1.php on line 73
+bool(false)
+
+-- Iteration 11 --
+bool(false)
+
+-- Iteration 12 --
+bool(false)
+
+-- Iteration 13 --
+bool(false)
+
+-- Iteration 14 --
+bool(false)
+
+-- Iteration 15 --
+bool(false)
+
+-- Iteration 16 --
+
+Warning: dir() expects parameter 1 to be a valid path, resource given in /root/php-src/ext/standard/tests/dir/dir_variation1.php on line 73
+NULL
+
+-- Iteration 17 --
+
+Warning: dir() expects parameter 1 to be a valid path, resource given in /root/php-src/ext/standard/tests/dir/dir_variation1.php on line 73
+NULL
+
+-- Iteration 18 --
+
+Warning: dir() expects parameter 1 to be a valid path, object given in /root/php-src/ext/standard/tests/dir/dir_variation1.php on line 73
+NULL
+Done

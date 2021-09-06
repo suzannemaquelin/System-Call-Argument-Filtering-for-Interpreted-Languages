@@ -1,0 +1,5 @@
+bool(true)
+bool(false)
+bool(true)
+
+Warning: SplHeap::isEmpty() expects exactly 0 parameters, 1 given in %s

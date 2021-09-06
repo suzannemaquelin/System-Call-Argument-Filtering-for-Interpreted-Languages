@@ -1,0 +1,18 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught UnexpectedValueException: Error at offset 82 of 113 bytes in %s%ebug71313.php:2
+Stack trace:
+#0 [internal function]: SplObjectStorage->unserialize('%s')
+#1 %s%ebug71313.php(2): unserialize('%s')
+#2 {main}
+  thrown in %s%ebug71313.php on line 2
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught UnexpectedValueException: Error at offset 82 of 113 bytes in /root/php-src/ext/standard/tests/serialize/bug71313.php:2
+Stack trace:
+#0 [internal function]: SplObjectStorage->unserialize('x:i:2;O:8:"stdC...')
+#1 /root/php-src/ext/standard/tests/serialize/bug71313.php(2): unserialize('C:16:"SplObject...')
+#2 {main}
+  thrown in /root/php-src/ext/standard/tests/serialize/bug71313.php on line 2
+---- FAILED

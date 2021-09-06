@@ -1,0 +1,19 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Array
+(
+    [execute] => Trait1::run
+    [talk] => Trait2::say
+)
+Array
+(
+    [Trait1] => ReflectionClass Object
+        (
+            [name] => Trait1
+        )
+
+    [Trait2] => ReflectionClass Object
+        (
+            [name] => Trait2
+        )
+
+)

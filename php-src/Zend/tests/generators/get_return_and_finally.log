@@ -1,0 +1,11 @@
+
+---- EXPECTED OUTPUT
+int(42)
+gen2() throw
+Cannot get return value of a generator that hasn't returned
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(42)
+gen2() throw
+Cannot get return value of a generator that hasn't returned
+---- FAILED

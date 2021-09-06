@@ -1,0 +1,41 @@
+
+---- EXPECTED OUTPUT
+*** Testing array_slice() : basic functionality ***
+
+-- All arguments --
+array(2) {
+  [0]=>
+  int(3)
+  [23]=>
+  int(4)
+}
+
+-- Mandatory arguments --
+array(2) {
+  [0]=>
+  int(3)
+  [1]=>
+  int(4)
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_slice() : basic functionality ***
+
+-- All arguments --
+array(2) {
+  [0]=>
+  int(3)
+  [23]=>
+  int(4)
+}
+
+-- Mandatory arguments --
+array(2) {
+  [0]=>
+  int(3)
+  [1]=>
+  int(4)
+}
+Done
+---- FAILED

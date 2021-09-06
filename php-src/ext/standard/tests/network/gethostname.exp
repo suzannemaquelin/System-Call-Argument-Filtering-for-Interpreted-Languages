@@ -1,0 +1,4 @@
+%s
+
+Warning: gethostname() expects exactly %d parameters, %d given in %s on line %d
+NULL

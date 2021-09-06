@@ -1,0 +1,3 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: bcsqrt() expects at least 1 parameter, 0 given in /root/php-src/ext/bcmath/tests/bcsqrt_error2.php on line 2

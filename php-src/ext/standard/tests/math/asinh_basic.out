@@ -1,0 +1,5 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+asinh  0.52109530549375= float(0.5)
+Pass
+asinh 10.01787492741= float(3)
+Pass

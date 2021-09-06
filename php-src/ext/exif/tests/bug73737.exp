@@ -1,0 +1,2 @@
+Warning: exif_thumbnail(bug73737.tiff): Error in TIFF: filesize(x0030) less than start of IFD dir(x10102) in %s line %d
+bool(false)

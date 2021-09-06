@@ -1,0 +1,49 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing compact() : basic functionality ***
+array(6) {
+  ["a"]=>
+  int(1)
+  ["b"]=>
+  float(0.2)
+  ["c"]=>
+  bool(true)
+  ["d"]=>
+  array(1) {
+    ["key"]=>
+    string(3) "val"
+  }
+  ["e"]=>
+  NULL
+  ["f"]=>
+  string(6) "string"
+}
+array(6) {
+  ["a"]=>
+  int(1)
+  ["b"]=>
+  float(0.2)
+  ["c"]=>
+  bool(true)
+  ["d"]=>
+  array(1) {
+    ["key"]=>
+    string(3) "val"
+  }
+  ["e"]=>
+  NULL
+  ["f"]=>
+  string(6) "string"
+}
+array(2) {
+  ["a"]=>
+  int(1)
+  ["b"]=>
+  float(0.2)
+}
+array(0) {
+}
+array(0) {
+}
+array(0) {
+}
+Done

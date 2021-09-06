@@ -1,0 +1,31 @@
+[Successful compilation of /root/php-src/sapi/phpdbg/tests/exceptions_003.php]
+prompt> [Breakpoint #0 added at /root/php-src/sapi/phpdbg/tests/exceptions_003.php:5]
+prompt> [Breakpoint #0 at /root/php-src/sapi/phpdbg/tests/exceptions_003.php:5, hits: 1]
+>00005: 		x();
+ 00006: 	} finally {
+ 00007: 		print "ok\n";
+prompt> [L5       0x7f3a08266060 INIT_FCALL_BY_NAME                           "x"                                       /root/php-src/sapi/phpdbg/tests/exceptions_003.php]
+[L0       0x558b74b01468 HANDLE_EXCEPTION                                                                       /root/php-src/sapi/phpdbg/tests/exceptions_003.php]
+>00005: 		x();
+ 00006: 	} finally {
+ 00007: 		print "ok\n";
+prompt> [L7       0x7f3a08266120 EXT_STMT                                                                               /root/php-src/sapi/phpdbg/tests/exceptions_003.php]
+>00007: 		print "ok\n";
+ 00008: 	}
+ 00009: } catch (Error $e) {
+prompt> [L7       0x7f3a08266140 ECHO                    "ok\n"                                                         /root/php-src/sapi/phpdbg/tests/exceptions_003.php]
+ok
+[L7       0x7f3a08266160 FAST_RET                ~0                   try-catch(0)                              /root/php-src/sapi/phpdbg/tests/exceptions_003.php]
+[L9       0x7f3a082661a0 CATCH                   "Error"              $e                   1                    /root/php-src/sapi/phpdbg/tests/exceptions_003.php]
+>00005: 		x();
+ 00006: 	} finally {
+ 00007: 		print "ok\n";
+prompt> [L10      0x7f3a082661c0 EXT_STMT                                                                               /root/php-src/sapi/phpdbg/tests/exceptions_003.php]
+>00010: 	print "caught\n";
+ 00011: }
+ 00012: 
+prompt> [L10      0x7f3a082661e0 ECHO                    "caught\n"                                                     /root/php-src/sapi/phpdbg/tests/exceptions_003.php]
+caught
+[L14      0x7f3a08266200 RETURN                  1                                                              /root/php-src/sapi/phpdbg/tests/exceptions_003.php]
+>00014: 
+prompt>

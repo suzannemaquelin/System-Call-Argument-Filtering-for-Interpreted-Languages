@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught Error: Undefined constant 'bar' in %sbug43344_11.php:%d
+Stack trace:
+#0 %s(%d): f()
+#1 {main}
+  thrown in %sbug43344_11.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Error: Undefined constant 'bar' in /root/php-src/Zend/tests/bug43344_11.php:2
+Stack trace:
+#0 /root/php-src/Zend/tests/bug43344_11.php(5): f()
+#1 {main}
+  thrown in /root/php-src/Zend/tests/bug43344_11.php on line 2
+---- FAILED

@@ -1,0 +1,26 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing hash() : error conditions ***
+
+-- Testing hash_hmac_file() function with less than expected no. of arguments --
+
+Warning: hash_hmac_file() expects at least 3 parameters, 0 given in /root/php-src/ext/hash/tests/hash_hmac_file_error.php on line 15
+NULL
+
+Warning: hash_hmac_file() expects at least 3 parameters, 1 given in /root/php-src/ext/hash/tests/hash_hmac_file_error.php on line 16
+NULL
+
+Warning: hash_hmac_file() expects at least 3 parameters, 2 given in /root/php-src/ext/hash/tests/hash_hmac_file_error.php on line 17
+NULL
+
+-- Testing hash_hmac_file() function with more than expected no. of arguments --
+
+Warning: hash_hmac_file() expects at most 4 parameters, 5 given in /root/php-src/ext/hash/tests/hash_hmac_file_error.php on line 21
+
+-- Testing hash_hmac_file() function with invalid hash algorithm --
+
+Warning: hash_hmac_file(): Unknown hashing algorithm: foo in /root/php-src/ext/hash/tests/hash_hmac_file_error.php on line 24
+
+-- Testing hash_hmac_file() function with bad path --
+
+Warning: hash_hmac_file(): Invalid path in /root/php-src/ext/hash/tests/hash_hmac_file_error.php on line 27
+===Done===

@@ -1,0 +1,1 @@
+Warning: PDO::sqliteCreateFunction(): function 'bar' is not callable in %s on line %d

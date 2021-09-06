@@ -1,0 +1,6 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing umask() : error conditions ***
+
+Warning: umask() expects at most 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/umask_error.php on line 8
+bool(false)
+Done

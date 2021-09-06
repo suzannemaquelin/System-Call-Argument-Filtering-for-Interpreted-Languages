@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+$string_before looks like: /this *-has \ metacharacters^ in $
+$string_after looks like: \/this \*\-has \\ metacharacters\^ in \$, with metacharacters and / (set as delimiter) escaped
+int(1)
+array(1) {
+  [0]=>
+  string(58) "testing - /this *-has \ metacharacters^ in $ should   work"
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+$string_before looks like: /this *-has \ metacharacters^ in $
+$string_after looks like: \/this \*\-has \\ metacharacters\^ in \$, with metacharacters and / (set as delimiter) escaped
+int(1)
+array(1) {
+  [0]=>
+  string(58) "testing - /this *-has \ metacharacters^ in $ should   work"
+}
+---- FAILED

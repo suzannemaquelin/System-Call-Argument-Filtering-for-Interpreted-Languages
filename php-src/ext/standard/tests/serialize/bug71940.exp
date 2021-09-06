@@ -1,0 +1,21 @@
+Array
+(
+    [0] => Entry Object
+        (
+            [identity:Entry:private] => Identity Object
+                (
+                    [role:Identity:private] => test
+                )
+
+        )
+
+    [1] => Entry Object
+        (
+            [identity:Entry:private] => Identity Object
+                (
+                    [role:Identity:private] => test
+                )
+
+        )
+
+)

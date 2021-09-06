@@ -1,0 +1,23 @@
+==ArrayObject===
+object(MyArrayObject)#%d (1) {
+  ["bar"]=>
+  string(3) "baz"
+}
+object(MyArrayObject)#%d (2) {
+  ["bar"]=>
+  string(3) "baz"
+  ["baz"]=>
+  string(3) "Foo"
+}
+==ArrayIterator===
+object(MyArrayIterator)#%d (1) {
+  ["bar"]=>
+  string(3) "baz"
+}
+object(MyArrayIterator)#%d (2) {
+  ["bar"]=>
+  string(3) "baz"
+  ["baz"]=>
+  string(3) "Foo"
+}
+===DONE===

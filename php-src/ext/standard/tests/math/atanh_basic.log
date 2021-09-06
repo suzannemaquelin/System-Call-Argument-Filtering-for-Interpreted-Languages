@@ -1,0 +1,13 @@
+
+---- EXPECTED OUTPUT
+atanh  0.46211715726001 = float(%f)
+Pass
+atanh  0.99505475368673 = float(%f)
+Pass
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+atanh  0.46211715726001 = float(0.5)
+Pass
+atanh  0.99505475368673 = float(3)
+Pass
+---- FAILED

@@ -1,0 +1,73 @@
+
+---- EXPECTED OUTPUT
+*** Testing class_implements() : basic ***
+array(2) {
+  ["foo"]=>
+  string(3) "foo"
+  ["bar"]=>
+  string(3) "bar"
+}
+array(2) {
+  ["foo"]=>
+  string(3) "foo"
+  ["bar"]=>
+  string(3) "bar"
+}
+array(2) {
+  ["foo"]=>
+  string(3) "foo"
+  ["bar"]=>
+  string(3) "bar"
+}
+array(2) {
+  ["foo"]=>
+  string(3) "foo"
+  ["bar"]=>
+  string(3) "bar"
+}
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing class_implements() : basic ***
+array(2) {
+  ["foo"]=>
+  string(3) "foo"
+  ["bar"]=>
+  string(3) "bar"
+}
+array(2) {
+  ["foo"]=>
+  string(3) "foo"
+  ["bar"]=>
+  string(3) "bar"
+}
+array(2) {
+  ["foo"]=>
+  string(3) "foo"
+  ["bar"]=>
+  string(3) "bar"
+}
+array(2) {
+  ["foo"]=>
+  string(3) "foo"
+  ["bar"]=>
+  string(3) "bar"
+}
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+===DONE===
+---- FAILED

@@ -1,0 +1,82 @@
+
+---- EXPECTED OUTPUT
+[Successful compilation of %s]
+prompt> [User Classes (1)]
+User Class Foo\Bar (2)
+|---- in %s on line 4
+prompt> [User Functions (1)]
+|-------- foo in %s on line 14
+prompt> [Breakpoint #0 added at foo]
+prompt> string(4) "test"
+[Breakpoint #0 in foo() at %s:15, hits: 1]
+>00015: 		var_dump(strrev($baz));
+ 00016: 	}
+ 00017: 
+prompt> [Variables in foo() (1)]
+Address            Refs    Type      Variable
+%s %d       string    $baz
+string (4) "test"
+prompt> [Superglobal variables (8)]
+Address            Refs    Type      Variable
+%s 2       array     $_GET
+%s 2       array     $_POST
+%s 2       array     $_COOKIE
+%s 2       array     $_SERVER
+%s 2       array     $_ENV
+%s 1       array     $_REQUEST
+%s 2       array     $_FILES
+%s 1       array     &$GLOBALS
+prompt> ------------------------------------------------
+Function Breakpoints:
+#0		foo
+prompt> [User-defined constants (0)]
+prompt> [Included files: 0]
+prompt> [No error found!]
+prompt> [Literal Constants in foo() (2)]
+|-------- C0 -------> [var_dump]
+|-------- C1 -------> [strrev]
+prompt> string(4) "tset"
+[Script ended normally]
+prompt> [No active op array!]
+prompt>
+---- ACTUAL OUTPUT
+[Successful compilation of /root/php-src/sapi/phpdbg/tests/info_001.php]
+prompt> [User Classes (1)]
+User Class Foo\Bar (2)
+|---- in /root/php-src/sapi/phpdbg/tests/info_001.php on line 4
+prompt> [User Functions (1)]
+|-------- foo in /root/php-src/sapi/phpdbg/tests/info_001.php on line 14
+prompt> [Breakpoint #0 added at foo]
+prompt> string(4) "test"
+[Breakpoint #0 in foo() at /root/php-src/sapi/phpdbg/tests/info_001.php:14, hits: 1]
+>00014: 	function foo($baz) {
+ 00015: 		var_dump(strrev($baz));
+ 00016: 	}
+prompt> [Variables in foo() (1)]
+Address            Refs    Type      Variable
+0x7fa201c16120     1       string    $baz
+string (4) "test"
+prompt> [Superglobal variables (8)]
+Address            Refs    Type      Variable
+0x7fa201c611a0     2       array     $_GET
+0x7fa201c611c0     2       array     $_POST
+0x7fa201c611e0     2       array     $_COOKIE
+0x7fa201c61200     2       array     $_SERVER
+0x7fa201c61220     2       array     $_ENV
+0x7fa201c61240     1       array     $_REQUEST
+0x7fa201c61260     2       array     $_FILES
+0x7fa201c73158     1       array     &$GLOBALS
+prompt> ------------------------------------------------
+Function Breakpoints:
+#0		foo
+prompt> [User-defined constants (0)]
+prompt> [Included files: 0]
+prompt> [No error found!]
+prompt> [Literal Constants in foo() (2)]
+|-------- C0 -------> [var_dump]
+|-------- C1 -------> [strrev]
+prompt> string(4) "tset"
+[Script ended normally]
+prompt> [No active op array!]
+prompt>
+---- FAILED

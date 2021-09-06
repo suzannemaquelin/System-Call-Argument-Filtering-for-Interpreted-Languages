@@ -1,0 +1,5 @@
+regular string ... bool(false)
+something = somevalue ... bool(false)
+bool(false)
+something = somevalue ... bool(false)
+bool(false)

@@ -1,0 +1,3 @@
+Warning: PDO::sqliteCreateAggregate(): function 'a' is not callable in %s on line %d
+
+Warning: PDO::sqliteCreateAggregate(): function '' is not callable in %s on line %d

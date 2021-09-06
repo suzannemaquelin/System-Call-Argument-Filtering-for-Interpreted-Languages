@@ -1,0 +1,65 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(1)
+array(3) {
+  [0]=>
+  string(3) "1,2"
+  [1]=>
+  string(1) "1"
+  [2]=>
+  string(1) "2"
+}
+int(2)
+array(3) {
+  [0]=>
+  string(3) "1,2"
+  [1]=>
+  string(1) "1"
+  [2]=>
+  string(1) "2"
+}
+int(0)
+array(2) {
+  [0]=>
+  string(1) "1"
+  [1]=>
+  string(1) "1"
+}
+int(1)
+array(2) {
+  [0]=>
+  string(1) "1"
+  [1]=>
+  string(1) "1"
+}
+int(2)
+array(2) {
+  [0]=>
+  string(1) "1"
+  [1]=>
+  string(1) "1"
+}
+object(ArrayIterator)#1 (1) {
+  ["storage":"ArrayIterator":private]=>
+  array(9) {
+    [0]=>
+    string(1) "1"
+    [1]=>
+    string(3) "1,2"
+    [2]=>
+    string(5) "1,2,3"
+    [3]=>
+    string(0) ""
+    [4]=>
+    NULL
+    [5]=>
+    array(0) {
+    }
+    [6]=>
+    string(6) "FooBar"
+    [7]=>
+    string(1) ","
+    [8]=>
+    string(2) ",,"
+  }
+}
+===DONE===

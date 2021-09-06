@@ -1,0 +1,121 @@
+
+---- EXPECTED OUTPUT
+*** Testing clone on objects whoose class derived from DateTime class ***
+object(DateTimeExt1)#%d (5) {
+  ["property1"]=>
+  int(99)
+  ["property2"]=>
+  string(5) "Hello"
+  ["date"]=>
+  string(26) "2009-02-03 12:34:41.000000"
+  ["timezone_type"]=>
+  int(2)
+  ["timezone"]=>
+  string(3) "GMT"
+}
+object(DateTimeExt1)#%d (5) {
+  ["property1"]=>
+  int(99)
+  ["property2"]=>
+  string(5) "Hello"
+  ["date"]=>
+  string(26) "2009-02-03 12:34:41.000000"
+  ["timezone_type"]=>
+  int(2)
+  ["timezone"]=>
+  string(3) "GMT"
+}
+object(DateTimeExt2)#%d (7) {
+  ["property3"]=>
+  bool(true)
+  ["property4"]=>
+  float(10.5)
+  ["property1"]=>
+  int(99)
+  ["property2"]=>
+  string(5) "Hello"
+  ["date"]=>
+  string(26) "2009-02-03 12:34:41.000000"
+  ["timezone_type"]=>
+  int(2)
+  ["timezone"]=>
+  string(3) "GMT"
+}
+object(DateTimeExt2)#%d (7) {
+  ["property3"]=>
+  bool(true)
+  ["property4"]=>
+  float(10.5)
+  ["property1"]=>
+  int(99)
+  ["property2"]=>
+  string(5) "Hello"
+  ["date"]=>
+  string(26) "2009-02-03 12:34:41.000000"
+  ["timezone_type"]=>
+  int(2)
+  ["timezone"]=>
+  string(3) "GMT"
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing clone on objects whoose class derived from DateTime class ***
+object(DateTimeExt1)#1 (5) {
+  ["property1"]=>
+  int(99)
+  ["property2"]=>
+  string(5) "Hello"
+  ["date"]=>
+  string(26) "2009-02-03 12:34:41.000000"
+  ["timezone_type"]=>
+  int(2)
+  ["timezone"]=>
+  string(3) "GMT"
+}
+object(DateTimeExt1)#2 (5) {
+  ["property1"]=>
+  int(99)
+  ["property2"]=>
+  string(5) "Hello"
+  ["date"]=>
+  string(26) "2009-02-03 12:34:41.000000"
+  ["timezone_type"]=>
+  int(2)
+  ["timezone"]=>
+  string(3) "GMT"
+}
+object(DateTimeExt2)#3 (7) {
+  ["property3"]=>
+  bool(true)
+  ["property4"]=>
+  float(10.5)
+  ["property1"]=>
+  int(99)
+  ["property2"]=>
+  string(5) "Hello"
+  ["date"]=>
+  string(26) "2009-02-03 12:34:41.000000"
+  ["timezone_type"]=>
+  int(2)
+  ["timezone"]=>
+  string(3) "GMT"
+}
+object(DateTimeExt2)#4 (7) {
+  ["property3"]=>
+  bool(true)
+  ["property4"]=>
+  float(10.5)
+  ["property1"]=>
+  int(99)
+  ["property2"]=>
+  string(5) "Hello"
+  ["date"]=>
+  string(26) "2009-02-03 12:34:41.000000"
+  ["timezone_type"]=>
+  int(2)
+  ["timezone"]=>
+  string(3) "GMT"
+}
+===DONE===
+---- FAILED

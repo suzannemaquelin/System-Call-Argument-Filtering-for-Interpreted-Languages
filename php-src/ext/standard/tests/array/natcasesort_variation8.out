@@ -1,0 +1,24 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing natcasesort() : usage variation ***
+bool(true)
+array(9) {
+  [6]=>
+  int(-54)
+  [7]=>
+  int(-229)
+  [8]=>
+  int(0)
+  [3]=>
+  int(54)
+  [5]=>
+  int(63)
+  [1]=>
+  int(209)
+  [2]=>
+  int(229)
+  [4]=>
+  int(506)
+  [0]=>
+  int(669)
+}
+Done

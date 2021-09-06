@@ -1,0 +1,133 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mcrypt_decrypt() : usage variation ***
+
+--int 0--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--int 1--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--int 12345--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--int -12345--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--float 10.5--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--float -10.5--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--float 12.3456789000e10--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--float -12.3456789000e10--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--float .5--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--empty array--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt() expects parameter 4 to be string, array given, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+NULL
+
+--int indexed array--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt() expects parameter 4 to be string, array given, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+NULL
+
+--associative array--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt() expects parameter 4 to be string, array given, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+NULL
+
+--nested arrays--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt() expects parameter 4 to be string, array given, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+NULL
+
+--uppercase NULL--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--lowercase null--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--lowercase true--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--lowercase false--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--uppercase TRUE--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--uppercase FALSE--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--empty string DQ--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--empty string SQ--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--instance of classWithToString--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--instance of classWithoutToString--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt() expects parameter 4 to be string, object given, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+NULL
+
+--undefined var--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--unset var--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt(): Module initialization failed, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+bool(false)
+
+--resource--
+Error: 8192 - Function mcrypt_decrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+Error: 2 - mcrypt_decrypt() expects parameter 4 to be string, resource given, /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_variation4.php(107)
+NULL
+===DONE===

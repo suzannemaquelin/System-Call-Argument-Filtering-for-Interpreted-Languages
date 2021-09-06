@@ -1,0 +1,82 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_map() : object functionality ***
+-- simple class with public variable and method --
+SimpleClass::square
+
+Deprecated: array_map() expects parameter 1 to be a valid callback, non-static method SimpleClass::square() should not be called statically in /root/php-src/ext/standard/tests/array/array_map_object1.php on line 28
+array(2) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(4)
+}
+
+-- simple class with private variable and method --
+SimpleClassPri::add
+
+Warning: array_map() expects parameter 1 to be a valid callback, cannot access private method SimpleClassPri::add() in /root/php-src/ext/standard/tests/array/array_map_object1.php on line 28
+NULL
+
+-- simple class with protected variable and method --
+SimpleClassPro::mul
+
+Warning: array_map() expects parameter 1 to be a valid callback, cannot access protected method SimpleClassPro::mul() in /root/php-src/ext/standard/tests/array/array_map_object1.php on line 28
+NULL
+
+-- class without members --
+EmptyClass
+
+Warning: array_map() expects parameter 1 to be a valid callback, array must have exactly two members in /root/php-src/ext/standard/tests/array/array_map_object1.php on line 28
+NULL
+
+-- abstract class --
+ChildClass::emptyFunction
+
+Deprecated: array_map() expects parameter 1 to be a valid callback, non-static method ChildClass::emptyFunction() should not be called statically in /root/php-src/ext/standard/tests/array/array_map_object1.php on line 28
+defined in child
+defined in child
+array(2) {
+  [0]=>
+  NULL
+  [1]=>
+  NULL
+}
+
+-- class with final method --
+FinalClass::finalMethod
+
+Deprecated: array_map() expects parameter 1 to be a valid callback, non-static method FinalClass::finalMethod() should not be called statically in /root/php-src/ext/standard/tests/array/array_map_object1.php on line 28
+This function can't be overloaded
+This function can't be overloaded
+array(2) {
+  [0]=>
+  NULL
+  [1]=>
+  NULL
+}
+
+-- class with static members --
+StaticClass::square
+array(2) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(4)
+}
+StaticClass::cube
+
+Warning: array_map() expects parameter 1 to be a valid callback, cannot access private method StaticClass::cube() in /root/php-src/ext/standard/tests/array/array_map_object1.php on line 28
+NULL
+StaticClass::retVal
+
+Warning: array_map() expects parameter 1 to be a valid callback, cannot access protected method StaticClass::retVal() in /root/php-src/ext/standard/tests/array/array_map_object1.php on line 28
+NULL
+-- class implementing an interface --
+InterClass::square
+array(2) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(4)
+}
+===DONE===

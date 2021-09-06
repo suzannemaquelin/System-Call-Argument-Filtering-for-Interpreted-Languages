@@ -1,0 +1,70 @@
+
+---- EXPECTED OUTPUT
+string(%d) "%s"
+bool(true)
+array(2) {
+  [%u|b%"file1"]=>
+  array(5) {
+    [%u|b%"name"]=>
+    %string|unicode%(9) "file1.txt"
+    [%u|b%"type"]=>
+    %string|unicode%(0) ""
+    [%u|b%"tmp_name"]=>
+    %string|unicode%(%d) "%s"
+    [%u|b%"error"]=>
+    int(0)
+    [%u|b%"size"]=>
+    int(1)
+  }
+  [%u|b%"file2"]=>
+  array(5) {
+    [%u|b%"name"]=>
+    %string|unicode%(9) "file2.txt"
+    [%u|b%"type"]=>
+    %string|unicode%(0) ""
+    [%u|b%"tmp_name"]=>
+    %string|unicode%(%d) "%s"
+    [%u|b%"error"]=>
+    int(0)
+    [%u|b%"size"]=>
+    int(1)
+  }
+}
+NULL
+---- ACTUAL OUTPUT
+string(32) "f80dcad833bf0b3d64e862da75cea98c"
+bool(true)
+array(2) {
+  ["file1"]=>
+  array(5) {
+    ["name"]=>
+    string(9) "file1.txt"
+    ["type"]=>
+    string(0) ""
+    ["tmp_name"]=>
+    string(14) "/tmp/phpcKxqOE"
+    ["error"]=>
+    int(0)
+    ["size"]=>
+    int(1)
+  }
+  ["file2"]=>
+  array(5) {
+    ["name"]=>
+    string(9) "file2.txt"
+    ["type"]=>
+    string(0) ""
+    ["tmp_name"]=>
+    string(14) "/tmp/phpSGIDjT"
+    ["error"]=>
+    int(0)
+    ["size"]=>
+    int(1)
+  }
+}
+NULL
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so: cannot open shared object file: No such file or directory in Unknown on line 0
+---- FAILED

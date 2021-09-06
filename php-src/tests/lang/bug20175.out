@@ -1,0 +1,28 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+3.1.0
+foo_static()
+foo_global()
+foo:1
+foo_static()
+foo:1
+bar_static()
+bar_global()
+
+Notice: Only variables should be assigned by reference in /root/php-src/tests/lang/bug20175.php on line 47
+bar:1
+bar_static()
+bar:1
+wow_static()
+wow_global()
+wow:1
+wow_static()
+wow:1
+oop_test()
+oop_static()
+oop_class()
+oop:1
+oop_static()
+oop:1
+oop_test()
+oop_static()
+oop:1

@@ -1,0 +1,9 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_reduce() : variation ***
+
+--- Testing with a callback with too few parameters ---
+int(2)
+
+--- Testing with a callback with too many parameters ---
+Exception: Too few arguments to function threeArgs(), 2 passed and exactly 3 expected
+===DONE===

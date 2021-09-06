@@ -1,0 +1,91 @@
+
+---- EXPECTED OUTPUT
+Iteration 0
+
+Function 'CATALOG' doesn't exist
+
+Function 'CATALOG' doesn't exist
+
+Iteration 1
+
+Function 'CATALOG' doesn't exist
+
+Function 'CATALOG' doesn't exist
+
+Iteration 2
+
+Function 'CATALOG' doesn't exist
+
+Function 'CATALOG' doesn't exist
+
+Iteration 3
+
+Function 'CATALOG' doesn't exist
+
+Function 'CATALOG' doesn't exist
+
+Iteration 4
+
+Function 'CATALOG' doesn't exist
+
+Function 'CATALOG' doesn't exist
+
+Iteration 5
+
+Function 'CATALOG' doesn't exist
+
+Function 'CATALOG' doesn't exist
+
+Iteration 6
+
+Function 'CATALOG' doesn't exist
+
+Function 'CATALOG' doesn't exist
+
+==DONE==
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Iteration 0
+
+Function 'CATALOG' doesn't exist
+
+Function 'CATALOG' doesn't exist
+
+Iteration 1
+
+Function 'CATALOG' doesn't exist
+
+Function 'CATALOG' doesn't exist
+
+Iteration 2
+
+Function 'CATALOG' doesn't exist
+
+Function 'CATALOG' doesn't exist
+
+Iteration 3
+
+Function 'CATALOG' doesn't exist
+
+Function 'CATALOG' doesn't exist
+
+Iteration 4
+
+Function 'CATALOG' doesn't exist
+
+Function 'CATALOG' doesn't exist
+
+Iteration 5
+
+Function 'CATALOG' doesn't exist
+
+Function 'CATALOG' doesn't exist
+
+Iteration 6
+
+Function 'CATALOG' doesn't exist
+
+Function 'CATALOG' doesn't exist
+
+==DONE==
+---- FAILED

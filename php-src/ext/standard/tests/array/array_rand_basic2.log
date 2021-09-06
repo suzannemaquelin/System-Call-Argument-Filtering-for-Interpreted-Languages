@@ -1,0 +1,47 @@
+
+---- EXPECTED OUTPUT
+*** Testing array_rand() : with associative array ***
+
+-- with all default and optional arguments --
+array(6) {
+  [0]=>
+  string(%d) "%s"
+  [1]=>
+  string(%d) "%s"
+  [2]=>
+  string(%d) "%s"
+  [3]=>
+  string(%d) "%s"
+  [4]=>
+  string(%d) "%s"
+  [5]=>
+  string(%d) "%s"
+}
+
+-- with default argument --
+string(%d) "%s"
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_rand() : with associative array ***
+
+-- with all default and optional arguments --
+array(6) {
+  [0]=>
+  string(3) "one"
+  [1]=>
+  string(3) "two"
+  [2]=>
+  string(4) "FoUr"
+  [3]=>
+  string(5) "seven"
+  [4]=>
+  string(2) "#8"
+  [5]=>
+  string(4) "nine"
+}
+
+-- with default argument --
+string(4) "FoUr"
+Done
+---- FAILED

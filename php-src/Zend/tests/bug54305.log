@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+Method [ <user> public method methodWithArgs ] {
+  @@ %sbug54305.php %d - %d
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $a ]
+    Parameter #1 [ <required> $b ]
+  }
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Method [ <user> public method methodWithArgs ] {
+  @@ /root/php-src/Zend/tests/bug54305.php 3 - 4
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $a ]
+    Parameter #1 [ <required> $b ]
+  }
+}
+---- FAILED

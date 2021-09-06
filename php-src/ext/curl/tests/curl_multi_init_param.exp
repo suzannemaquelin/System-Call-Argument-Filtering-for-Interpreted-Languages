@@ -1,0 +1,3 @@
+Warning: curl_multi_init() expects exactly 0 parameters, %d given in %s on line %d
+NULL
+===DONE===

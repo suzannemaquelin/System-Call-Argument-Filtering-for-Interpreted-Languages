@@ -1,0 +1,28 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined variable: obj in /root/php-src/ext/standard/tests/general_functions/bug32647.php on line 15
+
+Warning: register_shutdown_function(): Invalid shutdown callback 'Array' passed in /root/php-src/ext/standard/tests/general_functions/bug32647.php on line 15
+
+Notice: Undefined variable: obj in /root/php-src/ext/standard/tests/general_functions/bug32647.php on line 16
+
+Warning: register_shutdown_function(): Invalid shutdown callback 'Array' passed in /root/php-src/ext/standard/tests/general_functions/bug32647.php on line 16
+
+Warning: register_shutdown_function(): Invalid shutdown callback 'Array' passed in /root/php-src/ext/standard/tests/general_functions/bug32647.php on line 17
+
+Warning: register_shutdown_function(): Invalid shutdown callback 'bar::foo' passed in /root/php-src/ext/standard/tests/general_functions/bug32647.php on line 18
+
+Warning: register_shutdown_function(): Invalid shutdown callback 'Array' passed in /root/php-src/ext/standard/tests/general_functions/bug32647.php on line 19
+
+Warning: register_shutdown_function(): Invalid shutdown callback 'bar' passed in /root/php-src/ext/standard/tests/general_functions/bug32647.php on line 20
+
+Deprecated: Non-static method bar::barfoo() should not be called statically in /root/php-src/ext/standard/tests/general_functions/bug32647.php on line 22
+
+Warning: register_shutdown_function(): Invalid shutdown callback 'bar::foobar' passed in /root/php-src/ext/standard/tests/general_functions/bug32647.php on line 25
+foo!
+
+Deprecated: Non-static method bar::barfoo() should not be called statically in Unknown on line 0
+
+Deprecated: Non-static method bar::barfoo() should not be called statically in Unknown on line 0
+bar!
+bar!

@@ -1,0 +1,27 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(0)
+catch in gen()
+Exception: 0 in /root/php-src/Zend/tests/generators/basic_yield_from_exception_handling.php:21
+Stack trace:
+#0 {main}
+int(1)
+catch in from()
+Exception: 1 in /root/php-src/Zend/tests/generators/basic_yield_from_exception_handling.php:21
+Stack trace:
+#0 {main}
+int(2)
+catch in gen()
+Exception: 2 in /root/php-src/Zend/tests/generators/basic_yield_from_exception_handling.php:21
+Stack trace:
+#0 {main}
+int(3)
+catch in from()
+Exception: 3 in /root/php-src/Zend/tests/generators/basic_yield_from_exception_handling.php:21
+Stack trace:
+#0 {main}
+int(4)
+catch in {main}
+Exception: 4 in /root/php-src/Zend/tests/generators/basic_yield_from_exception_handling.php:21
+Stack trace:
+#0 {main}
+bool(false)

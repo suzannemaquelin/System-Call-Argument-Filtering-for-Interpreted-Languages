@@ -1,0 +1,62 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: Phar::mungServer() expects parameter 1 to be array, string given in /root/php-src/ext/phar/tests/badparameters.php on line 8
+
+Warning: Phar::createDefaultStub() expects parameter 1 to be a valid path, array given in /root/php-src/ext/phar/tests/badparameters.php on line 9
+
+Warning: Phar::loadPhar() expects parameter 1 to be a valid path, array given in /root/php-src/ext/phar/tests/badparameters.php on line 10
+
+Warning: Phar::canCompress() expects parameter 1 to be integer, string given in /root/php-src/ext/phar/tests/badparameters.php on line 11
+
+Exception: Phar::__construct() expects parameter 1 to be a valid path, array given in /root/php-src/ext/phar/tests/badparameters.php on line 13
+
+Warning: Phar::convertToExecutable() expects parameter 1 to be integer, array given in /root/php-src/ext/phar/tests/badparameters.php on line 22
+
+Warning: Phar::convertToData() expects parameter 1 to be integer, array given in /root/php-src/ext/phar/tests/badparameters.php on line 23
+
+Warning: PharData::delete() expects parameter 1 to be a valid path, array given in /root/php-src/ext/phar/tests/badparameters.php on line 34
+Cannot write out phar archive, phar is read-only
+Entry oops does not exist and cannot be deleted
+/root/php-src/ext/phar/tests/files/frontcontroller10.phar
+Cannot write out phar archive, phar is read-only
+A Phar alias cannot be set in a plain tar archive
+
+Warning: Phar::setAlias() expects parameter 1 to be string, array given in /root/php-src/ext/phar/tests/badparameters.php on line 57
+Cannot change stub, phar is read-only
+A Phar stub cannot be set in a plain tar archive
+
+Warning: Phar::setStub() expects parameter 1 to be string, array given in /root/php-src/ext/phar/tests/badparameters.php on line 75
+A Phar stub cannot be set in a plain tar archive
+
+Warning: Phar::setDefaultStub() expects parameter 1 to be string, array given in /root/php-src/ext/phar/tests/badparameters.php on line 82
+Cannot change stub: phar.readonly=1
+Cannot set signature algorithm, phar is read-only
+
+Warning: Phar::compress() expects parameter 1 to be integer, array given in /root/php-src/ext/phar/tests/badparameters.php on line 93
+Cannot compress phar archive, phar is read-only
+
+Warning: Phar::compressFiles() expects parameter 1 to be integer, array given in /root/php-src/ext/phar/tests/badparameters.php on line 99
+Phar is readonly, cannot change compression
+
+Warning: Phar::copy() expects exactly 2 parameters, 1 given in /root/php-src/ext/phar/tests/badparameters.php on line 105
+Cannot copy "a" to "b", phar is read-only
+
+Warning: Phar::offsetExists() expects parameter 1 to be a valid path, array given in /root/php-src/ext/phar/tests/badparameters.php on line 111
+
+Warning: Phar::offsetGet() expects parameter 1 to be a valid path, array given in /root/php-src/ext/phar/tests/badparameters.php on line 112
+
+Warning: Phar::offsetSet() expects exactly 2 parameters, 1 given in /root/php-src/ext/phar/tests/badparameters.php on line 114
+
+Warning: PharData::offsetUnset() expects parameter 1 to be a valid path, array given in /root/php-src/ext/phar/tests/badparameters.php on line 116
+Write operations disabled by the php.ini setting phar.readonly
+
+Warning: Phar::addEmptyDir() expects parameter 1 to be a valid path, array given in /root/php-src/ext/phar/tests/badparameters.php on line 122
+
+Warning: Phar::addFile() expects parameter 1 to be a valid path, array given in /root/php-src/ext/phar/tests/badparameters.php on line 123
+
+Warning: Phar::addFromString() expects exactly 2 parameters, 1 given in /root/php-src/ext/phar/tests/badparameters.php on line 124
+Write operations disabled by the php.ini setting phar.readonly
+
+Warning: Phar::setMetadata() expects exactly 1 parameter, 2 given in /root/php-src/ext/phar/tests/badparameters.php on line 131
+Write operations disabled by the php.ini setting phar.readonly
+===DONE===

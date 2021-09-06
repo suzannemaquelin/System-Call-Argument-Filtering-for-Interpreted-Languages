@@ -1,0 +1,7 @@
+int(4)
+string(4) "John" refcount(%d)
+int(%d)
+int(4)
+string(4) "John" refcount(%d)
+
+Done

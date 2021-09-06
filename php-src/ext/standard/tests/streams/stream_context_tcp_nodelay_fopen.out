@@ -1,0 +1,2 @@
+Warning: socket_get_option() expects parameter 1 to be resource, boolean given in /root/php-src/ext/standard/tests/streams/stream_context_tcp_nodelay_fopen.php on line 13
+bool(false)

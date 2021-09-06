@@ -1,0 +1,29 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Testing openssl_pkey_new
+resource(4) of type (OpenSSL key)
+
+Warning: openssl_pkey_new(): Unknown elliptic curve (short) name invalid_cuve_name in /root/php-src/ext/openssl/tests/ecc.php on line 15
+bool(false)
+int(384)
+int(215)
+string(9) "secp384r1"
+bool(true)
+resource(5) of type (OpenSSL key)
+bool(true)
+Testing openssl_csr_new with key generation
+NULL
+resource(7) of type (OpenSSL key)
+Testing openssl_csr_new with existing ecc key
+resource(8) of type (OpenSSL X.509 CSR)
+bool(false)
+array(1) {
+  ["d"]=>
+  string(48) "İ.Ì)KíÉ»@gôåíÈK£?gÆ5%¦úÌ+çåTöÑF’#Di™%Aúà%"
+}
+resource(10) of type (OpenSSL X.509)
+Testing openssl_x509_check_private_key
+bool(true)
+bool(false)
+Testing openssl_get_curve_names
+bool(true)
+Found secp384r1 in curve names

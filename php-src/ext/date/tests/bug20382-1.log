@@ -1,0 +1,11 @@
+
+---- EXPECTED OUTPUT
+tStamp=Wednesday 2004-10-27 17:17:17 CEST
+result=Monday 2004-11-01 00:00:00 CET
+wanted=Monday 2004-11-01 00:00:00 CET
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+tStamp=Wednesday 2004-10-27 17:17:17 CEST
+result=Monday 2004-11-01 00:00:00 CET
+wanted=Monday 2004-11-01 00:00:00 CET
+---- FAILED

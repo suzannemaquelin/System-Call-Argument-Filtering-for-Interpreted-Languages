@@ -1,0 +1,306 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing arsort() : usage variations ***
+
+-- Testing arsort() by supplying different unexpected values for 'array' argument --
+
+-- Flag values are defualt, SORT_REGULAR, SORT_NUMERIC, SORT_STRING --
+-- Iteration 1 --
+
+Warning: arsort() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 2 --
+
+Warning: arsort() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 3 --
+
+Warning: arsort() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 4 --
+
+Warning: arsort() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 5 --
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 6 --
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 7 --
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 8 --
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 9 --
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 10 --
+
+Warning: arsort() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 11 --
+
+Warning: arsort() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 12 --
+
+Warning: arsort() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 13 --
+
+Warning: arsort() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 14 --
+
+Warning: arsort() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 15 --
+
+Warning: arsort() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 16 --
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 17 --
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 18 --
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 19 --
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 20 --
+
+Warning: arsort() expects parameter 1 to be array, object given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, object given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, object given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, object given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 21 --
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 22 --
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+-- Iteration 23 --
+
+Warning: arsort() expects parameter 1 to be array, resource given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 82
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, resource given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 83
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, resource given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 84
+bool(false)
+
+Warning: arsort() expects parameter 1 to be array, resource given in /root/php-src/ext/standard/tests/array/arsort_variation1.php on line 85
+bool(false)
+Done

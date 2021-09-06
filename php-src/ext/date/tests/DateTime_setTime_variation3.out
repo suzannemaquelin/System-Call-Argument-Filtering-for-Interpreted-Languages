@@ -1,0 +1,218 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing DateTime::setTime() : usage variation -  unexpected values to third argument $second***
+
+-- int 0 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "2009-01-31 10:13:00.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- int 1 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "2009-01-31 10:13:01.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- int 12345 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "2009-01-31 13:38:45.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- int -12345 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "2009-01-31 06:47:15.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- float 10.5 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "2009-01-31 10:13:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- float -10.5 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "2009-01-31 10:12:50.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- float .5 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "2009-01-31 10:13:00.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- empty array --
+
+Warning: DateTime::setTime() expects parameter 3 to be integer, array given in /root/php-src/ext/date/tests/DateTime_setTime_variation3.php on line 101
+bool(false)
+
+-- int indexed array --
+
+Warning: DateTime::setTime() expects parameter 3 to be integer, array given in /root/php-src/ext/date/tests/DateTime_setTime_variation3.php on line 101
+bool(false)
+
+-- associative array --
+
+Warning: DateTime::setTime() expects parameter 3 to be integer, array given in /root/php-src/ext/date/tests/DateTime_setTime_variation3.php on line 101
+bool(false)
+
+-- nested arrays --
+
+Warning: DateTime::setTime() expects parameter 3 to be integer, array given in /root/php-src/ext/date/tests/DateTime_setTime_variation3.php on line 101
+bool(false)
+
+-- uppercase NULL --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "2009-01-31 10:13:00.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- lowercase null --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "2009-01-31 10:13:00.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- lowercase true --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "2009-01-31 10:13:01.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- lowercase false --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "2009-01-31 10:13:00.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- uppercase TRUE --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "2009-01-31 10:13:01.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- uppercase FALSE --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "2009-01-31 10:13:00.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- empty string DQ --
+
+Warning: DateTime::setTime() expects parameter 3 to be integer, string given in /root/php-src/ext/date/tests/DateTime_setTime_variation3.php on line 101
+bool(false)
+
+-- empty string SQ --
+
+Warning: DateTime::setTime() expects parameter 3 to be integer, string given in /root/php-src/ext/date/tests/DateTime_setTime_variation3.php on line 101
+bool(false)
+
+-- string DQ --
+
+Warning: DateTime::setTime() expects parameter 3 to be integer, string given in /root/php-src/ext/date/tests/DateTime_setTime_variation3.php on line 101
+bool(false)
+
+-- string SQ --
+
+Warning: DateTime::setTime() expects parameter 3 to be integer, string given in /root/php-src/ext/date/tests/DateTime_setTime_variation3.php on line 101
+bool(false)
+
+-- mixed case string --
+
+Warning: DateTime::setTime() expects parameter 3 to be integer, string given in /root/php-src/ext/date/tests/DateTime_setTime_variation3.php on line 101
+bool(false)
+
+-- heredoc --
+
+Warning: DateTime::setTime() expects parameter 3 to be integer, string given in /root/php-src/ext/date/tests/DateTime_setTime_variation3.php on line 101
+bool(false)
+
+-- instance of classWithToString --
+
+Warning: DateTime::setTime() expects parameter 3 to be integer, object given in /root/php-src/ext/date/tests/DateTime_setTime_variation3.php on line 101
+bool(false)
+
+-- instance of classWithoutToString --
+
+Warning: DateTime::setTime() expects parameter 3 to be integer, object given in /root/php-src/ext/date/tests/DateTime_setTime_variation3.php on line 101
+bool(false)
+
+-- undefined var --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "2009-01-31 10:13:00.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- unset var --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "2009-01-31 10:13:00.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- resource --
+
+Warning: DateTime::setTime() expects parameter 3 to be integer, resource given in /root/php-src/ext/date/tests/DateTime_setTime_variation3.php on line 101
+bool(false)
+===DONE===

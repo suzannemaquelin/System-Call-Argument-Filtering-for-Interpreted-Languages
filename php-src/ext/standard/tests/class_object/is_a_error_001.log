@@ -1,0 +1,39 @@
+
+---- EXPECTED OUTPUT
+*** Testing is_a() : error conditions ***
+
+-- Testing is_a() function with more than expected no. of arguments --
+
+Warning: is_a() expects at most 3 parameters, 4 given in %s on line 17
+NULL
+
+-- Testing is_a() function with non-boolean in last position --
+
+Warning: is_a() expects parameter 3 to be boolean, object given in %s on line 21
+NULL
+
+-- Testing is_a() function with less than expected no. of arguments --
+
+Warning: is_a() expects at least 2 parameters, 1 given in %s on line 27
+NULL
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing is_a() : error conditions ***
+
+-- Testing is_a() function with more than expected no. of arguments --
+
+Warning: is_a() expects at most 3 parameters, 4 given in /root/php-src/ext/standard/tests/class_object/is_a_error_001.php on line 17
+NULL
+
+-- Testing is_a() function with non-boolean in last position --
+
+Warning: is_a() expects parameter 3 to be boolean, object given in /root/php-src/ext/standard/tests/class_object/is_a_error_001.php on line 21
+NULL
+
+-- Testing is_a() function with less than expected no. of arguments --
+
+Warning: is_a() expects at least 2 parameters, 1 given in /root/php-src/ext/standard/tests/class_object/is_a_error_001.php on line 27
+NULL
+Done
+---- FAILED

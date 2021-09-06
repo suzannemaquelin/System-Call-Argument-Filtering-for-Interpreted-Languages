@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Warning: Phar::running() expects parameter 1 to be boolean, array given in phar://%sphar_running.phar.php/index.php on line 2
+string(%d) "phar://%sphar_running.phar.php"
+string(%d) "%sphar_running.phar.php"
+string(0) ""
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: Phar::running() expects parameter 1 to be boolean, array given in phar:///root/php-src/ext/phar/tests/phar_running.phar.php/index.php on line 2
+string(57) "phar:///root/php-src/ext/phar/tests/phar_running.phar.php"
+string(50) "/root/php-src/ext/phar/tests/phar_running.phar.php"
+string(0) ""
+===DONE===
+---- FAILED

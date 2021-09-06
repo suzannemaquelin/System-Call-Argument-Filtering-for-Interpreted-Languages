@@ -1,0 +1,39 @@
+
+---- EXPECTED OUTPUT
+*** Test copy() function: Trying to create a copy of source file as a dir ***
+Size of source before copy operation => int(300)
+Size of destination before copy operation => int(%d)
+
+-- Now applying copy() operation --
+
+Warning: %s
+bool(false)
+bool(true)
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(true)
+int(300)
+int(%d)
+*** Done ***
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Test copy() function: Trying to create a copy of source file as a dir ***
+Size of source before copy operation => int(300)
+Size of destination before copy operation => int(4096)
+
+-- Now applying copy() operation --
+
+Warning: copy(): The second argument to copy() function cannot be a directory in /root/php-src/ext/standard/tests/file/copy_variation11.php on line 28
+bool(false)
+bool(true)
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(true)
+int(300)
+int(4096)
+*** Done ***
+---- FAILED

@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+array(%d) {
+  ["title"]=>
+  string(%d) "10 little indians"
+  ["foo"]=>
+  array(%d) {
+    [123]=>
+    string(%d) "24575"
+    [456]=>
+    int(123)
+  }
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(2) {
+  ["title"]=>
+  string(17) "10 little indians"
+  ["foo"]=>
+  array(2) {
+    [123]=>
+    string(5) "24575"
+    [456]=>
+    int(123)
+  }
+}
+Done
+---- FAILED

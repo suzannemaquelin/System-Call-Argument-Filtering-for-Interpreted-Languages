@@ -1,0 +1,15 @@
+
+---- EXPECTED OUTPUT
+string(%d) "%s017.phar.php"
+bool(true)
+
+Warning: opendir(phar://hio): failed to open dir: phar error: no directory in "phar://hio", must have at least phar://hio/ for root directory (always use full path to a new phar)
+phar url "phar://hio" is unknown in %s017.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(41) "/root/php-src/ext/phar/tests/017.phar.php"
+bool(true)
+
+Warning: opendir(phar://hio): failed to open dir: phar error: no directory in "phar://hio", must have at least phar://hio/ for root directory (always use full path to a new phar)
+phar url "phar://hio" is unknown in /root/php-src/ext/phar/tests/017.php on line 15
+---- FAILED

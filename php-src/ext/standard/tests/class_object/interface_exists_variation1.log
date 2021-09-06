@@ -1,0 +1,179 @@
+
+---- EXPECTED OUTPUT
+*** Testing interface_exists() : usage variation ***
+
+--int 0--
+bool(false)
+
+--int 1--
+bool(false)
+
+--int 12345--
+bool(false)
+
+--int -12345--
+bool(false)
+
+--float 10.5--
+bool(false)
+
+--float -10.5--
+bool(false)
+
+--float 12.3456789000e10--
+bool(false)
+
+--float -12.3456789000e10--
+bool(false)
+
+--float .5--
+bool(false)
+
+--empty array--
+
+Warning: interface_exists() expects parameter 1 to be string, array given in %sinterface_exists_variation1.php on line %d
+NULL
+
+--int indexed array--
+
+Warning: interface_exists() expects parameter 1 to be string, array given in %sinterface_exists_variation1.php on line %d
+NULL
+
+--associative array--
+
+Warning: interface_exists() expects parameter 1 to be string, array given in %sinterface_exists_variation1.php on line %d
+NULL
+
+--nested arrays--
+
+Warning: interface_exists() expects parameter 1 to be string, array given in %sinterface_exists_variation1.php on line %d
+NULL
+
+--uppercase NULL--
+bool(false)
+
+--lowercase null--
+bool(false)
+
+--lowercase true--
+bool(false)
+
+--lowercase false--
+bool(false)
+
+--uppercase TRUE--
+bool(false)
+
+--uppercase FALSE--
+bool(false)
+
+--empty string DQ--
+bool(false)
+
+--empty string SQ--
+bool(false)
+
+--instance of classWithToString--
+bool(false)
+
+--instance of classWithoutToString--
+
+Warning: interface_exists() expects parameter 1 to be string, object given in %sinterface_exists_variation1.php on line %d
+NULL
+
+--undefined var--
+bool(false)
+
+--unset var--
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing interface_exists() : usage variation ***
+
+--int 0--
+bool(false)
+
+--int 1--
+bool(false)
+
+--int 12345--
+bool(false)
+
+--int -12345--
+bool(false)
+
+--float 10.5--
+bool(false)
+
+--float -10.5--
+bool(false)
+
+--float 12.3456789000e10--
+bool(false)
+
+--float -12.3456789000e10--
+bool(false)
+
+--float .5--
+bool(false)
+
+--empty array--
+
+Warning: interface_exists() expects parameter 1 to be string, array given in /root/php-src/ext/standard/tests/class_object/interface_exists_variation1.php on line 89
+NULL
+
+--int indexed array--
+
+Warning: interface_exists() expects parameter 1 to be string, array given in /root/php-src/ext/standard/tests/class_object/interface_exists_variation1.php on line 89
+NULL
+
+--associative array--
+
+Warning: interface_exists() expects parameter 1 to be string, array given in /root/php-src/ext/standard/tests/class_object/interface_exists_variation1.php on line 89
+NULL
+
+--nested arrays--
+
+Warning: interface_exists() expects parameter 1 to be string, array given in /root/php-src/ext/standard/tests/class_object/interface_exists_variation1.php on line 89
+NULL
+
+--uppercase NULL--
+bool(false)
+
+--lowercase null--
+bool(false)
+
+--lowercase true--
+bool(false)
+
+--lowercase false--
+bool(false)
+
+--uppercase TRUE--
+bool(false)
+
+--uppercase FALSE--
+bool(false)
+
+--empty string DQ--
+bool(false)
+
+--empty string SQ--
+bool(false)
+
+--instance of classWithToString--
+bool(false)
+
+--instance of classWithoutToString--
+
+Warning: interface_exists() expects parameter 1 to be string, object given in /root/php-src/ext/standard/tests/class_object/interface_exists_variation1.php on line 89
+NULL
+
+--undefined var--
+bool(false)
+
+--unset var--
+bool(false)
+===DONE===
+---- FAILED

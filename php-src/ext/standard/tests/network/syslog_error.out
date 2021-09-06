@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing syslog() : error conditions ***
+
+-- Testing syslog() function with more than expected no. of arguments --
+
+Warning: syslog() expects exactly 2 parameters, 3 given in /root/php-src/ext/standard/tests/network/syslog_error.php on line 16
+NULL
+
+-- Testing syslog() function with less than expected no. of arguments --
+
+Warning: syslog() expects exactly 2 parameters, 1 given in /root/php-src/ext/standard/tests/network/syslog_error.php on line 21
+NULL
+===DONE===

@@ -1,0 +1,18 @@
+===Array===
+0=>zero
+1=>one
+2=>two
+===Append===
+3=>three
+4=>four
+===Object===
+zero=>0
+one=>1
+two=>2
+===Append===
+
+Fatal error: Uncaught Error: Cannot append properties to objects, use ArrayIterator::offsetSet() instead in %s:%d
+Stack trace:
+#0 %s(%d): ArrayIterator->append('three')
+#1 {main}
+  thrown in %s on line %d

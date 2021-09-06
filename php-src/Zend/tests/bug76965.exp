@@ -1,0 +1,17 @@
+array(7) {
+  [1]=>
+  string(3) "foo"
+  [2]=>
+  string(3) "bar"
+  [3]=>
+  string(3) "baz"
+  [4]=>
+  string(7) "foo;bar"
+  [5]=>
+  string(3) "foo"
+  [6]=>
+  string(7) "foo;bar"
+  [7]=>
+  string(7) "foo"bar"
+}
+===DONE===

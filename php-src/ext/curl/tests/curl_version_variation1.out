@@ -1,0 +1,69 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing curl_version() function: with unexpected inputs for 'age' argument ***
+-- Iteration 1 --
+bool(true)
+-- Iteration 2 --
+bool(true)
+-- Iteration 3 --
+bool(true)
+-- Iteration 4 --
+bool(true)
+-- Iteration 5 --
+bool(true)
+-- Iteration 6 --
+bool(true)
+-- Iteration 7 --
+bool(true)
+-- Iteration 8 --
+bool(true)
+-- Iteration 9 --
+bool(true)
+-- Iteration 10 --
+
+Warning: curl_version() expects parameter 1 to be integer, array given in /root/php-src/ext/curl/tests/curl_version_variation1.php on line 77
+bool(false)
+-- Iteration 11 --
+
+Warning: curl_version() expects parameter 1 to be integer, array given in /root/php-src/ext/curl/tests/curl_version_variation1.php on line 77
+bool(false)
+-- Iteration 12 --
+
+Warning: curl_version() expects parameter 1 to be integer, array given in /root/php-src/ext/curl/tests/curl_version_variation1.php on line 77
+bool(false)
+-- Iteration 13 --
+
+Warning: curl_version() expects parameter 1 to be integer, string given in /root/php-src/ext/curl/tests/curl_version_variation1.php on line 77
+bool(false)
+-- Iteration 14 --
+
+Warning: curl_version() expects parameter 1 to be integer, string given in /root/php-src/ext/curl/tests/curl_version_variation1.php on line 77
+bool(false)
+-- Iteration 15 --
+
+Notice: A non well formed numeric value encountered in /root/php-src/ext/curl/tests/curl_version_variation1.php on line 77
+bool(true)
+-- Iteration 16 --
+bool(true)
+-- Iteration 17 --
+bool(true)
+-- Iteration 18 --
+bool(true)
+-- Iteration 19 --
+bool(true)
+-- Iteration 20 --
+bool(true)
+-- Iteration 21 --
+bool(true)
+-- Iteration 22 --
+
+Warning: curl_version() expects parameter 1 to be integer, object given in /root/php-src/ext/curl/tests/curl_version_variation1.php on line 77
+bool(false)
+-- Iteration 23 --
+
+Warning: curl_version() expects parameter 1 to be integer, resource given in /root/php-src/ext/curl/tests/curl_version_variation1.php on line 77
+bool(false)
+-- Iteration 24 --
+bool(true)
+-- Iteration 25 --
+bool(true)
+===Done===

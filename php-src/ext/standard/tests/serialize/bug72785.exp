@@ -1,0 +1,10 @@
+object(ArrayObject)#1 (1) {
+  ["storage":"ArrayObject":private]=>
+  array(1) {
+    [0]=>
+    object(__PHP_Incomplete_Class)#2 (1) {
+      ["__PHP_Incomplete_Class_Name"]=>
+      string(1) "A"
+    }
+  }
+}

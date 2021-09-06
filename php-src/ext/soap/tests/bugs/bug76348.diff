@@ -1,0 +1,8 @@
+001+ Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+001- ===DONE===
+002+ 
+003+ Fatal error: Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing Schema: can't import schema from 'http://x-road.ee/xsd/x-road.xsd', unexpected 'targetNamespace'='http://x-road.ee/xsd/x-road.xsd' in /root/php-src/ext/soap/tests/bugs/bug76348.php:3
+004+ Stack trace:
+005+ #0 /root/php-src/ext/soap/tests/bugs/bug76348.php(3): SoapClient->SoapClient('/root/php-src/e...', Array)
+006+ #1 {main}
+007+   thrown in /root/php-src/ext/soap/tests/bugs/bug76348.php on line 3

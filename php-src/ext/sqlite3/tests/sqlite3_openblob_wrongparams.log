@@ -1,0 +1,27 @@
+
+---- EXPECTED OUTPUT
+Creating table: true
+PREPARING insert
+BINDING Parameters:
+bool(true)
+bool(true)
+Closing statement: true
+Open BLOB with wrong parameter count
+
+Warning: SQLite3::openBlob() expects at least 3 parameters, 0 given in %s on line %d
+NULL
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Creating table: true
+PREPARING insert
+BINDING Parameters:
+bool(true)
+bool(true)
+Closing statement: true
+Open BLOB with wrong parameter count
+
+Warning: SQLite3::openBlob() expects at least 3 parameters, 0 given in /root/php-src/ext/sqlite3/tests/sqlite3_openblob_wrongparams.php on line 56
+NULL
+Done
+---- FAILED

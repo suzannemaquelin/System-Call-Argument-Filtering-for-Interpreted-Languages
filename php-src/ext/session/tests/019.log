@@ -1,0 +1,53 @@
+
+---- EXPECTED OUTPUT
+array(2) {
+  ["o1"]=>
+  &object(TFoo)#%d (1) {
+    ["c"]=>
+    int(42)
+  }
+  ["o2"]=>
+  &object(TFoo)#%d (1) {
+    ["c"]=>
+    int(42)
+  }
+}
+array(2) {
+  ["o1"]=>
+  &object(TFoo)#%d (1) {
+    ["c"]=>
+    int(44)
+  }
+  ["o2"]=>
+  &object(TFoo)#%d (1) {
+    ["c"]=>
+    int(44)
+  }
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(2) {
+  ["o1"]=>
+  &object(TFoo)#1 (1) {
+    ["c"]=>
+    int(42)
+  }
+  ["o2"]=>
+  &object(TFoo)#1 (1) {
+    ["c"]=>
+    int(42)
+  }
+}
+array(2) {
+  ["o1"]=>
+  &object(TFoo)#1 (1) {
+    ["c"]=>
+    int(44)
+  }
+  ["o2"]=>
+  &object(TFoo)#1 (1) {
+    ["c"]=>
+    int(44)
+  }
+}
+---- FAILED

@@ -1,0 +1,647 @@
+
+---- EXPECTED OUTPUT
+*** Testing basic operations of fopen() and fclose() functions ***
+
+-- Iteration with mode 'w' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'wb' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'wt' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'w+' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'w+b' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'w+t' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'r' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'rb' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'rt' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'r+' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'r+b' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'r+t' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'a' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'ab' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'at' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'a+' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'a+t' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'a+b' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+-- Iteration with mode 'x' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+resource(%d) of type (Unknown)
+
+-- Iteration with mode 'xb' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+resource(%d) of type (Unknown)
+
+-- Iteration with mode 'xt' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+resource(%d) of type (Unknown)
+
+-- Iteration with mode 'x+' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+resource(%d) of type (Unknown)
+
+-- Iteration with mode 'x+b' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+resource(%d) of type (Unknown)
+
+-- Iteration with mode 'x+t' --
+resource(%d) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(%d) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+resource(%d) of type (Unknown)
+
+*** Done ***
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing basic operations of fopen() and fclose() functions ***
+
+-- Iteration with mode 'w' --
+resource(5) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(5) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'wb' --
+resource(6) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(6) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'wt' --
+resource(7) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(7) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'w+' --
+resource(8) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(8) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'w+b' --
+resource(9) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(9) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'w+t' --
+resource(10) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(10) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'r' --
+resource(11) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(11) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'rb' --
+resource(12) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(12) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'rt' --
+resource(13) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(13) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'r+' --
+resource(14) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(14) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'r+b' --
+resource(15) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(15) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'r+t' --
+resource(16) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(16) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'a' --
+resource(17) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(17) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'ab' --
+resource(18) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(18) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'at' --
+resource(19) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(19) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'a+' --
+resource(20) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(20) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'a+t' --
+resource(21) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(21) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'a+b' --
+resource(22) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(22) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 52
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 53
+bool(false)
+
+-- Iteration with mode 'x' --
+resource(23) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(23) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 79
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 80
+bool(false)
+resource(23) of type (Unknown)
+
+-- Iteration with mode 'xb' --
+resource(24) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(24) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 79
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 80
+bool(false)
+resource(24) of type (Unknown)
+
+-- Iteration with mode 'xt' --
+resource(25) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(25) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 79
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 80
+bool(false)
+resource(25) of type (Unknown)
+
+-- Iteration with mode 'x+' --
+resource(26) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(26) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 79
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 80
+bool(false)
+resource(26) of type (Unknown)
+
+-- Iteration with mode 'x+b' --
+resource(27) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(27) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 79
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 80
+bool(false)
+resource(27) of type (Unknown)
+
+-- Iteration with mode 'x+t' --
+resource(28) of type (stream)
+int(0)
+bool(false)
+bool(true)
+resource(28) of type (Unknown)
+
+Warning: ftell(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 79
+bool(false)
+
+Warning: feof(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/007_basic.php on line 80
+bool(false)
+resource(28) of type (Unknown)
+
+*** Done ***
+---- FAILED

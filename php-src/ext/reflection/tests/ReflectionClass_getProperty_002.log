@@ -1,0 +1,39 @@
+
+---- EXPECTED OUTPUT
+Check invalid params:
+
+Warning: ReflectionClass::getProperty() expects exactly 1 parameter, 0 given in %s on line 9
+NULL
+
+Warning: ReflectionClass::getProperty() expects exactly 1 parameter, 2 given in %s on line 14
+NULL
+Property  does not exist
+Property 1 does not exist
+Property 1.5 does not exist
+Property 1 does not exist
+
+Warning: ReflectionClass::getProperty() expects parameter 1 to be string, array given in %s on line 39
+NULL
+
+Warning: ReflectionClass::getProperty() expects parameter 1 to be string, object given in %s on line 44
+NULL
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Check invalid params:
+
+Warning: ReflectionClass::getProperty() expects exactly 1 parameter, 0 given in /root/php-src/ext/reflection/tests/ReflectionClass_getProperty_002.php on line 9
+NULL
+
+Warning: ReflectionClass::getProperty() expects exactly 1 parameter, 2 given in /root/php-src/ext/reflection/tests/ReflectionClass_getProperty_002.php on line 14
+NULL
+Property  does not exist
+Property 1 does not exist
+Property 1.5 does not exist
+Property 1 does not exist
+
+Warning: ReflectionClass::getProperty() expects parameter 1 to be string, array given in /root/php-src/ext/reflection/tests/ReflectionClass_getProperty_002.php on line 39
+NULL
+
+Warning: ReflectionClass::getProperty() expects parameter 1 to be string, object given in /root/php-src/ext/reflection/tests/ReflectionClass_getProperty_002.php on line 44
+NULL
+---- FAILED

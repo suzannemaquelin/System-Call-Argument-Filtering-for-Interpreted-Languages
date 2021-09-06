@@ -1,0 +1,221 @@
+
+---- EXPECTED OUTPUT
+*** Testing hash_algos() : basic functionality ***
+array(52) {
+  [%d]=>
+  string(3) "md2"
+  [%d]=>
+  string(3) "md4"
+  [%d]=>
+  string(3) "md5"
+  [%d]=>
+  string(4) "sha1"
+  [%d]=>
+  string(6) "sha224"
+  [%d]=>
+  string(6) "sha256"
+  [%d]=>
+  string(6) "sha384"
+  [%d]=>
+  string(10) "sha512/224"
+  [%d]=>
+  string(10) "sha512/256"
+  [%d]=>
+  string(6) "sha512"
+  [%d]=>
+  string(8) "sha3-224"
+  [%d]=>
+  string(8) "sha3-256"
+  [%d]=>
+  string(8) "sha3-384"
+  [%d]=>
+  string(8) "sha3-512"
+  [%d]=>
+  string(9) "ripemd128"
+  [%d]=>
+  string(9) "ripemd160"
+  [%d]=>
+  string(9) "ripemd256"
+  [%d]=>
+  string(9) "ripemd320"
+  [%d]=>
+  string(9) "whirlpool"
+  [%d]=>
+  string(10) "tiger128,3"
+  [%d]=>
+  string(10) "tiger160,3"
+  [%d]=>
+  string(10) "tiger192,3"
+  [%d]=>
+  string(10) "tiger128,4"
+  [%d]=>
+  string(10) "tiger160,4"
+  [%d]=>
+  string(10) "tiger192,4"
+  [%d]=>
+  string(6) "snefru"
+  [%d]=>
+  string(9) "snefru256"
+  [%d]=>
+  string(4) "gost"
+  [%d]=>
+  string(11) "gost-crypto"
+  [%d]=>
+  string(7) "adler32"
+  [%d]=>
+  string(5) "crc32"
+  [%d]=>
+  string(6) "crc32b"
+  [%d]=>
+  string(6) "fnv132"
+  [%d]=>
+  string(7) "fnv1a32"
+  [%d]=>
+  string(6) "fnv164"
+  [%d]=>
+  string(7) "fnv1a64"
+  [%d]=>
+  string(5) "joaat"
+  [%d]=>
+  string(10) "haval128,3"
+  [%d]=>
+  string(10) "haval160,3"
+  [%d]=>
+  string(10) "haval192,3"
+  [%d]=>
+  string(10) "haval224,3"
+  [%d]=>
+  string(10) "haval256,3"
+  [%d]=>
+  string(10) "haval128,4"
+  [%d]=>
+  string(10) "haval160,4"
+  [%d]=>
+  string(10) "haval192,4"
+  [%d]=>
+  string(10) "haval224,4"
+  [%d]=>
+  string(10) "haval256,4"
+  [%d]=>
+  string(10) "haval128,5"
+  [%d]=>
+  string(10) "haval160,5"
+  [%d]=>
+  string(10) "haval192,5"
+  [%d]=>
+  string(10) "haval224,5"
+  [%d]=>
+  string(10) "haval256,5"
+}
+===Done===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing hash_algos() : basic functionality ***
+array(52) {
+  [0]=>
+  string(3) "md2"
+  [1]=>
+  string(3) "md4"
+  [2]=>
+  string(3) "md5"
+  [3]=>
+  string(4) "sha1"
+  [4]=>
+  string(6) "sha224"
+  [5]=>
+  string(6) "sha256"
+  [6]=>
+  string(6) "sha384"
+  [7]=>
+  string(10) "sha512/224"
+  [8]=>
+  string(10) "sha512/256"
+  [9]=>
+  string(6) "sha512"
+  [10]=>
+  string(8) "sha3-224"
+  [11]=>
+  string(8) "sha3-256"
+  [12]=>
+  string(8) "sha3-384"
+  [13]=>
+  string(8) "sha3-512"
+  [14]=>
+  string(9) "ripemd128"
+  [15]=>
+  string(9) "ripemd160"
+  [16]=>
+  string(9) "ripemd256"
+  [17]=>
+  string(9) "ripemd320"
+  [18]=>
+  string(9) "whirlpool"
+  [19]=>
+  string(10) "tiger128,3"
+  [20]=>
+  string(10) "tiger160,3"
+  [21]=>
+  string(10) "tiger192,3"
+  [22]=>
+  string(10) "tiger128,4"
+  [23]=>
+  string(10) "tiger160,4"
+  [24]=>
+  string(10) "tiger192,4"
+  [25]=>
+  string(6) "snefru"
+  [26]=>
+  string(9) "snefru256"
+  [27]=>
+  string(4) "gost"
+  [28]=>
+  string(11) "gost-crypto"
+  [29]=>
+  string(7) "adler32"
+  [30]=>
+  string(5) "crc32"
+  [31]=>
+  string(6) "crc32b"
+  [32]=>
+  string(6) "fnv132"
+  [33]=>
+  string(7) "fnv1a32"
+  [34]=>
+  string(6) "fnv164"
+  [35]=>
+  string(7) "fnv1a64"
+  [36]=>
+  string(5) "joaat"
+  [37]=>
+  string(10) "haval128,3"
+  [38]=>
+  string(10) "haval160,3"
+  [39]=>
+  string(10) "haval192,3"
+  [40]=>
+  string(10) "haval224,3"
+  [41]=>
+  string(10) "haval256,3"
+  [42]=>
+  string(10) "haval128,4"
+  [43]=>
+  string(10) "haval160,4"
+  [44]=>
+  string(10) "haval192,4"
+  [45]=>
+  string(10) "haval224,4"
+  [46]=>
+  string(10) "haval256,4"
+  [47]=>
+  string(10) "haval128,5"
+  [48]=>
+  string(10) "haval160,5"
+  [49]=>
+  string(10) "haval192,5"
+  [50]=>
+  string(10) "haval224,5"
+  [51]=>
+  string(10) "haval256,5"
+}
+===Done===
+---- FAILED

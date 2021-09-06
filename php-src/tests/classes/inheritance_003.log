@@ -1,0 +1,10 @@
+
+---- EXPECTED OUTPUT
+Warning: Declaration of B::f() should be compatible with A::f($x) in %sinheritance_003.php on line %d
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: Declaration of B::f() should be compatible with A::f($x) in /root/php-src/tests/classes/inheritance_003.php on line 11
+===DONE===
+---- FAILED

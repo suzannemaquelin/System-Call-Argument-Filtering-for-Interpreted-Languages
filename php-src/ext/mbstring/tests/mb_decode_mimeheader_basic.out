@@ -1,0 +1,5 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_decode_mimeheader() : basic functionality ***
+string(60) "e697a5e69cace8aa9ee38386e382ade382b9e38388e381a7e38199e38082"
+string(60) "e697a5e69cace8aa9ee38386e382ade382b9e38388e381a7e38199e38082"
+===DONE===

@@ -1,0 +1,8 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(true)
+
+Warning: session_module_name(): A session is active. You cannot change the session module's ini settings at this time in /root/php-src/ext/session/tests/bug73100.php on line 4
+
+Warning: session_destroy(): Session object destruction failed in /root/php-src/ext/session/tests/bug73100.php on line 5
+bool(false)
+===DONE===

@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+before yield
+Caught: RuntimeException: throw in %s:%d
+Stack trace:
+#0 {main}
+
+
+Fatal error: Uncaught LogicException: new throw in %s:%d
+Stack trace:
+#0 [internal function]: gen()
+#1 %s(%d): Generator->throw(Object(RuntimeException))
+#2 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+before yield
+Caught: RuntimeException: throw in /root/php-src/Zend/tests/generators/throw_rethrow.php:15
+Stack trace:
+#0 {main}
+
+
+Fatal error: Uncaught LogicException: new throw in /root/php-src/Zend/tests/generators/throw_rethrow.php:10
+Stack trace:
+#0 [internal function]: gen()
+#1 /root/php-src/Zend/tests/generators/throw_rethrow.php(15): Generator->throw(Object(RuntimeException))
+#2 {main}
+  thrown in /root/php-src/Zend/tests/generators/throw_rethrow.php on line 10
+---- FAILED

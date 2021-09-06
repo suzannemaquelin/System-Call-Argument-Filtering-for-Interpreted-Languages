@@ -1,0 +1,169 @@
+
+---- EXPECTED OUTPUT
+*** Testing debug_zval_dump() on functions ***
+--- Variation 1: global variable inside a function ---
+
+-- Value of global variable, before calling dump_globalvar() --
+int(10)
+
+-- Value of local variable inside dump_globalvar() --
+int(10)
+
+-- Value of global variable inside dump_globalvar() --
+int(10)
+
+-- Value of global variable, after exiting dump_globalvar() --
+int(10)
+
+--- Variation 2: one variable references another ---
+
+-- Value of $first_var: --
+int(10)
+
+-- Value of $ref_first_var --
+NULL
+
+-- Value of $first_var --
+int(10)
+
+-- Value of $ref_first_var --
+
+Notice: Undefined variable: ref_first_var in %s on line %d
+NULL
+
+-- Value of $first_var --
+int(10)
+
+--- Variation 3: multiple references of variables ---
+
+-- Value of $var_1: (before referencing) --
+int(10)
+
+-- Value of $var_2: (referencing var_1) --
+int(10)
+
+-- Value of $var_3: (referencing var_2) --
+int(10)
+
+-- Value of $var_3: (after unsetting var_3) --
+
+Notice: Undefined variable: var_3 in %s on line %d
+NULL
+
+-- Value of $var_2: --
+int(10)
+
+-- Value of $var_3: --
+int(10)
+
+-- Value of $var_1: (after unsetting variable_1) --
+
+Notice: Undefined variable: var_1 in %s on line %d
+NULL
+
+-- Value of $var_2: --
+int(10)
+
+*** Testing debug_zval_dump() on miscelleneous input arguments ***
+-- Iteration 1 --
+NULL
+-- Iteration 2 --
+NULL
+-- Iteration 3 --
+NULL
+-- Iteration 4 --
+NULL
+-- Iteration 5 --
+string(7) "TRUE123" refcount(%d)
+-- Iteration 6 --
+string(9) "123string" refcount(%d)
+-- Iteration 7 --
+string(9) "string123" refcount(%d)
+-- Iteration 8 --
+string(10) "NULLstring" refcount(%d)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing debug_zval_dump() on functions ***
+--- Variation 1: global variable inside a function ---
+
+-- Value of global variable, before calling dump_globalvar() --
+int(10)
+
+-- Value of local variable inside dump_globalvar() --
+int(10)
+
+-- Value of global variable inside dump_globalvar() --
+int(10)
+
+-- Value of global variable, after exiting dump_globalvar() --
+int(10)
+
+--- Variation 2: one variable references another ---
+
+-- Value of $first_var: --
+int(10)
+
+-- Value of $ref_first_var --
+NULL
+
+-- Value of $first_var --
+int(10)
+
+-- Value of $ref_first_var --
+
+Notice: Undefined variable: ref_first_var in /root/php-src/ext/standard/tests/general_functions/debug_zval_dump_v.php on line 54
+NULL
+
+-- Value of $first_var --
+int(10)
+
+--- Variation 3: multiple references of variables ---
+
+-- Value of $var_1: (before referencing) --
+int(10)
+
+-- Value of $var_2: (referencing var_1) --
+int(10)
+
+-- Value of $var_3: (referencing var_2) --
+int(10)
+
+-- Value of $var_3: (after unsetting var_3) --
+
+Notice: Undefined variable: var_3 in /root/php-src/ext/standard/tests/general_functions/debug_zval_dump_v.php on line 72
+NULL
+
+-- Value of $var_2: --
+int(10)
+
+-- Value of $var_3: --
+int(10)
+
+-- Value of $var_1: (after unsetting variable_1) --
+
+Notice: Undefined variable: var_1 in /root/php-src/ext/standard/tests/general_functions/debug_zval_dump_v.php on line 81
+NULL
+
+-- Value of $var_2: --
+int(10)
+
+*** Testing debug_zval_dump() on miscelleneous input arguments ***
+-- Iteration 1 --
+NULL
+-- Iteration 2 --
+NULL
+-- Iteration 3 --
+NULL
+-- Iteration 4 --
+NULL
+-- Iteration 5 --
+string(7) "TRUE123" refcount(1)
+-- Iteration 6 --
+string(9) "123string" refcount(1)
+-- Iteration 7 --
+string(9) "string123" refcount(1)
+-- Iteration 8 --
+string(10) "NULLstring" refcount(1)
+Done
+---- FAILED

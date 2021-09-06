@@ -1,0 +1,12 @@
+
+---- EXPECTED OUTPUT
+Warning: Class constants cannot be defined or redefined in %sbug44827.php on line %d
+
+Warning: Class constants cannot be defined or redefined in %sbug44827.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: Class constants cannot be defined or redefined in /root/php-src/Zend/tests/bug44827.php on line 2
+
+Warning: Class constants cannot be defined or redefined in /root/php-src/Zend/tests/bug44827.php on line 3
+---- FAILED

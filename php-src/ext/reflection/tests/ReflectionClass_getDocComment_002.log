@@ -1,0 +1,28 @@
+
+---- EXPECTED OUTPUT
+Warning: ReflectionClass::getDocComment() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+
+Warning: ReflectionClass::getDocComment() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+
+Warning: ReflectionClass::getDocComment() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+
+Warning: ReflectionClass::getDocComment() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: ReflectionClass::getDocComment() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionClass_getDocComment_002.php on line 4
+NULL
+
+Warning: ReflectionClass::getDocComment() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionClass_getDocComment_002.php on line 5
+NULL
+
+Warning: ReflectionClass::getDocComment() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionClass_getDocComment_002.php on line 6
+NULL
+
+Warning: ReflectionClass::getDocComment() expects exactly 0 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionClass_getDocComment_002.php on line 7
+NULL
+---- FAILED

@@ -1,0 +1,18 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught Error: Cannot call forward_static_call() when no class scope is active in %s:%d
+Stack trace:
+#0 %s(%d): forward_static_call(Array)
+#1 %s(%d): test()
+#2 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Error: Cannot call forward_static_call() when no class scope is active in /root/php-src/ext/standard/tests/class_object/forward_static_call_002.php:11
+Stack trace:
+#0 /root/php-src/ext/standard/tests/class_object/forward_static_call_002.php(11): forward_static_call(Array)
+#1 /root/php-src/ext/standard/tests/class_object/forward_static_call_002.php(14): test()
+#2 {main}
+  thrown in /root/php-src/ext/standard/tests/class_object/forward_static_call_002.php on line 11
+---- FAILED

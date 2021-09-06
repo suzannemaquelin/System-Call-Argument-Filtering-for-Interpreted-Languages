@@ -1,0 +1,97 @@
+
+---- EXPECTED OUTPUT
+*** Testing session_set_save_handler() : using closures as callbacks ***
+string(%d) "%s"
+
+Warning: session_module_name(): Cannot find named PHP session module () in %s on line %d
+bool(false)
+
+Warning: session_module_name(): Cannot find named PHP session module (blah) in %s on line %d
+bool(false)
+
+Warning: session_module_name(): Cannot find named PHP session module (foo) in %s on line %d
+bool(false)
+Open [%s,PHPSESSID]
+Read [%s,%s]
+array(3) {
+  ["Blah"]=>
+  string(12) "Hello World!"
+  ["Foo"]=>
+  bool(false)
+  ["Guff"]=>
+  int(1234567890)
+}
+Write [%s,%s,Blah|s:12:"Hello World!";Foo|b:0;Guff|i:1234567890;]
+Close [%s,PHPSESSID]
+array(3) {
+  ["Blah"]=>
+  string(12) "Hello World!"
+  ["Foo"]=>
+  bool(false)
+  ["Guff"]=>
+  int(1234567890)
+}
+Starting session again..!
+Open [%s,PHPSESSID]
+Read [%s,%s]
+array(4) {
+  ["Blah"]=>
+  string(12) "Hello World!"
+  ["Foo"]=>
+  bool(false)
+  ["Guff"]=>
+  int(1234567890)
+  ["Bar"]=>
+  string(3) "Foo"
+}
+Write [%s,%s,Blah|s:12:"Hello World!";Foo|b:0;Guff|i:1234567890;Bar|s:3:"Foo";]
+Close [%s,PHPSESSID]
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing session_set_save_handler() : using closures as callbacks ***
+string(5) "files"
+
+Warning: session_module_name(): Cannot find named PHP session module () in /root/php-src/ext/session/tests/session_set_save_handler_closures.php on line 15
+bool(false)
+
+Warning: session_module_name(): Cannot find named PHP session module (blah) in /root/php-src/ext/session/tests/session_set_save_handler_closures.php on line 16
+bool(false)
+
+Warning: session_module_name(): Cannot find named PHP session module (foo) in /root/php-src/ext/session/tests/session_set_save_handler_closures.php on line 17
+bool(false)
+Open [/root/php-src/ext/session/tests,PHPSESSID]
+Read [/root/php-src/ext/session/tests,421914b94385ae8bd31a35ec71fffb46]
+array(3) {
+  ["Blah"]=>
+  string(12) "Hello World!"
+  ["Foo"]=>
+  bool(false)
+  ["Guff"]=>
+  int(1234567890)
+}
+Write [/root/php-src/ext/session/tests,421914b94385ae8bd31a35ec71fffb46,Blah|s:12:"Hello World!";Foo|b:0;Guff|i:1234567890;]
+Close [/root/php-src/ext/session/tests,PHPSESSID]
+array(3) {
+  ["Blah"]=>
+  string(12) "Hello World!"
+  ["Foo"]=>
+  bool(false)
+  ["Guff"]=>
+  int(1234567890)
+}
+Starting session again..!
+Open [/root/php-src/ext/session/tests,PHPSESSID]
+Read [/root/php-src/ext/session/tests,421914b94385ae8bd31a35ec71fffb46]
+array(4) {
+  ["Blah"]=>
+  string(12) "Hello World!"
+  ["Foo"]=>
+  bool(false)
+  ["Guff"]=>
+  int(1234567890)
+  ["Bar"]=>
+  string(3) "Foo"
+}
+Write [/root/php-src/ext/session/tests,421914b94385ae8bd31a35ec71fffb46,Blah|s:12:"Hello World!";Foo|b:0;Guff|i:1234567890;Bar|s:3:"Foo";]
+Close [/root/php-src/ext/session/tests,PHPSESSID]
+---- FAILED

@@ -1,0 +1,31 @@
+
+---- EXPECTED OUTPUT
+string(9) "not catch"
+NULL
+
+Fatal error: Uncaught Exception: not catched in %sbug65784.php:42
+Stack trace:
+#0 %sbug65784.php(52): foo3()
+#1 {main}
+
+Next Error: Class 'NotExists' not found in %sbug65784.php:46
+Stack trace:
+#0 %sbug65784.php(52): foo3()
+#1 {main}
+  thrown in %sbug65784.php on line 46
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(9) "not catch"
+NULL
+
+Fatal error: Uncaught Exception: not catched in /root/php-src/Zend/tests/bug65784.php:42
+Stack trace:
+#0 /root/php-src/Zend/tests/bug65784.php(52): foo3()
+#1 {main}
+
+Next Error: Class 'NotExists' not found in /root/php-src/Zend/tests/bug65784.php:46
+Stack trace:
+#0 /root/php-src/Zend/tests/bug65784.php(52): foo3()
+#1 {main}
+  thrown in /root/php-src/Zend/tests/bug65784.php on line 46
+---- FAILED

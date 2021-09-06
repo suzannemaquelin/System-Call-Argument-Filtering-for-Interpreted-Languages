@@ -1,0 +1,12 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(0) ""
+int(1)
+int(0)
+int(1)
+
+int(0)
+int(1)
+
+Notice: Resource ID#1 used as offset, casting to integer (1) in /root/php-src/Zend/tests/list_keyed_conversions.php on line 17
+
+Notice: Undefined offset: 1 in /root/php-src/Zend/tests/list_keyed_conversions.php on line 17

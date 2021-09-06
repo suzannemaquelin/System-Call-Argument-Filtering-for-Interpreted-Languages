@@ -1,0 +1,16 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+MY_METADATA_NULL
+
+Warning: file_get_contents(phar:///root/php-src/ext/phar/tests/bug69720.phar/test.php): failed to open stream: phar error: "test.php" is not a file in phar "/root/php-src/ext/phar/tests/bug69720.phar" in /root/php-src/ext/phar/tests/bug69720.php on line 11
+array(1) {
+  ["whatever"]=>
+  int(123)
+}
+object(DateTime)#2 (3) {
+  ["date"]=>
+  string(26) "2000-01-01 00:00:00.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(3) "UTC"
+}

@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Notice: serialize(): "parents" returned as member variable from __sleep() but does not exist in %sbug35895.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: serialize(): "parents" returned as member variable from __sleep() but does not exist in /root/php-src/ext/standard/tests/serialize/bug35895.php on line 17
+---- FAILED

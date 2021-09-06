@@ -1,0 +1,72 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing asort() : usage variations ***
+
+-- Testing asort() by supplying octal value array, 'flag' value is defualt  --
+bool(true)
+array(9) {
+  [-229]=>
+  int(-229)
+  [-54]=>
+  int(-54)
+  [0]=>
+  int(0)
+  [54]=>
+  int(54)
+  [63]=>
+  int(63)
+  [209]=>
+  int(209)
+  [229]=>
+  int(229)
+  [506]=>
+  int(506)
+  [669]=>
+  int(669)
+}
+
+-- Testing asort() by supplying octal value array, 'flag' value is SORT_REGULAR  --
+bool(true)
+array(9) {
+  [-229]=>
+  int(-229)
+  [-54]=>
+  int(-54)
+  [0]=>
+  int(0)
+  [54]=>
+  int(54)
+  [63]=>
+  int(63)
+  [209]=>
+  int(209)
+  [229]=>
+  int(229)
+  [506]=>
+  int(506)
+  [669]=>
+  int(669)
+}
+
+-- Testing asort() by supplying octal value array, 'flag' value is SORT_NUMERIC  --
+bool(true)
+array(9) {
+  [-229]=>
+  int(-229)
+  [-54]=>
+  int(-54)
+  [0]=>
+  int(0)
+  [54]=>
+  int(54)
+  [63]=>
+  int(63)
+  [209]=>
+  int(209)
+  [229]=>
+  int(229)
+  [506]=>
+  int(506)
+  [669]=>
+  int(669)
+}
+Done

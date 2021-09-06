@@ -1,0 +1,17 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Deprecated: Non-static method foo::teste() should not be called statically in /root/php-src/Zend/tests/call_user_func_005.php on line 14
+string(1) "x"
+array(1) {
+  [0]=>
+  object(Closure)#1 (1) {
+    ["parameter"]=>
+    array(2) {
+      ["$a"]=>
+      string(10) "<required>"
+      ["$b"]=>
+      string(10) "<required>"
+    }
+  }
+}
+int(1)

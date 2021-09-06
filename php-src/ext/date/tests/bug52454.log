@@ -1,0 +1,13 @@
+
+---- EXPECTED OUTPUT
+2010-08-01 09:46:49
+1280652409
+1280652409
+2010-08-01 09:46:49
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+2010-08-01 09:46:49
+1280652409
+1280652409
+2010-08-01 09:46:49
+---- FAILED

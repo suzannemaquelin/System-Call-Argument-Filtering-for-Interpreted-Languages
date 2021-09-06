@@ -1,0 +1,80 @@
+
+---- EXPECTED OUTPUT
+*** Testing max/outof range values ***
+array(2) {
+  [0]=>
+  int(2147483645)
+  [1]=>
+  int(2147483646)
+}
+array(3) {
+  [0]=>
+  int(2147483646)
+  [1]=>
+  int(2147483647)
+  [2]=>
+  int(2147483648)
+}
+array(2) {
+  [0]=>
+  int(-2147483647)
+  [1]=>
+  int(-2147483646)
+}
+array(2) {
+  [0]=>
+  int(-2147483648)
+  [1]=>
+  int(-2147483647)
+}
+array(3) {
+  [0]=>
+  int(-2147483649)
+  [1]=>
+  int(-2147483648)
+  [2]=>
+  int(-2147483647)
+}
+
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+*** Testing max/outof range values ***
+array(2) {
+  [0]=>
+  int(2147483645)
+  [1]=>
+  int(2147483646)
+}
+array(3) {
+  [0]=>
+  int(2147483646)
+  [1]=>
+  int(2147483647)
+  [2]=>
+  int(2147483648)
+}
+array(2) {
+  [0]=>
+  int(-2147483647)
+  [1]=>
+  int(-2147483646)
+}
+array(2) {
+  [0]=>
+  int(-2147483648)
+  [1]=>
+  int(-2147483647)
+}
+array(3) {
+  [0]=>
+  int(-2147483649)
+  [1]=>
+  int(-2147483648)
+  [2]=>
+  int(-2147483647)
+}
+
+Done
+---- FAILED

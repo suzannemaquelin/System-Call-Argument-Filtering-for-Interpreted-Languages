@@ -1,0 +1,12 @@
+*** Testing DateTime::modify() : error conditions ***
+
+-- Testing DateTime::modify() function with less than expected no. of arguments --
+
+Warning: DateTime::modify() expects exactly 1 parameter, 0 given in %s on line %d
+bool(false)
+
+-- Testing DateTime::modify() function with more than expected no. of arguments --
+
+Warning: DateTime::modify() expects exactly 1 parameter, 2 given in %s on line %d
+bool(false)
+===DONE===

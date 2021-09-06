@@ -1,0 +1,19 @@
+Creating Table
+bool(true)
+INSERT into table
+bool(true)
+bool(true)
+SELECTING results
+array(2) {
+  [0]=>
+  int(%d)
+  [1]=>
+  string(1) "a"
+}
+Closing database
+bool(true)
+Check db was closed
+
+Warning: SQLite3Result::numColumns(): The SQLite3Result object has not been correctly initialised in %s on line %d
+bool(false)
+Done

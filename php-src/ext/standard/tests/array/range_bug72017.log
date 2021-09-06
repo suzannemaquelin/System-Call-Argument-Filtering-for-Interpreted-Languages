@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+array(4) {
+  [0]=>
+  float(4.5)
+  [1]=>
+  float(4.4)
+  [2]=>
+  float(4.3)
+  [3]=>
+  float(4.2)
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(4) {
+  [0]=>
+  float(4.5)
+  [1]=>
+  float(4.4)
+  [2]=>
+  float(4.3)
+  [3]=>
+  float(4.2)
+}
+---- FAILED

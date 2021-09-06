@@ -1,0 +1,34 @@
+
+---- EXPECTED OUTPUT
+Warning: constant() expects exactly 1 parameter, 0 given in %s on line %d
+NULL
+
+Warning: constant() expects exactly 1 parameter, 2 given in %s on line %d
+NULL
+
+Warning: constant(): Couldn't find constant  in %s on line %d
+NULL
+
+Warning: constant() expects parameter 1 to be string, array given in %s on line %d
+NULL
+int(1)
+string(4) "test"
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: constant() expects exactly 1 parameter, 0 given in /root/php-src/Zend/tests/018.php on line 3
+NULL
+
+Warning: constant() expects exactly 1 parameter, 2 given in /root/php-src/Zend/tests/018.php on line 4
+NULL
+
+Warning: constant(): Couldn't find constant  in /root/php-src/Zend/tests/018.php on line 5
+NULL
+
+Warning: constant() expects parameter 1 to be string, array given in /root/php-src/Zend/tests/018.php on line 7
+NULL
+int(1)
+string(4) "test"
+Done
+---- FAILED

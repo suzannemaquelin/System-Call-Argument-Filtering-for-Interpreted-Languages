@@ -1,0 +1,7 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Error: Non-static method ArrayIterator::current() cannot be called statically in /root/php-src/Zend/tests/bug46381.php:5
+Stack trace:
+#0 /root/php-src/Zend/tests/bug46381.php(9): test->method()
+#1 {main}
+  thrown in /root/php-src/Zend/tests/bug46381.php on line 5

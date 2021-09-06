@@ -1,0 +1,28 @@
+
+---- EXPECTED OUTPUT
+Warning: mb_ereg(): Pattern is not valid under UTF-8 encoding in %s on line %d
+bool(false)
+
+Warning: mb_ereg(): Pattern is not valid under UTF-8 encoding in %s on line %d
+bool(false)
+
+Warning: mb_ereg(): Pattern is not valid under UTF-8 encoding in %s on line %d
+bool(false)
+
+Warning: mb_ereg(): Pattern is not valid under UTF-8 encoding in %s on line %d
+bool(false)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: mb_ereg(): Pattern is not valid under UTF-8 encoding in /root/php-src/ext/mbstring/tests/bug77381.php on line 2
+bool(false)
+
+Warning: mb_ereg(): Pattern is not valid under UTF-8 encoding in /root/php-src/ext/mbstring/tests/bug77381.php on line 3
+bool(false)
+
+Warning: mb_ereg(): Pattern is not valid under UTF-8 encoding in /root/php-src/ext/mbstring/tests/bug77381.php on line 4
+bool(false)
+
+Warning: mb_ereg(): Pattern is not valid under UTF-8 encoding in /root/php-src/ext/mbstring/tests/bug77381.php on line 5
+bool(false)
+---- FAILED

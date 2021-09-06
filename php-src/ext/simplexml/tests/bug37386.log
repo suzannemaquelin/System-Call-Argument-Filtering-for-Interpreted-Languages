@@ -1,0 +1,15 @@
+
+---- EXPECTED OUTPUT
+<?xml version="1.0"?>
+<root><node>node1</node><node>node2</node></root>
+
+<?xml version="1.0"?>
+<root><node>New Value</node><node>node2</node></root>
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+<?xml version="1.0"?>
+<root><node>node1</node><node>node2</node></root>
+
+<?xml version="1.0"?>
+<root><node>New Value</node><node>node2</node></root>
+---- FAILED

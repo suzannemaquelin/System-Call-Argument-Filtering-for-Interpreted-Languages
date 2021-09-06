@@ -1,0 +1,31 @@
+int(%d)
+
+Warning: mt_rand() expects exactly 2 parameters, 1 given in %s on line %d
+NULL
+int(%i)
+int(%d)
+int(%d)
+
+Warning: rand() expects exactly 2 parameters, 1 given in %s on line %d
+NULL
+int(%i)
+int(%d)
+NULL
+NULL
+
+Warning: srand() expects parameter 1 to be integer, array given in %s on line %d
+NULL
+NULL
+NULL
+
+Warning: mt_srand() expects parameter 1 to be integer, array given in %s on line %d
+NULL
+int(%d)
+
+Warning: getrandmax() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+int(%d)
+
+Warning: mt_getrandmax() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+Done

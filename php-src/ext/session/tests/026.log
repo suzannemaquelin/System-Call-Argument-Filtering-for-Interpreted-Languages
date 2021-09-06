@@ -1,0 +1,53 @@
+
+---- EXPECTED OUTPUT
+original values:
+object(a)#%d (1) {
+  ["test"]=>
+  string(5) "hallo"
+}
+object(b)#%d (1) {
+  ["a"]=>
+  &object(a)#%d (1) {
+    ["test"]=>
+    string(5) "hallo"
+  }
+}
+values after session:
+object(a)#%d (1) {
+  ["test"]=>
+  string(5) "hallo"
+}
+object(b)#%d (1) {
+  ["a"]=>
+  &object(a)#%d (1) {
+    ["test"]=>
+    string(5) "hallo"
+  }
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+original values:
+object(a)#1 (1) {
+  ["test"]=>
+  string(5) "hallo"
+}
+object(b)#2 (1) {
+  ["a"]=>
+  &object(a)#1 (1) {
+    ["test"]=>
+    string(5) "hallo"
+  }
+}
+values after session:
+object(a)#3 (1) {
+  ["test"]=>
+  string(5) "hallo"
+}
+object(b)#4 (1) {
+  ["a"]=>
+  &object(a)#3 (1) {
+    ["test"]=>
+    string(5) "hallo"
+  }
+}
+---- FAILED

@@ -1,0 +1,12 @@
+array(%d) {
+  ["title"]=>
+  string(%d) "10 little indians"
+  ["foo"]=>
+  array(%d) {
+    [123]=>
+    string(%d) "24575"
+    [456]=>
+    int(123)
+  }
+}
+Done

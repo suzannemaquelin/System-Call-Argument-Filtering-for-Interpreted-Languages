@@ -1,0 +1,10 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Bar
+Bar
+object(PDO)#2 (0) {
+}
+object(MyPDO)#1 (0) {
+}
+
+Notice: Undefined variable: bar in /root/php-src/ext/pdo_sqlite/tests/bug43831.php on line 35
+NULL

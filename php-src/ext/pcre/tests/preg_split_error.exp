@@ -1,0 +1,17 @@
+*** Testing preg_split() : error conditions ***
+
+-- Testing preg_split() function with Zero arguments --
+
+Warning: preg_split() expects at least 2 parameters, 0 given in %spreg_split_error.php on line %d
+bool(false)
+
+-- Testing preg_split() function with more than expected no. of arguments --
+
+Warning: preg_split() expects at most 4 parameters, 5 given in %spreg_split_error.php on line %d
+bool(false)
+
+-- Testing preg_split() function with less than expected no. of arguments --
+
+Warning: preg_split() expects at least 2 parameters, 1 given in %spreg_split_error.php on line %d
+bool(false)
+Done

@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Allowed memory size of 2097152 bytes exhausted%s(tried to allocate %d bytes) in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Allowed memory size of 2097152 bytes exhausted at /root/php-src/Zend/zend_hash.c:861 (tried to allocate 1179680 bytes) in /root/php-src/Zend/tests/bug70258.php on line 7
+---- FAILED

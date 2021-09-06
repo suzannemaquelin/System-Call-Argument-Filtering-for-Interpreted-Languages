@@ -1,0 +1,9 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(14) "protectedConst"
+string(14) "protectedConst"
+
+Fatal error: Uncaught Error: Cannot access protected const A::protectedConst in /root/php-src/tests/classes/constants_visibility_002.php:14
+Stack trace:
+#0 /root/php-src/tests/classes/constants_visibility_002.php(14): constant('A::protectedCon...')
+#1 {main}
+  thrown in /root/php-src/tests/classes/constants_visibility_002.php on line 14

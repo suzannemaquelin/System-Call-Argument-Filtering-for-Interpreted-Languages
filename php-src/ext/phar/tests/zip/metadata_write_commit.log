@@ -1,0 +1,61 @@
+
+---- EXPECTED OUTPUT
+string(1) "a"
+string(1) "b"
+string(1) "c"
+string(1) "d"
+int(42)
+NULL
+array(2) {
+  [0]=>
+  int(25)
+  ["foo"]=>
+  string(3) "bar"
+}
+bool(true)
+string(1) "a"
+string(1) "b"
+string(1) "c"
+string(1) "d"
+int(42)
+NULL
+array(2) {
+  [0]=>
+  int(25)
+  ["foo"]=>
+  string(3) "bar"
+}
+bool(true)
+string(2) "hi"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(1) "a"
+string(1) "b"
+string(1) "c"
+string(1) "d"
+int(42)
+NULL
+array(2) {
+  [0]=>
+  int(25)
+  ["foo"]=>
+  string(3) "bar"
+}
+bool(true)
+string(1) "a"
+string(1) "b"
+string(1) "c"
+string(1) "d"
+int(42)
+NULL
+array(2) {
+  [0]=>
+  int(25)
+  ["foo"]=>
+  string(3) "bar"
+}
+bool(true)
+string(2) "hi"
+===DONE===
+---- FAILED

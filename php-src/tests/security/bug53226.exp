@@ -1,0 +1,8 @@
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(false)
+
+Warning: file_exists(): File name is longer than the maximum allowed path length on this platform (%d): %s in %s on line %d
+bool(false)

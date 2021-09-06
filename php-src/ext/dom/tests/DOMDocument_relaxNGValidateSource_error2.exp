@@ -1,0 +1,4 @@
+Warning: DOMDocument::relaxNGValidateSource(): xmlRelaxNGParseElement: element has no content in %s on line %d
+
+Warning: DOMDocument::relaxNGValidateSource(): Invalid RelaxNG in %s on line %d
+bool(false)

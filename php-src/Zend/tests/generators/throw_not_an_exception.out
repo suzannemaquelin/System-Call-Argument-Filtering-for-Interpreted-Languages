@@ -1,0 +1,8 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Error: Cannot throw objects that do not implement Throwable in /root/php-src/Zend/tests/generators/throw_not_an_exception.php:4
+Stack trace:
+#0 [internal function]: gen()
+#1 /root/php-src/Zend/tests/generators/throw_not_an_exception.php(8): Generator->throw(Object(stdClass))
+#2 {main}
+  thrown in /root/php-src/Zend/tests/generators/throw_not_an_exception.php on line 4

@@ -1,0 +1,23 @@
+
+---- EXPECTED OUTPUT
+First
+string(%d) "%s"
+Second
+string(%d) "%s"
+First
+string(%d) "%s"
+Second
+string(%d) "%s"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+First
+string(4) "TSRM"
+Second
+string(4) "TSRM"
+First
+string(15) "tsrm_strtok_r.o"
+Second
+string(15) "tsrm_strtok_r.o"
+===DONE===
+---- FAILED

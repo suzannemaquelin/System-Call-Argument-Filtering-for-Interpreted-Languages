@@ -1,0 +1,38 @@
+
+---- EXPECTED OUTPUT
+Warning: PDO::setAttribute(): SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class in %s on line %d
+bool(false)
+
+Warning: PDO::setAttribute(): SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class in %s on line %d
+bool(false)
+
+Warning: PDO::setAttribute(): SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class in %s on line %d
+bool(false)
+
+Warning: PDO::setAttribute(): SQLSTATE[HY000]: General error: attribute value must be an integer in %s on line %d
+bool(false)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: PDO::setAttribute(): SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class in /root/php-src/ext/pdo/tests/bug_44159.php on line 7
+bool(false)
+
+Warning: PDO::setAttribute(): SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class in /root/php-src/ext/pdo/tests/bug_44159.php on line 8
+bool(false)
+
+Warning: PDO::setAttribute(): SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class in /root/php-src/ext/pdo/tests/bug_44159.php on line 9
+bool(false)
+
+Warning: PDO::setAttribute(): SQLSTATE[HY000]: General error: attribute value must be an integer in /root/php-src/ext/pdo/tests/bug_44159.php on line 7
+bool(false)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+---- FAILED

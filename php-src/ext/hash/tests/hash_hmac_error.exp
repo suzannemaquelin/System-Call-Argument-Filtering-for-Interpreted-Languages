@@ -1,0 +1,23 @@
+*** Testing hash_hmac() : error conditions ***
+
+-- Testing hash_hmac() function with less than expected no. of arguments --
+
+Warning: hash_hmac() expects at least 3 parameters, 0 given in %s on line %d
+NULL
+
+Warning: hash_hmac() expects at least 3 parameters, 1 given in %s on line %d
+NULL
+
+Warning: hash_hmac() expects at least 3 parameters, 2 given in %s on line %d
+NULL
+
+-- Testing hash_hmac() function with more than expected no. of arguments --
+
+Warning: hash_hmac() expects at most 4 parameters, 5 given in %s on line %d
+NULL
+
+-- Testing hash_hmac() function with invalid hash algorithm --
+
+Warning: hash_hmac(): Unknown hashing algorithm: foo in %s on line %d
+bool(false)
+===Done===

@@ -1,0 +1,10 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(2) {
+  ["test"]=>
+  string(7) "getpost"
+  ["get_param"]=>
+  string(11) "Hello World"
+}
+array(0) {
+}
+CURL2

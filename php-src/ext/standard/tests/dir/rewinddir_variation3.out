@@ -1,0 +1,12 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing rewinddir() : usage variations ***
+
+-- Open a file using fopen --
+resource(5) of type (stream)
+
+Warning: rewinddir(): 5 is not a valid Directory resource in /root/php-src/ext/standard/tests/dir/rewinddir_variation3.php on line 18
+bool(false)
+
+-- Check if rewinddir() has repositioned the file pointer --
+rewinddir() does not work on file pointers
+===DONE===

@@ -1,0 +1,218 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing date_date_set() : usage variation -  unexpected values to forth argument $day***
+
+-- int 0 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-06-30 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- int 1 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-07-01 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- int 12345 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1997-04-17 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- int -12345 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1929-09-11 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- float 10.5 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-07-10 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- float -10.5 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-06-20 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- float .5 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-06-30 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- empty array --
+
+Warning: date_date_set() expects parameter 4 to be integer, array given in /root/php-src/ext/date/tests/date_date_set_variation4.php on line 101
+bool(false)
+
+-- int indexed array --
+
+Warning: date_date_set() expects parameter 4 to be integer, array given in /root/php-src/ext/date/tests/date_date_set_variation4.php on line 101
+bool(false)
+
+-- associative array --
+
+Warning: date_date_set() expects parameter 4 to be integer, array given in /root/php-src/ext/date/tests/date_date_set_variation4.php on line 101
+bool(false)
+
+-- nested arrays --
+
+Warning: date_date_set() expects parameter 4 to be integer, array given in /root/php-src/ext/date/tests/date_date_set_variation4.php on line 101
+bool(false)
+
+-- uppercase NULL --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-06-30 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- lowercase null --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-06-30 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- lowercase true --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-07-01 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- lowercase false --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-06-30 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- uppercase TRUE --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-07-01 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- uppercase FALSE --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-06-30 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- empty string DQ --
+
+Warning: date_date_set() expects parameter 4 to be integer, string given in /root/php-src/ext/date/tests/date_date_set_variation4.php on line 101
+bool(false)
+
+-- empty string SQ --
+
+Warning: date_date_set() expects parameter 4 to be integer, string given in /root/php-src/ext/date/tests/date_date_set_variation4.php on line 101
+bool(false)
+
+-- string DQ --
+
+Warning: date_date_set() expects parameter 4 to be integer, string given in /root/php-src/ext/date/tests/date_date_set_variation4.php on line 101
+bool(false)
+
+-- string SQ --
+
+Warning: date_date_set() expects parameter 4 to be integer, string given in /root/php-src/ext/date/tests/date_date_set_variation4.php on line 101
+bool(false)
+
+-- mixed case string --
+
+Warning: date_date_set() expects parameter 4 to be integer, string given in /root/php-src/ext/date/tests/date_date_set_variation4.php on line 101
+bool(false)
+
+-- heredoc --
+
+Warning: date_date_set() expects parameter 4 to be integer, string given in /root/php-src/ext/date/tests/date_date_set_variation4.php on line 101
+bool(false)
+
+-- instance of classWithToString --
+
+Warning: date_date_set() expects parameter 4 to be integer, object given in /root/php-src/ext/date/tests/date_date_set_variation4.php on line 101
+bool(false)
+
+-- instance of classWithoutToString --
+
+Warning: date_date_set() expects parameter 4 to be integer, object given in /root/php-src/ext/date/tests/date_date_set_variation4.php on line 101
+bool(false)
+
+-- undefined var --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-06-30 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- unset var --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-06-30 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- resource --
+
+Warning: date_date_set() expects parameter 4 to be integer, resource given in /root/php-src/ext/date/tests/date_date_set_variation4.php on line 101
+bool(false)
+===DONE===

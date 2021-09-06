@@ -1,0 +1,9 @@
+Warning: exec(): NULL byte detected. Possible attack in %s on line %d
+bool(false)
+NULL
+
+Warning: system(): NULL byte detected. Possible attack in %s on line %d
+bool(false)
+
+Warning: passthru(): NULL byte detected. Possible attack in %s on line %d
+bool(false)

@@ -1,0 +1,12 @@
+*** Testing iconv_strrpos() : error conditions ***
+
+-- Testing iconv_strrpos() function with more than expected no. of arguments --
+
+Warning: iconv_strrpos() expects at most 3 parameters, 4 given in %s on line %d
+bool(false)
+
+-- Testing iconv_strrpos() function with less than expected no. of arguments --
+
+Warning: iconv_strrpos() expects at least 2 parameters, 1 given in %s on line %d
+bool(false)
+Done

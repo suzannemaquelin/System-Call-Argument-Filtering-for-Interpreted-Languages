@@ -1,0 +1,93 @@
+
+---- EXPECTED OUTPUT
+Without session
+<a href="?%3CNAME%3E=%3CVALUE%3E"> </a>
+<a href="./foo.php?%3CNAME%3E=%3CVALUE%3E"> </a>
+<a href="//php.net/foo.php"> </a>
+<a href="http://php.net/foo.php"> </a>
+<a href="bad://php.net/foo.php"> </a>
+<a href="//www.php.net/foo.php"> </a>
+
+<form method="get"><input type="hidden" name="&lt;NAME&gt;" value="&lt;VALUE&gt;" /> </form>
+<form action="./foo.php" method="get"><input type="hidden" name="&lt;NAME&gt;" value="&lt;VALUE&gt;" /> </a>
+<form action="//php.net/bar.php" method="get"> </a>
+<form action="http://php.net/bar.php" method="get"> </a>
+<form action="bad://php.net/bar.php" method="get"> </a>
+<form action="//www.php.net/bar.php" method="get"> </a>
+
+Test use_trans_sid=0
+<a href="?%3CNAME%3E=%3CVALUE%3E"> </a>
+<a href="./foo.php?%3CNAME%3E=%3CVALUE%3E"> </a>
+<a href="//php.net/foo.php"> </a>
+<a href="http://php.net/foo.php"> </a>
+<a href="bad://php.net/foo.php"> </a>
+<a href="//www.php.net/foo.php"> </a>
+
+<form method="get"> </form>
+<form action="./foo.php" method="get"><input type="hidden" name="&lt;NAME&gt;" value="&lt;VALUE&gt;" /> </a>
+<form action="//php.net/bar.php" method="get"> </a>
+<form action="http://php.net/bar.php" method="get"> </a>
+<form action="bad://php.net/bar.php" method="get"> </a>
+<form action="//www.php.net/bar.php" method="get"> </a>
+
+Test use_trans_sid=1
+<a href="?%3CNAME%3E=%3CVALUE%3E"> </a>
+<a href="./foo.php?%3CNAME%3E=%3CVALUE%3E"> </a>
+<a href="//php.net/foo.php"> </a>
+<a href="http://php.net/foo.php"> </a>
+<a href="bad://php.net/foo.php"> </a>
+<a href="//www.php.net/foo.php"> </a>
+
+<form method="get"> </form>
+<form action="./foo.php" method="get"><input type="hidden" name="&lt;NAME&gt;" value="&lt;VALUE&gt;" /> </a>
+<form action="//php.net/bar.php" method="get"> </a>
+<form action="http://php.net/bar.php" method="get"> </a>
+<form action="bad://php.net/bar.php" method="get"> </a>
+<form action="//www.php.net/bar.php" method="get"> </a>
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Without session
+<a href="?%3CNAME%3E=%3CVALUE%3E"> </a>
+<a href="./foo.php?%3CNAME%3E=%3CVALUE%3E"> </a>
+<a href="//php.net/foo.php"> </a>
+<a href="http://php.net/foo.php"> </a>
+<a href="bad://php.net/foo.php"> </a>
+<a href="//www.php.net/foo.php"> </a>
+
+<form method="get"><input type="hidden" name="&lt;NAME&gt;" value="&lt;VALUE&gt;" /> </form>
+<form action="./foo.php" method="get"><input type="hidden" name="&lt;NAME&gt;" value="&lt;VALUE&gt;" /> </a>
+<form action="//php.net/bar.php" method="get"> </a>
+<form action="http://php.net/bar.php" method="get"> </a>
+<form action="bad://php.net/bar.php" method="get"> </a>
+<form action="//www.php.net/bar.php" method="get"> </a>
+
+Test use_trans_sid=0
+<a href="?%3CNAME%3E=%3CVALUE%3E"> </a>
+<a href="./foo.php?%3CNAME%3E=%3CVALUE%3E"> </a>
+<a href="//php.net/foo.php"> </a>
+<a href="http://php.net/foo.php"> </a>
+<a href="bad://php.net/foo.php"> </a>
+<a href="//www.php.net/foo.php"> </a>
+
+<form method="get"> </form>
+<form action="./foo.php" method="get"><input type="hidden" name="&lt;NAME&gt;" value="&lt;VALUE&gt;" /> </a>
+<form action="//php.net/bar.php" method="get"> </a>
+<form action="http://php.net/bar.php" method="get"> </a>
+<form action="bad://php.net/bar.php" method="get"> </a>
+<form action="//www.php.net/bar.php" method="get"> </a>
+
+Test use_trans_sid=1
+<a href="?%3CNAME%3E=%3CVALUE%3E"> </a>
+<a href="./foo.php?%3CNAME%3E=%3CVALUE%3E"> </a>
+<a href="//php.net/foo.php"> </a>
+<a href="http://php.net/foo.php"> </a>
+<a href="bad://php.net/foo.php"> </a>
+<a href="//www.php.net/foo.php"> </a>
+
+<form method="get"> </form>
+<form action="./foo.php" method="get"><input type="hidden" name="&lt;NAME&gt;" value="&lt;VALUE&gt;" /> </a>
+<form action="//php.net/bar.php" method="get"> </a>
+<form action="http://php.net/bar.php" method="get"> </a>
+<form action="bad://php.net/bar.php" method="get"> </a>
+<form action="//www.php.net/bar.php" method="get"> </a>
+---- FAILED

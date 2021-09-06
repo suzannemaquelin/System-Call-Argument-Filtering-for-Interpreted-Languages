@@ -1,0 +1,56 @@
+001+ Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+006- }
+007- 
+008- -- Ensure userspace classes are not listed --
+009- bool(false)
+010- 
+011- -- Ensure userspace interfaces are listed --
+012- bool(true)
+013- Done
+007+   string(11) "Traversable"
+008+   [1]=>
+009+   string(17) "IteratorAggregate"
+010+   [2]=>
+011+   string(8) "Iterator"
+012+   [3]=>
+013+   string(11) "ArrayAccess"
+014+   [4]=>
+015+   string(12) "Serializable"
+016+   [5]=>
+017+   string(9) "Throwable"
+018+   [6]=>
+019+   string(18) "_ZendTestInterface"
+020+   [7]=>
+021+   string(17) "DateTimeInterface"
+022+   [8]=>
+023+   string(17) "RecursiveIterator"
+024+   [9]=>
+025+   string(13) "OuterIterator"
+026+   [10]=>
+027+   string(9) "Countable"
+028+   [11]=>
+029+   string(16) "SeekableIterator"
+030+   [12]=>
+031+   string(11) "SplObserver"
+032+   [13]=>
+033+   string(10) "SplSubject"
+034+   [14]=>
+035+   string(16) "JsonSerializable"
+036+   [15]=>
+037+   string(23) "SessionHandlerInterface"
+038+   [16]=>
+039+   string(18) "SessionIdInterface"
+040+   [17]=>
+041+   string(38) "SessionUpdateTimestampHandlerInterface"
+042+   [18]=>
+043+   string(9) "Reflector"
+044+   [19]=>
+045+   string(1) "I"
+046+ }
+047+ 
+048+ -- Ensure userspace classes are not listed --
+049+ bool(false)
+050+ 
+051+ -- Ensure userspace interfaces are listed --
+052+ bool(true)
+053+ Done

@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+array(2) {
+  ["testing(name)"]=>
+  %string|unicode%(3) "php"
+  [0]=>
+  %string|unicode%(3) "php"
+}
+array(2) {
+  ["testing(name)"]=>
+  %string|unicode%(4) "php6"
+  [0]=>
+  %string|unicode%(4) "php6"
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(2) {
+  ["testing(name)"]=>
+  string(3) "php"
+  [0]=>
+  string(3) "php"
+}
+array(2) {
+  ["testing(name)"]=>
+  string(4) "php6"
+  [0]=>
+  string(4) "php6"
+}
+---- FAILED

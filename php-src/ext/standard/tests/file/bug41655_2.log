@@ -1,0 +1,17 @@
+
+---- EXPECTED OUTPUT
+Array
+(
+    [0] => %stest.csv
+    [1] => %stest2.csv
+    [2] => %stest3.csv
+)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Array
+(
+    [0] => /root/php-src/ext/standard/tests/file/test.csv
+    [1] => /root/php-src/ext/standard/tests/file/test2.csv
+    [2] => /root/php-src/ext/standard/tests/file/test3.csv
+)
+---- FAILED

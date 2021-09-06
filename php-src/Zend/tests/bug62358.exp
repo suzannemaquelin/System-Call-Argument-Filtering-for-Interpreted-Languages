@@ -1,0 +1,1 @@
+Fatal error: Declaration of B::foo($var) must be compatible with I::foo() in %sbug62358.php on line 17

@@ -1,0 +1,46 @@
+
+---- EXPECTED OUTPUT
+Warning: Division by zero in %sbug69957.php on line %d
+float(INF)
+
+Variable mod
+Type: DivisionByZeroError
+Message: Modulo by zero
+
+Warning: Division by zero in %sbug69957.php on line %d
+float(INF)
+
+Literal mod
+Type: DivisionByZeroError
+Message: Modulo by zero
+
+Warning: Division by zero in %sbug69957.php on line %d
+float(INF)
+
+Double mod
+Type: DivisionByZeroError
+Message: Modulo by zero
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: Division by zero in /root/php-src/Zend/tests/bug69957.php on line 5
+float(INF)
+
+Variable mod
+Type: DivisionByZeroError
+Message: Modulo by zero
+
+Warning: Division by zero in /root/php-src/Zend/tests/bug69957.php on line 24
+float(INF)
+
+Literal mod
+Type: DivisionByZeroError
+Message: Modulo by zero
+
+Warning: Division by zero in /root/php-src/Zend/tests/bug69957.php on line 42
+float(INF)
+
+Double mod
+Type: DivisionByZeroError
+Message: Modulo by zero
+---- FAILED

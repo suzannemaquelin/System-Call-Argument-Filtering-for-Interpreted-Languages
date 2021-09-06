@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Parse error: Invalid UTF-8 codepoint escape sequence in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Parse error: Invalid UTF-8 codepoint escape sequence in /root/php-src/tests/lang/string/unicode_escape_sign2.php on line 3
+---- FAILED

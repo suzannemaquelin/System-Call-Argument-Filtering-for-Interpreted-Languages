@@ -1,0 +1,59 @@
+
+---- EXPECTED OUTPUT
+object(ReflectionProperty)#%d (2) {
+  ["name"]=>
+  string(1) "z"
+  ["class"]=>
+  string(1) "x"
+}
+bool(false)
+bool(true)
+bool(false)
+string(1) "z"
+array(1) {
+  [0]=>
+  string(6) "public"
+}
+int(1000)
+---------------------------
+string(30) "Property x::$zz does not exist"
+object(ReflectionProperty)#%d (2) {
+  ["name"]=>
+  string(3) "zzz"
+  ["class"]=>
+  string(1) "x"
+}
+int(2)
+bool(false)
+bool(true)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(ReflectionProperty)#2 (2) {
+  ["name"]=>
+  string(1) "z"
+  ["class"]=>
+  string(1) "x"
+}
+bool(false)
+bool(true)
+bool(false)
+string(1) "z"
+array(1) {
+  [0]=>
+  string(6) "public"
+}
+int(1000)
+---------------------------
+string(30) "Property x::$zz does not exist"
+object(ReflectionProperty)#3 (2) {
+  ["name"]=>
+  string(3) "zzz"
+  ["class"]=>
+  string(1) "x"
+}
+int(2)
+bool(false)
+bool(true)
+===DONE===
+---- FAILED

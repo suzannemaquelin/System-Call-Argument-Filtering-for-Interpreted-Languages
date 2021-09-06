@@ -1,0 +1,7 @@
+001+ /opt/php-7.1/bin/php: symbol lookup error: /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: undefined symbol: print
+001- resource(%d) of type (stream)
+002- string(5) "file1"
+003- string(5) "file1"
+004- string(3) "fil"
+005- string(4) "b0rk"
+006- ==DONE==

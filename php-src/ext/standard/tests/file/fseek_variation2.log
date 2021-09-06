@@ -1,0 +1,177 @@
+
+---- EXPECTED OUTPUT
+*** Testing fseek() : usage variations ***
+
+Arg value -100 
+int(-1)
+int(0)
+
+Arg value 100 
+int(-1)
+int(0)
+
+Arg value 10.5 
+int(-1)
+int(0)
+
+Arg value -10.5 
+int(-1)
+int(0)
+
+Arg value 101234567000 
+int(-1)
+int(0)
+
+Arg value 1.07654321E-9 
+int(0)
+int(3)
+
+Arg value 0.5 
+int(0)
+int(3)
+
+Arg value  
+int(0)
+int(3)
+
+Arg value  
+int(0)
+int(3)
+
+Arg value 1 
+int(0)
+int(6)
+
+Arg value  
+int(0)
+int(3)
+
+Arg value 1 
+int(0)
+int(6)
+
+Arg value  
+int(0)
+int(3)
+
+Arg value  
+
+Warning: fseek() expects parameter 3 to be integer, string given in %s on line %d
+bool(false)
+int(3)
+
+Arg value  
+
+Warning: fseek() expects parameter 3 to be integer, string given in %s on line %d
+bool(false)
+int(3)
+
+Arg value string 
+
+Warning: fseek() expects parameter 3 to be integer, string given in %s on line %d
+bool(false)
+int(3)
+
+Arg value string 
+
+Warning: fseek() expects parameter 3 to be integer, string given in %s on line %d
+bool(false)
+int(3)
+
+Arg value  
+int(0)
+int(3)
+
+Arg value  
+int(0)
+int(3)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing fseek() : usage variations ***
+
+Arg value -100 
+int(-1)
+int(0)
+
+Arg value 100 
+int(-1)
+int(0)
+
+Arg value 10.5 
+int(-1)
+int(0)
+
+Arg value -10.5 
+int(-1)
+int(0)
+
+Arg value 101234567000 
+int(-1)
+int(0)
+
+Arg value 1.07654321E-9 
+int(0)
+int(3)
+
+Arg value 0.5 
+int(0)
+int(3)
+
+Arg value  
+int(0)
+int(3)
+
+Arg value  
+int(0)
+int(3)
+
+Arg value 1 
+int(0)
+int(6)
+
+Arg value  
+int(0)
+int(3)
+
+Arg value 1 
+int(0)
+int(6)
+
+Arg value  
+int(0)
+int(3)
+
+Arg value  
+
+Warning: fseek() expects parameter 3 to be integer, string given in /root/php-src/ext/standard/tests/file/fseek_variation2.php on line 60
+bool(false)
+int(3)
+
+Arg value  
+
+Warning: fseek() expects parameter 3 to be integer, string given in /root/php-src/ext/standard/tests/file/fseek_variation2.php on line 60
+bool(false)
+int(3)
+
+Arg value string 
+
+Warning: fseek() expects parameter 3 to be integer, string given in /root/php-src/ext/standard/tests/file/fseek_variation2.php on line 60
+bool(false)
+int(3)
+
+Arg value string 
+
+Warning: fseek() expects parameter 3 to be integer, string given in /root/php-src/ext/standard/tests/file/fseek_variation2.php on line 60
+bool(false)
+int(3)
+
+Arg value  
+int(0)
+int(3)
+
+Arg value  
+int(0)
+int(3)
+Done
+---- FAILED

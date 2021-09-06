@@ -1,0 +1,31 @@
+
+---- EXPECTED OUTPUT
+*** Testing preg_quote() : error conditions ***
+
+Arg value is: this is a string
+string(16) "this is a string"
+
+Arg value is: Array
+
+Warning: preg_quote() expects parameter 1 to be string, array given in %spreg_quote_error1.php on line %d
+NULL
+
+Warning: preg_quote() expects parameter 1 to be string, object given in %spreg_quote_error1.php on line %d
+NULL
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing preg_quote() : error conditions ***
+
+Arg value is: this is a string
+string(16) "this is a string"
+
+Arg value is: Array
+
+Warning: preg_quote() expects parameter 1 to be string, array given in /root/php-src/ext/pcre/tests/preg_quote_error1.php on line 14
+NULL
+
+Warning: preg_quote() expects parameter 1 to be string, object given in /root/php-src/ext/pcre/tests/preg_quote_error1.php on line 17
+NULL
+Done
+---- FAILED

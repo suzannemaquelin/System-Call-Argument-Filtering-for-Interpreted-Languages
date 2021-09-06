@@ -1,0 +1,81 @@
+
+---- EXPECTED OUTPUT
+*** Testing expm1() : basic functionality ***
+
+-- Iteration 1 --
+float(22025.465794807)
+
+-- Iteration 2 --
+float(29731.618852891)
+
+-- Iteration 3 --
+float(INF)
+
+-- Iteration 4 --
+float(29048849665246)
+
+-- Iteration 5 --
+float(1.811239082889E+41)
+
+-- Iteration 6 --
+float(22025.465794807)
+
+-- Iteration 7 --
+float(INF)
+
+-- Iteration 8 --
+float(INF)
+
+-- Iteration 9 --
+float(8.6593400423994E+16)
+
+-- Iteration 10 --
+float(1.718281828459)
+
+-- Iteration 11 --
+float(0)
+
+-- Iteration 12 --
+float(0)
+===Done===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing expm1() : basic functionality ***
+
+-- Iteration 1 --
+float(22025.465794807)
+
+-- Iteration 2 --
+float(29731.618852891)
+
+-- Iteration 3 --
+float(INF)
+
+-- Iteration 4 --
+float(29048849665246)
+
+-- Iteration 5 --
+float(1.811239082889E+41)
+
+-- Iteration 6 --
+float(22025.465794807)
+
+-- Iteration 7 --
+float(INF)
+
+-- Iteration 8 --
+float(INF)
+
+-- Iteration 9 --
+float(8.6593400423994E+16)
+
+-- Iteration 10 --
+float(1.718281828459)
+
+-- Iteration 11 --
+float(0)
+
+-- Iteration 12 --
+float(0)
+===Done===
+---- FAILED

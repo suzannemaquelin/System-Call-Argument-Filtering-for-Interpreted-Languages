@@ -1,0 +1,36 @@
+
+---- EXPECTED OUTPUT
+Warning: readfile(foo/hi): failed to open stream: No such file or directory in phar://%sphar_gobyebye.phar.php/foo/hi on line %d
+
+Warning: fopen(foo/hi): failed to open stream: No such file or directory in phar://%sphar_gobyebye.phar.php/foo/hi on line %d
+
+Warning: file_get_contents(foo/hi): failed to open stream: No such file or directory in phar://%sphar_gobyebye.phar.php/foo/hi on line %d
+
+Warning: stat(): stat failed for foo/hi in phar://%sphar_gobyebye.phar.php/foo/hi on line %d
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+
+Warning: opendir(foo/hi): failed to open dir: No such file or directory in phar://%sphar_gobyebye.phar.php/foo/hi on line %d
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: readfile(foo/hi): failed to open stream: No such file or directory in phar:///root/php-src/ext/phar/tests/phar_gobyebye.phar.php/foo/hi on line 3
+
+Warning: fopen(foo/hi): failed to open stream: No such file or directory in phar:///root/php-src/ext/phar/tests/phar_gobyebye.phar.php/foo/hi on line 4
+
+Warning: file_get_contents(foo/hi): failed to open stream: No such file or directory in phar:///root/php-src/ext/phar/tests/phar_gobyebye.phar.php/foo/hi on line 5
+
+Warning: stat(): stat failed for foo/hi in phar:///root/php-src/ext/phar/tests/phar_gobyebye.phar.php/foo/hi on line 6
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+
+Warning: opendir(foo/hi): failed to open dir: No such file or directory in phar:///root/php-src/ext/phar/tests/phar_gobyebye.phar.php/foo/hi on line 7
+===DONE===
+---- FAILED

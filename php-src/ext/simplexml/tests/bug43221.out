@@ -1,0 +1,6 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: SimpleXMLElement::addAttribute(): Attribute requires prefix for namespace in /root/php-src/ext/simplexml/tests/bug43221.php on line 5
+<?xml version="1.0" encoding="utf-8"?>
+<root><node xmlns:foo="http://bar.com" a="b" foo:e="f">value</node></root>
+===DONE===

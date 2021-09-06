@@ -1,0 +1,12 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Exception: Access to undeclared static property: C::$a in /root/php-src/Zend/tests/exception_013.php on line 7
+
+Exception: Cannot access private property C::$p in /root/php-src/Zend/tests/exception_013.php on line 13
+
+Exception: Attempt to unset static property C::$a in /root/php-src/Zend/tests/exception_013.php on line 19
+
+Fatal error: Uncaught Error: Access to undeclared static property: C::$a in /root/php-src/Zend/tests/exception_013.php:24
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/Zend/tests/exception_013.php on line 24

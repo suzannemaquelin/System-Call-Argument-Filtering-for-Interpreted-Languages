@@ -1,0 +1,99 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(false)
+bool(true)
+int(0)
+int(0)
+float(0)
+float(0)
+string(0) ""
+string(15) "
+test
+  
+  
+  
+"
+array(0) {
+}
+array(1) {
+  ["person"]=>
+  array(3) {
+    [0]=>
+    object(SimpleXMLElement)#3 (1) {
+      ["@attributes"]=>
+      array(1) {
+        ["name"]=>
+        string(3) "Joe"
+      }
+    }
+    [1]=>
+    object(SimpleXMLElement)#4 (2) {
+      ["@attributes"]=>
+      array(1) {
+        ["name"]=>
+        string(4) "John"
+      }
+      ["children"]=>
+      object(SimpleXMLElement)#6 (1) {
+        ["person"]=>
+        object(SimpleXMLElement)#7 (1) {
+          ["@attributes"]=>
+          array(1) {
+            ["name"]=>
+            string(3) "Joe"
+          }
+        }
+      }
+    }
+    [2]=>
+    object(SimpleXMLElement)#5 (1) {
+      ["@attributes"]=>
+      array(1) {
+        ["name"]=>
+        string(4) "Jane"
+      }
+    }
+  }
+}
+object(SimpleXMLElement)#1 (0) {
+}
+object(SimpleXMLElement)#2 (1) {
+  ["person"]=>
+  array(3) {
+    [0]=>
+    object(SimpleXMLElement)#6 (1) {
+      ["@attributes"]=>
+      array(1) {
+        ["name"]=>
+        string(3) "Joe"
+      }
+    }
+    [1]=>
+    object(SimpleXMLElement)#7 (2) {
+      ["@attributes"]=>
+      array(1) {
+        ["name"]=>
+        string(4) "John"
+      }
+      ["children"]=>
+      object(SimpleXMLElement)#9 (1) {
+        ["person"]=>
+        object(SimpleXMLElement)#10 (1) {
+          ["@attributes"]=>
+          array(1) {
+            ["name"]=>
+            string(3) "Joe"
+          }
+        }
+      }
+    }
+    [2]=>
+    object(SimpleXMLElement)#8 (1) {
+      ["@attributes"]=>
+      array(1) {
+        ["name"]=>
+        string(4) "Jane"
+      }
+    }
+  }
+}
+===DONE===

@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+*** Testing ctype_space() : error conditions ***
+
+-- Testing ctype_space() function with Zero arguments --
+
+Warning: ctype_space() expects exactly 1 parameter, 0 given in %s on line %d
+NULL
+
+-- Testing ctype_space() function with more than expected no. of arguments --
+
+Warning: ctype_space() expects exactly 1 parameter, 2 given in %s on line %d
+NULL
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing ctype_space() : error conditions ***
+
+-- Testing ctype_space() function with Zero arguments --
+
+Warning: ctype_space() expects exactly 1 parameter, 0 given in /root/php-src/ext/ctype/tests/ctype_space_error.php on line 17
+NULL
+
+-- Testing ctype_space() function with more than expected no. of arguments --
+
+Warning: ctype_space() expects exactly 1 parameter, 2 given in /root/php-src/ext/ctype/tests/ctype_space_error.php on line 23
+NULL
+===DONE===
+---- FAILED

@@ -1,0 +1,5 @@
+object(ReflectionParameter)#%d (1) {
+  ["name"]=>
+  string(6) "method"
+}
+bool(true)

@@ -1,0 +1,273 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing fputcsv() : with enclosure & delimiter of two chars and file opened in read mode ***
+
+-- file opened in r --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rb --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rt --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rb --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rt --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rb --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rt --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rb --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rt --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rb --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rt --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rb --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rt --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rb --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rt --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rb --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rt --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in r --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rb --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+
+-- file opened in rt --
+
+Notice: fputcsv(): delimiter must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+
+Notice: fputcsv(): enclosure must be a single character in /root/php-src/ext/standard/tests/file/fputcsv_variation14.php on line 64
+int(0)
+int(0)
+bool(false)
+string(0) ""
+Done

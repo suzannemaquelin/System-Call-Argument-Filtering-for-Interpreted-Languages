@@ -1,0 +1,153 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Testing 'int' type:
+*** Trying int(1)
+int(1)
+*** Trying string(1) "1"
+int(1)
+*** Trying float(1)
+int(1)
+*** Trying float(1.5)
+int(1)
+*** Trying string(2) "1a"
+E_NOTICE: A non well formed numeric value encountered on line 14
+int(1)
+*** Trying string(1) "a"
+*** Caught Return value of {closure}() must be of the type integer, string returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 14
+*** Trying string(0) ""
+*** Caught Return value of {closure}() must be of the type integer, string returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 14
+*** Trying int(9223372036854775807)
+int(9223372036854775807)
+*** Trying float(NAN)
+*** Caught Return value of {closure}() must be of the type integer, float returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 14
+*** Trying bool(true)
+int(1)
+*** Trying bool(false)
+int(0)
+*** Trying NULL
+*** Caught Return value of {closure}() must be of the type integer, null returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 14
+*** Trying array(0) {
+}
+*** Caught Return value of {closure}() must be of the type integer, array returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 14
+*** Trying object(stdClass)#6 (0) {
+}
+*** Caught Return value of {closure}() must be of the type integer, object returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 14
+*** Trying object(Stringable)#7 (0) {
+}
+*** Caught Return value of {closure}() must be of the type integer, object returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 14
+*** Trying resource(5) of type (stream)
+*** Caught Return value of {closure}() must be of the type integer, resource returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 14
+
+Testing 'float' type:
+*** Trying int(1)
+float(1)
+*** Trying string(1) "1"
+float(1)
+*** Trying float(1)
+float(1)
+*** Trying float(1.5)
+float(1.5)
+*** Trying string(2) "1a"
+E_NOTICE: A non well formed numeric value encountered on line 15
+float(1)
+*** Trying string(1) "a"
+*** Caught Return value of {closure}() must be of the type float, string returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 15
+*** Trying string(0) ""
+*** Caught Return value of {closure}() must be of the type float, string returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 15
+*** Trying int(9223372036854775807)
+float(9.2233720368548E+18)
+*** Trying float(NAN)
+float(NAN)
+*** Trying bool(true)
+float(1)
+*** Trying bool(false)
+float(0)
+*** Trying NULL
+*** Caught Return value of {closure}() must be of the type float, null returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 15
+*** Trying array(0) {
+}
+*** Caught Return value of {closure}() must be of the type float, array returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 15
+*** Trying object(stdClass)#6 (0) {
+}
+*** Caught Return value of {closure}() must be of the type float, object returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 15
+*** Trying object(Stringable)#7 (0) {
+}
+*** Caught Return value of {closure}() must be of the type float, object returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 15
+*** Trying resource(5) of type (stream)
+*** Caught Return value of {closure}() must be of the type float, resource returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 15
+
+Testing 'string' type:
+*** Trying int(1)
+string(1) "1"
+*** Trying string(1) "1"
+string(1) "1"
+*** Trying float(1)
+string(1) "1"
+*** Trying float(1.5)
+string(3) "1.5"
+*** Trying string(2) "1a"
+string(2) "1a"
+*** Trying string(1) "a"
+string(1) "a"
+*** Trying string(0) ""
+string(0) ""
+*** Trying int(9223372036854775807)
+string(19) "9223372036854775807"
+*** Trying float(NAN)
+string(3) "NAN"
+*** Trying bool(true)
+string(1) "1"
+*** Trying bool(false)
+string(0) ""
+*** Trying NULL
+*** Caught Return value of {closure}() must be of the type string, null returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 16
+*** Trying array(0) {
+}
+*** Caught Return value of {closure}() must be of the type string, array returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 16
+*** Trying object(stdClass)#6 (0) {
+}
+*** Caught Return value of {closure}() must be of the type string, object returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 16
+*** Trying object(Stringable)#7 (0) {
+}
+string(6) "foobar"
+*** Trying resource(5) of type (stream)
+*** Caught Return value of {closure}() must be of the type string, resource returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 16
+
+Testing 'bool' type:
+*** Trying int(1)
+bool(true)
+*** Trying string(1) "1"
+bool(true)
+*** Trying float(1)
+bool(true)
+*** Trying float(1.5)
+bool(true)
+*** Trying string(2) "1a"
+bool(true)
+*** Trying string(1) "a"
+bool(true)
+*** Trying string(0) ""
+bool(false)
+*** Trying int(9223372036854775807)
+bool(true)
+*** Trying float(NAN)
+bool(true)
+*** Trying bool(true)
+bool(true)
+*** Trying bool(false)
+bool(false)
+*** Trying NULL
+*** Caught Return value of {closure}() must be of the type boolean, null returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 17
+*** Trying array(0) {
+}
+*** Caught Return value of {closure}() must be of the type boolean, array returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 17
+*** Trying object(stdClass)#6 (0) {
+}
+*** Caught Return value of {closure}() must be of the type boolean, object returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 17
+*** Trying object(Stringable)#7 (0) {
+}
+*** Caught Return value of {closure}() must be of the type boolean, object returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 17
+*** Trying resource(5) of type (stream)
+*** Caught Return value of {closure}() must be of the type boolean, resource returned in /root/php-src/Zend/tests/type_declarations/scalar_return_basic_64bit.php on line 17
+
+Done

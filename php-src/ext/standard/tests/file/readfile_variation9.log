@@ -1,0 +1,67 @@
+
+---- EXPECTED OUTPUT
+*** Testing readfile() : variation ***
+
+-- Iteration 1 --
+The File Contents
+-- Iteration 2 --
+The File Contents
+-- Iteration 3 --
+The File Contents
+-- Iteration 4 --
+The File Contents
+-- Iteration 5 --
+
+Warning: readfile(%sreadfileVar8Sub/..///readfileVar8Sub//..//../readfileVar8Sub/fileToRead.tmp): failed to open stream: No such file or directory in %s on line %d
+
+-- Iteration 6 --
+
+Warning: readfile(%sreadfileVar8Sub/BADDIR/fileToRead.tmp): failed to open stream: No such file or directory in %s on line %d
+
+-- Iteration 7 --
+The File Contents
+-- Iteration 8 --
+The File Contents
+-- Iteration 9 --
+The File Contents
+-- Iteration 10 --
+The File Contents
+-- Iteration 11 --
+
+Warning: readfile(BADDIR/fileToRead.tmp): failed to open stream: No such file or directory in %s on line %d
+
+*** Done ***
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing readfile() : variation ***
+
+-- Iteration 1 --
+The File Contents
+-- Iteration 2 --
+The File Contents
+-- Iteration 3 --
+The File Contents
+-- Iteration 4 --
+The File Contents
+-- Iteration 5 --
+
+Warning: readfile(/root/php-src/ext/standard/tests/file/readfileVar8/readfileVar8Sub/..///readfileVar8Sub//..//../readfileVar8Sub/fileToRead.tmp): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/file/readfile_variation9.php on line 50
+
+-- Iteration 6 --
+
+Warning: readfile(/root/php-src/ext/standard/tests/file/readfileVar8/readfileVar8Sub/BADDIR/fileToRead.tmp): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/file/readfile_variation9.php on line 50
+
+-- Iteration 7 --
+The File Contents
+-- Iteration 8 --
+The File Contents
+-- Iteration 9 --
+The File Contents
+-- Iteration 10 --
+The File Contents
+-- Iteration 11 --
+
+Warning: readfile(BADDIR/fileToRead.tmp): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/file/readfile_variation9.php on line 50
+
+*** Done ***
+---- FAILED

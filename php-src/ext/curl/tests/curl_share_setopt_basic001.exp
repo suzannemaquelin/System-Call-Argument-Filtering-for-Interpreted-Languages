@@ -1,0 +1,5 @@
+bool(true)
+bool(true)
+
+Warning: curl_share_setopt(): Invalid curl share configuration option in %s on line %d
+bool(false)

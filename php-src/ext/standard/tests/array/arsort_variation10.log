@@ -1,0 +1,147 @@
+
+---- EXPECTED OUTPUT
+*** Testing arsort() : usage variations ***
+
+-- Testing arsort() by supplying octal value array, 'flag' value is defualt  --
+bool(true)
+array(9) {
+  [669]=>
+  int(669)
+  [506]=>
+  int(506)
+  [229]=>
+  int(229)
+  [209]=>
+  int(209)
+  [63]=>
+  int(63)
+  [54]=>
+  int(54)
+  [0]=>
+  int(0)
+  [-54]=>
+  int(-54)
+  [-229]=>
+  int(-229)
+}
+
+-- Testing arsort() by supplying octal value array, 'flag' value is SORT_REGULAR  --
+bool(true)
+array(9) {
+  [669]=>
+  int(669)
+  [506]=>
+  int(506)
+  [229]=>
+  int(229)
+  [209]=>
+  int(209)
+  [63]=>
+  int(63)
+  [54]=>
+  int(54)
+  [0]=>
+  int(0)
+  [-54]=>
+  int(-54)
+  [-229]=>
+  int(-229)
+}
+
+-- Testing arsort() by supplying octal value array, 'flag' value is SORT_NUMERIC  --
+bool(true)
+array(9) {
+  [669]=>
+  int(669)
+  [506]=>
+  int(506)
+  [229]=>
+  int(229)
+  [209]=>
+  int(209)
+  [63]=>
+  int(63)
+  [54]=>
+  int(54)
+  [0]=>
+  int(0)
+  [-54]=>
+  int(-54)
+  [-229]=>
+  int(-229)
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing arsort() : usage variations ***
+
+-- Testing arsort() by supplying octal value array, 'flag' value is defualt  --
+bool(true)
+array(9) {
+  [669]=>
+  int(669)
+  [506]=>
+  int(506)
+  [229]=>
+  int(229)
+  [209]=>
+  int(209)
+  [63]=>
+  int(63)
+  [54]=>
+  int(54)
+  [0]=>
+  int(0)
+  [-54]=>
+  int(-54)
+  [-229]=>
+  int(-229)
+}
+
+-- Testing arsort() by supplying octal value array, 'flag' value is SORT_REGULAR  --
+bool(true)
+array(9) {
+  [669]=>
+  int(669)
+  [506]=>
+  int(506)
+  [229]=>
+  int(229)
+  [209]=>
+  int(209)
+  [63]=>
+  int(63)
+  [54]=>
+  int(54)
+  [0]=>
+  int(0)
+  [-54]=>
+  int(-54)
+  [-229]=>
+  int(-229)
+}
+
+-- Testing arsort() by supplying octal value array, 'flag' value is SORT_NUMERIC  --
+bool(true)
+array(9) {
+  [669]=>
+  int(669)
+  [506]=>
+  int(506)
+  [229]=>
+  int(229)
+  [209]=>
+  int(209)
+  [63]=>
+  int(63)
+  [54]=>
+  int(54)
+  [0]=>
+  int(0)
+  [-54]=>
+  int(-54)
+  [-229]=>
+  int(-229)
+}
+Done
+---- FAILED

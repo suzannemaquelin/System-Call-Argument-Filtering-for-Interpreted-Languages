@@ -1,0 +1,59 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+SXETest::rewind
+SXETest::valid
+SXETest::hasChildren
+SXETest::valid
+SXETest::current
+string(7) "SXETest"
+string(10) "Bla bla 1."
+SXETest::getChildren
+SXETest::rewind
+SXETest::valid
+SXETest::hasChildren
+SXETest::valid
+SXETest::current
+string(7) "SXETest"
+string(28) "Here we have some text data."
+SXETest::getChildren
+SXETest::rewind
+SXETest::valid
+SXETest::hasChildren
+SXETest::valid
+SXETest::current
+string(7) "SXETest"
+string(19) "And here some more."
+SXETest::getChildren
+SXETest::rewind
+SXETest::valid
+SXETest::hasChildren
+SXETest::valid
+SXETest::current
+string(7) "SXETest"
+string(15) "Wow once again."
+SXETest::next
+SXETest::valid
+SXETest::next
+SXETest::valid
+SXETest::next
+SXETest::valid
+SXETest::next
+SXETest::valid
+SXETest::hasChildren
+SXETest::valid
+SXETest::current
+string(7) "SXETest"
+string(10) "Bla bla 2."
+SXETest::getChildren
+SXETest::rewind
+SXETest::valid
+SXETest::hasChildren
+SXETest::valid
+SXETest::current
+string(7) "SXETest"
+string(7) "Foo Bar"
+SXETest::next
+SXETest::valid
+SXETest::next
+SXETest::valid
+SXETest::valid
+===DONE===

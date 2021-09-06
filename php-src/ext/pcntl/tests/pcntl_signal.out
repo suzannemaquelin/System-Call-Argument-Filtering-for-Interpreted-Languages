@@ -1,0 +1,17 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+signal dispatched
+got signal from 15835
+
+Warning: pcntl_signal() expects at least 2 parameters, 0 given in /root/php-src/ext/pcntl/tests/pcntl_signal.php on line 14
+NULL
+bool(true)
+
+Warning: pcntl_signal(): Invalid signal in /root/php-src/ext/pcntl/tests/pcntl_signal.php on line 16
+bool(false)
+
+Warning: pcntl_signal(): Invalid signal in /root/php-src/ext/pcntl/tests/pcntl_signal.php on line 17
+bool(false)
+
+Warning: pcntl_signal(): not callable is not a callable function name error in /root/php-src/ext/pcntl/tests/pcntl_signal.php on line 18
+bool(false)
+ok

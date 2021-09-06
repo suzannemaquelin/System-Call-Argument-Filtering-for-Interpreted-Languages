@@ -1,0 +1,22 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: PDO::query() expects at least 1 parameter, 0 given in /root/php-src/ext/pdo_sqlite/tests/bug_44173.php on line 11
+bool(false)
+
+Warning: PDO::query(): SQLSTATE[HY000]: General error: fetch mode doesn't allow any extra arguments in /root/php-src/ext/pdo_sqlite/tests/bug_44173.php on line 16
+bool(false)
+
+Warning: PDO::query(): SQLSTATE[HY000]: General error: mode must be an integer in /root/php-src/ext/pdo_sqlite/tests/bug_44173.php on line 21
+bool(false)
+
+Warning: PDO::query(): SQLSTATE[HY000]: General error: too many arguments in /root/php-src/ext/pdo_sqlite/tests/bug_44173.php on line 26
+bool(false)
+
+Warning: PDO::query(): SQLSTATE[HY000]: General error: fetch mode requires the object parameter in /root/php-src/ext/pdo_sqlite/tests/bug_44173.php on line 31
+bool(false)
+
+Warning: PDO::query(): SQLSTATE[HY000]: General error: fetch mode requires the colno argument in /root/php-src/ext/pdo_sqlite/tests/bug_44173.php on line 36
+bool(false)
+
+Warning: PDO::query(): SQLSTATE[HY000]: General error: fetch mode requires the classname argument in /root/php-src/ext/pdo_sqlite/tests/bug_44173.php on line 41
+bool(false)

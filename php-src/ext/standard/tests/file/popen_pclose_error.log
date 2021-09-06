@@ -1,0 +1,47 @@
+
+---- EXPECTED OUTPUT
+*** Testing for error conditions ***
+
+Warning: popen() expects exactly 2 parameters, 0 given in %s on line %d
+NULL
+
+Warning: popen() expects exactly 2 parameters, 1 given in %s on line %d
+NULL
+
+Warning: popen(abc.txt,rw): %s on line %d
+bool(false)
+
+Warning: pclose() expects exactly 1 parameter, 0 given in %s on line %d
+bool(false)
+
+Warning: pclose() expects exactly 1 parameter, 2 given in %s on line %d
+bool(false)
+
+Warning: pclose() expects parameter 1 to be resource, integer given in %s on line %d
+bool(false)
+
+--- Done ---
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing for error conditions ***
+
+Warning: popen() expects exactly 2 parameters, 0 given in /root/php-src/ext/standard/tests/file/popen_pclose_error.php on line 11
+NULL
+
+Warning: popen() expects exactly 2 parameters, 1 given in /root/php-src/ext/standard/tests/file/popen_pclose_error.php on line 12
+NULL
+
+Warning: popen(abc.txt,rw): Invalid argument in /root/php-src/ext/standard/tests/file/popen_pclose_error.php on line 13
+bool(false)
+
+Warning: pclose() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/popen_pclose_error.php on line 14
+bool(false)
+
+Warning: pclose() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/popen_pclose_error.php on line 16
+bool(false)
+
+Warning: pclose() expects parameter 1 to be resource, integer given in /root/php-src/ext/standard/tests/file/popen_pclose_error.php on line 18
+bool(false)
+
+--- Done ---
+---- FAILED

@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+*** Testing session_set_save_handler() : error functionality ***
+
+Warning: Uncaught Exception: Do something bad..! in %s:%d
+Stack trace:
+#0 [internal function]: open('', 'PHPSESSID')
+#1 %s(%d): session_start()
+#2 {main}
+  thrown in %s on line %d
+
+Fatal error: session_start(): Failed to initialize storage module: %s in %ssession_set_save_handler_error3.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing session_set_save_handler() : error functionality ***
+
+Warning: Uncaught Exception: Do something bad..! in /root/php-src/ext/session/tests/session_set_save_handler_error3.php:13
+Stack trace:
+#0 [internal function]: open('', 'PHPSESSID')
+#1 /root/php-src/ext/session/tests/session_set_save_handler_error3.php(23): session_start()
+#2 {main}
+  thrown in /root/php-src/ext/session/tests/session_set_save_handler_error3.php on line 13
+
+Fatal error: session_start(): Failed to initialize storage module: user (path: ) in /root/php-src/ext/session/tests/session_set_save_handler_error3.php on line 23
+---- FAILED

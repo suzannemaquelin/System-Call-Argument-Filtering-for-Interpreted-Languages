@@ -1,0 +1,27 @@
+
+---- EXPECTED OUTPUT
+Array
+(
+    [2135] => John
+    [3245] => Sally
+)
+object(ColumnKeyClass)#%d (0) {
+}
+object(IndexKeyClass)#%d (0) {
+}
+object(ValueClass)#%d (0) {
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Array
+(
+    [2135] => John
+    [3245] => Sally
+)
+object(ColumnKeyClass)#1 (0) {
+}
+object(IndexKeyClass)#2 (0) {
+}
+object(ValueClass)#3 (0) {
+}
+---- FAILED

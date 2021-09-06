@@ -1,0 +1,77 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing fileattime(), filemtime(), filectime() & touch() : usage variations ***
+-- File access time is => 2022:May:Sun:14:18:00
+-- File modification time is => 2022:May:Sun:14:18:00
+-- inode change time is => 2022:May:Sun:14:18:00
+-- File access time is => 2022:May:Sun:14:18:02
+-- File modification time is => 2022:May:Sun:14:18:02
+-- inode change time is => 2022:May:Sun:14:18:02
+-- File access time is => 2022:May:Sun:14:18:04
+-- File modification time is => 2022:May:Sun:14:18:04
+-- inode change time is => 2022:May:Sun:14:18:04
+
+-- Checking different times, just after creating the file --
+-- File access time is => 2022:May:Sun:14:18:04
+-- File modification time is => 2022:May:Sun:14:18:04
+-- inode change time is => 2022:May:Sun:14:18:04
+
+-- Checking different times, after changing the file permission --
+-- File access time is => 2022:May:Sun:14:18:04
+-- File modification time is => 2022:May:Sun:14:18:04
+-- inode change time is => 2022:May:Sun:14:18:06
+
+-- Checking different times, after writing into the file --
+-- File access time is => 2022:May:Sun:14:18:04
+-- File modification time is => 2022:May:Sun:14:18:08
+-- inode change time is => 2022:May:Sun:14:18:08
+
+-- Checking different times, after reading from the file --
+-- File access time is => 2022:May:Sun:14:18:10
+-- File modification time is => 2022:May:Sun:14:18:08
+-- inode change time is => 2022:May:Sun:14:18:08
+
+-- Checking different times, after creating a softlink to the file --
+-- File access time is => 2022:May:Sun:14:18:10
+-- File modification time is => 2022:May:Sun:14:18:08
+-- inode change time is => 2022:May:Sun:14:18:08
+
+-- Checking different times, after creating a hardlink to the file --
+-- File access time is => 2022:May:Sun:14:18:10
+-- File modification time is => 2022:May:Sun:14:18:08
+-- inode change time is => 2022:May:Sun:14:18:14
+
+-- Checking different times, after making a copy of the file --
+-- File access time is => 2022:May:Sun:14:18:10
+-- File modification time is => 2022:May:Sun:14:18:08
+-- inode change time is => 2022:May:Sun:14:18:14
+
+-- Checking different times, after performing is_file() operation on the file --
+-- File access time is => 2022:May:Sun:14:18:16
+-- File modification time is => 2022:May:Sun:14:18:08
+-- inode change time is => 2022:May:Sun:14:18:14
+
+*** Testing touch() function with different time values ***
+bool(true)
+-- File access time is => 2022:May:Sun:14:18:22
+-- File modification time is => 2022:May:Sun:14:18:22
+-- inode change time is => 2022:May:Sun:14:18:22
+bool(true)
+-- File access time is => 2022:May:Sun:14:18:22
+-- File modification time is => 2022:May:Sun:14:18:22
+-- inode change time is => 2022:May:Sun:14:18:24
+bool(true)
+-- File access time is => 2022:May:Sun:14:18:22
+-- File modification time is => 2022:May:Sun:14:18:22
+-- inode change time is => 2022:May:Sun:14:18:24
+bool(true)
+-- File access time is => 1970:Jan:Thu:00:00:10
+-- File modification time is => 1970:Jan:Thu:00:00:10
+-- inode change time is => 2022:May:Sun:14:18:28
+bool(true)
+-- File access time is => 1970:Jan:Thu:00:00:20
+-- File modification time is => 1970:Jan:Thu:00:00:10
+-- inode change time is => 2022:May:Sun:14:18:28
+-- File access time is => 1970:Jan:Thu:00:00:20
+-- File modification time is => 1970:Jan:Thu:00:00:10
+-- inode change time is => 2022:May:Sun:14:18:28
+Done

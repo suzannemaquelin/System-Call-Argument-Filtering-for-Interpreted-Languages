@@ -1,0 +1,28 @@
+*** Testing date_modify() : error conditions ***
+
+-- Testing date_modify() function with zero arguments --
+
+Warning: date_modify() expects exactly 2 parameters, 0 given in %s on line %d
+bool(false)
+
+-- Testing date_modify() function with less than expected no. of arguments --
+
+Warning: date_modify() expects exactly 2 parameters, 1 given in %s on line %d
+bool(false)
+
+-- Testing date_modify() function with more than expected no. of arguments --
+
+Warning: date_modify() expects exactly 2 parameters, 3 given in %s on line %d
+bool(false)
+
+-- Testing date_modify() function with an invalid values for $object argument --
+
+Warning: date_modify() expects parameter 1 to be DateTime, object given in %s on line %d
+bool(false)
+
+Warning: date_modify() expects parameter 1 to be DateTime, integer given in %s on line %d
+bool(false)
+
+Warning: date_modify() expects parameter 1 to be DateTime, null given in %s on line %d
+bool(false)
+===DONE===

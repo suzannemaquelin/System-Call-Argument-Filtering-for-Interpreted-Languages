@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing opendir() : error conditions ***
+
+-- Pass a non-existent absolute path: --
+
+Warning: opendir(/root/php-src/ext/standard/tests/dir/idonotexist): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/opendir_error2.php on line 15
+bool(false)
+
+-- Pass a non-existent relative path: --
+
+Warning: opendir(idonotexist): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/opendir_error2.php on line 19
+bool(false)
+===DONE===

@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+int(2)
+object(foo)#%d (1) {
+  ["x"]=>
+  int(2)
+}
+int(2)
+bool(true)
+float(1.2)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(2)
+object(foo)#2 (1) {
+  ["x"]=>
+  int(2)
+}
+int(2)
+bool(true)
+float(1.2)
+---- FAILED

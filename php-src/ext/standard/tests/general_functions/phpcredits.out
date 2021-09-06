@@ -1,0 +1,132 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+PHP Credits
+
+PHP Group
+Thies C. Arntzen, Stig Bakken, Shane Caraveo, Andi Gutmans, Rasmus Lerdorf, Sam Ruby, Sascha Schumann, Zeev Suraski, Jim Winstead, Andrei Zmievski
+
+Language Design & Concept
+Andi Gutmans, Rasmus Lerdorf, Zeev Suraski, Marcus Boerger
+
+                               PHP Authors                               
+Contribution => Authors
+Zend Scripting Language Engine => Andi Gutmans, Zeev Suraski, Stanislav Malyshev, Marcus Boerger, Dmitry Stogov, Xinchen Hui, Nikita Popov
+Extension Module API => Andi Gutmans, Zeev Suraski, Andrei Zmievski
+UNIX Build and Modularization => Stig Bakken, Sascha Schumann, Jani Taskinen
+Windows Support => Shane Caraveo, Zeev Suraski, Wez Furlong, Pierre-Alain Joye, Anatol Belski, Kalle Sommer Nielsen
+Server API (SAPI) Abstraction Layer => Andi Gutmans, Shane Caraveo, Zeev Suraski
+Streams Abstraction Layer => Wez Furlong, Sara Golemon
+PHP Data Objects Layer => Wez Furlong, Marcus Boerger, Sterling Hughes, George Schlossnagle, Ilia Alshanetsky
+Output Handler => Zeev Suraski, Thies C. Arntzen, Marcus Boerger, Michael Wallner
+Consistent 64 bit support => Anthony Ferrara, Anatol Belski
+
+                               SAPI Modules                               
+Contribution => Authors
+Apache 2.0 Handler => Ian Holsman, Justin Erenkrantz (based on Apache 2.0 Filter code)
+CGI / FastCGI => Rasmus Lerdorf, Stig Bakken, Shane Caraveo, Dmitry Stogov
+CLI => Edin Kadribasic, Marcus Boerger, Johannes Schlueter, Moriyoshi Koizumi, Xinchen Hui
+Embed => Edin Kadribasic
+FastCGI Process Manager => Andrei Nigmatulin, dreamcat4, Antony Dovgal, Jerome Loyet
+litespeed => George Wang
+phpdbg => Felipe Pena, Joe Watkins, Bob Weinand
+
+                              Module Authors                              
+Module => Authors
+BC Math => Andi Gutmans
+Bzip2 => Sterling Hughes
+Calendar => Shane Caraveo, Colin Viebrock, Hartmut Holzgraefe, Wez Furlong
+COM and .Net => Wez Furlong
+ctype => Hartmut Holzgraefe
+cURL => Sterling Hughes
+Date/Time Support => Derick Rethans
+DB-LIB (MS SQL, Sybase) => Wez Furlong, Frank M. Kromann
+DBA => Sascha Schumann, Marcus Boerger
+DOM => Christian Stocker, Rob Richards, Marcus Boerger
+enchant => Pierre-Alain Joye, Ilia Alshanetsky
+EXIF => Rasmus Lerdorf, Marcus Boerger
+fileinfo => Ilia Alshanetsky, Pierre Alain Joye, Scott MacVicar, Derick Rethans, Anatol Belski
+Firebird driver for PDO => Ard Biesheuvel
+FTP => Stefan Esser, Andrew Skalski
+GD imaging => Rasmus Lerdorf, Stig Bakken, Jim Winstead, Jouni Ahto, Ilia Alshanetsky, Pierre-Alain Joye, Marcus Boerger
+GetText => Alex Plotnick
+GNU GMP support => Stanislav Malyshev
+Iconv => Rui Hirokawa, Stig Bakken, Moriyoshi Koizumi 
+IMAP => Rex Logan, Mark Musone, Brian Wang, Kaj-Michael Lang, Antoni Pamies Olive, Rasmus Lerdorf, Andrew Skalski, Chuck Hagenbuch, Daniel R Kalowsky
+Input Filter => Rasmus Lerdorf, Derick Rethans, Pierre-Alain Joye, Ilia Alshanetsky
+InterBase => Jouni Ahto, Andrew Avdeev, Ard Biesheuvel
+Internationalization => Ed Batutis, Vladimir Iordanov, Dmitry Lakhtyuk, Stanislav Malyshev, Vadim Savchuk, Kirti Velankar
+JSON => Jakub Zelenka, Omar Kilani, Scott MacVicar
+LDAP => Amitay Isaacs, Eric Warnke, Rasmus Lerdorf, Gerrit Thomson, Stig Venaas
+LIBXML => Christian Stocker, Rob Richards, Marcus Boerger, Wez Furlong, Shane Caraveo
+mcrypt => Sascha Schumann, Derick Rethans
+Multibyte String Functions => Tsukada Takuya, Rui Hirokawa
+MySQL driver for PDO => George Schlossnagle, Wez Furlong, Ilia Alshanetsky, Johannes Schlueter
+MySQLi => Zak Greant, Georg Richter, Andrey Hristov, Ulf Wendel
+MySQLnd => Andrey Hristov, Ulf Wendel, Georg Richter, Johannes Schlüter
+OCI8 => Stig Bakken, Thies C. Arntzen, Andy Sautins, David Benson, Maxim Maletsky, Harald Radi, Antony Dovgal, Andi Gutmans, Wez Furlong, Christopher Jones, Oracle Corporation
+ODBC driver for PDO => Wez Furlong
+ODBC => Stig Bakken, Andreas Karajannis, Frank M. Kromann, Daniel R. Kalowsky
+Opcache => Andi Gutmans, Zeev Suraski, Stanislav Malyshev, Dmitry Stogov, Xinchen Hui
+OpenSSL => Stig Venaas, Wez Furlong, Sascha Kettler, Scott MacVicar
+Oracle (OCI) driver for PDO => Wez Furlong
+pcntl => Jason Greene, Arnaud Le Blanc
+Perl Compatible Regexps => Andrei Zmievski
+PHP Archive => Gregory Beaver, Marcus Boerger
+PHP Data Objects => Wez Furlong, Marcus Boerger, Sterling Hughes, George Schlossnagle, Ilia Alshanetsky
+PHP hash => Sara Golemon, Rasmus Lerdorf, Stefan Esser, Michael Wallner, Scott MacVicar
+Posix => Kristian Koehntopp
+PostgreSQL driver for PDO => Edin Kadribasic, Ilia Alshanetsky
+PostgreSQL => Jouni Ahto, Zeev Suraski, Yasuo Ohgaki, Chris Kings-Lynne
+Pspell => Vlad Krupin
+Readline => Thies C. Arntzen
+Recode => Kristian Koehntopp
+Reflection => Marcus Boerger, Timm Friebe, George Schlossnagle, Andrei Zmievski, Johannes Schlueter
+Sessions => Sascha Schumann, Andrei Zmievski
+Shared Memory Operations => Slava Poliakov, Ilia Alshanetsky
+SimpleXML => Sterling Hughes, Marcus Boerger, Rob Richards
+SNMP => Rasmus Lerdorf, Harrie Hazewinkel, Mike Jackson, Steven Lawrance, Johann Hanne, Boris Lytochkin
+SOAP => Brad Lafountain, Shane Caraveo, Dmitry Stogov
+Sockets => Chris Vandomelen, Sterling Hughes, Daniel Beulshausen, Jason Greene
+SPL => Marcus Boerger, Etienne Kneuss
+SQLite 3.x driver for PDO => Wez Furlong
+SQLite3 => Scott MacVicar, Ilia Alshanetsky, Brad Dewar
+System V Message based IPC => Wez Furlong
+System V Semaphores => Tom May
+System V Shared Memory => Christian Cartus
+tidy => John Coggeshall, Ilia Alshanetsky
+tokenizer => Andrei Zmievski, Johannes Schlueter
+WDDX => Andrei Zmievski
+XML => Stig Bakken, Thies C. Arntzen, Sterling Hughes
+XMLReader => Rob Richards
+xmlrpc => Dan Libby
+XMLWriter => Rob Richards, Pierre-Alain Joye
+XSL => Christian Stocker, Rob Richards
+Zip => Pierre-Alain Joye, Remi Collet
+Zlib => Rasmus Lerdorf, Stefan Roehrich, Zeev Suraski, Jade Nicoletti, Michael Wallner
+
+                            PHP Documentation                            
+Authors => Mehdi Achour, Friedhelm Betz, Antony Dovgal, Nuno Lopes, Hannes Magnusson, Philip Olson, Georg Richter, Damien Seguy, Jakub Vrana, Adam Harvey
+Editor => Peter Cowburn
+User Note Maintainers => Daniel P. Brown, Thiago Henrique Pojda
+Other Contributors => Previously active authors, editors and other contributors are listed in the manual.
+
+PHP Quality Assurance Team
+Ilia Alshanetsky, Joerg Behrens, Antony Dovgal, Stefan Esser, Moriyoshi Koizumi, Magnus Maatta, Sebastian Nohn, Derick Rethans, Melvyn Sopacua, Jani Taskinen, Pierre-Alain Joye, Dmitry Stogov, Felipe Pena, David Soria Parra, Stanislav Malyshev, Julien Pauli, Stephen Zarkos, Anatol Belski, Remi Collet, Ferenc Kovacs
+
+                     Websites and Infrastructure team                     
+PHP Websites Team => Rasmus Lerdorf, Hannes Magnusson, Philip Olson, Lukas Kahwe Smith, Pierre-Alain Joye, Kalle Sommer Nielsen, Peter Cowburn, Adam Harvey, Ferenc Kovacs, Levi Morrison
+Event Maintainers => Damien Seguy, Daniel P. Brown
+Network Infrastructure => Daniel P. Brown
+Windows Infrastructure => Alex Schoenmaker
+bool(true)
+
+Warning: phpcredits() expects parameter 1 to be integer, array given in /root/php-src/ext/standard/tests/general_functions/phpcredits.php on line 4
+NULL
+--
+PHP Credits
+bool(true)
+--
+PHP Credits
+
+PHP Group
+Thies C. Arntzen, Stig Bakken, Shane Caraveo, Andi Gutmans, Rasmus Lerdorf, Sam Ruby, Sascha Schumann, Zeev Suraski, Jim Winstead, Andrei Zmievski
+bool(true)

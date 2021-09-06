@@ -1,0 +1,2 @@
+Warning: DirectoryIterator::__construct(): Directory object is already initialized in %sbug61828.php on line 3
+Okey

@@ -1,0 +1,1 @@
+Warning: Declaration of T::bar() should be compatible with Foo::bar($a = 'Foo') in %sbug70957.php on line %d

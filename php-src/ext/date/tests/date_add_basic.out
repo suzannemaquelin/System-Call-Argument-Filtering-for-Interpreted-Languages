@@ -1,0 +1,8 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing date_add() : basic functionality ***
+string(19) "2008-01-01 12:25:00"
+string(19) "2011-07-06 00:55:05"
+string(19) "2011-07-06 00:55:05"
+string(19) "2011-07-08 00:56:05"
+string(19) "2012-09-09 00:41:35"
+===DONE===

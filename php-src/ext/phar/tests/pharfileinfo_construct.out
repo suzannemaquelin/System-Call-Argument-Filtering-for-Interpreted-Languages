@@ -1,0 +1,7 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Cannot open phar file 'phar:///root/php-src/ext/phar/tests/pharfileinfo_construct.phar/oops': internal corruption of phar "/root/php-src/ext/phar/tests/pharfileinfo_construct.phar" (truncated entry)
+PharFileInfo::__construct() expects parameter 1 to be a valid path, array given
+Cannot access phar file entry '/oops/I/do/not/exist' in archive '/root/php-src/ext/phar/tests/pharfileinfo_construct.phar'
+Cannot call constructor twice
+'/root/php-src/ext/phar/tests/pharfileinfo_construct.php' is not a valid phar archive URL (must have at least phar://filename.phar)
+===DONE===

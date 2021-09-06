@@ -1,0 +1,16 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_reverse() : error conditions ***
+
+-- Testing array_reverse() function with Zero arguments --
+
+Warning: array_reverse() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/array/array_reverse_error.php on line 11
+NULL
+
+-- Testing array_diff() function with more than expected no. of arguments --
+
+Warning: array_reverse() expects at most 2 parameters, 3 given in /root/php-src/ext/standard/tests/array/array_reverse_error.php on line 17
+NULL
+
+Warning: array_reverse() expects at most 2 parameters, 3 given in /root/php-src/ext/standard/tests/array/array_reverse_error.php on line 18
+NULL
+Done

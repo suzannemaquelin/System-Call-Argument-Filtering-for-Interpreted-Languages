@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+%sextract2%cfile1.txt
+%sextract2%cfile2.txt
+%sextract2%cone
+%sextract2%csubdir
+%sextract2%csubdir%cectory
+%sextract2%csubdir%cectory%cfile.txt
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+/root/php-src/ext/phar/tests/extract2/file1.txt
+/root/php-src/ext/phar/tests/extract2/file2.txt
+/root/php-src/ext/phar/tests/extract2/one
+/root/php-src/ext/phar/tests/extract2/subdir
+/root/php-src/ext/phar/tests/extract2/subdir/ectory
+/root/php-src/ext/phar/tests/extract2/subdir/ectory/file.txt
+===DONE===
+---- FAILED

@@ -1,0 +1,13 @@
+Notice: Undefined variable: ENDOFHEREDOC in %s on line %d
+ENDOFHEREDOC    ;
+    ENDOFHEREDOC;
+ENDOFHEREDOC    
+    ENDOFHEREDOC
+;
+
+Notice: Undefined variable: ENDOFHEREDOC in %s on line %d
+ENDOFHEREDOC    ;
+    ENDOFHEREDOC;
+ENDOFHEREDOC    
+    ENDOFHEREDOC
+;

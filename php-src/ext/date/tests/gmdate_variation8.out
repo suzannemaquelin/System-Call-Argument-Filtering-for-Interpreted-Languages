@@ -1,0 +1,22 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing gmdate() : usage variation ***
+
+-- Testing gmdate() function with checking non leap year using Leap Year format --
+string(1) "0"
+
+-- Testing gmdate() function with checking leap year using Leap Year format --
+string(1) "0"
+string(1) "1"
+
+-- Testing gmdate() function with ISO-8601 year number format --
+string(4) "2022"
+string(4) "2008"
+
+-- Testing gmdate() function with full numeric representation of year format --
+string(4) "2022"
+string(4) "2008"
+
+-- Testing gmdate() function with 2 digit representation year format --
+string(2) "22"
+string(2) "08"
+===DONE===

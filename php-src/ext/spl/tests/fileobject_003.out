@@ -1,0 +1,64 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+===0===
+object(SplFileInfo)#1 (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(47) "/root/php-src/ext/spl/tests/fileobject_001a.txt"
+  ["fileName":"SplFileInfo":private]=>
+  string(19) "fileobject_001a.txt"
+}
+object(SplFileInfo)#2 (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(47) "/root/php-src/ext/spl/tests/fileobject_001a.txt"
+  ["fileName":"SplFileInfo":private]=>
+  string(19) "fileobject_001a.txt"
+}
+bool(false)
+bool(true)
+bool(true)
+string(47) "/root/php-src/ext/spl/tests/fileobject_001a.txt"
+string(47) "/root/php-src/ext/spl/tests/fileobject_001a.txt"
+bool(true)
+string(19) "fileobject_001a.txt"
+bool(true)
+string(27) "/root/php-src/ext/spl/tests"
+bool(true)
+string(47) "/root/php-src/ext/spl/tests/fileobject_001a.txt"
+string(19) "fileobject_001a.txt"
+string(27) "/root/php-src/ext/spl/tests"
+===1===
+object(SplFileInfo)#4 (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(27) "/root/php-src/ext/spl/tests"
+  ["fileName":"SplFileInfo":private]=>
+  string(5) "tests"
+}
+object(SplFileInfo)#3 (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(27) "/root/php-src/ext/spl/tests"
+  ["fileName":"SplFileInfo":private]=>
+  string(5) "tests"
+}
+bool(false)
+bool(true)
+bool(true)
+LogicException: Cannot use SplFileObject with directories
+LogicException: Cannot use SplFileObject with directories
+===2===
+object(SplFileInfo)#5 (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(27) "/root/php-src/ext/spl/tests"
+  ["fileName":"SplFileInfo":private]=>
+  string(5) "tests"
+}
+object(SplFileInfo)#3 (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(27) "/root/php-src/ext/spl/tests"
+  ["fileName":"SplFileInfo":private]=>
+  string(5) "tests"
+}
+bool(false)
+bool(true)
+bool(true)
+LogicException: Cannot use SplFileObject with directories
+LogicException: Cannot use SplFileObject with directories
+===DONE===

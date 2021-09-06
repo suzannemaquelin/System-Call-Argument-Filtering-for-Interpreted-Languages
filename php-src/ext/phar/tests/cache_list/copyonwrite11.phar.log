@@ -1,0 +1,27 @@
+
+---- EXPECTED OUTPUT
+string(174) "<?php
+$p = new Phar(__FILE__);
+var_dump($p->getStub());
+$p2 = new Phar(__FILE__);
+$p->setDefaultStub();
+echo strlen($p2->getStub()),"\n";
+echo "ok\n";
+__HALT_COMPILER(); ?>
+"
+6643
+ok
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(174) "<?php
+$p = new Phar(__FILE__);
+var_dump($p->getStub());
+$p2 = new Phar(__FILE__);
+$p->setDefaultStub();
+echo strlen($p2->getStub()),"\n";
+echo "ok\n";
+__HALT_COMPILER(); ?>
+"
+6643
+ok
+---- FAILED

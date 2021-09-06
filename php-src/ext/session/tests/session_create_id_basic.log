@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+*** Testing session_create_id() : basic functionality ***
+string(32) "%s"
+string(36) "ABCD%s"
+string(35) "XYZ%s"
+string(0) ""
+string(32) "%s"
+bool(false)
+string(35) "XYZ%s"
+string(0) ""
+string(35) "XYZ%s"
+bool(true)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing session_create_id() : basic functionality ***
+string(32) "c6a3ba76a581e92fe1051b351e3391db"
+string(36) "ABCD36656378e5b6d3a9832359e57cb06523"
+string(35) "XYZ4f4157afd822fada310af03d6723c21d"
+string(0) ""
+string(32) "7104df5a99e9b75b7a7695ed34cfdbf8"
+bool(false)
+string(35) "XYZ9b29b65248a94e5827fee60713195057"
+string(0) ""
+string(35) "XYZ9b29b65248a94e5827fee60713195057"
+bool(true)
+Done
+---- FAILED

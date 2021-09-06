@@ -1,0 +1,10 @@
+
+---- EXPECTED OUTPUT
+Notice: Undefined variable: cos in %sbug54585.php on line 3
+ok
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined variable: cos in /root/php-src/Zend/tests/bug54585.php on line 3
+ok
+---- FAILED

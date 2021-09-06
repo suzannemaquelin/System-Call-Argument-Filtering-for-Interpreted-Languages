@@ -1,0 +1,9 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Deprecated: Non-static method TestClass::method() should not be called statically in /root/php-src/Zend/tests/indirect_call_string_003.php on line 14
+
+Fatal error: Uncaught Error: Using $this when not in object context in /root/php-src/Zend/tests/indirect_call_string_003.php:8
+Stack trace:
+#0 /root/php-src/Zend/tests/indirect_call_string_003.php(14): TestClass::method()
+#1 {main}
+  thrown in /root/php-src/Zend/tests/indirect_call_string_003.php on line 8

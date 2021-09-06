@@ -1,0 +1,67 @@
+
+---- EXPECTED OUTPUT
+--- testing: 9223372036854775807 ---
+float(43.668272375277)
+--- testing: -9223372036854775808 ---
+float(NAN)
+--- testing: 2147483647 ---
+float(21.487562597358)
+--- testing: -2147483648 ---
+float(NAN)
+--- testing: 9223372034707292160 ---
+float(43.668272375044)
+--- testing: -9223372034707292160 ---
+float(NAN)
+--- testing: 2147483648 ---
+float(21.487562597824)
+--- testing: -2147483649 ---
+float(NAN)
+--- testing: 4294967294 ---
+float(22.180709777685)
+--- testing: 4294967295 ---
+float(22.180709777918)
+--- testing: 4294967293 ---
+float(22.180709777453)
+--- testing: 9223372036854775806 ---
+float(43.668272375277)
+--- testing: 9.2233720368548E+18 ---
+float(43.668272375277)
+--- testing: -9223372036854775807 ---
+float(NAN)
+--- testing: -9.2233720368548E+18 ---
+float(NAN)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+--- testing: 9223372036854775807 ---
+float(43.668272375277)
+--- testing: -9223372036854775808 ---
+float(NAN)
+--- testing: 2147483647 ---
+float(21.487562597358)
+--- testing: -2147483648 ---
+float(NAN)
+--- testing: 9223372034707292160 ---
+float(43.668272375044)
+--- testing: -9223372034707292160 ---
+float(NAN)
+--- testing: 2147483648 ---
+float(21.487562597824)
+--- testing: -2147483649 ---
+float(NAN)
+--- testing: 4294967294 ---
+float(22.180709777685)
+--- testing: 4294967295 ---
+float(22.180709777918)
+--- testing: 4294967293 ---
+float(22.180709777453)
+--- testing: 9223372036854775806 ---
+float(43.668272375277)
+--- testing: 9.2233720368548E+18 ---
+float(43.668272375277)
+--- testing: -9223372036854775807 ---
+float(NAN)
+--- testing: -9.2233720368548E+18 ---
+float(NAN)
+===DONE===
+---- FAILED

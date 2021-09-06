@@ -1,0 +1,196 @@
+
+---- EXPECTED OUTPUT
+-- Iteration 1 --
+Without $regs arg:
+
+Warning: mb_ereg(): empty pattern in %s on line %d
+bool(false)
+With $regs arg:
+
+Warning: mb_ereg(): empty pattern in %s on line %d
+bool(false)
+array(0) {
+}
+
+-- Iteration 2 --
+Without $regs arg:
+
+Warning: mb_ereg(): empty pattern in %s on line %d
+bool(false)
+With $regs arg:
+
+Warning: mb_ereg(): empty pattern in %s on line %d
+bool(false)
+array(0) {
+}
+
+-- Iteration 3 --
+Without $regs arg:
+
+Warning: mb_ereg(): empty pattern in %s on line %d
+bool(false)
+With $regs arg:
+
+Warning: mb_ereg(): empty pattern in %s on line %d
+bool(false)
+array(0) {
+}
+
+-- Iteration 4 --
+Without $regs arg:
+
+Warning: mb_ereg(): empty pattern in %s on line %d
+bool(false)
+With $regs arg:
+
+Warning: mb_ereg(): empty pattern in %s on line %d
+bool(false)
+array(0) {
+}
+
+-- Iteration 5 --
+Without $regs arg:
+
+Warning: mb_ereg(): empty pattern in %s on line %d
+bool(false)
+With $regs arg:
+
+Warning: mb_ereg(): empty pattern in %s on line %d
+bool(false)
+array(0) {
+}
+
+-- Iteration 6 --
+Without $regs arg:
+
+Warning: mb_ereg(): empty pattern in %s on line %d
+bool(false)
+With $regs arg:
+
+Warning: mb_ereg(): empty pattern in %s on line %d
+bool(false)
+array(0) {
+}
+
+-- Iteration 7 --
+Without $regs arg:
+
+Warning: mb_ereg(): empty pattern in %s on line %d
+bool(false)
+With $regs arg:
+
+Warning: mb_ereg(): empty pattern in %s on line %d
+bool(false)
+array(0) {
+}
+
+-- Iteration 8 --
+Without $regs arg:
+
+Warning: mb_ereg(): empty pattern in %s on line %d
+bool(false)
+With $regs arg:
+
+Warning: mb_ereg(): empty pattern in %s on line %d
+bool(false)
+array(0) {
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+-- Iteration 1 --
+Without $regs arg:
+
+Warning: mb_ereg(): empty pattern in /root/php-src/ext/mbstring/tests/bug43994.php on line 25
+bool(false)
+With $regs arg:
+
+Warning: mb_ereg(): empty pattern in /root/php-src/ext/mbstring/tests/bug43994.php on line 27
+bool(false)
+array(0) {
+}
+
+-- Iteration 2 --
+Without $regs arg:
+
+Warning: mb_ereg(): empty pattern in /root/php-src/ext/mbstring/tests/bug43994.php on line 25
+bool(false)
+With $regs arg:
+
+Warning: mb_ereg(): empty pattern in /root/php-src/ext/mbstring/tests/bug43994.php on line 27
+bool(false)
+array(0) {
+}
+
+-- Iteration 3 --
+Without $regs arg:
+
+Warning: mb_ereg(): empty pattern in /root/php-src/ext/mbstring/tests/bug43994.php on line 25
+bool(false)
+With $regs arg:
+
+Warning: mb_ereg(): empty pattern in /root/php-src/ext/mbstring/tests/bug43994.php on line 27
+bool(false)
+array(0) {
+}
+
+-- Iteration 4 --
+Without $regs arg:
+
+Warning: mb_ereg(): empty pattern in /root/php-src/ext/mbstring/tests/bug43994.php on line 25
+bool(false)
+With $regs arg:
+
+Warning: mb_ereg(): empty pattern in /root/php-src/ext/mbstring/tests/bug43994.php on line 27
+bool(false)
+array(0) {
+}
+
+-- Iteration 5 --
+Without $regs arg:
+
+Warning: mb_ereg(): empty pattern in /root/php-src/ext/mbstring/tests/bug43994.php on line 25
+bool(false)
+With $regs arg:
+
+Warning: mb_ereg(): empty pattern in /root/php-src/ext/mbstring/tests/bug43994.php on line 27
+bool(false)
+array(0) {
+}
+
+-- Iteration 6 --
+Without $regs arg:
+
+Warning: mb_ereg(): empty pattern in /root/php-src/ext/mbstring/tests/bug43994.php on line 25
+bool(false)
+With $regs arg:
+
+Warning: mb_ereg(): empty pattern in /root/php-src/ext/mbstring/tests/bug43994.php on line 27
+bool(false)
+array(0) {
+}
+
+-- Iteration 7 --
+Without $regs arg:
+
+Warning: mb_ereg(): empty pattern in /root/php-src/ext/mbstring/tests/bug43994.php on line 25
+bool(false)
+With $regs arg:
+
+Warning: mb_ereg(): empty pattern in /root/php-src/ext/mbstring/tests/bug43994.php on line 27
+bool(false)
+array(0) {
+}
+
+-- Iteration 8 --
+Without $regs arg:
+
+Warning: mb_ereg(): empty pattern in /root/php-src/ext/mbstring/tests/bug43994.php on line 25
+bool(false)
+With $regs arg:
+
+Warning: mb_ereg(): empty pattern in /root/php-src/ext/mbstring/tests/bug43994.php on line 27
+bool(false)
+array(0) {
+}
+---- FAILED

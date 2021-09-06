@@ -1,0 +1,11 @@
+
+---- EXPECTED OUTPUT
+Basic test of posix_getpgid function
+int(%d)
+===DONE====
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Basic test of posix_getpgid function
+int(319)
+===DONE====
+---- FAILED

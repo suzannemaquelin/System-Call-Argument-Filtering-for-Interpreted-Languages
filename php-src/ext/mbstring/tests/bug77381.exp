@@ -1,0 +1,11 @@
+Warning: mb_ereg(): Pattern is not valid under UTF-8 encoding in %s on line %d
+bool(false)
+
+Warning: mb_ereg(): Pattern is not valid under UTF-8 encoding in %s on line %d
+bool(false)
+
+Warning: mb_ereg(): Pattern is not valid under UTF-8 encoding in %s on line %d
+bool(false)
+
+Warning: mb_ereg(): Pattern is not valid under UTF-8 encoding in %s on line %d
+bool(false)

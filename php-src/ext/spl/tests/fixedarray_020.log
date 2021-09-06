@@ -1,0 +1,23 @@
+
+---- EXPECTED OUTPUT
+int(3)
+bool(true)
+int(3)
+bool(false)
+bool(true)
+From Array with string keys, no preserve
+No exception
+From Array with string keys, preserve
+Exception: array must contain only positive integer keys
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(3)
+bool(true)
+int(3)
+bool(false)
+bool(true)
+From Array with string keys, no preserve
+No exception
+From Array with string keys, preserve
+Exception: array must contain only positive integer keys
+---- FAILED

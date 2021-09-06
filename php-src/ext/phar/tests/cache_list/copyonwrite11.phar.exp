@@ -1,0 +1,11 @@
+string(174) "<?php
+$p = new Phar(__FILE__);
+var_dump($p->getStub());
+$p2 = new Phar(__FILE__);
+$p->setDefaultStub();
+echo strlen($p2->getStub()),"\n";
+echo "ok\n";
+__HALT_COMPILER(); ?>
+"
+6643
+ok

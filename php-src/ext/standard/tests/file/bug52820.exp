@@ -1,0 +1,21 @@
+temp stream (close after):
+About to rewind!
+* %ATrying 127.0.0.1...%AConnection refused%A
+* Closing connection%A%d
+
+memory stream (close after):
+About to rewind!
+* %ATrying 127.0.0.1...%AConnection refused%A
+* Closing connection%A%d
+
+temp stream (leak):
+About to rewind!
+* %ATrying 127.0.0.1...%AConnection refused%A
+* Closing connection%A%d
+
+memory stream (leak):
+About to rewind!
+* %ATrying 127.0.0.1...%AConnection refused%A
+* Closing connection%A%d
+
+Done.

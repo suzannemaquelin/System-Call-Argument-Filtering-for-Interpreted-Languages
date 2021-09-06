@@ -1,0 +1,5 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Cannot create a phar archive from a URL like "http://should.fail.com". Phar objects can only be created from local files
+Cannot create a phar archive from a URL like "http://". Phar objects can only be created from local files
+Cannot create phar 'http:/', file extension (or combination) not recognised or the directory does not exist
+===DONE===

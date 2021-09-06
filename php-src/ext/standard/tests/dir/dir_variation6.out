@@ -1,0 +1,11 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing dir() : open a non-existent directory ***
+-- opening previously removed directory --
+
+Warning: dir(/root/php-src/ext/standard/tests/dir/dir_variation6): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/dir_variation6.php on line 28
+bool(false)
+-- opening non-existent directory --
+
+Warning: dir(/root/php-src/ext/standard/tests/dir/non_existent_dir): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/dir_variation6.php on line 33
+bool(false)
+Done

@@ -1,0 +1,12 @@
+Warning: Modification of ArrayObject during sorting is prohibited in %s on line %d
+object(ArrayObject)#1 (1) {
+  ["storage":"ArrayObject":private]=>
+  array(3) {
+    [0]=>
+    int(1)
+    [1]=>
+    int(2)
+    [2]=>
+    int(3)
+  }
+}

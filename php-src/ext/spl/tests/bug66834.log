@@ -1,0 +1,159 @@
+
+---- EXPECTED OUTPUT
+==== class with offsetExists() and offsetGet() ====
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(34) "Called: ArrayObjectBoth::offsetGet"
+bool(true)
+bool(true)
+bool(true)
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(34) "Called: ArrayObjectBoth::offsetGet"
+bool(true)
+bool(true)
+bool(true)
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(34) "Called: ArrayObjectBoth::offsetGet"
+bool(true)
+bool(true)
+bool(false)
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(37) "Called: ArrayObjectBoth::offsetExists"
+bool(false)
+bool(false)
+bool(true)
+==== class with offsetExists() ====
+string(39) "Called: ArrayObjectExists::offsetExists"
+string(39) "Called: ArrayObjectExists::offsetExists"
+string(39) "Called: ArrayObjectExists::offsetExists"
+bool(true)
+bool(true)
+bool(true)
+string(39) "Called: ArrayObjectExists::offsetExists"
+string(39) "Called: ArrayObjectExists::offsetExists"
+string(39) "Called: ArrayObjectExists::offsetExists"
+bool(true)
+bool(true)
+bool(true)
+string(39) "Called: ArrayObjectExists::offsetExists"
+string(39) "Called: ArrayObjectExists::offsetExists"
+string(39) "Called: ArrayObjectExists::offsetExists"
+bool(true)
+bool(true)
+bool(false)
+string(39) "Called: ArrayObjectExists::offsetExists"
+string(39) "Called: ArrayObjectExists::offsetExists"
+string(39) "Called: ArrayObjectExists::offsetExists"
+bool(false)
+bool(false)
+bool(true)
+==== class with offsetGet() ====
+string(33) "Called: ArrayObjectGet::offsetGet"
+bool(true)
+bool(true)
+bool(true)
+string(33) "Called: ArrayObjectGet::offsetGet"
+bool(true)
+bool(false)
+bool(true)
+string(33) "Called: ArrayObjectGet::offsetGet"
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(false)
+bool(true)
+==== class with offsetGet() and offsetSet() ====
+
+Notice: Undefined index: foo in %s on line %d
+bool(false)
+bool(true)
+bool(false)
+bool(true)
+bool(true)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+==== class with offsetExists() and offsetGet() ====
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(34) "Called: ArrayObjectBoth::offsetGet"
+bool(true)
+bool(true)
+bool(true)
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(34) "Called: ArrayObjectBoth::offsetGet"
+bool(true)
+bool(true)
+bool(true)
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(34) "Called: ArrayObjectBoth::offsetGet"
+bool(true)
+bool(true)
+bool(false)
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(37) "Called: ArrayObjectBoth::offsetExists"
+string(37) "Called: ArrayObjectBoth::offsetExists"
+bool(false)
+bool(false)
+bool(true)
+==== class with offsetExists() ====
+string(39) "Called: ArrayObjectExists::offsetExists"
+string(39) "Called: ArrayObjectExists::offsetExists"
+string(39) "Called: ArrayObjectExists::offsetExists"
+bool(true)
+bool(true)
+bool(true)
+string(39) "Called: ArrayObjectExists::offsetExists"
+string(39) "Called: ArrayObjectExists::offsetExists"
+string(39) "Called: ArrayObjectExists::offsetExists"
+bool(true)
+bool(true)
+bool(true)
+string(39) "Called: ArrayObjectExists::offsetExists"
+string(39) "Called: ArrayObjectExists::offsetExists"
+string(39) "Called: ArrayObjectExists::offsetExists"
+bool(true)
+bool(true)
+bool(false)
+string(39) "Called: ArrayObjectExists::offsetExists"
+string(39) "Called: ArrayObjectExists::offsetExists"
+string(39) "Called: ArrayObjectExists::offsetExists"
+bool(false)
+bool(false)
+bool(true)
+==== class with offsetGet() ====
+string(33) "Called: ArrayObjectGet::offsetGet"
+bool(true)
+bool(true)
+bool(true)
+string(33) "Called: ArrayObjectGet::offsetGet"
+bool(true)
+bool(false)
+bool(true)
+string(33) "Called: ArrayObjectGet::offsetGet"
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(false)
+bool(true)
+==== class with offsetGet() and offsetSet() ====
+
+Notice: Undefined index: foo in /root/php-src/ext/spl/tests/bug66834.php on line 40
+bool(false)
+bool(true)
+bool(false)
+bool(true)
+bool(true)
+---- FAILED

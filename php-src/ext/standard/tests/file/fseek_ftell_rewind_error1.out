@@ -1,0 +1,45 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing fseek() : error conditions ***
+-- Testing fseek() with zero argument --
+
+Warning: fseek() expects at least 2 parameters, 0 given in /root/php-src/ext/standard/tests/file/fseek_ftell_rewind_error1.php on line 16
+bool(false)
+-- Testing fseek() with unexpected number of arguments --
+
+Warning: fseek() expects at least 2 parameters, 1 given in /root/php-src/ext/standard/tests/file/fseek_ftell_rewind_error1.php on line 21
+bool(false)
+
+Warning: fseek() expects at most 3 parameters, 4 given in /root/php-src/ext/standard/tests/file/fseek_ftell_rewind_error1.php on line 22
+bool(false)
+-- Testing fseek() with invalid arguments --
+-- Iteration 1 --
+
+Warning: fseek() expects parameter 1 to be resource, string given in /root/php-src/ext/standard/tests/file/fseek_ftell_rewind_error1.php on line 37
+bool(false)
+-- Iteration 2 --
+
+Warning: fseek() expects parameter 1 to be resource, integer given in /root/php-src/ext/standard/tests/file/fseek_ftell_rewind_error1.php on line 37
+bool(false)
+-- Iteration 3 --
+
+Warning: fseek() expects parameter 1 to be resource, float given in /root/php-src/ext/standard/tests/file/fseek_ftell_rewind_error1.php on line 37
+bool(false)
+-- Iteration 4 --
+
+Warning: fseek() expects parameter 1 to be resource, boolean given in /root/php-src/ext/standard/tests/file/fseek_ftell_rewind_error1.php on line 37
+bool(false)
+-- Iteration 5 --
+
+Warning: fseek() expects parameter 1 to be resource, array given in /root/php-src/ext/standard/tests/file/fseek_ftell_rewind_error1.php on line 37
+bool(false)
+-- Iteration 6 --
+
+Warning: fseek() expects parameter 1 to be resource, object given in /root/php-src/ext/standard/tests/file/fseek_ftell_rewind_error1.php on line 37
+bool(false)
+-- Testing fseek() with closed/unset file handle --
+Warning: fseek(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/fseek_ftell_rewind_error1.php on line 43
+bool(false)
+
+Warning: fseek() expects parameter 1 to be resource, null given in /root/php-src/ext/standard/tests/file/fseek_ftell_rewind_error1.php on line 48
+bool(false)
+Done

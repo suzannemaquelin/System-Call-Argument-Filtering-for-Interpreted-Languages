@@ -1,0 +1,18 @@
+
+---- EXPECTED OUTPUT
+Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; a has a deprecated constructor in %s on line %d
+string(13) "a::a() called"
+bool(true)
+bool(false)
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; a has a deprecated constructor in /root/php-src/Zend/tests/bug39127.php on line 3
+string(13) "a::a() called"
+bool(true)
+bool(false)
+bool(false)
+Done
+---- FAILED

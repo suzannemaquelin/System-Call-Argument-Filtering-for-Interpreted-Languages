@@ -1,0 +1,147 @@
+
+---- EXPECTED OUTPUT
+Class [ <user> class Test ] {
+  @@ %sbug33389.php 3-18
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [7] {
+    Method [ <user> public method foo1 ] {
+      @@ %sbug33389.php 4 - 5
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $arg = 1 ]
+      }
+    }
+
+    Method [ <user> public method foo2 ] {
+      @@ %sbug33389.php 6 - 7
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $arg = NULL ]
+      }
+    }
+
+    Method [ <user> public method foo3 ] {
+      @@ %sbug33389.php 8 - 9
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $arg = false ]
+      }
+    }
+
+    Method [ <user> public method foo4 ] {
+      @@ %sbug33389.php 10 - 11
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $arg = 'foo' ]
+      }
+    }
+
+    Method [ <user> public method foo5 ] {
+      @@ %sbug33389.php 12 - 13
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $arg = 1 ]
+      }
+    }
+
+    Method [ <user> public method bar ] {
+      @@ %sbug33389.php 14 - 15
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg ]
+      }
+    }
+
+    Method [ <user> public method foo ] {
+      @@ %sbug33389.php 16 - 17
+    }
+  }
+}
+
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Class [ <user> class Test ] {
+  @@ /root/php-src/ext/reflection/tests/bug33389.php 3-18
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [7] {
+    Method [ <user> public method foo1 ] {
+      @@ /root/php-src/ext/reflection/tests/bug33389.php 4 - 5
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $arg = 1 ]
+      }
+    }
+
+    Method [ <user> public method foo2 ] {
+      @@ /root/php-src/ext/reflection/tests/bug33389.php 6 - 7
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $arg = NULL ]
+      }
+    }
+
+    Method [ <user> public method foo3 ] {
+      @@ /root/php-src/ext/reflection/tests/bug33389.php 8 - 9
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $arg = false ]
+      }
+    }
+
+    Method [ <user> public method foo4 ] {
+      @@ /root/php-src/ext/reflection/tests/bug33389.php 10 - 11
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $arg = 'foo' ]
+      }
+    }
+
+    Method [ <user> public method foo5 ] {
+      @@ /root/php-src/ext/reflection/tests/bug33389.php 12 - 13
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $arg = 1 ]
+      }
+    }
+
+    Method [ <user> public method bar ] {
+      @@ /root/php-src/ext/reflection/tests/bug33389.php 14 - 15
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg ]
+      }
+    }
+
+    Method [ <user> public method foo ] {
+      @@ /root/php-src/ext/reflection/tests/bug33389.php 16 - 17
+    }
+  }
+}
+
+===DONE===
+---- FAILED

@@ -1,0 +1,49 @@
+
+---- EXPECTED OUTPUT
+*** Testing isset() : basic functionality ***
+Integer test: YES
+Float test: YES
+String test: YES
+Array test: YES
+Boolean test: YES
+Null test: NO
+Object test: YES
+Resource test: YES
+
+
+Unset the variables
+
+Integer test: NO
+Float test: NO
+String test: NO
+Array test: NO
+Boolean test: NO
+Null test: NO
+Object test: NO
+Resource test: NO
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing isset() : basic functionality ***
+Integer test: YES
+Float test: YES
+String test: YES
+Array test: YES
+Boolean test: YES
+Null test: NO
+Object test: YES
+Resource test: YES
+
+
+Unset the variables
+
+Integer test: NO
+Float test: NO
+String test: NO
+Array test: NO
+Boolean test: NO
+Null test: NO
+Object test: NO
+Resource test: NO
+===DONE===
+---- FAILED

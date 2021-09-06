@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+*** Testing with variation in use_include_path argument ***
+string(240) "text text text text text text text text text text text text text text text text text text text text 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221  Data1 in an array2  Data2 in an array"
+string(240) "text text text text text text text text text text text text text text text text text text text text 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221  Data1 in an array2  Data2 in an array"
+string(235) "text text text text text text text text text text text text text text text text text text text 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221  Data1 in an array2  Data2 in an array"
+string(235) "text text text text text text text text text text text text text text text text text text text 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221  Data1 in an array2  Data2 in an array"
+string(20) "text text text text "
+string(20) "text text text text "
+--- Done ---
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing with variation in use_include_path argument ***
+string(240) "text text text text text text text text text text text text text text text text text text text text 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221  Data1 in an array2  Data2 in an array"
+string(240) "text text text text text text text text text text text text text text text text text text text text 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221  Data1 in an array2  Data2 in an array"
+string(235) "text text text text text text text text text text text text text text text text text text text 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221  Data1 in an array2  Data2 in an array"
+string(235) "text text text text text text text text text text text text text text text text text text text 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221  Data1 in an array2  Data2 in an array"
+string(20) "text text text text "
+string(20) "text text text text "
+--- Done ---
+---- FAILED

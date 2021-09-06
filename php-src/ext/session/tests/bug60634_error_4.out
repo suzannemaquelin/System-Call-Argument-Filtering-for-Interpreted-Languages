@@ -1,0 +1,10 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+write: goodbye cruel world
+
+Fatal error: Uncaught Exception in /root/php-src/ext/session/tests/bug60634_error_4.php:20
+Stack trace:
+#0 [internal function]: write('afd813cb48b4cc7...', '')
+#1 {main}
+  thrown in /root/php-src/ext/session/tests/bug60634_error_4.php on line 20
+
+Warning: Unknown: Cannot call session save handler in a recursive manner in Unknown on line 0

@@ -1,0 +1,15 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+O:10:"testString":2:{s:1:"a";b:1;s:1:"1";N;}
+O:11:"testInteger":2:{s:1:"a";b:1;s:1:"1";N;}
+object(testString)#3 (2) {
+  ["a"]=>
+  bool(true)
+  ["1"]=>
+  NULL
+}
+object(testInteger)#3 (2) {
+  ["a"]=>
+  bool(true)
+  ["1"]=>
+  NULL
+}

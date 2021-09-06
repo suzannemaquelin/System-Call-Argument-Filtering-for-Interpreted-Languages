@@ -1,0 +1,85 @@
+
+---- EXPECTED OUTPUT
+*** Testing lstat() for error conditions ***
+
+Warning: lstat() expects exactly 1 parameter, 0 given in %s on line %d
+NULL
+
+Warning: lstat() expects exactly 1 parameter, 2 given in %s on line %d
+NULL
+
+Warning: lstat(): Lstat failed for %s in %s on line %d
+bool(false)
+
+Warning: lstat(): Lstat failed for 22 in %s on line %d
+bool(false)
+
+Warning: lstat() expects parameter 1 to be a valid path, array given in %s on line %d
+NULL
+
+*** Testing stat() for error conditions ***
+
+Warning: stat() expects exactly 1 parameter, 0 given in %s on line %d
+NULL
+
+Warning: stat() expects exactly 1 parameter, 2 given in %s on line %d
+NULL
+
+Warning: stat() expects exactly 1 parameter, 2 given in %s on line %d
+NULL
+
+Warning: stat(): stat failed for %s in %s on line %d
+bool(false)
+
+Warning: stat(): stat failed for %s in %s on line %d
+bool(false)
+
+Warning: stat(): stat failed for 22 in %s on line %d
+bool(false)
+
+Warning: stat() expects parameter 1 to be a valid path, array given in %s on line %d
+NULL
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing lstat() for error conditions ***
+
+Warning: lstat() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/lstat_stat_error.php on line 11
+NULL
+
+Warning: lstat() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/lstat_stat_error.php on line 12
+NULL
+
+Warning: lstat(): Lstat failed for /root/php-src/ext/standard/tests/file/temp.tmp in /root/php-src/ext/standard/tests/file/lstat_stat_error.php on line 13
+bool(false)
+
+Warning: lstat(): Lstat failed for 22 in /root/php-src/ext/standard/tests/file/lstat_stat_error.php on line 14
+bool(false)
+
+Warning: lstat() expects parameter 1 to be a valid path, array given in /root/php-src/ext/standard/tests/file/lstat_stat_error.php on line 16
+NULL
+
+*** Testing stat() for error conditions ***
+
+Warning: stat() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/lstat_stat_error.php on line 19
+NULL
+
+Warning: stat() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/lstat_stat_error.php on line 20
+NULL
+
+Warning: stat() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/lstat_stat_error.php on line 21
+NULL
+
+Warning: stat(): stat failed for /root/php-src/ext/standard/tests/file/temp.tmp in /root/php-src/ext/standard/tests/file/lstat_stat_error.php on line 23
+bool(false)
+
+Warning: stat(): stat failed for /root/php-src/ext/standard/tests/file/temp/ in /root/php-src/ext/standard/tests/file/lstat_stat_error.php on line 24
+bool(false)
+
+Warning: stat(): stat failed for 22 in /root/php-src/ext/standard/tests/file/lstat_stat_error.php on line 25
+bool(false)
+
+Warning: stat() expects parameter 1 to be a valid path, array given in /root/php-src/ext/standard/tests/file/lstat_stat_error.php on line 26
+NULL
+Done
+---- FAILED

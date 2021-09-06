@@ -1,0 +1,9 @@
+[Successful compilation of /root/php-src/sapi/phpdbg/tests/breakpoints_006.php]
+prompt> [Breakpoint #0 added at foo]
+prompt> [Breakpoint #0 in foo() at /root/php-src/sapi/phpdbg/tests/breakpoints_006.php:3, hits: 1]
+>00003: function foo($bar) {
+ 00004: 	var_dump($bar);
+ 00005: }
+prompt> string(4) "test"
+[Script ended normally]
+prompt>

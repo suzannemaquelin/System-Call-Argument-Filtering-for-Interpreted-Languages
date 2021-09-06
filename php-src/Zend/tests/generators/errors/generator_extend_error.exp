@@ -1,0 +1,1 @@
+Fatal error: Class ExtendedGenerator may not inherit from final class (Generator) in %s on line %d

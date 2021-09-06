@@ -1,0 +1,87 @@
+*** Testing get_class_vars() : usage variation ***
+
+--int 0--
+bool(false)
+
+--int 1--
+bool(false)
+
+--int 12345--
+bool(false)
+
+--int -12345--
+bool(false)
+
+--float 10.5--
+bool(false)
+
+--float -10.5--
+bool(false)
+
+--float 12.3456789000e10--
+bool(false)
+
+--float -12.3456789000e10--
+bool(false)
+
+--float .5--
+bool(false)
+
+--empty array--
+
+Warning: get_class_vars() expects parameter 1 to be string, array given in %sget_class_vars_variation1.php on line %d
+NULL
+
+--int indexed array--
+
+Warning: get_class_vars() expects parameter 1 to be string, array given in %sget_class_vars_variation1.php on line %d
+NULL
+
+--associative array--
+
+Warning: get_class_vars() expects parameter 1 to be string, array given in %sget_class_vars_variation1.php on line %d
+NULL
+
+--nested arrays--
+
+Warning: get_class_vars() expects parameter 1 to be string, array given in %sget_class_vars_variation1.php on line %d
+NULL
+
+--uppercase NULL--
+bool(false)
+
+--lowercase null--
+bool(false)
+
+--lowercase true--
+bool(false)
+
+--lowercase false--
+bool(false)
+
+--uppercase TRUE--
+bool(false)
+
+--uppercase FALSE--
+bool(false)
+
+--empty string DQ--
+bool(false)
+
+--empty string SQ--
+bool(false)
+
+--instance of classWithToString--
+bool(false)
+
+--instance of classWithoutToString--
+
+Warning: get_class_vars() expects parameter 1 to be string, object given in %sget_class_vars_variation1.php on line %d
+NULL
+
+--undefined var--
+bool(false)
+
+--unset var--
+bool(false)
+===DONE===

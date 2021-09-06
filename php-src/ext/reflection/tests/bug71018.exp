@@ -1,0 +1,4 @@
+string(16) "T2::self = hello"
+string(18) "T2::static = hello"
+string(16) "T2::self = hello"
+string(18) "T2::static = hello"

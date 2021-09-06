@@ -1,0 +1,31 @@
+
+---- EXPECTED OUTPUT
+int(513)
+int(513)
+int(518)
+int(257)
+bool(false)
+
+Warning: filter_id() expects parameter 1 to be string, array given in %s on line %d
+NULL
+bool(false)
+
+Warning: filter_id() expects exactly 1 parameter, 3 given in %s on line %d
+NULL
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(513)
+int(513)
+int(518)
+int(257)
+bool(false)
+
+Warning: filter_id() expects parameter 1 to be string, array given in /root/php-src/ext/filter/tests/009.php on line 8
+NULL
+bool(false)
+
+Warning: filter_id() expects exactly 1 parameter, 3 given in /root/php-src/ext/filter/tests/009.php on line 10
+NULL
+Done
+---- FAILED

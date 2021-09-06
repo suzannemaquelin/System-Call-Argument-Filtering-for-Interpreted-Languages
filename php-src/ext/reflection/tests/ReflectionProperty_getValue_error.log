@@ -1,0 +1,71 @@
+
+---- EXPECTED OUTPUT
+Too few args:
+
+Warning: ReflectionProperty::getValue() expects exactly 1 parameter, 0 given in %s on line %d
+NULL
+
+Too many args:
+
+Warning: ReflectionProperty::getValue() expects exactly 1 parameter, 2 given in %s on line %d
+NULL
+
+Wrong type of arg:
+
+Warning: ReflectionProperty::getValue() expects parameter 1 to be object, boolean given in %s on line %d
+NULL
+
+Instance without property:
+
+Static property / too many args:
+string(15) "static property"
+
+Static property / wrong type of arg:
+string(15) "static property"
+
+Protected property:
+Cannot access non-public member TestClass::prot
+
+Invalid instance:
+
+Fatal error: Uncaught ReflectionException: Given object is not an instance of the class this property was declared in in %s:47
+Stack trace:
+#0 %s(47): ReflectionProperty->getValue(Object(AnotherClass))
+#1 {main}
+  thrown in %s on line 47
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Too few args:
+
+Warning: ReflectionProperty::getValue() expects exactly 1 parameter, 0 given in /root/php-src/ext/reflection/tests/ReflectionProperty_getValue_error.php on line 19
+NULL
+
+Too many args:
+
+Warning: ReflectionProperty::getValue() expects exactly 1 parameter, 2 given in /root/php-src/ext/reflection/tests/ReflectionProperty_getValue_error.php on line 22
+NULL
+
+Wrong type of arg:
+
+Warning: ReflectionProperty::getValue() expects parameter 1 to be object, boolean given in /root/php-src/ext/reflection/tests/ReflectionProperty_getValue_error.php on line 25
+NULL
+
+Instance without property:
+
+Static property / too many args:
+string(15) "static property"
+
+Static property / wrong type of arg:
+string(15) "static property"
+
+Protected property:
+Cannot access non-public member TestClass::prot
+
+Invalid instance:
+
+Fatal error: Uncaught ReflectionException: Given object is not an instance of the class this property was declared in in /root/php-src/ext/reflection/tests/ReflectionProperty_getValue_error.php:47
+Stack trace:
+#0 /root/php-src/ext/reflection/tests/ReflectionProperty_getValue_error.php(47): ReflectionProperty->getValue(Object(AnotherClass))
+#1 {main}
+  thrown in /root/php-src/ext/reflection/tests/ReflectionProperty_getValue_error.php on line 47
+---- FAILED

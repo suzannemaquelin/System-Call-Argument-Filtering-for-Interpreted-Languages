@@ -1,0 +1,11 @@
+
+---- EXPECTED OUTPUT
+resource(%d) of type (stream)
+string(5) "file1"
+string(5) "file1"
+string(3) "fil"
+string(4) "b0rk"
+==DONE==
+---- ACTUAL OUTPUT
+/opt/php-7.1/bin/php: symbol lookup error: /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: undefined symbol: print
+---- FAILED

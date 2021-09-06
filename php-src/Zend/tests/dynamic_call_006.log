@@ -1,0 +1,36 @@
+
+---- EXPECTED OUTPUT
+Warning: Cannot call extract() dynamically in %s on line %d
+
+Warning: Cannot call compact() dynamically in %s on line %d
+
+Warning: Cannot call parse_str() with a single argument dynamically in %s on line %d
+
+Warning: Cannot call get_defined_vars() dynamically in %s on line %d
+
+Warning: Cannot call assert() with string argument dynamically in %s on line %d
+
+Warning: Cannot call func_get_args() dynamically in %s on line %d
+
+Warning: Cannot call func_get_arg() dynamically in %s on line %d
+
+Warning: Cannot call func_num_args() dynamically in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: Cannot call extract() dynamically in /root/php-src/Zend/tests/dynamic_call_006.php on line 4
+
+Warning: Cannot call compact() dynamically in /root/php-src/Zend/tests/dynamic_call_006.php on line 7
+
+Warning: Cannot call parse_str() with a single argument dynamically in /root/php-src/Zend/tests/dynamic_call_006.php on line 10
+
+Warning: Cannot call get_defined_vars() dynamically in /root/php-src/Zend/tests/dynamic_call_006.php on line 13
+
+Warning: Cannot call assert() with string argument dynamically in /root/php-src/Zend/tests/dynamic_call_006.php on line 16
+
+Warning: Cannot call func_get_args() dynamically in /root/php-src/Zend/tests/dynamic_call_006.php on line 19
+
+Warning: Cannot call func_get_arg() dynamically in /root/php-src/Zend/tests/dynamic_call_006.php on line 22
+
+Warning: Cannot call func_num_args() dynamically in /root/php-src/Zend/tests/dynamic_call_006.php on line 25
+---- FAILED

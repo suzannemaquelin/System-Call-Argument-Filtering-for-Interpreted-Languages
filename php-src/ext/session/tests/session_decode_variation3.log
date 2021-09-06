@@ -1,0 +1,65 @@
+
+---- EXPECTED OUTPUT
+*** Testing session_decode() : variation ***
+
+Warning: session_start(): Cannot find serialization handler 'blah' - session startup failed in %s on line %d
+bool(false)
+
+Notice: Undefined variable: _SESSION in %s on line %d
+NULL
+array(3) {
+  ["foo"]=>
+  int(1234567890)
+  ["bar"]=>
+  string(5) "Blah!"
+  ["guff"]=>
+  float(123.456)
+}
+
+Warning: session_decode(): Session is not active. You cannot decode session data in %s on line %d
+bool(false)
+array(3) {
+  ["foo"]=>
+  int(1234567890)
+  ["bar"]=>
+  string(5) "Blah!"
+  ["guff"]=>
+  float(123.456)
+}
+
+Warning: session_destroy(): Trying to destroy uninitialized session in %s on line %d
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing session_decode() : variation ***
+
+Warning: session_start(): Cannot find serialization handler 'blah' - session startup failed in /root/php-src/ext/session/tests/session_decode_variation3.php on line 13
+bool(false)
+
+Notice: Undefined variable: _SESSION in /root/php-src/ext/session/tests/session_decode_variation3.php on line 14
+NULL
+array(3) {
+  ["foo"]=>
+  int(1234567890)
+  ["bar"]=>
+  string(5) "Blah!"
+  ["guff"]=>
+  float(123.456)
+}
+
+Warning: session_decode(): Session is not active. You cannot decode session data in /root/php-src/ext/session/tests/session_decode_variation3.php on line 20
+bool(false)
+array(3) {
+  ["foo"]=>
+  int(1234567890)
+  ["bar"]=>
+  string(5) "Blah!"
+  ["guff"]=>
+  float(123.456)
+}
+
+Warning: session_destroy(): Trying to destroy uninitialized session in /root/php-src/ext/session/tests/session_decode_variation3.php on line 22
+bool(false)
+Done
+---- FAILED

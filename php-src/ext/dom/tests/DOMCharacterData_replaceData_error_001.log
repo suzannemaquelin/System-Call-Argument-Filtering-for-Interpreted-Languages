@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Warning: DOMCharacterData::replaceData() expects exactly 3 parameters, 0 given in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: DOMCharacterData::replaceData() expects exactly 3 parameters, 0 given in /root/php-src/ext/dom/tests/DOMCharacterData_replaceData_error_001.php on line 8
+---- FAILED

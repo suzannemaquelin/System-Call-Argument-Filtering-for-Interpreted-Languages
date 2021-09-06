@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing session_module_name() : variation ***
+string(5) "files"
+string(4) "user"
+
+Warning: Uncaught Exception: Stop...! in /root/php-src/ext/session/tests/session_module_name_variation3.php:13
+Stack trace:
+#0 [internal function]: open('', 'PHPSESSID')
+#1 /root/php-src/ext/session/tests/session_module_name_variation3.php(25): session_start()
+#2 {main}
+  thrown in /root/php-src/ext/session/tests/session_module_name_variation3.php on line 13
+
+Fatal error: session_start(): Failed to initialize storage module: user (path: ) in /root/php-src/ext/session/tests/session_module_name_variation3.php on line 25

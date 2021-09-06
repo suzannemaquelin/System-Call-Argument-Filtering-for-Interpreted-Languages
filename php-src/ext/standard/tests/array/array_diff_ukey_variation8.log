@@ -1,0 +1,33 @@
+
+---- EXPECTED OUTPUT
+*** Testing array_diff_ukey() : usage variation ***
+
+-- Testing array_diff_ukey() function with boolean indexed array --
+array(0) {
+}
+array(3) {
+  [-10]=>
+  string(3) "-10"
+  ["true"]=>
+  int(1)
+  ["false"]=>
+  int(0)
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_diff_ukey() : usage variation ***
+
+-- Testing array_diff_ukey() function with boolean indexed array --
+array(0) {
+}
+array(3) {
+  [-10]=>
+  string(3) "-10"
+  ["true"]=>
+  int(1)
+  ["false"]=>
+  int(0)
+}
+===DONE===
+---- FAILED

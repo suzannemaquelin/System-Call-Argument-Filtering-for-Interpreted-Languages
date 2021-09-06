@@ -1,0 +1,124 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing reset() : usage variations ***
+
+-- Iteration 1 --
+
+Warning: reset() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 2 --
+
+Warning: reset() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 3 --
+
+Warning: reset() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 4 --
+
+Warning: reset() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 5 --
+
+Warning: reset() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 6 --
+
+Warning: reset() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 7 --
+
+Warning: reset() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 8 --
+
+Warning: reset() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 9 --
+
+Warning: reset() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 10 --
+
+Warning: reset() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 11 --
+
+Warning: reset() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 12 --
+
+Warning: reset() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 13 --
+
+Warning: reset() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 14 --
+
+Warning: reset() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 15 --
+
+Warning: reset() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 16 --
+
+Warning: reset() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 17 --
+
+Warning: reset() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 18 --
+bool(false)
+
+-- Iteration 19 --
+
+Warning: reset() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 20 --
+
+Warning: reset() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 21 --
+
+Warning: reset() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 22 --
+bool(false)
+
+-- Iteration 23 --
+
+Warning: reset() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 24 --
+
+Warning: reset() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+
+-- Iteration 25 --
+
+Warning: reset() expects parameter 1 to be array, resource given in /root/php-src/ext/standard/tests/array/reset_variation1.php on line 86
+NULL
+===DONE===

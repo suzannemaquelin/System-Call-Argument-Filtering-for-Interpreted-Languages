@@ -1,0 +1,28 @@
+*** Testing date_format() : error conditions ***
+
+-- Testing date_create() function with zero arguments --
+
+Warning: date_format() expects exactly 2 parameters, 0 given in %s on line %d
+bool(false)
+
+-- Testing date_create() function with less than expected no. of arguments --
+
+Warning: date_format() expects exactly 2 parameters, 1 given in %s on line %d
+bool(false)
+
+-- Testing date_create() function with more than expected no. of arguments --
+
+Warning: date_format() expects exactly 2 parameters, 3 given in %s on line %d
+bool(false)
+
+-- Testing date_create() function with an invalid values for $object argument --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, object given in %sp on line %d
+bool(false)
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, integer given in %s on line %d
+bool(false)
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, null given in %s on line %d
+bool(false)
+===DONE===

@@ -1,0 +1,50 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: func_get_arg():  The argument number should be >= 0 in /root/php-src/Zend/tests/002.php on line 4
+bool(false)
+
+Warning: func_get_arg():  Argument 0 not passed to function in /root/php-src/Zend/tests/002.php on line 5
+bool(false)
+
+Warning: func_get_arg():  Argument 1 not passed to function in /root/php-src/Zend/tests/002.php on line 6
+bool(false)
+
+Warning: func_get_arg():  The argument number should be >= 0 in /root/php-src/Zend/tests/002.php on line 4
+bool(false)
+int(10)
+
+Warning: func_get_arg():  Argument 1 not passed to function in /root/php-src/Zend/tests/002.php on line 6
+bool(false)
+int(1)
+
+Warning: func_get_arg():  Argument 1 not passed to function in /root/php-src/Zend/tests/002.php on line 11
+bool(false)
+Exception: Too few arguments to function test2(), 0 passed in /root/php-src/Zend/tests/002.php on line 24 and exactly 1 expected
+int(1)
+int(2)
+
+Warning: func_get_arg():  Argument 2 not passed to function in /root/php-src/Zend/tests/002.php on line 17
+bool(false)
+
+Warning: func_get_arg():  The argument number should be >= 0 in /root/php-src/Zend/tests/002.php on line 4
+bool(false)
+
+Warning: func_get_arg():  Argument 0 not passed to function in /root/php-src/Zend/tests/002.php on line 5
+bool(false)
+
+Warning: func_get_arg():  Argument 1 not passed to function in /root/php-src/Zend/tests/002.php on line 6
+bool(false)
+Exception: Too few arguments to function test3(), 1 passed in /root/php-src/Zend/tests/002.php on line 32 and exactly 2 expected
+int(1)
+int(2)
+
+Warning: func_get_arg():  Argument 2 not passed to function in /root/php-src/Zend/tests/002.php on line 17
+bool(false)
+int(1)
+
+Warning: func_get_arg():  Argument 1 not passed to function in /root/php-src/Zend/tests/002.php on line 41
+bool(false)
+
+Warning: func_get_arg():  Called from the global scope - no function context in /root/php-src/Zend/tests/002.php on line 46
+bool(false)
+Done

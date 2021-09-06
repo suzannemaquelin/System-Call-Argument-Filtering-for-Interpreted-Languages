@@ -1,0 +1,7 @@
+*** Testing get_declared_traits() : error conditions ***
+
+-- Testing get_declared_traits() function with one argument --
+
+Warning: get_declared_traits() expects exactly 0 parameters, 1 given in %s on line 13
+NULL
+Done

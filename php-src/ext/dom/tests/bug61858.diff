@@ -1,0 +1,64 @@
+001+ Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+004+   string(1) "a"
+005+   ["specified"]=>
+006+   bool(true)
+007+   ["value"]=>
+008+   string(1) "b"
+009+   ["ownerElement"]=>
+010+   string(22) "(object value omitted)"
+011+   ["schemaTypeInfo"]=>
+012+   NULL
+013+   ["nodeName"]=>
+014+   string(1) "a"
+015+   ["nodeValue"]=>
+016+   string(1) "b"
+017+   ["nodeType"]=>
+018+   int(2)
+019+   ["parentNode"]=>
+020+   string(22) "(object value omitted)"
+021+   ["childNodes"]=>
+022+   string(22) "(object value omitted)"
+023+   ["firstChild"]=>
+024+   string(22) "(object value omitted)"
+025+   ["lastChild"]=>
+026+   string(22) "(object value omitted)"
+027+   ["previousSibling"]=>
+028+   NULL
+029+   ["nextSibling"]=>
+030+   NULL
+031+   ["attributes"]=>
+032+   NULL
+033+   ["ownerDocument"]=>
+034+   string(22) "(object value omitted)"
+035+   ["namespaceURI"]=>
+036+   NULL
+037+   ["prefix"]=>
+038+   string(0) ""
+039+   ["localName"]=>
+040+   string(1) "a"
+041+   ["baseURI"]=>
+042+   string(14) "/root/php-src/"
+043+   ["textContent"]=>
+044+   string(1) "b"
+007- )
+049+     [specified] => 1
+050+     [value] => b
+051+     [ownerElement] => (object value omitted)
+052+     [schemaTypeInfo] => 
+053+     [nodeName] => a
+054+     [nodeValue] => b
+055+     [nodeType] => 2
+056+     [parentNode] => (object value omitted)
+057+     [childNodes] => (object value omitted)
+058+     [firstChild] => (object value omitted)
+059+     [lastChild] => (object value omitted)
+060+     [previousSibling] => 
+061+     [nextSibling] => 
+062+     [attributes] => 
+063+     [ownerDocument] => (object value omitted)
+064+     [namespaceURI] => 
+065+     [prefix] => 
+066+     [localName] => a
+067+     [baseURI] => /root/php-src/
+068+     [textContent] => b
+069+ )

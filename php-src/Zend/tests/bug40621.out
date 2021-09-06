@@ -1,0 +1,9 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Deprecated: Non-static method Foo::get() should not be called statically in /root/php-src/Zend/tests/bug40621.php on line 10
+
+Fatal error: Uncaught Error: Non-static method Foo::__construct() cannot be called statically in /root/php-src/Zend/tests/bug40621.php:6
+Stack trace:
+#0 /root/php-src/Zend/tests/bug40621.php(10): Foo::get()
+#1 {main}
+  thrown in /root/php-src/Zend/tests/bug40621.php on line 6

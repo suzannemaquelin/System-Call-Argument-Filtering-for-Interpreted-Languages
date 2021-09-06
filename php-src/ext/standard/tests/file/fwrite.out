@@ -1,0 +1,22 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: fwrite() expects at least 2 parameters, 1 given in /root/php-src/ext/standard/tests/file/fwrite.php on line 6
+bool(false)
+
+Warning: fwrite() expects parameter 2 to be string, array given in /root/php-src/ext/standard/tests/file/fwrite.php on line 7
+bool(false)
+int(0)
+int(0)
+int(4)
+int(0)
+
+Warning: fwrite() expects parameter 1 to be resource, array given in /root/php-src/ext/standard/tests/file/fwrite.php on line 20
+bool(false)
+
+Warning: fwrite() expects parameter 1 to be resource, array given in /root/php-src/ext/standard/tests/file/fwrite.php on line 21
+bool(false)
+
+Warning: fwrite() expects at least 2 parameters, 1 given in /root/php-src/ext/standard/tests/file/fwrite.php on line 22
+bool(false)
+string(4) "data"
+Done

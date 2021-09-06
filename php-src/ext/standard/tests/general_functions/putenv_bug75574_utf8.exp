@@ -1,0 +1,23 @@
+bool(true)
+string(3) "啊"
+bool(true)
+string(6) "啊啊"
+bool(true)
+string(9) "啊啊啊"
+bool(true)
+string(12) "啊啊啊啊"
+bool(true)
+string(4) "啊a"
+bool(true)
+string(7) "啊a啊"
+bool(true)
+string(8) "啊a啊a"
+bool(true)
+string(11) "啊a啊a啊"
+bool(true)
+string(10) "啊a啊啊"
+bool(true)
+string(13) "啊a啊啊啊"
+bool(true)
+string(16) "啊a啊啊啊啊"
+===DONE===

@@ -1,0 +1,69 @@
+
+---- EXPECTED OUTPUT
+*** Testing array_unshift() : basic functionality with associative array ***
+int(5)
+array(5) {
+  [0]=>
+  int(10)
+  ["f"]=>
+  string(5) "first"
+  ["s"]=>
+  string(6) "second"
+  [1]=>
+  string(3) "one"
+  [2]=>
+  string(3) "two"
+}
+int(7)
+array(7) {
+  [0]=>
+  int(222)
+  [1]=>
+  string(5) "hello"
+  [2]=>
+  float(12.33)
+  ["f"]=>
+  string(5) "first"
+  ["s"]=>
+  string(6) "second"
+  [3]=>
+  string(3) "one"
+  [4]=>
+  string(3) "two"
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_unshift() : basic functionality with associative array ***
+int(5)
+array(5) {
+  [0]=>
+  int(10)
+  ["f"]=>
+  string(5) "first"
+  ["s"]=>
+  string(6) "second"
+  [1]=>
+  string(3) "one"
+  [2]=>
+  string(3) "two"
+}
+int(7)
+array(7) {
+  [0]=>
+  int(222)
+  [1]=>
+  string(5) "hello"
+  [2]=>
+  float(12.33)
+  ["f"]=>
+  string(5) "first"
+  ["s"]=>
+  string(6) "second"
+  [3]=>
+  string(3) "one"
+  [4]=>
+  string(3) "two"
+}
+Done
+---- FAILED

@@ -1,0 +1,49 @@
+
+---- EXPECTED OUTPUT
+*** Testing gmdate() : usage variation ***
+
+--Day with leading zeros--
+string(%d) "%d"
+string(2) "08"
+
+--Day without leading zeros--
+string(%d) "%d"
+string(1) "8"
+
+--ISO representation--
+string(%d) "%d"
+string(1) "5"
+
+--Numeric representation of day--
+string(%d) "%d"
+string(1) "5"
+
+--Day of the year--
+string(%d) "%d"
+string(3) "220"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing gmdate() : usage variation ***
+
+--Day with leading zeros--
+string(2) "08"
+string(2) "08"
+
+--Day without leading zeros--
+string(1) "8"
+string(1) "8"
+
+--ISO representation--
+string(1) "7"
+string(1) "5"
+
+--Numeric representation of day--
+string(1) "0"
+string(1) "5"
+
+--Day of the year--
+string(3) "127"
+string(3) "220"
+===DONE===
+---- FAILED

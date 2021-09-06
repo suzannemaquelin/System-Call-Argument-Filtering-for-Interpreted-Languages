@@ -1,0 +1,7 @@
+
+---- EXPECTED OUTPUT
+string(60) "ASCII text, with very long lines, with CRLF line terminators"
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(60) "ASCII text, with very long lines, with CRLF line terminators"
+---- FAILED

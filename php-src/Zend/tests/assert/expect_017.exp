@@ -1,0 +1,6 @@
+bool(true)
+bool(true)
+
+Warning: zend.assertions may be completely enabled or disabled only in php.ini in %sexpect_017.php on line 4
+
+Warning: zend.assertions may be completely enabled or disabled only in php.ini in %sexpect_017.php on line 5

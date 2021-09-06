@@ -1,0 +1,18 @@
+
+---- EXPECTED OUTPUT
+Notice: Only variables should be passed by reference in %s on line %d
+string(3) "two"
+
+Notice: Only variables should be passed by reference in %s on line %d
+string(3) "one"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Only variables should be passed by reference in /root/php-src/tests/lang/passByReference_012.php on line 8
+string(3) "two"
+
+Notice: Only variables should be passed by reference in /root/php-src/tests/lang/passByReference_012.php on line 13
+string(3) "one"
+===DONE===
+---- FAILED

@@ -1,0 +1,55 @@
+
+---- EXPECTED OUTPUT
+C:16:"SplObjectStorage":76:{x:i:2;O:8:"stdClass":1:{s:1:"a";O:8:"stdClass":0:{}},i:1;;r:4;,i:2;;m:a:0:{}}
+object(SplObjectStorage)#4 (1) {
+  ["storage":"SplObjectStorage":private]=>
+  array(2) {
+    ["%s"]=>
+    array(2) {
+      ["obj"]=>
+      object(stdClass)#5 (1) {
+        ["a"]=>
+        object(stdClass)#6 (0) {
+        }
+      }
+      ["inf"]=>
+      int(1)
+    }
+    ["%s"]=>
+    array(2) {
+      ["obj"]=>
+      object(stdClass)#6 (0) {
+      }
+      ["inf"]=>
+      int(2)
+    }
+  }
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+C:16:"SplObjectStorage":76:{x:i:2;O:8:"stdClass":1:{s:1:"a";O:8:"stdClass":0:{}},i:1;;r:4;,i:2;;m:a:0:{}}
+object(SplObjectStorage)#4 (1) {
+  ["storage":"SplObjectStorage":private]=>
+  array(2) {
+    ["0000000010ed48d90000000050abad15"]=>
+    array(2) {
+      ["obj"]=>
+      object(stdClass)#5 (1) {
+        ["a"]=>
+        object(stdClass)#6 (0) {
+        }
+      }
+      ["inf"]=>
+      int(1)
+    }
+    ["0000000010ed48da0000000050abad15"]=>
+    array(2) {
+      ["obj"]=>
+      object(stdClass)#6 (0) {
+      }
+      ["inf"]=>
+      int(2)
+    }
+  }
+}
+---- FAILED

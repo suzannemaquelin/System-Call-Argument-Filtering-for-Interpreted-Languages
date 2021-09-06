@@ -1,0 +1,123 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing readdir() : usage variations ***
+
+-- Iteration 1 --
+
+Warning: readdir() expects parameter 1 to be resource, integer given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 2 --
+
+Warning: readdir() expects parameter 1 to be resource, integer given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 3 --
+
+Warning: readdir() expects parameter 1 to be resource, integer given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 4 --
+
+Warning: readdir() expects parameter 1 to be resource, integer given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 5 --
+
+Warning: readdir() expects parameter 1 to be resource, float given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 6 --
+
+Warning: readdir() expects parameter 1 to be resource, float given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 7 --
+
+Warning: readdir() expects parameter 1 to be resource, float given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 8 --
+
+Warning: readdir() expects parameter 1 to be resource, float given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 9 --
+
+Warning: readdir() expects parameter 1 to be resource, float given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 10 --
+
+Warning: readdir() expects parameter 1 to be resource, null given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 11 --
+
+Warning: readdir() expects parameter 1 to be resource, null given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 12 --
+
+Warning: readdir() expects parameter 1 to be resource, boolean given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 13 --
+
+Warning: readdir() expects parameter 1 to be resource, boolean given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 14 --
+
+Warning: readdir() expects parameter 1 to be resource, boolean given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 15 --
+
+Warning: readdir() expects parameter 1 to be resource, boolean given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 16 --
+
+Warning: readdir() expects parameter 1 to be resource, string given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 17 --
+
+Warning: readdir() expects parameter 1 to be resource, string given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 18 --
+
+Warning: readdir() expects parameter 1 to be resource, array given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 19 --
+
+Warning: readdir() expects parameter 1 to be resource, string given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 20 --
+
+Warning: readdir() expects parameter 1 to be resource, string given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 21 --
+
+Warning: readdir() expects parameter 1 to be resource, string given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 22 --
+
+Warning: readdir() expects parameter 1 to be resource, object given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 23 --
+
+Warning: readdir() expects parameter 1 to be resource, null given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+
+-- Iteration 24 --
+
+Warning: readdir() expects parameter 1 to be resource, null given in /root/php-src/ext/standard/tests/dir/readdir_variation1.php on line 80
+NULL
+===DONE===

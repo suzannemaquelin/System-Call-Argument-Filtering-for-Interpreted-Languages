@@ -1,0 +1,30 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing idate() : usage variation ***
+
+--Day of the month--
+int(8)
+
+--Leap Year--
+int(0)
+
+--Month number--
+int(5)
+
+--Days in the month--
+int(31)
+
+--Day of the week--
+int(0)
+
+--ISO-8601 week number--
+int(18)
+
+--Year (1 or 2 digits)--
+int(22)
+
+--Year 4 digits--
+int(2022)
+
+--Day of the year--
+int(127)
+===DONE===

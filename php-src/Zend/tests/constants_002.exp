@@ -1,0 +1,5 @@
+Warning: Constants may only evaluate to scalar values or arrays in %s on line %d
+
+Notice: Use of undefined constant foo - assumed 'foo' in %s on line %d
+string(%d) "foo"
+resource(%d) of type (stream)

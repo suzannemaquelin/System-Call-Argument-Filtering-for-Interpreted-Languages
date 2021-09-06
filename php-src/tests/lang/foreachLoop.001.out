@@ -1,0 +1,27 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(1) "a"
+string(1) "b"
+string(1) "c"
+int(0)
+string(1) "a"
+int(1)
+string(1) "b"
+int(2)
+string(1) "c"
+int(2)
+string(1) "c"
+
+string(1) "d"
+string(1) "e"
+string(1) "f"
+int(0)
+string(1) "d"
+int(1)
+string(1) "e"
+int(2)
+string(1) "f"
+int(2)
+string(1) "f"
+
+string(1) "a"
+string(1) "a"

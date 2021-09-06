@@ -1,0 +1,26 @@
+array(2) {
+  [0]=>
+  array(4) {
+    ["file"]=>
+    string(%d) "%s"
+    ["line"]=>
+    int(%d)
+    ["function"]=>
+    string(3) "foo"
+    ["args"]=>
+    array(0) {
+    }
+  }
+  [1]=>
+  array(4) {
+    ["file"]=>
+    string(%d) "%s"
+    ["line"]=>
+    int(%d)
+    ["function"]=>
+    string(3) "bar"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}

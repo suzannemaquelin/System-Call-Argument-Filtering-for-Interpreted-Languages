@@ -1,0 +1,27 @@
+TEST 0
+bool(true)
+bool(true)
+TEST 1
+bool(true)
+bool(true)
+TEST 2
+bool(true)
+bool(true)
+TEST 3
+bool(true)
+bool(true)
+TEST 4
+bool(true)
+bool(true)
+TEST 5
+bool(true)
+bool(true)
+
+Warning: openssl_encrypt(): Setting of IV length for AEAD mode failed in %s on line %d
+bool(false)
+
+Warning: openssl_encrypt(): Retrieving verification tag failed in %s on line %d
+bool(false)
+
+Warning: openssl_encrypt(): A tag should be provided when using AEAD mode in %s on line %d
+bool(false)

@@ -1,0 +1,14 @@
+Array
+(
+    [0] => anyType ArrayOfEmployeeReturn[]
+    [1] => struct Employee {
+ int id;
+ string department;
+ string name;
+ int age;
+}
+    [2] => struct User {
+ string name;
+ int age;
+}
+)

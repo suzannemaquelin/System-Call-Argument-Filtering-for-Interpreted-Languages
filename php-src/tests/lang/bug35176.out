@@ -1,0 +1,5 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+<br />
+<b>Warning</b>:  require_once(nonexisiting.php) [<a href='/function.require-once.html'>function.require-once.html</a>]: failed to open stream: No such file or directory in <b>/root/php-src/tests/lang/bug35176.php</b> on line <b>2</b><br />
+<br />
+<b>Fatal error</b>:  require_once() [<a href='/function.require.html'>function.require.html</a>]: Failed opening required 'nonexisiting.php' (include_path='.:/opt/php-7.1/lib/php') in <b>/root/php-src/tests/lang/bug35176.php</b> on line <b>2</b><br />

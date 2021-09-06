@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Warning: DOMDocument::load%r(XML){0,1}%r(): Unsupported version '3.1' %s
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: DOMDocument::load(): Unsupported version '3.1' in /root/php-src/ext/dom/tests/not_well_formed4.xml, line: 1 in /root/php-src/ext/dom/tests/DOMDocument_load_error4.php on line 8
+---- FAILED

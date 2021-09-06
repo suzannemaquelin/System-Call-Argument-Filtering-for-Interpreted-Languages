@@ -1,0 +1,12 @@
+*** Testing mail() : error conditions ***
+
+-- Testing mail() function with more than expected no. of arguments --
+
+Warning: mail() expects at most 5 parameters, 6 given in %s on line %d
+NULL
+
+-- Testing mail() function with less than expected no. of arguments --
+
+Warning: mail() expects at least 3 parameters, 2 given in %s on line %d
+NULL
+===DONE===

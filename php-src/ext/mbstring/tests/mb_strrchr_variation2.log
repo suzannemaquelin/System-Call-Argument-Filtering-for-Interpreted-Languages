@@ -1,0 +1,177 @@
+
+---- EXPECTED OUTPUT
+*** Testing mb_strrchr() : usage variation ***
+
+--int 0--
+bool(false)
+
+--int 1--
+bool(false)
+
+--int 12345--
+bool(false)
+
+--int -12345--
+bool(false)
+
+--float 10.5--
+bool(false)
+
+--float -10.5--
+bool(false)
+
+--float 12.3456789000e10--
+bool(false)
+
+--float -12.3456789000e10--
+bool(false)
+
+--float .5--
+bool(false)
+
+--empty array--
+Error: 2 - mb_strrchr() expects parameter 2 to be string, array given, %s(%d)
+NULL
+
+--int indexed array--
+Error: 2 - mb_strrchr() expects parameter 2 to be string, array given, %s(%d)
+NULL
+
+--associative array--
+Error: 2 - mb_strrchr() expects parameter 2 to be string, array given, %s(%d)
+NULL
+
+--nested arrays--
+Error: 2 - mb_strrchr() expects parameter 2 to be string, array given, %s(%d)
+NULL
+
+--uppercase NULL--
+bool(false)
+
+--lowercase null--
+bool(false)
+
+--lowercase true--
+bool(false)
+
+--lowercase false--
+bool(false)
+
+--uppercase TRUE--
+bool(false)
+
+--uppercase FALSE--
+bool(false)
+
+--empty string DQ--
+bool(false)
+
+--empty string SQ--
+bool(false)
+
+--instance of classWithToString--
+bool(false)
+
+--instance of classWithoutToString--
+Error: 2 - mb_strrchr() expects parameter 2 to be string, object given, %s(%d)
+NULL
+
+--undefined var--
+bool(false)
+
+--unset var--
+bool(false)
+
+--resource--
+Error: 2 - mb_strrchr() expects parameter 2 to be string, resource given, %s(%d)
+NULL
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_strrchr() : usage variation ***
+
+--int 0--
+bool(false)
+
+--int 1--
+bool(false)
+
+--int 12345--
+bool(false)
+
+--int -12345--
+bool(false)
+
+--float 10.5--
+bool(false)
+
+--float -10.5--
+bool(false)
+
+--float 12.3456789000e10--
+bool(false)
+
+--float -12.3456789000e10--
+bool(false)
+
+--float .5--
+bool(false)
+
+--empty array--
+Error: 2 - mb_strrchr() expects parameter 2 to be string, array given, /root/php-src/ext/mbstring/tests/mb_strrchr_variation2.php(106)
+NULL
+
+--int indexed array--
+Error: 2 - mb_strrchr() expects parameter 2 to be string, array given, /root/php-src/ext/mbstring/tests/mb_strrchr_variation2.php(106)
+NULL
+
+--associative array--
+Error: 2 - mb_strrchr() expects parameter 2 to be string, array given, /root/php-src/ext/mbstring/tests/mb_strrchr_variation2.php(106)
+NULL
+
+--nested arrays--
+Error: 2 - mb_strrchr() expects parameter 2 to be string, array given, /root/php-src/ext/mbstring/tests/mb_strrchr_variation2.php(106)
+NULL
+
+--uppercase NULL--
+bool(false)
+
+--lowercase null--
+bool(false)
+
+--lowercase true--
+bool(false)
+
+--lowercase false--
+bool(false)
+
+--uppercase TRUE--
+bool(false)
+
+--uppercase FALSE--
+bool(false)
+
+--empty string DQ--
+bool(false)
+
+--empty string SQ--
+bool(false)
+
+--instance of classWithToString--
+bool(false)
+
+--instance of classWithoutToString--
+Error: 2 - mb_strrchr() expects parameter 2 to be string, object given, /root/php-src/ext/mbstring/tests/mb_strrchr_variation2.php(106)
+NULL
+
+--undefined var--
+bool(false)
+
+--unset var--
+bool(false)
+
+--resource--
+Error: 2 - mb_strrchr() expects parameter 2 to be string, resource given, /root/php-src/ext/mbstring/tests/mb_strrchr_variation2.php(106)
+NULL
+===DONE===
+---- FAILED

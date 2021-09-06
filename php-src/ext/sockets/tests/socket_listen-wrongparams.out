@@ -1,0 +1,7 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: socket_listen() expects parameter 1 to be resource, null given in /root/php-src/ext/sockets/tests/socket_listen-wrongparams.php on line 2
+NULL
+
+Warning: socket_listen(): unable to listen on socket [22]: Invalid argument in /root/php-src/ext/sockets/tests/socket_listen-wrongparams.php on line 4
+bool(false)

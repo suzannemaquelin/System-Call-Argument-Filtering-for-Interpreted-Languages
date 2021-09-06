@@ -1,0 +1,289 @@
+
+---- EXPECTED OUTPUT
+*** Testing date_timezone_get() : usage variation -  unexpected values to first argument $object***
+
+-- int 0 --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, integer given in %s on line %d
+bool(false)
+
+-- int 1 --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, integer given in %s on line %d
+bool(false)
+
+-- int 12345 --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, integer given in %s on line %d
+bool(false)
+
+-- int -12345 --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, integer given in %s on line %d
+bool(false)
+
+-- float 10.5 --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, float given in %s on line %d
+bool(false)
+
+-- float -10.5 --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, float given in %s on line %d
+bool(false)
+
+-- float .5 --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, float given in %s on line %d
+bool(false)
+
+-- empty array --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, array given in %s on line %d
+bool(false)
+
+-- int indexed array --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, array given in %s on line %d
+bool(false)
+
+-- associative array --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, array given in %s on line %d
+bool(false)
+
+-- nested arrays --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, array given in %s on line %d
+bool(false)
+
+-- uppercase NULL --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, null given in %s on line %d
+bool(false)
+
+-- lowercase null --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, null given in %s on line %d
+bool(false)
+
+-- lowercase true --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, boolean given in %s on line %d
+bool(false)
+
+-- lowercase false --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, boolean given in %s on line %d
+bool(false)
+
+-- uppercase TRUE --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, boolean given in %s on line %d
+bool(false)
+
+-- uppercase FALSE --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, boolean given in %s on line %d
+bool(false)
+
+-- empty string DQ --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, string given in %s on line %d
+bool(false)
+
+-- empty string SQ --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, string given in %s on line %d
+bool(false)
+
+-- string DQ --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, string given in %s on line %d
+bool(false)
+
+-- string SQ --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, string given in %s on line %d
+bool(false)
+
+-- mixed case string --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, string given in %s on line %d
+bool(false)
+
+-- heredoc --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, string given in %s on line %d
+bool(false)
+
+-- instance of classWithToString --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, object given in %s on line %d
+bool(false)
+
+-- instance of classWithoutToString --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, object given in %s on line %d
+bool(false)
+
+-- undefined var --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, null given in %s on line %d
+bool(false)
+
+-- unset var --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, null given in %s on line %d
+bool(false)
+
+-- resource --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, resource given in %s on line %d
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing date_timezone_get() : usage variation -  unexpected values to first argument $object***
+
+-- int 0 --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, integer given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- int 1 --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, integer given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- int 12345 --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, integer given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- int -12345 --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, integer given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- float 10.5 --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, float given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- float -10.5 --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, float given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- float .5 --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, float given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- empty array --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, array given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- int indexed array --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, array given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- associative array --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, array given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- nested arrays --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, array given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- uppercase NULL --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, null given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- lowercase null --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, null given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- lowercase true --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, boolean given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- lowercase false --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, boolean given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- uppercase TRUE --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, boolean given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- uppercase FALSE --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, boolean given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- empty string DQ --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, string given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- empty string SQ --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, string given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- string DQ --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, string given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- string SQ --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, string given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- mixed case string --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, string given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- heredoc --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, string given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- instance of classWithToString --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, object given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- instance of classWithoutToString --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, object given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- undefined var --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, null given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- unset var --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, null given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+
+-- resource --
+
+Warning: date_timezone_get() expects parameter 1 to be DateTimeInterface, resource given in /root/php-src/ext/date/tests/date_timezone_get_variation1.php on line 97
+bool(false)
+===DONE===
+---- FAILED

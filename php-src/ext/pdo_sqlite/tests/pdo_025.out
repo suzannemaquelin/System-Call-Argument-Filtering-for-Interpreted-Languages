@@ -1,0 +1,55 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(Test)#2 (3) {
+  ["id"]=>
+  string(2) "10"
+  ["val"]=>
+  string(3) "Abc"
+  ["val2"]=>
+  string(3) "zxy"
+}
+object(Test)#2 (3) {
+  ["id"]=>
+  string(2) "20"
+  ["val"]=>
+  string(3) "Def"
+  ["val2"]=>
+  string(3) "wvu"
+}
+object(Test)#2 (3) {
+  ["id"]=>
+  string(2) "30"
+  ["val"]=>
+  string(3) "Ghi"
+  ["val2"]=>
+  string(3) "tsr"
+}
+object(Test)#2 (3) {
+  ["id"]=>
+  string(2) "40"
+  ["val"]=>
+  string(3) "Jkl"
+  ["val2"]=>
+  string(3) "qpo"
+}
+object(Test)#2 (3) {
+  ["id"]=>
+  string(2) "50"
+  ["val"]=>
+  string(3) "Mno"
+  ["val2"]=>
+  string(3) "nml"
+}
+object(Test)#2 (3) {
+  ["id"]=>
+  string(2) "60"
+  ["val"]=>
+  string(3) "Pqr"
+  ["val2"]=>
+  string(3) "kji"
+}
+===FAIL===
+
+Fatal error: Uncaught Error: Cannot access protected property Fail::$id in /root/php-src/ext/pdo_sqlite/tests/pdo_025.php:46
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/ext/pdo_sqlite/tests/pdo_025.php on line 46

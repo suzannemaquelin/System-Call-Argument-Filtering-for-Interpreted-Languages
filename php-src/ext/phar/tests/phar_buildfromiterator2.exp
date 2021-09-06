@@ -1,0 +1,2 @@
+Warning: Phar::buildFromIterator() expects parameter 1 to be Traversable, object given in %sphar_buildfromiterator2.php on line %d
+===DONE===

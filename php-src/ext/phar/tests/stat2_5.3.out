@@ -1,0 +1,21 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: is_file() expects exactly 1 parameter, 0 given in /root/php-src/ext/phar/tests/stat2_5.3.php on line 3
+
+Warning: is_link() expects exactly 1 parameter, 0 given in /root/php-src/ext/phar/tests/stat2_5.3.php on line 4
+bool(true)
+is_link
+bool(false)
+bool(true)
+bool(false)
+bool(false)
+bool(true)
+string(4) "link"
+string(3) "dir"
+bool(true)
+not found
+bool(false)
+dir
+bool(true)
+bool(false)
+===DONE===

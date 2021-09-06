@@ -1,0 +1,15 @@
+MY_METADATA_NULL
+
+Warning: file_get_contents(phar://%s): failed to open stream: phar error: "test.php" is not a file in phar "%s.phar" in %s.php on line %d
+array(1) {
+  ["whatever"]=>
+  int(123)
+}
+object(DateTime)#2 (3) {
+  ["date"]=>
+  string(26) "2000-01-01 00:00:00.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(3) "UTC"
+}

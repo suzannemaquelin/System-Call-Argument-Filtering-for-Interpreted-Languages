@@ -1,0 +1,7 @@
+*** Testing posix_get_last_error() : error conditions ***
+
+-- Testing posix_get_last_error() function with one argument --
+
+Warning: posix_get_last_error() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+Done

@@ -1,0 +1,142 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+===elem/@attr2===
+array(3) {
+  [0]=>
+  object(SimpleXMLElement)#2 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["attr2"]=>
+      string(2) "12"
+    }
+  }
+  [1]=>
+  object(SimpleXMLElement)#3 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["attr2"]=>
+      string(2) "22"
+    }
+  }
+  [2]=>
+  object(SimpleXMLElement)#4 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["attr2"]=>
+      string(2) "32"
+    }
+  }
+}
+===//@attr2===
+array(3) {
+  [0]=>
+  object(SimpleXMLElement)#4 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["attr2"]=>
+      string(2) "12"
+    }
+  }
+  [1]=>
+  object(SimpleXMLElement)#7 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["attr2"]=>
+      string(2) "22"
+    }
+  }
+  [2]=>
+  object(SimpleXMLElement)#3 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["attr2"]=>
+      string(2) "32"
+    }
+  }
+}
+===//@*===
+array(9) {
+  [0]=>
+  object(SimpleXMLElement)#3 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["attr1"]=>
+      string(2) "11"
+    }
+  }
+  [1]=>
+  object(SimpleXMLElement)#5 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["attr2"]=>
+      string(2) "12"
+    }
+  }
+  [2]=>
+  object(SimpleXMLElement)#7 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["attr3"]=>
+      string(2) "13"
+    }
+  }
+  [3]=>
+  object(SimpleXMLElement)#2 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["attr1"]=>
+      string(2) "21"
+    }
+  }
+  [4]=>
+  object(SimpleXMLElement)#4 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["attr2"]=>
+      string(2) "22"
+    }
+  }
+  [5]=>
+  object(SimpleXMLElement)#6 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["attr3"]=>
+      string(2) "23"
+    }
+  }
+  [6]=>
+  object(SimpleXMLElement)#8 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["attr1"]=>
+      string(2) "31"
+    }
+  }
+  [7]=>
+  object(SimpleXMLElement)#9 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["attr2"]=>
+      string(2) "32"
+    }
+  }
+  [8]=>
+  object(SimpleXMLElement)#10 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["attr3"]=>
+      string(2) "33"
+    }
+  }
+}
+===elem[2]/@attr2===
+array(1) {
+  [0]=>
+  object(SimpleXMLElement)#10 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["attr2"]=>
+      string(2) "22"
+    }
+  }
+}
+===DONE===

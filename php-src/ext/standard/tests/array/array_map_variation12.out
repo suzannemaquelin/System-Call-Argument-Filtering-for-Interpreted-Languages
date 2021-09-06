@@ -1,0 +1,31 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_map() : built-in function ***
+-- with built-in function 'pow' and two parameters --
+array(3) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(16)
+  [2]=>
+  int(243)
+}
+-- with built-in function 'pow' and one parameter --
+
+Warning: pow() expects exactly 2 parameters, 1 given in /root/php-src/ext/standard/tests/array/array_map_variation12.php on line 20
+
+Warning: pow() expects exactly 2 parameters, 1 given in /root/php-src/ext/standard/tests/array/array_map_variation12.php on line 20
+
+Warning: pow() expects exactly 2 parameters, 1 given in /root/php-src/ext/standard/tests/array/array_map_variation12.php on line 20
+array(3) {
+  [0]=>
+  NULL
+  [1]=>
+  NULL
+  [2]=>
+  NULL
+}
+-- with language construct --
+
+Warning: array_map() expects parameter 1 to be a valid callback, function 'echo' not found or invalid function name in /root/php-src/ext/standard/tests/array/array_map_variation12.php on line 23
+NULL
+Done

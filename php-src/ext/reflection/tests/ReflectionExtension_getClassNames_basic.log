@@ -1,0 +1,27 @@
+
+---- EXPECTED OUTPUT
+array(4) {
+  [0]=>
+  %s(22) "__PHP_Incomplete_Class"
+  [1]=>
+  %s(15) "php_user_filter"
+  [2]=>
+  %s(9) "Directory"
+  [3]=>
+  %s(14) "AssertionError"
+}
+==DONE==
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(4) {
+  [0]=>
+  string(22) "__PHP_Incomplete_Class"
+  [1]=>
+  string(15) "php_user_filter"
+  [2]=>
+  string(9) "Directory"
+  [3]=>
+  string(14) "AssertionError"
+}
+==DONE==
+---- FAILED

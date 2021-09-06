@@ -1,0 +1,6 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing iconv_strlen() : error ***
+
+Notice: iconv_strlen(): Wrong charset, conversion from `unknown-encoding' to `UCS-4LE' is not allowed in /root/php-src/ext/iconv/tests/iconv_strlen_error2.php on line 17
+bool(false)
+===DONE===

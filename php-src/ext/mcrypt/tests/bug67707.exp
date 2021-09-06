@@ -1,0 +1,3 @@
+Deprecated: Function mcrypt_module_open() is deprecated in %s on line %d
+
+Deprecated: Function mcrypt_generic_init() is deprecated in %s on line %d

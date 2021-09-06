@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+*** Testing ob_get_contents() : error cases ***
+
+Warning: ob_get_contents() expects exactly 0 parameters, 1 given in %s on line 11
+NULL
+
+Warning: ob_get_contents() expects exactly 0 parameters, 2 given in %s on line 15
+NULL
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing ob_get_contents() : error cases ***
+
+Warning: ob_get_contents() expects exactly 0 parameters, 1 given in /root/php-src/tests/output/ob_get_contents_error_001.php on line 11
+NULL
+
+Warning: ob_get_contents() expects exactly 0 parameters, 2 given in /root/php-src/tests/output/ob_get_contents_error_001.php on line 15
+NULL
+Done
+---- FAILED

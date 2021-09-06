@@ -1,0 +1,119 @@
+
+---- EXPECTED OUTPUT
+=== 1st test ===
+array(1) {
+  [0]=>
+  object(ReflectionProperty)#%d (2) {
+    ["name"]=>
+    string(5) "value"
+    ["class"]=>
+    string(8) "stdClass"
+  }
+}
+bool(false)
+bool(false)
+bool(true)
+bool(false)
+=== 2nd test ===
+array(1) {
+  [0]=>
+  object(ReflectionProperty)#%d (2) {
+    ["name"]=>
+    string(5) "value"
+    ["class"]=>
+    string(5) "test2"
+  }
+}
+bool(false)
+bool(false)
+bool(true)
+bool(false)
+=== 3rd test ===
+array(1) {
+  [0]=>
+  object(ReflectionProperty)#%d (2) {
+    ["name"]=>
+    string(5) "value"
+    ["class"]=>
+    string(5) "test3"
+  }
+}
+bool(false)
+bool(false)
+bool(true)
+bool(false)
+=== 4th test ===
+array(1) {
+  [0]=>
+  object(ReflectionProperty)#%d (2) {
+    ["name"]=>
+    string(5) "value"
+    ["class"]=>
+    string(5) "test4"
+  }
+}
+bool(false)
+bool(false)
+bool(true)
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+=== 1st test ===
+array(1) {
+  [0]=>
+  object(ReflectionProperty)#3 (2) {
+    ["name"]=>
+    string(5) "value"
+    ["class"]=>
+    string(8) "stdClass"
+  }
+}
+bool(false)
+bool(false)
+bool(true)
+bool(false)
+=== 2nd test ===
+array(1) {
+  [0]=>
+  object(ReflectionProperty)#2 (2) {
+    ["name"]=>
+    string(5) "value"
+    ["class"]=>
+    string(5) "test2"
+  }
+}
+bool(false)
+bool(false)
+bool(true)
+bool(false)
+=== 3rd test ===
+array(1) {
+  [0]=>
+  object(ReflectionProperty)#5 (2) {
+    ["name"]=>
+    string(5) "value"
+    ["class"]=>
+    string(5) "test3"
+  }
+}
+bool(false)
+bool(false)
+bool(true)
+bool(false)
+=== 4th test ===
+array(1) {
+  [0]=>
+  object(ReflectionProperty)#1 (2) {
+    ["name"]=>
+    string(5) "value"
+    ["class"]=>
+    string(5) "test4"
+  }
+}
+bool(false)
+bool(false)
+bool(true)
+bool(false)
+Done
+---- FAILED

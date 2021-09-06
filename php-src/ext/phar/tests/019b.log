@@ -1,0 +1,41 @@
+
+---- EXPECTED OUTPUT
+string(11) "phar://hio/"
+string(2) "/a"
+bool(false)
+string(2) "/b"
+bool(true)
+string(12) "phar://hio/b"
+string(4) "/b/a"
+bool(false)
+string(4) "/b/c"
+bool(true)
+string(14) "phar://hio/b/c"
+string(6) "/b/c/d"
+bool(false)
+string(4) "/bad"
+bool(true)
+string(14) "phar://hio/bad"
+string(6) "/bad/c"
+bool(false)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(11) "phar://hio/"
+string(2) "/a"
+bool(false)
+string(2) "/b"
+bool(true)
+string(12) "phar://hio/b"
+string(4) "/b/a"
+bool(false)
+string(4) "/b/c"
+bool(true)
+string(14) "phar://hio/b/c"
+string(6) "/b/c/d"
+bool(false)
+string(4) "/bad"
+bool(true)
+string(14) "phar://hio/bad"
+string(6) "/bad/c"
+bool(false)
+---- FAILED

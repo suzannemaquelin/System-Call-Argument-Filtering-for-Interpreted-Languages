@@ -1,0 +1,57 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+
+---> Various types of access on complete class:
+object(C)#2 (1) {
+  ["p"]=>
+  int(1)
+}
+bool(true)
+int(1)
+string(13) "ref1.original"
+string(12) "ref1.changed"
+string(9) "p.changed"
+bool(false)
+bool(true)
+
+Notice: Undefined property: C::$x in /root/php-src/ext/standard/tests/serialize/serialization_objects_005.php on line 37
+NULL
+
+
+---> Same types of access on incomplete class:
+object(__PHP_Incomplete_Class)#1 (2) {
+  ["__PHP_Incomplete_Class_Name"]=>
+  string(1) "C"
+  ["p"]=>
+  int(1)
+}
+bool(false)
+
+Notice: main(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "C" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /root/php-src/ext/standard/tests/serialize/serialization_objects_005.php on line 43
+NULL
+
+Notice: main(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "C" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /root/php-src/ext/standard/tests/serialize/serialization_objects_005.php on line 46
+
+Notice: main(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "C" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /root/php-src/ext/standard/tests/serialize/serialization_objects_005.php on line 47
+NULL
+
+Notice: main(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "C" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /root/php-src/ext/standard/tests/serialize/serialization_objects_005.php on line 49
+NULL
+
+Notice: main(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "C" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /root/php-src/ext/standard/tests/serialize/serialization_objects_005.php on line 50
+string(9) "p.changed"
+
+Notice: main(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "C" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /root/php-src/ext/standard/tests/serialize/serialization_objects_005.php on line 53
+bool(false)
+
+Notice: main(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "C" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /root/php-src/ext/standard/tests/serialize/serialization_objects_005.php on line 54
+
+Notice: main(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "C" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /root/php-src/ext/standard/tests/serialize/serialization_objects_005.php on line 55
+bool(false)
+
+Notice: main(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "C" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /root/php-src/ext/standard/tests/serialize/serialization_objects_005.php on line 56
+
+Notice: main(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "C" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /root/php-src/ext/standard/tests/serialize/serialization_objects_005.php on line 57
+NULL
+
+Fatal error: main(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "C" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /root/php-src/ext/standard/tests/serialize/serialization_objects_005.php on line 59

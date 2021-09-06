@@ -1,0 +1,23 @@
+*** Testing timezone_name_get() : error conditions ***
+
+-- Testing timezone_name_get() function with zero arguments --
+
+Warning: timezone_name_get() expects exactly 1 parameter, 0 given in %s on line %d
+bool(false)
+
+-- Testing date_timezone_set() function with more than expected no. of arguments --
+
+Warning: timezone_name_get() expects exactly 1 parameter, 2 given in %s on line %d
+bool(false)
+
+-- Testing timezone_name_get() function with an invalid values for $object argument --
+
+Warning: timezone_name_get() expects parameter 1 to be DateTimeZone, object given in %s on line %d
+bool(false)
+
+Warning: timezone_name_get() expects parameter 1 to be DateTimeZone, integer given in %s on line %d
+bool(false)
+
+Warning: timezone_name_get() expects parameter 1 to be DateTimeZone, null given in %s on line %d
+bool(false)
+===DONE===

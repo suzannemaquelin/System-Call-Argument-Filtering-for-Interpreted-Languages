@@ -1,0 +1,9 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(0)
+int(0)
+int(3)
+
+Warning: Cannot bind closure to scope of internal class stdClass in /root/php-src/Zend/tests/closure_call.php on line 34
+NULL
+int(21)
+int(3)

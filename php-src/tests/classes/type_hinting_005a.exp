@@ -1,0 +1,4 @@
+Warning: Declaration of D2::f(SomeClass $a) should be compatible with C::f(array $a) in %s on line 8
+Compatible hint.
+Class hint, should be array.
+==DONE==

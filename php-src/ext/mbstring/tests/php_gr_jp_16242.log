@@ -1,0 +1,11 @@
+
+---- EXPECTED OUTPUT
+string(8) "Japanese"
+string(5) "UTF-8"
+string(5) "UTF-8"
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(8) "Japanese"
+string(5) "UTF-8"
+string(5) "UTF-8"
+---- FAILED

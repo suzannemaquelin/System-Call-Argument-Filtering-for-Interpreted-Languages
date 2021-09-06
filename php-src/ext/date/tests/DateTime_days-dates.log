@@ -1,0 +1,37 @@
+
+---- EXPECTED OUTPUT
+test__7: DAYS: **7**
+test_years_positive__7_by_0_day: DAYS: **2557**
+test_years_positive__7_by_1_day: DAYS: **2558**
+test_years_positive__6_shy_1_day: DAYS: **2556**
+test_years_positive__7_by_1_month: DAYS: **2585**
+test_years_positive__6_shy_1_month: DAYS: **2526**
+test_years_positive__7_by_1_month_split_newyear: DAYS: **2588**
+test_years_positive__6_shy_1_month_split_newyear: DAYS: **2526**
+test_negative__7: DAYS: **7**
+test_years_negative__7_by_0_day: DAYS: **2557**
+test_years_negative__7_by_1_day: DAYS: **2558**
+test_years_negative__6_shy_1_day: DAYS: **2556**
+test_years_negative__7_by_1_month: DAYS: **2585**
+test_years_negative__6_shy_1_month: DAYS: **2526**
+test_years_negative__7_by_1_month_split_newyear: DAYS: **2588**
+test_years_negative__6_shy_1_month_split_newyear: DAYS: **2526**
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+test__7: DAYS: **7**
+test_years_positive__7_by_0_day: DAYS: **2557**
+test_years_positive__7_by_1_day: DAYS: **2558**
+test_years_positive__6_shy_1_day: DAYS: **2556**
+test_years_positive__7_by_1_month: DAYS: **2585**
+test_years_positive__6_shy_1_month: DAYS: **2526**
+test_years_positive__7_by_1_month_split_newyear: DAYS: **2588**
+test_years_positive__6_shy_1_month_split_newyear: DAYS: **2526**
+test_negative__7: DAYS: **7**
+test_years_negative__7_by_0_day: DAYS: **2557**
+test_years_negative__7_by_1_day: DAYS: **2558**
+test_years_negative__6_shy_1_day: DAYS: **2556**
+test_years_negative__7_by_1_month: DAYS: **2585**
+test_years_negative__6_shy_1_month: DAYS: **2526**
+test_years_negative__7_by_1_month_split_newyear: DAYS: **2588**
+test_years_negative__6_shy_1_month_split_newyear: DAYS: **2526**
+---- FAILED

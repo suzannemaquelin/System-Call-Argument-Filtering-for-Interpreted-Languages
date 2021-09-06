@@ -1,0 +1,531 @@
+
+---- EXPECTED OUTPUT
+*** Testing sizeof() : usage variations ***
+--- Testing sizeof() for all kinds of unset variables in default, Normal and Recursive Modes ---
+-- Iteration 1 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 2 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 3 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 4 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 5 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 6 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 7 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 8 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 9 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 10 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 11 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 12 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 13 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 14 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 15 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 16 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 17 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 18 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 19 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+-- Iteration 20 --
+Default Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in %s on line %d
+int(0)
+
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing sizeof() : usage variations ***
+--- Testing sizeof() for all kinds of unset variables in default, Normal and Recursive Modes ---
+-- Iteration 1 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 2 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 3 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 4 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 5 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 6 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 7 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 8 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 9 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 10 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 11 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 12 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 13 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 14 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 15 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 16 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 17 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 18 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 19 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+-- Iteration 20 --
+Default Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 66
+int(0)
+
+COUNT_NORMAL Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 70
+int(0)
+
+COUNT_RECURSIVE Mode: 
+Notice: Undefined variable: value in /root/php-src/ext/standard/tests/array/sizeof_variation4.php on line 74
+int(0)
+
+Done
+---- FAILED

@@ -1,0 +1,14 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+*** Testing error conditions ***
+
+-- Testing is_callable() function with less than expected no. of arguments --
+
+Warning: is_callable() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/general_functions/is_callable_error.php on line 10
+NULL
+
+-- Testing is_callable() function with more than expected no. of arguments --
+
+Warning: is_callable() expects at most 3 parameters, 4 given in /root/php-src/ext/standard/tests/general_functions/is_callable_error.php on line 13
+NULL
+===DONE===

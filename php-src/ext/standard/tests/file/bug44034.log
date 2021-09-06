@@ -1,0 +1,51 @@
+
+---- EXPECTED OUTPUT
+data://text/plain,foo\r\nbar\r\n
+array(2) {
+  [0]=>
+  %unicode|string%(3) "foo"
+  [1]=>
+  %unicode|string%(3) "bar"
+}
+data://text/plain,\r\nfoo\r\nbar\r\n
+array(3) {
+  [0]=>
+  %unicode|string%(0) ""
+  [1]=>
+  %unicode|string%(3) "foo"
+  [2]=>
+  %unicode|string%(3) "bar"
+}
+data://text/plain,foo\r\nbar
+array(2) {
+  [0]=>
+  %unicode|string%(3) "foo"
+  [1]=>
+  %unicode|string%(3) "bar"
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+data://text/plain,foo\r\nbar\r\n
+array(2) {
+  [0]=>
+  string(3) "foo"
+  [1]=>
+  string(3) "bar"
+}
+data://text/plain,\r\nfoo\r\nbar\r\n
+array(3) {
+  [0]=>
+  string(0) ""
+  [1]=>
+  string(3) "foo"
+  [2]=>
+  string(3) "bar"
+}
+data://text/plain,foo\r\nbar
+array(2) {
+  [0]=>
+  string(3) "foo"
+  [1]=>
+  string(3) "bar"
+}
+---- FAILED

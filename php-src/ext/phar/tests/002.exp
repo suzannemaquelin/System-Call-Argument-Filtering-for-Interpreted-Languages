@@ -1,0 +1,2 @@
+Warning: Phar::mapPhar() expects at most 2 parameters, 3 given in %s002.php on line %d
+internal corruption of phar "%s002.php" (truncated manifest at manifest length)

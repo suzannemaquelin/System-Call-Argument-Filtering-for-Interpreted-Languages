@@ -1,0 +1,137 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+**********************************
+Reflecting on method DerivedClass::foo()
+
+__toString():
+string(136) "Method [ <user, inherits TestClass> public method foo ] {
+  @@ /root/php-src/ext/reflection/tests/ReflectionMethod_basic2.php 16 - 18
+}
+"
+
+export():
+string(136) "Method [ <user, inherits TestClass> public method foo ] {
+  @@ /root/php-src/ext/reflection/tests/ReflectionMethod_basic2.php 16 - 18
+}
+"
+
+**********************************
+**********************************
+Reflecting on method TestClass::stat()
+
+__toString():
+string(124) "Method [ <user> static public method stat ] {
+  @@ /root/php-src/ext/reflection/tests/ReflectionMethod_basic2.php 20 - 22
+}
+"
+
+export():
+string(124) "Method [ <user> static public method stat ] {
+  @@ /root/php-src/ext/reflection/tests/ReflectionMethod_basic2.php 20 - 22
+}
+"
+
+**********************************
+**********************************
+Reflecting on method TestClass::priv()
+
+__toString():
+string(118) "Method [ <user> private method priv ] {
+  @@ /root/php-src/ext/reflection/tests/ReflectionMethod_basic2.php 24 - 26
+}
+"
+
+export():
+string(118) "Method [ <user> private method priv ] {
+  @@ /root/php-src/ext/reflection/tests/ReflectionMethod_basic2.php 24 - 26
+}
+"
+
+**********************************
+**********************************
+Reflecting on method TestClass::prot()
+
+__toString():
+string(120) "Method [ <user> protected method prot ] {
+  @@ /root/php-src/ext/reflection/tests/ReflectionMethod_basic2.php 28 - 28
+}
+"
+
+export():
+string(120) "Method [ <user> protected method prot ] {
+  @@ /root/php-src/ext/reflection/tests/ReflectionMethod_basic2.php 28 - 28
+}
+"
+
+**********************************
+**********************************
+Reflecting on method DerivedClass::prot()
+
+__toString():
+string(140) "Method [ <user, inherits TestClass> protected method prot ] {
+  @@ /root/php-src/ext/reflection/tests/ReflectionMethod_basic2.php 28 - 28
+}
+"
+
+export():
+string(140) "Method [ <user, inherits TestClass> protected method prot ] {
+  @@ /root/php-src/ext/reflection/tests/ReflectionMethod_basic2.php 28 - 28
+}
+"
+
+**********************************
+**********************************
+Reflecting on method TestInterface::int()
+
+__toString():
+string(125) "Method [ <user> abstract public method int ] {
+  @@ /root/php-src/ext/reflection/tests/ReflectionMethod_basic2.php 36 - 36
+}
+"
+
+export():
+string(125) "Method [ <user> abstract public method int ] {
+  @@ /root/php-src/ext/reflection/tests/ReflectionMethod_basic2.php 36 - 36
+}
+"
+
+**********************************
+**********************************
+Reflecting on method ReflectionProperty::__construct()
+
+__toString():
+string(172) "Method [ <internal:Reflection, ctor> public method __construct ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $class ]
+    Parameter #1 [ <required> $name ]
+  }
+}
+"
+
+export():
+string(172) "Method [ <internal:Reflection, ctor> public method __construct ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $class ]
+    Parameter #1 [ <required> $name ]
+  }
+}
+"
+
+**********************************
+**********************************
+Reflecting on method TestClass::__destruct()
+
+__toString():
+string(129) "Method [ <user, dtor> public method __destruct ] {
+  @@ /root/php-src/ext/reflection/tests/ReflectionMethod_basic2.php 30 - 30
+}
+"
+
+export():
+string(129) "Method [ <user, dtor> public method __destruct ] {
+  @@ /root/php-src/ext/reflection/tests/ReflectionMethod_basic2.php 30 - 30
+}
+"
+
+**********************************

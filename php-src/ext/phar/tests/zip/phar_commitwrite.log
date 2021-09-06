@@ -1,0 +1,31 @@
+
+---- EXPECTED OUTPUT
+string(60) "<?php // zip-based phar archive stub file
+__HALT_COMPILER();"
+string(200) "<?php
+function __autoload($class)
+{
+    include 'phar://' . str_replace('_', '/', $class);
+}
+Phar::mapPhar('brandnewphar.phar');
+include 'phar://brandnewphar.phar/startup.php';
+__HALT_COMPILER(); ?>
+"
+bool(true)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(60) "<?php // zip-based phar archive stub file
+__HALT_COMPILER();"
+string(200) "<?php
+function __autoload($class)
+{
+    include 'phar://' . str_replace('_', '/', $class);
+}
+Phar::mapPhar('brandnewphar.phar');
+include 'phar://brandnewphar.phar/startup.php';
+__HALT_COMPILER(); ?>
+"
+bool(true)
+===DONE===
+---- FAILED

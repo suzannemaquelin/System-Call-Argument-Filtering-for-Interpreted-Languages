@@ -1,0 +1,12 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+--> Reflect inherited private from global scope:
+Property D::$p does not exist
+
+--> Reflect inherited private from declaring scope:
+Property D::$p does not exist
+
+--> Reflect inherited private from declaring scope via subclass:
+Property D::$p does not exist
+
+--> Reflect inherited private from subclass:
+Property D::$p does not exist

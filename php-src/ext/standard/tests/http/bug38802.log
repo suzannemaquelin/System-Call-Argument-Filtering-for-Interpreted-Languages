@@ -1,0 +1,239 @@
+
+---- EXPECTED OUTPUT
+-- Test: follow all redirections --
+resource(%d) of type (stream)
+array(7) {
+  [0]=>
+  string(30) "HTTP/1.0 302 Moved Temporarily"
+  [1]=>
+  string(41) "Location: http://127.0.0.1:12342/foo/bar2"
+  [2]=>
+  string(30) "HTTP/1.0 301 Moved Permanently"
+  [3]=>
+  string(41) "Location: http://127.0.0.1:12342/foo/bar3"
+  [4]=>
+  string(30) "HTTP/1.0 302 Moved Temporarily"
+  [5]=>
+  string(41) "Location: http://127.0.0.1:12342/foo/bar4"
+  [6]=>
+  string(15) "HTTP/1.0 200 OK"
+}
+string(5) "done."
+string(%d) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+GET /foo/bar2 HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+GET /foo/bar3 HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+GET /foo/bar4 HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+-- Test: fail after 2 redirections --
+
+Warning: fopen(http://127.0.0.1:12342/foo/bar): failed to open stream: Redirection limit reached, aborting in %s
+bool(false)
+string(%d) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+GET /foo/bar2 HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+-- Test: fail at first redirection --
+
+Warning: fopen(http://127.0.0.1:12342/foo/bar): failed to open stream: Redirection limit reached, aborting in %s
+bool(false)
+string(%d) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+-- Test: fail at first redirection (2) --
+
+Warning: fopen(http://127.0.0.1:12342/foo/bar): failed to open stream: Redirection limit reached, aborting in %s
+bool(false)
+string(%d) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+-- Test: return at first redirection --
+resource(%d) of type (stream)
+array(2) {
+  [0]=>
+  string(30) "HTTP/1.0 302 Moved Temporarily"
+  [1]=>
+  string(41) "Location: http://127.0.0.1:12342/foo/bar2"
+}
+string(1) "1"
+string(%d) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+-- Test: return at first redirection (2) --
+resource(%d) of type (stream)
+array(2) {
+  [0]=>
+  string(30) "HTTP/1.0 302 Moved Temporarily"
+  [1]=>
+  string(41) "Location: http://127.0.0.1:12342/foo/bar2"
+}
+string(1) "1"
+string(%d) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+-- Test: return at second redirection --
+resource(%d) of type (stream)
+array(4) {
+  [0]=>
+  string(30) "HTTP/1.0 302 Moved Temporarily"
+  [1]=>
+  string(41) "Location: http://127.0.0.1:12342/foo/bar2"
+  [2]=>
+  string(30) "HTTP/1.0 301 Moved Permanently"
+  [3]=>
+  string(41) "Location: http://127.0.0.1:12342/foo/bar3"
+}
+string(0) ""
+string(%d) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+GET /foo/bar2 HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+-- Test: follow all redirections --
+resource(12) of type (stream)
+array(7) {
+  [0]=>
+  string(30) "HTTP/1.0 302 Moved Temporarily"
+  [1]=>
+  string(41) "Location: http://127.0.0.1:12342/foo/bar2"
+  [2]=>
+  string(30) "HTTP/1.0 301 Moved Permanently"
+  [3]=>
+  string(41) "Location: http://127.0.0.1:12342/foo/bar3"
+  [4]=>
+  string(30) "HTTP/1.0 302 Moved Temporarily"
+  [5]=>
+  string(41) "Location: http://127.0.0.1:12342/foo/bar4"
+  [6]=>
+  string(15) "HTTP/1.0 200 OK"
+}
+string(5) "done."
+string(271) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+GET /foo/bar2 HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+GET /foo/bar3 HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+GET /foo/bar4 HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+-- Test: fail after 2 redirections --
+
+Warning: fopen(http://127.0.0.1:12342/foo/bar): failed to open stream: Redirection limit reached, aborting in /root/php-src/ext/standard/tests/http/bug38802.php on line 17
+bool(false)
+string(135) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+GET /foo/bar2 HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+-- Test: fail at first redirection --
+
+Warning: fopen(http://127.0.0.1:12342/foo/bar): failed to open stream: Redirection limit reached, aborting in /root/php-src/ext/standard/tests/http/bug38802.php on line 17
+bool(false)
+string(67) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+-- Test: fail at first redirection (2) --
+
+Warning: fopen(http://127.0.0.1:12342/foo/bar): failed to open stream: Redirection limit reached, aborting in /root/php-src/ext/standard/tests/http/bug38802.php on line 17
+bool(false)
+string(67) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+-- Test: return at first redirection --
+resource(29) of type (stream)
+array(2) {
+  [0]=>
+  string(30) "HTTP/1.0 302 Moved Temporarily"
+  [1]=>
+  string(41) "Location: http://127.0.0.1:12342/foo/bar2"
+}
+string(1) "1"
+string(67) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+-- Test: return at first redirection (2) --
+resource(33) of type (stream)
+array(2) {
+  [0]=>
+  string(30) "HTTP/1.0 302 Moved Temporarily"
+  [1]=>
+  string(41) "Location: http://127.0.0.1:12342/foo/bar2"
+}
+string(1) "1"
+string(67) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+-- Test: return at second redirection --
+resource(38) of type (stream)
+array(4) {
+  [0]=>
+  string(30) "HTTP/1.0 302 Moved Temporarily"
+  [1]=>
+  string(41) "Location: http://127.0.0.1:12342/foo/bar2"
+  [2]=>
+  string(30) "HTTP/1.0 301 Moved Permanently"
+  [3]=>
+  string(41) "Location: http://127.0.0.1:12342/foo/bar3"
+}
+string(0) ""
+string(135) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+GET /foo/bar2 HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+---- FAILED

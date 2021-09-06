@@ -1,0 +1,57 @@
+
+---- EXPECTED OUTPUT
+array(3) {
+  ["2454.33"]=>
+  array(1) {
+    ["09"]=>
+    string(1) "1"
+  }
+  [9876543]=>
+  array(1) {
+    ["098765434567876543"]=>
+    string(1) "1"
+  }
+  ["09876543"]=>
+  array(1) {
+    ["987654345678765432456798765434567876543"]=>
+    string(1) "1"
+  }
+}
+array(3) {
+  ["09"]=>
+  string(1) "1"
+  ["098765434567876543"]=>
+  string(1) "1"
+  ["987654345678765432456798765434567876543"]=>
+  string(1) "1"
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(3) {
+  ["2454.33"]=>
+  array(1) {
+    ["09"]=>
+    string(1) "1"
+  }
+  [9876543]=>
+  array(1) {
+    ["098765434567876543"]=>
+    string(1) "1"
+  }
+  ["09876543"]=>
+  array(1) {
+    ["987654345678765432456798765434567876543"]=>
+    string(1) "1"
+  }
+}
+array(3) {
+  ["09"]=>
+  string(1) "1"
+  ["098765434567876543"]=>
+  string(1) "1"
+  ["987654345678765432456798765434567876543"]=>
+  string(1) "1"
+}
+Done
+---- FAILED

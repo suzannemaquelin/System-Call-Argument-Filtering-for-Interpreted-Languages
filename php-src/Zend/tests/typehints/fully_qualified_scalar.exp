@@ -1,0 +1,1 @@
+Fatal error: Scalar type declaration 'int' must be unqualified in %s on line %d

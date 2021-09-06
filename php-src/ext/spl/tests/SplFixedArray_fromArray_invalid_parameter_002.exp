@@ -1,0 +1,1 @@
+Warning: SplFixedArray::fromArray() expects parameter 1 to be array, %unicode_string_optional% given in %s on line %d

@@ -1,0 +1,120 @@
+
+---- EXPECTED OUTPUT
+-----( A1: )-----
+--> EnglishMealIterator::rewind (0)
+--> EnglishMealIterator::valid (0)
+--> EnglishMealIterator::current (0)
+--> EnglishMealIterator::key (0)
+meal 0 => breakfast
+--> EnglishMealIterator::next (0)
+--> EnglishMealIterator::valid (1)
+--> EnglishMealIterator::current (1)
+--> EnglishMealIterator::key (1)
+meal 1 => dinner
+--> EnglishMealIterator::next (1)
+--> EnglishMealIterator::valid (2)
+--> EnglishMealIterator::current (2)
+--> EnglishMealIterator::key (2)
+meal 2 => tea
+--> EnglishMealIterator::next (2)
+--> EnglishMealIterator::valid (3)
+
+-----( A2: )-----
+--> EnglishMealIterator::rewind (0)
+--> EnglishMealIterator::valid (0)
+--> EnglishMealIterator::current (0)
+--> EnglishMealIterator::key (0)
+meal 0 => breakfast
+--> EnglishMealIterator::next (0)
+--> EnglishMealIterator::valid (1)
+--> EnglishMealIterator::current (1)
+--> EnglishMealIterator::key (1)
+meal 1 => dinner
+--> EnglishMealIterator::next (1)
+--> EnglishMealIterator::valid (2)
+--> EnglishMealIterator::current (2)
+--> EnglishMealIterator::key (2)
+meal 2 => tea
+--> EnglishMealIterator::next (2)
+--> EnglishMealIterator::valid (3)
+
+-----( A3: )-----
+--> EnglishMealIterator::rewind (0)
+--> EnglishMealIterator::valid (0)
+--> EnglishMealIterator::current (0)
+--> EnglishMealIterator::key (0)
+meal 0 => breakfast
+--> EnglishMealIterator::next (0)
+--> EnglishMealIterator::valid (1)
+--> EnglishMealIterator::current (1)
+--> EnglishMealIterator::key (1)
+meal 1 => dinner
+--> EnglishMealIterator::next (1)
+--> EnglishMealIterator::valid (2)
+--> EnglishMealIterator::current (2)
+--> EnglishMealIterator::key (2)
+meal 2 => tea
+--> EnglishMealIterator::next (2)
+--> EnglishMealIterator::valid (3)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+-----( A1: )-----
+--> EnglishMealIterator::rewind (0)
+--> EnglishMealIterator::valid (0)
+--> EnglishMealIterator::current (0)
+--> EnglishMealIterator::key (0)
+meal 0 => breakfast
+--> EnglishMealIterator::next (0)
+--> EnglishMealIterator::valid (1)
+--> EnglishMealIterator::current (1)
+--> EnglishMealIterator::key (1)
+meal 1 => dinner
+--> EnglishMealIterator::next (1)
+--> EnglishMealIterator::valid (2)
+--> EnglishMealIterator::current (2)
+--> EnglishMealIterator::key (2)
+meal 2 => tea
+--> EnglishMealIterator::next (2)
+--> EnglishMealIterator::valid (3)
+
+-----( A2: )-----
+--> EnglishMealIterator::rewind (0)
+--> EnglishMealIterator::valid (0)
+--> EnglishMealIterator::current (0)
+--> EnglishMealIterator::key (0)
+meal 0 => breakfast
+--> EnglishMealIterator::next (0)
+--> EnglishMealIterator::valid (1)
+--> EnglishMealIterator::current (1)
+--> EnglishMealIterator::key (1)
+meal 1 => dinner
+--> EnglishMealIterator::next (1)
+--> EnglishMealIterator::valid (2)
+--> EnglishMealIterator::current (2)
+--> EnglishMealIterator::key (2)
+meal 2 => tea
+--> EnglishMealIterator::next (2)
+--> EnglishMealIterator::valid (3)
+
+-----( A3: )-----
+--> EnglishMealIterator::rewind (0)
+--> EnglishMealIterator::valid (0)
+--> EnglishMealIterator::current (0)
+--> EnglishMealIterator::key (0)
+meal 0 => breakfast
+--> EnglishMealIterator::next (0)
+--> EnglishMealIterator::valid (1)
+--> EnglishMealIterator::current (1)
+--> EnglishMealIterator::key (1)
+meal 1 => dinner
+--> EnglishMealIterator::next (1)
+--> EnglishMealIterator::valid (2)
+--> EnglishMealIterator::current (2)
+--> EnglishMealIterator::key (2)
+meal 2 => tea
+--> EnglishMealIterator::next (2)
+--> EnglishMealIterator::valid (3)
+===DONE===
+---- FAILED

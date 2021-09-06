@@ -1,0 +1,116 @@
+
+---- EXPECTED OUTPUT
+--> Access prop on instance of ArrayObject with ArrayObject::STD_PROP_LIST:
+  - Iteration:
+      prop=>C::prop.orig
+  - Read:
+NULL
+string(12) "C::prop.orig"
+  - Write:
+string(8) "changed1"
+string(8) "changed2"
+  - Isset:
+bool(true)
+bool(true)
+  - Unset:
+
+Notice: Undefined property: ArrayObject::$prop in %s on line 40
+
+Notice: Undefined index: prop in %s on line 40
+NULL
+NULL
+  - After:
+object(ArrayObject)#2 (1) {
+  ["storage":"ArrayObject":private]=>
+  object(C)#1 (0) {
+  }
+}
+object(C)#1 (0) {
+}
+
+--> Access prop on instance of MyArrayObject with ArrayObject::STD_PROP_LIST:
+  - Iteration:
+      prop=>C::prop.orig
+  - Read:
+string(24) "MyArrayObject::prop.orig"
+string(12) "C::prop.orig"
+  - Write:
+string(8) "changed1"
+string(8) "changed2"
+  - Isset:
+bool(true)
+bool(true)
+  - Unset:
+
+Notice: Undefined property: MyArrayObject::$prop in %s on line 40
+
+Notice: Undefined index: prop in %s on line 40
+NULL
+NULL
+  - After:
+object(MyArrayObject)#3 (1) {
+  ["storage":"ArrayObject":private]=>
+  object(C)#4 (0) {
+  }
+}
+object(C)#4 (0) {
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+--> Access prop on instance of ArrayObject with ArrayObject::STD_PROP_LIST:
+  - Iteration:
+      prop=>C::prop.orig
+  - Read:
+NULL
+string(12) "C::prop.orig"
+  - Write:
+string(8) "changed1"
+string(8) "changed2"
+  - Isset:
+bool(true)
+bool(true)
+  - Unset:
+
+Notice: Undefined property: ArrayObject::$prop in /root/php-src/ext/spl/tests/arrayObject___construct_basic3.php on line 40
+
+Notice: Undefined index: prop in /root/php-src/ext/spl/tests/arrayObject___construct_basic3.php on line 40
+NULL
+NULL
+  - After:
+object(ArrayObject)#2 (1) {
+  ["storage":"ArrayObject":private]=>
+  object(C)#1 (0) {
+  }
+}
+object(C)#1 (0) {
+}
+
+--> Access prop on instance of MyArrayObject with ArrayObject::STD_PROP_LIST:
+  - Iteration:
+      prop=>C::prop.orig
+  - Read:
+string(24) "MyArrayObject::prop.orig"
+string(12) "C::prop.orig"
+  - Write:
+string(8) "changed1"
+string(8) "changed2"
+  - Isset:
+bool(true)
+bool(true)
+  - Unset:
+
+Notice: Undefined property: MyArrayObject::$prop in /root/php-src/ext/spl/tests/arrayObject___construct_basic3.php on line 40
+
+Notice: Undefined index: prop in /root/php-src/ext/spl/tests/arrayObject___construct_basic3.php on line 40
+NULL
+NULL
+  - After:
+object(MyArrayObject)#3 (1) {
+  ["storage":"ArrayObject":private]=>
+  object(C)#4 (0) {
+  }
+}
+object(C)#4 (0) {
+}
+---- FAILED

@@ -1,0 +1,7 @@
+*** Testing gmmktime() : error conditions ***
+
+-- Testing gmmktime() function with more than expected no. of arguments --
+
+Warning: gmmktime() expects at most 6 parameters, 7 given in %s on line %d
+bool(false)
+===DONE===

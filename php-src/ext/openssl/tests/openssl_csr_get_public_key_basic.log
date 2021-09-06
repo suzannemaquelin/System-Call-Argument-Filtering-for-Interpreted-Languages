@@ -1,0 +1,9 @@
+
+---- EXPECTED OUTPUT
+resource(%d) of type (OpenSSL key)
+resource(%d) of type (OpenSSL key)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+resource(8) of type (OpenSSL key)
+resource(9) of type (OpenSSL key)
+---- FAILED

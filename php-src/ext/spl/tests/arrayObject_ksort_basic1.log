@@ -1,0 +1,93 @@
+
+---- EXPECTED OUTPUT
+*** Testing ArrayObject::ksort() : basic functionality ***
+bool(true)
+object(ArrayObject)#%d (1) {
+  ["storage":"ArrayObject":private]=>
+  array(3) {
+    [0]=>
+    int(4)
+    [1]=>
+    int(2)
+    [2]=>
+    int(3)
+  }
+}
+
+Warning: ksort() expects parameter 2 to be integer, string given in %sarrayObject_ksort_basic1.php on line %d
+bool(false)
+object(ArrayObject)#2 (1) {
+  ["storage":"ArrayObject":private]=>
+  array(4) {
+    ["b"]=>
+    int(4)
+    ["a"]=>
+    int(2)
+    ["q"]=>
+    int(3)
+    [99]=>
+    string(1) "x"
+  }
+}
+bool(true)
+object(ArrayObject)#%d (1) {
+  ["storage":"ArrayObject":private]=>
+  array(4) {
+    [99]=>
+    string(1) "x"
+    ["a"]=>
+    int(2)
+    ["b"]=>
+    int(4)
+    ["q"]=>
+    int(3)
+  }
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing ArrayObject::ksort() : basic functionality ***
+bool(true)
+object(ArrayObject)#1 (1) {
+  ["storage":"ArrayObject":private]=>
+  array(3) {
+    [0]=>
+    int(4)
+    [1]=>
+    int(2)
+    [2]=>
+    int(3)
+  }
+}
+
+Warning: ksort() expects parameter 2 to be integer, string given in /root/php-src/ext/spl/tests/arrayObject_ksort_basic1.php on line 14
+bool(false)
+object(ArrayObject)#2 (1) {
+  ["storage":"ArrayObject":private]=>
+  array(4) {
+    ["b"]=>
+    int(4)
+    ["a"]=>
+    int(2)
+    ["q"]=>
+    int(3)
+    [99]=>
+    string(1) "x"
+  }
+}
+bool(true)
+object(ArrayObject)#2 (1) {
+  ["storage":"ArrayObject":private]=>
+  array(4) {
+    [99]=>
+    string(1) "x"
+    ["a"]=>
+    int(2)
+    ["b"]=>
+    int(4)
+    ["q"]=>
+    int(3)
+  }
+}
+===DONE===
+---- FAILED

@@ -1,0 +1,15 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Test error conditions of fpassthru() function ***
+
+Warning: fread() expects parameter 1 to be resource, string given in /root/php-src/ext/standard/tests/file/fpassthru_error.php on line 11
+
+Warning: fpassthru() expects parameter 1 to be resource, boolean given in /root/php-src/ext/standard/tests/file/fpassthru_error.php on line 12
+bool(false)
+
+Warning: fpassthru() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/fpassthru_error.php on line 15
+bool(false)
+
+Warning: fpassthru() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/fpassthru_error.php on line 18
+bool(false)
+
+*** Done ***

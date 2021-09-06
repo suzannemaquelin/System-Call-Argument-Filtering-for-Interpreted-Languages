@@ -1,0 +1,14 @@
+
+---- EXPECTED OUTPUT
+Warning: ReflectionMethod::invoke() expects parameter 1 to be object, string given in %s%erequest38992.php on line %d
+
+Warning: ReflectionMethod::invokeArgs() expects parameter 1 to be object, string given in %s%erequest38992.php on line %d
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: ReflectionMethod::invoke() expects parameter 1 to be object, string given in /root/php-src/ext/reflection/tests/request38992.php on line 11
+
+Warning: ReflectionMethod::invokeArgs() expects parameter 1 to be object, string given in /root/php-src/ext/reflection/tests/request38992.php on line 12
+===DONE===
+---- FAILED

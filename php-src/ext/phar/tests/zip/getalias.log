@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+string(%d) "%sgetalias.phar.zip"
+string(%d) "%sgetalias.phar.zip"
+string(13) "jiminycricket"
+string(13) "jiminycricket"
+Cannot set alias ".phar/alias.txt" directly in phar "%sgetalias.phar.zip", use setAlias
+string(13) "jiminycricket"
+string(9) "pinocchio"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(50) "/root/php-src/ext/phar/tests/zip/getalias.phar.zip"
+string(50) "/root/php-src/ext/phar/tests/zip/getalias.phar.zip"
+string(13) "jiminycricket"
+string(13) "jiminycricket"
+Cannot set alias ".phar/alias.txt" directly in phar "/root/php-src/ext/phar/tests/zip/getalias.phar.zip", use setAlias
+string(13) "jiminycricket"
+string(9) "pinocchio"
+===DONE===
+---- FAILED

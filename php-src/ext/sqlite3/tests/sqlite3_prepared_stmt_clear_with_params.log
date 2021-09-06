@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+Creating Table
+INSERT into table
+bool(true)
+SELECTING results
+
+Warning: SQLite3Stmt::clear() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+Closing database
+bool(true)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Creating Table
+INSERT into table
+bool(true)
+SELECTING results
+
+Warning: SQLite3Stmt::clear() expects exactly 0 parameters, 1 given in /root/php-src/ext/sqlite3/tests/sqlite3_prepared_stmt_clear_with_params.php on line 11
+NULL
+Closing database
+bool(true)
+Done
+---- FAILED

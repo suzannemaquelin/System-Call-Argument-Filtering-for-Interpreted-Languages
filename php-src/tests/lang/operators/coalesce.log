@@ -1,0 +1,55 @@
+
+---- EXPECTED OUTPUT
+int(3)
+
+int(7)
+int(3)
+
+int(7)
+int(3)
+int(7)
+int(3)
+
+int(7)
+string(3) "bar"
+int(3)
+object(stdClass)#%d (%d) {
+  ["boo"]=>
+  int(7)
+}
+string(4) "bang"
+int(3)
+
+called
+string(1) "a"
+
+f(0)
+f(1)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(3)
+
+int(7)
+int(3)
+
+int(7)
+int(3)
+int(7)
+int(3)
+
+int(7)
+string(3) "bar"
+int(3)
+object(stdClass)#1 (1) {
+  ["boo"]=>
+  int(7)
+}
+string(4) "bang"
+int(3)
+
+called
+string(1) "a"
+
+f(0)
+f(1)
+---- FAILED

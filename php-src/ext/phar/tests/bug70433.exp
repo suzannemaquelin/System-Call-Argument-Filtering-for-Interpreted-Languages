@@ -1,0 +1,10 @@
+object(PharData)#1 (3) {
+  ["pathName":"SplFileInfo":private]=>
+  string(0) ""
+  ["glob":"DirectoryIterator":private]=>
+  bool(false)
+  ["subPathName":"RecursiveDirectoryIterator":private]=>
+  string(0) ""
+}
+NULL
+DONE

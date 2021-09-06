@@ -1,0 +1,13 @@
+
+---- EXPECTED OUTPUT
+a
+a
+
+Warning: file_get_contents(phar://%srename.phar.tar/a): failed to open stream: phar error: "a" is not a file in phar "%srename.phar.tar" in %srename.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+a
+a
+
+Warning: file_get_contents(phar:///root/php-src/ext/phar/tests/tar/rename.phar.tar/a): failed to open stream: phar error: "a" is not a file in phar "/root/php-src/ext/phar/tests/tar/rename.phar.tar" in /root/php-src/ext/phar/tests/tar/rename.php on line 26
+---- FAILED

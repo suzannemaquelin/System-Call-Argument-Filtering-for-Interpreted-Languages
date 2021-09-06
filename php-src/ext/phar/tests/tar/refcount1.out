@@ -1,0 +1,21 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+===CLOSE===
+object(PharFileInfo)#3 (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(66) "phar:///root/php-src/ext/phar/tests/tar/refcount1.phar.tar/b/c.php"
+  ["fileName":"SplFileInfo":private]=>
+  string(5) "c.php"
+}
+string(5) "extra"
+===UNLINK===
+
+Warning: unlink(): phar error: "b/c.php" in phar "/root/php-src/ext/phar/tests/tar/refcount1.phar.tar", has open file pointers, cannot unlink in /root/php-src/ext/phar/tests/tar/refcount1.php on line 34
+object(PharFileInfo)#3 (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(66) "phar:///root/php-src/ext/phar/tests/tar/refcount1.phar.tar/b/c.php"
+  ["fileName":"SplFileInfo":private]=>
+  string(5) "c.php"
+}
+string(5) "extra"
+extra
+===DONE===

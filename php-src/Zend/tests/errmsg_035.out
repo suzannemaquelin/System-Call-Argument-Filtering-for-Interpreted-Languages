@@ -1,0 +1,3 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Cannot use 'self' as interface name as it is reserved in /root/php-src/Zend/tests/errmsg_035.php on line 3

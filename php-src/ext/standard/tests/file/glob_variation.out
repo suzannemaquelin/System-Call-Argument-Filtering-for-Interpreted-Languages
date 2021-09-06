@@ -1,0 +1,378 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing glob() : usage variations ***
+
+-- Iteration 1 --
+array(3) {
+  [0]=>
+  string(59) "/root/php-src/ext/standard/tests/file/glob_variation/wonder"
+  [1]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [2]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+array(3) {
+  [0]=>
+  string(60) "/root/php-src/ext/standard/tests/file/glob_variation/wonder/"
+  [1]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [2]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+array(3) {
+  [0]=>
+  string(59) "/root/php-src/ext/standard/tests/file/glob_variation/wonder"
+  [1]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+  [2]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+}
+array(3) {
+  [0]=>
+  string(59) "/root/php-src/ext/standard/tests/file/glob_variation/wonder"
+  [1]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [2]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+array(3) {
+  [0]=>
+  string(59) "/root/php-src/ext/standard/tests/file/glob_variation/wonder"
+  [1]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [2]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+array(3) {
+  [0]=>
+  string(59) "/root/php-src/ext/standard/tests/file/glob_variation/wonder"
+  [1]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [2]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+
+-- Iteration 2 --
+array(3) {
+  [0]=>
+  string(59) "/root/php-src/ext/standard/tests/file/glob_variation/wonder"
+  [1]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [2]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+array(3) {
+  [0]=>
+  string(60) "/root/php-src/ext/standard/tests/file/glob_variation/wonder/"
+  [1]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [2]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+array(3) {
+  [0]=>
+  string(59) "/root/php-src/ext/standard/tests/file/glob_variation/wonder"
+  [1]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+  [2]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+}
+array(3) {
+  [0]=>
+  string(59) "/root/php-src/ext/standard/tests/file/glob_variation/wonder"
+  [1]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [2]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+array(3) {
+  [0]=>
+  string(59) "/root/php-src/ext/standard/tests/file/glob_variation/wonder"
+  [1]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [2]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+array(3) {
+  [0]=>
+  string(59) "/root/php-src/ext/standard/tests/file/glob_variation/wonder"
+  [1]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [2]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+
+-- Iteration 3 --
+array(2) {
+  [0]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [1]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+array(2) {
+  [0]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [1]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+array(2) {
+  [0]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+  [1]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+}
+array(2) {
+  [0]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [1]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+array(2) {
+  [0]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [1]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+array(2) {
+  [0]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [1]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+
+-- Iteration 4 --
+array(0) {
+}
+array(0) {
+}
+array(0) {
+}
+array(1) {
+  [0]=>
+  string(58) "/root/php-src/ext/standard/tests/file/glob_variation/*der5"
+}
+array(0) {
+}
+array(0) {
+}
+
+-- Iteration 5 --
+array(0) {
+}
+array(0) {
+}
+array(0) {
+}
+array(1) {
+  [0]=>
+  string(61) "/root/php-src/ext/standard/tests/file/glob_variation/??onder*"
+}
+array(0) {
+}
+array(0) {
+}
+
+-- Iteration 6 --
+array(3) {
+  [0]=>
+  string(59) "/root/php-src/ext/standard/tests/file/glob_variation/wonder"
+  [1]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [2]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+array(3) {
+  [0]=>
+  string(60) "/root/php-src/ext/standard/tests/file/glob_variation/wonder/"
+  [1]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [2]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+array(3) {
+  [0]=>
+  string(59) "/root/php-src/ext/standard/tests/file/glob_variation/wonder"
+  [1]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+  [2]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+}
+array(3) {
+  [0]=>
+  string(59) "/root/php-src/ext/standard/tests/file/glob_variation/wonder"
+  [1]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [2]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+array(3) {
+  [0]=>
+  string(59) "/root/php-src/ext/standard/tests/file/glob_variation/wonder"
+  [1]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [2]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+array(3) {
+  [0]=>
+  string(59) "/root/php-src/ext/standard/tests/file/glob_variation/wonder"
+  [1]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+  [2]=>
+  string(66) "/root/php-src/ext/standard/tests/file/glob_variation/wonder;123456"
+}
+
+-- Iteration 7 --
+array(0) {
+}
+array(0) {
+}
+array(0) {
+}
+array(1) {
+  [0]=>
+  string(61) "/root/php-src/ext/standard/tests/file/glob_variation/++onder*"
+}
+array(0) {
+}
+array(0) {
+}
+
+-- Iteration 8 --
+
+Warning: glob() expects parameter 1 to be a valid path, string given in /root/php-src/ext/standard/tests/file/glob_variation.php on line 39
+NULL
+
+Warning: glob() expects parameter 1 to be a valid path, string given in /root/php-src/ext/standard/tests/file/glob_variation.php on line 40
+NULL
+
+Warning: glob() expects parameter 1 to be a valid path, string given in /root/php-src/ext/standard/tests/file/glob_variation.php on line 41
+NULL
+
+Warning: glob() expects parameter 1 to be a valid path, string given in /root/php-src/ext/standard/tests/file/glob_variation.php on line 42
+NULL
+
+Warning: glob() expects parameter 1 to be a valid path, string given in /root/php-src/ext/standard/tests/file/glob_variation.php on line 43
+NULL
+
+Warning: glob() expects parameter 1 to be a valid path, string given in /root/php-src/ext/standard/tests/file/glob_variation.php on line 44
+NULL
+
+-- Iteration 9 --
+array(0) {
+}
+array(0) {
+}
+array(0) {
+}
+array(1) {
+  [0]=>
+  string(33) "$file_path/glob_variation/wonder5"
+}
+array(0) {
+}
+array(0) {
+}
+
+-- Iteration 10 --
+array(0) {
+}
+array(0) {
+}
+array(0) {
+}
+array(1) {
+  [0]=>
+  string(61) "/root/php-src/ext/standard/tests/file/glob_variation/?wonder?"
+}
+array(0) {
+}
+array(0) {
+}
+
+-- Iteration 11 --
+array(0) {
+}
+array(0) {
+}
+array(0) {
+}
+array(1) {
+  [0]=>
+  string(60) "/root/php-src/ext/standard/tests/file/glob_variation/wonder?"
+}
+array(0) {
+}
+array(0) {
+}
+
+-- Iteration 12 --
+array(0) {
+}
+array(0) {
+}
+array(0) {
+}
+array(1) {
+  [0]=>
+  string(1) "1"
+}
+array(0) {
+}
+array(0) {
+}
+
+*** Testing glob() with pattern within braces ***
+array(1) {
+  [0]=>
+  string(64) "/root/php-src/ext/standard/tests/file/glob_variation/wonder12345"
+}
+
+*** Testing glob() on directories ***
+-- Iteration 1 --
+array(1) {
+  [0]=>
+  string(60) "/root/php-src/ext/standard/tests/file/glob_variation/wonder1"
+}
+-- Iteration 2 --
+array(1) {
+  [0]=>
+  string(60) "/root/php-src/ext/standard/tests/file/glob_variation/wonder1"
+}
+-- Iteration 3 --
+array(1) {
+  [0]=>
+  string(60) "/root/php-src/ext/standard/tests/file/glob_variation/wonder1"
+}
+-- Iteration 4 --
+array(0) {
+}
+-- Iteration 5 --
+array(0) {
+}
+-- Iteration 6 --
+array(1) {
+  [0]=>
+  string(60) "/root/php-src/ext/standard/tests/file/glob_variation/wonder1"
+}
+-- Iteration 7 --
+array(0) {
+}
+-- Iteration 8 --
+
+Warning: glob() expects parameter 1 to be a valid path, string given in /root/php-src/ext/standard/tests/file/glob_variation.php on line 66
+NULL
+-- Iteration 9 --
+array(0) {
+}
+-- Iteration 10 --
+array(0) {
+}
+-- Iteration 11 --
+array(1) {
+  [0]=>
+  string(60) "/root/php-src/ext/standard/tests/file/glob_variation/wonder1"
+}
+-- Iteration 12 --
+array(0) {
+}
+Done

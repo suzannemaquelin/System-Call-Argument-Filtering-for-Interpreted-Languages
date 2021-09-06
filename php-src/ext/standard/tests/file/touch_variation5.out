@@ -1,0 +1,76 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing touch() : variation ***
+
+*** testing nonexisting paths ***
+--- testing touchVar5.tmp/aSubDirOrFile ---
+PASSED: touchVar5.tmp/aSubDirOrFile - created
+--- testing ./touchVar5.tmp/aSubDirOrFile ---
+PASSED: ./touchVar5.tmp/aSubDirOrFile - created
+--- testing touchVar5.tmp/../touchVar5.tmp/aSubDirOrFile ---
+PASSED: touchVar5.tmp/../touchVar5.tmp/aSubDirOrFile - created
+--- testing touchVar5.tmp/../BADDIR/aSubDirOrFile ---
+
+Warning: touch(): Unable to create file touchVar5.tmp/../BADDIR/aSubDirOrFile because No such file or directory in /root/php-src/ext/standard/tests/file/touch_variation5.php on line 65
+--- testing BADDIR/aSubDirOrFile ---
+
+Warning: touch(): Unable to create file BADDIR/aSubDirOrFile because No such file or directory in /root/php-src/ext/standard/tests/file/touch_variation5.php on line 65
+--- testing /root/php-src/touchVar5.tmp/aSubDirOrFile ---
+PASSED: /root/php-src/touchVar5.tmp/aSubDirOrFile - created
+--- testing /root/php-src/./touchVar5.tmp/aSubDirOrFile ---
+PASSED: /root/php-src/./touchVar5.tmp/aSubDirOrFile - created
+--- testing /root/php-src/touchVar5.tmp/../touchVar5.tmp/aSubDirOrFile ---
+PASSED: /root/php-src/touchVar5.tmp/../touchVar5.tmp/aSubDirOrFile - created
+--- testing /root/php-src/BADDIR/aSubDirOrFile ---
+
+Warning: touch(): Unable to create file /root/php-src/BADDIR/aSubDirOrFile because No such file or directory in /root/php-src/ext/standard/tests/file/touch_variation5.php on line 65
+--- testing touchVar5.tmp/aSubDirOrFile/ ---
+
+Warning: touch(): Unable to create file touchVar5.tmp/aSubDirOrFile/ because Is a directory in /root/php-src/ext/standard/tests/file/touch_variation5.php on line 65
+--- testing /root/php-src/touchVar5.tmp/aSubDirOrFile/ ---
+
+Warning: touch(): Unable to create file /root/php-src/touchVar5.tmp/aSubDirOrFile/ because Is a directory in /root/php-src/ext/standard/tests/file/touch_variation5.php on line 65
+--- testing touchVar5.tmp//aSubDirOrFile ---
+PASSED: touchVar5.tmp//aSubDirOrFile - created
+--- testing /root/php-src//touchVar5.tmp//aSubDirOrFile ---
+PASSED: /root/php-src//touchVar5.tmp//aSubDirOrFile - created
+
+*** testing existing files ***
+--- testing touchVar5.tmp/aSubDirOrFile ---
+PASSED: touchVar5.tmp/aSubDirOrFile - touched
+--- testing ./touchVar5.tmp/aSubDirOrFile ---
+PASSED: ./touchVar5.tmp/aSubDirOrFile - touched
+--- testing touchVar5.tmp/../touchVar5.tmp/aSubDirOrFile ---
+PASSED: touchVar5.tmp/../touchVar5.tmp/aSubDirOrFile - touched
+--- testing /root/php-src/touchVar5.tmp/aSubDirOrFile ---
+PASSED: /root/php-src/touchVar5.tmp/aSubDirOrFile - touched
+--- testing /root/php-src/./touchVar5.tmp/aSubDirOrFile ---
+PASSED: /root/php-src/./touchVar5.tmp/aSubDirOrFile - touched
+--- testing /root/php-src/touchVar5.tmp/../touchVar5.tmp/aSubDirOrFile ---
+PASSED: /root/php-src/touchVar5.tmp/../touchVar5.tmp/aSubDirOrFile - touched
+--- testing touchVar5.tmp//aSubDirOrFile ---
+PASSED: touchVar5.tmp//aSubDirOrFile - touched
+--- testing /root/php-src//touchVar5.tmp//aSubDirOrFile ---
+PASSED: /root/php-src//touchVar5.tmp//aSubDirOrFile - touched
+
+*** testing existing directories ***
+--- testing touchVar5.tmp/aSubDirOrFile ---
+PASSED: touchVar5.tmp/aSubDirOrFile - touched
+--- testing ./touchVar5.tmp/aSubDirOrFile ---
+PASSED: ./touchVar5.tmp/aSubDirOrFile - touched
+--- testing touchVar5.tmp/../touchVar5.tmp/aSubDirOrFile ---
+PASSED: touchVar5.tmp/../touchVar5.tmp/aSubDirOrFile - touched
+--- testing /root/php-src/touchVar5.tmp/aSubDirOrFile ---
+PASSED: /root/php-src/touchVar5.tmp/aSubDirOrFile - touched
+--- testing /root/php-src/./touchVar5.tmp/aSubDirOrFile ---
+PASSED: /root/php-src/./touchVar5.tmp/aSubDirOrFile - touched
+--- testing /root/php-src/touchVar5.tmp/../touchVar5.tmp/aSubDirOrFile ---
+PASSED: /root/php-src/touchVar5.tmp/../touchVar5.tmp/aSubDirOrFile - touched
+--- testing touchVar5.tmp/aSubDirOrFile/ ---
+PASSED: touchVar5.tmp/aSubDirOrFile/ - touched
+--- testing /root/php-src/touchVar5.tmp/aSubDirOrFile/ ---
+PASSED: /root/php-src/touchVar5.tmp/aSubDirOrFile/ - touched
+--- testing touchVar5.tmp//aSubDirOrFile ---
+PASSED: touchVar5.tmp//aSubDirOrFile - touched
+--- testing /root/php-src//touchVar5.tmp//aSubDirOrFile ---
+PASSED: /root/php-src//touchVar5.tmp//aSubDirOrFile - touched
+===DONE===

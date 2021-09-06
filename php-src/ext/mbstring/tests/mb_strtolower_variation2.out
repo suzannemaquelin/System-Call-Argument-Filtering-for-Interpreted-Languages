@@ -1,0 +1,115 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_strtolower() : usage variations ***
+
+-- Iteration 1 --
+
+Warning: mb_strtolower(): Unknown encoding "0" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 2 --
+
+Warning: mb_strtolower(): Unknown encoding "1" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 3 --
+
+Warning: mb_strtolower(): Unknown encoding "12345" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 4 --
+
+Warning: mb_strtolower(): Unknown encoding "-2345" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 5 --
+
+Warning: mb_strtolower(): Unknown encoding "10.5" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 6 --
+
+Warning: mb_strtolower(): Unknown encoding "-10.5" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 7 --
+
+Warning: mb_strtolower(): Unknown encoding "123456789000" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 8 --
+
+Warning: mb_strtolower(): Unknown encoding "1.23456789E-9" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 9 --
+
+Warning: mb_strtolower(): Unknown encoding "0.5" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 10 --
+
+Warning: mb_strtolower(): Unknown encoding "(null)" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 11 --
+
+Warning: mb_strtolower(): Unknown encoding "(null)" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 12 --
+
+Warning: mb_strtolower(): Unknown encoding "1" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 13 --
+
+Warning: mb_strtolower(): Unknown encoding "" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 14 --
+
+Warning: mb_strtolower(): Unknown encoding "1" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 15 --
+
+Warning: mb_strtolower(): Unknown encoding "" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 16 --
+
+Warning: mb_strtolower(): Unknown encoding "" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 17 --
+
+Warning: mb_strtolower(): Unknown encoding "" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 18 --
+string(24) "68656c6c6f2c20776f726c64"
+
+-- Iteration 19 --
+string(24) "68656c6c6f2c20776f726c64"
+
+-- Iteration 20 --
+string(24) "68656c6c6f2c20776f726c64"
+
+-- Iteration 21 --
+string(24) "68656c6c6f2c20776f726c64"
+
+-- Iteration 22 --
+
+Warning: mb_strtolower(): Unknown encoding "(null)" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 23 --
+
+Warning: mb_strtolower(): Unknown encoding "(null)" in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+bool(false)
+
+-- Iteration 24 --
+
+Warning: mb_strtolower() expects parameter 2 to be string, resource given in /root/php-src/ext/mbstring/tests/mb_strtolower_variation2.php on line 89
+NULL
+Done

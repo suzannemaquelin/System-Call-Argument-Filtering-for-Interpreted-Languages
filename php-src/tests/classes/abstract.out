@@ -1,0 +1,8 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Call to function show()
+
+Fatal error: Uncaught Error: Cannot call abstract method fail::show() in /root/php-src/tests/classes/abstract.php:12
+Stack trace:
+#0 /root/php-src/tests/classes/abstract.php(18): pass->error()
+#1 {main}
+  thrown in /root/php-src/tests/classes/abstract.php on line 12

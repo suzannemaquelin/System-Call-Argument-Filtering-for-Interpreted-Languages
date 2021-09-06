@@ -1,0 +1,27 @@
+
+---- EXPECTED OUTPUT
+Serialized array: a:1:{i:0;i:4;}
+Unserialized array: array(1) {
+  [0]=>
+  int(4)
+}
+
+Serialized array: a:1:{i:0;d:4.5;}
+Unserialized array: array(1) {
+  [0]=>
+  float(4.5)
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Serialized array: a:1:{i:0;i:4;}
+Unserialized array: array(1) {
+  [0]=>
+  int(4)
+}
+
+Serialized array: a:1:{i:0;d:4.5;}
+Unserialized array: array(1) {
+  [0]=>
+  float(4.5)
+}
+---- FAILED

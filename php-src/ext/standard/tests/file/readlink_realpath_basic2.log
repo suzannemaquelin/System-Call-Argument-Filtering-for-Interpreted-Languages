@@ -1,0 +1,52 @@
+
+---- EXPECTED OUTPUT
+*** Testing realpath() on filenames ***
+
+-- Iteration 1 --
+string(%d) "%s/readlink_realpath_basic2/home/readlink_realpath_basic2.tmp"
+
+-- Iteration 2 --
+string(%d) "%s/readlink_realpath_basic2/readlink_realpath_basic2.tmp"
+
+-- Iteration 3 --
+string(%d) "%s/readlink_realpath_basic2/home/test/readlink_realpath_basic2.tmp"
+
+-- Iteration 4 --
+string(%d) "%s/readlink_realpath_basic2/readlink_realpath_basic2.tmp"
+
+-- Iteration 5 --
+bool(false)
+
+-- Iteration 6 --
+bool(false)
+
+-- Iteration 7 --
+%s
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+*** Testing realpath() on filenames ***
+
+-- Iteration 1 --
+string(96) "/root/php-src/ext/standard/tests/file/readlink_realpath_basic2/home/readlink_realpath_basic2.tmp"
+
+-- Iteration 2 --
+string(91) "/root/php-src/ext/standard/tests/file/readlink_realpath_basic2/readlink_realpath_basic2.tmp"
+
+-- Iteration 3 --
+string(101) "/root/php-src/ext/standard/tests/file/readlink_realpath_basic2/home/test/readlink_realpath_basic2.tmp"
+
+-- Iteration 4 --
+string(91) "/root/php-src/ext/standard/tests/file/readlink_realpath_basic2/readlink_realpath_basic2.tmp"
+
+-- Iteration 5 --
+bool(false)
+
+-- Iteration 6 --
+bool(false)
+
+-- Iteration 7 --
+bool(false)
+Done
+---- FAILED

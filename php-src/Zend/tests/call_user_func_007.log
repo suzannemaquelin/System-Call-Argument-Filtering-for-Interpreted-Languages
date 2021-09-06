@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Notice: Undefined offset: 0 in %s on line %d
+
+Warning: Parameter 1 to foo() expected to be a reference, value given in %s on line %d
+array(0) {
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined offset: 0 in /root/php-src/Zend/tests/call_user_func_007.php on line 6
+
+Warning: Parameter 1 to foo() expected to be a reference, value given in /root/php-src/Zend/tests/call_user_func_007.php on line 6
+array(0) {
+}
+---- FAILED

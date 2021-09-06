@@ -1,0 +1,13 @@
+
+---- EXPECTED OUTPUT
+*** Testing session_id() : basic functionality ***
+string(120) "%s"
+string(22) "%s"
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing session_id() : basic functionality ***
+string(120) "87676e78005532cbe63e071330a138589f3af319ba75c17f67df4d349ba8f0ffe1c08c30e35fb04805f8b605bf5c20c3abddcf1d455b6ce1c3289243"
+string(22) "453a77d06dc366a6bbedd8"
+Done
+---- FAILED

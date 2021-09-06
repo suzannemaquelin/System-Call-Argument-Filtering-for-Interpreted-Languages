@@ -1,0 +1,41 @@
+
+---- EXPECTED OUTPUT
+MD5 . 16
+MD4 . 16
+SHA1 . 20
+SHA256 . 32
+HAVAL256 . 32
+HAVAL192 . 24
+HAVAL224 . 28
+HAVAL160 . 20
+HAVAL128 . 16
+RIPEMD160 . 20
+GOST . 32
+TIGER . 24
+TIGER160 . 20
+TIGER128 . 16
+CRC32 . 4
+CRC32B . 4
+ADLER32 . 4
+NA_XYZ . 0
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+MD5 = 16
+MD4 = 16
+SHA1 = 20
+SHA256 = 32
+HAVAL256 = 32
+HAVAL192 = 24
+HAVAL224 = 28
+HAVAL160 = 20
+HAVAL128 = 16
+RIPEMD160 = 20
+GOST = 32
+TIGER = 24
+TIGER160 = 20
+TIGER128 = 16
+CRC32 = 4
+CRC32B = 4
+ADLER32 = 4
+NA_XYZ ? 0
+---- FAILED

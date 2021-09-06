@@ -1,0 +1,12 @@
+*** Testing usort() : error conditions ***
+
+-- Testing usort() function with non-existent compare function --
+
+Warning: usort() expects parameter 2 to be a valid callback, function 'non_existent' not found or invalid function name in %s on line %d
+NULL
+
+-- Testing usort() function with non-existent compare function and extra argument --
+
+Warning: usort() expects exactly 2 parameters, 3 given in %s on line %d
+NULL
+===DONE===

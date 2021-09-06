@@ -1,0 +1,67 @@
+
+---- EXPECTED OUTPUT
+temp stream (close after):
+About to rewind!
+* %ATrying 127.0.0.1...%AConnection refused%A
+* Closing connection%A%d
+
+memory stream (close after):
+About to rewind!
+* %ATrying 127.0.0.1...%AConnection refused%A
+* Closing connection%A%d
+
+temp stream (leak):
+About to rewind!
+* %ATrying 127.0.0.1...%AConnection refused%A
+* Closing connection%A%d
+
+memory stream (leak):
+About to rewind!
+* %ATrying 127.0.0.1...%AConnection refused%A
+* Closing connection%A%d
+
+Done.
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+temp stream (close after):
+About to rewind!
+* Expire in 0 ms for 6 (transfer 0x560afa64be80)
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Expire in 200 ms for 4 (transfer 0x560afa64be80)
+* connect to 127.0.0.1 port 37349 failed: Connection refused
+* Failed to connect to 127.0.0.1 port 37349: Connection refused
+* Closing connection 0
+
+memory stream (close after):
+About to rewind!
+* Expire in 0 ms for 6 (transfer 0x560afa659890)
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Expire in 200 ms for 4 (transfer 0x560afa659890)
+* connect to 127.0.0.1 port 37349 failed: Connection refused
+* Failed to connect to 127.0.0.1 port 37349: Connection refused
+* Closing connection 0
+
+temp stream (leak):
+About to rewind!
+* Expire in 0 ms for 6 (transfer 0x560afa659890)
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Expire in 200 ms for 4 (transfer 0x560afa659890)
+* connect to 127.0.0.1 port 37349 failed: Connection refused
+* Failed to connect to 127.0.0.1 port 37349: Connection refused
+* Closing connection 0
+
+memory stream (leak):
+About to rewind!
+* Expire in 0 ms for 6 (transfer 0x560afa6561f0)
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Expire in 200 ms for 4 (transfer 0x560afa6561f0)
+* connect to 127.0.0.1 port 37349 failed: Connection refused
+* Failed to connect to 127.0.0.1 port 37349: Connection refused
+* Closing connection 0
+
+Done.
+---- FAILED

@@ -1,0 +1,12 @@
+bool(true)
+
+Warning: openssl_private_encrypt(): key param is not a valid private key in %s on line %d
+bool(false)
+
+Warning: openssl_private_encrypt(): key param is not a valid private key in %s on line %d
+bool(false)
+
+Warning: openssl_private_encrypt(): key param is not a valid private key in %s on line %d
+bool(false)
+bool(true)
+string(4) "test"

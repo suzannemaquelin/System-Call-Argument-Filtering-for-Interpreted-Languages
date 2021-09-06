@@ -1,0 +1,51 @@
+
+---- EXPECTED OUTPUT
+*** Testing fileinode() with files, links and directories ***
+-- Testing with files --
+%d
+%d
+-- Testing with links: hard link --
+%d
+%d
+-- Testing with links: soft link --
+%d
+%d
+-- Testing after copying a file --
+%d
+%d
+-- Testing after renaming the file --
+%d
+%d
+-- Testing with directories --
+%d
+%d
+-- Testing with binary input --
+%d
+%d
+*** Done ***
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing fileinode() with files, links and directories ***
+-- Testing with files --
+17879459
+17879460
+-- Testing with links: hard link --
+17879459
+17879459
+-- Testing with links: soft link --
+17879460
+17879460
+-- Testing after copying a file --
+17879459
+17879461
+-- Testing after renaming the file --
+17879459
+17879459
+-- Testing with directories --
+17883137
+17883138
+-- Testing with binary input --
+17883137
+17883138
+*** Done ***
+---- FAILED

@@ -1,0 +1,33 @@
+
+---- EXPECTED OUTPUT
+*** Testing strftime() : usage variation ***
+
+--Time in a.m/p.m notation--
+string(%d) "%d:%d:%d %s"
+string(11) "08:08:08 AM"
+
+--Time in 24 hour notation--
+string(%d) "%d:%d"
+string(5) "08:08"
+
+--Current time %H:%M:%S format--
+string(%d) "%d:%d:%d"
+string(8) "08:08:08"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing strftime() : usage variation ***
+
+--Time in a.m/p.m notation--
+string(11) "07:35:04 PM"
+string(11) "08:08:08 AM"
+
+--Time in 24 hour notation--
+string(5) "19:35"
+string(5) "08:08"
+
+--Current time %H:%M:%S format--
+string(8) "19:35:04"
+string(8) "08:08:08"
+===DONE===
+---- FAILED

@@ -1,0 +1,39 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing readlink() and realpath(): with valid and invalid path ***
+
+-- Iteration 1 --
+string(96) "/root/php-src/ext/standard/tests/file/readlink_realpath_basic1/home/readlink_realpath_basic1.tmp"
+string(96) "/root/php-src/ext/standard/tests/file/readlink_realpath_basic1/home/readlink_realpath_basic1.tmp"
+
+-- Iteration 2 --
+string(101) "/root/php-src/ext/standard/tests/file/readlink_realpath_basic1/home/test/readlink_realpath_basic1.tmp"
+string(101) "/root/php-src/ext/standard/tests/file/readlink_realpath_basic1/home/test/readlink_realpath_basic1.tmp"
+
+-- Iteration 3 --
+string(101) "/root/php-src/ext/standard/tests/file/readlink_realpath_basic1/home/test/readlink_realpath_basic1.tmp"
+string(101) "/root/php-src/ext/standard/tests/file/readlink_realpath_basic1/home/test/readlink_realpath_basic1.tmp"
+
+-- Iteration 4 --
+
+Warning: readlink(): No such file or directory in /root/php-src/ext/standard/tests/file/readlink_realpath_basic1.php on line 45
+bool(false)
+bool(false)
+
+-- Iteration 5 --
+
+Warning: readlink(): No such file or directory in /root/php-src/ext/standard/tests/file/readlink_realpath_basic1.php on line 45
+bool(false)
+bool(false)
+
+-- Iteration 6 --
+
+Warning: readlink(): No such file or directory in /root/php-src/ext/standard/tests/file/readlink_realpath_basic1.php on line 45
+bool(false)
+bool(false)
+
+-- Iteration 7 --
+
+Warning: readlink(): Not a directory in /root/php-src/ext/standard/tests/file/readlink_realpath_basic1.php on line 45
+bool(false)
+bool(false)
+Done

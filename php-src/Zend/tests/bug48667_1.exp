@@ -1,0 +1,1 @@
+Fatal error: Class A cannot implement both IteratorAggregate and Iterator at the same time in %s on line %d

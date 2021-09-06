@@ -1,0 +1,3 @@
+Warning: Declaration of B::foo(string $a) should be compatible with A::foo(int $a) in %s on line %d
+
+Warning: Declaration of B1::foo(string $a): int should be compatible with A1::foo(int $a): int in %s on line %d

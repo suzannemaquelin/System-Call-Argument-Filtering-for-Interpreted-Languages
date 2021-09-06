@@ -1,0 +1,218 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing DateTime::setISODate() : usage variation -  unexpected values to second argument $week***
+
+-- int 0 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1962-12-25 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- int 1 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-01-01 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- int 12345 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "2199-07-30 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- int -12345 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1726-05-21 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- float 10.5 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-03-05 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- float -10.5 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1962-10-16 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- float .5 --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1962-12-25 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- empty array --
+
+Warning: DateTime::setISODate() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/DateTime_setISODate_variation2.php on line 101
+bool(false)
+
+-- int indexed array --
+
+Warning: DateTime::setISODate() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/DateTime_setISODate_variation2.php on line 101
+bool(false)
+
+-- associative array --
+
+Warning: DateTime::setISODate() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/DateTime_setISODate_variation2.php on line 101
+bool(false)
+
+-- nested arrays --
+
+Warning: DateTime::setISODate() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/DateTime_setISODate_variation2.php on line 101
+bool(false)
+
+-- uppercase NULL --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1962-12-25 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- lowercase null --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1962-12-25 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- lowercase true --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-01-01 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- lowercase false --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1962-12-25 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- uppercase TRUE --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1963-01-01 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- uppercase FALSE --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1962-12-25 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- empty string DQ --
+
+Warning: DateTime::setISODate() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/DateTime_setISODate_variation2.php on line 101
+bool(false)
+
+-- empty string SQ --
+
+Warning: DateTime::setISODate() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/DateTime_setISODate_variation2.php on line 101
+bool(false)
+
+-- string DQ --
+
+Warning: DateTime::setISODate() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/DateTime_setISODate_variation2.php on line 101
+bool(false)
+
+-- string SQ --
+
+Warning: DateTime::setISODate() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/DateTime_setISODate_variation2.php on line 101
+bool(false)
+
+-- mixed case string --
+
+Warning: DateTime::setISODate() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/DateTime_setISODate_variation2.php on line 101
+bool(false)
+
+-- heredoc --
+
+Warning: DateTime::setISODate() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/DateTime_setISODate_variation2.php on line 101
+bool(false)
+
+-- instance of classWithToString --
+
+Warning: DateTime::setISODate() expects parameter 2 to be integer, object given in /root/php-src/ext/date/tests/DateTime_setISODate_variation2.php on line 101
+bool(false)
+
+-- instance of classWithoutToString --
+
+Warning: DateTime::setISODate() expects parameter 2 to be integer, object given in /root/php-src/ext/date/tests/DateTime_setISODate_variation2.php on line 101
+bool(false)
+
+-- undefined var --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1962-12-25 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- unset var --
+object(DateTime)#3 (3) {
+  ["date"]=>
+  string(26) "1962-12-25 08:34:10.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+
+-- resource --
+
+Warning: DateTime::setISODate() expects parameter 2 to be integer, resource given in /root/php-src/ext/date/tests/DateTime_setISODate_variation2.php on line 101
+bool(false)
+===DONE===

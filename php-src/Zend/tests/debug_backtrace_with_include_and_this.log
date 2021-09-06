@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+ERR#2: include(class://non.existent.Class): failed to open stream: "CLWrapper::stream_open" call failed @ include
+ERR#2: include(): Failed opening 'class://non.existent.Class' for inclusion (include_path='%s') @ include
+
+Fatal error: Uncaught Exception: Failed loading class://non.existent.Class in %s
+Stack trace:
+#0 %s(%d): CL->load('class://non.exi...')
+#1 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+ERR#2: include(class://non.existent.Class): failed to open stream: "CLWrapper::stream_open" call failed @ include
+ERR#2: include(): Failed opening 'class://non.existent.Class' for inclusion (include_path='.:/opt/php-7.1/lib/php') @ include
+
+Fatal error: Uncaught Exception: Failed loading class://non.existent.Class in /root/php-src/Zend/tests/debug_backtrace_with_include_and_this.php:11
+Stack trace:
+#0 /root/php-src/Zend/tests/debug_backtrace_with_include_and_this.php(23): CL->load('class://non.exi...')
+#1 {main}
+  thrown in /root/php-src/Zend/tests/debug_backtrace_with_include_and_this.php on line 11
+---- FAILED

@@ -1,0 +1,56 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+=== 2453396
+string(3) "Jan"
+string(7) "January"
+string(3) "Jan"
+string(7) "January"
+string(6) "Shevat"
+string(0) ""
+
+=== 2440588
+string(3) "Jan"
+string(7) "January"
+string(3) "Dec"
+string(8) "December"
+string(5) "Tevet"
+string(0) ""
+
+=== -1
+string(0) ""
+string(0) ""
+string(0) ""
+string(0) ""
+string(0) ""
+string(0) ""
+
+=== 
+Notice: Array to string conversion in /root/php-src/ext/calendar/tests/jdtomonthname.php on line 12
+Array
+
+Warning: jdmonthname() expects parameter 1 to be integer, array given in /root/php-src/ext/calendar/tests/jdtomonthname.php on line 13
+bool(false)
+
+Warning: jdmonthname() expects parameter 1 to be integer, array given in /root/php-src/ext/calendar/tests/jdtomonthname.php on line 14
+bool(false)
+
+Warning: jdmonthname() expects parameter 1 to be integer, array given in /root/php-src/ext/calendar/tests/jdtomonthname.php on line 15
+bool(false)
+
+Warning: jdmonthname() expects parameter 1 to be integer, array given in /root/php-src/ext/calendar/tests/jdtomonthname.php on line 16
+bool(false)
+
+Warning: jdmonthname() expects parameter 1 to be integer, array given in /root/php-src/ext/calendar/tests/jdtomonthname.php on line 17
+bool(false)
+
+Warning: jdmonthname() expects parameter 1 to be integer, array given in /root/php-src/ext/calendar/tests/jdtomonthname.php on line 18
+bool(false)
+
+=== 10000000
+string(3) "Dec"
+string(8) "December"
+string(3) "Jul"
+string(4) "July"
+string(6) "Tishri"
+string(0) ""
+
+Done

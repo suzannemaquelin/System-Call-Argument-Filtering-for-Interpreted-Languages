@@ -1,0 +1,14 @@
+
+---- EXPECTED OUTPUT
+Warning: preg_replace_callback_array(): Delimiter must not be alphanumeric or backslash in %sbug73392.php on line %d
+
+Warning: preg_replace_callback_array(): Delimiter must not be alphanumeric or backslash in %sbug73392.php on line %d
+NULL
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: preg_replace_callback_array(): Delimiter must not be alphanumeric or backslash in /root/php-src/ext/pcre/tests/bug73392.php on line 18
+
+Warning: preg_replace_callback_array(): Delimiter must not be alphanumeric or backslash in /root/php-src/ext/pcre/tests/bug73392.php on line 18
+NULL
+---- FAILED

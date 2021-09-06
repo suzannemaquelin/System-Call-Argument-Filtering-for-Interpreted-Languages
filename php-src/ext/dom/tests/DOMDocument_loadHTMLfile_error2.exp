@@ -1,0 +1,3 @@
+%r(PHP ){0,1}%rWarning: DOMDocument::loadHTMLFile(): Empty string supplied as input %s
+
+%r(PHP ){0,1}%rWarning: DOMDocument::loadHTMLFile(): Invalid file source %s

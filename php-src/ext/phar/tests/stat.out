@@ -1,0 +1,153 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(false)
+stat
+array(26) {
+  [0]=>
+  int(12)
+  [1]=>
+  int(0)
+  [2]=>
+  int(33206)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(0)
+  [6]=>
+  int(-1)
+  [7]=>
+  int(2)
+  [8]=>
+  int(1652019066)
+  [9]=>
+  int(1652019066)
+  [10]=>
+  int(1652019066)
+  [11]=>
+  int(-1)
+  [12]=>
+  int(-1)
+  ["dev"]=>
+  int(12)
+  ["ino"]=>
+  int(0)
+  ["mode"]=>
+  int(33206)
+  ["nlink"]=>
+  int(1)
+  ["uid"]=>
+  int(0)
+  ["gid"]=>
+  int(0)
+  ["rdev"]=>
+  int(-1)
+  ["size"]=>
+  int(2)
+  ["atime"]=>
+  int(1652019066)
+  ["mtime"]=>
+  int(1652019066)
+  ["ctime"]=>
+  int(1652019066)
+  ["blksize"]=>
+  int(-1)
+  ["blocks"]=>
+  int(-1)
+}
+lstat
+array(26) {
+  [0]=>
+  int(12)
+  [1]=>
+  int(0)
+  [2]=>
+  int(33206)
+  [3]=>
+  int(1)
+  [4]=>
+  int(0)
+  [5]=>
+  int(0)
+  [6]=>
+  int(-1)
+  [7]=>
+  int(2)
+  [8]=>
+  int(1652019066)
+  [9]=>
+  int(1652019066)
+  [10]=>
+  int(1652019066)
+  [11]=>
+  int(-1)
+  [12]=>
+  int(-1)
+  ["dev"]=>
+  int(12)
+  ["ino"]=>
+  int(0)
+  ["mode"]=>
+  int(33206)
+  ["nlink"]=>
+  int(1)
+  ["uid"]=>
+  int(0)
+  ["gid"]=>
+  int(0)
+  ["rdev"]=>
+  int(-1)
+  ["size"]=>
+  int(2)
+  ["atime"]=>
+  int(1652019066)
+  ["mtime"]=>
+  int(1652019066)
+  ["ctime"]=>
+  int(1652019066)
+  ["blksize"]=>
+  int(-1)
+  ["blocks"]=>
+  int(-1)
+}
+fileperms
+int(33206)
+fileinode
+int(0)
+filesize
+int(2)
+fileowner
+int(0)
+filegroup
+int(0)
+filemtime
+int(1652019066)
+fileatime
+int(1652019066)
+filectime
+int(1652019066)
+filetype
+string(4) "file"
+is_writable
+bool(true)
+is_writeable
+bool(false)
+is_readable
+bool(true)
+is_executable
+bool(false)
+file_exists
+bool(true)
+is_dir
+bool(false)
+is_file
+bool(true)
+is_link
+bool(false)
+not found
+bool(false)
+not found 2
+
+Warning: fileperms(): stat failed for not/found in phar:///root/php-src/ext/phar/tests/stat.phar.php/my/index.php on line 43
+bool(false)
+===DONE===

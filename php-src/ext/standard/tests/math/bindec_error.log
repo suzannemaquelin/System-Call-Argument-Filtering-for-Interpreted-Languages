@@ -1,0 +1,23 @@
+
+---- EXPECTED OUTPUT
+*** Testing bindec() : error conditions ***
+Incorrect number of arguments
+
+Warning: bindec() expects exactly 1 parameter, 0 given in %s on line %d
+
+Warning: bindec() expects exactly 1 parameter, 2 given in %s on line %d
+Incorrect input
+
+Recoverable fatal error: Object of class classA could not be converted to string in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing bindec() : error conditions ***
+Incorrect number of arguments
+
+Warning: bindec() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/math/bindec_error.php on line 19
+
+Warning: bindec() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/math/bindec_error.php on line 20
+Incorrect input
+
+Recoverable fatal error: Object of class classA could not be converted to string in /root/php-src/ext/standard/tests/math/bindec_error.php on line 23
+---- FAILED

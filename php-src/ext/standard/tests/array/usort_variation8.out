@@ -1,0 +1,43 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing usort() : usage variation ***
+
+-- Testing usort() with built-in 'cmp_function': strcasecmp() --
+bool(true)
+array(5) {
+  [0]=>
+  string(5) "apple"
+  [1]=>
+  string(6) "Banana"
+  [2]=>
+  string(5) "Mango"
+  [3]=>
+  string(6) "orange"
+  [4]=>
+  string(9) "Pineapple"
+}
+
+-- Testing usort() with built-in 'cmp_function': strcmp() --
+bool(true)
+array(5) {
+  [0]=>
+  string(6) "Banana"
+  [1]=>
+  string(5) "Mango"
+  [2]=>
+  string(9) "Pineapple"
+  [3]=>
+  string(5) "apple"
+  [4]=>
+  string(6) "orange"
+}
+
+-- Testing usort() with language construct as 'cmp_function' --
+
+Warning: usort() expects parameter 2 to be a valid callback, function 'echo' not found or invalid function name in /root/php-src/ext/standard/tests/array/usort_variation8.php on line 33
+NULL
+
+-- Testing usort() with language construct as 'cmp_function' --
+
+Warning: usort() expects parameter 2 to be a valid callback, function 'exit' not found or invalid function name in /root/php-src/ext/standard/tests/array/usort_variation8.php on line 37
+NULL
+===DONE===

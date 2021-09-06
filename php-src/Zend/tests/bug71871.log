@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Access type for interface method test::test() must be omitted in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Access type for interface method test::test() must be omitted in /root/php-src/Zend/tests/bug71871.php on line 4
+---- FAILED

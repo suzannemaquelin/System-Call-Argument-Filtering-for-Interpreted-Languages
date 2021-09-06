@@ -1,0 +1,13 @@
+object(A)#%d (2) {
+  ["foo":protected]=>
+  string(3) "bar"
+  ["storage":"ArrayObject":private]=>
+  array(3) {
+    [0]=>
+    string(5) "item1"
+    [1]=>
+    string(5) "item2"
+    [2]=>
+    string(5) "item3"
+  }
+}

@@ -1,0 +1,29 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+C1 Object
+(
+    [arr1] => Array
+        (
+            [0] => C1 Object
+ *RECURSION*
+        )
+
+    [arr2] => Array
+        (
+            [0] => 50
+        )
+
+)
+C1 Object
+(
+    [arr1] => Array
+        (
+            [0] => C1 Object
+ *RECURSION*
+        )
+
+    [arr2] => Array
+        (
+            [0] => 50
+        )
+
+)

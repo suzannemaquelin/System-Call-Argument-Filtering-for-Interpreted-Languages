@@ -1,0 +1,77 @@
+
+---- EXPECTED OUTPUT
+Before binding
+bool(false)
+bool(false)
+
+bool(true)
+bool(true)
+
+After binding, null scope, no instance
+bool(false)
+bool(false)
+
+bool(false)
+bool(false)
+
+After binding, null scope, with instance
+bool(false)
+bool(true)
+
+bool(false)
+bool(true)
+
+After binding, with scope, no instance
+bool(true)
+bool(false)
+
+bool(true)
+bool(false)
+
+After binding, with scope, with instance
+bool(true)
+bool(true)
+
+bool(true)
+bool(true)
+
+Done.
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Before binding
+bool(false)
+bool(false)
+
+bool(true)
+bool(true)
+
+After binding, null scope, no instance
+bool(false)
+bool(false)
+
+bool(false)
+bool(false)
+
+After binding, null scope, with instance
+bool(false)
+bool(true)
+
+bool(false)
+bool(true)
+
+After binding, with scope, no instance
+bool(true)
+bool(false)
+
+bool(true)
+bool(false)
+
+After binding, with scope, with instance
+bool(true)
+bool(true)
+
+bool(true)
+bool(true)
+
+Done.
+---- FAILED

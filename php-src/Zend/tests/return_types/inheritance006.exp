@@ -1,0 +1,1 @@
+Fatal error: Declaration of Bar::test(): B must be compatible with Foo::test(): A in %sinheritance006.php on line 14

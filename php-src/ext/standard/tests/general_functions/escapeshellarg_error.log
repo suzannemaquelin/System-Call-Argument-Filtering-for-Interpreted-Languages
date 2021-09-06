@@ -1,0 +1,59 @@
+
+---- EXPECTED OUTPUT
+*** Testing escapeshellarg() : error conditions ***
+
+-- Testing escapeshellarg() function with no arguments --
+
+Warning: escapeshellarg() expects exactly 1 parameter, 0 given in %s on line %d
+NULL
+
+-- Testing escapeshellarg() function with more than expected no. of arguments --
+
+Warning: escapeshellarg() expects exactly 1 parameter, 2 given in %s on line %d
+NULL
+
+-- Testing escapeshellarg() function with a object supplied for argument --
+
+Warning: escapeshellarg() expects parameter 1 to be string, object given in %s on line %d
+NULL
+
+-- Testing escapeshellarg() function with a resource supplied for argument --
+
+Warning: escapeshellarg() expects parameter 1 to be string, resource given in %s on line %d
+NULL
+
+-- Testing escapeshellarg() function with a array supplied for argument --
+
+Warning: escapeshellarg() expects parameter 1 to be string, array given in %s on line %d
+NULL
+===Done===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing escapeshellarg() : error conditions ***
+
+-- Testing escapeshellarg() function with no arguments --
+
+Warning: escapeshellarg() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/general_functions/escapeshellarg_error.php on line 16
+NULL
+
+-- Testing escapeshellarg() function with more than expected no. of arguments --
+
+Warning: escapeshellarg() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/general_functions/escapeshellarg_error.php on line 21
+NULL
+
+-- Testing escapeshellarg() function with a object supplied for argument --
+
+Warning: escapeshellarg() expects parameter 1 to be string, object given in /root/php-src/ext/standard/tests/general_functions/escapeshellarg_error.php on line 30
+NULL
+
+-- Testing escapeshellarg() function with a resource supplied for argument --
+
+Warning: escapeshellarg() expects parameter 1 to be string, resource given in /root/php-src/ext/standard/tests/general_functions/escapeshellarg_error.php on line 34
+NULL
+
+-- Testing escapeshellarg() function with a array supplied for argument --
+
+Warning: escapeshellarg() expects parameter 1 to be string, array given in /root/php-src/ext/standard/tests/general_functions/escapeshellarg_error.php on line 39
+NULL
+===Done===
+---- FAILED

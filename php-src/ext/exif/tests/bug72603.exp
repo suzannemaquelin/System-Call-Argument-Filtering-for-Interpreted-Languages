@@ -1,0 +1,2 @@
+Warning: exif_read_data(bug72603.jpeg): %s in %s%ebug72603.php on line %d
+int(%d)

@@ -1,0 +1,4 @@
+Notice: Undefined variable: x in %s on line %d
+
+Warning: simplexml_load_string(): Invalid options in %s on line %d
+bool(false)

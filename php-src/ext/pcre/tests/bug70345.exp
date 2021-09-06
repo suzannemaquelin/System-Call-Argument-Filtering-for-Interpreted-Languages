@@ -1,0 +1,8 @@
+Array
+(
+    [0] => aaaaxyzaaaa
+)
+
+Warning: preg_match(): Get subpatterns list failed in %s on line %d
+array(0) {
+}

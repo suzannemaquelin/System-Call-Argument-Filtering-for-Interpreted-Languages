@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+*** Testing gmdate() : error conditions ***
+
+-- Testing gmdate() function with Zero arguments --
+
+Warning: gmdate() expects at least 1 parameter, 0 given in %s on line %d
+bool(false)
+
+-- Testing gmdate() function with more than expected no. of arguments --
+
+Warning: gmdate() expects at most 2 parameters, 3 given in %s on line %d
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing gmdate() : error conditions ***
+
+-- Testing gmdate() function with Zero arguments --
+
+Warning: gmdate() expects at least 1 parameter, 0 given in /root/php-src/ext/date/tests/gmdate_error.php on line 17
+bool(false)
+
+-- Testing gmdate() function with more than expected no. of arguments --
+
+Warning: gmdate() expects at most 2 parameters, 3 given in /root/php-src/ext/date/tests/gmdate_error.php on line 22
+bool(false)
+===DONE===
+---- FAILED

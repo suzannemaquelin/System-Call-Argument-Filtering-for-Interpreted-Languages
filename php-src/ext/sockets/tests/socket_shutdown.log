@@ -1,0 +1,23 @@
+
+---- EXPECTED OUTPUT
+bool(true)
+bool(true)
+bool(true)
+
+Warning: socket_shutdown(): unable to shutdown socket [%d]: Transport endpoint is not connected in %s on line %d
+bool(false)
+
+Warning: socket_shutdown(): unable to shutdown socket [%d]: Invalid argument in %s on line %d
+bool(false)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(true)
+bool(true)
+bool(true)
+
+Warning: socket_shutdown(): unable to shutdown socket [107]: Transport endpoint is not connected in /root/php-src/ext/sockets/tests/socket_shutdown.php on line 21
+bool(false)
+
+Warning: socket_shutdown(): unable to shutdown socket [22]: Invalid argument in /root/php-src/ext/sockets/tests/socket_shutdown.php on line 24
+bool(false)
+---- FAILED

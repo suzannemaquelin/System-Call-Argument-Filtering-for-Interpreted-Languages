@@ -1,0 +1,11 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined variable: db in /root/php-src/Zend/tests/bug30162.php on line 35
+NULL
+object(hariCow)#1 (2) {
+  ["x"]=>
+  string(1) "x"
+  ["y"]=>
+  string(1) "y"
+}
+===DONE===

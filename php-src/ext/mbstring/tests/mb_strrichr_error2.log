@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+*** Testing mb_strrichr() : error conditions ***
+
+-- Testing mb_strrichr() with unknown encoding --
+
+Warning: mb_strrichr(): Unknown encoding "unknown-encoding" in %s on line %d
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_strrichr() : error conditions ***
+
+-- Testing mb_strrichr() with unknown encoding --
+
+Warning: mb_strrichr(): Unknown encoding "unknown-encoding" in /root/php-src/ext/mbstring/tests/mb_strrichr_error2.php on line 16
+bool(false)
+===DONE===
+---- FAILED

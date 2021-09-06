@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+*** Testing copy() function: to copy file from source to destination --
+bool(true)
+bool(true)
+bool(true)
+-- Checking whether the copy of file exists --
+bool(true)
+bool(true)
+-- Checking filepermissions of file and its copies --
+%d
+%d
+%d
+*** Done ***
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing copy() function: to copy file from source to destination --
+bool(true)
+bool(true)
+bool(true)
+-- Checking whether the copy of file exists --
+bool(true)
+bool(true)
+-- Checking filepermissions of file and its copies --
+100644
+100644
+100644
+*** Done ***
+---- FAILED

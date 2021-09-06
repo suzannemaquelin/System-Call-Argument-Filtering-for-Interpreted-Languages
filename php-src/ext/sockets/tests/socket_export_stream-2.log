@@ -1,0 +1,50 @@
+
+---- EXPECTED OUTPUT
+Warning: socket_export_stream() expects exactly 1 parameter, 0 given in %s on line %d
+NULL
+
+Warning: socket_export_stream() expects exactly 1 parameter, 2 given in %s on line %d
+NULL
+
+Warning: socket_export_stream() expects parameter 1 to be resource, integer given in %s on line %d
+NULL
+
+Warning: socket_export_stream() expects parameter 1 to be resource, object given in %s on line %d
+NULL
+
+Warning: socket_export_stream(): supplied resource is not a valid Socket resource in %s on line %d
+bool(false)
+
+Warning: socket_export_stream(): supplied resource is not a valid Socket resource in %s on line %d
+bool(false)
+resource(%d) of type (Socket)
+
+Warning: socket_export_stream(): supplied resource is not a valid Socket resource in %s on line %d
+bool(false)
+Done.
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: socket_export_stream() expects exactly 1 parameter, 0 given in /root/php-src/ext/sockets/tests/socket_export_stream-2.php on line 3
+NULL
+
+Warning: socket_export_stream() expects exactly 1 parameter, 2 given in /root/php-src/ext/sockets/tests/socket_export_stream-2.php on line 4
+NULL
+
+Warning: socket_export_stream() expects parameter 1 to be resource, integer given in /root/php-src/ext/sockets/tests/socket_export_stream-2.php on line 5
+NULL
+
+Warning: socket_export_stream() expects parameter 1 to be resource, object given in /root/php-src/ext/sockets/tests/socket_export_stream-2.php on line 6
+NULL
+
+Warning: socket_export_stream(): supplied resource is not a valid Socket resource in /root/php-src/ext/sockets/tests/socket_export_stream-2.php on line 7
+bool(false)
+
+Warning: socket_export_stream(): supplied resource is not a valid Socket resource in /root/php-src/ext/sockets/tests/socket_export_stream-2.php on line 8
+bool(false)
+resource(7) of type (Socket)
+
+Warning: socket_export_stream(): supplied resource is not a valid Socket resource in /root/php-src/ext/sockets/tests/socket_export_stream-2.php on line 12
+bool(false)
+Done.
+---- FAILED

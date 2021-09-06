@@ -1,0 +1,20 @@
+
+---- EXPECTED OUTPUT
+Inside C10::offsetGet
+NULL
+
+Inside C10::offsetSet
+NULL
+int(105)
+int(105)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Inside C10::offsetGet
+NULL
+
+Inside C10::offsetSet
+NULL
+int(105)
+int(105)
+---- FAILED

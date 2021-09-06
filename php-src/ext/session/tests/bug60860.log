@@ -1,0 +1,12 @@
+
+---- EXPECTED OUTPUT
+Warning: session_start(): user session functions not defined in %s on line 3
+
+Fatal error: session_start(): Failed to initialize storage module: user (path:%s) in %s on line 3
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: session_start(): user session functions not defined in /root/php-src/ext/session/tests/bug60860.php on line 3
+
+Fatal error: session_start(): Failed to initialize storage module: user (path: ) in /root/php-src/ext/session/tests/bug60860.php on line 3
+---- FAILED

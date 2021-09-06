@@ -1,0 +1,15 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+*** Testing Error Conditions ***
+
+Warning: min() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/array/min_error.php on line 10
+NULL
+
+Warning: min(): When only one parameter is given, it must be an array in /root/php-src/ext/standard/tests/array/min_error.php on line 11
+NULL
+
+Warning: min(): Array must contain at least one element in /root/php-src/ext/standard/tests/array/min_error.php on line 12
+bool(false)
+
+Warning: min(): When only one parameter is given, it must be an array in /root/php-src/ext/standard/tests/array/min_error.php on line 13
+NULL

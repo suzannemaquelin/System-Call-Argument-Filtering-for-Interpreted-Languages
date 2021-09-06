@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+*** Testing mail() : error conditions ***
+
+-- Testing mail() function with more than expected no. of arguments --
+
+Warning: mail() expects at most 5 parameters, 6 given in %s on line %d
+NULL
+
+-- Testing mail() function with less than expected no. of arguments --
+
+Warning: mail() expects at least 3 parameters, 2 given in %s on line %d
+NULL
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mail() : error conditions ***
+
+-- Testing mail() function with more than expected no. of arguments --
+
+Warning: mail() expects at most 5 parameters, 6 given in /root/php-src/ext/standard/tests/mail/mail_error.php on line 19
+NULL
+
+-- Testing mail() function with less than expected no. of arguments --
+
+Warning: mail() expects at least 3 parameters, 2 given in /root/php-src/ext/standard/tests/mail/mail_error.php on line 25
+NULL
+===DONE===
+---- FAILED

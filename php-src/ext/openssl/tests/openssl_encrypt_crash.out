@@ -1,0 +1,4 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /root/php-src/ext/openssl/tests/openssl_encrypt_crash.php on line 2
+string(4) "done"

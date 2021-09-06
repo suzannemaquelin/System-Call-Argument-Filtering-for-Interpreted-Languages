@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+string(2) "ok"
+object(Test)#2 (2) {
+  ["name":"Test":private]=>
+  string(2) "ok"
+  ["storage":"ArrayObject":private]=>
+  array(2) {
+    ["a"]=>
+    string(1) "a"
+    ["b"]=>
+    string(1) "b"
+  }
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(2) "ok"
+object(Test)#2 (2) {
+  ["name":"Test":private]=>
+  string(2) "ok"
+  ["storage":"ArrayObject":private]=>
+  array(2) {
+    ["a"]=>
+    string(1) "a"
+    ["b"]=>
+    string(1) "b"
+  }
+}
+---- FAILED

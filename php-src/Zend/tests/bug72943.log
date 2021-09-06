@@ -1,0 +1,18 @@
+
+---- EXPECTED OUTPUT
+Notice: Undefined index: lest in %sbug72943.php on line %d
+NULL
+
+Notice: Undefined index: fest in %sbug72943.php on line %d
+NULL
+int(1)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined index: lest in /root/php-src/Zend/tests/bug72943.php on line 5
+NULL
+
+Notice: Undefined index: fest in /root/php-src/Zend/tests/bug72943.php on line 7
+NULL
+int(1)
+---- FAILED

@@ -1,0 +1,7 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+DateTime Object
+(
+    [date] => 2041-01-21 15:24:52.000000
+    [timezone_type] => 2
+    [timezone] => GMT
+)

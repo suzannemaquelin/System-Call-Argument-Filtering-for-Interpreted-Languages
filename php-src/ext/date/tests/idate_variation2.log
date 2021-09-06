@@ -1,0 +1,195 @@
+
+---- EXPECTED OUTPUT
+*** Testing idate() : usage variation ***
+
+--float 10.5--
+int(1970)
+
+--float -10.5--
+int(1970)
+
+--float .5--
+int(1970)
+
+--empty array--
+
+Warning: idate() expects parameter 2 to be integer, array given in %s on line %d
+bool(false)
+
+--int indexed array--
+
+Warning: idate() expects parameter 2 to be integer, array given in %s on line %d
+bool(false)
+
+--associative array--
+
+Warning: idate() expects parameter 2 to be integer, array given in %s on line %d
+bool(false)
+
+--nested arrays--
+
+Warning: idate() expects parameter 2 to be integer, array given in %s on line %d
+bool(false)
+
+--uppercase NULL--
+int(1970)
+
+--lowercase null--
+int(1970)
+
+--lowercase true--
+int(1970)
+
+--lowercase false--
+int(1970)
+
+--uppercase TRUE--
+int(1970)
+
+--uppercase FALSE--
+int(1970)
+
+--empty string DQ--
+
+Warning: idate() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+--empty string SQ--
+
+Warning: idate() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+--string DQ--
+
+Warning: idate() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+--string SQ--
+
+Warning: idate() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+--mixed case string--
+
+Warning: idate() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+--heredoc--
+
+Warning: idate() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+--instance of classWithToString--
+
+Warning: idate() expects parameter 2 to be integer, object given in %s on line %d
+bool(false)
+
+--instance of classWithoutToString--
+
+Warning: idate() expects parameter 2 to be integer, object given in %s on line %d
+bool(false)
+
+--undefined var--
+int(1970)
+
+--unset var--
+int(1970)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing idate() : usage variation ***
+
+--float 10.5--
+int(1970)
+
+--float -10.5--
+int(1970)
+
+--float .5--
+int(1970)
+
+--empty array--
+
+Warning: idate() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/idate_variation2.php on line 88
+bool(false)
+
+--int indexed array--
+
+Warning: idate() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/idate_variation2.php on line 88
+bool(false)
+
+--associative array--
+
+Warning: idate() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/idate_variation2.php on line 88
+bool(false)
+
+--nested arrays--
+
+Warning: idate() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/idate_variation2.php on line 88
+bool(false)
+
+--uppercase NULL--
+int(1970)
+
+--lowercase null--
+int(1970)
+
+--lowercase true--
+int(1970)
+
+--lowercase false--
+int(1970)
+
+--uppercase TRUE--
+int(1970)
+
+--uppercase FALSE--
+int(1970)
+
+--empty string DQ--
+
+Warning: idate() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/idate_variation2.php on line 88
+bool(false)
+
+--empty string SQ--
+
+Warning: idate() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/idate_variation2.php on line 88
+bool(false)
+
+--string DQ--
+
+Warning: idate() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/idate_variation2.php on line 88
+bool(false)
+
+--string SQ--
+
+Warning: idate() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/idate_variation2.php on line 88
+bool(false)
+
+--mixed case string--
+
+Warning: idate() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/idate_variation2.php on line 88
+bool(false)
+
+--heredoc--
+
+Warning: idate() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/idate_variation2.php on line 88
+bool(false)
+
+--instance of classWithToString--
+
+Warning: idate() expects parameter 2 to be integer, object given in /root/php-src/ext/date/tests/idate_variation2.php on line 88
+bool(false)
+
+--instance of classWithoutToString--
+
+Warning: idate() expects parameter 2 to be integer, object given in /root/php-src/ext/date/tests/idate_variation2.php on line 88
+bool(false)
+
+--undefined var--
+int(1970)
+
+--unset var--
+int(1970)
+===DONE===
+---- FAILED

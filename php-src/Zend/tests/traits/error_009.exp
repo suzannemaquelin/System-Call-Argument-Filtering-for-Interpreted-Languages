@@ -1,0 +1,1 @@
+Fatal error: Class foo cannot extend from trait abc in %s on line %d

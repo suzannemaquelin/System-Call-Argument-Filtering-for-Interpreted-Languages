@@ -1,0 +1,53 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Node Object
+(
+    [children:protected] => Array
+        (
+        )
+
+    [parent:protected] => Node Object
+        (
+            [children:protected] => Array
+                (
+                    [0] => Node Object
+ *RECURSION*
+                )
+
+            [parent:protected] => Node Object
+                (
+                    [children:protected] => Array
+                        (
+                            [0] => Node Object
+ *RECURSION*
+                        )
+
+                    [parent:protected] => 
+                    [data:protected] => HEAD
+                    [uid:protected] => a8c3048459faa2d4b4f41acb5a3827675196e96b6277d0adaeb1b5.92054140
+                    [index:protected] => 0
+                    [assureUnique:protected] => 
+                    [storage:ArrayIterator:private] => Array
+                        (
+                        )
+
+                )
+
+            [data:protected] => value1
+            [uid:protected] => 1
+            [index:protected] => 1
+            [assureUnique:protected] => 
+            [storage:ArrayIterator:private] => Array
+                (
+                )
+
+        )
+
+    [data:protected] => value2
+    [uid:protected] => 2
+    [index:protected] => 0
+    [assureUnique:protected] => 
+    [storage:ArrayIterator:private] => Array
+        (
+        )
+
+)

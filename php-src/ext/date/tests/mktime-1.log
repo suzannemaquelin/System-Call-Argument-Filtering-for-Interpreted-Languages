@@ -1,0 +1,17 @@
+
+---- EXPECTED OUTPUT
+2000-02-29
+2000-02-28
+2000-02-29
+2001-02-28
+2001-03-01
+1999-11-30
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+2000-02-29
+2000-02-28
+2000-02-29
+2001-02-28
+2001-03-01
+1999-11-30
+---- FAILED

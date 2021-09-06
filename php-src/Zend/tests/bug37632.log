@@ -1,0 +1,27 @@
+
+---- EXPECTED OUTPUT
+B1::doTest
+C1::test
+B2::doTest
+C2::test
+B4::doTest
+
+Fatal error: Uncaught Error: Call to protected C4::__construct() from context 'B4' in %sbug37632.php:%d
+Stack trace:
+#0 %s(%d): B4::doTest()
+#1 {main}
+  thrown in %sbug37632.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+B1::doTest
+C1::test
+B2::doTest
+C2::test
+B4::doTest
+
+Fatal error: Uncaught Error: Call to protected C4::__construct() from context 'B4' in /root/php-src/Zend/tests/bug37632.php:109
+Stack trace:
+#0 /root/php-src/Zend/tests/bug37632.php(121): B4::doTest()
+#1 {main}
+  thrown in /root/php-src/Zend/tests/bug37632.php on line 109
+---- FAILED

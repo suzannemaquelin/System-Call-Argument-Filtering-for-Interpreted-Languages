@@ -1,0 +1,16 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(false)
+bool(false)
+string(2) "hi"
+string(3) "hi2"
+string(3) "hi3"
+bool(false)
+bool(true)
+bool(true)
+string(6) "100444"
+string(32) "<?php ok __HALT_COMPILER(); ?>
+"
+string(4) "hime"
+string(8) "hi there"
+string(6) "a meta"
+===DONE===

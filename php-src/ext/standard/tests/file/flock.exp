@@ -1,0 +1,25 @@
+Warning: flock() expects at least 2 parameters, 0 given in %s on line %d
+NULL
+
+Warning: flock() expects parameter 1 to be resource, string given in %s on line %d
+NULL
+
+Warning: flock(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+int(0)
+bool(true)
+int(0)
+bool(true)
+int(0)
+bool(true)
+int(0)
+bool(true)
+
+Warning: flock(): Illegal operation argument in %s on line %d
+bool(false)
+Done

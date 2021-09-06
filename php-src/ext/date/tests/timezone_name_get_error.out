@@ -1,0 +1,24 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing timezone_name_get() : error conditions ***
+
+-- Testing timezone_name_get() function with zero arguments --
+
+Warning: timezone_name_get() expects exactly 1 parameter, 0 given in /root/php-src/ext/date/tests/timezone_name_get_error.php on line 14
+bool(false)
+
+-- Testing date_timezone_set() function with more than expected no. of arguments --
+
+Warning: timezone_name_get() expects exactly 1 parameter, 2 given in /root/php-src/ext/date/tests/timezone_name_get_error.php on line 19
+bool(false)
+
+-- Testing timezone_name_get() function with an invalid values for $object argument --
+
+Warning: timezone_name_get() expects parameter 1 to be DateTimeZone, object given in /root/php-src/ext/date/tests/timezone_name_get_error.php on line 23
+bool(false)
+
+Warning: timezone_name_get() expects parameter 1 to be DateTimeZone, integer given in /root/php-src/ext/date/tests/timezone_name_get_error.php on line 25
+bool(false)
+
+Warning: timezone_name_get() expects parameter 1 to be DateTimeZone, null given in /root/php-src/ext/date/tests/timezone_name_get_error.php on line 27
+bool(false)
+===DONE===

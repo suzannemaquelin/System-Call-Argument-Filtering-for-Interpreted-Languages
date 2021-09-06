@@ -1,0 +1,43 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing dir() : checking with valid and invalid paths ***
+
+-- With valid paths --
+object(Directory)#1 (2) {
+  ["path"]=>
+  string(76) "/root/php-src/ext/standard/tests/dir/dir_variation91/sub_dir11/sub_dir111/.."
+  ["handle"]=>
+  resource(5) of type (stream)
+}
+object(Directory)#1 (2) {
+  ["path"]=>
+  string(84) "/root/php-src/ext/standard/tests/dir/dir_variation92/sub_dir21/../../dir_variation91"
+  ["handle"]=>
+  resource(6) of type (stream)
+}
+object(Directory)#1 (2) {
+  ["path"]=>
+  string(97) "/root/php-src/ext/standard/tests/dir/dir_variation92/sub_dir21/../../dir_variation91/sub_dir11/.."
+  ["handle"]=>
+  resource(7) of type (stream)
+}
+object(Directory)#1 (2) {
+  ["path"]=>
+  string(111) "/root/php-src/ext/standard/tests/dir/dir_variation91/sub_dir11/sub_dir111/../../../dir_variation92/sub_dir21/.."
+  ["handle"]=>
+  resource(8) of type (stream)
+}
+
+-- With invalid paths --
+
+Warning: dir(/root/php-src/ext/standard/tests/dir/dir_variation91/sub_dir12/sub_dir111/..): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/dir_variation9.php on line 43
+bool(false)
+
+Warning: dir(/root/php-src/ext/standard/tests/dir/dir_variation92/sub_dir21/../dir_variation91): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/dir_variation9.php on line 44
+bool(false)
+
+Warning: dir(/root/php-src/ext/standard/tests/dir/dir_variation92/sub_dir21/../../dir_variation91/sub_dir12/..): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/dir_variation9.php on line 45
+bool(false)
+
+Warning: dir(/root/php-src/ext/standard/tests/dir/dir_variation91/sub_dir11/sub_dir111/../../dir_variation92/sub_dir21/..): failed to open dir: No such file or directory in /root/php-src/ext/standard/tests/dir/dir_variation9.php on line 46
+bool(false)
+Done

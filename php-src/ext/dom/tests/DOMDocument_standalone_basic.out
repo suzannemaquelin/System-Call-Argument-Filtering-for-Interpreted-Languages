@@ -1,0 +1,12 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Standalone DOMDocument created
+Read initial standalone:
+bool(true)
+Set standalone to FALSE, reading again:
+bool(false)
+Document is no longer standalone
+string(136) "<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE s1 PUBLIC "http://www.ibm.com/example.dtd" "example.dtd">
+<s1>foo</s1>
+"
+Done

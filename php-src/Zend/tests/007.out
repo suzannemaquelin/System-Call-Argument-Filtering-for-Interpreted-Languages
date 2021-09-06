@@ -1,0 +1,41 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: each() expects exactly 1 parameter, 0 given in /root/php-src/Zend/tests/007.php on line 3
+NULL
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/Zend/tests/007.php on line 5
+NULL
+
+Warning: Variable passed to each() is not an array or object in /root/php-src/Zend/tests/007.php on line 7
+NULL
+array(4) {
+  [1]=>
+  int(1)
+  ["value"]=>
+  int(1)
+  [0]=>
+  int(0)
+  ["key"]=>
+  int(0)
+}
+array(4) {
+  [1]=>
+  int(1)
+  ["value"]=>
+  int(1)
+  [0]=>
+  string(1) "a"
+  ["key"]=>
+  string(1) "a"
+}
+array(4) {
+  [1]=>
+  int(1)
+  ["value"]=>
+  int(1)
+  [0]=>
+  int(0)
+  ["key"]=>
+  int(0)
+}
+Done

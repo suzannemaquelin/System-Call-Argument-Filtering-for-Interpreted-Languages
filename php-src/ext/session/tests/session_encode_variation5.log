@@ -1,0 +1,15 @@
+
+---- EXPECTED OUTPUT
+*** Testing session_encode() : variation ***
+bool(true)
+string(64) "data|a:5:{i:0;i:1;i:1;i:2;i:2;i:3;s:3:"foo";R:1;s:4:"blah";R:1;}"
+bool(true)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing session_encode() : variation ***
+bool(true)
+string(64) "data|a:5:{i:0;i:1;i:1;i:2;i:2;i:3;s:3:"foo";R:1;s:4:"blah";R:1;}"
+bool(true)
+Done
+---- FAILED

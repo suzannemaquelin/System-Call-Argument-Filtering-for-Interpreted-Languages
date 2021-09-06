@@ -1,0 +1,19 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_stristr() : basic functionality ***
+
+-- ASCII string: needle exists --
+string(24) "6263446566207a4263447978"
+string(2) "61"
+string(24) "6263446566207a4263447978"
+string(2) "61"
+string(24) "6263446566207a4263447978"
+string(2) "61"
+
+-- Multibyte string: needle exists --
+string(54) "cebccebdcebece9fcea0cea120cebacebbce9cce9dcebecebfcea0"
+string(8) "cebacebb"
+string(54) "cebccebdcebece9fcea0cea120cebacebbce9cce9dcebecebfcea0"
+string(8) "cebacebb"
+string(54) "cebccebdcebece9fcea0cea120cebacebbce9cce9dcebecebfcea0"
+string(8) "cebacebb"
+===DONE===

@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught ErrorException in %sbug76536.php:%d
+Stack trace:
+#0 [internal function]: handleError(Object(ErrorException))
+#1 {main}
+  thrown in %sbug76536.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught ErrorException in /root/php-src/ext/reflection/tests/bug76536.php:4
+Stack trace:
+#0 [internal function]: handleError(Object(ErrorException))
+#1 {main}
+  thrown in /root/php-src/ext/reflection/tests/bug76536.php on line 4
+---- FAILED

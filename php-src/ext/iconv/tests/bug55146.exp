@@ -1,0 +1,13 @@
+array(2) {
+  ["X-Header-One"]=>
+  string(24) "H4sIAAAAAAAAA+NgFlsCAAA="
+  ["X-Header-Two"]=>
+  string(17) "XtLePq6GTMn8G68F0"
+}
+array(2) {
+  ["X-Header-One"]=>
+  string(1) "="
+  ["X-Header-Two"]=>
+  string(17) "XtLePq6GTMn8G68F0"
+}
+===DONE===

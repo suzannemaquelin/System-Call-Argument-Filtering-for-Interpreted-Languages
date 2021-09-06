@@ -1,0 +1,66 @@
+
+---- EXPECTED OUTPUT
+Warning: preg_grep() expects at most 3 parameters, 4 given in %sgrep2.php on line 3
+NULL
+
+Warning: preg_grep() expects parameter 2 to be array, integer given in %sgrep2.php on line 4
+NULL
+
+Warning: preg_grep(): Compilation failed: nothing to repeat at offset 0 in %sgrep2.php on line 5
+bool(false)
+array(3) {
+  [5]=>
+  string(1) "a"
+  ["xyz"]=>
+  string(2) "q6"
+  [6]=>
+  string(3) "h20"
+}
+array(1) {
+  ["x"]=>
+  string(1) "1"
+}
+bool(true)
+array(3) {
+  [5]=>
+  string(1) "a"
+  ["xyz"]=>
+  string(2) "q6"
+  [6]=>
+  string(3) "h20"
+}
+bool(false)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: preg_grep() expects at most 3 parameters, 4 given in /root/php-src/ext/pcre/tests/grep2.php on line 3
+NULL
+
+Warning: preg_grep() expects parameter 2 to be array, integer given in /root/php-src/ext/pcre/tests/grep2.php on line 4
+NULL
+
+Warning: preg_grep(): Compilation failed: nothing to repeat at offset 0 in /root/php-src/ext/pcre/tests/grep2.php on line 5
+bool(false)
+array(3) {
+  [5]=>
+  string(1) "a"
+  ["xyz"]=>
+  string(2) "q6"
+  [6]=>
+  string(3) "h20"
+}
+array(1) {
+  ["x"]=>
+  string(1) "1"
+}
+bool(true)
+array(3) {
+  [5]=>
+  string(1) "a"
+  ["xyz"]=>
+  string(2) "q6"
+  [6]=>
+  string(3) "h20"
+}
+bool(false)
+---- FAILED

@@ -1,0 +1,38 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(2) {
+  ["hash"]=>
+  string(40) "6893188A398430B9C7934E90BC6E85AFE61C8975"
+  ["hash_type"]=>
+  string(5) "SHA-1"
+}
+array(2) {
+  ["hash"]=>
+  string(32) "5466FB3800F7F1908B3FA0C811F68037"
+  ["hash_type"]=>
+  string(3) "MD5"
+}
+array(2) {
+  ["hash"]=>
+  string(40) "6893188A398430B9C7934E90BC6E85AFE61C8975"
+  ["hash_type"]=>
+  string(5) "SHA-1"
+}
+array(2) {
+  ["hash"]=>
+  string(64) "586D2457B55EAB69D6EFCBF396A1AC239954E239C870DBE533A7A3027DC53EFE"
+  ["hash_type"]=>
+  string(7) "SHA-256"
+}
+array(2) {
+  ["hash"]=>
+  string(128) "164C3FB8EFA5767CCD28C6B24BE1A5459B7C8FE91E5FD87BB2635DF92786C734689374764BD48D3866F76EC0DBFF07E1E3C5D4978E1AFB86BB68FBB1BCB0A598"
+  ["hash_type"]=>
+  string(7) "SHA-512"
+}
+array(2) {
+  ["hash"]=>
+  string(256) "9457EFA729F7A46F2AE527882F0E0AC200D494C0C681B4F3F9D79445C5A6C04EDA96EA272BFF16C7200D35974A4EB32444B8BB5CABFBC6915E1BD8F523F81753A449012B579F4588C4F8583904069973982BB0D3A14DB0361B56DE8981A2517B4276E9F0A6AB0B9AF282E67CF30DE9527E149B17A2C36C5FF34D6C6444B9037E"
+  ["hash_type"]=>
+  string(7) "OpenSSL"
+}
+===DONE===

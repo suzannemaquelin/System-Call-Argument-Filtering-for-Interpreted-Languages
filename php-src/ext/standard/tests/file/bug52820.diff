@@ -1,0 +1,29 @@
+001+ Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+003- * %ATrying 127.0.0.1...%AConnection refused%A
+004+ * Expire in 0 ms for 6 (transfer 0x560afa64be80)
+005+ *   Trying 127.0.0.1...
+006+ * TCP_NODELAY set
+007+ * Expire in 200 ms for 4 (transfer 0x560afa64be80)
+008+ * connect to 127.0.0.1 port 37349 failed: Connection refused
+009+ * Failed to connect to 127.0.0.1 port 37349: Connection refused
+008- * %ATrying 127.0.0.1...%AConnection refused%A
+013- * %ATrying 127.0.0.1...%AConnection refused%A
+014+ * Expire in 0 ms for 6 (transfer 0x560afa659890)
+015+ *   Trying 127.0.0.1...
+016+ * TCP_NODELAY set
+017+ * Expire in 200 ms for 4 (transfer 0x560afa659890)
+018+ * connect to 127.0.0.1 port 37349 failed: Connection refused
+019+ * Failed to connect to 127.0.0.1 port 37349: Connection refused
+018- * %ATrying 127.0.0.1...%AConnection refused%A
+024+ * Expire in 0 ms for 6 (transfer 0x560afa659890)
+025+ *   Trying 127.0.0.1...
+026+ * TCP_NODELAY set
+027+ * Expire in 200 ms for 4 (transfer 0x560afa659890)
+028+ * connect to 127.0.0.1 port 37349 failed: Connection refused
+029+ * Failed to connect to 127.0.0.1 port 37349: Connection refused
+034+ * Expire in 0 ms for 6 (transfer 0x560afa6561f0)
+035+ *   Trying 127.0.0.1...
+036+ * TCP_NODELAY set
+037+ * Expire in 200 ms for 4 (transfer 0x560afa6561f0)
+038+ * connect to 127.0.0.1 port 37349 failed: Connection refused
+039+ * Failed to connect to 127.0.0.1 port 37349: Connection refused

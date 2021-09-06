@@ -1,0 +1,27 @@
+
+---- EXPECTED OUTPUT
+string(15) "abCdefghijklmno"
+string(15) "abCZefghijklmno"
+string(15) "abCZefghijPlmno"
+string(15) "abCZefghijPQmno"
+
+Warning: Illegal string offset:  -20 in %sstr_offset_004.php on line %d
+string(15) "abCZefghijPQmno"
+string(15) "AbCZefghijPQmno"
+string(21) "AbCZefghijPQmno     N"
+string(21) "AbCZefghijPQmno    UN"
+string(21) "AbCZefghijPQmno   nUN"
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(15) "abCdefghijklmno"
+string(15) "abCZefghijklmno"
+string(15) "abCZefghijPlmno"
+string(15) "abCZefghijPQmno"
+
+Warning: Illegal string offset:  -20 in /root/php-src/Zend/tests/str_offset_004.php on line 20
+string(15) "abCZefghijPQmno"
+string(15) "AbCZefghijPQmno"
+string(21) "AbCZefghijPQmno     N"
+string(21) "AbCZefghijPQmno    UN"
+string(21) "AbCZefghijPQmno   nUN"
+---- FAILED

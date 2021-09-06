@@ -1,0 +1,1 @@
+Warning: SessionHandler::create_sid(): Session is not active in %s on line %d

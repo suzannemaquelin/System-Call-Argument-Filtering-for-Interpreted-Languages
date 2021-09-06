@@ -1,0 +1,22 @@
+bool(true)
+bool(true)
+bool(true)
+------ stream_truncate not implemented: -------
+
+Warning: ftruncate(): Can't truncate this stream! in %s on line %d
+bool(false)
+------ stream_truncate size 0: -------
+truncation with new_size=0
+bool(true)
+------ stream_truncate size 10: -------
+truncation with new_size=10
+bool(true)
+------ stream_truncate negative size: -------
+
+Warning: ftruncate(): Negative size is not supported in %s on line %d
+bool(false)
+------ stream_truncate bad return: -------
+truncation with new_size=0
+
+Warning: ftruncate(): test_wrapper_bad::stream_truncate did not return a boolean! in %s on line %d
+bool(false)

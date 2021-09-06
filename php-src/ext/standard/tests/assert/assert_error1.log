@@ -1,0 +1,22 @@
+
+---- EXPECTED OUTPUT
+Warning: assert_options() expects at most 2 parameters, 3 given in %s on line %d
+NULL
+
+Warning: assert_options() expects parameter 1 to be integer, string given in %s on line %d
+NULL
+
+Warning: assert() expects at most 2 parameters, 3 given in %s on line %d
+NULL
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: assert_options() expects at most 2 parameters, 3 given in /root/php-src/ext/standard/tests/assert/assert_error1.php on line 14
+NULL
+
+Warning: assert_options() expects parameter 1 to be integer, string given in /root/php-src/ext/standard/tests/assert/assert_error1.php on line 18
+NULL
+
+Warning: assert() expects at most 2 parameters, 3 given in /root/php-src/ext/standard/tests/assert/assert_error1.php on line 22
+NULL
+---- FAILED

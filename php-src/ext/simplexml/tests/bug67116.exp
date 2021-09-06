@@ -1,0 +1,65 @@
+SimpleXMLElement Object
+(
+    [bs] => SimpleXMLElement Object
+        (
+            [b] => b
+        )
+
+    [cs] => SimpleXMLElement Object
+        (
+            [c] => b
+        )
+
+    [ds] => SimpleXMLElement Object
+        (
+            [d] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [id] => d
+                        )
+
+                )
+
+        )
+
+    [es] => SimpleXMLElement Object
+        (
+            [e] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [id] => e
+                        )
+
+                )
+
+        )
+
+    [fs] => SimpleXMLElement Object
+        (
+            [f] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [id] => f
+                                )
+
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [id] => f
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,3 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Class bar cannot implement previously implemented interface foo in /root/php-src/Zend/tests/objects_014.php on line 6

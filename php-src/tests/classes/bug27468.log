@@ -1,0 +1,14 @@
+
+---- EXPECTED OUTPUT
+Notice: Undefined property: foo::$x in %sbug27468.php on line 4
+
+Warning: Invalid argument supplied for foreach() in %sbug27468.php on line 4
+OK
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined property: foo::$x in /root/php-src/tests/classes/bug27468.php on line 4
+
+Warning: Invalid argument supplied for foreach() in /root/php-src/tests/classes/bug27468.php on line 4
+OK
+---- FAILED

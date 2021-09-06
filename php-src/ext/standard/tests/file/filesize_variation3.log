@@ -1,0 +1,63 @@
+
+---- EXPECTED OUTPUT
+*** Testing filesize(): usage variations ***
+-- Testing filesize() after truncating the file to a new length --
+bool(true)
+int(12000)
+bool(true)
+int(10800)
+bool(true)
+int(9600)
+bool(true)
+int(8400)
+bool(true)
+int(7200)
+bool(true)
+int(6000)
+bool(true)
+int(4800)
+bool(true)
+int(3600)
+bool(true)
+int(2400)
+bool(true)
+int(1200)
+bool(true)
+int(0)
+
+Warning: ftruncate(): Negative size is not supported in %s on line %d
+bool(false)
+int(0)
+*** Done ***
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing filesize(): usage variations ***
+-- Testing filesize() after truncating the file to a new length --
+bool(true)
+int(12000)
+bool(true)
+int(10800)
+bool(true)
+int(9600)
+bool(true)
+int(8400)
+bool(true)
+int(7200)
+bool(true)
+int(6000)
+bool(true)
+int(4800)
+bool(true)
+int(3600)
+bool(true)
+int(2400)
+bool(true)
+int(1200)
+bool(true)
+int(0)
+
+Warning: ftruncate(): Negative size is not supported in /root/php-src/ext/standard/tests/file/filesize_variation3.php on line 22
+bool(false)
+int(0)
+*** Done ***
+---- FAILED

@@ -1,0 +1,18 @@
+*** Testing checkdate() : error conditions ***
+
+-- Testing checkdate() function with more than expected no. of arguments --
+
+Warning: checkdate() expects exactly 3 parameters, 4 given in %s on line %d
+bool(false)
+
+-- Testing checkdate() function with less than expected no. of arguments --
+
+Warning: checkdate() expects exactly 3 parameters, 0 given in %s on line %d
+bool(false)
+
+Warning: checkdate() expects exactly 3 parameters, 1 given in %s on line %d
+bool(false)
+
+Warning: checkdate() expects exactly 3 parameters, 2 given in %s on line %d
+bool(false)
+===DONE===

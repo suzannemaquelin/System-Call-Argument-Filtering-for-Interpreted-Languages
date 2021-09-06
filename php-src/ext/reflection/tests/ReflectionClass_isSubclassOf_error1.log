@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught ReflectionException: Class X does not exist in %s:5
+Stack trace:
+#0 %s(5): ReflectionClass->isSubclassOf('X')
+#1 {main}
+  thrown in %s on line 5
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught ReflectionException: Class X does not exist in /root/php-src/ext/reflection/tests/ReflectionClass_isSubclassOf_error1.php:5
+Stack trace:
+#0 /root/php-src/ext/reflection/tests/ReflectionClass_isSubclassOf_error1.php(5): ReflectionClass->isSubclassOf('X')
+#1 {main}
+  thrown in /root/php-src/ext/reflection/tests/ReflectionClass_isSubclassOf_error1.php on line 5
+---- FAILED

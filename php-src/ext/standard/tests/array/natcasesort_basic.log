@@ -1,0 +1,67 @@
+
+---- EXPECTED OUTPUT
+*** Testing natcasesort() : basic functionality ***
+
+-- Before sorting: --
+array(5) {
+  [0]=>
+  string(3) "A01"
+  [1]=>
+  string(2) "a1"
+  [2]=>
+  string(3) "b10"
+  [3]=>
+  string(3) "a01"
+  [4]=>
+  string(3) "b01"
+}
+
+-- After Sorting: --
+bool(true)
+array(5) {
+  [0]=>
+  string(3) "A01"
+  [3]=>
+  string(3) "a01"
+  [1]=>
+  string(2) "a1"
+  [4]=>
+  string(3) "b01"
+  [2]=>
+  string(3) "b10"
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing natcasesort() : basic functionality ***
+
+-- Before sorting: --
+array(5) {
+  [0]=>
+  string(3) "A01"
+  [1]=>
+  string(2) "a1"
+  [2]=>
+  string(3) "b10"
+  [3]=>
+  string(3) "a01"
+  [4]=>
+  string(3) "b01"
+}
+
+-- After Sorting: --
+bool(true)
+array(5) {
+  [0]=>
+  string(3) "A01"
+  [3]=>
+  string(3) "a01"
+  [1]=>
+  string(2) "a1"
+  [4]=>
+  string(3) "b01"
+  [2]=>
+  string(3) "b10"
+}
+Done
+---- FAILED

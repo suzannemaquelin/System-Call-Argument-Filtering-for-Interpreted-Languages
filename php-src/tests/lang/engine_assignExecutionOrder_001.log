@@ -1,0 +1,159 @@
+
+---- EXPECTED OUTPUT
+Order with local assignment:
+in f()
+in g()
+%string|unicode%(14) "assigned value"
+
+
+Order with array assignment:
+in f()
+in g()
+array(1) {
+  [%u|b%"name"]=>
+  %string|unicode%(14) "assigned value"
+}
+
+
+Order with object property assignment:
+in f()
+in g()
+object(stdClass)#%d (1) {
+  [%u|b%"assigned value"]=>
+  %string|unicode%(14) "assigned value"
+}
+
+
+Order with nested object property assignment:
+in f()
+in g()
+object(stdClass)#%d (1) {
+  [%u|b%"o1"]=>
+  object(stdClass)#%d (1) {
+    [%u|b%"o2"]=>
+    object(stdClass)#%d (1) {
+      [%u|b%"assigned value"]=>
+      %string|unicode%(14) "assigned value"
+    }
+  }
+}
+
+
+Order with dim_list property assignment:
+in f()
+in g()
+object(stdClass)#%d (1) {
+  [%u|b%"a"]=>
+  array(1) {
+    [%u|b%"assigned value"]=>
+    %string|unicode%(14) "assigned value"
+  }
+}
+
+
+Order with static property assignment:
+in f()
+in g()
+%string|unicode%(14) "assigned value"
+
+
+Order with static array property assignment:
+in f()
+in g()
+array(1) {
+  [%u|b%"name"]=>
+  %string|unicode%(14) "assigned value"
+}
+
+
+Order with indexed string assignment:
+in getOffset()
+in newChar()
+%string|unicode%(5) "jello"
+
+
+Order with static string property assignment:
+in getOffset()
+in newChar()
+%string|unicode%(5) "jello"
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+
+Order with local assignment:
+in f()
+in g()
+string(14) "assigned value"
+
+
+Order with array assignment:
+in f()
+in g()
+array(1) {
+  ["name"]=>
+  string(14) "assigned value"
+}
+
+
+Order with object property assignment:
+in f()
+in g()
+object(stdClass)#1 (1) {
+  ["assigned value"]=>
+  string(14) "assigned value"
+}
+
+
+Order with nested object property assignment:
+in f()
+in g()
+object(stdClass)#2 (1) {
+  ["o1"]=>
+  object(stdClass)#3 (1) {
+    ["o2"]=>
+    object(stdClass)#4 (1) {
+      ["assigned value"]=>
+      string(14) "assigned value"
+    }
+  }
+}
+
+
+Order with dim_list property assignment:
+in f()
+in g()
+object(stdClass)#5 (1) {
+  ["a"]=>
+  array(1) {
+    ["assigned value"]=>
+    string(14) "assigned value"
+  }
+}
+
+
+Order with static property assignment:
+in f()
+in g()
+string(14) "assigned value"
+
+
+Order with static array property assignment:
+in f()
+in g()
+array(1) {
+  ["name"]=>
+  string(14) "assigned value"
+}
+
+
+Order with indexed string assignment:
+in getOffset()
+in newChar()
+string(5) "jello"
+
+
+Order with static string property assignment:
+in getOffset()
+in newChar()
+string(5) "jello"
+---- FAILED

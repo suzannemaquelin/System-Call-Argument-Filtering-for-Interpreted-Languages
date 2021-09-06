@@ -1,0 +1,51 @@
+
+---- EXPECTED OUTPUT
+*** Testing open_basedir configuration [error_log] ***
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+
+Warning: error_log(): open_basedir restriction in effect. File(%s/test/bad/bad.txt) is not within the allowed path(s): (.) in %s on line %d
+
+Warning: error_log(%s/test/bad/bad.txt): failed to open stream: %s in %s on line %d
+bool(false)
+
+Warning: error_log(): open_basedir restriction in effect. File(%s/test/bad.txt) is not within the allowed path(s): (.) in %s on line %d
+
+Warning: error_log(%s/test/bad.txt): failed to open stream: %s in %s on line %d
+bool(false)
+
+Warning: error_log(): open_basedir restriction in effect. File(%s/bad.txt) is not within the allowed path(s): (.) in %s on line %d
+
+Warning: error_log(%s/bad.txt): failed to open stream: %s in %s on line %d
+bool(false)
+bool(true)
+*** Finished testing open_basedir configuration [error_log] ***
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing open_basedir configuration [error_log] ***
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+
+Warning: error_log(): open_basedir restriction in effect. File(/root/php-src/test/bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_error_log_variation.php on line 8
+
+Warning: error_log(/root/php-src/test/bad/bad.txt): failed to open stream: Operation not permitted in /root/php-src/tests/security/open_basedir_error_log_variation.php on line 8
+bool(false)
+
+Warning: error_log(): open_basedir restriction in effect. File(/root/php-src/test/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_error_log_variation.php on line 9
+
+Warning: error_log(/root/php-src/test/bad.txt): failed to open stream: Operation not permitted in /root/php-src/tests/security/open_basedir_error_log_variation.php on line 9
+bool(false)
+
+Warning: error_log(): open_basedir restriction in effect. File(/root/php-src/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_error_log_variation.php on line 10
+
+Warning: error_log(/root/php-src/bad.txt): failed to open stream: Operation not permitted in /root/php-src/tests/security/open_basedir_error_log_variation.php on line 10
+bool(false)
+bool(true)
+*** Finished testing open_basedir configuration [error_log] ***
+---- FAILED

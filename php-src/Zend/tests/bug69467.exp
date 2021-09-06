@@ -1,0 +1,1 @@
+Fatal error: Access level to Foo::bad() must be public (as in class Baz) in %sbug69467.php on line %d

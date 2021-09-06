@@ -1,0 +1,41 @@
+
+---- EXPECTED OUTPUT
+TraitA::catch
+TraitA::list
+TraitB::throw
+TraitB::self
+array(1) {
+  ["b"]=>
+  array(1) {
+    [0]=>
+    string(1) "c"
+  }
+}
+TraitC::try
+TraitC::exit
+TraitC::exit
+TraitC::exit
+TraitC::exit
+
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+TraitA::catch
+TraitA::list
+TraitB::throw
+TraitB::self
+array(1) {
+  ["b"]=>
+  array(1) {
+    [0]=>
+    string(1) "c"
+  }
+}
+TraitC::try
+TraitC::exit
+TraitC::exit
+TraitC::exit
+TraitC::exit
+
+Done
+---- FAILED

@@ -1,0 +1,10 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: timezone_open(): Timezone must not contain null bytes in /root/php-src/ext/date/tests/bug70277.php on line 3
+bool(false)
+
+Fatal error: Uncaught Exception: DateTimeZone::__construct(): Timezone must not contain null bytes in /root/php-src/ext/date/tests/bug70277.php:4
+Stack trace:
+#0 /root/php-src/ext/date/tests/bug70277.php(4): DateTimeZone->__construct('Europe/Zurich\x00F...')
+#1 {main}
+  thrown in /root/php-src/ext/date/tests/bug70277.php on line 4

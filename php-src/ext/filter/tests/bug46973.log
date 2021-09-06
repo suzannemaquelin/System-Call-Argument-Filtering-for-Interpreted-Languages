@@ -1,0 +1,11 @@
+
+---- EXPECTED OUTPUT
+bool(false)
+string(39) "3ffe:6a88:85a3:08d3:1319:8a2e:0370:7344"
+bool(false)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(false)
+string(39) "3ffe:6a88:85a3:08d3:1319:8a2e:0370:7344"
+bool(false)
+---- FAILED

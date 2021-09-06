@@ -1,0 +1,1 @@
+Fatal error: foo cannot implement abc - it is not an interface in %s on line %d

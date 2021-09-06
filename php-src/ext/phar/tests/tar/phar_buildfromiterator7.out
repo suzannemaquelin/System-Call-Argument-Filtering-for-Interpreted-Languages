@@ -1,0 +1,8 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+rewind
+valid
+current
+key
+string(24) "UnexpectedValueException"
+Iterator myIterator returned a file that could not be opened "phar_buildfromiterator7./oopsie/there.phpt"
+===DONE===

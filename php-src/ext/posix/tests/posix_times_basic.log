@@ -1,0 +1,33 @@
+
+---- EXPECTED OUTPUT
+Basic test of POSIX times function
+array(5) {
+  ["ticks"]=>
+  int(%i)
+  ["utime"]=>
+  int(%i)
+  ["stime"]=>
+  int(%i)
+  ["cutime"]=>
+  int(%i)
+  ["cstime"]=>
+  int(%i)
+}
+===DONE====
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Basic test of POSIX times function
+array(5) {
+  ["ticks"]=>
+  int(1831959359)
+  ["utime"]=>
+  int(0)
+  ["stime"]=>
+  int(1)
+  ["cutime"]=>
+  int(0)
+  ["cstime"]=>
+  int(0)
+}
+===DONE====
+---- FAILED

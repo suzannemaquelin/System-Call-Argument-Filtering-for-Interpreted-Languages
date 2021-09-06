@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+<form action="//bad.net/do.php">
+<fieldset>
+<form action="//php.net/do.php"><input type="hidden" name="PHPSESSID" value="abtest" />
+<fieldset>
+<form action="../do.php"><input type="hidden" name="PHPSESSID" value="abtest" />
+<fieldset>
+<form action="/do.php"><input type="hidden" name="PHPSESSID" value="abtest" />
+<fieldset>
+<form action="/foo/do.php"><input type="hidden" name="PHPSESSID" value="abtest" />
+<fieldset>
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+<form action="//bad.net/do.php">
+<fieldset>
+<form action="//php.net/do.php"><input type="hidden" name="PHPSESSID" value="abtest" />
+<fieldset>
+<form action="../do.php"><input type="hidden" name="PHPSESSID" value="abtest" />
+<fieldset>
+<form action="/do.php"><input type="hidden" name="PHPSESSID" value="abtest" />
+<fieldset>
+<form action="/foo/do.php"><input type="hidden" name="PHPSESSID" value="abtest" />
+<fieldset>
+---- FAILED

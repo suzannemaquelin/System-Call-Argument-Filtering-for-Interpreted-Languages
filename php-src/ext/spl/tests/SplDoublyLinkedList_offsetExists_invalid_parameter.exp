@@ -1,0 +1,2 @@
+Warning: SplDoublyLinkedList::offsetExists() expects exactly 1 parameter, 0 given in %s on line %d
+PASS

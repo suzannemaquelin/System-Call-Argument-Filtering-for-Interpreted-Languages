@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+*** Test copy() function: Trying to create a copy of an existing dir ***
+
+Warning: copy(): The first argument to copy() function cannot be a directory in %scopy_variation12.php on line %d
+bool(false)
+bool(false)
+int(%d)
+
+Warning: filesize(): stat failed for %scopy_copy_variation12 in %scopy_variation12.php on line %d
+bool(false)
+*** Done ***
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Test copy() function: Trying to create a copy of an existing dir ***
+
+Warning: copy(): The first argument to copy() function cannot be a directory in /root/php-src/ext/standard/tests/file/copy_variation12.php on line 17
+bool(false)
+bool(false)
+int(4096)
+
+Warning: filesize(): stat failed for /root/php-src/ext/standard/tests/file/copy_copy_variation12 in /root/php-src/ext/standard/tests/file/copy_variation12.php on line 22
+bool(false)
+*** Done ***
+---- FAILED

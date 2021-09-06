@@ -1,0 +1,2 @@
+Warning: SQLite3Stmt::reset(): The SQLite3 object has not been correctly initialised in %s
+==DONE==

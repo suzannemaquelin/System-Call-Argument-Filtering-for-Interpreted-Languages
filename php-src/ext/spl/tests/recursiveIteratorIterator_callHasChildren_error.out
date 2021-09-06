@@ -1,0 +1,9 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+NULL
+
+Fatal error: Uncaught Exception in /root/php-src/ext/spl/tests/recursiveIteratorIterator_callHasChildren_error.php:11
+Stack trace:
+#0 [internal function]: MyRecursiveIteratorIterator->callHasChildren()
+#1 /root/php-src/ext/spl/tests/recursiveIteratorIterator_callHasChildren_error.php(22): RecursiveIteratorIterator->next()
+#2 {main}
+  thrown in /root/php-src/ext/spl/tests/recursiveIteratorIterator_callHasChildren_error.php on line 11

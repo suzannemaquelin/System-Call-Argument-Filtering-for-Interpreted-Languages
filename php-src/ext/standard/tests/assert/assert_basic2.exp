@@ -1,0 +1,9 @@
+string(2) "f1"
+f1 called
+
+Warning: assert(): assert(0) failed in %s on line 13
+string(2) "f1"
+string(2) "f2"
+f2 called
+
+Warning: assert(): assert(0) failed in %s on line 17

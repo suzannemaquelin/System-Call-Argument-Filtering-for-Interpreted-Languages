@@ -1,0 +1,78 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+-- Test: requests without ignore_errors --
+resource(9) of type (stream)
+array(2) {
+  [0]=>
+  string(15) "HTTP/1.0 200 Ok"
+  [1]=>
+  string(10) "X-Foo: bar"
+}
+string(1) "1"
+string(67) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+
+Warning: fopen(http://127.0.0.1:12342/foo/bar): failed to open stream: HTTP request failed! HTTP/1.0 404 Not found
+ in /root/php-src/ext/standard/tests/http/ignore_errors.php on line 17
+bool(false)
+string(67) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+-- Test: requests with ignore_errors --
+resource(14) of type (stream)
+array(2) {
+  [0]=>
+  string(15) "HTTP/1.0 200 Ok"
+  [1]=>
+  string(10) "X-Foo: bar"
+}
+string(1) "1"
+string(67) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+resource(15) of type (stream)
+array(2) {
+  [0]=>
+  string(22) "HTTP/1.0 404 Not found"
+  [1]=>
+  string(10) "X-bar: baz"
+}
+string(1) "2"
+string(67) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+-- Test: requests with ignore_errors (2) --
+resource(19) of type (stream)
+array(2) {
+  [0]=>
+  string(15) "HTTP/1.0 200 Ok"
+  [1]=>
+  string(10) "X-Foo: bar"
+}
+string(1) "1"
+string(67) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+resource(20) of type (stream)
+array(2) {
+  [0]=>
+  string(22) "HTTP/1.0 404 Not found"
+  [1]=>
+  string(10) "X-bar: baz"
+}
+string(1) "2"
+string(67) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"

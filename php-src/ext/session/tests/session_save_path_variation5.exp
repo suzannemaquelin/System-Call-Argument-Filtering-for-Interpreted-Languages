@@ -1,0 +1,8 @@
+*** Testing session_save_path() : variation ***
+bool(true)
+bool(true)
+
+Warning: ini_set(): open_basedir restriction in effect. File(%s) is not within the allowed path(s): (.) in %s on line %d
+string(0) ""
+bool(true)
+Done

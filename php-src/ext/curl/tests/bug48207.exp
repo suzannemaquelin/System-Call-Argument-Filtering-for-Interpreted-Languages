@@ -1,0 +1,3 @@
+Warning: curl_setopt(): the provided file handle is not writable in %s on line %d
+Hello World!
+Hello World!

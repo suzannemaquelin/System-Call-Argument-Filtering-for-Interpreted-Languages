@@ -1,0 +1,17 @@
+
+---- EXPECTED OUTPUT
+Class A does not exist
+Method C::b() does not exist
+Method C::b() does not exist
+Ok - ReflectionParameter::__construct() expects exactly 2 parameters, 1 given
+Ok - The parameter class is expected to be either a string, an array(class, method) or a callable object
+Done.
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Class A does not exist
+Method C::b() does not exist
+Method C::b() does not exist
+Ok - ReflectionParameter::__construct() expects exactly 2 parameters, 1 given
+Ok - The parameter class is expected to be either a string, an array(class, method) or a callable object
+Done.
+---- FAILED

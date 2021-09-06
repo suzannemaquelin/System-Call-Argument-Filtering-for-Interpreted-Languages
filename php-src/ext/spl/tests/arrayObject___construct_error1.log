@@ -1,0 +1,13 @@
+
+---- EXPECTED OUTPUT
+Bad iterator type:
+ArrayObject::__construct() expects parameter 3 to be a class name derived from Iterator, 'Exception' given(6)
+Non-existent class:
+ArrayObject::__construct() expects parameter 3 to be a class name derived from Iterator, 'nonExistentClassName' given(13)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Bad iterator type:
+ArrayObject::__construct() expects parameter 3 to be a class name derived from Iterator, 'Exception' given(6)
+Non-existent class:
+ArrayObject::__construct() expects parameter 3 to be a class name derived from Iterator, 'nonExistentClassName' given(13)
+---- FAILED

@@ -1,0 +1,3 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: DOMDocument::loadHTML() expects at least 1 parameter, 0 given in /root/php-src/ext/dom/tests/DOMDocument_loadHTML_error1.php on line 3

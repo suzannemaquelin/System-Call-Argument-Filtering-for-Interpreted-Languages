@@ -1,0 +1,45 @@
+
+---- EXPECTED OUTPUT
+object(stdClass)#1 (9) {
+  ["a"]=>
+  int(1)
+  ["b"]=>
+  int(2)
+  ["c"]=>
+  int(3)
+  ["d"]=>
+  int(4)
+  ["e"]=>
+  int(5)
+  ["f"]=>
+  int(6)
+  ["g"]=>
+  int(7)
+  ["i"]=>
+  &int(42)
+  ["h"]=>
+  &int(42)
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(stdClass)#1 (9) {
+  ["a"]=>
+  int(1)
+  ["b"]=>
+  int(2)
+  ["c"]=>
+  int(3)
+  ["d"]=>
+  int(4)
+  ["e"]=>
+  int(5)
+  ["f"]=>
+  int(6)
+  ["g"]=>
+  int(7)
+  ["i"]=>
+  &int(42)
+  ["h"]=>
+  &int(42)
+}
+---- FAILED

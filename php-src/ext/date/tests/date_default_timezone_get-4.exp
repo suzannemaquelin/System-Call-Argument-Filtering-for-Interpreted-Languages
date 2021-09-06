@@ -1,0 +1,2 @@
+Warning: date_default_timezone_get(): Invalid date.timezone value 'Incorrect/Zone', we selected the timezone 'UTC' for now. in %sdate_default_timezone_get-4.php on line %d
+UTC

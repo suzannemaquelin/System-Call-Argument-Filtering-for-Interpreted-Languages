@@ -1,0 +1,45 @@
+
+---- EXPECTED OUTPUT
+Creating Table
+bool(true)
+PREPARING insert
+Opening blob stream
+resource(%d) of type (stream)
+BINDING Parameter
+bool(true)
+bool(true)
+Closing statement
+bool(true)
+SELECTING results
+array(2) {
+  [0]=>
+  string(1) "a"
+  [1]=>
+  string(23) "X'61626364656667006869'"
+}
+Closing database
+bool(true)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Creating Table
+bool(true)
+PREPARING insert
+Opening blob stream
+resource(8) of type (stream)
+BINDING Parameter
+bool(true)
+bool(true)
+Closing statement
+bool(true)
+SELECTING results
+array(2) {
+  [0]=>
+  string(1) "a"
+  [1]=>
+  string(23) "X'61626364656667006869'"
+}
+Closing database
+bool(true)
+Done
+---- FAILED

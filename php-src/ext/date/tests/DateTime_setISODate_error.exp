@@ -1,0 +1,17 @@
+*** Testing DateTime::setISODate () : error conditions ***
+
+-- Testing DateTime::setISODate() function with zero arguments --
+
+Warning: DateTime::setISODate() expects at least 2 parameters, 0 given in %s on line %d
+bool(false)
+
+-- Testing DateTime::setISODate() function with less than expected no. of arguments --
+
+Warning: DateTime::setISODate() expects at least 2 parameters, 1 given in %s on line %d
+bool(false)
+
+-- Testing date_isodate_set() function with more than expected no. of arguments --
+
+Warning: DateTime::setISODate() expects at most 3 parameters, 4 given in %s on line %d
+bool(false)
+===DONE===

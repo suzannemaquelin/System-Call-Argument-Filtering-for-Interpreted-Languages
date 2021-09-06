@@ -1,0 +1,14 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+invoke() on a non-object:
+
+Warning: ReflectionMethod::invoke() expects parameter 1 to be object, boolean given in /root/php-src/ext/reflection/tests/ReflectionMethod_invoke_error1.php on line 29
+NULL
+
+invoke() on a non-instance:
+string(72) "Given object is not an instance of the class this method was declared in"
+
+Private method:
+string(86) "Trying to invoke private method TestClass::privateMethod() from scope ReflectionMethod"
+
+Abstract method:
+string(53) "Trying to invoke abstract method AbstractClass::foo()"

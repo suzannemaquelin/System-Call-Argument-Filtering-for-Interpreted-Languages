@@ -1,0 +1,32 @@
+
+---- EXPECTED OUTPUT
+Warning: Illegal offset type in %s on line %d
+
+Warning: Illegal offset type in %s on line %d
+array(4) {
+  ["foo"]=>
+  int(0)
+  [1]=>
+  int(1)
+  [2]=>
+  int(2)
+  [""]=>
+  int(3)
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: Illegal offset type in /root/php-src/ext/spl/tests/iterator_to_array_nonscalar_keys.php on line 12
+
+Warning: Illegal offset type in /root/php-src/ext/spl/tests/iterator_to_array_nonscalar_keys.php on line 12
+array(4) {
+  ["foo"]=>
+  int(0)
+  [1]=>
+  int(1)
+  [2]=>
+  int(2)
+  [""]=>
+  int(3)
+}
+---- FAILED

@@ -1,0 +1,74 @@
+
+---- EXPECTED OUTPUT
+Warning: property_exists() expects exactly 2 parameters, 0 given in %s on line %d
+NULL
+
+Warning: property_exists() expects exactly 2 parameters, 1 given in %s on line %d
+NULL
+bool(true)
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(true)
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+
+Warning: First parameter must either be an object or the name of an existing class in %s on line %d
+NULL
+
+Warning: First parameter must either be an object or the name of an existing class in %s on line %d
+NULL
+
+Warning: First parameter must either be an object or the name of an existing class in %s on line %d
+NULL
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: property_exists() expects exactly 2 parameters, 0 given in /root/php-src/Zend/tests/011.php on line 23
+NULL
+
+Warning: property_exists() expects exactly 2 parameters, 1 given in /root/php-src/Zend/tests/011.php on line 24
+NULL
+bool(true)
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(true)
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+
+Warning: First parameter must either be an object or the name of an existing class in /root/php-src/Zend/tests/011.php on line 41
+NULL
+
+Warning: First parameter must either be an object or the name of an existing class in /root/php-src/Zend/tests/011.php on line 42
+NULL
+
+Warning: First parameter must either be an object or the name of an existing class in /root/php-src/Zend/tests/011.php on line 43
+NULL
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+Done
+---- FAILED

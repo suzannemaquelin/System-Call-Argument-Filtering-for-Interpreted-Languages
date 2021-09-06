@@ -1,0 +1,183 @@
+
+---- EXPECTED OUTPUT
+*** Testing array_rand() : with multi-dimensional array ***
+array(3) {
+  [0]=>
+  int(%d)
+  [1]=>
+  int(%d)
+  [2]=>
+  int(%d)
+}
+
+*** Testing array_rand() with arrays having different types of values ***
+
+-- Iteration 1 --
+int(%d)
+array(3) {
+  [0]=>
+  int(%d)
+  [1]=>
+  int(%d)
+  [2]=>
+  int(%d)
+}
+
+-- Iteration 2 --
+int(%d)
+array(3) {
+  [0]=>
+  int(%d)
+  [1]=>
+  int(%d)
+  [2]=>
+  int(%d)
+}
+
+-- Iteration 3 --
+int(%d)
+array(3) {
+  [0]=>
+  int(%d)
+  [1]=>
+  int(%d)
+  [2]=>
+  int(%d)
+}
+
+-- Iteration 4 --
+int(%d)
+array(3) {
+  [0]=>
+  int(%d)
+  [1]=>
+  int(%d)
+  [2]=>
+  int(%d)
+}
+
+-- Iteration 5 --
+int(%d)
+array(3) {
+  [0]=>
+  int(%d)
+  [1]=>
+  int(%d)
+  [2]=>
+  int(%d)
+}
+
+-- Iteration 6 --
+int(%d)
+array(3) {
+  [0]=>
+  int(%d)
+  [1]=>
+  int(%d)
+  [2]=>
+  int(%d)
+}
+
+-- Iteration 7 --
+int(%d)
+array(3) {
+  [0]=>
+  int(%d)
+  [1]=>
+  int(%d)
+  [2]=>
+  int(%d)
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_rand() : with multi-dimensional array ***
+array(3) {
+  [0]=>
+  int(0)
+  [1]=>
+  int(1)
+  [2]=>
+  int(4)
+}
+
+*** Testing array_rand() with arrays having different types of values ***
+
+-- Iteration 1 --
+int(1)
+array(3) {
+  [0]=>
+  int(0)
+  [1]=>
+  int(2)
+  [2]=>
+  int(5)
+}
+
+-- Iteration 2 --
+int(1)
+array(3) {
+  [0]=>
+  int(2)
+  [1]=>
+  int(4)
+  [2]=>
+  int(6)
+}
+
+-- Iteration 3 --
+int(3)
+array(3) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(3)
+}
+
+-- Iteration 4 --
+int(1)
+array(3) {
+  [0]=>
+  int(2)
+  [1]=>
+  int(3)
+  [2]=>
+  int(4)
+}
+
+-- Iteration 5 --
+int(0)
+array(3) {
+  [0]=>
+  int(0)
+  [1]=>
+  int(3)
+  [2]=>
+  int(4)
+}
+
+-- Iteration 6 --
+int(3)
+array(3) {
+  [0]=>
+  int(0)
+  [1]=>
+  int(1)
+  [2]=>
+  int(3)
+}
+
+-- Iteration 7 --
+int(4)
+array(3) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(3)
+  [2]=>
+  int(4)
+}
+Done
+---- FAILED

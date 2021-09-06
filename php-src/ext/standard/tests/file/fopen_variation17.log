@@ -1,0 +1,15 @@
+
+---- EXPECTED OUTPUT
+Not created in dir1
+found file for reading
+Not created in dir1
+found file for reading
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Not created in dir1
+found file for reading
+Not created in dir1
+found file for reading
+===DONE===
+---- FAILED

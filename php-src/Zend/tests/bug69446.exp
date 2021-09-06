@@ -1,0 +1,8 @@
+object(bad)#2 (2) {
+  ["x"]=>
+  object(stdClass)#3 (0) {
+  }
+  ["y"]=>
+  object(stdClass)#4 (0) {
+  }
+}

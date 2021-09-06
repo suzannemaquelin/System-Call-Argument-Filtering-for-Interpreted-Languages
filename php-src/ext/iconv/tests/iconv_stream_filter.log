@@ -1,0 +1,23 @@
+
+---- EXPECTED OUTPUT
+string(20) "1b244224332473244b24"
+string(10) "41244f1b28"
+string(2) "42"
+string(20) "a4b3a4f3a4cba4c1a4cf"
+string(10) "69636f6e76"
+string(2) "0a"
+bool(true)
+bool(true)
+bool(true)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(20) "1b244224332473244b24"
+string(10) "41244f1b28"
+string(2) "42"
+string(20) "a4b3a4f3a4cba4c1a4cf"
+string(10) "69636f6e76"
+string(2) "0a"
+bool(true)
+bool(true)
+bool(true)
+---- FAILED

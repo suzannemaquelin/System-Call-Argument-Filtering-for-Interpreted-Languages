@@ -1,0 +1,12 @@
+*** Testing ip2long() : error conditions ***
+
+-- Testing ip2long() function with Zero arguments --
+
+Warning: ip2long() expects exactly 1 parameter, 0 given in %s on line %d
+NULL
+
+-- Testing ip2long() function with more than expected no. of arguments --
+
+Warning: ip2long() expects exactly 1 parameter, 2 given in %s on line %d
+NULL
+===DONE===

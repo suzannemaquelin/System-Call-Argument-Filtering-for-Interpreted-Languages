@@ -1,0 +1,20 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught Exception in %s
+Stack trace:
+#0 %s: Foo->bar()
+#1 [internal function]: Foo->getIterator()
+#2 %s: iterator_to_array(Object(Foo))
+#3 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Exception in /root/php-src/ext/spl/tests/bug52238.php:5
+Stack trace:
+#0 /root/php-src/ext/spl/tests/bug52238.php(9): Foo->bar()
+#1 [internal function]: Foo->getIterator()
+#2 /root/php-src/ext/spl/tests/bug52238.php(12): iterator_to_array(Object(Foo))
+#3 {main}
+  thrown in /root/php-src/ext/spl/tests/bug52238.php on line 5
+---- FAILED

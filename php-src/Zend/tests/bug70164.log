@@ -1,0 +1,23 @@
+
+---- EXPECTED OUTPUT
+%d
+%d
+%d
+%d
+
+Fatal error: Uncaught Error: Undefined constant 'Foo\__COMPILER_HALT_OFFSET__' in %s:%d
+Stack trace:
+#0 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+262
+262
+262
+262
+
+Fatal error: Uncaught Error: Undefined constant 'Foo\__COMPILER_HALT_OFFSET__' in /root/php-src/Zend/tests/bug70164.php:11
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/Zend/tests/bug70164.php on line 11
+---- FAILED

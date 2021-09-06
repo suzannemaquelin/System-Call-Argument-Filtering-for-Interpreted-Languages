@@ -1,0 +1,1 @@
+Fatal error: Destructor %s::%s() cannot declare a return type in %s on line %s

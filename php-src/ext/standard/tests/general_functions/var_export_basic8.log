@@ -1,0 +1,87 @@
+
+---- EXPECTED OUTPUT
+-- Var export on a simple  object --
+stdClass::__set_state(array(
+   'a' => 1,
+   'b' => 
+  array (
+    'k' => 2,
+  ),
+   'x' => 
+  stdClass::__set_state(array(
+     'p' => '22',
+  )),
+))
+
+-- Var export on an simple array --
+array (
+  0 => 1,
+  1 => 2,
+  2 => 3,
+  3 => 4,
+)
+
+-- Var export on an nested array --
+array (
+  'foo' => 
+  array (
+    'one' => 'first',
+  ),
+  'bar' => 
+  stdClass::__set_state(array(
+     'a' => 1,
+     'b' => 
+    array (
+      'k' => 2,
+    ),
+     'x' => 
+    stdClass::__set_state(array(
+       'p' => '22',
+    )),
+  )),
+)===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+
+-- Var export on a simple  object --
+stdClass::__set_state(array(
+   'a' => 1,
+   'b' => 
+  array (
+    'k' => 2,
+  ),
+   'x' => 
+  stdClass::__set_state(array(
+     'p' => '22',
+  )),
+))
+
+-- Var export on an simple array --
+array (
+  0 => 1,
+  1 => 2,
+  2 => 3,
+  3 => 4,
+)
+
+-- Var export on an nested array --
+array (
+  'foo' => 
+  array (
+    'one' => 'first',
+  ),
+  'bar' => 
+  stdClass::__set_state(array(
+     'a' => 1,
+     'b' => 
+    array (
+      'k' => 2,
+    ),
+     'x' => 
+    stdClass::__set_state(array(
+       'p' => '22',
+    )),
+  )),
+)===DONE===
+---- FAILED

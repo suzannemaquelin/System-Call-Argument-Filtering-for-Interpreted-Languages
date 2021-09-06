@@ -1,0 +1,10 @@
+*** Testing error conditions ***
+-- Testing fputcsv() with zero argument --
+
+Warning: SplFileObject::fputcsv() expects at least 1 parameter, 0 given in %s on line %d
+NULL
+-- Testing fputcsv() with more than expected number of arguments --
+
+Warning: SplFileObject::fputcsv() expects at most 4 parameters, 5 given in %s on line %d
+NULL
+Done

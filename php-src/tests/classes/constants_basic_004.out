@@ -1,0 +1,56 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Static properties:
+array(1) {
+  ["key"]=>
+  string(5) "value"
+}
+array(1) {
+  ["key"]=>
+  string(5) "value"
+}
+array(1) {
+  ["key"]=>
+  string(5) "value"
+}
+array(1) {
+  ["key"]=>
+  string(5) "value"
+}
+array(1) {
+  ["key"]=>
+  string(5) "value"
+}
+
+Instance properties:
+object(X)#1 (1) {
+  ["a_x"]=>
+  array(1) {
+    ["key"]=>
+    string(5) "value"
+  }
+}
+object(B)#2 (1) {
+  ["a_b"]=>
+  array(1) {
+    ["key"]=>
+    string(5) "value"
+  }
+}
+object(C)#3 (3) {
+  ["a_c_parent"]=>
+  array(1) {
+    ["key"]=>
+    string(5) "value"
+  }
+  ["a_c_self"]=>
+  array(1) {
+    ["key"]=>
+    string(5) "value"
+  }
+  ["a_b"]=>
+  array(1) {
+    ["key"]=>
+    string(5) "value"
+  }
+}

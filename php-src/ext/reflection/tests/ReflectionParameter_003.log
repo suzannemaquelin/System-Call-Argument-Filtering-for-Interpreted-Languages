@@ -1,0 +1,71 @@
+
+---- EXPECTED OUTPUT
+hello from test
+third is jack
+
+Notice: Undefined variable: theIncrement in %s on line 8
+parameter names from staticMethod method:
+
+object(ReflectionParameter)#%d (1) {
+  ["name"]=>
+  string(8) "paramOne"
+}
+this parameter is not optional
+this parameter has no default value
+
+object(ReflectionParameter)#%d (1) {
+  ["name"]=>
+  string(12) "anotherParam"
+}
+this parameter is optional
+this parameter has a default value
+
+object(ReflectionParameter)#%d (1) {
+  ["name"]=>
+  string(10) "thirdParam"
+}
+this parameter is optional
+this parameter has a default value
+
+object(ReflectionParameter)#%d (1) {
+  ["name"]=>
+  string(10) "arrayParam"
+}
+this parameter is optional
+this parameter has a default value
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+hello from test
+third is jack
+
+Notice: Undefined variable: theIncrement in /root/php-src/ext/reflection/tests/ReflectionParameter_003.php on line 8
+parameter names from staticMethod method:
+
+object(ReflectionParameter)#2 (1) {
+  ["name"]=>
+  string(8) "paramOne"
+}
+this parameter is not optional
+this parameter has no default value
+
+object(ReflectionParameter)#3 (1) {
+  ["name"]=>
+  string(12) "anotherParam"
+}
+this parameter is optional
+this parameter has a default value
+
+object(ReflectionParameter)#4 (1) {
+  ["name"]=>
+  string(10) "thirdParam"
+}
+this parameter is optional
+this parameter has a default value
+
+object(ReflectionParameter)#5 (1) {
+  ["name"]=>
+  string(10) "arrayParam"
+}
+this parameter is optional
+this parameter has a default value
+---- FAILED

@@ -1,0 +1,67 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing error conditions ***
+
+-- Testing with  Non-existing files --
+Warning: fileatime(): stat failed for /no/such/file/or/dir in /root/php-src/ext/standard/tests/file/005_error.php on line 24
+bool(false)
+
+Warning: filemtime(): stat failed for /no/such/file/or/dir in /root/php-src/ext/standard/tests/file/005_error.php on line 25
+bool(false)
+
+Warning: filectime(): stat failed for /no/such/file/or/dir in /root/php-src/ext/standard/tests/file/005_error.php on line 26
+bool(false)
+
+Warning: touch(): Unable to create file /no/such/file/or/dir because No such file or directory in /root/php-src/ext/standard/tests/file/005_error.php on line 27
+bool(false)
+
+Warning: fileatime() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/005_error.php on line 30
+NULL
+
+Warning: filemtime() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/005_error.php on line 31
+NULL
+
+Warning: filectime() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/005_error.php on line 32
+NULL
+
+Warning: touch() expects at most 3 parameters, 4 given in /root/php-src/ext/standard/tests/file/005_error.php on line 33
+NULL
+
+-- Testing No.of arguments less than expected --
+Warning: fileatime() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/005_error.php on line 36
+NULL
+
+Warning: filemtime() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/005_error.php on line 37
+NULL
+
+Warning: filectime() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/005_error.php on line 38
+NULL
+
+Warning: touch() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/005_error.php on line 39
+NULL
+
+-- Testing No.of arguments greater than expected --
+Warning: fileatime() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/005_error.php on line 43
+NULL
+
+Warning: filemtime() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/005_error.php on line 44
+NULL
+
+Warning: filectime() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/005_error.php on line 45
+NULL
+
+Warning: touch() expects at most 3 parameters, 4 given in /root/php-src/ext/standard/tests/file/005_error.php on line 46
+NULL
+
+Warning: fileatime() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/005_error.php on line 49
+NULL
+
+Warning: filemtime() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/005_error.php on line 50
+NULL
+
+Warning: filectime() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/005_error.php on line 51
+NULL
+
+Warning: touch() expects at most 3 parameters, 4 given in /root/php-src/ext/standard/tests/file/005_error.php on line 52
+NULL
+
+Done

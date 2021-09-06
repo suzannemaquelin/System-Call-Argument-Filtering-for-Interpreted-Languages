@@ -1,0 +1,13 @@
+array(2) {
+  [0]=>
+  object(SplDoublyLinkedList)#%d (2) {
+    ["flags":"SplDoublyLinkedList":private]=>
+    int(1)
+    ["dllist":"SplDoublyLinkedList":private]=>
+    array(0) {
+    }
+  }
+  [1]=>
+  int(1)
+}
+===DONE===

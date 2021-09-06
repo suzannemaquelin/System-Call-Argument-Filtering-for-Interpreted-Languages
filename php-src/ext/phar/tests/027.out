@@ -1,0 +1,35 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(22) "phar://*/027.phar.php/"
+string(6) "/a.php"
+bool(false)
+string(2) "/b"
+bool(true)
+string(23) "phar://*/027.phar.php/b"
+string(8) "/b/c.php"
+bool(false)
+string(8) "/b/d.php"
+bool(false)
+string(6) "/b.php"
+bool(false)
+string(6) "/e.php"
+bool(false)
+fseek on dir handle
+int(0)
+int(4)
+int(-1)
+int(4)
+int(0)
+int(1)
+fwrite on dir handle
+int(0)
+bool(false)
+opendir edge cases
+
+Warning: opendir(phar://): failed to open dir: phar error: no directory in "phar://", must have at least phar:/// for root directory (always use full path to a new phar)
+phar url "phar://" is unknown in /root/php-src/ext/phar/tests/027.php on line 47
+bool(false)
+
+Warning: opendir(phar://foo.phar/hi): failed to open dir: phar error: invalid url or non-existent phar "phar://foo.phar/hi"
+phar url "phar://foo.phar/hi" is unknown in /root/php-src/ext/phar/tests/027.php on line 48
+bool(false)
+===DONE===

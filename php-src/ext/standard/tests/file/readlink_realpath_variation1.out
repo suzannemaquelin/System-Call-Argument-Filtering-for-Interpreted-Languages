@@ -1,0 +1,25 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing readlink() and realpath() : usage variations ***
+
+*** Testing readlink() and realpath() with linkname stored inside a object ***
+
+-- Testing readlink() and realpath() with softlink, linkname stored inside an object --
+bool(true)
+string(115) "/root/php-src/ext/standard/tests/file/readlink_realpath_variation1/home/tests/link/readlink_realpath_variation1.tmp"
+string(115) "/root/php-src/ext/standard/tests/file/readlink_realpath_variation1/home/tests/link/readlink_realpath_variation1.tmp"
+bool(true)
+string(115) "/root/php-src/ext/standard/tests/file/readlink_realpath_variation1/home/tests/link/readlink_realpath_variation1.tmp"
+string(115) "/root/php-src/ext/standard/tests/file/readlink_realpath_variation1/home/tests/link/readlink_realpath_variation1.tmp"
+
+-- Testing readlink() and realpath() with hardlink, linkname stored inside an object --
+bool(true)
+
+Warning: readlink(): Invalid argument in /root/php-src/ext/standard/tests/file/readlink_realpath_variation1.php on line 45
+bool(false)
+string(109) "/root/php-src/ext/standard/tests/file/readlink_realpath_variation1/home/readlink_realpath_variation1_link.tmp"
+bool(true)
+
+Warning: readlink(): Invalid argument in /root/php-src/ext/standard/tests/file/readlink_realpath_variation1.php on line 48
+bool(false)
+string(75) "/root/php-src/ext/standard/tests/file/readlink_realpath_variation1_link.tmp"
+Done

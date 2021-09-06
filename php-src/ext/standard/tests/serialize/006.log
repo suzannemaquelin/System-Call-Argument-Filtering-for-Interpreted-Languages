@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+string(55) "O:11:"№berKццliде":1:{s:11:"едц≈ƒ÷ь№ber";s:6:"едц≈ƒ÷";}"
+object(№berKццliде)#2 (1) {
+  ["едц≈ƒ÷ь№ber"]=>
+  string(6) "едц≈ƒ÷"
+}
+string(32) "a:1:{s:6:"едц≈ƒ÷";s:6:"едц≈ƒ÷";}"
+array(1) {
+  ["едц≈ƒ÷"]=>
+  string(6) "едц≈ƒ÷"
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(55) "O:11:"№berKццliде":1:{s:11:"едц≈ƒ÷ь№ber";s:6:"едц≈ƒ÷";}"
+object(№berKццliде)#2 (1) {
+  ["едц≈ƒ÷ь№ber"]=>
+  string(6) "едц≈ƒ÷"
+}
+string(32) "a:1:{s:6:"едц≈ƒ÷";s:6:"едц≈ƒ÷";}"
+array(1) {
+  ["едц≈ƒ÷"]=>
+  string(6) "едц≈ƒ÷"
+}
+---- FAILED

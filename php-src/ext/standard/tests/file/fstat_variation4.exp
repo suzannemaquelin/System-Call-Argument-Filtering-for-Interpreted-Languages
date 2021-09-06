@@ -1,0 +1,15 @@
+Warning: fstat() expects parameter 1 to be resource, float given in %s on line %d
+bool(false)
+
+Warning: fstat() expects parameter 1 to be resource, float given in %s on line %d
+bool(false)
+
+Warning: fstat() expects parameter 1 to be resource, float given in %s on line %d
+bool(false)
+
+Warning: fstat() expects parameter 1 to be resource, float given in %s on line %d
+bool(false)
+
+Warning: fstat() expects parameter 1 to be resource, float given in %s on line %d
+bool(false)
+===DONE===

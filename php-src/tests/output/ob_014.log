@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+Array
+(
+    [type] => 2
+    [message] => str_rot13() expects exactly 1 parameter, 2 given
+    [file] => %s
+    [line] => 7
+)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Array
+(
+    [type] => 2
+    [message] => str_rot13() expects exactly 1 parameter, 2 given
+    [file] => /root/php-src/tests/output/ob_014.php
+    [line] => 7
+)
+---- FAILED

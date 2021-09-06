@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+*** Testing gmstrftime() : error conditions ***
+
+-- Testing gmstrftime() function with Zero arguments --
+
+Warning: gmstrftime() expects at least 1 parameter, 0 given in %s on line %d
+bool(false)
+
+-- Testing gmstrftime() function with more than expected no. of arguments --
+
+Warning: gmstrftime() expects at most 2 parameters, 3 given in %s on line %d
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing gmstrftime() : error conditions ***
+
+-- Testing gmstrftime() function with Zero arguments --
+
+Warning: gmstrftime() expects at least 1 parameter, 0 given in /root/php-src/ext/date/tests/gmstrftime_error.php on line 12
+bool(false)
+
+-- Testing gmstrftime() function with more than expected no. of arguments --
+
+Warning: gmstrftime() expects at most 2 parameters, 3 given in /root/php-src/ext/date/tests/gmstrftime_error.php on line 19
+bool(false)
+===DONE===
+---- FAILED

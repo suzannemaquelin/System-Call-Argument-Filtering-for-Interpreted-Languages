@@ -1,0 +1,27 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+*** Testing basic functions of realpath() with files ***
+
+*** Testing realpath() on filenames ***
+
+-- Iteration 1 --
+string(76) "/root/php-src/ext/standard/tests/file/realpath_basic/home/realpath_basic.tmp"
+
+-- Iteration 2 --
+string(71) "/root/php-src/ext/standard/tests/file/realpath_basic/realpath_basic.tmp"
+
+-- Iteration 3 --
+string(81) "/root/php-src/ext/standard/tests/file/realpath_basic/home/test/realpath_basic.tmp"
+
+-- Iteration 4 --
+string(71) "/root/php-src/ext/standard/tests/file/realpath_basic/realpath_basic.tmp"
+
+-- Iteration 5 --
+bool(false)
+
+-- Iteration 6 --
+bool(false)
+
+-- Iteration 7 --
+bool(false)
+Done

@@ -1,0 +1,41 @@
+
+---- EXPECTED OUTPUT
+*** Testing symlink(), linkinfo(), link() and is_link() : basic functionality ***
+
+*** Testing symlink(), linkinfo(), link() and is_link() on directory ***
+
+-- Testing on soft links --
+bool(true)
+int(%d)
+bool(true)
+
+-- Testing on hard links --
+
+Warning: link(): %s in %s on line %d
+bool(false)
+
+Warning: linkinfo(): No such file or directory in %s on line %d
+int(-1)
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing symlink(), linkinfo(), link() and is_link() : basic functionality ***
+
+*** Testing symlink(), linkinfo(), link() and is_link() on directory ***
+
+-- Testing on soft links --
+bool(true)
+int(66306)
+bool(true)
+
+-- Testing on hard links --
+
+Warning: link(): Operation not permitted in /root/php-src/ext/standard/tests/file/symlink_link_linkinfo_is_link_basic2.php on line 47
+bool(false)
+
+Warning: linkinfo(): No such file or directory in /root/php-src/ext/standard/tests/file/symlink_link_linkinfo_is_link_basic2.php on line 48
+int(-1)
+bool(false)
+Done
+---- FAILED

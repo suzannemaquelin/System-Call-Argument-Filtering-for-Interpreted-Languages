@@ -1,0 +1,2 @@
+Warning: SplDoublyLinkedList::isEmpty() expects exactly 0 parameters, %d given in %s
+NULL

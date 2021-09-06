@@ -1,0 +1,44 @@
+001+ Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+004- }
+005- ===DONE====
+005+   string(9) "unlimited"
+006+   ["hard core"]=>
+007+   string(9) "unlimited"
+008+   ["soft data"]=>
+009+   string(9) "unlimited"
+010+   ["hard data"]=>
+011+   string(9) "unlimited"
+012+   ["soft stack"]=>
+013+   int(8388608)
+014+   ["hard stack"]=>
+015+   string(9) "unlimited"
+016+   ["soft totalmem"]=>
+017+   string(9) "unlimited"
+018+   ["hard totalmem"]=>
+019+   string(9) "unlimited"
+020+   ["soft rss"]=>
+021+   string(9) "unlimited"
+022+   ["hard rss"]=>
+023+   string(9) "unlimited"
+024+   ["soft maxproc"]=>
+025+   string(9) "unlimited"
+026+   ["hard maxproc"]=>
+027+   string(9) "unlimited"
+028+   ["soft memlock"]=>
+029+   int(65536)
+030+   ["hard memlock"]=>
+031+   int(65536)
+032+   ["soft cpu"]=>
+033+   string(9) "unlimited"
+034+   ["hard cpu"]=>
+035+   string(9) "unlimited"
+036+   ["soft filesize"]=>
+037+   string(9) "unlimited"
+038+   ["hard filesize"]=>
+039+   string(9) "unlimited"
+040+   ["soft openfiles"]=>
+041+   int(1048576)
+042+   ["hard openfiles"]=>
+043+   int(1048576)
+044+ }
+045+ ===DONE====

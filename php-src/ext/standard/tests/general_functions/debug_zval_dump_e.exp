@@ -1,0 +1,4 @@
+*** Testing error conditions ***
+
+Warning: debug_zval_dump() expects at least %d parameter, %d given in %s on line %d
+Done

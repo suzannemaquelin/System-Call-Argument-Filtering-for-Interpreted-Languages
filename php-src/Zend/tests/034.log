@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Switch statements may only contain one default clause in %s on line 13
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Switch statements may only contain one default clause in /root/php-src/Zend/tests/034.php on line 13
+---- FAILED

@@ -1,0 +1,40 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+normal
+stream_set_blocking 1
+socket_set_block 1
+socket_get_option 2
+
+
+unset stream
+socket_set_block 1
+socket_get_option 2
+
+
+unset socket
+stream_set_blocking 1
+
+
+close stream
+stream_set_blocking 
+Warning: stream_set_blocking(): supplied resource is not a valid stream resource in /root/php-src/ext/sockets/tests/socket_import_stream-4.php on line 6
+
+socket_set_block 
+Warning: socket_set_block(): unable to set blocking mode [9]: Bad file descriptor in /root/php-src/ext/sockets/tests/socket_import_stream-4.php on line 11
+
+socket_get_option 
+Warning: socket_get_option(): unable to retrieve socket option [9]: Bad file descriptor in /root/php-src/ext/sockets/tests/socket_import_stream-4.php on line 14
+
+
+
+close socket
+stream_set_blocking 
+Warning: stream_set_blocking(): supplied resource is not a valid stream resource in /root/php-src/ext/sockets/tests/socket_import_stream-4.php on line 6
+
+socket_set_block 
+Warning: socket_set_block(): supplied resource is not a valid Socket resource in /root/php-src/ext/sockets/tests/socket_import_stream-4.php on line 11
+
+socket_get_option 
+Warning: socket_get_option(): supplied resource is not a valid Socket resource in /root/php-src/ext/sockets/tests/socket_import_stream-4.php on line 14
+
+
+Done.

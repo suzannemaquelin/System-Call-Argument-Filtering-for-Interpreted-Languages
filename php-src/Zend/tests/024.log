@@ -1,0 +1,74 @@
+
+---- EXPECTED OUTPUT
+Notice: Undefined variable: a in %s on line %d
+NULL
+
+Notice: Undefined variable: %s in %s on line %d
+
+Notice: Undefined variable: %s in %s on line %d
+NULL
+
+Notice: Undefined variable: a in %s on line %d
+int(1)
+
+Notice: Undefined variable: %s in %s on line %d
+
+Notice: Undefined variable: %s in %s on line %d
+int(0)
+
+Notice: Undefined variable: a in %s on line %d
+NULL
+
+Notice: Undefined variable: b in %s on line %d
+int(1)
+
+Notice: Trying to get property of non-object in %s on line %d
+NULL
+
+Notice: Trying to get property of non-object in %s on line %d
+NULL
+
+Notice: Undefined variable: c in %s on line %d
+
+Notice: Trying to get property of non-object in %s on line %d
+
+Notice: Trying to get property of non-object in %s on line %d
+NULL
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined variable: a in /root/php-src/Zend/tests/024.php on line 3
+NULL
+
+Notice: Undefined variable: a in /root/php-src/Zend/tests/024.php on line 4
+
+Notice: Undefined variable: c in /root/php-src/Zend/tests/024.php on line 4
+NULL
+
+Notice: Undefined variable: a in /root/php-src/Zend/tests/024.php on line 5
+int(1)
+
+Notice: Undefined variable: a in /root/php-src/Zend/tests/024.php on line 6
+
+Notice: Undefined variable: b in /root/php-src/Zend/tests/024.php on line 6
+int(0)
+
+Notice: Undefined variable: a in /root/php-src/Zend/tests/024.php on line 7
+NULL
+
+Notice: Undefined variable: b in /root/php-src/Zend/tests/024.php on line 8
+int(1)
+
+Notice: Trying to get property of non-object in /root/php-src/Zend/tests/024.php on line 9
+NULL
+
+Notice: Trying to get property of non-object in /root/php-src/Zend/tests/024.php on line 10
+NULL
+
+Notice: Undefined variable: c in /root/php-src/Zend/tests/024.php on line 11
+
+Notice: Trying to get property of non-object in /root/php-src/Zend/tests/024.php on line 11
+
+Notice: Trying to get property of non-object in /root/php-src/Zend/tests/024.php on line 11
+NULL
+---- FAILED

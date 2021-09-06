@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+bool(true)
+
+Warning: openssl_public_encrypt(): key parameter is not a valid public key in %s on line %d
+bool(false)
+
+Warning: openssl_public_encrypt(): key parameter is not a valid public key in %s on line %d
+bool(false)
+
+Warning: openssl_public_encrypt(): key parameter is not a valid public key in %s on line %d
+bool(false)
+bool(true)
+string(4) "test"
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(true)
+
+Warning: openssl_public_encrypt(): key parameter is not a valid public key in /root/php-src/ext/openssl/tests/openssl_public_encrypt_basic.php on line 15
+bool(false)
+
+Warning: openssl_public_encrypt(): key parameter is not a valid public key in /root/php-src/ext/openssl/tests/openssl_public_encrypt_basic.php on line 16
+bool(false)
+
+Warning: openssl_public_encrypt(): key parameter is not a valid public key in /root/php-src/ext/openssl/tests/openssl_public_encrypt_basic.php on line 17
+bool(false)
+bool(true)
+string(4) "test"
+---- FAILED

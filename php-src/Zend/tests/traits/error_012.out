@@ -1,0 +1,6 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Error: Call to protected method bar::test() from context '' in /root/php-src/Zend/tests/traits/error_012.php:12
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/Zend/tests/traits/error_012.php on line 12

@@ -1,0 +1,6 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Error: Class '../BUG' not found in /root/php-src/tests/classes/autoload_021.php:6
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/tests/classes/autoload_021.php on line 6

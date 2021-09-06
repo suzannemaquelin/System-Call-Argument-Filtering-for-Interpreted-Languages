@@ -1,0 +1,117 @@
+
+---- EXPECTED OUTPUT
+object(C)#1 (5) {
+  ["p"]=>
+  string(9) "C::p.orig"
+  ["dynamic1"]=>
+  string(45) "new prop added to $wrappedObject before clone"
+  ["dynamic2"]=>
+  string(44) "new prop added to $wrappedObject after clone"
+  ["new.iAO"]=>
+  string(35) "new element added $innerArrayObject"
+  ["new.oAO"]=>
+  string(38) "new element added to $outerArrayObject"
+}
+object(ArrayObject)#2 (1) {
+  ["storage":"ArrayObject":private]=>
+  object(C)#1 (5) {
+    ["p"]=>
+    string(9) "C::p.orig"
+    ["dynamic1"]=>
+    string(45) "new prop added to $wrappedObject before clone"
+    ["dynamic2"]=>
+    string(44) "new prop added to $wrappedObject after clone"
+    ["new.iAO"]=>
+    string(35) "new element added $innerArrayObject"
+    ["new.oAO"]=>
+    string(38) "new element added to $outerArrayObject"
+  }
+}
+object(ArrayObject)#3 (1) {
+  ["storage":"ArrayObject":private]=>
+  object(ArrayObject)#2 (1) {
+    ["storage":"ArrayObject":private]=>
+    object(C)#1 (5) {
+      ["p"]=>
+      string(9) "C::p.orig"
+      ["dynamic1"]=>
+      string(45) "new prop added to $wrappedObject before clone"
+      ["dynamic2"]=>
+      string(44) "new prop added to $wrappedObject after clone"
+      ["new.iAO"]=>
+      string(35) "new element added $innerArrayObject"
+      ["new.oAO"]=>
+      string(38) "new element added to $outerArrayObject"
+    }
+  }
+}
+object(ArrayObject)#4 (1) {
+  ["storage":"ArrayObject":private]=>
+  array(3) {
+    ["p"]=>
+    string(9) "C::p.orig"
+    ["dynamic1"]=>
+    string(45) "new prop added to $wrappedObject before clone"
+    ["new.coAO"]=>
+    string(44) "new element added to $clonedOuterArrayObject"
+  }
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(C)#1 (5) {
+  ["p"]=>
+  string(9) "C::p.orig"
+  ["dynamic1"]=>
+  string(45) "new prop added to $wrappedObject before clone"
+  ["dynamic2"]=>
+  string(44) "new prop added to $wrappedObject after clone"
+  ["new.iAO"]=>
+  string(35) "new element added $innerArrayObject"
+  ["new.oAO"]=>
+  string(38) "new element added to $outerArrayObject"
+}
+object(ArrayObject)#2 (1) {
+  ["storage":"ArrayObject":private]=>
+  object(C)#1 (5) {
+    ["p"]=>
+    string(9) "C::p.orig"
+    ["dynamic1"]=>
+    string(45) "new prop added to $wrappedObject before clone"
+    ["dynamic2"]=>
+    string(44) "new prop added to $wrappedObject after clone"
+    ["new.iAO"]=>
+    string(35) "new element added $innerArrayObject"
+    ["new.oAO"]=>
+    string(38) "new element added to $outerArrayObject"
+  }
+}
+object(ArrayObject)#3 (1) {
+  ["storage":"ArrayObject":private]=>
+  object(ArrayObject)#2 (1) {
+    ["storage":"ArrayObject":private]=>
+    object(C)#1 (5) {
+      ["p"]=>
+      string(9) "C::p.orig"
+      ["dynamic1"]=>
+      string(45) "new prop added to $wrappedObject before clone"
+      ["dynamic2"]=>
+      string(44) "new prop added to $wrappedObject after clone"
+      ["new.iAO"]=>
+      string(35) "new element added $innerArrayObject"
+      ["new.oAO"]=>
+      string(38) "new element added to $outerArrayObject"
+    }
+  }
+}
+object(ArrayObject)#4 (1) {
+  ["storage":"ArrayObject":private]=>
+  array(3) {
+    ["p"]=>
+    string(9) "C::p.orig"
+    ["dynamic1"]=>
+    string(45) "new prop added to $wrappedObject before clone"
+    ["new.coAO"]=>
+    string(44) "new element added to $clonedOuterArrayObject"
+  }
+}
+---- FAILED

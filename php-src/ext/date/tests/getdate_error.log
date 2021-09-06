@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+*** Testing getdate() : error conditions ***
+
+-- Testing getdate() function with more than expected no. of arguments --
+
+Warning: getdate() expects at most 1 parameter, 2 given in %s on line %d
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing getdate() : error conditions ***
+
+-- Testing getdate() function with more than expected no. of arguments --
+
+Warning: getdate() expects at most 1 parameter, 2 given in /root/php-src/ext/date/tests/getdate_error.php on line 17
+bool(false)
+===DONE===
+---- FAILED

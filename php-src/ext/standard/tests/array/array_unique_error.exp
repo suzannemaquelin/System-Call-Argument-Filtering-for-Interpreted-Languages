@@ -1,0 +1,12 @@
+*** Testing array_unique() : error conditions ***
+
+-- Testing array_unique() function with zero arguments --
+
+Warning: array_unique() expects at least 1 parameter, 0 given in %s on line %d
+NULL
+
+-- Testing array_unique() function with more than expected no. of arguments --
+
+Warning: array_unique() expects at most 2 parameters, 3 given in %s on line %d
+NULL
+Done

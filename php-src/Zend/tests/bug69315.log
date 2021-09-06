@@ -1,0 +1,39 @@
+
+---- EXPECTED OUTPUT
+bool(false)
+bool(true)
+
+Warning: strlen() has been disabled for security reasons in %sbug69315.php on line %d
+NULL
+
+Warning: defined() has been disabled for security reasons in %sbug69315.php on line %d
+NULL
+
+Warning: constant() has been disabled for security reasons in %sbug69315.php on line %d
+NULL
+
+Warning: call_user_func() has been disabled for security reasons in %sbug69315.php on line %d
+NULL
+
+Warning: is_string() has been disabled for security reasons in %sbug69315.php on line %d
+NULL
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(false)
+bool(true)
+
+Warning: strlen() has been disabled for security reasons in /root/php-src/Zend/tests/bug69315.php on line 5
+NULL
+
+Warning: defined() has been disabled for security reasons in /root/php-src/Zend/tests/bug69315.php on line 6
+NULL
+
+Warning: constant() has been disabled for security reasons in /root/php-src/Zend/tests/bug69315.php on line 7
+NULL
+
+Warning: call_user_func() has been disabled for security reasons in /root/php-src/Zend/tests/bug69315.php on line 8
+NULL
+
+Warning: is_string() has been disabled for security reasons in /root/php-src/Zend/tests/bug69315.php on line 9
+NULL
+---- FAILED

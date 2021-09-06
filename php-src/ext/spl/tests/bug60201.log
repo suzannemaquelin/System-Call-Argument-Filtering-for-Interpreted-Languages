@@ -1,0 +1,41 @@
+
+---- EXPECTED OUTPUT
+array(3) {
+  [0]=>
+  object(ReflectionParameter)#%d (1) {
+    ["name"]=>
+    string(9) "delimiter"
+  }
+  [1]=>
+  object(ReflectionParameter)#%d (1) {
+    ["name"]=>
+    string(9) "enclosure"
+  }
+  [2]=>
+  object(ReflectionParameter)#%d (1) {
+    ["name"]=>
+    string(6) "escape"
+  }
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(3) {
+  [0]=>
+  object(ReflectionParameter)#2 (1) {
+    ["name"]=>
+    string(9) "delimiter"
+  }
+  [1]=>
+  object(ReflectionParameter)#3 (1) {
+    ["name"]=>
+    string(9) "enclosure"
+  }
+  [2]=>
+  object(ReflectionParameter)#4 (1) {
+    ["name"]=>
+    string(6) "escape"
+  }
+}
+===DONE===
+---- FAILED

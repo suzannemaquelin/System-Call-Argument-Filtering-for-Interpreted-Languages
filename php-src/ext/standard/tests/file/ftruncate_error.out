@@ -1,0 +1,52 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing ftruncate() : error conditions ***
+
+ Initial file size = 36
+-- Testing ftruncate() with less than expected number of arguments --
+
+Warning: ftruncate() expects exactly 2 parameters, 0 given in /root/php-src/ext/standard/tests/file/ftruncate_error.php on line 18
+bool(false)
+
+Warning: ftruncate() expects exactly 2 parameters, 1 given in /root/php-src/ext/standard/tests/file/ftruncate_error.php on line 21
+bool(false)
+int(36)
+-- Testing ftruncate() with more than expected number of arguments --
+
+Warning: ftruncate() expects exactly 2 parameters, 3 given in /root/php-src/ext/standard/tests/file/ftruncate_error.php on line 27
+bool(false)
+int(36)
+-- Testing ftruncate() with invalid file pointer --
+-- Iteration 1 --
+
+Warning: ftruncate() expects parameter 1 to be resource, string given in /root/php-src/ext/standard/tests/file/ftruncate_error.php on line 44
+bool(false)
+-- Iteration 2 --
+
+Warning: ftruncate() expects parameter 1 to be resource, integer given in /root/php-src/ext/standard/tests/file/ftruncate_error.php on line 44
+bool(false)
+-- Iteration 3 --
+
+Warning: ftruncate() expects parameter 1 to be resource, float given in /root/php-src/ext/standard/tests/file/ftruncate_error.php on line 44
+bool(false)
+-- Iteration 4 --
+
+Warning: ftruncate() expects parameter 1 to be resource, boolean given in /root/php-src/ext/standard/tests/file/ftruncate_error.php on line 44
+bool(false)
+-- Iteration 5 --
+
+Warning: ftruncate() expects parameter 1 to be resource, array given in /root/php-src/ext/standard/tests/file/ftruncate_error.php on line 44
+bool(false)
+-- Iteration 6 --
+
+Warning: ftruncate() expects parameter 1 to be resource, object given in /root/php-src/ext/standard/tests/file/ftruncate_error.php on line 44
+bool(false)
+-- Testing ftruncate() with closed/unset file handle --
+
+Warning: ftruncate(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/ftruncate_error.php on line 52
+bool(false)
+int(36)
+
+Warning: ftruncate() expects parameter 1 to be resource, null given in /root/php-src/ext/standard/tests/file/ftruncate_error.php on line 59
+bool(false)
+int(36)
+Done

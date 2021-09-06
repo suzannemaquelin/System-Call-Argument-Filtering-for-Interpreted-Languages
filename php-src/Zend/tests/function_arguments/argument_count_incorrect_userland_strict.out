@@ -1,0 +1,11 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+ArgumentCountError
+Too few arguments to function foo(), 0 passed in /root/php-src/Zend/tests/function_arguments/argument_count_incorrect_userland_strict.php on line 5 and exactly 1 expected
+ArgumentCountError
+Too few arguments to function bar(), 1 passed in /root/php-src/Zend/tests/function_arguments/argument_count_incorrect_userland_strict.php on line 13 and exactly 2 expected
+ArgumentCountError
+Too few arguments to function bat(), 1 passed in /root/php-src/Zend/tests/function_arguments/argument_count_incorrect_userland_strict.php on line 22 and exactly 2 expected
+TypeError
+Argument 1 passed to bat() must be of the type integer, string given, called in /root/php-src/Zend/tests/function_arguments/argument_count_incorrect_userland_strict.php on line 29
+TypeError
+Argument 2 passed to bat() must be of the type string, integer given, called in /root/php-src/Zend/tests/function_arguments/argument_count_incorrect_userland_strict.php on line 36

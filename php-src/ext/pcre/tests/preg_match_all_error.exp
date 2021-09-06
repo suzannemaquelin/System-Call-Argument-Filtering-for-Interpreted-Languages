@@ -1,0 +1,17 @@
+*** Testing preg_match_all() : error conditions ***
+
+-- Testing preg_match_all() function with Zero arguments --
+
+Warning: preg_match_all() expects at least 2 parameters, 0 given in %spreg_match_all_error.php on line %d
+bool(false)
+
+-- Testing preg_match_all() function with more than expected no. of arguments --
+
+Warning: preg_match_all() expects at most 5 parameters, 6 given in %spreg_match_all_error.php on line %d
+bool(false)
+
+-- Testing preg_match_all() function with less than expected no. of arguments --
+
+Warning: preg_match_all() expects at least 2 parameters, 1 given in %spreg_match_all_error.php on line %d
+bool(false)
+Done

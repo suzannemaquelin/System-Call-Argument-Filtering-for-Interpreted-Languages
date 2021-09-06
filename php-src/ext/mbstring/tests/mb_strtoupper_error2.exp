@@ -1,0 +1,5 @@
+*** Testing mb_strtoupper() : error conditions ***
+
+Warning: mb_strtoupper(): Unknown encoding "unknown-encoding" in %s on line %d
+bool(false)
+Done

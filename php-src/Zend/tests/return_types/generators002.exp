@@ -1,0 +1,1 @@
+Fatal error: Generators may only declare a return type of Generator, Iterator, Traversable, or iterable, StdClass is not permitted in %s on line %d

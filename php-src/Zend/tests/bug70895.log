@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Warning: array_map\(\) expects parameter 1 to be a valid callback, function '%n' not found or invalid function name in .+
+
+Warning: array_map\(\) expects parameter 1 to be a valid callback, function '%n %i' not found or invalid function name in .+
+
+Warning: array_map\(\) expects parameter 1 to be a valid callback, function '%n %i aoeu %f aoeu %p' not found or invalid function name in .+bug70895.php on line \d+
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: array_map() expects parameter 1 to be a valid callback, function '%n' not found or invalid function name in /root/php-src/Zend/tests/bug70895.php on line 3
+
+Warning: array_map() expects parameter 1 to be a valid callback, function '%n %i' not found or invalid function name in /root/php-src/Zend/tests/bug70895.php on line 4
+
+Warning: array_map() expects parameter 1 to be a valid callback, function '%n %i aoeu %f aoeu %p' not found or invalid function name in /root/php-src/Zend/tests/bug70895.php on line 5
+---- FAILED

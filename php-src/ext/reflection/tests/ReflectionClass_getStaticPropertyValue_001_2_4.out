@@ -1,0 +1,9 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Retrieving static values from A:
+string(13) "default value"
+
+Fatal error: Uncaught ReflectionException: Class A does not have a property named  in /root/php-src/ext/reflection/tests/ReflectionClass_getStaticPropertyValue_001_2_4.php:17
+Stack trace:
+#0 /root/php-src/ext/reflection/tests/ReflectionClass_getStaticPropertyValue_001_2_4.php(17): ReflectionClass->getStaticPropertyValue('\x00A\x00privateOverr...')
+#1 {main}
+  thrown in /root/php-src/ext/reflection/tests/ReflectionClass_getStaticPropertyValue_001_2_4.php on line 17

@@ -1,0 +1,23 @@
+
+---- EXPECTED OUTPUT
+O:8:"DateTime":3:{s:4:"date";s:26:"2016-10-03 12:47:18.819313";s:13:"timezone_type";i:3;s:8:"timezone";s:3:"UTC";}
+object(DateTime)#2 (%d) {
+  ["date"]=>
+  string(26) "2016-10-03 12:47:18.819313"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(3) "UTC"
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+O:8:"DateTime":3:{s:4:"date";s:26:"2016-10-03 12:47:18.819313";s:13:"timezone_type";i:3;s:8:"timezone";s:3:"UTC";}
+object(DateTime)#2 (3) {
+  ["date"]=>
+  string(26) "2016-10-03 12:47:18.819313"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(3) "UTC"
+}
+---- FAILED

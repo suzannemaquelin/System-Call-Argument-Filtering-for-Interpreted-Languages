@@ -1,0 +1,15 @@
+
+---- EXPECTED OUTPUT
+Error at offset %d of %d bytes
+Error at offset %d of %d bytes
+Error at offset %d of %d bytes
+Error at offset %d of %d bytes
+Error at offset %d of %d bytes
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Error at offset 0 of 5 bytes
+Error at offset 0 of 6 bytes
+Error at offset 0 of 19 bytes
+Error at offset 2 of 9 bytes
+Error at offset 39 of 47 bytes
+---- FAILED

@@ -1,0 +1,17 @@
+
+---- EXPECTED OUTPUT
+01/01/1902 00:00:00 PST
+-2145888000
+01/01/1950 00:00:00 PST
+-631123200
+01/01/2000 00:00:00 PST
+946713600
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+01/01/1902 00:00:00 PST
+-2145888000
+01/01/1950 00:00:00 PST
+-631123200
+01/01/2000 00:00:00 PST
+946713600
+---- FAILED

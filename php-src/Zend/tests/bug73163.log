@@ -1,0 +1,18 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught Exception: Use of undefined constant UNDEFINED - assumed 'UNDEFINED' in %s:%d
+Stack trace:
+#0 %s(%d): {closure}(%s)
+#1 %s(%d): doSomething()
+#2 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Exception: Use of undefined constant UNDEFINED - assumed 'UNDEFINED' in /root/php-src/Zend/tests/bug73163.php:7
+Stack trace:
+#0 /root/php-src/Zend/tests/bug73163.php(3): {closure}(8, 'Use of undefine...', '/root/php-src/Z...', 3, Array)
+#1 /root/php-src/Zend/tests/bug73163.php(10): doSomething()
+#2 {main}
+  thrown in /root/php-src/Zend/tests/bug73163.php on line 7
+---- FAILED

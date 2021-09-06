@@ -1,0 +1,37 @@
+
+---- EXPECTED OUTPUT
+*** Testing prev() : basic functionality ***
+2 => two
+string(3) "one"
+1 => one
+string(4) "zero"
+0 => zero
+bool(false)
+
+*** Testing an array with differing values/keys ***
+string(4) "val2"
+bool(false)
+int(3)
+string(4) "help"
+string(3) "one"
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing prev() : basic functionality ***
+2 => two
+string(3) "one"
+1 => one
+string(4) "zero"
+0 => zero
+bool(false)
+
+*** Testing an array with differing values/keys ***
+string(4) "val2"
+bool(false)
+int(3)
+string(4) "help"
+string(3) "one"
+bool(false)
+===DONE===
+---- FAILED

@@ -1,0 +1,37 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+-- Renaming link to same link name --
+bool(true)
+
+-- Renaming file to same file name --
+bool(true)
+
+-- Renaming directory to same directory name --
+bool(true)
+
+-- Renaming existing link to existing directory name --
+
+Warning: rename(/root/php-src/ext/standard/tests/file/rename_variation5_link.tmp,/root/php-src/ext/standard/tests/file/rename_variation5_dir): Is a directory in /root/php-src/ext/standard/tests/file/rename_variation5.php on line 27
+bool(false)
+
+-- Renaming existing link to existing file name --
+bool(true)
+
+-- Renaming existing file to existing directory name --
+
+Warning: rename(/root/php-src/ext/standard/tests/file/rename_variation5.tmp,/root/php-src/ext/standard/tests/file/rename_variation5_dir): Is a directory in /root/php-src/ext/standard/tests/file/rename_variation5.php on line 32
+bool(false)
+
+-- Renaming existing file to existing link name --
+bool(true)
+
+-- Renaming existing directory to existing file name --
+
+Warning: rename(/root/php-src/ext/standard/tests/file/rename_variation5_dir,/root/php-src/ext/standard/tests/file/rename_variation5.tmp): Not a directory in /root/php-src/ext/standard/tests/file/rename_variation5.php on line 39
+bool(false)
+
+-- Renaming existing directory to existing link name --
+
+Warning: rename(/root/php-src/ext/standard/tests/file/rename_variation5_dir,/root/php-src/ext/standard/tests/file/rename_variation5_link.tmp): Not a directory in /root/php-src/ext/standard/tests/file/rename_variation5.php on line 41
+bool(false)
+Done

@@ -1,0 +1,48 @@
+
+---- EXPECTED OUTPUT
+Reflection
+
+Reflection => enabled
+Version => %s
+
+date
+
+date/time support => enabled
+timelib version => %s
+"Olson" Timezone Database Version => %s
+Timezone Database => %s
+Default timezone => %s
+
+Directive => %s => %s
+date.timezone => %s => %s
+date.default_latitude => %s => %s
+date.default_longitude => %s => %s
+date.sunset_zenith => %s => %s
+date.sunrise_zenith => %s => %s
+
+Done!
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Reflection
+
+Reflection => enabled
+Version => $Id: 279be19a9e466fb7cfea9841a630521f99644504 $
+
+date
+
+date/time support => enabled
+timelib version => 2016.05
+"Olson" Timezone Database Version => 2018.7
+Timezone Database => internal
+Default timezone => Europe/Berlin
+
+Directive => Local Value => Master Value
+date.timezone => no value => no value
+date.default_latitude => 31.7667 => 31.7667
+date.default_longitude => 35.2333 => 35.2333
+date.sunset_zenith => 90.583333 => 90.583333
+date.sunrise_zenith => 90.583333 => 90.583333
+
+Done!
+---- FAILED

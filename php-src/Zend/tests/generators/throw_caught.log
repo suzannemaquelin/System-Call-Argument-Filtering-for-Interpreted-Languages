@@ -1,0 +1,17 @@
+
+---- EXPECTED OUTPUT
+before yield
+RuntimeException: Test in %s:%d
+Stack trace:
+#0 {main}
+
+string(6) "result"
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+before yield
+RuntimeException: Test in /root/php-src/Zend/tests/generators/throw_caught.php:15
+Stack trace:
+#0 {main}
+
+string(6) "result"
+---- FAILED

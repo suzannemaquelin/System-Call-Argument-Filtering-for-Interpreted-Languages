@@ -1,0 +1,43 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(18) "askasdfasdfaaaaaa
+"
+string(6) "dddddd"
+string(6) "asdqw
+"
+string(8) "aaaaqqqq"
+string(23) "aaafunction foo() {}qqq"
+bool(false)
+string(6) "asdasd"
+string(0) ""
+bool(false)
+bool(false)
+string(11) "some text 
+"
+string(4) "blah"
+string(24) "some another text  hoho "
+bool(false)
+string(9) "askasdfas"
+string(6) "dfaaaa"
+string(5) "asdqw"
+string(0) ""
+string(3) "aaa"
+string(7) "functio"
+string(6) "asdasd"
+string(0) ""
+bool(false)
+bool(false)
+string(9) "some text"
+string(2) " 
+"
+string(9) "some anot"
+string(9) "her text "
+
+Warning: fgetss(): Length parameter must be greater than 0 in /root/php-src/ext/standard/tests/file/fgetss.php on line 29
+bool(false)
+
+Warning: fgetss(): Length parameter must be greater than 0 in /root/php-src/ext/standard/tests/file/fgetss.php on line 30
+bool(false)
+
+Warning: fgetss(): supplied resource is not a valid stream resource in /root/php-src/ext/standard/tests/file/fgetss.php on line 32
+bool(false)
+Done

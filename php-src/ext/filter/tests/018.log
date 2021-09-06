@@ -1,0 +1,55 @@
+
+---- EXPECTED OUTPUT
+string(11) "192.168.0.1"
+bool(false)
+string(3) "::1"
+string(7) "fe00::0"
+bool(false)
+bool(false)
+string(9) "127.0.0.1"
+bool(false)
+string(12) "192.0.34.166"
+bool(false)
+string(9) "192.0.0.1"
+string(10) "100.64.0.0"
+string(15) "100.127.255.255"
+string(12) "192.0.34.166"
+bool(false)
+string(15) "255.255.255.255"
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+string(3) "::1"
+bool(false)
+string(9) "127.0.0.1"
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(11) "192.168.0.1"
+bool(false)
+string(3) "::1"
+string(7) "fe00::0"
+bool(false)
+bool(false)
+string(9) "127.0.0.1"
+bool(false)
+string(12) "192.0.34.166"
+bool(false)
+string(9) "192.0.0.1"
+string(10) "100.64.0.0"
+string(15) "100.127.255.255"
+string(12) "192.0.34.166"
+bool(false)
+string(15) "255.255.255.255"
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+string(3) "::1"
+bool(false)
+string(9) "127.0.0.1"
+Done
+---- FAILED

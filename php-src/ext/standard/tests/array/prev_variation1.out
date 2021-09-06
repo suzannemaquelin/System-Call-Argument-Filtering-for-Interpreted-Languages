@@ -1,0 +1,124 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing prev() : variation ***
+
+-- Iteration 1 --
+
+Warning: prev() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 2 --
+
+Warning: prev() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 3 --
+
+Warning: prev() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 4 --
+
+Warning: prev() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 5 --
+
+Warning: prev() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 6 --
+
+Warning: prev() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 7 --
+
+Warning: prev() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 8 --
+
+Warning: prev() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 9 --
+
+Warning: prev() expects parameter 1 to be array, float given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 10 --
+
+Warning: prev() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 11 --
+
+Warning: prev() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 12 --
+
+Warning: prev() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 13 --
+
+Warning: prev() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 14 --
+
+Warning: prev() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 15 --
+
+Warning: prev() expects parameter 1 to be array, boolean given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 16 --
+
+Warning: prev() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 17 --
+
+Warning: prev() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 18 --
+bool(false)
+
+-- Iteration 19 --
+
+Warning: prev() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 20 --
+
+Warning: prev() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 21 --
+
+Warning: prev() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 22 --
+bool(false)
+
+-- Iteration 23 --
+
+Warning: prev() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 24 --
+
+Warning: prev() expects parameter 1 to be array, null given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+
+-- Iteration 25 --
+
+Warning: prev() expects parameter 1 to be array, resource given in /root/php-src/ext/standard/tests/array/prev_variation1.php on line 86
+NULL
+===DONE===

@@ -1,0 +1,69 @@
+
+---- EXPECTED OUTPUT
+*** Testing open_basedir configuration [disk_free_space] ***
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+
+Warning: disk_free_space(): open_basedir restriction in effect. File(../bad) is not within the allowed path(s): (.) in %s on line %d
+bool(false)
+
+Warning: disk_free_space(): open_basedir restriction in effect. File(../bad/bad.txt) is not within the allowed path(s): (.) in %s on line %d
+bool(false)
+
+Warning: disk_free_space(): open_basedir restriction in effect. File(..) is not within the allowed path(s): (.) in %s on line %d
+bool(false)
+
+Warning: disk_free_space(): open_basedir restriction in effect. File(../) is not within the allowed path(s): (.) in %s on line %d
+bool(false)
+
+Warning: disk_free_space(): open_basedir restriction in effect. File(/) is not within the allowed path(s): (.) in %s on line %d
+bool(false)
+
+Warning: disk_free_space(): open_basedir restriction in effect. File(../bad/.) is not within the allowed path(s): (.) in %s on line %d
+bool(false)
+
+Warning: disk_free_space(): open_basedir restriction in effect. File(%s/test/bad/bad.txt) is not within the allowed path(s): (.) in %s on line %d
+bool(false)
+
+Warning: disk_free_space(): open_basedir restriction in effect. File(%s/test/bad/../bad/bad.txt) is not within the allowed path(s): (.) in %s on line %d
+bool(false)
+float(%s)
+*** Finished testing open_basedir configuration [disk_free_space] ***
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing open_basedir configuration [disk_free_space] ***
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+
+Warning: disk_free_space(): open_basedir restriction in effect. File(../bad) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 78
+bool(false)
+
+Warning: disk_free_space(): open_basedir restriction in effect. File(../bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 79
+bool(false)
+
+Warning: disk_free_space(): open_basedir restriction in effect. File(..) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 80
+bool(false)
+
+Warning: disk_free_space(): open_basedir restriction in effect. File(../) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 81
+bool(false)
+
+Warning: disk_free_space(): open_basedir restriction in effect. File(/) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 82
+bool(false)
+
+Warning: disk_free_space(): open_basedir restriction in effect. File(../bad/.) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 83
+bool(false)
+
+Warning: disk_free_space(): open_basedir restriction in effect. File(/root/php-src/test/bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 85
+bool(false)
+
+Warning: disk_free_space(): open_basedir restriction in effect. File(/root/php-src/test/bad/../bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 86
+bool(false)
+float(40965562368)
+*** Finished testing open_basedir configuration [disk_free_space] ***
+---- FAILED

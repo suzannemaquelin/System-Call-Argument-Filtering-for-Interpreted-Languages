@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Notice: Undefined variable:.*foo in .* on line 6
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined variable: foo in /root/php-src/tests/lang/bug23584.php on line 6
+---- FAILED

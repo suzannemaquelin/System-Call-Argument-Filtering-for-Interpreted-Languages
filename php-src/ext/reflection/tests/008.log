@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+string(20) "Invalid method name "
+string(21) "Invalid method name 1"
+string(21) "Class  does not exist"
+string(22) "Class a does not exist"
+string(21) "Class  does not exist"
+string(22) "Class a does not exist"
+string(21) "Class  does not exist"
+string(66) "The parameter class is expected to be either a string or an object"
+string(21) "Class  does not exist"
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(20) "Invalid method name "
+string(21) "Invalid method name 1"
+string(21) "Class  does not exist"
+string(22) "Class a does not exist"
+string(21) "Class  does not exist"
+string(22) "Class a does not exist"
+string(21) "Class  does not exist"
+string(66) "The parameter class is expected to be either a string or an object"
+string(21) "Class  does not exist"
+Done
+---- FAILED

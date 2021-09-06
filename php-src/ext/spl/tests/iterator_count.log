@@ -1,0 +1,24 @@
+
+---- EXPECTED OUTPUT
+Warning: iterator_count() expects exactly 1 parameter, 0 given in %s
+
+Warning: iterator_count() expects exactly 1 parameter, 2 given in %s
+
+Fatal error: Uncaught TypeError: Argument 1 passed to iterator_count() must implement interface Traversable, string given in %s:%d
+Stack trace:
+#0 %s(%d): iterator_count('1')
+#1 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: iterator_count() expects exactly 1 parameter, 0 given in /root/php-src/ext/spl/tests/iterator_count.php on line 6
+
+Warning: iterator_count() expects exactly 1 parameter, 2 given in /root/php-src/ext/spl/tests/iterator_count.php on line 9
+
+Fatal error: Uncaught TypeError: Argument 1 passed to iterator_count() must implement interface Traversable, string given in /root/php-src/ext/spl/tests/iterator_count.php:11
+Stack trace:
+#0 /root/php-src/ext/spl/tests/iterator_count.php(11): iterator_count('1')
+#1 {main}
+  thrown in /root/php-src/ext/spl/tests/iterator_count.php on line 11
+---- FAILED

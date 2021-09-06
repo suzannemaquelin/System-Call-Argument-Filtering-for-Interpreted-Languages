@@ -1,0 +1,7 @@
+*** Testing DateTimeZone::getName() : error conditions ***
+
+-- Testing DateTimeZone::getName() function with more than expected no. of arguments --
+
+Warning: DateTimeZone::getName() expects exactly 0 parameters, 1 given in %s on line %d
+bool(false)
+===DONE===

@@ -1,0 +1,49 @@
+
+---- EXPECTED OUTPUT
+*** Testing gmstrftime() : usage variation ***
+
+--Hour as decimal by 24-hour format--
+string(2) "%d"
+string(2) "08"
+
+--Hour as decimal by 12-hour format--
+string(2) "%d"
+string(2) "08"
+
+--Minute as decimal number--
+string(%d) "%d"
+string(2) "08"
+
+--AM/PM format for a time--
+string(2) "%s"
+string(2) "AM"
+
+--Second as decimal number--
+string(%d) "%d"
+string(2) "08"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing gmstrftime() : usage variation ***
+
+--Hour as decimal by 24-hour format--
+string(2) "14"
+string(2) "08"
+
+--Hour as decimal by 12-hour format--
+string(2) "02"
+string(2) "08"
+
+--Minute as decimal number--
+string(2) "05"
+string(2) "08"
+
+--AM/PM format for a time--
+string(2) "PM"
+string(2) "AM"
+
+--Second as decimal number--
+string(2) "01"
+string(2) "08"
+===DONE===
+---- FAILED

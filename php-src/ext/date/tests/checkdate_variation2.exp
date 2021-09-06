@@ -1,0 +1,100 @@
+*** Testing checkdate() : usage variation -  unexpected values to second argument $day***
+
+-- float 10.5 --
+bool(true)
+
+-- float -10.5 --
+bool(false)
+
+-- float .5 --
+bool(false)
+
+-- empty array --
+
+Warning: checkdate() expects parameter 2 to be integer, array given in %s on line %d
+bool(false)
+
+-- int indexed array --
+
+Warning: checkdate() expects parameter 2 to be integer, array given in %s on line %d
+bool(false)
+
+-- associative array --
+
+Warning: checkdate() expects parameter 2 to be integer, array given in %s on line %d
+bool(false)
+
+-- nested arrays --
+
+Warning: checkdate() expects parameter 2 to be integer, array given in %s on line %d
+bool(false)
+
+-- uppercase NULL --
+bool(false)
+
+-- lowercase null --
+bool(false)
+
+-- lowercase true --
+bool(true)
+
+-- lowercase false --
+bool(false)
+
+-- uppercase TRUE --
+bool(true)
+
+-- uppercase FALSE --
+bool(false)
+
+-- empty string DQ --
+
+Warning: checkdate() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+-- empty string SQ --
+
+Warning: checkdate() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+-- string DQ --
+
+Warning: checkdate() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+-- string SQ --
+
+Warning: checkdate() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+-- mixed case string --
+
+Warning: checkdate() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+-- heredoc --
+
+Warning: checkdate() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+-- instance of classWithToString --
+
+Warning: checkdate() expects parameter 2 to be integer, object given in %s on line %d
+bool(false)
+
+-- instance of classWithoutToString --
+
+Warning: checkdate() expects parameter 2 to be integer, object given in %s on line %d
+bool(false)
+
+-- undefined var --
+bool(false)
+
+-- unset var --
+bool(false)
+
+-- resource --
+
+Warning: checkdate() expects parameter 2 to be integer, resource given in %s on line %d
+bool(false)
+===DONE===

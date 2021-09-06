@@ -1,0 +1,34 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Test fscanf(): to read objects from a file ***
+
+-- iteration 1 --
+array(1) {
+  [0]=>
+  NULL
+}
+array(1) {
+  [0]=>
+  NULL
+}
+array(1) {
+  [0]=>
+  NULL
+}
+array(1) {
+  [0]=>
+  NULL
+}
+array(1) {
+  [0]=>
+  string(6) "Object"
+}
+array(1) {
+  [0]=>
+  NULL
+}
+array(1) {
+  [0]=>
+  NULL
+}
+
+*** Done ***

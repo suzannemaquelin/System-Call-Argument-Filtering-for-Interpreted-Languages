@@ -1,0 +1,34 @@
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(false)
+
+Warning: filter_has_var() expects parameter 2 to be string, array given in /root/php-src/ext/filter/tests/007.php on line 8
+bool(false)
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(false)
+
+Warning: filter_has_var() expects parameter 2 to be string, array given in /root/php-src/ext/filter/tests/007.php on line 15
+bool(false)
+bool(false)
+
+Warning: filter_has_var() expects parameter 1 to be integer, string given in /root/php-src/ext/filter/tests/007.php on line 18
+bool(false)
+
+Warning: filter_has_var() expects parameter 1 to be integer, array given in /root/php-src/ext/filter/tests/007.php on line 19
+bool(false)
+
+Warning: filter_has_var() expects parameter 1 to be integer, array given in /root/php-src/ext/filter/tests/007.php on line 20
+bool(false)
+
+Warning: filter_has_var() expects parameter 1 to be integer, string given in /root/php-src/ext/filter/tests/007.php on line 21
+bool(false)
+Done
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so: cannot open shared object file: No such file or directory in Unknown on line 0

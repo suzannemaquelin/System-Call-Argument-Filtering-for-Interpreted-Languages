@@ -1,0 +1,3 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: PDO::sqliteCreateFunction(): function 'bar' is not callable in /root/php-src/ext/pdo_sqlite/tests/pdo_sqlite_createfunction_002.php on line 5

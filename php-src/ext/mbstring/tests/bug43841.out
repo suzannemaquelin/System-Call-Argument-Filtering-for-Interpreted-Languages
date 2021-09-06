@@ -1,0 +1,49 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+-- Offset is -25 --
+Multibyte String:
+
+Warning: mb_strrpos(): Offset is greater than the length of haystack string in /root/php-src/ext/mbstring/tests/bug43841.php on line 20
+bool(false)
+ASCII String:
+mb_strrpos:
+
+Warning: mb_strrpos(): Offset is greater than the length of haystack string in /root/php-src/ext/mbstring/tests/bug43841.php on line 23
+bool(false)
+strrpos:
+
+Warning: strrpos(): Offset is greater than the length of haystack string in /root/php-src/ext/mbstring/tests/bug43841.php on line 25
+bool(false)
+
+-- Offset is -24 --
+Multibyte String:
+
+Warning: mb_strrpos(): Offset is greater than the length of haystack string in /root/php-src/ext/mbstring/tests/bug43841.php on line 20
+bool(false)
+ASCII String:
+mb_strrpos:
+
+Warning: mb_strrpos(): Offset is greater than the length of haystack string in /root/php-src/ext/mbstring/tests/bug43841.php on line 23
+bool(false)
+strrpos:
+
+Warning: strrpos(): Offset is greater than the length of haystack string in /root/php-src/ext/mbstring/tests/bug43841.php on line 25
+bool(false)
+
+-- Offset is -13 --
+Multibyte String:
+bool(false)
+ASCII String:
+mb_strrpos:
+bool(false)
+strrpos:
+bool(false)
+
+-- Offset is -12 --
+Multibyte String:
+int(9)
+ASCII String:
+mb_strrpos:
+int(9)
+strrpos:
+int(9)

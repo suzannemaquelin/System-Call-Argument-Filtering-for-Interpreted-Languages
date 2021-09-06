@@ -1,0 +1,35 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing date_create() : basic functionality ***
+object(DateTime)#1 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:48.505392"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+object(DateTime)#1 (3) {
+  ["date"]=>
+  string(26) "2022-05-08 15:04:48.507101"
+  ["timezone_type"]=>
+  int(2)
+  ["timezone"]=>
+  string(3) "GMT"
+}
+object(DateTime)#1 (3) {
+  ["date"]=>
+  string(26) "2005-07-14 22:30:41.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
+object(DateTime)#1 (3) {
+  ["date"]=>
+  string(26) "2005-07-14 22:30:41.000000"
+  ["timezone_type"]=>
+  int(2)
+  ["timezone"]=>
+  string(3) "GMT"
+}
+===DONE===

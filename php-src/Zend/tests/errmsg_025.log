@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Cannot inherit previously-inherited or override constant FOO from interface test2 in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Cannot inherit previously-inherited or override constant FOO from interface test2 in /root/php-src/Zend/tests/errmsg_025.php on line 11
+---- FAILED

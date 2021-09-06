@@ -1,0 +1,147 @@
+
+---- EXPECTED OUTPUT
+*** Testing krsort() : usage variations ***
+
+-- Testing krsort() by supplying octal value array, 'flag' value is defualt  --
+bool(true)
+array(9) {
+  [669]=>
+  int(1)
+  [506]=>
+  int(5)
+  [229]=>
+  int(3)
+  [209]=>
+  int(2)
+  [63]=>
+  int(6)
+  [54]=>
+  int(4)
+  [0]=>
+  int(0)
+  [-54]=>
+  int(-1)
+  [-229]=>
+  int(-2)
+}
+
+-- Testing krsort() by supplying octal value array, 'flag' value is SORT_REGULAR  --
+bool(true)
+array(9) {
+  [669]=>
+  int(1)
+  [506]=>
+  int(5)
+  [229]=>
+  int(3)
+  [209]=>
+  int(2)
+  [63]=>
+  int(6)
+  [54]=>
+  int(4)
+  [0]=>
+  int(0)
+  [-54]=>
+  int(-1)
+  [-229]=>
+  int(-2)
+}
+
+-- Testing krsort() by supplying octal value array, 'flag' value is SORT_NUMERIC  --
+bool(true)
+array(9) {
+  [669]=>
+  int(1)
+  [506]=>
+  int(5)
+  [229]=>
+  int(3)
+  [209]=>
+  int(2)
+  [63]=>
+  int(6)
+  [54]=>
+  int(4)
+  [0]=>
+  int(0)
+  [-54]=>
+  int(-1)
+  [-229]=>
+  int(-2)
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing krsort() : usage variations ***
+
+-- Testing krsort() by supplying octal value array, 'flag' value is defualt  --
+bool(true)
+array(9) {
+  [669]=>
+  int(1)
+  [506]=>
+  int(5)
+  [229]=>
+  int(3)
+  [209]=>
+  int(2)
+  [63]=>
+  int(6)
+  [54]=>
+  int(4)
+  [0]=>
+  int(0)
+  [-54]=>
+  int(-1)
+  [-229]=>
+  int(-2)
+}
+
+-- Testing krsort() by supplying octal value array, 'flag' value is SORT_REGULAR  --
+bool(true)
+array(9) {
+  [669]=>
+  int(1)
+  [506]=>
+  int(5)
+  [229]=>
+  int(3)
+  [209]=>
+  int(2)
+  [63]=>
+  int(6)
+  [54]=>
+  int(4)
+  [0]=>
+  int(0)
+  [-54]=>
+  int(-1)
+  [-229]=>
+  int(-2)
+}
+
+-- Testing krsort() by supplying octal value array, 'flag' value is SORT_NUMERIC  --
+bool(true)
+array(9) {
+  [669]=>
+  int(1)
+  [506]=>
+  int(5)
+  [229]=>
+  int(3)
+  [209]=>
+  int(2)
+  [63]=>
+  int(6)
+  [54]=>
+  int(4)
+  [0]=>
+  int(0)
+  [-54]=>
+  int(-1)
+  [-229]=>
+  int(-2)
+}
+Done
+---- FAILED

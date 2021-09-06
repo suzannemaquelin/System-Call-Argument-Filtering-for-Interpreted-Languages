@@ -1,0 +1,37 @@
+
+---- EXPECTED OUTPUT
+string(5) "query"
+string(5) "query"
+1:Error: file_put_contents(phar://%s//): failed to open stream: phar error: file "" in phar "%s" cannot be empty
+2:Error: file_put_contents(phar://%s/.): failed to open stream: phar error: file "" in phar "%s" cannot be empty
+3:Error: file_put_contents(phar://%s/../): failed to open stream: phar error: file "" in phar "%s" cannot be empty
+4:Error: file_put_contents(phar://%s/a/..): failed to open stream: phar error: file "" in phar "%s" cannot be empty
+5:
+6:
+7:
+8:
+9:Error: file_put_contents(phar://%s): failed to open stream: phar error: invalid path "%s" contains illegal character
+10:Error: file_put_contents(phar://%s): failed to open stream: phar error: invalid path "%s" contains illegal character
+11:Error: file_put_contents(phar://%s): failed to open stream: phar error: invalid path "%s" contains illegal character
+12:Error: file_put_contents(phar://%s): failed to open stream: phar error: invalid path "%s" contains illegal character
+13:Error: file_put_contents(phar://%s): failed to open stream: phar error: invalid path "%s" contains illegal character
+Error: Phar::offsetSet() expects parameter 1 to be a valid path, string given===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(5) "query"
+string(5) "query"
+1:Error: file_put_contents(phar:///root/php-src/ext/phar/tests/create_path_error.phar.php//): failed to open stream: phar error: file "" in phar "/root/php-src/ext/phar/tests/create_path_error.phar.php" cannot be empty
+2:Error: file_put_contents(phar:///root/php-src/ext/phar/tests/create_path_error.phar.php/.): failed to open stream: phar error: file "" in phar "/root/php-src/ext/phar/tests/create_path_error.phar.php" cannot be empty
+3:Error: file_put_contents(phar:///root/php-src/ext/phar/tests/create_path_error.phar.php/../): failed to open stream: phar error: file "" in phar "/root/php-src/ext/phar/tests/create_path_error.phar.php" cannot be empty
+4:Error: file_put_contents(phar:///root/php-src/ext/phar/tests/create_path_error.phar.php/a/..): failed to open stream: phar error: file "" in phar "/root/php-src/ext/phar/tests/create_path_error.phar.php" cannot be empty
+5:
+6:
+7:
+8:
+9:Error: file_put_contents(phar:///root/php-src/ext/phar/tests/create_path_error.phar.php/FontÈªpro.ttf): failed to open stream: phar error: invalid path "FontÈªpro.ttf" contains illegal character
+10:Error: file_put_contents(phar:///root/php-src/ext/phar/tests/create_path_error.phar.php/Fontªëpro.ttf): failed to open stream: phar error: invalid path "Fontªëpro.ttf" contains illegal character
+11:Error: file_put_contents(phar:///root/php-src/ext/phar/tests/create_path_error.phar.php/Font¿Øpro.ttf): failed to open stream: phar error: invalid path "Font¿Øpro.ttf" contains illegal character
+12:Error: file_put_contents(phar:///root/php-src/ext/phar/tests/create_path_error.phar.php/FontÄêêpro.ttf): failed to open stream: phar error: invalid path "FontÄêêpro.ttf" contains illegal character
+13:Error: file_put_contents(phar:///root/php-src/ext/phar/tests/create_path_error.phar.php/¸ÅÅÅÅpro.ttf): failed to open stream: phar error: invalid path "¸ÅÅÅÅpro.ttf" contains illegal character
+Error: Phar::offsetSet() expects parameter 1 to be a valid path, string given===DONE===
+---- FAILED

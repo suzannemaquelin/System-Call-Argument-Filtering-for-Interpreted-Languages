@@ -1,0 +1,4 @@
+a
+a
+
+Warning: file_get_contents(phar://%srename_dir.phar.php/a/x): failed to open stream: phar error: "a/x" is not a file in phar "%srename_dir.phar.php" in %srename_dir.php on line %d

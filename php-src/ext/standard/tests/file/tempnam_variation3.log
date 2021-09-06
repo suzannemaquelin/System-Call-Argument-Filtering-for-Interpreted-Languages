@@ -1,0 +1,99 @@
+
+---- EXPECTED OUTPUT
+*** Testing tempnam() with obscure prefixes ***
+-- Iteration 0 --
+File name is => %s/%s
+File permissions are => 100600
+File created in => directory specified
+-- Iteration 1 --
+File name is => %s/%s
+File permissions are => 100600
+File created in => directory specified
+-- Iteration 2 --
+File name is => %s/%s
+File permissions are => 100600
+File created in => directory specified
+-- Iteration 3 --
+File name is => %s/%s
+File permissions are => 100600
+File created in => directory specified
+-- Iteration 4 --
+File name is => %s/%s
+File permissions are => 100600
+File created in => directory specified
+-- Iteration 5 --
+File name is => %s/%s
+File permissions are => 100600
+File created in => directory specified
+-- Iteration 6 --
+
+Warning: tempnam() expects parameter 2 to be a valid path, string given in %s on line %d
+-- File is not created --
+
+Warning: unlink(): %s in %s on line %d
+-- Iteration 7 --
+
+Warning: tempnam() expects parameter 2 to be a valid path, array given in %s on line %d
+-- File is not created --
+
+Warning: unlink(): %s in %s on line %d
+-- Iteration 8 --
+File name is => %s/dir%s
+File permissions are => 100600
+File created in => directory specified
+-- Iteration 9 --
+File name is => %s/php%s
+File permissions are => 100600
+File created in => directory specified
+
+*** Done ***
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing tempnam() with obscure prefixes ***
+-- Iteration 0 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar3/-1JxIhMb
+File permissions are => 100600
+File created in => directory specified
+-- Iteration 1 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar3/1qKAAGA
+File permissions are => 100600
+File created in => directory specified
+-- Iteration 2 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar3/Jg52AZ
+File permissions are => 100600
+File created in => directory specified
+-- Iteration 3 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar3/ILiFvo
+File permissions are => 100600
+File created in => directory specified
+-- Iteration 4 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar3/PS7qqN
+File permissions are => 100600
+File created in => directory specified
+-- Iteration 5 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar3/ mqTmlc
+File permissions are => 100600
+File created in => directory specified
+-- Iteration 6 --
+
+Warning: tempnam() expects parameter 2 to be a valid path, string given in /root/php-src/ext/standard/tests/file/tempnam_variation3.php on line 32
+-- File is not created --
+
+Warning: unlink(): No such file or directory in /root/php-src/ext/standard/tests/file/tempnam_variation3.php on line 62
+-- Iteration 7 --
+
+Warning: tempnam() expects parameter 2 to be a valid path, array given in /root/php-src/ext/standard/tests/file/tempnam_variation3.php on line 32
+-- File is not created --
+
+Warning: unlink(): No such file or directory in /root/php-src/ext/standard/tests/file/tempnam_variation3.php on line 62
+-- Iteration 8 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar3/dirPBpwgB
+File permissions are => 100600
+File created in => directory specified
+-- Iteration 9 --
+File name is => /root/php-src/ext/standard/tests/file/tempnamVar3/phpwE7Pb0
+File permissions are => 100600
+File created in => directory specified
+
+*** Done ***
+---- FAILED

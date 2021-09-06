@@ -1,0 +1,18 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught Exception: Unserialization of CURLFile instances is not allowed in %s
+Stack trace:
+#0 [internal function]: CURLFile->__wakeup()
+#1 %s
+#2 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Exception: Unserialization of CURLFile instances is not allowed in /root/php-src/ext/curl/tests/curl_file_serialize.php:3
+Stack trace:
+#0 [internal function]: CURLFile->__wakeup()
+#1 /root/php-src/ext/curl/tests/curl_file_serialize.php(3): unserialize('a:2:{s:4:"file"...')
+#2 {main}
+  thrown in /root/php-src/ext/curl/tests/curl_file_serialize.php on line 3
+---- FAILED

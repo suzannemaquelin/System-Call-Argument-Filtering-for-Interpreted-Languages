@@ -1,0 +1,37 @@
+
+---- EXPECTED OUTPUT
+*** Testing mcrypt_decrypt() : error conditions ***
+
+-- Testing mcrypt_decrypt() function with more than expected no. of arguments --
+
+Deprecated: Function mcrypt_decrypt() is deprecated in %s%emcrypt_decrypt_error.php on line 19
+
+Warning: mcrypt_decrypt() expects at most 5 parameters, 6 given in %s on line %d
+NULL
+
+-- Testing mcrypt_decrypt() function with less than expected no. of arguments --
+
+Deprecated: Function mcrypt_decrypt() is deprecated in %s%emcrypt_decrypt_error.php on line 26
+
+Warning: mcrypt_decrypt() expects at least 4 parameters, 3 given in %s on line %d
+NULL
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mcrypt_decrypt() : error conditions ***
+
+-- Testing mcrypt_decrypt() function with more than expected no. of arguments --
+
+Deprecated: Function mcrypt_decrypt() is deprecated in /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_error.php on line 19
+
+Warning: mcrypt_decrypt() expects at most 5 parameters, 6 given in /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_error.php on line 19
+NULL
+
+-- Testing mcrypt_decrypt() function with less than expected no. of arguments --
+
+Deprecated: Function mcrypt_decrypt() is deprecated in /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_error.php on line 26
+
+Warning: mcrypt_decrypt() expects at least 4 parameters, 3 given in /root/php-src/ext/mcrypt/tests/mcrypt_decrypt_error.php on line 26
+NULL
+===DONE===
+---- FAILED

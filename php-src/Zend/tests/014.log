@@ -1,0 +1,63 @@
+
+---- EXPECTED OUTPUT
+array(1) {
+  [0]=>
+  string(%d) "%s"
+}
+array(2) {
+  [0]=>
+  string(%d) "%s"
+  [1]=>
+  string(%d) "%s"
+}
+
+Warning: get_included_files() expects exactly 0 parameters, 2 given in %s on line %d
+NULL
+array(2) {
+  [0]=>
+  string(%d) "%s"
+  [1]=>
+  string(%d) "%s"
+}
+
+Warning: get_included_files() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+array(2) {
+  [0]=>
+  string(%d) "%s"
+  [1]=>
+  string(%d) "%s"
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(1) {
+  [0]=>
+  string(32) "/root/php-src/Zend/tests/014.php"
+}
+array(2) {
+  [0]=>
+  string(32) "/root/php-src/Zend/tests/014.php"
+  [1]=>
+  string(32) "/root/php-src/Zend/tests/014.inc"
+}
+
+Warning: get_included_files() expects exactly 0 parameters, 2 given in /root/php-src/Zend/tests/014.php on line 8
+NULL
+array(2) {
+  [0]=>
+  string(32) "/root/php-src/Zend/tests/014.php"
+  [1]=>
+  string(32) "/root/php-src/Zend/tests/014.inc"
+}
+
+Warning: get_included_files() expects exactly 0 parameters, 1 given in /root/php-src/Zend/tests/014.php on line 13
+NULL
+array(2) {
+  [0]=>
+  string(32) "/root/php-src/Zend/tests/014.php"
+  [1]=>
+  string(32) "/root/php-src/Zend/tests/014.inc"
+}
+Done
+---- FAILED

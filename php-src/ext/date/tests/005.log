@@ -1,0 +1,50 @@
+
+---- EXPECTED OUTPUT
+Warning: idate() expects at least 1 parameter, 0 given in %s on line %d
+bool(false)
+
+Warning: idate() expects at most 2 parameters, 3 given in %s on line %d
+bool(false)
+
+Warning: idate(): Unrecognized date format token. in %s on line %d
+bool(false)
+
+Warning: idate(): idate format is one char in %s on line %d
+bool(false)
+
+Warning: idate(): Unrecognized date format token. in %s on line %d
+bool(false)
+int(41)
+
+Warning: idate(): Unrecognized date format token. in %s on line %d
+bool(false)
+
+Warning: idate(): Unrecognized date format token. in %s on line %d
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: idate() expects at least 1 parameter, 0 given in /root/php-src/ext/date/tests/005.php on line 6
+bool(false)
+
+Warning: idate() expects at most 2 parameters, 3 given in /root/php-src/ext/date/tests/005.php on line 7
+bool(false)
+
+Warning: idate(): Unrecognized date format token. in /root/php-src/ext/date/tests/005.php on line 9
+bool(false)
+
+Warning: idate(): idate format is one char in /root/php-src/ext/date/tests/005.php on line 10
+bool(false)
+
+Warning: idate(): Unrecognized date format token. in /root/php-src/ext/date/tests/005.php on line 11
+bool(false)
+int(41)
+
+Warning: idate(): Unrecognized date format token. in /root/php-src/ext/date/tests/005.php on line 14
+bool(false)
+
+Warning: idate(): Unrecognized date format token. in /root/php-src/ext/date/tests/005.php on line 15
+bool(false)
+Done
+---- FAILED

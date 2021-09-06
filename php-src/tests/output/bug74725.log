@@ -1,0 +1,15 @@
+
+---- EXPECTED OUTPUT
+<br />
+<b>Fatal error</b>:  Uncaught Exception: тест in %s:5
+Stack trace:
+#0 {main}
+  thrown in <b>%s</b> on line <b>5</b><br />
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+<br />
+<b>Fatal error</b>:  Uncaught Exception: тест in /root/php-src/tests/output/bug74725.php:5
+Stack trace:
+#0 {main}
+  thrown in <b>/root/php-src/tests/output/bug74725.php</b> on line <b>5</b><br />
+---- FAILED

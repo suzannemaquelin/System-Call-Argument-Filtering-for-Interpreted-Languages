@@ -1,0 +1,1 @@
+Fatal error: Clone method test::__clone() cannot be static in %s on line %d

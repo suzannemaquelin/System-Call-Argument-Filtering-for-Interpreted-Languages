@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+foo: foo foo2
+bar: bar 
+Notice: Undefined property: bar::$foo2 in %s on line %d
+
+---baz--
+foo: foo foo2
+bar: baz baz2
+---baz2--
+foo: foo foo2
+bar2: baz2 baz22
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+foo: foo foo2
+bar: bar 
+Notice: Undefined property: bar::$foo2 in /root/php-src/Zend/tests/bug29689.php on line 18
+
+---baz--
+foo: foo foo2
+bar: baz baz2
+---baz2--
+foo: foo foo2
+bar2: baz2 baz22
+---- FAILED

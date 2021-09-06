@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Declaration of derived::__construct($a) must be compatible with constr::__construct() in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Declaration of derived::__construct($a) must be compatible with constr::__construct() in /root/php-src/tests/classes/ctor_in_interface_04.php on line 14
+---- FAILED

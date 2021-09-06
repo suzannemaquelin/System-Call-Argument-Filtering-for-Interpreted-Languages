@@ -1,0 +1,17 @@
+*** Testing preg_match() : error conditions ***
+
+-- Testing preg_match() function with Zero arguments --
+
+Warning: preg_match() expects at least 2 parameters, 0 given in %spreg_match_error.php on line %d
+bool(false)
+
+-- Testing preg_match() function with more than expected no. of arguments --
+
+Warning: preg_match() expects at most 5 parameters, 6 given in %spreg_match_error.php on line %d
+bool(false)
+
+-- Testing preg_match() function with less than expected no. of arguments --
+
+Warning: preg_match() expects at least 2 parameters, 1 given in %spreg_match_error.php on line %d
+bool(false)
+Done

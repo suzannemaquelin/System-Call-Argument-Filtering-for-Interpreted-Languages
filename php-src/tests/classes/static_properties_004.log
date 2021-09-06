@@ -1,0 +1,36 @@
+
+---- EXPECTED OUTPUT
+Inherited static properties refer to the same value across classes:
+%unicode|string%(8) "original"
+%unicode|string%(8) "original"
+%unicode|string%(8) "original"
+
+Changing one changes all the others:
+%unicode|string%(11) "changed.all"
+%unicode|string%(11) "changed.all"
+%unicode|string%(11) "changed.all"
+
+But because this is implemented using PHP references, the reference set can easily be split:
+%unicode|string%(11) "changed.all"
+%unicode|string%(11) "changed.one"
+%unicode|string%(11) "changed.all"
+==Done==
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Inherited static properties refer to the same value across classes:
+string(8) "original"
+string(8) "original"
+string(8) "original"
+
+Changing one changes all the others:
+string(11) "changed.all"
+string(11) "changed.all"
+string(11) "changed.all"
+
+But because this is implemented using PHP references, the reference set can easily be split:
+string(11) "changed.all"
+string(11) "changed.one"
+string(11) "changed.all"
+==Done==
+---- FAILED

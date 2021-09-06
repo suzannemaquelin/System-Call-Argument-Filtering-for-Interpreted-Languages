@@ -1,0 +1,2 @@
+Warning: array_merge_recursive(): recursion detected in %sbug43495.php on line %d
+Done.

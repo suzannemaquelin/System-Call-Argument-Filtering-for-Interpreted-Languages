@@ -1,0 +1,34 @@
+001+ Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+002+ 
+003- Ok
+005+ * Expire in 1 ms for 1 (transfer 0x55e5e4025e80)
+006+ * Expire in 0 ms for 1 (transfer 0x55e5e4025e80)
+007+ * Expire in 1 ms for 1 (transfer 0x55e5e4025e80)
+008+ * Expire in 0 ms for 1 (transfer 0x55e5e4025e80)
+009+ * Expire in 0 ms for 1 (transfer 0x55e5e4025e80)
+010+ * Expire in 2 ms for 1 (transfer 0x55e5e4025e80)
+011+ * Expire in 0 ms for 1 (transfer 0x55e5e4025e80)
+012+ * Expire in 0 ms for 1 (transfer 0x55e5e4025e80)
+013+ * Expire in 2 ms for 1 (transfer 0x55e5e4025e80)
+014+ * Expire in 0 ms for 1 (transfer 0x55e5e4025e80)
+015+ * Expire in 0 ms for 1 (transfer 0x55e5e4025e80)
+016+ * Expire in 0 ms for 1 (transfer 0x55e5e4025e80)
+017+ *   Trying 127.0.0.1...
+018+ * TCP_NODELAY set
+019+ * Expire in 149999 ms for 3 (transfer 0x55e5e4025e80)
+020+ * Expire in 200 ms for 4 (transfer 0x55e5e4025e80)
+021+ * Connected to localhost (127.0.0.1) port 8964 (#0)
+022+ > GET / HTTP/1.1
+023+ Host: localhost:8964
+024+ Accept: */*
+025+ 
+026+ < HTTP/1.1 200 OK
+027+ < Host: localhost:8964
+028+ < Date: Sun, 08 May 2022 14:04:01 +0000
+029+ < Connection: close
+030+ < X-Powered-By: PHP/7.1.30
+031+ < Content-type: text/html; charset=UTF-8
+032+ < 
+033+ Hello World!
+034+ Hello World!* Closing connection 0
+035+ Ok

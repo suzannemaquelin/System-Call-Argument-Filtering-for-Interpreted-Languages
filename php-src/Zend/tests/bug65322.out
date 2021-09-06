@@ -1,0 +1,4 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(62) "Declaration of B::test($a) should be compatible with A::test()"
+string(57) "/root/php-src/Zend/tests/bug65322.php(15) : eval()'d code"
+string(1) "X"

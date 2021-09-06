@@ -1,0 +1,22 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Test copy() function: With source file names containing wild-card chars ***
+bool(true)
+bool(true)
+int(1500)
+
+Warning: copy(/root/php-src/ext/standard/tests/file/copy*17.tmp): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/file/copy_variation17.php on line 32
+bool(false)
+bool(false)
+
+Warning: copy(/root/php-src/ext/standard/tests/file/*_variation17.tmp): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/file/copy_variation17.php on line 32
+bool(false)
+bool(false)
+
+Warning: copy(/root/php-src/ext/standard/tests/file/copy_variation*.tmp): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/file/copy_variation17.php on line 32
+bool(false)
+bool(false)
+
+Warning: copy(/root/php-src/ext/standard/tests/file/*.tmp): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/file/copy_variation17.php on line 32
+bool(false)
+bool(false)
+*** Done ***

@@ -1,0 +1,15 @@
+
+---- EXPECTED OUTPUT
+Opening process 1
+Opening process 2
+Closing process 1
+Closing process 2
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Opening process 1
+Opening process 2
+Closing process 1
+Closing process 2
+Done
+---- FAILED

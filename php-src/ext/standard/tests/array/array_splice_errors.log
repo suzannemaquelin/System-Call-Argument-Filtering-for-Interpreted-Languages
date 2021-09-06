@@ -1,0 +1,40 @@
+
+---- EXPECTED OUTPUT
+*** Testing error conditions of array_splice() ***
+
+Warning: array_splice() expects at least 2 parameters, 0 given in %s on line %d
+NULL
+
+Warning: array_splice() expects at least 2 parameters, 1 given in %s on line %d
+NULL
+
+Warning: array_splice() expects at least 2 parameters, 1 given in %s on line %d
+NULL
+
+Warning: array_splice() expects parameter 1 to be array, integer given in %s on line %d
+NULL
+
+Warning: array_splice() expects parameter 1 to be array, object given in %s on line %d
+NULL
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+*** Testing error conditions of array_splice() ***
+
+Warning: array_splice() expects at least 2 parameters, 0 given in /root/php-src/ext/standard/tests/array/array_splice_errors.php on line 11
+NULL
+
+Warning: array_splice() expects at least 2 parameters, 1 given in /root/php-src/ext/standard/tests/array/array_splice_errors.php on line 12
+NULL
+
+Warning: array_splice() expects at least 2 parameters, 1 given in /root/php-src/ext/standard/tests/array/array_splice_errors.php on line 13
+NULL
+
+Warning: array_splice() expects parameter 1 to be array, integer given in /root/php-src/ext/standard/tests/array/array_splice_errors.php on line 14
+NULL
+
+Warning: array_splice() expects parameter 1 to be array, object given in /root/php-src/ext/standard/tests/array/array_splice_errors.php on line 16
+NULL
+Done
+---- FAILED

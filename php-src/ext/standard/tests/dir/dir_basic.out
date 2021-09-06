@@ -1,0 +1,32 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing dir() : basic functionality ***
+Get Directory instance:
+object(Directory)#1 (2) {
+  ["path"]=>
+  string(46) "/root/php-src/ext/standard/tests/dir/dir_basic"
+  ["handle"]=>
+  resource(12) of type (stream)
+}
+
+Read and rewind:
+string(1) "."
+string(14) "dir_basic1.tmp"
+NULL
+
+Test using handle directly:
+string(1) "."
+string(14) "dir_basic1.tmp"
+
+Close directory:
+NULL
+object(Directory)#1 (2) {
+  ["path"]=>
+  string(46) "/root/php-src/ext/standard/tests/dir/dir_basic"
+  ["handle"]=>
+  resource(12) of type (Unknown)
+}
+
+Test read after closing the dir:
+Warning: Directory::read(): supplied resource is not a valid Directory resource in /root/php-src/ext/standard/tests/dir/dir_basic.php on line 39
+bool(false)
+Done

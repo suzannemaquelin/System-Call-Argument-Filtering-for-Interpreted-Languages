@@ -1,0 +1,221 @@
+
+---- EXPECTED OUTPUT
+int(2)
+array(2) {
+  [0]=>
+  array(2) {
+    [0]=>
+    string(2) "zx"
+    [1]=>
+    string(2) "ax"
+  }
+  [1]=>
+  array(2) {
+    [0]=>
+    string(1) "z"
+    [1]=>
+    string(1) "a"
+  }
+}
+int(2)
+array(2) {
+  [0]=>
+  array(2) {
+    [0]=>
+    string(2) "zx"
+    [1]=>
+    string(1) "z"
+  }
+  [1]=>
+  array(2) {
+    [0]=>
+    string(2) "yx"
+    [1]=>
+    string(1) "y"
+  }
+}
+int(2)
+array(2) {
+  [0]=>
+  array(2) {
+    [0]=>
+    array(2) {
+      [0]=>
+      string(2) "zx"
+      [1]=>
+      int(0)
+    }
+    [1]=>
+    array(2) {
+      [0]=>
+      string(2) "yx"
+      [1]=>
+      int(2)
+    }
+  }
+  [1]=>
+  array(2) {
+    [0]=>
+    array(2) {
+      [0]=>
+      string(1) "z"
+      [1]=>
+      int(0)
+    }
+    [1]=>
+    array(2) {
+      [0]=>
+      string(1) "y"
+      [1]=>
+      int(2)
+    }
+  }
+}
+int(2)
+array(2) {
+  [0]=>
+  array(2) {
+    [0]=>
+    array(2) {
+      [0]=>
+      string(2) "zx"
+      [1]=>
+      int(0)
+    }
+    [1]=>
+    array(2) {
+      [0]=>
+      string(1) "z"
+      [1]=>
+      int(0)
+    }
+  }
+  [1]=>
+  array(2) {
+    [0]=>
+    array(2) {
+      [0]=>
+      string(2) "yx"
+      [1]=>
+      int(2)
+    }
+    [1]=>
+    array(2) {
+      [0]=>
+      string(1) "y"
+      [1]=>
+      int(2)
+    }
+  }
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(2)
+array(2) {
+  [0]=>
+  array(2) {
+    [0]=>
+    string(2) "zx"
+    [1]=>
+    string(2) "ax"
+  }
+  [1]=>
+  array(2) {
+    [0]=>
+    string(1) "z"
+    [1]=>
+    string(1) "a"
+  }
+}
+int(2)
+array(2) {
+  [0]=>
+  array(2) {
+    [0]=>
+    string(2) "zx"
+    [1]=>
+    string(1) "z"
+  }
+  [1]=>
+  array(2) {
+    [0]=>
+    string(2) "yx"
+    [1]=>
+    string(1) "y"
+  }
+}
+int(2)
+array(2) {
+  [0]=>
+  array(2) {
+    [0]=>
+    array(2) {
+      [0]=>
+      string(2) "zx"
+      [1]=>
+      int(0)
+    }
+    [1]=>
+    array(2) {
+      [0]=>
+      string(2) "yx"
+      [1]=>
+      int(2)
+    }
+  }
+  [1]=>
+  array(2) {
+    [0]=>
+    array(2) {
+      [0]=>
+      string(1) "z"
+      [1]=>
+      int(0)
+    }
+    [1]=>
+    array(2) {
+      [0]=>
+      string(1) "y"
+      [1]=>
+      int(2)
+    }
+  }
+}
+int(2)
+array(2) {
+  [0]=>
+  array(2) {
+    [0]=>
+    array(2) {
+      [0]=>
+      string(2) "zx"
+      [1]=>
+      int(0)
+    }
+    [1]=>
+    array(2) {
+      [0]=>
+      string(1) "z"
+      [1]=>
+      int(0)
+    }
+  }
+  [1]=>
+  array(2) {
+    [0]=>
+    array(2) {
+      [0]=>
+      string(2) "yx"
+      [1]=>
+      int(2)
+    }
+    [1]=>
+    array(2) {
+      [0]=>
+      string(1) "y"
+      [1]=>
+      int(2)
+    }
+  }
+}
+---- FAILED

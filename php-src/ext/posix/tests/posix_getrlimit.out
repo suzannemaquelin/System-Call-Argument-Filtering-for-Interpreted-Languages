@@ -1,0 +1,43 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(20) {
+  ["soft core"]=>
+  string(9) "unlimited"
+  ["hard core"]=>
+  string(9) "unlimited"
+  ["soft data"]=>
+  string(9) "unlimited"
+  ["hard data"]=>
+  string(9) "unlimited"
+  ["soft stack"]=>
+  int(8388608)
+  ["hard stack"]=>
+  string(9) "unlimited"
+  ["soft totalmem"]=>
+  string(9) "unlimited"
+  ["hard totalmem"]=>
+  string(9) "unlimited"
+  ["soft rss"]=>
+  string(9) "unlimited"
+  ["hard rss"]=>
+  string(9) "unlimited"
+  ["soft maxproc"]=>
+  string(9) "unlimited"
+  ["hard maxproc"]=>
+  string(9) "unlimited"
+  ["soft memlock"]=>
+  int(65536)
+  ["hard memlock"]=>
+  int(65536)
+  ["soft cpu"]=>
+  string(9) "unlimited"
+  ["hard cpu"]=>
+  string(9) "unlimited"
+  ["soft filesize"]=>
+  string(9) "unlimited"
+  ["hard filesize"]=>
+  string(9) "unlimited"
+  ["soft openfiles"]=>
+  int(1048576)
+  ["hard openfiles"]=>
+  int(1048576)
+}

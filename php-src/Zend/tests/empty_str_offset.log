@@ -1,0 +1,93 @@
+
+---- EXPECTED OUTPUT
+- empty ---
+bool(false)
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(true)
+bool(false)
+bool(true)
+bool(true)
+- string ---
+bool(false)
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+- bool ---
+bool(false)
+bool(false)
+bool(true)
+- null ---
+bool(false)
+- double ---
+bool(false)
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(true)
+- array ---
+bool(true)
+bool(true)
+- object ---
+bool(true)
+- resource ---
+bool(true)
+done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+- empty ---
+bool(false)
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(true)
+bool(false)
+bool(true)
+bool(true)
+- string ---
+bool(false)
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+- bool ---
+bool(false)
+bool(false)
+bool(true)
+- null ---
+bool(false)
+- double ---
+bool(false)
+bool(true)
+bool(true)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(true)
+- array ---
+bool(true)
+bool(true)
+- object ---
+bool(true)
+- resource ---
+bool(true)
+done
+---- FAILED

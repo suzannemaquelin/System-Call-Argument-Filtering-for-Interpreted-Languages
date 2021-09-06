@@ -1,0 +1,23 @@
+*** Testing date_date_set() : error conditions ***
+
+-- Testing date_date_set() function with zero arguments --
+
+Warning: date_date_set() expects exactly 4 parameters, 0 given in %s on line %d
+bool(false)
+
+-- Testing date_date_set() function with less than expected no. of arguments --
+
+Warning: date_date_set() expects exactly 4 parameters, 1 given in %s on line %d
+bool(false)
+
+Warning: date_date_set() expects exactly 4 parameters, 2 given in %s on line %d
+bool(false)
+
+Warning: date_date_set() expects exactly 4 parameters, 3 given in %s on line %d
+bool(false)
+
+-- Testing date_date_set() function with more than expected no. of arguments --
+
+Warning: date_date_set() expects exactly 4 parameters, 5 given in %s on line %d
+bool(false)
+===DONE===

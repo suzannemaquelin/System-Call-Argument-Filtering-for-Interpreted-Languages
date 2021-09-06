@@ -1,0 +1,99 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing iconv_strlen() : usage variations ***
+
+-- Iteration 1 --
+
+Notice: iconv_strlen(): Wrong charset, conversion from `0' to `UCS-4LE' is not allowed in /root/php-src/ext/iconv/tests/iconv_strlen_variation2.php on line 89
+bool(false)
+
+-- Iteration 2 --
+
+Notice: iconv_strlen(): Wrong charset, conversion from `1' to `UCS-4LE' is not allowed in /root/php-src/ext/iconv/tests/iconv_strlen_variation2.php on line 89
+bool(false)
+
+-- Iteration 3 --
+
+Notice: iconv_strlen(): Wrong charset, conversion from `12345' to `UCS-4LE' is not allowed in /root/php-src/ext/iconv/tests/iconv_strlen_variation2.php on line 89
+bool(false)
+
+-- Iteration 4 --
+
+Notice: iconv_strlen(): Wrong charset, conversion from `-2345' to `UCS-4LE' is not allowed in /root/php-src/ext/iconv/tests/iconv_strlen_variation2.php on line 89
+bool(false)
+
+-- Iteration 5 --
+
+Notice: iconv_strlen(): Wrong charset, conversion from `10.5' to `UCS-4LE' is not allowed in /root/php-src/ext/iconv/tests/iconv_strlen_variation2.php on line 89
+bool(false)
+
+-- Iteration 6 --
+
+Notice: iconv_strlen(): Wrong charset, conversion from `-10.5' to `UCS-4LE' is not allowed in /root/php-src/ext/iconv/tests/iconv_strlen_variation2.php on line 89
+bool(false)
+
+-- Iteration 7 --
+
+Notice: iconv_strlen(): Wrong charset, conversion from `123456789000' to `UCS-4LE' is not allowed in /root/php-src/ext/iconv/tests/iconv_strlen_variation2.php on line 89
+bool(false)
+
+-- Iteration 8 --
+
+Notice: iconv_strlen(): Wrong charset, conversion from `1.23456789E-9' to `UCS-4LE' is not allowed in /root/php-src/ext/iconv/tests/iconv_strlen_variation2.php on line 89
+bool(false)
+
+-- Iteration 9 --
+
+Notice: iconv_strlen(): Wrong charset, conversion from `0.5' to `UCS-4LE' is not allowed in /root/php-src/ext/iconv/tests/iconv_strlen_variation2.php on line 89
+bool(false)
+
+-- Iteration 10 --
+int(12)
+
+-- Iteration 11 --
+int(12)
+
+-- Iteration 12 --
+
+Notice: iconv_strlen(): Wrong charset, conversion from `1' to `UCS-4LE' is not allowed in /root/php-src/ext/iconv/tests/iconv_strlen_variation2.php on line 89
+bool(false)
+
+-- Iteration 13 --
+int(12)
+
+-- Iteration 14 --
+
+Notice: iconv_strlen(): Wrong charset, conversion from `1' to `UCS-4LE' is not allowed in /root/php-src/ext/iconv/tests/iconv_strlen_variation2.php on line 89
+bool(false)
+
+-- Iteration 15 --
+int(12)
+
+-- Iteration 16 --
+int(12)
+
+-- Iteration 17 --
+int(12)
+
+-- Iteration 18 --
+int(12)
+
+-- Iteration 19 --
+int(12)
+
+-- Iteration 20 --
+int(12)
+
+-- Iteration 21 --
+int(12)
+
+-- Iteration 22 --
+int(12)
+
+-- Iteration 23 --
+int(12)
+
+-- Iteration 24 --
+
+Warning: iconv_strlen() expects parameter 2 to be string, resource given in /root/php-src/ext/iconv/tests/iconv_strlen_variation2.php on line 89
+bool(false)
+Done

@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+array(1) {
+  ["foo"]=>
+  array(1) {
+    [0]=>
+    bool(false)
+  }
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(1) {
+  ["foo"]=>
+  array(1) {
+    [0]=>
+    bool(false)
+  }
+}
+---- FAILED

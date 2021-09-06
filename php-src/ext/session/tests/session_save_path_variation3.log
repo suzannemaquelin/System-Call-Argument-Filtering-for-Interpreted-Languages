@@ -1,0 +1,31 @@
+
+---- EXPECTED OUTPUT
+*** Testing session_save_path() : variation ***
+string(5) "/blah"
+
+Warning: session_start(): open(%s, O_RDWR) failed: No such file or directory (2) in %s on line %d
+
+Warning: session_start(): Failed to read session data: files (path: %sblah) in %s on line %d
+bool(false)
+string(5) "/blah"
+
+Warning: session_destroy(): Trying to destroy uninitialized session in %s on line %d
+bool(false)
+string(5) "/blah"
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing session_save_path() : variation ***
+string(5) "/blah"
+
+Warning: session_start(): open(/blah/sess_f850360fc441c87e2fd9449b71d09290, O_RDWR) failed: No such file or directory (2) in /root/php-src/ext/session/tests/session_save_path_variation3.php on line 15
+
+Warning: session_start(): Failed to read session data: files (path: /blah) in /root/php-src/ext/session/tests/session_save_path_variation3.php on line 15
+bool(false)
+string(5) "/blah"
+
+Warning: session_destroy(): Trying to destroy uninitialized session in /root/php-src/ext/session/tests/session_save_path_variation3.php on line 17
+bool(false)
+string(5) "/blah"
+Done
+---- FAILED

@@ -1,0 +1,52 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: fopen(phar:///root/php-src/ext/phar/tests/fopen_edgecases.phar.php/b/c.php): failed to open stream: phar error: open mode append not supported in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 13
+
+Warning: fopen(phar:///root/php-src/ext/phar/tests/fopen_edgecases.phar.php.phar.gz): failed to open stream: phar error: invalid url or non-existent phar "phar:///root/php-src/ext/phar/tests/fopen_edgecases.phar.php.phar.gz" in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 15
+bool(false)
+
+Warning: fopen(phar:///root/php-src/ext/phar/tests/fopen_edgecases.2.phar.php/hi): failed to open stream: internal corruption of phar "/root/php-src/ext/phar/tests/fopen_edgecases.2.phar.php" (truncated manifest at stub end) in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 23
+
+Warning: fopen(phar://): failed to open stream: phar error: no directory in "phar://", must have at least phar:/// for root directory (always use full path to a new phar) in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 24
+
+Warning: fopen(phar://foo.phar): failed to open stream: phar error: invalid url or non-existent phar "phar://foo.phar" in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 25
+int(0)
+int(1)
+int(0)
+int(2)
+
+Warning: stat(): stat failed for phar:// in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 33
+bool(false)
+
+Warning: stat(): stat failed for phar://foo.phar in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 34
+bool(false)
+bool(true)
+bool(false)
+
+Warning: unlink(): internal corruption of phar "/root/php-src/ext/phar/tests/fopen_edgecases.2.phar.php" (truncated manifest at stub end) in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 41
+
+Warning: unlink(): phar error: unlink failed in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 41
+
+Warning: unlink(): phar error: no directory in "phar://", must have at least phar:/// for root directory (always use full path to a new phar) in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 42
+
+Warning: unlink(): phar error: unlink failed in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 42
+
+Warning: unlink(): phar error: invalid url or non-existent phar "phar://foo.phar" in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 43
+
+Warning: unlink(): phar error: unlink failed in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 43
+
+Warning: unlink(): unlink of "phar:///root/php-src/ext/phar/tests/fopen_edgecases.phar.php/oops" failed, file does not exist in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 44
+
+Warning: rename(): phar error: cannot rename "phar://" to "phar://": invalid or non-writable url "phar://" in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 46
+
+Warning: rename(): phar error: cannot rename "phar:///root/php-src/ext/phar/tests/fopen_edgecases.phar.php/hi" to "phar://": invalid or non-writable url "phar://" in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 47
+
+Warning: rename(): phar error: cannot rename "phar://foo.phar/hi" to "phar://": invalid or non-writable url "phar://" in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 48
+
+Warning: rename(): phar error: cannot rename "phar:///root/php-src/ext/phar/tests/fopen_edgecases.phar.php/hi" to "phar://foo.phar/hi", not within the same phar archive in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 49
+
+Warning: rename(): phar error: cannot rename "phar:///root/php-src/ext/phar/tests/fopen_edgecases.phar.php/hi" to "phar:///root/php-src/ext/phar/tests/fopen_edgecases.phar.php/there": invalid or non-writable url "phar:///root/php-src/ext/phar/tests/fopen_edgecases.phar.php/hi" in /root/php-src/ext/phar/tests/fopen_edgecases.php on line 52
+
+Warning: fopen(./notfound.php): failed to open stream: No such file or directory in phar:///root/php-src/ext/phar/tests/fopen_edgecases.phar.php/test.php on line 2
+
+===DONE===

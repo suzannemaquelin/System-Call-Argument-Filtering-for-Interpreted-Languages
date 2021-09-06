@@ -1,0 +1,1 @@
+Warning: array_fill(): Cannot add element to the array as the next element is already occupied in %sbug61058.php on line %d

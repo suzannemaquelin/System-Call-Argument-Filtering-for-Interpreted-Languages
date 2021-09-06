@@ -1,0 +1,18 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing property_exists() : error conditions ***
+
+-- Testing property_exists() function with more than expected no. of arguments --
+
+Warning: property_exists() expects exactly 2 parameters, 3 given in /root/php-src/ext/standard/tests/class_object/property_exists_error.php on line 16
+NULL
+
+-- Testing property_exists() function with less than expected no. of arguments --
+
+Warning: property_exists() expects exactly 2 parameters, 1 given in /root/php-src/ext/standard/tests/class_object/property_exists_error.php on line 20
+NULL
+
+-- Testing property_exists() function with incorrect arguments --
+
+Warning: First parameter must either be an object or the name of an existing class in /root/php-src/ext/standard/tests/class_object/property_exists_error.php on line 23
+NULL
+===DONE===

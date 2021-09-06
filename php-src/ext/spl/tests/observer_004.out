@@ -1,0 +1,64 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(2)
+int(1)
+int(2)
+object(MyStorage)#1 (2) {
+  ["bla"]=>
+  int(26)
+  ["storage":"SplObjectStorage":private]=>
+  array(2) {
+    ["000000005fe25c10000000004cfc672e"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#2 (1) {
+        ["test"]=>
+        int(1)
+      }
+      ["inf"]=>
+      NULL
+    }
+    ["000000005fe25c11000000004cfc672e"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#3 (1) {
+        ["test"]=>
+        int(2)
+      }
+      ["inf"]=>
+      NULL
+    }
+  }
+}
+string(129) "C:9:"MyStorage":107:{x:i:2;O:9:"TestClass":1:{s:4:"test";i:1;},N;;O:9:"TestClass":1:{s:4:"test";i:2;},N;;m:a:1:{s:3:"bla";i:26;}}"
+===UNSERIALIZE===
+int(2)
+int(1)
+int(2)
+object(MyStorage)#4 (2) {
+  ["bla"]=>
+  int(26)
+  ["storage":"SplObjectStorage":private]=>
+  array(2) {
+    ["000000005fe25c17000000004cfc672e"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#5 (1) {
+        ["test"]=>
+        int(1)
+      }
+      ["inf"]=>
+      NULL
+    }
+    ["000000005fe25c14000000004cfc672e"]=>
+    array(2) {
+      ["obj"]=>
+      object(TestClass)#6 (1) {
+        ["test"]=>
+        int(2)
+      }
+      ["inf"]=>
+      NULL
+    }
+  }
+}
+===DONE===

@@ -1,0 +1,10 @@
+
+---- EXPECTED OUTPUT
+Warning: DOMDocument::createComment() expects exactly 1 parameter, 0 given in %s
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: DOMDocument::createComment() expects exactly 1 parameter, 0 given in /root/php-src/ext/dom/tests/domdocument_createcomment_error_001.php on line 3
+===DONE===
+---- FAILED

@@ -1,0 +1,14 @@
+
+---- EXPECTED OUTPUT
+Too many arguments
+
+Warning: flush() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Too many arguments
+
+Warning: flush() expects exactly 0 parameters, 1 given in /root/php-src/tests/output/flush_error_001.php on line 9
+NULL
+---- FAILED

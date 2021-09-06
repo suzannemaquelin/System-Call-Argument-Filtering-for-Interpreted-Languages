@@ -1,0 +1,6 @@
+Fatal error: Uncaught Exception: Unserialization of CURLFile instances is not allowed in %s
+Stack trace:
+#0 [internal function]: CURLFile->__wakeup()
+#1 %s
+#2 {main}
+  thrown in %s on line %d

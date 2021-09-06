@@ -1,0 +1,23 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing unlink() : variation ***
+-- unlinking soft link unlinkVar8.tmp/subDir.tmp --
+directory unlinked
+-- unlinking soft link ./unlinkVar8.tmp/subDir.tmp --
+directory unlinked
+-- unlinking soft link unlinkVar8.tmp/../unlinkVar8.tmp/subDir.tmp --
+directory unlinked
+-- unlinking soft link /root/php-src/unlinkVar8.tmp/subDir.tmp --
+directory unlinked
+-- unlinking soft link /root/php-src/./unlinkVar8.tmp/subDir.tmp --
+directory unlinked
+-- unlinking soft link /root/php-src/unlinkVar8.tmp/../unlinkVar8.tmp/subDir.tmp --
+directory unlinked
+-- unlinking soft link unlinkVar8.tmp//subDir.tmp --
+directory unlinked
+-- unlinking soft link /root/php-src//unlinkVar8.tmp//subDir.tmp --
+directory unlinked
+
+--- try to unlink a directory ---
+
+Warning: unlink(unlinkVar8.tmp/linkme.tmp): Is a directory in /root/php-src/ext/standard/tests/file/unlink_variation10.php on line 42
+===DONE===

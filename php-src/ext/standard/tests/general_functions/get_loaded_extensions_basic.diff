@@ -1,0 +1,102 @@
+001+ Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+005- }
+006- ===DONE===
+006+   string(4) "Core"
+007+   [1]=>
+008+   string(4) "date"
+009+   [2]=>
+010+   string(6) "libxml"
+011+   [3]=>
+012+   string(7) "openssl"
+013+   [4]=>
+014+   string(4) "pcre"
+015+   [5]=>
+016+   string(7) "sqlite3"
+017+   [6]=>
+018+   string(4) "zlib"
+019+   [7]=>
+020+   string(6) "bcmath"
+021+   [8]=>
+022+   string(3) "bz2"
+023+   [9]=>
+024+   string(8) "calendar"
+025+   [10]=>
+026+   string(5) "ctype"
+027+   [11]=>
+028+   string(4) "curl"
+029+   [12]=>
+030+   string(3) "dom"
+031+   [13]=>
+032+   string(4) "hash"
+033+   [14]=>
+034+   string(8) "fileinfo"
+035+   [15]=>
+036+   string(6) "filter"
+037+   [16]=>
+038+   string(3) "ftp"
+039+   [17]=>
+040+   string(7) "gettext"
+041+   [18]=>
+042+   string(3) "SPL"
+043+   [19]=>
+044+   string(5) "iconv"
+045+   [20]=>
+046+   string(4) "json"
+047+   [21]=>
+048+   string(8) "mbstring"
+049+   [22]=>
+050+   string(6) "mcrypt"
+051+   [23]=>
+052+   string(7) "session"
+053+   [24]=>
+054+   string(8) "standard"
+055+   [25]=>
+056+   string(5) "pcntl"
+057+   [26]=>
+058+   string(7) "mysqlnd"
+059+   [27]=>
+060+   string(3) "PDO"
+061+   [28]=>
+062+   string(9) "pdo_mysql"
+063+   [29]=>
+064+   string(9) "pdo_pgsql"
+065+   [30]=>
+066+   string(10) "pdo_sqlite"
+067+   [31]=>
+068+   string(5) "pgsql"
+069+   [32]=>
+070+   string(4) "Phar"
+071+   [33]=>
+072+   string(5) "posix"
+073+   [34]=>
+074+   string(10) "Reflection"
+075+   [35]=>
+076+   string(6) "mysqli"
+077+   [36]=>
+078+   string(9) "SimpleXML"
+079+   [37]=>
+080+   string(4) "soap"
+081+   [38]=>
+082+   string(7) "sockets"
+083+   [39]=>
+084+   string(4) "exif"
+085+   [40]=>
+086+   string(7) "sysvsem"
+087+   [41]=>
+088+   string(7) "sysvshm"
+089+   [42]=>
+090+   string(9) "tokenizer"
+091+   [43]=>
+092+   string(3) "xml"
+093+   [44]=>
+094+   string(9) "xmlreader"
+095+   [45]=>
+096+   string(6) "xmlrpc"
+097+   [46]=>
+098+   string(9) "xmlwriter"
+099+   [47]=>
+100+   string(3) "xsl"
+101+   [48]=>
+102+   string(3) "zip"
+103+ }
+104+ ===DONE===

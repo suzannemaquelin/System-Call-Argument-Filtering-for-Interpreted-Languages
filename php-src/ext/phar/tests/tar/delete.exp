@@ -1,0 +1,3 @@
+a
+
+Warning: file_get_contents(phar://%sdelete.phar.tar/a): failed to open stream: phar error: "a" is not a file in phar "%sdelete.phar.tar" in %sdelete.php on line %d

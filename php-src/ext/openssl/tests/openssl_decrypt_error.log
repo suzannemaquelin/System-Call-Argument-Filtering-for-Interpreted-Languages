@@ -1,0 +1,64 @@
+
+---- EXPECTED OUTPUT
+Warning: openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in %s on line %d
+string(44) "yof6cPPH4mLee6TOc0YQSrh4dvywMqxGUyjp0lV6+aM="
+string(44) "yof6cPPH4mLee6TOc0YQSrh4dvywMqxGUyjp0lV6+aM="
+bool(false)
+
+Warning: openssl_decrypt(): Unknown cipher algorithm in %s on line %d
+bool(false)
+bool(false)
+
+Warning: openssl_decrypt(): Unknown cipher algorithm in %s on line %d
+bool(false)
+
+Warning: openssl_decrypt(): Unknown cipher algorithm in %s on line %d
+bool(false)
+
+Warning: openssl_decrypt(): Unknown cipher algorithm in %s on line %d
+bool(false)
+
+Warning: openssl_decrypt() expects parameter 1 to be string, array given in %s on line %d
+NULL
+
+Warning: openssl_decrypt() expects parameter 2 to be string, array given in %s on line %d
+NULL
+
+Warning: openssl_decrypt() expects parameter 3 to be string, array given in %s on line %d
+NULL
+
+Warning: openssl_encrypt(): The authenticated tag cannot be provided for cipher that doesn not support AEAD in %s on line %d
+string(44) "yof6cPPH4mLee6TOc0YQSrh4dvywMqxGUyjp0lV6+aM="
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: openssl_encrypt(): Using an empty Initialization Vector (iv) is potentially insecure and not recommended in /root/php-src/ext/openssl/tests/openssl_decrypt_error.php on line 8
+string(44) "yof6cPPH4mLee6TOc0YQSrh4dvywMqxGUyjp0lV6+aM="
+string(44) "yof6cPPH4mLee6TOc0YQSrh4dvywMqxGUyjp0lV6+aM="
+bool(false)
+
+Warning: openssl_decrypt(): Unknown cipher algorithm in /root/php-src/ext/openssl/tests/openssl_decrypt_error.php on line 12
+bool(false)
+bool(false)
+
+Warning: openssl_decrypt(): Unknown cipher algorithm in /root/php-src/ext/openssl/tests/openssl_decrypt_error.php on line 14
+bool(false)
+
+Warning: openssl_decrypt(): Unknown cipher algorithm in /root/php-src/ext/openssl/tests/openssl_decrypt_error.php on line 15
+bool(false)
+
+Warning: openssl_decrypt(): Unknown cipher algorithm in /root/php-src/ext/openssl/tests/openssl_decrypt_error.php on line 16
+bool(false)
+
+Warning: openssl_decrypt() expects parameter 1 to be string, array given in /root/php-src/ext/openssl/tests/openssl_decrypt_error.php on line 17
+NULL
+
+Warning: openssl_decrypt() expects parameter 2 to be string, array given in /root/php-src/ext/openssl/tests/openssl_decrypt_error.php on line 18
+NULL
+
+Warning: openssl_decrypt() expects parameter 3 to be string, array given in /root/php-src/ext/openssl/tests/openssl_decrypt_error.php on line 19
+NULL
+
+Warning: openssl_encrypt(): The authenticated tag cannot be provided for cipher that doesn not support AEAD in /root/php-src/ext/openssl/tests/openssl_decrypt_error.php on line 22
+string(44) "yof6cPPH4mLee6TOc0YQSrh4dvywMqxGUyjp0lV6+aM="
+---- FAILED

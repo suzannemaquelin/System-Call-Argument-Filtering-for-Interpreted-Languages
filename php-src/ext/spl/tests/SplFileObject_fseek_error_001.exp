@@ -1,0 +1,3 @@
+Warning: SplFileObject::fseek() expects at most 2 parameters, 3 given %s
+
+Warning: SplFileObject::fseek() expects at least 1 parameter, 0 given %s

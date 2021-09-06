@@ -1,0 +1,6 @@
+004+ prompt> [Breakpoint #0 in bar() at /root/php-src/sapi/phpdbg/tests/finish_leave_001.php:8, hits: 1]
+005+ >00008: function bar() {
+006+  00009:     return "world";
+004- prompt> [Breakpoint #0 in bar() at %s:9, hits: 1]
+005- >00009:     return "world";
+007-  00011: 

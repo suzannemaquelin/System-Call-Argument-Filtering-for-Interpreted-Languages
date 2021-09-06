@@ -1,0 +1,13 @@
+
+---- EXPECTED OUTPUT
+tan 60 = float(%f)
+Pass
+tan 30 = float(%f)
+Pass
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+tan 60 = float(1.7320508075689)
+Pass
+tan 30 = float(0.57735026918963)
+Pass
+---- FAILED

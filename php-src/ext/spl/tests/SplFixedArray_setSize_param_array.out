@@ -1,0 +1,9 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: SplFixedArray::setSize() expects parameter 1 to be integer, array given in /root/php-src/ext/spl/tests/SplFixedArray_setSize_param_array.php on line 3
+object(SplFixedArray)#1 (2) {
+  [0]=>
+  NULL
+  [1]=>
+  NULL
+}

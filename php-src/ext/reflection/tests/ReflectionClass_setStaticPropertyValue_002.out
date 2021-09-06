@@ -1,0 +1,15 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: ReflectionClass::setStaticPropertyValue() expects exactly 2 parameters, 3 given in /root/php-src/ext/reflection/tests/ReflectionClass_setStaticPropertyValue_002.php on line 8
+NULL
+
+Warning: ReflectionClass::setStaticPropertyValue() expects exactly 2 parameters, 0 given in /root/php-src/ext/reflection/tests/ReflectionClass_setStaticPropertyValue_002.php on line 13
+NULL
+
+Warning: ReflectionClass::setStaticPropertyValue() expects exactly 2 parameters, 1 given in /root/php-src/ext/reflection/tests/ReflectionClass_setStaticPropertyValue_002.php on line 18
+NULL
+Class C does not have a property named 
+Class C does not have a property named 1.5
+
+Warning: ReflectionClass::setStaticPropertyValue() expects parameter 1 to be string, array given in /root/php-src/ext/reflection/tests/ReflectionClass_setStaticPropertyValue_002.php on line 33
+NULL

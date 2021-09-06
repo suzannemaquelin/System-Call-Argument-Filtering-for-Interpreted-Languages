@@ -1,0 +1,9 @@
+array(2) {
+  [0]=>
+  int(1)
+  [1]=>
+  object(obj)#%d (1) {
+    ["data"]=>
+    int(1)
+  }
+}

@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Warning: socket_create() expects exactly 3 parameters, 0 given in %s on line %i
+
+Warning: socket_create() expects exactly 3 parameters, 1 given in %s on line %i
+
+Warning: socket_create() expects exactly 3 parameters, 2 given in %s on line %i
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: socket_create() expects exactly 3 parameters, 0 given in /root/php-src/ext/sockets/tests/socket_create_params.php on line 2
+
+Warning: socket_create() expects exactly 3 parameters, 1 given in /root/php-src/ext/sockets/tests/socket_create_params.php on line 3
+
+Warning: socket_create() expects exactly 3 parameters, 2 given in /root/php-src/ext/sockets/tests/socket_create_params.php on line 4
+---- FAILED

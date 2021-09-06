@@ -1,0 +1,28 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing timezone_offset_get() : error conditions ***
+
+-- Testing timezone_offset_get() function with zero arguments --
+bool(false)
+
+-- Testing timezone_offset_get() function with less than expected no. of arguments --
+bool(false)
+
+-- Testing timezone_offset_get() function with more than expected no. of arguments --
+bool(false)
+
+-- Testing timezone_offset_get() function with an invalid values for $object argument --
+string(106) "Argument 1 passed to timezone_offset_get() must be an instance of DateTimeZone, instance of stdClass given"
+
+string(93) "Argument 1 passed to timezone_offset_get() must be an instance of DateTimeZone, integer given"
+
+string(90) "Argument 1 passed to timezone_offset_get() must be an instance of DateTimeZone, null given"
+
+
+-- Testing timezone_offset_get() function with an invalid values for $datetime argument --
+string(113) "Argument 2 passed to timezone_offset_get() must implement interface DateTimeInterface, instance of stdClass given"
+
+string(100) "Argument 2 passed to timezone_offset_get() must implement interface DateTimeInterface, integer given"
+
+string(97) "Argument 2 passed to timezone_offset_get() must implement interface DateTimeInterface, null given"
+
+===DONE===

@@ -1,0 +1,4 @@
+PHP Warning:  PHP Startup: session.upload_progress.freq must be greater than or equal to zero in %s
+
+Warning: PHP Startup: session.upload_progress.freq must be greater than or equal to zero in %s
+string(%d) "1%"

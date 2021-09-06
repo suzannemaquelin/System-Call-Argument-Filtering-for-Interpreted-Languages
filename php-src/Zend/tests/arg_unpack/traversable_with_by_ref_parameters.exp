@@ -1,0 +1,7 @@
+int(42)
+
+Warning: Cannot pass by-reference argument 4 of test() by unpacking a Traversable, passing by-value instead in %s on line %d
+
+Warning: Cannot pass by-reference argument 4 of test() by unpacking a Traversable, passing by-value instead in %s on line %d
+
+Warning: Cannot pass by-reference argument 4 of test() by unpacking a Traversable, passing by-value instead in %s on line %d

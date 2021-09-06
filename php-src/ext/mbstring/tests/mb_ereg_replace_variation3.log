@@ -1,0 +1,157 @@
+
+---- EXPECTED OUTPUT
+*** Testing mb_ereg_replace() : usage variations ***
+
+-- Iteration 1 --
+string(1) "0"
+
+-- Iteration 2 --
+string(1) "1"
+
+-- Iteration 3 --
+string(5) "12345"
+
+-- Iteration 4 --
+string(5) "-2345"
+
+-- Iteration 5 --
+string(4) "10.5"
+
+-- Iteration 6 --
+string(5) "-10.5"
+
+-- Iteration 7 --
+string(12) "123456789000"
+
+-- Iteration 8 --
+string(13) "1.23456789E-9"
+
+-- Iteration 9 --
+string(3) "0.5"
+
+-- Iteration 10 --
+string(0) ""
+
+-- Iteration 11 --
+string(0) ""
+
+-- Iteration 12 --
+string(1) "1"
+
+-- Iteration 13 --
+string(0) ""
+
+-- Iteration 14 --
+string(1) "1"
+
+-- Iteration 15 --
+string(0) ""
+
+-- Iteration 16 --
+string(0) ""
+
+-- Iteration 17 --
+string(0) ""
+
+-- Iteration 18 --
+string(5) "UTF-8"
+
+-- Iteration 19 --
+string(5) "UTF-8"
+
+-- Iteration 20 --
+string(5) "UTF-8"
+
+-- Iteration 21 --
+string(5) "UTF-8"
+
+-- Iteration 22 --
+string(0) ""
+
+-- Iteration 23 --
+string(0) ""
+
+-- Iteration 24 --
+
+Warning: mb_ereg_replace() expects parameter 3 to be string, resource given in %s on line %d
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_ereg_replace() : usage variations ***
+
+-- Iteration 1 --
+string(1) "0"
+
+-- Iteration 2 --
+string(1) "1"
+
+-- Iteration 3 --
+string(5) "12345"
+
+-- Iteration 4 --
+string(5) "-2345"
+
+-- Iteration 5 --
+string(4) "10.5"
+
+-- Iteration 6 --
+string(5) "-10.5"
+
+-- Iteration 7 --
+string(12) "123456789000"
+
+-- Iteration 8 --
+string(13) "1.23456789E-9"
+
+-- Iteration 9 --
+string(3) "0.5"
+
+-- Iteration 10 --
+string(0) ""
+
+-- Iteration 11 --
+string(0) ""
+
+-- Iteration 12 --
+string(1) "1"
+
+-- Iteration 13 --
+string(0) ""
+
+-- Iteration 14 --
+string(1) "1"
+
+-- Iteration 15 --
+string(0) ""
+
+-- Iteration 16 --
+string(0) ""
+
+-- Iteration 17 --
+string(0) ""
+
+-- Iteration 18 --
+string(5) "UTF-8"
+
+-- Iteration 19 --
+string(5) "UTF-8"
+
+-- Iteration 20 --
+string(5) "UTF-8"
+
+-- Iteration 21 --
+string(5) "UTF-8"
+
+-- Iteration 22 --
+string(0) ""
+
+-- Iteration 23 --
+string(0) ""
+
+-- Iteration 24 --
+
+Warning: mb_ereg_replace() expects parameter 3 to be string, resource given in /root/php-src/ext/mbstring/tests/mb_ereg_replace_variation3.php on line 88
+bool(false)
+Done
+---- FAILED

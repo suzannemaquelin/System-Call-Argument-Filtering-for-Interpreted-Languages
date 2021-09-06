@@ -1,0 +1,12 @@
+
+---- EXPECTED OUTPUT
+Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; bar has a deprecated constructor in %s on line %d
+
+Fatal error: Class foo contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (bar::bar) in %sbug43323.php on line 7
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; bar has a deprecated constructor in /root/php-src/Zend/tests/bug43323.php on line 2
+
+Fatal error: Class foo contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (bar::bar) in /root/php-src/Zend/tests/bug43323.php on line 7
+---- FAILED

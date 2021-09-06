@@ -1,0 +1,7 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught TypeError: Return value of get_config() must be of the type array, integer returned in /root/php-src/Zend/tests/return_types/rfc001.php:4
+Stack trace:
+#0 /root/php-src/Zend/tests/return_types/rfc001.php(7): get_config()
+#1 {main}
+  thrown in /root/php-src/Zend/tests/return_types/rfc001.php on line 4

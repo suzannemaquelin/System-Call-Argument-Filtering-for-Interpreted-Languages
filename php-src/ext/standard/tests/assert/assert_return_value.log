@@ -1,0 +1,13 @@
+
+---- EXPECTED OUTPUT
+bool(true)
+
+Warning: assert(): assert(false) failed in %s on line %d
+bool(false)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(true)
+
+Warning: assert(): assert(false) failed in /root/php-src/ext/standard/tests/assert/assert_return_value.php on line 3
+bool(false)
+---- FAILED

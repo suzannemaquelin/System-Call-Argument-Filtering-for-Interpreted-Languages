@@ -1,0 +1,55 @@
+
+---- EXPECTED OUTPUT
+autoload_first
+autoload_second
+second
+first
+autoload_first
+autoload_second
+second
+first
+autoload_first
+autoload_second
+
+Fatal error: Uncaught Exception: first in %sspl_autoload_012.php:%d
+Stack trace:
+#0 [internal function]: autoload_first('ThisClassDoesNo...')
+#1 [internal function]: spl_autoload_call('ThisClassDoesNo...')
+#2 %sspl_autoload_012.php(%d): class_exists('ThisClassDoesNo...')
+#3 {main}
+
+Next Exception: second in %sspl_autoload_012.php:%d
+Stack trace:
+#0 [internal function]: autoload_second('ThisClassDoesNo...')
+#1 [internal function]: spl_autoload_call('ThisClassDoesNo...')
+#2 %sspl_autoload_012.php(%d): class_exists('ThisClassDoesNo...')
+#3 {main}
+  thrown in %sspl_autoload_012.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+autoload_first
+autoload_second
+second
+first
+autoload_first
+autoload_second
+second
+first
+autoload_first
+autoload_second
+
+Fatal error: Uncaught Exception: first in /root/php-src/ext/spl/tests/spl_autoload_012.php:6
+Stack trace:
+#0 [internal function]: autoload_first('ThisClassDoesNo...')
+#1 [internal function]: spl_autoload_call('ThisClassDoesNo...')
+#2 /root/php-src/ext/spl/tests/spl_autoload_012.php(34): class_exists('ThisClassDoesNo...')
+#3 {main}
+
+Next Exception: second in /root/php-src/ext/spl/tests/spl_autoload_012.php:12
+Stack trace:
+#0 [internal function]: autoload_second('ThisClassDoesNo...')
+#1 [internal function]: spl_autoload_call('ThisClassDoesNo...')
+#2 /root/php-src/ext/spl/tests/spl_autoload_012.php(34): class_exists('ThisClassDoesNo...')
+#3 {main}
+  thrown in /root/php-src/ext/spl/tests/spl_autoload_012.php on line 12
+---- FAILED

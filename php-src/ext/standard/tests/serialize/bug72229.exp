@@ -1,0 +1,28 @@
+C1 Object
+(
+    [arr1] => Array
+        (
+            [0] => C1 Object
+ *RECURSION*
+        )
+
+    [arr2] => Array
+        (
+            [0] => 50
+        )
+
+)
+C1 Object
+(
+    [arr1] => Array
+        (
+            [0] => C1 Object
+ *RECURSION*
+        )
+
+    [arr2] => Array
+        (
+            [0] => 50
+        )
+
+)

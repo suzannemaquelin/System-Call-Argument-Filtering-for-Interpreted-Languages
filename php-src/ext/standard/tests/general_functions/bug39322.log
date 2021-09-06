@@ -1,0 +1,43 @@
+
+---- EXPECTED OUTPUT
+array(8) {
+  ["command"]=>
+  string(14) "/bin/sleep 120"
+  ["pid"]=>
+  int(%d)
+  ["running"]=>
+  bool(false)
+  ["signaled"]=>
+  bool(true)
+  ["stopped"]=>
+  bool(false)
+  ["exitcode"]=>
+  int(-1)
+  ["termsig"]=>
+  int(9)
+  ["stopsig"]=>
+  int(0)
+}
+Done!
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(8) {
+  ["command"]=>
+  string(14) "/bin/sleep 120"
+  ["pid"]=>
+  int(32210)
+  ["running"]=>
+  bool(false)
+  ["signaled"]=>
+  bool(true)
+  ["stopped"]=>
+  bool(false)
+  ["exitcode"]=>
+  int(-1)
+  ["termsig"]=>
+  int(9)
+  ["stopsig"]=>
+  int(0)
+}
+Done!
+---- FAILED

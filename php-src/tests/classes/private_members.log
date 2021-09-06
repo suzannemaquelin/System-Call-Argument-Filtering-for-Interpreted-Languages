@@ -1,0 +1,99 @@
+
+---- EXPECTED OUTPUT
+derived::__construct(begin)
+base::__construct(begin)
+base::test
+derived Object
+(
+    [member] => derived::member (default)
+    [member:base:private] => base::member
+)
+derived::test
+derived Object
+(
+    [member] => derived::member (default)
+    [member:base:private] => base::member
+)
+base::__construct(end)
+base::test
+derived Object
+(
+    [member] => derived::member (default)
+    [member:base:private] => base::member
+)
+base::test
+derived Object
+(
+    [member] => derived::member (default)
+    [member:base:private] => base::member
+)
+derived::test
+derived Object
+(
+    [member] => derived::member (default)
+    [member:base:private] => base::member
+)
+derived::__construct(end)
+base::test
+derived Object
+(
+    [member] => derived::member
+    [member:base:private] => base::member
+)
+derived::test
+derived Object
+(
+    [member] => derived::member
+    [member:base:private] => base::member
+)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+derived::__construct(begin)
+base::__construct(begin)
+base::test
+derived Object
+(
+    [member] => derived::member (default)
+    [member:base:private] => base::member
+)
+derived::test
+derived Object
+(
+    [member] => derived::member (default)
+    [member:base:private] => base::member
+)
+base::__construct(end)
+base::test
+derived Object
+(
+    [member] => derived::member (default)
+    [member:base:private] => base::member
+)
+base::test
+derived Object
+(
+    [member] => derived::member (default)
+    [member:base:private] => base::member
+)
+derived::test
+derived Object
+(
+    [member] => derived::member (default)
+    [member:base:private] => base::member
+)
+derived::__construct(end)
+base::test
+derived Object
+(
+    [member] => derived::member
+    [member:base:private] => base::member
+)
+derived::test
+derived Object
+(
+    [member] => derived::member
+    [member:base:private] => base::member
+)
+Done
+---- FAILED

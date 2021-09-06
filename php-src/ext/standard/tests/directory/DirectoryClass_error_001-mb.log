@@ -1,0 +1,70 @@
+
+---- EXPECTED OUTPUT
+--> Try all methods with bad handle:
+
+Warning: Directory::read(): supplied argument is not a valid Directory resource in %s on line %d
+bool(false)
+
+Warning: Directory::rewind(): supplied argument is not a valid Directory resource in %s on line %d
+bool(false)
+
+Warning: Directory::close(): supplied argument is not a valid Directory resource in %s on line %d
+bool(false)
+
+--> Try all methods with no handle:
+
+Warning: Directory::read(): Unable to find my handle property in %s on line %d
+bool(false)
+
+Warning: Directory::rewind(): Unable to find my handle property in %s on line %d
+bool(false)
+
+Warning: Directory::close(): Unable to find my handle property in %s on line %d
+bool(false)
+
+--> Try all methods with wrong number of args:
+
+Warning: Directory::read() expects at most 1 parameter, 2 given in %s on line %d
+NULL
+
+Warning: Directory::rewind() expects at most 1 parameter, 2 given in %s on line %d
+NULL
+
+Warning: Directory::close() expects at most 1 parameter, 2 given in %s on line %d
+NULL
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+--> Try all methods with bad handle:
+
+Warning: Directory::read(): supplied argument is not a valid Directory resource in /root/php-src/ext/standard/tests/directory/DirectoryClass_error_001-mb.php on line 10
+bool(false)
+
+Warning: Directory::rewind(): supplied argument is not a valid Directory resource in /root/php-src/ext/standard/tests/directory/DirectoryClass_error_001-mb.php on line 11
+bool(false)
+
+Warning: Directory::close(): supplied argument is not a valid Directory resource in /root/php-src/ext/standard/tests/directory/DirectoryClass_error_001-mb.php on line 12
+bool(false)
+
+--> Try all methods with no handle:
+
+Warning: Directory::read(): Unable to find my handle property in /root/php-src/ext/standard/tests/directory/DirectoryClass_error_001-mb.php on line 17
+bool(false)
+
+Warning: Directory::rewind(): Unable to find my handle property in /root/php-src/ext/standard/tests/directory/DirectoryClass_error_001-mb.php on line 18
+bool(false)
+
+Warning: Directory::close(): Unable to find my handle property in /root/php-src/ext/standard/tests/directory/DirectoryClass_error_001-mb.php on line 19
+bool(false)
+
+--> Try all methods with wrong number of args:
+
+Warning: Directory::read() expects at most 1 parameter, 2 given in /root/php-src/ext/standard/tests/directory/DirectoryClass_error_001-mb.php on line 23
+NULL
+
+Warning: Directory::rewind() expects at most 1 parameter, 2 given in /root/php-src/ext/standard/tests/directory/DirectoryClass_error_001-mb.php on line 24
+NULL
+
+Warning: Directory::close() expects at most 1 parameter, 2 given in /root/php-src/ext/standard/tests/directory/DirectoryClass_error_001-mb.php on line 25
+NULL
+---- FAILED

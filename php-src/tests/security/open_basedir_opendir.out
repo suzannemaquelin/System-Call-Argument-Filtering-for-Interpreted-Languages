@@ -1,0 +1,51 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing open_basedir configuration [opendir] ***
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+
+Warning: opendir(): open_basedir restriction in effect. File(../bad) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 78
+
+Warning: opendir(../bad): failed to open dir: Operation not permitted in /root/php-src/tests/security/open_basedir.inc on line 78
+bool(false)
+
+Warning: opendir(): open_basedir restriction in effect. File(../bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 79
+
+Warning: opendir(../bad/bad.txt): failed to open dir: Operation not permitted in /root/php-src/tests/security/open_basedir.inc on line 79
+bool(false)
+
+Warning: opendir(): open_basedir restriction in effect. File(..) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 80
+
+Warning: opendir(..): failed to open dir: Operation not permitted in /root/php-src/tests/security/open_basedir.inc on line 80
+bool(false)
+
+Warning: opendir(): open_basedir restriction in effect. File(../) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 81
+
+Warning: opendir(../): failed to open dir: Operation not permitted in /root/php-src/tests/security/open_basedir.inc on line 81
+bool(false)
+
+Warning: opendir(): open_basedir restriction in effect. File(/) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 82
+
+Warning: opendir(/): failed to open dir: Operation not permitted in /root/php-src/tests/security/open_basedir.inc on line 82
+bool(false)
+
+Warning: opendir(): open_basedir restriction in effect. File(../bad/.) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 83
+
+Warning: opendir(../bad/.): failed to open dir: Operation not permitted in /root/php-src/tests/security/open_basedir.inc on line 83
+bool(false)
+
+Warning: opendir(): open_basedir restriction in effect. File(/root/php-src/test/bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 85
+
+Warning: opendir(/root/php-src/test/bad/bad.txt): failed to open dir: Operation not permitted in /root/php-src/tests/security/open_basedir.inc on line 85
+bool(false)
+
+Warning: opendir(): open_basedir restriction in effect. File(/root/php-src/test/bad/../bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 86
+
+Warning: opendir(/root/php-src/test/bad/../bad/bad.txt): failed to open dir: Operation not permitted in /root/php-src/tests/security/open_basedir.inc on line 86
+bool(false)
+resource(8) of type (stream)
+resource(9) of type (stream)
+resource(10) of type (stream)
+*** Finished testing open_basedir configuration [opendir] ***

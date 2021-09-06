@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+*** Testing mb_strtoupper() : basic functionality ***
+
+-- ASCII String --
+string(36) "QUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVo="
+Correctly converted
+
+-- Multibyte String --
+string(64) "zpHOks6TzpTOlc6WzpfOmM6ZzprOm86czp3Ons6fzqDOoc6jzqTOpc6mzqfOqM6p"
+Correctly converted
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_strtoupper() : basic functionality ***
+
+-- ASCII String --
+string(36) "QUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVo="
+Correctly converted
+
+-- Multibyte String --
+string(64) "zpHOks6TzpTOlc6WzpfOmM6ZzprOm86czp3Ons6fzqDOoc6jzqTOpc6mzqfOqM6p"
+Correctly converted
+Done
+---- FAILED

@@ -1,0 +1,35 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing getimagesize() : variation ***
+
+-- File with text data (test.txt) --
+bool(false)
+bool(false)
+array(0) {
+}
+
+-- File with corrupted BMP data (200x100_unknown.unknown) --
+bool(false)
+bool(false)
+array(0) {
+}
+
+-- Non-existent file (nofile.ext) --
+
+Warning: getimagesize(/root/php-src/ext/standard/tests/image/nofile.ext): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/image/getimagesize_variation_003.php on line 27
+bool(false)
+
+Warning: getimagesize(/root/php-src/ext/standard/tests/image/nofile.ext): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/image/getimagesize_variation_003.php on line 28
+bool(false)
+array(0) {
+}
+
+-- Empty File (blank_file.bmp) --
+
+Notice: getimagesize(): Read error! in /root/php-src/ext/standard/tests/image/getimagesize_variation_003.php on line 27
+bool(false)
+
+Notice: getimagesize(): Read error! in /root/php-src/ext/standard/tests/image/getimagesize_variation_003.php on line 28
+bool(false)
+array(0) {
+}
+===DONE===

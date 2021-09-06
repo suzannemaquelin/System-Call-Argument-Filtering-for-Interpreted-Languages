@@ -1,0 +1,6 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing date_create() : error conditions ***
+
+-- Testing new DateTime() with more than expected no. of arguments --
+DateTime::__construct() expects at most 2 parameters, 3 given
+===DONE===

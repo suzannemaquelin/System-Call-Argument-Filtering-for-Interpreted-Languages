@@ -1,0 +1,3 @@
+Warning: syntax error, unexpected '"' in Unknown on line %d
+ in %s on line %d
+bool(false)

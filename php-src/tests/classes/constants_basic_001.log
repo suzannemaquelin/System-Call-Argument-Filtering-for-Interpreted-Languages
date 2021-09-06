@@ -1,0 +1,68 @@
+
+---- EXPECTED OUTPUT
+Notice: Undefined variable: undef in %s on line 5
+
+Attempt to access various kinds of class constants:
+
+Notice: Use of undefined constant UNDEFINED - assumed 'UNDEFINED' in %s on line %d
+string(9) "UNDEFINED"
+int(1)
+float(1.5)
+int(1)
+float(1.5)
+int(-1)
+float(-1.5)
+int(15)
+string(%d) "%s"
+string(1) "C"
+string(1) "C"
+string(0) ""
+int(1234)
+int(456)
+NULL
+string(6) "hello1"
+string(6) "hello2"
+string(6) "hello2"
+string(6) "hello2"
+
+Expecting fatal error:
+
+Fatal error: Uncaught Error: Undefined class constant 'c19' in %s:53
+Stack trace:
+#0 {main}
+  thrown in %s on line 53
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined variable: undef in /root/php-src/tests/classes/constants_basic_001.php on line 5
+
+Attempt to access various kinds of class constants:
+
+Notice: Use of undefined constant UNDEFINED - assumed 'UNDEFINED' in /root/php-src/tests/classes/constants_basic_001.php on line 32
+string(9) "UNDEFINED"
+int(1)
+float(1.5)
+int(1)
+float(1.5)
+int(-1)
+float(-1.5)
+int(15)
+string(51) "/root/php-src/tests/classes/constants_basic_001.php"
+string(1) "C"
+string(1) "C"
+string(0) ""
+int(1234)
+int(456)
+NULL
+string(6) "hello1"
+string(6) "hello2"
+string(6) "hello2"
+string(6) "hello2"
+
+Expecting fatal error:
+
+Fatal error: Uncaught Error: Undefined class constant 'c19' in /root/php-src/tests/classes/constants_basic_001.php:53
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/tests/classes/constants_basic_001.php on line 53
+---- FAILED

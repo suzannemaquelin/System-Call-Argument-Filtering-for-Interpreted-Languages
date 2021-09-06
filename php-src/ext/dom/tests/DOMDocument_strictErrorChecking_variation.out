@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Load document
+See if strictErrorChecking is on
+bool(true)
+Should throw DOMException when strictErrorChecking is on
+GOOD. DOMException thrown
+Invalid Character Error
+Turn strictErrorChecking off
+See if strictErrorChecking is off
+bool(false)
+Should raise PHP error because strictErrorChecking is off
+
+Warning: DOMDocument::createAttribute(): Invalid Character Error in /root/php-src/ext/dom/tests/DOMDocument_strictErrorChecking_variation.php on line 29

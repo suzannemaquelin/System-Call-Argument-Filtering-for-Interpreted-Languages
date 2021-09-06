@@ -1,0 +1,1 @@
+Warning: date_timestamp_set() expects parameter 2 to be integer, array given in %s on line %d

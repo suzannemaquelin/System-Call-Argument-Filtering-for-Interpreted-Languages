@@ -1,0 +1,15 @@
+
+---- EXPECTED OUTPUT
+*** Test substituting argument 2 with object values ***
+bool(false)
+
+Warning: getservbyname() expects parameter 2 to be string, object given in %s.php on line %d
+NULL
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Test substituting argument 2 with object values ***
+bool(false)
+
+Warning: getservbyname() expects parameter 2 to be string, object given in /root/php-src/ext/standard/tests/general_functions/getservbyname_variation13.php on line 27
+NULL
+---- FAILED

@@ -1,0 +1,1 @@
+Warning: socket_send(): Length cannot be negative in %s on line %i

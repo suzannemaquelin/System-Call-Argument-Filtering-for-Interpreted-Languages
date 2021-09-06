@@ -1,0 +1,133 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_diff_uassoc() : usage variation ***
+
+--int 0--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--int 1--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--int 12345--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--int -12345--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--float 10.5--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--float -10.5--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--float 12.3456789000e10--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--float -12.3456789000e10--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--float .5--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--uppercase NULL--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--lowercase null--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--lowercase true--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--lowercase false--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--uppercase TRUE--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--uppercase FALSE--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--empty string DQ--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--empty string SQ--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--string DQ--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--string SQ--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--mixed case string--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--heredoc--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--instance of classWithToString--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--instance of classWithoutToString--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--undefined var--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--unset var--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+
+--resource--
+
+Warning: array_diff_uassoc(): Argument #1 is not an array in /root/php-src/ext/standard/tests/array/array_diff_uassoc_variation1.php on line 103
+NULL
+===DONE===

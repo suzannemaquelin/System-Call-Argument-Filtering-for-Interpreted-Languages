@@ -1,0 +1,39 @@
+
+---- EXPECTED OUTPUT
+*** Testing exif_imagetype() : error conditions ***
+
+-- Testing exif_imagetype() function with no arguments --
+
+Warning: exif_imagetype() expects exactly 1 parameter, 0 given in %s on line %d
+NULL
+
+-- Testing exif_imagetype() function with more than expected no. of arguments --
+
+Warning: exif_imagetype() expects exactly 1 parameter, 2 given in %s on line %d
+NULL
+
+-- Testing exif_imagetype() function with an unknown file  --
+
+Warning: exif_imagetype(%s/foo.jpg): failed to open stream: No such file or directory in %s on line %d
+bool(false)
+===Done===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing exif_imagetype() : error conditions ***
+
+-- Testing exif_imagetype() function with no arguments --
+
+Warning: exif_imagetype() expects exactly 1 parameter, 0 given in /root/php-src/ext/exif/tests/exif_imagetype_error.php on line 11
+NULL
+
+-- Testing exif_imagetype() function with more than expected no. of arguments --
+
+Warning: exif_imagetype() expects exactly 1 parameter, 2 given in /root/php-src/ext/exif/tests/exif_imagetype_error.php on line 15
+NULL
+
+-- Testing exif_imagetype() function with an unknown file  --
+
+Warning: exif_imagetype(/root/php-src/ext/exif/tests/foo.jpg): failed to open stream: No such file or directory in /root/php-src/ext/exif/tests/exif_imagetype_error.php on line 18
+bool(false)
+===Done===
+---- FAILED

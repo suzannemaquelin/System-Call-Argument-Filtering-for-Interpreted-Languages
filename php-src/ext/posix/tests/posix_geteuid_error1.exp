@@ -1,0 +1,13 @@
+*** Test by calling method or function with incorrect numbers of arguments ***
+
+Warning: posix_geteuid() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+
+Warning: posix_geteuid() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+
+Warning: posix_geteuid() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+
+Warning: posix_geteuid() expects exactly 0 parameters, 1 given in %s on line %d
+NULL

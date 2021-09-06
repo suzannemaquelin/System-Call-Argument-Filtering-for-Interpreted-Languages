@@ -1,0 +1,14 @@
+int(1)
+EXTR DEFAULT
+value: b
+int(2)
+EXTR_PRIORITY
+priority: 2
+EXTR_BOTH
+Array
+(
+    [data] => b
+    [priority] => 2
+)
+EXTR_DATA
+value: b

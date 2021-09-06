@@ -1,0 +1,41 @@
+
+---- EXPECTED OUTPUT
+array(2) {
+  [0]=>
+  object(obj2)#%d (1) {
+    ["ryat"]=>
+    int(1)
+  }
+  [1]=>
+  array(1) {
+    [0]=>
+    array(1) {
+      [0]=>
+      object(obj2)#%d (1) {
+        ["ryat"]=>
+        int(1)
+      }
+    }
+  }
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(2) {
+  [0]=>
+  object(obj2)#1 (1) {
+    ["ryat"]=>
+    int(1)
+  }
+  [1]=>
+  array(1) {
+    [0]=>
+    array(1) {
+      [0]=>
+      object(obj2)#1 (1) {
+        ["ryat"]=>
+        int(1)
+      }
+    }
+  }
+}
+---- FAILED

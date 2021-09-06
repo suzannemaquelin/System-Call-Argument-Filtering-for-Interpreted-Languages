@@ -1,0 +1,18 @@
+
+---- EXPECTED OUTPUT
+[Successful compilation of %s]
+prompt> [Breakpoint #0 added at bar::foo]
+prompt> [Breakpoint #0 in bar::foo() at %s:5, hits: 1]
+>00005: 		var_dump($bar);
+ 00006: 	}
+ 00007: }
+prompt>
+---- ACTUAL OUTPUT
+[Successful compilation of /root/php-src/sapi/phpdbg/tests/breakpoints_007.php]
+prompt> [Breakpoint #0 added at bar::foo]
+prompt> [Breakpoint #0 in bar::foo() at /root/php-src/sapi/phpdbg/tests/breakpoints_007.php:4, hits: 1]
+>00004: 	function foo($bar) {
+ 00005: 		var_dump($bar);
+ 00006: 	}
+prompt>
+---- FAILED

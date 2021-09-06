@@ -1,0 +1,93 @@
+
+---- EXPECTED OUTPUT
+DOMDocument Object
+(
+    [dynamicProperty] => stdClass Object
+        (
+        )
+
+    [doctype] => 
+    [implementation] => (object value omitted)
+    [documentElement] => (object value omitted)
+    [actualEncoding] => 
+    [encoding] => 
+    [xmlEncoding] => 
+    [standalone] => 1
+    [xmlStandalone] => 1
+    [version] => 1.0
+    [xmlVersion] => 1.0
+    [strictErrorChecking] => 1
+    [documentURI] => %s
+    [config] => 
+    [formatOutput] => 
+    [validateOnParse] => 
+    [resolveExternals] => 
+    [preserveWhiteSpace] => 1
+    [recover] => 
+    [substituteEntities] => 
+    [nodeName] => #document
+    [nodeValue] => 
+    [nodeType] => 9
+    [parentNode] => 
+    [childNodes] => (object value omitted)
+    [firstChild] => (object value omitted)
+    [lastChild] => (object value omitted)
+    [previousSibling] => 
+    [nextSibling] => 
+    [attributes] => 
+    [ownerDocument] => 
+    [namespaceURI] => 
+    [prefix] => 
+    [localName] => 
+    [baseURI] => %s
+    [textContent] => 
+	foobar
+
+)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+DOMDocument Object
+(
+    [dynamicProperty] => stdClass Object
+        (
+        )
+
+    [doctype] => 
+    [implementation] => (object value omitted)
+    [documentElement] => (object value omitted)
+    [actualEncoding] => 
+    [encoding] => 
+    [xmlEncoding] => 
+    [standalone] => 1
+    [xmlStandalone] => 1
+    [version] => 1.0
+    [xmlVersion] => 1.0
+    [strictErrorChecking] => 1
+    [documentURI] => /root/php-src/
+    [config] => 
+    [formatOutput] => 
+    [validateOnParse] => 
+    [resolveExternals] => 
+    [preserveWhiteSpace] => 1
+    [recover] => 
+    [substituteEntities] => 
+    [nodeName] => #document
+    [nodeValue] => 
+    [nodeType] => 9
+    [parentNode] => 
+    [childNodes] => (object value omitted)
+    [firstChild] => (object value omitted)
+    [lastChild] => (object value omitted)
+    [previousSibling] => 
+    [nextSibling] => 
+    [attributes] => 
+    [ownerDocument] => 
+    [namespaceURI] => 
+    [prefix] => 
+    [localName] => 
+    [baseURI] => /root/php-src/
+    [textContent] => 
+	foobar
+
+)
+---- FAILED

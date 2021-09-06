@@ -1,0 +1,4 @@
+Exception: Non-static method test::__call() cannot be called statically
+Done
+
+Fatal error: Non-static method test::__call() cannot be called statically in %s on line %d

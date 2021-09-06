@@ -1,0 +1,135 @@
+
+---- EXPECTED OUTPUT
+*** Testing getrusage() : usage variations ***
+
+-- Iteration 1 --
+User time used (microseconds) %d
+
+-- Iteration 2 --
+User time used (microseconds) %d
+
+-- Iteration 3 --
+User time used (microseconds) %d
+
+-- Iteration 4 --
+User time used (microseconds) %d
+
+-- Iteration 5 --
+User time used (microseconds) %d
+
+-- Iteration 6 --
+User time used (microseconds) %d
+
+-- Iteration 7 --
+User time used (microseconds) %d
+
+-- Iteration 8 --
+User time used (microseconds) %d
+
+-- Iteration 9 --
+User time used (microseconds) %d
+
+-- Iteration 10 --
+User time used (microseconds) %d
+
+-- Iteration 11 --
+User time used (microseconds) %d
+
+-- Iteration 12 --
+User time used (microseconds) %d
+
+-- Iteration 13 --
+User time used (microseconds) %d
+
+-- Iteration 14 --
+User time used (microseconds) %d
+
+-- Iteration 15 --
+User time used (microseconds) %d
+
+-- Iteration 16 --
+User time used (microseconds) %d
+
+-- Iteration 17 --
+User time used (microseconds) %d
+
+-- Iteration 18 --
+User time used (microseconds) %d
+
+-- Iteration 19 --
+User time used (microseconds) %d
+
+-- Iteration 20 --
+User time used (microseconds) %d
+
+-- Iteration 21 --
+User time used (microseconds) %d
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing getrusage() : usage variations ***
+
+-- Iteration 1 --
+User time used (microseconds) 22002
+
+-- Iteration 2 --
+User time used (microseconds) 0
+
+-- Iteration 3 --
+User time used (microseconds) 22002
+
+-- Iteration 4 --
+User time used (microseconds) 22002
+
+-- Iteration 5 --
+User time used (microseconds) 22002
+
+-- Iteration 6 --
+User time used (microseconds) 22002
+
+-- Iteration 7 --
+User time used (microseconds) 22002
+
+-- Iteration 8 --
+User time used (microseconds) 22002
+
+-- Iteration 9 --
+User time used (microseconds) 22002
+
+-- Iteration 10 --
+User time used (microseconds) 22002
+
+-- Iteration 11 --
+User time used (microseconds) 22002
+
+-- Iteration 12 --
+User time used (microseconds) 0
+
+-- Iteration 13 --
+User time used (microseconds) 22002
+
+-- Iteration 14 --
+User time used (microseconds) 0
+
+-- Iteration 15 --
+User time used (microseconds) 22002
+
+-- Iteration 16 --
+User time used (microseconds) 22002
+
+-- Iteration 17 --
+User time used (microseconds) 0
+
+-- Iteration 18 --
+User time used (microseconds) 22002
+
+-- Iteration 19 --
+User time used (microseconds) 22002
+
+-- Iteration 20 --
+User time used (microseconds) 22002
+
+-- Iteration 21 --
+User time used (microseconds) 22002
+===DONE===
+---- FAILED

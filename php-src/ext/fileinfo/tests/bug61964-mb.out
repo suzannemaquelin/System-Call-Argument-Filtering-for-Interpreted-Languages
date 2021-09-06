@@ -1,0 +1,27 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(false)
+resource(13) of type (file_info)
+resource(18) of type (file_info)
+bool(false)
+
+Notice: finfo_open(): Warning: offset `string' invalid in /root/php-src/ext/fileinfo/tests/bug61964-mb.php on line 30
+
+Notice: finfo_open(): Warning: offset ` Core' invalid in /root/php-src/ext/fileinfo/tests/bug61964-mb.php on line 30
+
+Notice: finfo_open(): Warning: type `Core' invalid in /root/php-src/ext/fileinfo/tests/bug61964-mb.php on line 30
+
+Notice: finfo_open(): Warning: offset ` Me' invalid in /root/php-src/ext/fileinfo/tests/bug61964-mb.php on line 30
+
+Notice: finfo_open(): Warning: type `Me' invalid in /root/php-src/ext/fileinfo/tests/bug61964-mb.php on line 30
+
+Notice: finfo_open(): Warning: offset `a' invalid in /root/php-src/ext/fileinfo/tests/bug61964-mb.php on line 30
+
+Notice: finfo_open(): Warning: type `a' invalid in /root/php-src/ext/fileinfo/tests/bug61964-mb.php on line 30
+
+Notice: finfo_open(): Warning: offset `b' invalid in /root/php-src/ext/fileinfo/tests/bug61964-mb.php on line 30
+
+Notice: finfo_open(): Warning: type `b' invalid in /root/php-src/ext/fileinfo/tests/bug61964-mb.php on line 30
+
+Warning: finfo_open(): Failed to load magic database at '/root/php-src/ext/fileinfo/tests/test-folder'. in /root/php-src/ext/fileinfo/tests/bug61964-mb.php on line 30
+DONE: testing dir with files
+===DONE===

@@ -1,0 +1,2 @@
+Warning: The magic method __invoke() must have public visibility and cannot be static in %s on line %d
+A

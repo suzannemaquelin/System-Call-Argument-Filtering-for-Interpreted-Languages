@@ -1,0 +1,34 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing readlink(): error conditions ***
+
+Warning: readlink() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/readlink_realpath_error.php on line 10
+NULL
+
+Warning: readlink() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/readlink_realpath_error.php on line 11
+NULL
+
+*** Testing readlink() on a non-existent link ***
+
+Warning: readlink(): No such file or directory in /root/php-src/ext/standard/tests/file/readlink_realpath_error.php on line 14
+bool(false)
+
+*** Testing readlink() on existing file ***
+
+Warning: readlink(): Invalid argument in /root/php-src/ext/standard/tests/file/readlink_realpath_error.php on line 17
+bool(false)
+
+*** Testing readlink() on existing directory ***
+
+Warning: readlink(): Invalid argument in /root/php-src/ext/standard/tests/file/readlink_realpath_error.php on line 20
+bool(false)
+*** Testing realpath(): error conditions ***
+
+Warning: realpath() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/readlink_realpath_error.php on line 23
+NULL
+
+Warning: realpath() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/file/readlink_realpath_error.php on line 24
+NULL
+
+*** Testing realpath() on a non-existent file ***
+bool(false)
+Done

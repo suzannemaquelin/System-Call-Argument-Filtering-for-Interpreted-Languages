@@ -1,0 +1,31 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Reflecting on class pubf: 
+  --> Check for s: bool(true)
+  --> Check for a: bool(true)
+  --> Check for A: bool(false)
+  --> Check for doesntExist: bool(false)
+Reflecting on class subpubf: 
+  --> Check for s: bool(true)
+  --> Check for a: bool(true)
+  --> Check for A: bool(false)
+  --> Check for doesntExist: bool(false)
+Reflecting on class protf: 
+  --> Check for s: bool(true)
+  --> Check for a: bool(true)
+  --> Check for A: bool(false)
+  --> Check for doesntExist: bool(false)
+Reflecting on class subprotf: 
+  --> Check for s: bool(true)
+  --> Check for a: bool(true)
+  --> Check for A: bool(false)
+  --> Check for doesntExist: bool(false)
+Reflecting on class privf: 
+  --> Check for s: bool(true)
+  --> Check for a: bool(true)
+  --> Check for A: bool(false)
+  --> Check for doesntExist: bool(false)
+Reflecting on class subprivf: 
+  --> Check for s: bool(true)
+  --> Check for a: bool(false)
+  --> Check for A: bool(false)
+  --> Check for doesntExist: bool(false)

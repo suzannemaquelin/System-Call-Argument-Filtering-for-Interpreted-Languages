@@ -1,0 +1,57 @@
+
+---- EXPECTED OUTPUT
+*** Testing idate() : usage variation ***
+
+--Internet Time--
+int(%d)
+
+--12 hour format--
+int(%d)
+
+--24 hour format--
+int(%d)
+
+--Minutes--
+int(%d)
+
+--DST Activated--
+int(%d)
+
+--Seconds--
+int(%d)
+
+--Seconds since Unix Epoch--
+int(%d)
+
+--Time zone offset--
+int(%d)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing idate() : usage variation ***
+
+--Internet Time--
+int(628)
+
+--12 hour format--
+int(7)
+
+--24 hour format--
+int(19)
+
+--Minutes--
+int(35)
+
+--DST Activated--
+int(0)
+
+--Seconds--
+int(2)
+
+--Seconds since Unix Epoch--
+int(1652018702)
+
+--Time zone offset--
+int(19800)
+===DONE===
+---- FAILED

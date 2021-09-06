@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught Exception: DatePeriod::__construct(): This constructor accepts either (DateTimeInterface, DateInterval, int) OR (DateTimeInterface, DateInterval, DateTime) OR (string) as arguments. in %s:%d
+Stack trace:
+#0 %s(%d): DatePeriod->__construct()
+#1 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Exception: DatePeriod::__construct(): This constructor accepts either (DateTimeInterface, DateInterval, int) OR (DateTimeInterface, DateInterval, DateTime) OR (string) as arguments. in /root/php-src/ext/date/tests/DatePeriod_wrong_constructor.php:2
+Stack trace:
+#0 /root/php-src/ext/date/tests/DatePeriod_wrong_constructor.php(2): DatePeriod->__construct()
+#1 {main}
+  thrown in /root/php-src/ext/date/tests/DatePeriod_wrong_constructor.php on line 2
+---- FAILED

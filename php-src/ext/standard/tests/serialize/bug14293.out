@@ -1,0 +1,11 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+__sleep called
+
+Notice: serialize(): "b" returned as member variable from __sleep() but does not exist in /root/php-src/ext/standard/tests/serialize/bug14293.php on line 17
+O:1:"t":2:{s:1:"a";s:5:"hello";s:1:"b";N;}
+object(t)#2 (2) {
+  ["a"]=>
+  string(5) "hello"
+  ["b"]=>
+  NULL
+}

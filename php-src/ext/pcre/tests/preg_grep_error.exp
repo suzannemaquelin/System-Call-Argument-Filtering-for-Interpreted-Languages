@@ -1,0 +1,17 @@
+*** Testing preg_grep() : error conditions ***
+
+-- Testing preg_grep() function with Zero arguments --
+
+Warning: preg_grep() expects at least 2 parameters, 0 given in %spreg_grep_error.php on line %d
+NULL
+
+-- Testing preg_grep() function with more than expected no. of arguments --
+
+Warning: preg_grep() expects at most 3 parameters, 4 given in %spreg_grep_error.php on line %d
+NULL
+
+-- Testing preg_grep() function with less than expected no. of arguments --
+
+Warning: preg_grep() expects at least 2 parameters, 1 given in %spreg_grep_error.php on line %d
+NULL
+Done

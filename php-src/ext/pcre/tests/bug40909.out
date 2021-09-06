@@ -1,0 +1,19 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(1)
+array(3) {
+  [0]=>
+  array(1) {
+    [0]=>
+    string(33) " an_attribute="simpleValueInside""
+  }
+  [1]=>
+  array(1) {
+    [0]=>
+    string(12) "an_attribute"
+  }
+  [2]=>
+  array(1) {
+    [0]=>
+    string(19) ""simpleValueInside""
+  }
+}

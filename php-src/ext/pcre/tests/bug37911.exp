@@ -1,0 +1,21 @@
+array(3) {
+  [0]=>
+  string(4) "blub"
+  ["name"]=>
+  string(4) "blub"
+  [1]=>
+  string(4) "blub"
+}
+string(15) "bla blub/4 blah"
+int(1)
+array(3) {
+  [0]=>
+  string(4) "blub"
+  ["name"]=>
+  string(4) "blub"
+  [1]=>
+  string(4) "blub"
+}
+
+Warning: preg_replace_callback(): Compilation failed: group name must start with a non-digit at offset %d in %sbug37911.php on line %d
+NULL

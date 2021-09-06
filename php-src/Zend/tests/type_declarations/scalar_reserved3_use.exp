@@ -1,0 +1,1 @@
+Fatal error: Cannot use foobar as float because 'float' is a special class name in %s on line %d

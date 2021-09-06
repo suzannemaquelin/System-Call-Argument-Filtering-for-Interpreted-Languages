@@ -1,0 +1,20 @@
+
+---- EXPECTED OUTPUT
+Notice: serialize(): "b" is returned from __sleep multiple times in %sbug71995.php on line %d
+string(39) "O:1:"A":1:{s:1:"b";O:8:"stdClass":0:{}}"
+object(A)#%d (1) {
+  ["b"]=>
+  object(stdClass)#%d (0) {
+  }
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: serialize(): "b" is returned from __sleep multiple times in /root/php-src/ext/standard/tests/serialize/bug71995.php on line 13
+string(39) "O:1:"A":1:{s:1:"b";O:8:"stdClass":0:{}}"
+object(A)#3 (1) {
+  ["b"]=>
+  object(stdClass)#4 (0) {
+  }
+}
+---- FAILED

@@ -1,0 +1,21 @@
+Valid move
+bool(true)
+bool(true)
+
+Original name of uploaded file
+bool(false)
+Non-uploaded source file
+bool(false)
+Valid move to existing file
+bool(true)
+Wrong parameters
+
+Warning: move_uploaded_file() expects exactly 2 parameters, 0 given in /root/php-src/ext/standard/tests/file/move_uploaded_file_basic.php on line 30
+NULL
+
+Warning: move_uploaded_file() expects exactly 2 parameters, 3 given in /root/php-src/ext/standard/tests/file/move_uploaded_file_basic.php on line 31
+NULL
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so: cannot open shared object file: No such file or directory in Unknown on line 0

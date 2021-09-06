@@ -1,0 +1,49 @@
+
+---- EXPECTED OUTPUT
+Array
+(
+    [FileName] => bug68799.jpg
+    [FileDateTime] => %d
+    [FileSize] => 735
+    [FileType] => 2
+    [MimeType] => image/jpeg
+    [SectionsFound] => ANY_TAG, IFD0, WINXP
+    [COMPUTED] => Array
+        (
+            [html] => width="1" height="1"
+            [Height] => 1
+            [Width] => 1
+            [IsColor] => 1
+            [ByteOrderMotorola] => 1
+        )
+
+    [XResolution] => 96/1
+    [YResolution] => 96/1
+    [ResolutionUnit] => 2
+    [Author] => 
+)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Array
+(
+    [FileName] => bug68799.jpg
+    [FileDateTime] => 1559029359
+    [FileSize] => 735
+    [FileType] => 2
+    [MimeType] => image/jpeg
+    [SectionsFound] => ANY_TAG, IFD0, WINXP
+    [COMPUTED] => Array
+        (
+            [html] => width="1" height="1"
+            [Height] => 1
+            [Width] => 1
+            [IsColor] => 1
+            [ByteOrderMotorola] => 1
+        )
+
+    [XResolution] => 96/1
+    [YResolution] => 96/1
+    [ResolutionUnit] => 2
+    [Author] => 
+)
+---- FAILED

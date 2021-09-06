@@ -1,0 +1,12 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing php_uname() - basic test
+string(88) "Linux 8a42d42cec47 5.4.0-107-generic #121-Ubuntu SMP Thu Mar 24 16:04:27 UTC 2022 x86_64"
+
+-- Try all the defined mode's --
+string(88) "Linux 8a42d42cec47 5.4.0-107-generic #121-Ubuntu SMP Thu Mar 24 16:04:27 UTC 2022 x86_64"
+string(5) "Linux"
+string(12) "8a42d42cec47"
+string(17) "5.4.0-107-generic"
+string(44) "#121-Ubuntu SMP Thu Mar 24 16:04:27 UTC 2022"
+string(6) "x86_64"
+===DONE===

@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+Non-static method A::A_ftk() should not be called statically
+1 %sbug38047.php:13 get_error_context()
+2 %sbug38047.php:36 kalus_error_handler()
+
+
+Fatal error: Uncaught ArgumentCountError: Too few arguments to function A::A_ftk(), 0 passed in %sbug38047.php on line 36 and exactly 1 expected in %sbug38047.php:7
+Stack trace:
+#0 %sbug38047.php(36): A::A_ftk()
+#1 {main}
+  thrown in %sbug38047.php on line 7
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Non-static method A::A_ftk() should not be called statically
+1 /root/php-src/Zend/tests/bug38047.php:13 get_error_context()
+2 /root/php-src/Zend/tests/bug38047.php:36 kalus_error_handler()
+
+
+Fatal error: Uncaught ArgumentCountError: Too few arguments to function A::A_ftk(), 0 passed in /root/php-src/Zend/tests/bug38047.php on line 36 and exactly 1 expected in /root/php-src/Zend/tests/bug38047.php:7
+Stack trace:
+#0 /root/php-src/Zend/tests/bug38047.php(36): A::A_ftk()
+#1 {main}
+  thrown in /root/php-src/Zend/tests/bug38047.php on line 7
+---- FAILED

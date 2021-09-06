@@ -1,0 +1,203 @@
+
+---- EXPECTED OUTPUT
+*** Testing mb_stristr() : usage variation ***
+
+--int 0--
+string(8) "5f76616c"
+
+--int 1--
+string(12) "737472696e67"
+
+--int 12345--
+string(12) "737472696e67"
+
+--int -12345--
+string(12) "737472696e67"
+
+--float 10.5--
+string(12) "737472696e67"
+
+--float -10.5--
+string(12) "737472696e67"
+
+--float 12.3456789000e10--
+string(12) "737472696e67"
+
+--float -12.3456789000e10--
+string(12) "737472696e67"
+
+--float .5--
+string(12) "737472696e67"
+
+--empty array--
+Error: 2 - mb_stristr() expects parameter 3 to be boolean, array given, %s(%d)
+NULL
+
+--int indexed array--
+Error: 2 - mb_stristr() expects parameter 3 to be boolean, array given, %s(%d)
+NULL
+
+--associative array--
+Error: 2 - mb_stristr() expects parameter 3 to be boolean, array given, %s(%d)
+NULL
+
+--nested arrays--
+Error: 2 - mb_stristr() expects parameter 3 to be boolean, array given, %s(%d)
+NULL
+
+--uppercase NULL--
+string(8) "5f76616c"
+
+--lowercase null--
+string(8) "5f76616c"
+
+--lowercase true--
+string(12) "737472696e67"
+
+--lowercase false--
+string(8) "5f76616c"
+
+--uppercase TRUE--
+string(12) "737472696e67"
+
+--uppercase FALSE--
+string(8) "5f76616c"
+
+--empty string DQ--
+string(8) "5f76616c"
+
+--empty string SQ--
+string(8) "5f76616c"
+
+--string DQ--
+string(12) "737472696e67"
+
+--string SQ--
+string(12) "737472696e67"
+
+--mixed case string--
+string(12) "737472696e67"
+
+--heredoc--
+string(12) "737472696e67"
+
+--instance of classWithToString--
+Error: 2 - mb_stristr() expects parameter 3 to be boolean, object given, %s(%d)
+NULL
+
+--instance of classWithoutToString--
+Error: 2 - mb_stristr() expects parameter 3 to be boolean, object given, %s(%d)
+NULL
+
+--undefined var--
+string(8) "5f76616c"
+
+--unset var--
+string(8) "5f76616c"
+
+--resource--
+Error: 2 - mb_stristr() expects parameter 3 to be boolean, resource given, %s(%d)
+NULL
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_stristr() : usage variation ***
+
+--int 0--
+string(8) "5f76616c"
+
+--int 1--
+string(12) "737472696e67"
+
+--int 12345--
+string(12) "737472696e67"
+
+--int -12345--
+string(12) "737472696e67"
+
+--float 10.5--
+string(12) "737472696e67"
+
+--float -10.5--
+string(12) "737472696e67"
+
+--float 12.3456789000e10--
+string(12) "737472696e67"
+
+--float -12.3456789000e10--
+string(12) "737472696e67"
+
+--float .5--
+string(12) "737472696e67"
+
+--empty array--
+Error: 2 - mb_stristr() expects parameter 3 to be boolean, array given, /root/php-src/ext/mbstring/tests/mb_stristr_variation3.php(112)
+NULL
+
+--int indexed array--
+Error: 2 - mb_stristr() expects parameter 3 to be boolean, array given, /root/php-src/ext/mbstring/tests/mb_stristr_variation3.php(112)
+NULL
+
+--associative array--
+Error: 2 - mb_stristr() expects parameter 3 to be boolean, array given, /root/php-src/ext/mbstring/tests/mb_stristr_variation3.php(112)
+NULL
+
+--nested arrays--
+Error: 2 - mb_stristr() expects parameter 3 to be boolean, array given, /root/php-src/ext/mbstring/tests/mb_stristr_variation3.php(112)
+NULL
+
+--uppercase NULL--
+string(8) "5f76616c"
+
+--lowercase null--
+string(8) "5f76616c"
+
+--lowercase true--
+string(12) "737472696e67"
+
+--lowercase false--
+string(8) "5f76616c"
+
+--uppercase TRUE--
+string(12) "737472696e67"
+
+--uppercase FALSE--
+string(8) "5f76616c"
+
+--empty string DQ--
+string(8) "5f76616c"
+
+--empty string SQ--
+string(8) "5f76616c"
+
+--string DQ--
+string(12) "737472696e67"
+
+--string SQ--
+string(12) "737472696e67"
+
+--mixed case string--
+string(12) "737472696e67"
+
+--heredoc--
+string(12) "737472696e67"
+
+--instance of classWithToString--
+Error: 2 - mb_stristr() expects parameter 3 to be boolean, object given, /root/php-src/ext/mbstring/tests/mb_stristr_variation3.php(112)
+NULL
+
+--instance of classWithoutToString--
+Error: 2 - mb_stristr() expects parameter 3 to be boolean, object given, /root/php-src/ext/mbstring/tests/mb_stristr_variation3.php(112)
+NULL
+
+--undefined var--
+string(8) "5f76616c"
+
+--unset var--
+string(8) "5f76616c"
+
+--resource--
+Error: 2 - mb_stristr() expects parameter 3 to be boolean, resource given, /root/php-src/ext/mbstring/tests/mb_stristr_variation3.php(112)
+NULL
+===DONE===
+---- FAILED

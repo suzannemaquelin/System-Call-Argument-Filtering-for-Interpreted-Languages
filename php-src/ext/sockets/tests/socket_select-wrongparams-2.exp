@@ -1,0 +1,4 @@
+Warning: socket_select(): no resource arrays were passed to select in %s on line %d
+bool(false)
+
+Warning: socket_select() expects at least 4 parameters, 3 given in %s on line %d

@@ -1,0 +1,1 @@
+Fatal error: Access level to fail::f0() must be public (as in class same) in %s on line %d

@@ -1,0 +1,12 @@
+NULL
+string(15) "nonexistent.xsd"
+array(4) {
+  ["directory"]=>
+  NULL
+  ["intSubName"]=>
+  NULL
+  ["extSubURI"]=>
+  NULL
+  ["extSubSystem"]=>
+  NULL
+}

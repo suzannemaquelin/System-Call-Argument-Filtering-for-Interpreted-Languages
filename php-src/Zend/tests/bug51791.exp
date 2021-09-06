@@ -1,0 +1,2 @@
+Warning: constant(): Couldn't find constant A::B1 in %s on line %d
+NULL

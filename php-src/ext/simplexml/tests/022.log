@@ -1,0 +1,69 @@
+
+---- EXPECTED OUTPUT
+===CONTENT===
+object(SimpleXMLElement)#%d (1) {
+  ["file"]=>
+  object(SimpleXMLElement)#%d (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["glob"]=>
+      string(11) "slide_*.xml"
+    }
+  }
+}
+===FILE===
+object(SimpleXMLElement)#%d (1) {
+  ["@attributes"]=>
+  array(1) {
+    ["glob"]=>
+    string(11) "slide_*.xml"
+  }
+}
+===FOREACH===
+object(SimpleXMLElement)#%d (1) {
+  ["@attributes"]=>
+  array(1) {
+    ["glob"]=>
+    string(11) "slide_*.xml"
+  }
+}
+object(SimpleXMLElement)#%d (1) {
+  [0]=>
+  string(11) "slide_*.xml"
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+===CONTENT===
+object(SimpleXMLElement)#2 (1) {
+  ["file"]=>
+  object(SimpleXMLElement)#4 (1) {
+    ["@attributes"]=>
+    array(1) {
+      ["glob"]=>
+      string(11) "slide_*.xml"
+    }
+  }
+}
+===FILE===
+object(SimpleXMLElement)#4 (1) {
+  ["@attributes"]=>
+  array(1) {
+    ["glob"]=>
+    string(11) "slide_*.xml"
+  }
+}
+===FOREACH===
+object(SimpleXMLElement)#2 (1) {
+  ["@attributes"]=>
+  array(1) {
+    ["glob"]=>
+    string(11) "slide_*.xml"
+  }
+}
+object(SimpleXMLElement)#5 (1) {
+  [0]=>
+  string(11) "slide_*.xml"
+}
+===DONE===
+---- FAILED

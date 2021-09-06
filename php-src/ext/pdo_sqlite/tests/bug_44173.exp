@@ -1,0 +1,20 @@
+Warning: PDO::query() expects at least 1 parameter, 0 given in %s
+bool(false)
+
+Warning: PDO::query(): SQLSTATE[HY000]: General error: fetch mode doesn't allow any extra arguments in %s
+bool(false)
+
+Warning: PDO::query(): SQLSTATE[HY000]: General error: mode must be an integer in %s
+bool(false)
+
+Warning: PDO::query(): SQLSTATE[HY000]: General error: too many arguments in %s
+bool(false)
+
+Warning: PDO::query(): SQLSTATE[HY000]: General error: fetch mode requires the object parameter in %s
+bool(false)
+
+Warning: PDO::query(): SQLSTATE[HY000]: General error: fetch mode requires the colno argument in %s
+bool(false)
+
+Warning: PDO::query(): SQLSTATE[HY000]: General error: fetch mode requires the classname argument in %s
+bool(false)

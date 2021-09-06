@@ -1,0 +1,2 @@
+Warning: socket_select(): unable to select [%d]: Invalid argument in %s on line %d
+bool(false)

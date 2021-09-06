@@ -1,0 +1,43 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Testing class base
+base::__construct
+base Object
+(
+    [name] => base
+)
+base::__destruct
+base Object
+(
+    [name] => base
+)
+Testing class derived
+derived Object
+(
+    [other] => other
+    [name] => init
+)
+base::__construct
+derived Object
+(
+    [other] => other
+    [name] => base
+)
+derived::__construct
+derived Object
+(
+    [other] => other
+    [name] => derived
+)
+base::__destruct
+derived Object
+(
+    [other] => other
+    [name] => derived
+)
+derived::__destruct
+derived Object
+(
+    [other] => other
+    [name] => derived
+)
+Done

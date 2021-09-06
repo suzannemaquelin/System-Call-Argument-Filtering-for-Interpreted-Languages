@@ -1,0 +1,8 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Error: Invalid serialization data for DatePeriod object in /root/php-src/ext/date/tests/bug53437_var1.php:4
+Stack trace:
+#0 [internal function]: DatePeriod->__wakeup()
+#1 /root/php-src/ext/date/tests/bug53437_var1.php(4): unserialize('O:10:"DatePerio...')
+#2 {main}
+  thrown in /root/php-src/ext/date/tests/bug53437_var1.php on line 4

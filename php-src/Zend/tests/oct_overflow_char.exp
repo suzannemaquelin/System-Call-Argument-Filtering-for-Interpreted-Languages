@@ -1,0 +1,2 @@
+Warning: Octal escape sequence overflow \542 is greater than \377 in %s%eoct_overflow_char.php on line 4
+abc

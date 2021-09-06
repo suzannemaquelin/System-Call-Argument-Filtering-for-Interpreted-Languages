@@ -1,0 +1,361 @@
+
+---- EXPECTED OUTPUT
+*** Testing scandir() : usage variations ***
+
+-- Iteration 1 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 2 --
+array(2) {
+  [0]=>
+  string(2) ".."
+  [1]=>
+  string(1) "."
+}
+
+-- Iteration 3 --
+array(2) {
+  [0]=>
+  string(2) ".."
+  [1]=>
+  string(1) "."
+}
+
+-- Iteration 4 --
+array(2) {
+  [0]=>
+  string(2) ".."
+  [1]=>
+  string(1) "."
+}
+
+-- Iteration 5 --
+array(2) {
+  [0]=>
+  string(2) ".."
+  [1]=>
+  string(1) "."
+}
+
+-- Iteration 6 --
+array(2) {
+  [0]=>
+  string(2) ".."
+  [1]=>
+  string(1) "."
+}
+
+-- Iteration 7 --
+array(2) {
+  [0]=>
+  string(2) ".."
+  [1]=>
+  string(1) "."
+}
+
+-- Iteration 8 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 9 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 10 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 11 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 12 --
+array(2) {
+  [0]=>
+  string(2) ".."
+  [1]=>
+  string(1) "."
+}
+
+-- Iteration 13 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 14 --
+array(2) {
+  [0]=>
+  string(2) ".."
+  [1]=>
+  string(1) "."
+}
+
+-- Iteration 15 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 16 --
+
+Warning: scandir() expects parameter 2 to be integer, string given in %s on line %d
+NULL
+
+-- Iteration 17 --
+
+Warning: scandir() expects parameter 2 to be integer, string given in %s on line %d
+NULL
+
+-- Iteration 18 --
+
+Warning: scandir() expects parameter 2 to be integer, array given in %s on line %d
+NULL
+
+-- Iteration 19 --
+
+Warning: scandir() expects parameter 2 to be integer, string given in %s on line %d
+NULL
+
+-- Iteration 20 --
+
+Warning: scandir() expects parameter 2 to be integer, string given in %s on line %d
+NULL
+
+-- Iteration 21 --
+
+Warning: scandir() expects parameter 2 to be integer, string given in %s on line %d
+NULL
+
+-- Iteration 22 --
+
+Warning: scandir() expects parameter 2 to be integer, object given in %s on line %d
+NULL
+
+-- Iteration 23 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 24 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 25 --
+
+Warning: scandir() expects parameter 2 to be integer, resource given in %s on line %d
+NULL
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing scandir() : usage variations ***
+
+-- Iteration 1 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 2 --
+array(2) {
+  [0]=>
+  string(2) ".."
+  [1]=>
+  string(1) "."
+}
+
+-- Iteration 3 --
+array(2) {
+  [0]=>
+  string(2) ".."
+  [1]=>
+  string(1) "."
+}
+
+-- Iteration 4 --
+array(2) {
+  [0]=>
+  string(2) ".."
+  [1]=>
+  string(1) "."
+}
+
+-- Iteration 5 --
+array(2) {
+  [0]=>
+  string(2) ".."
+  [1]=>
+  string(1) "."
+}
+
+-- Iteration 6 --
+array(2) {
+  [0]=>
+  string(2) ".."
+  [1]=>
+  string(1) "."
+}
+
+-- Iteration 7 --
+array(2) {
+  [0]=>
+  string(2) ".."
+  [1]=>
+  string(1) "."
+}
+
+-- Iteration 8 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 9 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 10 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 11 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 12 --
+array(2) {
+  [0]=>
+  string(2) ".."
+  [1]=>
+  string(1) "."
+}
+
+-- Iteration 13 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 14 --
+array(2) {
+  [0]=>
+  string(2) ".."
+  [1]=>
+  string(1) "."
+}
+
+-- Iteration 15 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 16 --
+
+Warning: scandir() expects parameter 2 to be integer, string given in /root/php-src/ext/standard/tests/dir/scandir_variation2.php on line 90
+NULL
+
+-- Iteration 17 --
+
+Warning: scandir() expects parameter 2 to be integer, string given in /root/php-src/ext/standard/tests/dir/scandir_variation2.php on line 90
+NULL
+
+-- Iteration 18 --
+
+Warning: scandir() expects parameter 2 to be integer, array given in /root/php-src/ext/standard/tests/dir/scandir_variation2.php on line 90
+NULL
+
+-- Iteration 19 --
+
+Warning: scandir() expects parameter 2 to be integer, string given in /root/php-src/ext/standard/tests/dir/scandir_variation2.php on line 90
+NULL
+
+-- Iteration 20 --
+
+Warning: scandir() expects parameter 2 to be integer, string given in /root/php-src/ext/standard/tests/dir/scandir_variation2.php on line 90
+NULL
+
+-- Iteration 21 --
+
+Warning: scandir() expects parameter 2 to be integer, string given in /root/php-src/ext/standard/tests/dir/scandir_variation2.php on line 90
+NULL
+
+-- Iteration 22 --
+
+Warning: scandir() expects parameter 2 to be integer, object given in /root/php-src/ext/standard/tests/dir/scandir_variation2.php on line 90
+NULL
+
+-- Iteration 23 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 24 --
+array(2) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+}
+
+-- Iteration 25 --
+
+Warning: scandir() expects parameter 2 to be integer, resource given in /root/php-src/ext/standard/tests/dir/scandir_variation2.php on line 90
+NULL
+===DONE===
+---- FAILED

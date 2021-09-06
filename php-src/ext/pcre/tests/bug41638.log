@@ -1,0 +1,133 @@
+
+---- EXPECTED OUTPUT
+Array
+(
+    [0] => Array
+        (
+            [0] => 'loopt'
+        )
+
+    [1] => Array
+        (
+            [0] => '
+        )
+
+    [2] => Array
+        (
+            [0] => loopt
+        )
+
+    [3] => Array
+        (
+            [0] => t
+        )
+
+    [4] => Array
+        (
+            [0] => 
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [0] => 'loopt'
+        )
+
+    [1] => Array
+        (
+            [0] => '
+        )
+
+    [2] => Array
+        (
+            [0] => loopt
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [0] => 'loopt'
+        )
+
+    [1] => Array
+        (
+            [0] => '
+        )
+
+    [2] => Array
+        (
+            [0] => loopt
+        )
+
+)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Array
+(
+    [0] => Array
+        (
+            [0] => 'loopt'
+        )
+
+    [1] => Array
+        (
+            [0] => '
+        )
+
+    [2] => Array
+        (
+            [0] => loopt
+        )
+
+    [3] => Array
+        (
+            [0] => t
+        )
+
+    [4] => Array
+        (
+            [0] => 
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [0] => 'loopt'
+        )
+
+    [1] => Array
+        (
+            [0] => '
+        )
+
+    [2] => Array
+        (
+            [0] => loopt
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [0] => 'loopt'
+        )
+
+    [1] => Array
+        (
+            [0] => '
+        )
+
+    [2] => Array
+        (
+            [0] => loopt
+        )
+
+)
+---- FAILED

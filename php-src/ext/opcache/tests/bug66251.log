@@ -1,0 +1,7 @@
+
+---- EXPECTED OUTPUT
+Notice: Use of undefined constant A - assumed 'A' in %sbug66251.php on line 4
+A=A
+---- ACTUAL OUTPUT
+A=hello
+---- FAILED

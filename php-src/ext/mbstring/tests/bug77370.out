@@ -1,0 +1,4 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: mb_split(): Pattern is not valid under UTF-8 encoding in /root/php-src/ext/mbstring/tests/bug77370.php on line 2
+bool(false)

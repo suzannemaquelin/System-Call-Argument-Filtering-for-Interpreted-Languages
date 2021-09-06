@@ -1,0 +1,10 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Error: Error message in /root/php-src/Zend/tests/throwable_001.php:2
+Stack trace:
+#0 {main}
+
+Next Exception: Exception message in /root/php-src/Zend/tests/throwable_001.php:2
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/Zend/tests/throwable_001.php on line 2

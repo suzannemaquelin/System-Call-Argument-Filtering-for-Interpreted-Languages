@@ -1,0 +1,31 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: Cannot add element to the array as the next element is already occupied in /root/php-src/Zend/tests/assign_dim_obj_null_return.php on line 7
+NULL
+
+Warning: Illegal offset type in /root/php-src/Zend/tests/assign_dim_obj_null_return.php on line 8
+NULL
+
+Warning: Illegal offset type in /root/php-src/Zend/tests/assign_dim_obj_null_return.php on line 9
+NULL
+
+Warning: Cannot use a scalar value as an array in /root/php-src/Zend/tests/assign_dim_obj_null_return.php on line 10
+NULL
+
+Warning: Cannot add element to the array as the next element is already occupied in /root/php-src/Zend/tests/assign_dim_obj_null_return.php on line 12
+NULL
+
+Warning: Illegal offset type in /root/php-src/Zend/tests/assign_dim_obj_null_return.php on line 13
+NULL
+
+Warning: Illegal offset type in /root/php-src/Zend/tests/assign_dim_obj_null_return.php on line 14
+NULL
+
+Warning: Cannot use a scalar value as an array in /root/php-src/Zend/tests/assign_dim_obj_null_return.php on line 15
+NULL
+
+Warning: Attempt to assign property of non-object in /root/php-src/Zend/tests/assign_dim_obj_null_return.php on line 17
+NULL
+
+Warning: Attempt to assign property of non-object in /root/php-src/Zend/tests/assign_dim_obj_null_return.php on line 18
+NULL

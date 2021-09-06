@@ -1,0 +1,2 @@
+Notice: unserialize(): Error at offset 11 of 19 bytes in %sbug71840.php on line %d
+bool(false)

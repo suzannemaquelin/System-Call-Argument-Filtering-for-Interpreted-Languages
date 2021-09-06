@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+*** Testing scandir() : error conditions ***
+
+-- Testing scandir() function with Zero arguments --
+
+Warning: scandir() expects at least 1 parameter, 0 given in %s on line %d
+NULL
+
+-- Testing scandir() function with more than expected no. of arguments --
+
+Warning: scandir() expects at most 3 parameters, 4 given in %s on line %d
+NULL
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing scandir() : error conditions ***
+
+-- Testing scandir() function with Zero arguments --
+
+Warning: scandir() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/dir/scandir_error1.php on line 15
+NULL
+
+-- Testing scandir() function with more than expected no. of arguments --
+
+Warning: scandir() expects at most 3 parameters, 4 given in /root/php-src/ext/standard/tests/dir/scandir_error1.php on line 24
+NULL
+===DONE===
+---- FAILED

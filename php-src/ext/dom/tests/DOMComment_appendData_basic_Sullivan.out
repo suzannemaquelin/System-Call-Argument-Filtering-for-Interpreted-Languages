@@ -1,0 +1,7 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Comment Length (one append): 4
+Comment Length (two appends): 8
+Comment Content: data><&"
+
+<?xml version="1.0"?>
+<root><comment><!--data><&"--></comment></root>

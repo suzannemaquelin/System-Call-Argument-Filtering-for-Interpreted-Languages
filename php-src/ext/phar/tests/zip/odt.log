@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+phar://%sodt.odt/Configurations2/accelerator%ccurrent.xml
+phar://%sodt.odt/META-INF%cmanifest.xml
+phar://%sodt.odt/Thumbnails%cthumbnail.png
+phar://%sodt.odt%ccontent.xml
+phar://%sodt.odt%cmeta.xml
+phar://%sodt.odt%cmimetype
+phar://%sodt.odt%csettings.xml
+phar://%sodt.odt%cstyles.xml
+Cannot create phar '%sodt.odt', file extension (or combination) not recognised or the directory does not exist
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+phar:///root/php-src/ext/phar/tests/zip/files/odt.odt/Configurations2/accelerator/current.xml
+phar:///root/php-src/ext/phar/tests/zip/files/odt.odt/META-INF/manifest.xml
+phar:///root/php-src/ext/phar/tests/zip/files/odt.odt/Thumbnails/thumbnail.png
+phar:///root/php-src/ext/phar/tests/zip/files/odt.odt/content.xml
+phar:///root/php-src/ext/phar/tests/zip/files/odt.odt/meta.xml
+phar:///root/php-src/ext/phar/tests/zip/files/odt.odt/mimetype
+phar:///root/php-src/ext/phar/tests/zip/files/odt.odt/settings.xml
+phar:///root/php-src/ext/phar/tests/zip/files/odt.odt/styles.xml
+Cannot create phar '/root/php-src/ext/phar/tests/zip/files/odt.odt', file extension (or combination) not recognised or the directory does not exist
+===DONE===
+---- FAILED

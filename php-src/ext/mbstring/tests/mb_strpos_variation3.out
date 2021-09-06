@@ -1,0 +1,103 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_strpos() : usage variations ***
+
+-- Iteration 1 --
+int(8)
+
+-- Iteration 2 --
+int(8)
+
+-- Iteration 3 --
+
+Warning: mb_strpos(): Offset not contained in string in /root/php-src/ext/mbstring/tests/mb_strpos_variation3.php on line 92
+bool(false)
+
+-- Iteration 4 --
+int(8)
+
+-- Iteration 5 --
+
+Warning: mb_strpos(): Offset not contained in string in /root/php-src/ext/mbstring/tests/mb_strpos_variation3.php on line 92
+bool(false)
+
+-- Iteration 6 --
+bool(false)
+
+-- Iteration 7 --
+int(8)
+
+-- Iteration 8 --
+
+Warning: mb_strpos(): Offset not contained in string in /root/php-src/ext/mbstring/tests/mb_strpos_variation3.php on line 92
+bool(false)
+
+-- Iteration 9 --
+
+Warning: mb_strpos(): Offset not contained in string in /root/php-src/ext/mbstring/tests/mb_strpos_variation3.php on line 92
+bool(false)
+
+-- Iteration 10 --
+int(8)
+
+-- Iteration 11 --
+int(8)
+
+-- Iteration 12 --
+int(8)
+
+-- Iteration 13 --
+int(8)
+
+-- Iteration 14 --
+int(8)
+
+-- Iteration 15 --
+int(8)
+
+-- Iteration 16 --
+int(8)
+
+-- Iteration 17 --
+int(8)
+
+-- Iteration 18 --
+
+Warning: mb_strpos() expects parameter 3 to be integer, string given in /root/php-src/ext/mbstring/tests/mb_strpos_variation3.php on line 92
+NULL
+
+-- Iteration 19 --
+
+Warning: mb_strpos() expects parameter 3 to be integer, string given in /root/php-src/ext/mbstring/tests/mb_strpos_variation3.php on line 92
+NULL
+
+-- Iteration 20 --
+
+Warning: mb_strpos() expects parameter 3 to be integer, string given in /root/php-src/ext/mbstring/tests/mb_strpos_variation3.php on line 92
+NULL
+
+-- Iteration 21 --
+
+Warning: mb_strpos() expects parameter 3 to be integer, string given in /root/php-src/ext/mbstring/tests/mb_strpos_variation3.php on line 92
+NULL
+
+-- Iteration 22 --
+
+Warning: mb_strpos() expects parameter 3 to be integer, string given in /root/php-src/ext/mbstring/tests/mb_strpos_variation3.php on line 92
+NULL
+
+-- Iteration 23 --
+
+Warning: mb_strpos() expects parameter 3 to be integer, object given in /root/php-src/ext/mbstring/tests/mb_strpos_variation3.php on line 92
+NULL
+
+-- Iteration 24 --
+int(8)
+
+-- Iteration 25 --
+int(8)
+
+-- Iteration 26 --
+
+Warning: mb_strpos() expects parameter 3 to be integer, resource given in /root/php-src/ext/mbstring/tests/mb_strpos_variation3.php on line 92
+NULL
+Done

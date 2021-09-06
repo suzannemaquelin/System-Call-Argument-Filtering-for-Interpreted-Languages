@@ -1,0 +1,7 @@
+bool(true)
+
+Warning: curl_setopt(): CURLPROTO_FILE cannot be activated when an open_basedir is set in %s on line %d
+bool(false)
+
+Warning: curl_setopt(): CURLPROTO_FILE cannot be activated when an open_basedir is set in %s on line %d
+bool(false)

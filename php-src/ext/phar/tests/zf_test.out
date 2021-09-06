@@ -1,0 +1,8 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+phar:///root/php-src/ext/phar/tests/zfapp.phar.tar.gz/application/default/controllers/ErrorController.php
+phar:///root/php-src/ext/phar/tests/zfapp.phar.tar.gz/application/default/controllers/IndexController.php
+phar:///root/php-src/ext/phar/tests/zfapp.phar.tar.gz/application/default/views/scripts/error/error.phtml
+phar:///root/php-src/ext/phar/tests/zfapp.phar.tar.gz/application/default/views/scripts/index/index.phtml
+phar:///root/php-src/ext/phar/tests/zfapp.phar.tar.gz/html/.htaccess
+phar:///root/php-src/ext/phar/tests/zfapp.phar.tar.gz/html/index.php
+===DONE===

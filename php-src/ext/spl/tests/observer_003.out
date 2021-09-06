@@ -1,0 +1,14 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(4)
+int(1)
+string(1) "2"
+string(3) "foo"
+bool(true)
+string(210) "C:16:"SplObjectStorage":180:{x:i:4;O:9:"TestClass":1:{s:4:"test";i:1;},N;;O:9:"TestClass":1:{s:4:"test";s:1:"2";},N;;O:9:"TestClass":1:{s:4:"test";s:3:"foo";},N;;O:9:"TestClass":1:{s:4:"test";b:1;},N;;m:a:0:{}}"
+===UNSERIALIZE===
+int(4)
+int(1)
+string(1) "2"
+string(3) "foo"
+bool(true)
+===DONE===

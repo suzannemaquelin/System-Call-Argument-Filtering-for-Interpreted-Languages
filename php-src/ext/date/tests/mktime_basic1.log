@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+*** Testing DateTime::modify() : basic functionality ***
+int(%i)
+int(%i)
+int(%i)
+int(%i)
+int(%i)
+int(%i)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing DateTime::modify() : basic functionality ***
+int(1652000703)
+int(1652002203)
+int(1652002245)
+int(1657272645)
+int(1656754245)
+int(-205165755)
+===DONE===
+---- FAILED

@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Notice: timezone_identifiers_list(): A two-letter ISO 3166-1 compatible country code is expected in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: timezone_identifiers_list(): A two-letter ISO 3166-1 compatible country code is expected in /root/php-src/ext/date/tests/timezone_identifiers_list_wrong_constructor.php on line 2
+---- FAILED

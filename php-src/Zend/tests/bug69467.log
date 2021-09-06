@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Access level to Foo::bad() must be public (as in class Baz) in %sbug69467.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Access level to Foo::bad() must be public (as in class Baz) in /root/php-src/Zend/tests/bug69467.php on line 10
+---- FAILED

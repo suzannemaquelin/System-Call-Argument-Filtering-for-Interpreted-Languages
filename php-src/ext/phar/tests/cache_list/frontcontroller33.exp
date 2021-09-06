@@ -1,0 +1,1 @@
+phar error: rewrite callback must return a string or false

@@ -1,0 +1,18 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught Exception: No Cloneable in %sbug73288.php:%d
+Stack trace:
+#0 %s(%d): NoClone->__clone()
+#1 %s(%d): test_clone()
+#2 {main}
+  thrown in %sbug73288.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Exception: No Cloneable in /root/php-src/Zend/tests/bug73288.php:5
+Stack trace:
+#0 /root/php-src/Zend/tests/bug73288.php(17): NoClone->__clone()
+#1 /root/php-src/Zend/tests/bug73288.php(20): test_clone()
+#2 {main}
+  thrown in /root/php-src/Zend/tests/bug73288.php on line 5
+---- FAILED

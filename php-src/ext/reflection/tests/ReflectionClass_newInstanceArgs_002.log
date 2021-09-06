@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught TypeError: Argument 1 passed to ReflectionClass::newInstanceArgs() must be of the type array, string given in %s:8
+Stack trace:
+#0 %s(%d): ReflectionClass->newInstanceArgs('x')
+#1 {main}
+  thrown in %s on line 8
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught TypeError: Argument 1 passed to ReflectionClass::newInstanceArgs() must be of the type array, string given in /root/php-src/ext/reflection/tests/ReflectionClass_newInstanceArgs_002.php:8
+Stack trace:
+#0 /root/php-src/ext/reflection/tests/ReflectionClass_newInstanceArgs_002.php(8): ReflectionClass->newInstanceArgs('x')
+#1 {main}
+  thrown in /root/php-src/ext/reflection/tests/ReflectionClass_newInstanceArgs_002.php on line 8
+---- FAILED

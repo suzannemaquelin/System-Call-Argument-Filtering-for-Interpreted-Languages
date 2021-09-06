@@ -1,0 +1,45 @@
+
+---- EXPECTED OUTPUT
+hey
+0
+hey
+1
+hey
+2
+hey
+3
+hey
+4
+hey
+5
+hey
+6
+hey
+7
+hey
+8
+hey
+9
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+hey
+0
+hey
+1
+hey
+2
+hey
+3
+hey
+4
+hey
+5
+hey
+6
+hey
+7
+hey
+8
+hey
+9
+---- FAILED

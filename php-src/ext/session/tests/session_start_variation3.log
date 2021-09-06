@@ -1,0 +1,35 @@
+
+---- EXPECTED OUTPUT
+*** Testing session_start() : variation ***
+bool(true)
+NULL
+bool(true)
+NULL
+bool(true)
+NULL
+bool(true)
+NULL
+bool(true)
+NULL
+
+Warning: session_destroy(): Trying to destroy uninitialized session in %s on line %d
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing session_start() : variation ***
+bool(true)
+NULL
+bool(true)
+NULL
+bool(true)
+NULL
+bool(true)
+NULL
+bool(true)
+NULL
+
+Warning: session_destroy(): Trying to destroy uninitialized session in /root/php-src/ext/session/tests/session_start_variation3.php on line 23
+bool(false)
+Done
+---- FAILED

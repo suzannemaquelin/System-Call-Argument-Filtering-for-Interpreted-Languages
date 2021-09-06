@@ -1,0 +1,45 @@
+
+---- EXPECTED OUTPUT
+__get nonExisting
+
+Notice: Undefined property: Test::$nonExisting in %s on line %d
+__get publicProperty
+
+Notice: Undefined property: Test::$publicProperty in %s on line %d
+__get protectedProperty
+
+Notice: Undefined property: Test::$protectedProperty in %s on line %d
+__get privateProperty
+
+Notice: Undefined property: Test::$privateProperty in %s on line %d
+__isset nonExisting
+__isset publicProperty
+__isset protectedProperty
+__isset privateProperty
+__set nonExisting
+__set publicProperty
+__set protectedProperty
+__set privateProperty
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+__get nonExisting
+
+Notice: Undefined property: Test::$nonExisting in /root/php-src/Zend/tests/bug63462.php on line 17
+__get publicProperty
+
+Notice: Undefined property: Test::$publicProperty in /root/php-src/Zend/tests/bug63462.php on line 17
+__get protectedProperty
+
+Notice: Undefined property: Test::$protectedProperty in /root/php-src/Zend/tests/bug63462.php on line 17
+__get privateProperty
+
+Notice: Undefined property: Test::$privateProperty in /root/php-src/Zend/tests/bug63462.php on line 17
+__isset nonExisting
+__isset publicProperty
+__isset protectedProperty
+__isset privateProperty
+__set nonExisting
+__set publicProperty
+__set protectedProperty
+__set privateProperty
+---- FAILED

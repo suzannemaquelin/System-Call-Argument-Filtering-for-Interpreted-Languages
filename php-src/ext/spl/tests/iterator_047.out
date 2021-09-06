@@ -1,0 +1,60 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+===0===
+MyRecursiveArrayIterator::hasChildren()
+int(0)
+int(0)
+MyRecursiveArrayIterator::hasChildren()
+MyRecursiveArrayIterator::getChildren()
+
+Notice: Array to string conversion in /root/php-src/ext/spl/tests/iterator_047.php on line 40
+MyRecursiveArrayIterator::hasChildren()
+int(0)
+int(10)
+MyRecursiveArrayIterator::hasChildren()
+int(2)
+int(2)
+MyRecursiveArrayIterator::hasChildren()
+MyRecursiveArrayIterator::getChildren()
+
+Notice: Array to string conversion in /root/php-src/ext/spl/tests/iterator_047.php on line 40
+MyRecursiveArrayIterator::hasChildren()
+int(0)
+int(30)
+MyRecursiveArrayIterator::hasChildren()
+int(4)
+int(4)
+===1===
+MyRecursiveArrayIterator::hasChildren()
+Exception: State 1: MyRecursiveArrayIterator::hasChildren() in /root/php-src/ext/spl/tests/iterator_047.php on line 11
+===2===
+MyRecursiveArrayIterator::hasChildren()
+int(0)
+int(0)
+MyRecursiveArrayIterator::hasChildren()
+MyRecursiveArrayIterator::getChildren()
+Exception: State 2: MyRecursiveArrayIterator::getChildren() in /root/php-src/ext/spl/tests/iterator_047.php on line 11
+===3===
+MyRecursiveArrayIterator::hasChildren()
+int(0)
+int(0)
+MyRecursiveArrayIterator::hasChildren()
+MyRecursiveArrayIterator::getChildren()
+
+Notice: Array to string conversion in /root/php-src/ext/spl/tests/iterator_047.php on line 40
+MyRecursiveArrayIterator::hasChildren()
+int(0)
+int(10)
+MyRecursiveArrayIterator::hasChildren()
+int(2)
+int(2)
+MyRecursiveArrayIterator::hasChildren()
+MyRecursiveArrayIterator::getChildren()
+
+Notice: Array to string conversion in /root/php-src/ext/spl/tests/iterator_047.php on line 40
+MyRecursiveArrayIterator::hasChildren()
+int(0)
+int(30)
+MyRecursiveArrayIterator::hasChildren()
+int(4)
+int(4)
+===DONE===

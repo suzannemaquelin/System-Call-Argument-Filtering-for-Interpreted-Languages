@@ -1,0 +1,11 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Exception: Cannot resume an already running generator
+
+Fatal error: Uncaught Error: Cannot resume an already running generator in /root/php-src/Zend/tests/generators/errors/resume_running_generator_error.php:10
+Stack trace:
+#0 /root/php-src/Zend/tests/generators/errors/resume_running_generator_error.php(10): Generator->next()
+#1 [internal function]: gen()
+#2 /root/php-src/Zend/tests/generators/errors/resume_running_generator_error.php(14): Generator->send(Object(Generator))
+#3 {main}
+  thrown in /root/php-src/Zend/tests/generators/errors/resume_running_generator_error.php on line 10

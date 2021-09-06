@@ -1,0 +1,9 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing hash_hkdf(): edge cases ***
+Length < digestSize: 98b16391063ece
+Length % digestSize != 0: 98b16391063ecee006a3ca8ee5776b1e5f
+Algo name case-sensitivity: true
+Non-crypto algo name case-sensitivity:
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: jOaAt in /root/php-src/ext/hash/tests/hash_hkdf_edges.php on line 16
+bool(false)

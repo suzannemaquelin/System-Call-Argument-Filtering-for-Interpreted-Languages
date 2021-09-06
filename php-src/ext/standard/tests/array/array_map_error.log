@@ -1,0 +1,51 @@
+
+---- EXPECTED OUTPUT
+*** Testing array_map() : error conditions ***
+
+-- Testing array_map() function with Zero arguments --
+
+Warning: array_map() expects at least 2 parameters, 0 given in %s on line %d%d
+NULL
+
+-- Testing array_map() function with one less than expected no. of arguments --
+
+Warning: array_map() expects at least 2 parameters, 1 given in %s on line %d%d
+NULL
+
+-- Testing array_map() function with less no. of arrays than callback function arguments --
+Exception: Too few arguments to function callback2(), 1 passed and exactly 2 expected
+
+-- Testing array_map() function with more no. of arrays than callback function arguments --
+array(2) {
+  [0]=>
+  int(3)
+  [1]=>
+  int(8)
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_map() : error conditions ***
+
+-- Testing array_map() function with Zero arguments --
+
+Warning: array_map() expects at least 2 parameters, 0 given in /root/php-src/ext/standard/tests/array/array_map_error.php on line 11
+NULL
+
+-- Testing array_map() function with one less than expected no. of arguments --
+
+Warning: array_map() expects at least 2 parameters, 1 given in /root/php-src/ext/standard/tests/array/array_map_error.php on line 19
+NULL
+
+-- Testing array_map() function with less no. of arrays than callback function arguments --
+Exception: Too few arguments to function callback2(), 1 passed and exactly 2 expected
+
+-- Testing array_map() function with more no. of arrays than callback function arguments --
+array(2) {
+  [0]=>
+  int(3)
+  [1]=>
+  int(8)
+}
+Done
+---- FAILED

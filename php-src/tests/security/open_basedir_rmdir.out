@@ -1,0 +1,23 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing open_basedir configuration [rmdir] ***
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+
+Warning: rmdir(): open_basedir restriction in effect. File(../bad) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_rmdir.php on line 6
+bool(false)
+
+Warning: rmdir(): open_basedir restriction in effect. File(.././bad) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_rmdir.php on line 7
+bool(false)
+
+Warning: rmdir(): open_basedir restriction in effect. File(../bad/../bad) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_rmdir.php on line 8
+bool(false)
+
+Warning: rmdir(): open_basedir restriction in effect. File(./.././bad) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_rmdir.php on line 9
+bool(false)
+
+Warning: rmdir(): open_basedir restriction in effect. File(/root/php-src/test/bad) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir_rmdir.php on line 10
+bool(false)
+*** Finished testing open_basedir configuration [rmdir] ***

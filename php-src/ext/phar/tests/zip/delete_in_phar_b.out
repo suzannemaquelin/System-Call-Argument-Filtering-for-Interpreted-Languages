@@ -1,0 +1,12 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+This is a
+This is b
+This is b/c
+
+Warning: unlink(): phar error: write operations disabled by the php.ini setting phar.readonly in /root/php-src/ext/phar/tests/zip/delete_in_phar_b.php on line 17
+===AFTER===
+This is a
+This is b
+This is b/c
+
+===DONE===

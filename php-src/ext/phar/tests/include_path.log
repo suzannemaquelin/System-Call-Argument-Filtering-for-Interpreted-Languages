@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+file1.php
+test/file1.php
+
+Warning: include(file2.php): failed to open stream: No such file or directory in %sinclude_path.php on line %d
+
+Warning: include(): Failed opening 'file2.php' for inclusion (include_path='%sphar://%stempmanifest1.phar.php/test') in %sinclude_path.php on line %d
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+file1.php
+test/file1.php
+
+Warning: include(file2.php): failed to open stream: No such file or directory in /root/php-src/ext/phar/tests/include_path.php on line 13
+
+Warning: include(): Failed opening 'file2.php' for inclusion (include_path='.:phar:///root/php-src/ext/phar/tests/tempmanifest1.phar.php/test') in /root/php-src/ext/phar/tests/include_path.php on line 13
+===DONE===
+---- FAILED

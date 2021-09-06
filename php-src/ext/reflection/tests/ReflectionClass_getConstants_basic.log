@@ -1,0 +1,51 @@
+
+---- EXPECTED OUTPUT
+Constants from class C: 
+array(1) {
+  ["a"]=>
+  string(12) "hello from C"
+}
+Constants from class D: 
+array(1) {
+  ["a"]=>
+  string(12) "hello from C"
+}
+Constants from class E: 
+array(1) {
+  ["a"]=>
+  string(12) "hello from C"
+}
+Constants from class F: 
+array(1) {
+  ["a"]=>
+  string(12) "hello from F"
+}
+Constants from class X: 
+array(0) {
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Constants from class C: 
+array(1) {
+  ["a"]=>
+  string(12) "hello from C"
+}
+Constants from class D: 
+array(1) {
+  ["a"]=>
+  string(12) "hello from C"
+}
+Constants from class E: 
+array(1) {
+  ["a"]=>
+  string(12) "hello from C"
+}
+Constants from class F: 
+array(1) {
+  ["a"]=>
+  string(12) "hello from F"
+}
+Constants from class X: 
+array(0) {
+}
+---- FAILED

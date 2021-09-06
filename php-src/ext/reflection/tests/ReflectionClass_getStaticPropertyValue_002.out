@@ -1,0 +1,12 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: ReflectionClass::getStaticPropertyValue() expects at most 2 parameters, 3 given in /root/php-src/ext/reflection/tests/ReflectionClass_getStaticPropertyValue_002.php on line 8
+NULL
+
+Warning: ReflectionClass::getStaticPropertyValue() expects at least 1 parameter, 0 given in /root/php-src/ext/reflection/tests/ReflectionClass_getStaticPropertyValue_002.php on line 13
+NULL
+Class C does not have a property named 
+string(3) "def"
+
+Warning: ReflectionClass::getStaticPropertyValue() expects parameter 1 to be string, array given in /root/php-src/ext/reflection/tests/ReflectionClass_getStaticPropertyValue_002.php on line 28
+NULL

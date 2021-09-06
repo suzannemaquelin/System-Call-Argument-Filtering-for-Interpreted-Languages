@@ -1,0 +1,17 @@
+*** Testing DateTime::setTime() : error conditions ***
+
+-- Testing DateTime::setTime() function with zero arguments --
+
+Warning: DateTime::setTime() expects at least 2 parameters, 0 given in %s on line %d
+bool(false)
+
+-- Testing DateTime::setTime() function with less than expected no. of arguments --
+
+Warning: DateTime::setTime() expects at least 2 parameters, 1 given in %s on line %d
+bool(false)
+
+-- Testing DateTime::setTime() function with more than expected no. of arguments --
+
+Warning: DateTime::setTime() expects at most 4 parameters, 5 given in %s on line %d
+bool(false)
+===DONE===

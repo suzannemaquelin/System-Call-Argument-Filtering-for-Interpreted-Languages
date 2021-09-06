@@ -1,0 +1,77 @@
+-- Test: requests without ignore_errors --
+resource(%d) of type (stream)
+array(2) {
+  [0]=>
+  string(15) "HTTP/1.0 200 Ok"
+  [1]=>
+  string(10) "X-Foo: bar"
+}
+string(1) "1"
+string(%d) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+
+Warning: fopen(http://127.0.0.1:12342/foo/bar): failed to open stream: HTTP request failed! HTTP/1.0 404 Not found
+ in %s on line %d
+bool(false)
+string(%d) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+-- Test: requests with ignore_errors --
+resource(%d) of type (stream)
+array(2) {
+  [0]=>
+  string(15) "HTTP/1.0 200 Ok"
+  [1]=>
+  string(10) "X-Foo: bar"
+}
+string(1) "1"
+string(%d) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+resource(%d) of type (stream)
+array(2) {
+  [0]=>
+  string(22) "HTTP/1.0 404 Not found"
+  [1]=>
+  string(10) "X-bar: baz"
+}
+string(1) "2"
+string(%d) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+-- Test: requests with ignore_errors (2) --
+resource(%d) of type (stream)
+array(2) {
+  [0]=>
+  string(15) "HTTP/1.0 200 Ok"
+  [1]=>
+  string(10) "X-Foo: bar"
+}
+string(1) "1"
+string(%d) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"
+resource(%d) of type (stream)
+array(2) {
+  [0]=>
+  string(22) "HTTP/1.0 404 Not found"
+  [1]=>
+  string(10) "X-bar: baz"
+}
+string(1) "2"
+string(%d) "GET /foo/bar HTTP/1.0
+Host: 127.0.0.1:12342
+Connection: close
+
+"

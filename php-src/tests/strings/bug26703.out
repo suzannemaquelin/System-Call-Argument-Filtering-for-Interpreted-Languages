@@ -1,0 +1,5 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"foo[]&nbsp;</span><span style="color: #0000BB">$a</span><span style="color: #DD0000">&nbsp;\n"</span><span style="color: #007700">;&nbsp;</span><span style="color: #0000BB">?&gt;</span>
+</span>
+</code>

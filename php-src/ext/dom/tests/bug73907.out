@@ -1,0 +1,41 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(DOMElement)#2 (18) {
+  ["tagName"]=>
+  string(4) "root"
+  ["schemaTypeInfo"]=>
+  NULL
+  ["nodeName"]=>
+  string(4) "root"
+  ["nodeValue"]=>
+  string(1) "
+"
+  ["nodeType"]=>
+  int(1)
+  ["parentNode"]=>
+  string(22) "(object value omitted)"
+  ["childNodes"]=>
+  string(22) "(object value omitted)"
+  ["firstChild"]=>
+  string(22) "(object value omitted)"
+  ["lastChild"]=>
+  string(22) "(object value omitted)"
+  ["previousSibling"]=>
+  NULL
+  ["nextSibling"]=>
+  NULL
+  ["attributes"]=>
+  string(22) "(object value omitted)"
+  ["ownerDocument"]=>
+  string(22) "(object value omitted)"
+  ["namespaceURI"]=>
+  NULL
+  ["prefix"]=>
+  string(0) ""
+  ["localName"]=>
+  string(4) "root"
+  ["baseURI"]=>
+  string(14) "/root/php-src/"
+  ["textContent"]=>
+  string(1) "
+"
+}

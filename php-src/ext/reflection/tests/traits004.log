@@ -1,0 +1,81 @@
+
+---- EXPECTED OUTPUT
+class C1:
+array(0) {
+}
+array(0) {
+}
+
+class C2:
+array(1) {
+  [0]=>
+  string(2) "T1"
+}
+array(1) {
+  ["T1"]=>
+  object(ReflectionClass)#1 (1) {
+    ["name"]=>
+    string(2) "T1"
+  }
+}
+
+class C3:
+array(2) {
+  [0]=>
+  string(2) "T1"
+  [1]=>
+  string(2) "T2"
+}
+array(2) {
+  ["T1"]=>
+  object(ReflectionClass)#2 (1) {
+    ["name"]=>
+    string(2) "T1"
+  }
+  ["T2"]=>
+  object(ReflectionClass)#3 (1) {
+    ["name"]=>
+    string(2) "T2"
+  }
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+class C1:
+array(0) {
+}
+array(0) {
+}
+
+class C2:
+array(1) {
+  [0]=>
+  string(2) "T1"
+}
+array(1) {
+  ["T1"]=>
+  object(ReflectionClass)#1 (1) {
+    ["name"]=>
+    string(2) "T1"
+  }
+}
+
+class C3:
+array(2) {
+  [0]=>
+  string(2) "T1"
+  [1]=>
+  string(2) "T2"
+}
+array(2) {
+  ["T1"]=>
+  object(ReflectionClass)#2 (1) {
+    ["name"]=>
+    string(2) "T1"
+  }
+  ["T2"]=>
+  object(ReflectionClass)#3 (1) {
+    ["name"]=>
+    string(2) "T2"
+  }
+}
+---- FAILED

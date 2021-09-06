@@ -1,0 +1,26 @@
+
+---- EXPECTED OUTPUT
+Warning: DOMDocument::schemaValidate(): %sbook-not-a-schema.xsd:1: parser error : Start tag expected, '<' not found in %s.php on line %d
+
+Warning: DOMDocument::schemaValidate(): Let's see what happens upon parsing a file that doesn't contain a schema. in %s.php on line %d
+
+Warning: DOMDocument::schemaValidate(): ^ in %s.php on line %d
+
+Warning: DOMDocument::schemaValidate(): Failed to parse the XML resource '%sbook-not-a-schema.xsd'. in %s.php on line %d
+
+Warning: DOMDocument::schemaValidate(): Invalid Schema in %s.php on line %d
+bool(false)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: DOMDocument::schemaValidate(): /root/php-src/ext/dom/tests/book-not-a-schema.xsd:1: parser error : Start tag expected, '<' not found in /root/php-src/ext/dom/tests/DOMDocument_schemaValidate_error1.php on line 7
+
+Warning: DOMDocument::schemaValidate(): Let's see what happens upon parsing a file that doesn't contain a schema. in /root/php-src/ext/dom/tests/DOMDocument_schemaValidate_error1.php on line 7
+
+Warning: DOMDocument::schemaValidate(): ^ in /root/php-src/ext/dom/tests/DOMDocument_schemaValidate_error1.php on line 7
+
+Warning: DOMDocument::schemaValidate(): Failed to parse the XML resource '/root/php-src/ext/dom/tests/book-not-a-schema.xsd'. in /root/php-src/ext/dom/tests/DOMDocument_schemaValidate_error1.php on line 7
+
+Warning: DOMDocument::schemaValidate(): Invalid Schema in /root/php-src/ext/dom/tests/DOMDocument_schemaValidate_error1.php on line 7
+bool(false)
+---- FAILED

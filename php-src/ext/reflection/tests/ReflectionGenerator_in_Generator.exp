@@ -1,0 +1,34 @@
+array(0) {
+}
+int(%d)
+string(%d) "%sReflectionGenerator_in_Generator.%s"
+object(Generator)#2 (0) {
+}
+object(ReflectionFunction)#4 (1) {
+  ["name"]=>
+  string(9) "{closure}"
+}
+NULL
+array(1) {
+  [0]=>
+  array(4) {
+    ["file"]=>
+    string(%d) "%s"
+    ["line"]=>
+    int(%d)
+    ["function"]=>
+    string(9) "{closure}"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+int(%d)
+string(%d) "%sReflectionGenerator_in_Generator.%s"
+object(Generator)#5 (0) {
+}
+object(ReflectionFunction)#6 (1) {
+  ["name"]=>
+  string(9) "{closure}"
+}
+NULL

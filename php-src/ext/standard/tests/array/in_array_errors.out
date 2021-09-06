@@ -1,0 +1,19 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+*** Testing error conditions of in_array() ***
+
+Warning: in_array() expects at least 2 parameters, 0 given in /root/php-src/ext/standard/tests/array/in_array_errors.php on line 11
+NULL
+
+Warning: in_array() expects at most 3 parameters, 4 given in /root/php-src/ext/standard/tests/array/in_array_errors.php on line 15
+NULL
+
+Warning: in_array() expects at least 2 parameters, 1 given in /root/php-src/ext/standard/tests/array/in_array_errors.php on line 16
+NULL
+
+Warning: in_array() expects parameter 2 to be array, string given in /root/php-src/ext/standard/tests/array/in_array_errors.php on line 20
+NULL
+
+Warning: in_array() expects parameter 2 to be array, integer given in /root/php-src/ext/standard/tests/array/in_array_errors.php on line 21
+NULL
+Done

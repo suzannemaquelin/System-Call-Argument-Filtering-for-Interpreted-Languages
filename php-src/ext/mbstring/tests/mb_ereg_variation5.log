@@ -1,0 +1,41 @@
+
+---- EXPECTED OUTPUT
+*** Testing mb_ereg() : usage variations ***
+
+ASCII String without $regs arg:		int(1)
+ASCII String with $regs arg:
+int(38)
+array(1) {
+  [0]=>
+  string(52) "VGhpcyBpcyBhbiBFbmdsaXNoIHN0cmluZy4gMDEyMzQ1Njc4OS4="
+}
+
+Multibyte String without $regs arg:	int(1)
+Multubyte String with $regs arg:
+int(53)
+array(1) {
+  [0]=>
+  string(72) "5pel5pys6Kqe44OG44Kt44K544OI44Gn44GZ44CCMDEyMzTvvJXvvJbvvJfvvJjvvJnjgII="
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_ereg() : usage variations ***
+
+ASCII String without $regs arg:		int(1)
+ASCII String with $regs arg:
+int(38)
+array(1) {
+  [0]=>
+  string(52) "VGhpcyBpcyBhbiBFbmdsaXNoIHN0cmluZy4gMDEyMzQ1Njc4OS4="
+}
+
+Multibyte String without $regs arg:	int(1)
+Multubyte String with $regs arg:
+int(53)
+array(1) {
+  [0]=>
+  string(72) "5pel5pys6Kqe44OG44Kt44K544OI44Gn44GZ44CCMDEyMzTvvJXvvJbvvJfvvJjvvJnjgII="
+}
+Done
+---- FAILED

@@ -1,0 +1,15 @@
+
+---- EXPECTED OUTPUT
+Hello World!Hello World!
+Fatal error: Uncaught Error: Call to private method MyClass::sayHelloWorld() from context '' in %s:%d
+Stack trace:
+#0 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Hello World!Hello World!
+Fatal error: Uncaught Error: Call to private method MyClass::sayHelloWorld() from context '' in /root/php-src/Zend/tests/traits/language008b.php:21
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/Zend/tests/traits/language008b.php on line 21
+---- FAILED

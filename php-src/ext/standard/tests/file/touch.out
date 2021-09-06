@@ -1,0 +1,18 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: touch() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/touch.php on line 7
+NULL
+bool(true)
+int(1652019619)
+bool(true)
+int(101)
+bool(true)
+int(-1)
+bool(true)
+int(100)
+bool(true)
+int(100)
+
+Warning: touch(): Unable to create file /no/such/file/or/directory because No such file or directory in /root/php-src/ext/standard/tests/file/touch.php on line 26
+bool(false)
+Done

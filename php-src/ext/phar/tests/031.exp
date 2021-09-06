@@ -1,0 +1,3 @@
+string(25) "<?php echo new new class;"
+
+Parse error: %s in phar://%s031.phar.php/a.php on line %d

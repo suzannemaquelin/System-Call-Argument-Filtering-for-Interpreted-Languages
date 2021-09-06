@@ -1,0 +1,48 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing natcasesort() : object functionality ***
+
+-- Testing natcasesort() by supplying various object arrays --
+bool(true)
+array(8) {
+  [4]=>
+  object(for_string_natcasesort)#5 (1) {
+    ["class_value"]=>
+    string(5) "apple"
+  }
+  [7]=>
+  object(for_string_natcasesort)#8 (1) {
+    ["class_value"]=>
+    string(5) "aPPle"
+  }
+  [0]=>
+  object(for_string_natcasesort)#1 (1) {
+    ["class_value"]=>
+    string(3) "axx"
+  }
+  [6]=>
+  object(for_string_natcasesort)#7 (1) {
+    ["class_value"]=>
+    string(5) "Lemon"
+  }
+  [5]=>
+  object(for_string_natcasesort)#6 (1) {
+    ["class_value"]=>
+    string(6) "Orange"
+  }
+  [3]=>
+  object(for_string_natcasesort)#4 (1) {
+    ["class_value"]=>
+    string(2) "py"
+  }
+  [1]=>
+  object(for_string_natcasesort)#2 (1) {
+    ["class_value"]=>
+    string(1) "t"
+  }
+  [2]=>
+  object(for_string_natcasesort)#3 (1) {
+    ["class_value"]=>
+    string(1) "w"
+  }
+}
+Done

@@ -1,0 +1,47 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(21) {
+  ["frontcontroller1.phar.phpt"]=>
+  string(59) "/root/php-src/ext/phar/tests/tar/frontcontroller1.phar.phpt"
+  ["frontcontroller10.phar.phpt"]=>
+  string(60) "/root/php-src/ext/phar/tests/tar/frontcontroller10.phar.phpt"
+  ["frontcontroller11.phar.phpt"]=>
+  string(60) "/root/php-src/ext/phar/tests/tar/frontcontroller11.phar.phpt"
+  ["frontcontroller12.phar.phpt"]=>
+  string(60) "/root/php-src/ext/phar/tests/tar/frontcontroller12.phar.phpt"
+  ["frontcontroller13.phar.phpt"]=>
+  string(60) "/root/php-src/ext/phar/tests/tar/frontcontroller13.phar.phpt"
+  ["frontcontroller14.phar.phpt"]=>
+  string(60) "/root/php-src/ext/phar/tests/tar/frontcontroller14.phar.phpt"
+  ["frontcontroller15.phar.phpt"]=>
+  string(60) "/root/php-src/ext/phar/tests/tar/frontcontroller15.phar.phpt"
+  ["frontcontroller16.phar.phpt"]=>
+  string(60) "/root/php-src/ext/phar/tests/tar/frontcontroller16.phar.phpt"
+  ["frontcontroller17.phar.phpt"]=>
+  string(60) "/root/php-src/ext/phar/tests/tar/frontcontroller17.phar.phpt"
+  ["frontcontroller18.phar.phpt"]=>
+  string(60) "/root/php-src/ext/phar/tests/tar/frontcontroller18.phar.phpt"
+  ["frontcontroller19.phar.phpt"]=>
+  string(60) "/root/php-src/ext/phar/tests/tar/frontcontroller19.phar.phpt"
+  ["frontcontroller2.phar.phpt"]=>
+  string(59) "/root/php-src/ext/phar/tests/tar/frontcontroller2.phar.phpt"
+  ["frontcontroller20.phar.phpt"]=>
+  string(60) "/root/php-src/ext/phar/tests/tar/frontcontroller20.phar.phpt"
+  ["frontcontroller21.phar.phpt"]=>
+  string(60) "/root/php-src/ext/phar/tests/tar/frontcontroller21.phar.phpt"
+  ["frontcontroller3.phar.phpt"]=>
+  string(59) "/root/php-src/ext/phar/tests/tar/frontcontroller3.phar.phpt"
+  ["frontcontroller4.phar.phpt"]=>
+  string(59) "/root/php-src/ext/phar/tests/tar/frontcontroller4.phar.phpt"
+  ["frontcontroller5.phar.phpt"]=>
+  string(59) "/root/php-src/ext/phar/tests/tar/frontcontroller5.phar.phpt"
+  ["frontcontroller6.phar.phpt"]=>
+  string(59) "/root/php-src/ext/phar/tests/tar/frontcontroller6.phar.phpt"
+  ["frontcontroller7.phar.phpt"]=>
+  string(59) "/root/php-src/ext/phar/tests/tar/frontcontroller7.phar.phpt"
+  ["frontcontroller8.phar.phpt"]=>
+  string(59) "/root/php-src/ext/phar/tests/tar/frontcontroller8.phar.phpt"
+  ["frontcontroller9.phar.phpt"]=>
+  string(59) "/root/php-src/ext/phar/tests/tar/frontcontroller9.phar.phpt"
+}
+bool(true)
+===DONE===

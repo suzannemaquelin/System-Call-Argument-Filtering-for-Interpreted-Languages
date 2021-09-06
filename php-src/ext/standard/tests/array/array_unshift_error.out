@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_unshift() : error conditions ***
+
+-- Testing array_unshift() function with Zero arguments --
+
+Warning: array_unshift() expects at least 2 parameters, 0 given in /root/php-src/ext/standard/tests/array/array_unshift_error.php on line 11
+NULL
+
+-- Testing array_unshift() function with less than expected no. of arguments --
+
+Warning: array_unshift() expects at least 2 parameters, 1 given in /root/php-src/ext/standard/tests/array/array_unshift_error.php on line 16
+NULL
+Done

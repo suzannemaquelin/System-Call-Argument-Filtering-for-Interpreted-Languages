@@ -1,0 +1,4 @@
+*** Testing session_id() : basic functionality ***
+string(120) "%s"
+string(22) "%s"
+Done

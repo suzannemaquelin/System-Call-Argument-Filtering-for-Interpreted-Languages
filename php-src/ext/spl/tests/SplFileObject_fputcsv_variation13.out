@@ -1,0 +1,6 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing fputcsv() : with default enclosure & delimiter of two chars ***
+
+Warning: SplFileObject::fputcsv(): delimiter must be a character in /root/php-src/ext/spl/tests/SplFileObject_fputcsv_variation13.php on line 10
+bool(false)
+Done

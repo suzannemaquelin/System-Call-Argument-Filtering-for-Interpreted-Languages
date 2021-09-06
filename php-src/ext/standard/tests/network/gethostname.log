@@ -1,0 +1,13 @@
+
+---- EXPECTED OUTPUT
+%s
+
+Warning: gethostname() expects exactly %d parameters, %d given in %s on line %d
+NULL
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(12) "8a42d42cec47"
+
+Warning: gethostname() expects exactly 0 parameters, 1 given in /root/php-src/ext/standard/tests/network/gethostname.php on line 3
+NULL
+---- FAILED

@@ -1,0 +1,103 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing parse_ini_file() : usage variation ***
+
+--int 0--
+Error: 2 - parse_ini_file(0): failed to open stream: No such file or directory, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--int 1--
+Error: 2 - parse_ini_file(1): failed to open stream: No such file or directory, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--int 12345--
+Error: 2 - parse_ini_file(12345): failed to open stream: No such file or directory, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--int -12345--
+Error: 2 - parse_ini_file(-2345): failed to open stream: No such file or directory, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--float 10.5--
+Error: 2 - parse_ini_file(10.5): failed to open stream: No such file or directory, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--float -10.5--
+Error: 2 - parse_ini_file(-10.5): failed to open stream: No such file or directory, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--float 12.3456789000e10--
+Error: 2 - parse_ini_file(123456789000): failed to open stream: No such file or directory, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--float -12.3456789000e10--
+Error: 2 - parse_ini_file(-123456789000): failed to open stream: No such file or directory, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--float .5--
+Error: 2 - parse_ini_file(0.5): failed to open stream: No such file or directory, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--empty array--
+Error: 2 - parse_ini_file() expects parameter 1 to be a valid path, array given, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--int indexed array--
+Error: 2 - parse_ini_file() expects parameter 1 to be a valid path, array given, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--associative array--
+Error: 2 - parse_ini_file() expects parameter 1 to be a valid path, array given, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--nested arrays--
+Error: 2 - parse_ini_file() expects parameter 1 to be a valid path, array given, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--uppercase NULL--
+Error: 2 - parse_ini_file(): Filename cannot be empty!, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--lowercase null--
+Error: 2 - parse_ini_file(): Filename cannot be empty!, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--lowercase true--
+Error: 2 - parse_ini_file(1): failed to open stream: No such file or directory, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--lowercase false--
+Error: 2 - parse_ini_file(): Filename cannot be empty!, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--uppercase TRUE--
+Error: 2 - parse_ini_file(1): failed to open stream: No such file or directory, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--uppercase FALSE--
+Error: 2 - parse_ini_file(): Filename cannot be empty!, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--empty string DQ--
+Error: 2 - parse_ini_file(): Filename cannot be empty!, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--empty string SQ--
+Error: 2 - parse_ini_file(): Filename cannot be empty!, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--instance of classWithToString--
+Error: 2 - parse_ini_file(Class A object): failed to open stream: No such file or directory, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--instance of classWithoutToString--
+Error: 2 - parse_ini_file() expects parameter 1 to be a valid path, object given, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--undefined var--
+Error: 2 - parse_ini_file(): Filename cannot be empty!, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+
+--unset var--
+Error: 2 - parse_ini_file(): Filename cannot be empty!, /root/php-src/ext/standard/tests/file/parse_ini_file_variation4.php(98)
+bool(false)
+===DONE===

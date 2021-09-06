@@ -1,0 +1,163 @@
+
+---- EXPECTED OUTPUT
+*** Testing array_map() : null value for 'callback' argument ***
+-- with null --
+array(2) {
+  [0]=>
+  array(3) {
+    [0]=>
+    int(1)
+    [1]=>
+    string(3) "one"
+    [2]=>
+    float(1.1)
+  }
+  [1]=>
+  array(3) {
+    [0]=>
+    int(2)
+    [1]=>
+    string(3) "two"
+    [2]=>
+    float(2.2)
+  }
+}
+array(2) {
+  [0]=>
+  array(3) {
+    [0]=>
+    int(1)
+    [1]=>
+    string(3) "one"
+    [2]=>
+    float(1.1)
+  }
+  [1]=>
+  array(3) {
+    [0]=>
+    int(2)
+    [1]=>
+    string(3) "two"
+    [2]=>
+    float(2.2)
+  }
+}
+-- with unset variable --
+array(2) {
+  [0]=>
+  array(3) {
+    [0]=>
+    int(1)
+    [1]=>
+    string(3) "one"
+    [2]=>
+    float(1.1)
+  }
+  [1]=>
+  array(3) {
+    [0]=>
+    int(2)
+    [1]=>
+    string(3) "two"
+    [2]=>
+    float(2.2)
+  }
+}
+-- with undefined variable --
+array(2) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+}
+-- with empty string --
+
+Warning: array_map() expects parameter 1 to be a valid callback, function '' not found or invalid function name in %s on line %d
+NULL
+-- with empty array --
+
+Warning: array_map() expects parameter 1 to be a valid callback, array must have exactly two members in %s on line %d
+NULL
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_map() : null value for 'callback' argument ***
+-- with null --
+array(2) {
+  [0]=>
+  array(3) {
+    [0]=>
+    int(1)
+    [1]=>
+    string(3) "one"
+    [2]=>
+    float(1.1)
+  }
+  [1]=>
+  array(3) {
+    [0]=>
+    int(2)
+    [1]=>
+    string(3) "two"
+    [2]=>
+    float(2.2)
+  }
+}
+array(2) {
+  [0]=>
+  array(3) {
+    [0]=>
+    int(1)
+    [1]=>
+    string(3) "one"
+    [2]=>
+    float(1.1)
+  }
+  [1]=>
+  array(3) {
+    [0]=>
+    int(2)
+    [1]=>
+    string(3) "two"
+    [2]=>
+    float(2.2)
+  }
+}
+-- with unset variable --
+array(2) {
+  [0]=>
+  array(3) {
+    [0]=>
+    int(1)
+    [1]=>
+    string(3) "one"
+    [2]=>
+    float(1.1)
+  }
+  [1]=>
+  array(3) {
+    [0]=>
+    int(2)
+    [1]=>
+    string(3) "two"
+    [2]=>
+    float(2.2)
+  }
+}
+-- with undefined variable --
+array(2) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+}
+-- with empty string --
+
+Warning: array_map() expects parameter 1 to be a valid callback, function '' not found or invalid function name in /root/php-src/ext/standard/tests/array/array_map_variation14.php on line 36
+NULL
+-- with empty array --
+
+Warning: array_map() expects parameter 1 to be a valid callback, array must have exactly two members in /root/php-src/ext/standard/tests/array/array_map_variation14.php on line 39
+NULL
+Done
+---- FAILED

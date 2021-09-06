@@ -1,0 +1,123 @@
+*** Testing date_default_timezone_set() : usage variations ***
+
+-- Iteration 1 --
+
+Notice: date_default_timezone_set(): Timezone ID '0' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 2 --
+
+Notice: date_default_timezone_set(): Timezone ID '1' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 3 --
+
+Notice: date_default_timezone_set(): Timezone ID '12345' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 4 --
+
+Notice: date_default_timezone_set(): Timezone ID '-2345' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 5 --
+
+Notice: date_default_timezone_set(): Timezone ID '10.5' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 6 --
+
+Notice: date_default_timezone_set(): Timezone ID '-10.5' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 7 --
+
+Notice: date_default_timezone_set(): Timezone ID '123456789000' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 8 --
+
+Notice: date_default_timezone_set(): Timezone ID '1.23456789E-9' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 9 --
+
+Notice: date_default_timezone_set(): Timezone ID '0.5' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 10 --
+
+Notice: date_default_timezone_set(): Timezone ID '' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 11 --
+
+Notice: date_default_timezone_set(): Timezone ID '' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 12 --
+
+Notice: date_default_timezone_set(): Timezone ID '1' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 13 --
+
+Notice: date_default_timezone_set(): Timezone ID '' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 14 --
+
+Notice: date_default_timezone_set(): Timezone ID '1' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 15 --
+
+Notice: date_default_timezone_set(): Timezone ID '' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 16 --
+
+Notice: date_default_timezone_set(): Timezone ID '' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 17 --
+
+Notice: date_default_timezone_set(): Timezone ID '' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 18 --
+
+Warning: date_default_timezone_set() expects parameter 1 to be string, array given in %s on line %d
+bool(false)
+
+-- Iteration 19 --
+
+Notice: date_default_timezone_set(): Timezone ID 'abcxyz' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 20 --
+
+Notice: date_default_timezone_set(): Timezone ID 'abcxyz' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 21 --
+
+Notice: date_default_timezone_set(): Timezone ID 'abc
+xyz' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 22 --
+
+Notice: date_default_timezone_set(): Timezone ID '' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 23 --
+
+Notice: date_default_timezone_set(): Timezone ID '' is invalid in %s on line %d
+bool(false)
+
+-- Iteration 24 --
+
+Warning: date_default_timezone_set() expects parameter 1 to be string, resource given in %s on line %d
+bool(false)
+===Done===

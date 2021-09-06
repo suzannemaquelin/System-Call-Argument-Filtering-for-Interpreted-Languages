@@ -1,0 +1,7 @@
+Creating private key
+Export key to file
+bool(true)
+Load key from file - array syntax
+Load key using direct syntax
+Load key manually and use string syntax
+OK!

@@ -1,0 +1,11 @@
+Warning: checkdate() expects exactly 3 parameters, 0 given in %s on line %d
+bool(false)
+bool(true)
+bool(false)
+bool(false)
+bool(false)
+bool(true)
+bool(false)
+bool(false)
+bool(false)
+Done

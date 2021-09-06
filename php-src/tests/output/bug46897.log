@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+[callback:1]Attempt to flush unerasable buffer - should fail...
+Notice: ob_flush(): failed to flush buffer of callback (0) in %s on line %d
+bool(false)
+string(%d) "Attempt to flush unerasable buffer - should fail...
+Notice: ob_flush(): failed to flush buffer of callback (0) in %s on line %d
+bool(false)
+"
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+[callback:1]Attempt to flush unerasable buffer - should fail...
+Notice: ob_flush(): failed to flush buffer of callback (0) in /root/php-src/tests/output/bug46897.php on line 11
+bool(false)
+string(177) "Attempt to flush unerasable buffer - should fail...
+Notice: ob_flush(): failed to flush buffer of callback (0) in /root/php-src/tests/output/bug46897.php on line 11
+bool(false)
+"
+Done
+---- FAILED

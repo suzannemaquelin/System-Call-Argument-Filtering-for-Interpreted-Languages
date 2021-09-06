@@ -1,0 +1,95 @@
+
+---- EXPECTED OUTPUT
+Warning: curl_multi_exec(): CURLOPT_STDERR resource has gone away, resetting to stderr in %s on line %d
+
+Warning: curl_multi_exec(): CURLOPT_STDERR resource has gone away, resetting to stderr in %s on line %d
+%A
+Ok for CURLOPT_STDERR
+
+Warning: curl_multi_exec(): CURLOPT_WRITEHEADER resource has gone away, resetting to default in %s on line %d
+
+Warning: curl_multi_exec(): CURLOPT_WRITEHEADER resource has gone away, resetting to default in %s on line %d
+Ok for CURLOPT_WRITEHEADER
+
+Warning: curl_multi_exec(): CURLOPT_FILE resource has gone away, resetting to default in %s on line %d
+
+Warning: curl_multi_exec(): CURLOPT_FILE resource has gone away, resetting to default in %s on line %d
+Hello World!
+Hello World!Hello World!
+Hello World!Ok for CURLOPT_FILE
+
+Warning: curl_multi_exec(): CURLOPT_INFILE resource has gone away, resetting to default in %s on line %d
+
+Warning: curl_multi_exec(): CURLOPT_INFILE resource has gone away, resetting to default in %s on line %d
+Ok for CURLOPT_INFILE
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: curl_multi_exec(): CURLOPT_STDERR resource has gone away, resetting to stderr in /root/php-src/ext/curl/tests/bug48203_multi.php on line 36
+
+Warning: curl_multi_exec(): CURLOPT_STDERR resource has gone away, resetting to stderr in /root/php-src/ext/curl/tests/bug48203_multi.php on line 36
+* Expire in 1 ms for 1 (transfer 0x557d8bd14e80)
+* Found bundle for host localhost: 0x557d8bd26d80 [serially]
+* Server doesn't support multi-use (yet)
+* Expire in 1 ms for 1 (transfer 0x557d8bd1a740)
+* Expire in 2 ms for 1 (transfer 0x557d8bd14e80)
+* Expire in 0 ms for 1 (transfer 0x557d8bd14e80)
+* Expire in 2 ms for 1 (transfer 0x557d8bd1a740)
+* Expire in 0 ms for 1 (transfer 0x557d8bd1a740)
+* Expire in 1 ms for 1 (transfer 0x557d8bd14e80)
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Expire in 149998 ms for 3 (transfer 0x557d8bd14e80)
+* Expire in 200 ms for 4 (transfer 0x557d8bd14e80)
+* Connected to localhost (127.0.0.1) port 8964 (#0)
+> GET / HTTP/1.1
+Host: localhost:8964
+Accept: */*
+
+* Hostname 'localhost' was found in DNS cache
+* Expire in 1 ms for 1 (transfer 0x557d8bd1a740)
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Expire in 149997 ms for 3 (transfer 0x557d8bd1a740)
+* Expire in 200 ms for 4 (transfer 0x557d8bd1a740)
+* Connected to localhost (127.0.0.1) port 8964 (#1)
+> GET / HTTP/1.1
+Host: localhost:8964
+Accept: */*
+
+< HTTP/1.1 200 OK
+< Host: localhost:8964
+< Date: Sun, 08 May 2022 14:04:01 +0000
+< Connection: close
+< X-Powered-By: PHP/7.1.30
+< Content-type: text/html; charset=UTF-8
+< 
+* Closing connection 0
+< HTTP/1.1 200 OK
+< Host: localhost:8964
+< Date: Sun, 08 May 2022 14:04:01 +0000
+< Connection: close
+< X-Powered-By: PHP/7.1.30
+< Content-type: text/html; charset=UTF-8
+< 
+* Could not resolve host: localhost
+* Closing connection 1
+Ok for CURLOPT_STDERR
+
+Warning: curl_multi_exec(): CURLOPT_WRITEHEADER resource has gone away, resetting to default in /root/php-src/ext/curl/tests/bug48203_multi.php on line 36
+
+Warning: curl_multi_exec(): CURLOPT_WRITEHEADER resource has gone away, resetting to default in /root/php-src/ext/curl/tests/bug48203_multi.php on line 36
+Ok for CURLOPT_WRITEHEADER
+
+Warning: curl_multi_exec(): CURLOPT_FILE resource has gone away, resetting to default in /root/php-src/ext/curl/tests/bug48203_multi.php on line 36
+
+Warning: curl_multi_exec(): CURLOPT_FILE resource has gone away, resetting to default in /root/php-src/ext/curl/tests/bug48203_multi.php on line 36
+Hello World!
+Hello World!Hello World!
+Hello World!Ok for CURLOPT_FILE
+
+Warning: curl_multi_exec(): CURLOPT_INFILE resource has gone away, resetting to default in /root/php-src/ext/curl/tests/bug48203_multi.php on line 36
+
+Warning: curl_multi_exec(): CURLOPT_INFILE resource has gone away, resetting to default in /root/php-src/ext/curl/tests/bug48203_multi.php on line 36
+Ok for CURLOPT_INFILE
+---- FAILED

@@ -1,0 +1,14 @@
+array(6) {
+  [0]=>
+  string(9) "www.rd.io"
+  [1]=>
+  string(8) "rdio.com"
+  [2]=>
+  string(5) "rd.io"
+  [3]=>
+  string(12) "api.rdio.com"
+  [4]=>
+  string(9) "api.rd.io"
+  [5]=>
+  string(12) "www.rdio.com"
+}

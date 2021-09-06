@@ -1,0 +1,31 @@
+
+---- EXPECTED OUTPUT
+Caught exception!
+Exception in %s:%d
+Stack trace:
+#0 %s(%d): from()
+#1 [internal function]: gen(Object(Generator))
+#2 %s(%d): Generator->next()
+#3 {main}
+Caught exception!
+ClosedGeneratorException: Generator yielded from aborted, no return value available in %s:%d
+Stack trace:
+#0 [internal function]: gen(Object(Generator))
+#1 %s(%d): Generator->next()
+#2 {main}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Caught exception!
+Exception in /root/php-src/Zend/tests/generators/bug74954.php:5
+Stack trace:
+#0 /root/php-src/Zend/tests/generators/bug74954.php(10): from()
+#1 [internal function]: gen(Object(Generator))
+#2 /root/php-src/Zend/tests/generators/bug74954.php(24): Generator->next()
+#3 {main}
+Caught exception!
+ClosedGeneratorException: Generator yielded from aborted, no return value available in /root/php-src/Zend/tests/generators/bug74954.php:10
+Stack trace:
+#0 [internal function]: gen(Object(Generator))
+#1 /root/php-src/Zend/tests/generators/bug74954.php(24): Generator->next()
+#2 {main}
+---- FAILED

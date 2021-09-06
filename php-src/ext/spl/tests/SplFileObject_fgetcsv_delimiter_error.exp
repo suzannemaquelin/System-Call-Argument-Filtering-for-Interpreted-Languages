@@ -1,0 +1,2 @@
+Warning: SplFileObject::fgetcsv(): delimiter must be a character in %s on line %d
+bool(false)

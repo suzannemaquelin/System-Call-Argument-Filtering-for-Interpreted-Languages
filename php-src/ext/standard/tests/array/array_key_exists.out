@@ -1,0 +1,172 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing basic functionalities ***
+-- Iteration 1 --
+bool(true)
+-- Iteration 2 --
+bool(false)
+-- Iteration 3 --
+bool(true)
+-- Iteration 4 --
+bool(false)
+-- Iteration 5 --
+bool(true)
+-- Iteration 6 --
+bool(true)
+-- Iteration 7 --
+bool(true)
+-- Iteration 8 --
+bool(true)
+
+*** Testing possible variations ***
+
+** Variation loop 1 **
+-- Iteration 1 --
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(true)
+-- Iteration 2 --
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(true)
+-- Iteration 3 --
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(true)
+-- Iteration 4 --
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(true)
+-- Iteration 5 --
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+-- Iteration 6 --
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+-- Iteration 7 --
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(true)
+-- Iteration 8 --
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(true)
+
+** Variation loop 2 **
+-- Iteration 1 --
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+-- Iteration 2 --
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+-- Iteration 3 --
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(true)
+-- Iteration 4 --
+bool(true)
+bool(true)
+bool(true)
+bool(false)
+bool(true)
+bool(false)
+bool(true)
+-- Iteration 5 --
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(true)
+
+*** Testing error conditions ***
+
+Warning: array_key_exists() expects exactly 2 parameters, 0 given in /root/php-src/ext/standard/tests/array/array_key_exists.php on line 70
+NULL
+
+Warning: array_key_exists(): The first argument should be either a string or an integer in /root/php-src/ext/standard/tests/array/array_key_exists.php on line 72
+bool(false)
+
+Warning: array_key_exists() expects parameter 2 to be array, string given in /root/php-src/ext/standard/tests/array/array_key_exists.php on line 74
+NULL
+
+Warning: array_key_exists() expects parameter 2 to be array, integer given in /root/php-src/ext/standard/tests/array/array_key_exists.php on line 76
+NULL
+
+Warning: array_key_exists() expects parameter 2 to be array, null given in /root/php-src/ext/standard/tests/array/array_key_exists.php on line 78
+NULL
+
+Warning: array_key_exists() expects parameter 2 to be array, boolean given in /root/php-src/ext/standard/tests/array/array_key_exists.php on line 80
+NULL
+
+Warning: array_key_exists() expects parameter 2 to be array, boolean given in /root/php-src/ext/standard/tests/array/array_key_exists.php on line 82
+NULL
+
+Warning: array_key_exists() expects parameter 2 to be array, float given in /root/php-src/ext/standard/tests/array/array_key_exists.php on line 84
+NULL
+
+Warning: array_key_exists() expects exactly 2 parameters, 3 given in /root/php-src/ext/standard/tests/array/array_key_exists.php on line 86
+NULL
+
+Warning: array_key_exists(): The first argument should be either a string or an integer in /root/php-src/ext/standard/tests/array/array_key_exists.php on line 88
+bool(false)
+
+*** Testing operation on objects ***
+bool(false)
+bool(false)
+bool(true)
+bool(false)
+bool(true)
+bool(true)
+
+Warning: array_key_exists(): The first argument should be either a string or an integer in /root/php-src/ext/standard/tests/array/array_key_exists.php on line 115
+bool(false)
+Done

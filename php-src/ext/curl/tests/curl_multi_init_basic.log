@@ -1,0 +1,13 @@
+
+---- EXPECTED OUTPUT
+*** Testing curl_multi_init(void); ***
+resource(%d) of type (curl_multi)
+resource(%d) of type (Unknown)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing curl_multi_init(void); ***
+resource(4) of type (curl_multi)
+resource(4) of type (Unknown)
+===DONE===
+---- FAILED

@@ -1,0 +1,41 @@
+
+---- EXPECTED OUTPUT
+*** Testing dir() : operate on previously opened directory ***
+object(Directory)#%d (2) {
+  ["path"]=>
+  string(%d) "%s/dir_variation4"
+  ["handle"]=>
+  resource(%d) of type (stream)
+}
+object(Directory)#%d (2) {
+  ["path"]=>
+  string(%d) "%s/dir_variation4"
+  ["handle"]=>
+  resource(%d) of type (stream)
+}
+-- reading directory contents with previous handle --
+string(%d) "%s"
+-- reading directory contents with current handle --
+string(%d) "%s"
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing dir() : operate on previously opened directory ***
+object(Directory)#1 (2) {
+  ["path"]=>
+  string(51) "/root/php-src/ext/standard/tests/dir/dir_variation4"
+  ["handle"]=>
+  resource(12) of type (stream)
+}
+object(Directory)#2 (2) {
+  ["path"]=>
+  string(51) "/root/php-src/ext/standard/tests/dir/dir_variation4"
+  ["handle"]=>
+  resource(13) of type (stream)
+}
+-- reading directory contents with previous handle --
+string(1) "."
+-- reading directory contents with current handle --
+string(1) "."
+Done
+---- FAILED

@@ -1,0 +1,28 @@
+
+---- EXPECTED OUTPUT
+Warning: fopen(): Invalid php:// URL specified in %s on line %d
+
+Warning: fopen(php://fd): failed to open stream: operation failed in %s on line 2
+
+Warning: fopen(php://fd/): failed to open stream: php://fd/ stream must be specified in the form php://fd/<orig fd> in %s on line %d
+
+Warning: fopen(php://fd/-2): failed to open stream: The file descriptors must be non-negative numbers smaller than %d in %s on line %d
+
+Warning: fopen(php://fd/1/): failed to open stream: php://fd/ stream must be specified in the form php://fd/<orig fd> in %s on line %d
+
+Done.
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: fopen(): Invalid php:// URL specified in /root/php-src/ext/standard/tests/file/php_fd_wrapper_03.php on line 2
+
+Warning: fopen(php://fd): failed to open stream: operation failed in /root/php-src/ext/standard/tests/file/php_fd_wrapper_03.php on line 2
+
+Warning: fopen(php://fd/): failed to open stream: php://fd/ stream must be specified in the form php://fd/<orig fd> in /root/php-src/ext/standard/tests/file/php_fd_wrapper_03.php on line 3
+
+Warning: fopen(php://fd/-2): failed to open stream: The file descriptors must be non-negative numbers smaller than 1048576 in /root/php-src/ext/standard/tests/file/php_fd_wrapper_03.php on line 4
+
+Warning: fopen(php://fd/1/): failed to open stream: php://fd/ stream must be specified in the form php://fd/<orig fd> in /root/php-src/ext/standard/tests/file/php_fd_wrapper_03.php on line 5
+
+Done.
+---- FAILED

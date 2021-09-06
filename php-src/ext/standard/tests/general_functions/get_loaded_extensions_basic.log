@@ -1,0 +1,114 @@
+
+---- EXPECTED OUTPUT
+*** Testing get_loaded_extensions() : basic functionality ***
+Get loaded extensions
+array(%d) {
+%a
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing get_loaded_extensions() : basic functionality ***
+Get loaded extensions
+array(49) {
+  [0]=>
+  string(4) "Core"
+  [1]=>
+  string(4) "date"
+  [2]=>
+  string(6) "libxml"
+  [3]=>
+  string(7) "openssl"
+  [4]=>
+  string(4) "pcre"
+  [5]=>
+  string(7) "sqlite3"
+  [6]=>
+  string(4) "zlib"
+  [7]=>
+  string(6) "bcmath"
+  [8]=>
+  string(3) "bz2"
+  [9]=>
+  string(8) "calendar"
+  [10]=>
+  string(5) "ctype"
+  [11]=>
+  string(4) "curl"
+  [12]=>
+  string(3) "dom"
+  [13]=>
+  string(4) "hash"
+  [14]=>
+  string(8) "fileinfo"
+  [15]=>
+  string(6) "filter"
+  [16]=>
+  string(3) "ftp"
+  [17]=>
+  string(7) "gettext"
+  [18]=>
+  string(3) "SPL"
+  [19]=>
+  string(5) "iconv"
+  [20]=>
+  string(4) "json"
+  [21]=>
+  string(8) "mbstring"
+  [22]=>
+  string(6) "mcrypt"
+  [23]=>
+  string(7) "session"
+  [24]=>
+  string(8) "standard"
+  [25]=>
+  string(5) "pcntl"
+  [26]=>
+  string(7) "mysqlnd"
+  [27]=>
+  string(3) "PDO"
+  [28]=>
+  string(9) "pdo_mysql"
+  [29]=>
+  string(9) "pdo_pgsql"
+  [30]=>
+  string(10) "pdo_sqlite"
+  [31]=>
+  string(5) "pgsql"
+  [32]=>
+  string(4) "Phar"
+  [33]=>
+  string(5) "posix"
+  [34]=>
+  string(10) "Reflection"
+  [35]=>
+  string(6) "mysqli"
+  [36]=>
+  string(9) "SimpleXML"
+  [37]=>
+  string(4) "soap"
+  [38]=>
+  string(7) "sockets"
+  [39]=>
+  string(4) "exif"
+  [40]=>
+  string(7) "sysvsem"
+  [41]=>
+  string(7) "sysvshm"
+  [42]=>
+  string(9) "tokenizer"
+  [43]=>
+  string(3) "xml"
+  [44]=>
+  string(9) "xmlreader"
+  [45]=>
+  string(6) "xmlrpc"
+  [46]=>
+  string(9) "xmlwriter"
+  [47]=>
+  string(3) "xsl"
+  [48]=>
+  string(3) "zip"
+}
+===DONE===
+---- FAILED

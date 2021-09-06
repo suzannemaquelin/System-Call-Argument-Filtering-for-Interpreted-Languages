@@ -1,0 +1,31 @@
+*** Testing readfile() : variation ***
+
+-- Iteration 1 --
+The File Contents
+-- Iteration 2 --
+The File Contents
+-- Iteration 3 --
+The File Contents
+-- Iteration 4 --
+The File Contents
+-- Iteration 5 --
+
+Warning: readfile(%sreadfileVar8Sub/..///readfileVar8Sub//..//../readfileVar8Sub/fileToRead.tmp): failed to open stream: No such file or directory in %s on line %d
+
+-- Iteration 6 --
+
+Warning: readfile(%sreadfileVar8Sub/BADDIR/fileToRead.tmp): failed to open stream: No such file or directory in %s on line %d
+
+-- Iteration 7 --
+The File Contents
+-- Iteration 8 --
+The File Contents
+-- Iteration 9 --
+The File Contents
+-- Iteration 10 --
+The File Contents
+-- Iteration 11 --
+
+Warning: readfile(BADDIR/fileToRead.tmp): failed to open stream: No such file or directory in %s on line %d
+
+*** Done ***

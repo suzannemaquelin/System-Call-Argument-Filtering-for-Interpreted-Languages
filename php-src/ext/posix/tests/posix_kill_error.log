@@ -1,0 +1,41 @@
+
+---- EXPECTED OUTPUT
+*** Testing posix_kill() : error conditions ***
+
+-- Testing posix_kill() function with more than expected no. of arguments --
+
+Warning: posix_kill() expects exactly 2 parameters, 3 given in %s on line %d
+bool(false)
+
+-- Testing posix_kill() function with less than expected no. of arguments --
+
+Warning: posix_kill() expects exactly 2 parameters, 1 given in %s on line %d
+bool(false)
+
+-- Testing posix_kill() function with invalid signal --
+bool(false)
+
+-- Testing posix_kill() function with negative pid --
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing posix_kill() : error conditions ***
+
+-- Testing posix_kill() function with more than expected no. of arguments --
+
+Warning: posix_kill() expects exactly 2 parameters, 3 given in /root/php-src/ext/posix/tests/posix_kill_error.php on line 16
+bool(false)
+
+-- Testing posix_kill() function with less than expected no. of arguments --
+
+Warning: posix_kill() expects exactly 2 parameters, 1 given in /root/php-src/ext/posix/tests/posix_kill_error.php on line 20
+bool(false)
+
+-- Testing posix_kill() function with invalid signal --
+bool(false)
+
+-- Testing posix_kill() function with negative pid --
+bool(false)
+Done
+---- FAILED

@@ -1,0 +1,33 @@
+
+---- EXPECTED OUTPUT
+bool(false)
+bool(true)
+string(5) "value"
+bool(true)
+string(0) ""
+bool(true)
+bool(false)
+
+Warning: putenv(): Invalid parameter syntax in %s on line %d
+bool(false)
+
+Warning: putenv(): Invalid parameter syntax in %s on line %d
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(false)
+bool(true)
+string(5) "value"
+bool(true)
+string(0) ""
+bool(true)
+bool(false)
+
+Warning: putenv(): Invalid parameter syntax in /root/php-src/ext/standard/tests/general_functions/putenv.php on line 15
+bool(false)
+
+Warning: putenv(): Invalid parameter syntax in /root/php-src/ext/standard/tests/general_functions/putenv.php on line 16
+bool(false)
+Done
+---- FAILED

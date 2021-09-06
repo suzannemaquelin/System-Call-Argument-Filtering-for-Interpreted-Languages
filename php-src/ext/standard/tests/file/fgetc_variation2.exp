@@ -1,0 +1,12 @@
+*** Testing fgetc() : usage variations ***
+-- Testing fgetc() with closed handle --
+
+Warning: fgetc(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+-- Testing fgetc() with unset handle --
+
+Notice: Undefined variable: file_handle in %s on line %d
+
+Warning: fgetc() expects parameter 1 to be resource, null given in %s on line %d
+bool(false)
+Done

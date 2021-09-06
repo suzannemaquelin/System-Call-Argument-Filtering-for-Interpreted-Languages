@@ -1,0 +1,5 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: mb_ereg_search_init(): Empty pattern in /root/php-src/ext/mbstring/tests/empty_pattern.php on line 3
+
+Warning: mb_ereg_search_regs(): No regex given in /root/php-src/ext/mbstring/tests/empty_pattern.php on line 5

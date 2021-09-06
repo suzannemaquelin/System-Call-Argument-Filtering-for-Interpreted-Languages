@@ -1,0 +1,3 @@
+Warning: socket_create_listen() expects parameter 1 to be integer, array given in %s on line %d
+
+Warning: socket_create_listen() expects parameter 2 to be integer, array given in %s on line %d

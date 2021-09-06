@@ -1,0 +1,41 @@
+
+---- EXPECTED OUTPUT
+Indexable K retrieved.
+A evaluated.
+Offset A retrieved.
+Offset B set to offset value for A.
+C evaluated.
+Offset C retrieved.
+Offset 0 retrieved.
+Offset D set to offset value for 0.
+Offset 1 retrieved.
+Offset E set to offset value for 1.
+F evaluated.
+Offset F retrieved.
+G evaluated.
+Offset G retrieved.
+Offset H set to offset value for G.
+I evaluated.
+Offset I retrieved.
+Offset J set to offset value for I.
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Indexable K retrieved.
+A evaluated.
+Offset A retrieved.
+Offset B set to offset value for A.
+C evaluated.
+Offset C retrieved.
+Offset 0 retrieved.
+Offset D set to offset value for 0.
+Offset 1 retrieved.
+Offset E set to offset value for 1.
+F evaluated.
+Offset F retrieved.
+G evaluated.
+Offset G retrieved.
+Offset H set to offset value for G.
+I evaluated.
+Offset I retrieved.
+Offset J set to offset value for I.
+---- FAILED

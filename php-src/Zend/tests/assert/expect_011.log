@@ -1,0 +1,18 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught AssertionError: [Message]: MyExpectations in %sexpect_011.php:%d
+Stack trace:
+#0 %sexpect_011.php(%d): assert(false, '[Message]: MyEx...')
+#1 %sexpect_011.php(%d): One->__construct()
+#2 {main}
+  thrown in %sexpect_011.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught AssertionError: [Message]: MyExpectations in /root/php-src/Zend/tests/assert/expect_011.php:11
+Stack trace:
+#0 /root/php-src/Zend/tests/assert/expect_011.php(11): assert(false, '[Message]: MyEx...')
+#1 /root/php-src/Zend/tests/assert/expect_011.php(16): One->__construct()
+#2 {main}
+  thrown in /root/php-src/Zend/tests/assert/expect_011.php on line 11
+---- FAILED

@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+Set static values in A:
+
+Fatal error: Uncaught ReflectionException: Class A does not have a property named  in %sReflectionClass_setStaticPropertyValue_001_2_4.php:%d
+Stack trace:
+#0 %sReflectionClass_setStaticPropertyValue_001_2_4.php(%d): ReflectionClass->setStaticPropertyValue('\x00A\x00privateOverr...', 'new value 1')
+#1 {main}
+  thrown in %sReflectionClass_setStaticPropertyValue_001_2_4.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Set static values in A:
+
+Fatal error: Uncaught ReflectionException: Class A does not have a property named  in /root/php-src/ext/reflection/tests/ReflectionClass_setStaticPropertyValue_001_2_4.php:16
+Stack trace:
+#0 /root/php-src/ext/reflection/tests/ReflectionClass_setStaticPropertyValue_001_2_4.php(16): ReflectionClass->setStaticPropertyValue('\x00A\x00privateOverr...', 'new value 1')
+#1 {main}
+  thrown in /root/php-src/ext/reflection/tests/ReflectionClass_setStaticPropertyValue_001_2_4.php on line 16
+---- FAILED

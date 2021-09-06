@@ -1,0 +1,11 @@
+*** Testing finfo_set_flags() : basic functionality ***
+bool(true)
+bool(true)
+
+Warning: finfo_set_flags() expects exactly 2 parameters, 0 given in %s on line %d
+bool(false)
+bool(true)
+
+Warning: finfo::set_flags() expects exactly 1 parameter, 0 given in %s on line %d
+bool(false)
+===DONE===

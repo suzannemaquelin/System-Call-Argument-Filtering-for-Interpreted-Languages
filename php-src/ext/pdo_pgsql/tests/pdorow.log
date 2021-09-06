@@ -1,0 +1,14 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught PDOException: You may not create a PDORow manually in %spdorow.php:3
+Stack trace:
+#0 {main}
+  thrown in %spdorow.php on line 3
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught PDOException: You may not create a PDORow manually in /root/php-src/ext/pdo_pgsql/tests/pdorow.php:3
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/ext/pdo_pgsql/tests/pdorow.php on line 3
+---- FAILED

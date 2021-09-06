@@ -1,0 +1,18 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+0 => test1
+1 => test2
+0 => test1
+1 => test2
+
+Notice: Undefined index: foo in /root/php-src/ext/spl/tests/bug74669.php on line 79
+NULL
+object(SelfArray)#9 (1) {
+  ["foo"]=>
+  string(3) "bar"
+}
+string(62) "C:9:"SelfArray":41:{x:i:16777216;m:a:1:{s:3:"foo";s:3:"bar";}}"
+object(SelfArray)#9 (1) {
+  ["foo"]=>
+  string(3) "bar"
+}
+string(3) "bar"

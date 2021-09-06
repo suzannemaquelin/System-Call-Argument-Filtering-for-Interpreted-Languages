@@ -1,0 +1,12 @@
+array(2) {
+  [0]=>
+  object(ReflectionParameter)#%d (1) {
+    ["name"]=>
+    string(5) "query"
+  }
+  [1]=>
+  object(ReflectionParameter)#%d (1) {
+    ["name"]=>
+    string(10) "resultmode"
+  }
+}

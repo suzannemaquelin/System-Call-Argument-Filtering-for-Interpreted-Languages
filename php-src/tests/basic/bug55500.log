@@ -1,0 +1,72 @@
+
+---- EXPECTED OUTPUT
+array(1) {
+  [%u|b%"file"]=>
+  array(5) {
+    [%u|b%"name"]=>
+    array(1) {
+      [0]=>
+      %unicode|string%(9) "file1.txt"
+    }
+    [%u|b%"type"]=>
+    array(1) {
+      [0]=>
+      %unicode|string%(16) "text/plain-file1"
+    }
+    [%u|b%"tmp_name"]=>
+    array(1) {
+      [0]=>
+      %unicode|string%(%d) "%s"
+    }
+    [%u|b%"error"]=>
+    array(1) {
+      [0]=>
+      int(0)
+    }
+    [%u|b%"size"]=>
+    array(1) {
+      [0]=>
+      int(1)
+    }
+  }
+}
+array(0) {
+}
+---- ACTUAL OUTPUT
+array(1) {
+  ["file"]=>
+  array(5) {
+    ["name"]=>
+    array(1) {
+      [0]=>
+      string(9) "file1.txt"
+    }
+    ["type"]=>
+    array(1) {
+      [0]=>
+      string(16) "text/plain-file1"
+    }
+    ["tmp_name"]=>
+    array(1) {
+      [0]=>
+      string(14) "/tmp/phpSS7JoY"
+    }
+    ["error"]=>
+    array(1) {
+      [0]=>
+      int(0)
+    }
+    ["size"]=>
+    array(1) {
+      [0]=>
+      int(1)
+    }
+  }
+}
+array(0) {
+}
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so: cannot open shared object file: No such file or directory in Unknown on line 0
+---- FAILED

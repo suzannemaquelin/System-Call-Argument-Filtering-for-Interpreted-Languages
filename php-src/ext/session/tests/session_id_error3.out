@@ -1,0 +1,22 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing session_id() : error functionality ***
+string(32) "2a6c9a9bedfd76ca8947d406a190c5f4"
+string(32) "2a6c9a9bedfd76ca8947d406a190c5f4"
+string(1) "!"
+string(32) "42fd0dfa0cdac20fe06a01bba7d90984"
+string(32) "42fd0dfa0cdac20fe06a01bba7d90984"
+string(3) "?><"
+string(32) "8d46e42b28ece99ee4c6ceb1643a3d78"
+string(32) "8d46e42b28ece99ee4c6ceb1643a3d78"
+string(8) "£$%^&*()"
+string(32) "46815a9e5b77bc66158559f614ee512b"
+string(32) "46815a9e5b77bc66158559f614ee512b"
+string(2) "
+"
+string(32) "6a1fee9ea2cfb738db6cda9eac4c99c4"
+string(32) "6a1fee9ea2cfb738db6cda9eac4c99c4"
+string(0) ""
+string(32) "70cb0433090aaec13358c301fa5cfa46"
+string(32) "70cb0433090aaec13358c301fa5cfa46"
+string(19) "¬``@~:{>?><,./[]+--"
+Done

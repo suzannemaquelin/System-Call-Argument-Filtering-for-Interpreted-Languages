@@ -1,0 +1,10 @@
+object(Closure)#2 (2) {
+  ["static"]=>
+  array(1) {
+    ["test"]=>
+    string(3) "one"
+  }
+  ["this"]=>
+  object(foo)#1 (0) {
+  }
+}

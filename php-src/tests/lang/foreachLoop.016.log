@@ -1,0 +1,176 @@
+
+---- EXPECTED OUTPUT
+$a
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+${'a'}
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+$$a
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+$a[0]
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+$a[0][0]
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+$a->b
+
+Warning: Creating default object from empty value in %s on line %d
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+$a->b->c
+
+Warning: Creating default object from empty value in %s on line %d
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+$a->b[0]
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+$a->b[0][0]
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+$a->b[0]->c
+
+Warning: Creating default object from empty value in %s on line %d
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+C::$a
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+C::$a[0]
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+C::$a[0]->b
+
+Warning: Creating default object from empty value in %s on line %d
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+$a
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+${'a'}
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+$$a
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+$a[0]
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+$a[0][0]
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+$a->b
+
+Warning: Creating default object from empty value in /root/php-src/tests/lang/foreachLoop.016.php on line 47
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+$a->b->c
+
+Warning: Creating default object from empty value in /root/php-src/tests/lang/foreachLoop.016.php on line 55
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+$a->b[0]
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+$a->b[0][0]
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+$a->b[0]->c
+
+Warning: Creating default object from empty value in /root/php-src/tests/lang/foreachLoop.016.php on line 79
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+C::$a
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+C::$a[0]
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+
+C::$a[0]->b
+
+Warning: Creating default object from empty value in /root/php-src/tests/lang/foreachLoop.016.php on line 109
+array(1) {
+  [0]=>
+  string(8) "original"
+}
+---- FAILED

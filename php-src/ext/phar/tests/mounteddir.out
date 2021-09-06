@@ -1,0 +1,25 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(47) "/root/php-src/ext/phar/tests/testit/extfile.php"
+<?php
+var_dump(__FILE__);
+?>
+
+Warning: file_get_contents(phar:///root/php-src/ext/phar/tests/tempmanifest1.phar.php/testit/directory): failed to open stream: phar error: path "testit/directory" is a directory in phar:///root/php-src/ext/phar/tests/tempmanifest1.phar.php/index.php on line 4
+
+oops
+string(77) "phar:///root/php-src/ext/phar/tests/tempmanifest1.phar.php/testit/extfile.php"
+string(78) "phar:///root/php-src/ext/phar/tests/tempmanifest1.phar.php/testit/extfile2.php"
+Mounting of .phar/stub.php to /root/php-src/ext/phar/tests/testit/extfile.php within phar /root/php-src/ext/phar/tests/tempmanifest1.phar.php failed
+.
+..
+directory
+extfile.php
+extfile2.php
+phar:///root/php-src/ext/phar/tests/tempmanifest1.phar.php/testit/directory
+phar:///root/php-src/ext/phar/tests/tempmanifest1.phar.php/testit/extfile.php
+phar:///root/php-src/ext/phar/tests/tempmanifest1.phar.php/testit/extfile2.php
+Mounting of /testit to another\..\mistake within phar /root/php-src/ext/phar/tests/tempmanifest1.phar.php failed
+Mounting of /notfound to /root/php-src/ext/phar/tests/this/does/not/exist within phar /root/php-src/ext/phar/tests/tempmanifest1.phar.php failed
+Mounting of /testit to /root/php-src/ext/phar/tests within phar /root/php-src/ext/phar/tests/tempmanifest1.phar.php failed
+Mounting of /testit/extfile.php to /root/php-src/ext/phar/tests within phar /root/php-src/ext/phar/tests/tempmanifest1.phar.php failed
+===DONE===

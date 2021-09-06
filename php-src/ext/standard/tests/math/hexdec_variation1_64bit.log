@@ -1,0 +1,169 @@
+
+---- EXPECTED OUTPUT
+*** Testing hexdec() : usage variations ***
+
+-- Iteration 1 --
+int(0)
+
+-- Iteration 2 --
+int(1)
+
+-- Iteration 3 --
+int(74565)
+
+-- Iteration 4 --
+int(9029)
+
+-- Iteration 5 --
+int(285960729237)
+
+-- Iteration 6 --
+int(285960729238)
+
+-- Iteration 7 --
+int(261)
+
+-- Iteration 8 --
+int(261)
+
+-- Iteration 9 --
+int(20015998341120)
+
+-- Iteration 10 --
+int(1250999896553)
+
+-- Iteration 11 --
+int(5)
+
+-- Iteration 12 --
+int(0)
+
+-- Iteration 13 --
+int(0)
+
+-- Iteration 14 --
+int(1)
+
+-- Iteration 15 --
+int(0)
+
+-- Iteration 16 --
+int(1)
+
+-- Iteration 17 --
+int(0)
+
+-- Iteration 18 --
+int(0)
+
+-- Iteration 19 --
+int(0)
+
+-- Iteration 20 --
+
+Notice: Array to string conversion in %s on line %d
+int(170)
+
+-- Iteration 21 --
+int(2748)
+
+-- Iteration 22 --
+int(2748)
+
+-- Iteration 23 --
+int(2748)
+
+-- Iteration 24 --
+int(0)
+
+-- Iteration 25 --
+int(0)
+
+-- Iteration 26 --
+%s
+===Done===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing hexdec() : usage variations ***
+
+-- Iteration 1 --
+int(0)
+
+-- Iteration 2 --
+int(1)
+
+-- Iteration 3 --
+int(74565)
+
+-- Iteration 4 --
+int(9029)
+
+-- Iteration 5 --
+int(285960729237)
+
+-- Iteration 6 --
+int(285960729238)
+
+-- Iteration 7 --
+int(261)
+
+-- Iteration 8 --
+int(261)
+
+-- Iteration 9 --
+int(20015998341120)
+
+-- Iteration 10 --
+int(1250999896553)
+
+-- Iteration 11 --
+int(5)
+
+-- Iteration 12 --
+int(0)
+
+-- Iteration 13 --
+int(0)
+
+-- Iteration 14 --
+int(1)
+
+-- Iteration 15 --
+int(0)
+
+-- Iteration 16 --
+int(1)
+
+-- Iteration 17 --
+int(0)
+
+-- Iteration 18 --
+int(0)
+
+-- Iteration 19 --
+int(0)
+
+-- Iteration 20 --
+
+Notice: Array to string conversion in /root/php-src/ext/standard/tests/math/hexdec_variation1_64bit.php on line 71
+int(170)
+
+-- Iteration 21 --
+int(2748)
+
+-- Iteration 22 --
+int(2748)
+
+-- Iteration 23 --
+int(2748)
+
+-- Iteration 24 --
+int(0)
+
+-- Iteration 25 --
+int(0)
+
+-- Iteration 26 --
+int(970453)
+===Done===
+---- FAILED

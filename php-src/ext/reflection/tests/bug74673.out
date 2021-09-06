@@ -1,0 +1,3 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Method ReflectionClass::__toString() must not throw an exception, caught Exception:  in /root/php-src/ext/reflection/tests/bug74673.php on line 0

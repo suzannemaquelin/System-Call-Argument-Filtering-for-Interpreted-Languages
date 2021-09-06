@@ -1,0 +1,2 @@
+Warning: Declaration of test3::foo($arg, $arg2) should be compatible with test::foo($arg) in %s on line %d
+Done

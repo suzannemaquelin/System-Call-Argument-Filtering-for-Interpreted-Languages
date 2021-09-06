@@ -1,0 +1,18 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught Exception in %s
+Stack trace:
+#0 %s(%d): do_throw()
+#1 %s(%d): aa->dosome()
+#2 {main}
+  thrown in %s
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Exception in /root/php-src/Zend/tests/bug48228.php:4
+Stack trace:
+#0 /root/php-src/Zend/tests/bug48228.php(15): do_throw()
+#1 /root/php-src/Zend/tests/bug48228.php(20): aa->dosome()
+#2 {main}
+  thrown in /root/php-src/Zend/tests/bug48228.php on line 4
+---- FAILED

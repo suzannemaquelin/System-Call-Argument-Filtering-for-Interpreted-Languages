@@ -1,0 +1,14 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing ob_end_flush() : basic functionality ***
+
+-- Testing ob_end_flush() function with Zero arguments --
+
+Notice: ob_end_flush(): failed to delete and flush buffer. No buffer to delete or flush in /root/php-src/tests/output/ob_end_flush_basic_001.php on line 12
+bool(false)
+bool(true)
+Hello
+bool(true)
+
+Notice: ob_end_flush(): failed to delete and flush buffer. No buffer to delete or flush in /root/php-src/tests/output/ob_end_flush_basic_001.php on line 21
+bool(false)
+Done

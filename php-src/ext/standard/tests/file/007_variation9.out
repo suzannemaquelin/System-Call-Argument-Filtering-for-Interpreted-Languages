@@ -1,0 +1,12 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Test fopen() & fclose() functions:  with 'rt' mode ***
+resource(8) of type (stream)
+string(6) "stream"
+int(0)
+string(20) "line
+line of text
+li"
+int(0)
+bool(true)
+string(7) "Unknown"
+*** Done ***

@@ -1,0 +1,14 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught Error: Cannot use object of type Closure as array in %slist_007.php:3
+Stack trace:
+#0 {main}
+  thrown in %slist_007.php on line 3
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Error: Cannot use object of type Closure as array in /root/php-src/Zend/tests/list_007.php:3
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/Zend/tests/list_007.php on line 3
+---- FAILED

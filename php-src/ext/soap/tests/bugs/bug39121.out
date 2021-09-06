@@ -1,0 +1,32 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Array
+(
+    [Array] => Array
+        (
+            [0] => Array
+                (
+                    [0] => StateCode
+                    [1] => description
+                )
+
+            [1] => Array
+                (
+                    [0] => 241
+                    [1] => Carabobo
+                )
+
+            [2] => Array
+                (
+                    [0] => 243
+                    [1] => Aragua and Carabobo
+                )
+
+            [3] => Array
+                (
+                    [0] => 261
+                    [1] => Zulia
+                )
+
+        )
+
+)

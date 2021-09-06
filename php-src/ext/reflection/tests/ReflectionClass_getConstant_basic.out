@@ -1,0 +1,16 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Reflecting on class C: 
+string(12) "hello from C"
+bool(false)
+Reflecting on class D: 
+string(12) "hello from C"
+bool(false)
+Reflecting on class E: 
+string(12) "hello from C"
+bool(false)
+Reflecting on class F: 
+string(12) "hello from F"
+bool(false)
+Reflecting on class X: 
+bool(false)
+bool(false)

@@ -1,0 +1,90 @@
+002+ prompt> [User Function foo (15 ops)]
+003+ L14-16 foo() /root/php-src/sapi/phpdbg/tests/print_001.php - 0x7f3bd7684000 + 15 ops
+004+  L14   #0     EXT_NOP                                                                               
+005+  L14   #1     RECV                    1                                         $baz                
+006+  L15   #2     EXT_STMT                                                                              
+007+  L15   #3     INIT_FCALL              96                   "var_dump"                               
+008+  L15   #4     EXT_FCALL_BEGIN                                                                       
+009+  L15   #5     INIT_FCALL              96                   "strrev"                                 
+010+  L15   #6     EXT_FCALL_BEGIN                                                                       
+011+  L15   #7     SEND_VAR                $baz                 1                                        
+012+  L15   #8     DO_FCALL                                                          @0                  
+013+  L15   #9     EXT_FCALL_END                                                                         
+014+  L15   #10    SEND_VAR                @0                   1                                        
+015+  L15   #11    DO_FCALL                                                                              
+016+  L15   #12    EXT_FCALL_END                                                                         
+017+  L16   #13    EXT_STMT                                                                              
+018+  L16   #14    RETURN                  null                                                          
+002- prompt> [User Function foo (8 ops)]
+003- L14-16 foo() %s - %s + 8 ops
+004-  L14   #0     RECV                    1                                         $baz                
+005-  L15   #1     INIT_FCALL%s %d %s "var_dump"                               
+006-  L15   #2     INIT_FCALL%s %d %s "strrev"                                 
+007-  L15   #3     SEND_VAR                $baz                 1                                        
+008-  L15   #4     DO_%cCALL                                                          @0                  
+009-  L15   #5     SEND_VAR                @0                   1                                        
+010-  L15   #6     DO_%cCALL                                                                              
+011-  L16   #7     RETURN                  null                                                          
+013- L5-7 Foo\Bar::Foo() %s - %s + 5 ops
+014-  L5    #0     RECV                    1                                         $bar                
+015-  L6    #1     INIT_NS_FCALL_BY_NAME                        "Foo\\var_dump"                          
+016-  L6    #2     SEND_VAR_EX             $bar                 1                                        
+017-  L6    #3     DO_FCALL                                                                              
+018-  L7    #4     RETURN                  null                                                          
+019- L9-9 Foo\Bar::baz() %s - %s + 1 ops
+020-  L9    #0     RETURN                  null                                                          
+020+ L5-7 Foo\Bar::Foo() /root/php-src/sapi/phpdbg/tests/print_001.php - 0x7f3bd7681000 + 10 ops
+021+  L5    #0     EXT_NOP                                                                               
+022+  L5    #1     RECV                    1                                         $bar                
+023+  L6    #2     EXT_STMT                                                                              
+024+  L6    #3     INIT_NS_FCALL_BY_NAME                        "Foo\\var_dump"                          
+025+  L6    #4     EXT_FCALL_BEGIN                                                                       
+026+  L6    #5     SEND_VAR_EX             $bar                 1                                        
+027+  L6    #6     DO_FCALL                                                                              
+028+  L6    #7     EXT_FCALL_END                                                                         
+029+  L7    #8     EXT_STMT                                                                              
+030+  L7    #9     RETURN                  null                                                          
+031+ L9-9 Foo\Bar::baz() /root/php-src/sapi/phpdbg/tests/print_001.php - 0x7f3bd7680080 + 3 ops
+032+  L9    #0     EXT_NOP                                                                               
+033+  L9    #1     EXT_STMT                                                                              
+034+  L9    #2     RETURN                  null                                                          
+022- prompt> [Context %s (11 ops)]
+023- L1-21 {main}() %s - %s + 11 ops
+024-  L4    #0     NOP                                                                                   
+025-  L14   #1     NOP                                                                                   
+026-  L18   #2     NEW                     "Foo\\Bar"                                @1                  
+027-  L18   #3     DO_FCALL                                                                              
+028-  L18   #4     INIT_METHOD_CALL        @1                   "Foo"                                    
+029-  L18   #5     SEND_VAL_EX             "test"               1                                        
+030-  L18   #6     DO_FCALL                                                                              
+031-  L19   #7     INIT_FCALL%s %d %s "foo"                                    
+032-  L19   #8     SEND_VAL                "test"               1                                        
+033-  L19   #9     DO_FCALL                                                                              
+034-  L21   #10    RETURN                  1                                                             
+035- prompt>
+036+ prompt> [Context /root/php-src/sapi/phpdbg/tests/print_001.php (23 ops)]
+037+ L1-21 {main}() /root/php-src/sapi/phpdbg/tests/print_001.php - 0x7f3bd7685000 + 23 ops
+038+  L3    #0     NOP                                                                                   
+039+  L4    #1     EXT_STMT                                                                              
+040+  L4    #2     NOP                                                                                   
+041+  L13   #3     NOP                                                                                   
+042+  L14   #4     EXT_STMT                                                                              
+043+  L14   #5     NOP                                                                                   
+044+  L18   #6     EXT_STMT                                                                              
+045+  L18   #7     NEW                     "Foo\\Bar"                                @1                  
+046+  L18   #8     EXT_FCALL_BEGIN                                                                       
+047+  L18   #9     DO_FCALL                                                                              
+048+  L18   #10    EXT_FCALL_END                                                                         
+049+  L18   #11    INIT_METHOD_CALL        @1                   "Foo"                                    
+050+  L18   #12    EXT_FCALL_BEGIN                                                                       
+051+  L18   #13    SEND_VAL_EX             "test"               1                                        
+052+  L18   #14    DO_FCALL                                                                              
+053+  L18   #15    EXT_FCALL_END                                                                         
+054+  L19   #16    EXT_STMT                                                                              
+055+  L19   #17    INIT_FCALL              128                  "foo"                                    
+056+  L19   #18    EXT_FCALL_BEGIN                                                                       
+057+  L19   #19    SEND_VAL                "test"               1                                        
+058+  L19   #20    DO_FCALL                                                                              
+059+  L19   #21    EXT_FCALL_END                                                                         
+060+  L21   #22    RETURN                  1                                                             
+061+ prompt>

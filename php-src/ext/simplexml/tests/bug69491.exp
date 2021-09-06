@@ -1,0 +1,8 @@
+object(SimpleXMLElement)#1 (1) {
+  ["b"]=>
+  object(SimpleXMLElement)#2 (1) {
+    ["c"]=>
+    object(SimpleXMLElement)#3 (0) {
+    }
+  }
+}

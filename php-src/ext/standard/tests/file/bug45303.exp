@@ -1,0 +1,4 @@
+resource(%d) of type (stream)
+
+Warning: fseek(): stream does not support seeking in %s
+int(-1)

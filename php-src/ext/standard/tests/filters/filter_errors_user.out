@@ -1,0 +1,91 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+test_filter0
+bool(true)
+test filtering of buffered data
+
+Warning: stream_filter_append(): Unprocessed filter buckets remaining on input brigade in /root/php-src/ext/standard/tests/filters/filter_errors.inc on line 24
+
+Warning: stream_filter_append(): Filter failed to process pre-buffered data in /root/php-src/ext/standard/tests/filters/filter_errors.inc on line 24
+test filtering of non buffered data
+
+Warning: stream_get_contents(): Unprocessed filter buckets remaining on input brigade in /root/php-src/ext/standard/tests/filters/filter_errors.inc on line 34
+test_filter1
+bool(true)
+test filtering of buffered data
+
+Warning: stream_filter_append(): Filter failed to process pre-buffered data in /root/php-src/ext/standard/tests/filters/filter_errors.inc on line 24
+test filtering of non buffered data
+test_filter2
+bool(true)
+test filtering of buffered data
+
+Warning: stream_filter_append(): Filter failed to process pre-buffered data in /root/php-src/ext/standard/tests/filters/filter_errors.inc on line 24
+test filtering of non buffered data
+test_filter3
+bool(true)
+test filtering of buffered data
+
+Warning: stream_filter_append(): Unprocessed filter buckets remaining on input brigade in /root/php-src/ext/standard/tests/filters/filter_errors.inc on line 24
+
+Warning: stream_filter_append(): Filter failed to process pre-buffered data in /root/php-src/ext/standard/tests/filters/filter_errors.inc on line 24
+test filtering of non buffered data
+
+Warning: stream_get_contents(): Unprocessed filter buckets remaining on input brigade in /root/php-src/ext/standard/tests/filters/filter_errors.inc on line 34
+test_filter4
+bool(true)
+test filtering of buffered data
+
+Warning: stream_filter_append(): Unprocessed filter buckets remaining on input brigade in /root/php-src/ext/standard/tests/filters/filter_errors.inc on line 24
+
+Warning: stream_filter_append(): Filter failed to process pre-buffered data in /root/php-src/ext/standard/tests/filters/filter_errors.inc on line 24
+test filtering of non buffered data
+
+Warning: stream_get_contents(): Unprocessed filter buckets remaining on input brigade in /root/php-src/ext/standard/tests/filters/filter_errors.inc on line 34
+test append / read / remove
+test_filter0
+
+Warning: stream_get_contents(): Unprocessed filter buckets remaining on input brigade in /root/php-src/ext/standard/tests/filters/filter_errors_user.php on line 55
+
+Warning: stream_filter_remove(): Unable to flush filter, not removing in /root/php-src/ext/standard/tests/filters/filter_errors_user.php on line 56
+test_filter1
+
+Warning: stream_filter_remove(): Unable to flush filter, not removing in /root/php-src/ext/standard/tests/filters/filter_errors_user.php on line 56
+test_filter2
+
+Warning: stream_filter_remove(): Unable to flush filter, not removing in /root/php-src/ext/standard/tests/filters/filter_errors_user.php on line 56
+test_filter3
+
+Warning: stream_get_contents(): Unprocessed filter buckets remaining on input brigade in /root/php-src/ext/standard/tests/filters/filter_errors_user.php on line 55
+
+Warning: stream_filter_remove(): Unable to flush filter, not removing in /root/php-src/ext/standard/tests/filters/filter_errors_user.php on line 56
+test_filter4
+
+Warning: stream_get_contents(): Unprocessed filter buckets remaining on input brigade in /root/php-src/ext/standard/tests/filters/filter_errors_user.php on line 55
+
+Warning: stream_filter_remove(): Unable to flush filter, not removing in /root/php-src/ext/standard/tests/filters/filter_errors_user.php on line 56
+test append all / read / remove all
+test_filter0
+test_filter1
+test_filter2
+test_filter3
+test_filter4
+
+Warning: stream_get_contents(): Unprocessed filter buckets remaining on input brigade in /root/php-src/ext/standard/tests/filters/filter_errors_user.php on line 68
+
+Warning: stream_filter_remove(): Unable to flush filter, not removing in /root/php-src/ext/standard/tests/filters/filter_errors_user.php on line 70
+
+Warning: stream_filter_remove(): Unable to flush filter, not removing in /root/php-src/ext/standard/tests/filters/filter_errors_user.php on line 70
+
+Warning: stream_filter_remove(): Unable to flush filter, not removing in /root/php-src/ext/standard/tests/filters/filter_errors_user.php on line 70
+
+Warning: stream_filter_remove(): Unable to flush filter, not removing in /root/php-src/ext/standard/tests/filters/filter_errors_user.php on line 70
+
+Warning: stream_filter_remove(): Unable to flush filter, not removing in /root/php-src/ext/standard/tests/filters/filter_errors_user.php on line 70
+test append all / read / close
+test_filter0
+test_filter1
+test_filter2
+test_filter3
+test_filter4
+
+Warning: stream_get_contents(): Unprocessed filter buckets remaining on input brigade in /root/php-src/ext/standard/tests/filters/filter_errors_user.php on line 82

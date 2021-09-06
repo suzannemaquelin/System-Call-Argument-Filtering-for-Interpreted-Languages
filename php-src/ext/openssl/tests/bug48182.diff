@@ -1,0 +1,13 @@
+001+ Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+002- Sending bug48182
+003- Sending data over to SSL server in async mode with contents like Hello World
+003+ 
+004+ Warning: stream_socket_client(): SSL: Success in /root/php-src/ext/openssl/tests/ServerClientTestCase.inc(96) : eval()'d code on line 9
+005+ 
+006+ Warning: stream_socket_client(): Failed to enable crypto in /root/php-src/ext/openssl/tests/ServerClientTestCase.inc(96) : eval()'d code on line 9
+007+ 
+008+ Warning: stream_socket_client(): unable to connect to ssl://127.0.0.1:64321 (Unknown error) in /root/php-src/ext/openssl/tests/ServerClientTestCase.inc(96) : eval()'d code on line 9
+009+ 
+010+ Warning: fwrite() expects parameter 1 to be resource, boolean given in /root/php-src/ext/openssl/tests/ServerClientTestCase.inc(96) : eval()'d code on line 13
+011+ 
+012+ Warning: fread() expects parameter 1 to be resource, boolean given in /root/php-src/ext/openssl/tests/ServerClientTestCase.inc(96) : eval()'d code on line 14

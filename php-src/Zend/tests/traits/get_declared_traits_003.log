@@ -1,0 +1,333 @@
+
+---- EXPECTED OUTPUT
+array(%d) {%A
+  [%d]=>
+  string(1) "a"
+  [%d]=>
+  string(1) "d"
+  [%d]=>
+  string(1) "e"
+}
+array(%d) {%A
+  [%d]=>
+  string(1) "c"
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(154) {
+  [0]=>
+  string(8) "stdClass"
+  [1]=>
+  string(9) "Exception"
+  [2]=>
+  string(14) "ErrorException"
+  [3]=>
+  string(5) "Error"
+  [4]=>
+  string(10) "ParseError"
+  [5]=>
+  string(9) "TypeError"
+  [6]=>
+  string(18) "ArgumentCountError"
+  [7]=>
+  string(15) "ArithmeticError"
+  [8]=>
+  string(19) "DivisionByZeroError"
+  [9]=>
+  string(7) "Closure"
+  [10]=>
+  string(9) "Generator"
+  [11]=>
+  string(24) "ClosedGeneratorException"
+  [12]=>
+  string(14) "_ZendTestClass"
+  [13]=>
+  string(8) "DateTime"
+  [14]=>
+  string(17) "DateTimeImmutable"
+  [15]=>
+  string(12) "DateTimeZone"
+  [16]=>
+  string(12) "DateInterval"
+  [17]=>
+  string(10) "DatePeriod"
+  [18]=>
+  string(11) "LibXMLError"
+  [19]=>
+  string(7) "SQLite3"
+  [20]=>
+  string(11) "SQLite3Stmt"
+  [21]=>
+  string(13) "SQLite3Result"
+  [22]=>
+  string(8) "CURLFile"
+  [23]=>
+  string(12) "DOMException"
+  [24]=>
+  string(13) "DOMStringList"
+  [25]=>
+  string(11) "DOMNameList"
+  [26]=>
+  string(21) "DOMImplementationList"
+  [27]=>
+  string(23) "DOMImplementationSource"
+  [28]=>
+  string(17) "DOMImplementation"
+  [29]=>
+  string(7) "DOMNode"
+  [30]=>
+  string(16) "DOMNameSpaceNode"
+  [31]=>
+  string(19) "DOMDocumentFragment"
+  [32]=>
+  string(11) "DOMDocument"
+  [33]=>
+  string(11) "DOMNodeList"
+  [34]=>
+  string(15) "DOMNamedNodeMap"
+  [35]=>
+  string(16) "DOMCharacterData"
+  [36]=>
+  string(7) "DOMAttr"
+  [37]=>
+  string(10) "DOMElement"
+  [38]=>
+  string(7) "DOMText"
+  [39]=>
+  string(10) "DOMComment"
+  [40]=>
+  string(11) "DOMTypeinfo"
+  [41]=>
+  string(18) "DOMUserDataHandler"
+  [42]=>
+  string(11) "DOMDomError"
+  [43]=>
+  string(15) "DOMErrorHandler"
+  [44]=>
+  string(10) "DOMLocator"
+  [45]=>
+  string(16) "DOMConfiguration"
+  [46]=>
+  string(15) "DOMCdataSection"
+  [47]=>
+  string(15) "DOMDocumentType"
+  [48]=>
+  string(11) "DOMNotation"
+  [49]=>
+  string(9) "DOMEntity"
+  [50]=>
+  string(18) "DOMEntityReference"
+  [51]=>
+  string(24) "DOMProcessingInstruction"
+  [52]=>
+  string(15) "DOMStringExtend"
+  [53]=>
+  string(8) "DOMXPath"
+  [54]=>
+  string(5) "finfo"
+  [55]=>
+  string(14) "LogicException"
+  [56]=>
+  string(24) "BadFunctionCallException"
+  [57]=>
+  string(22) "BadMethodCallException"
+  [58]=>
+  string(15) "DomainException"
+  [59]=>
+  string(24) "InvalidArgumentException"
+  [60]=>
+  string(15) "LengthException"
+  [61]=>
+  string(19) "OutOfRangeException"
+  [62]=>
+  string(16) "RuntimeException"
+  [63]=>
+  string(20) "OutOfBoundsException"
+  [64]=>
+  string(17) "OverflowException"
+  [65]=>
+  string(14) "RangeException"
+  [66]=>
+  string(18) "UnderflowException"
+  [67]=>
+  string(24) "UnexpectedValueException"
+  [68]=>
+  string(25) "RecursiveIteratorIterator"
+  [69]=>
+  string(16) "IteratorIterator"
+  [70]=>
+  string(14) "FilterIterator"
+  [71]=>
+  string(23) "RecursiveFilterIterator"
+  [72]=>
+  string(22) "CallbackFilterIterator"
+  [73]=>
+  string(31) "RecursiveCallbackFilterIterator"
+  [74]=>
+  string(14) "ParentIterator"
+  [75]=>
+  string(13) "LimitIterator"
+  [76]=>
+  string(15) "CachingIterator"
+  [77]=>
+  string(24) "RecursiveCachingIterator"
+  [78]=>
+  string(16) "NoRewindIterator"
+  [79]=>
+  string(14) "AppendIterator"
+  [80]=>
+  string(16) "InfiniteIterator"
+  [81]=>
+  string(13) "RegexIterator"
+  [82]=>
+  string(22) "RecursiveRegexIterator"
+  [83]=>
+  string(13) "EmptyIterator"
+  [84]=>
+  string(21) "RecursiveTreeIterator"
+  [85]=>
+  string(11) "ArrayObject"
+  [86]=>
+  string(13) "ArrayIterator"
+  [87]=>
+  string(22) "RecursiveArrayIterator"
+  [88]=>
+  string(11) "SplFileInfo"
+  [89]=>
+  string(17) "DirectoryIterator"
+  [90]=>
+  string(18) "FilesystemIterator"
+  [91]=>
+  string(26) "RecursiveDirectoryIterator"
+  [92]=>
+  string(12) "GlobIterator"
+  [93]=>
+  string(13) "SplFileObject"
+  [94]=>
+  string(17) "SplTempFileObject"
+  [95]=>
+  string(19) "SplDoublyLinkedList"
+  [96]=>
+  string(8) "SplQueue"
+  [97]=>
+  string(8) "SplStack"
+  [98]=>
+  string(7) "SplHeap"
+  [99]=>
+  string(10) "SplMinHeap"
+  [100]=>
+  string(10) "SplMaxHeap"
+  [101]=>
+  string(16) "SplPriorityQueue"
+  [102]=>
+  string(13) "SplFixedArray"
+  [103]=>
+  string(16) "SplObjectStorage"
+  [104]=>
+  string(16) "MultipleIterator"
+  [105]=>
+  string(14) "SessionHandler"
+  [106]=>
+  string(22) "__PHP_Incomplete_Class"
+  [107]=>
+  string(15) "php_user_filter"
+  [108]=>
+  string(9) "Directory"
+  [109]=>
+  string(14) "AssertionError"
+  [110]=>
+  string(12) "PDOException"
+  [111]=>
+  string(3) "PDO"
+  [112]=>
+  string(12) "PDOStatement"
+  [113]=>
+  string(6) "PDORow"
+  [114]=>
+  string(13) "PharException"
+  [115]=>
+  string(4) "Phar"
+  [116]=>
+  string(8) "PharData"
+  [117]=>
+  string(12) "PharFileInfo"
+  [118]=>
+  string(19) "ReflectionException"
+  [119]=>
+  string(10) "Reflection"
+  [120]=>
+  string(26) "ReflectionFunctionAbstract"
+  [121]=>
+  string(18) "ReflectionFunction"
+  [122]=>
+  string(19) "ReflectionGenerator"
+  [123]=>
+  string(19) "ReflectionParameter"
+  [124]=>
+  string(14) "ReflectionType"
+  [125]=>
+  string(19) "ReflectionNamedType"
+  [126]=>
+  string(16) "ReflectionMethod"
+  [127]=>
+  string(15) "ReflectionClass"
+  [128]=>
+  string(16) "ReflectionObject"
+  [129]=>
+  string(18) "ReflectionProperty"
+  [130]=>
+  string(23) "ReflectionClassConstant"
+  [131]=>
+  string(19) "ReflectionExtension"
+  [132]=>
+  string(23) "ReflectionZendExtension"
+  [133]=>
+  string(20) "mysqli_sql_exception"
+  [134]=>
+  string(13) "mysqli_driver"
+  [135]=>
+  string(6) "mysqli"
+  [136]=>
+  string(14) "mysqli_warning"
+  [137]=>
+  string(13) "mysqli_result"
+  [138]=>
+  string(11) "mysqli_stmt"
+  [139]=>
+  string(16) "SimpleXMLElement"
+  [140]=>
+  string(17) "SimpleXMLIterator"
+  [141]=>
+  string(10) "SoapClient"
+  [142]=>
+  string(7) "SoapVar"
+  [143]=>
+  string(10) "SoapServer"
+  [144]=>
+  string(9) "SoapFault"
+  [145]=>
+  string(9) "SoapParam"
+  [146]=>
+  string(10) "SoapHeader"
+  [147]=>
+  string(9) "XMLReader"
+  [148]=>
+  string(9) "XMLWriter"
+  [149]=>
+  string(13) "XSLTProcessor"
+  [150]=>
+  string(10) "ZipArchive"
+  [151]=>
+  string(1) "a"
+  [152]=>
+  string(1) "d"
+  [153]=>
+  string(1) "e"
+}
+array(2) {
+  [0]=>
+  string(14) "_ZendTestTrait"
+  [1]=>
+  string(1) "c"
+}
+---- FAILED

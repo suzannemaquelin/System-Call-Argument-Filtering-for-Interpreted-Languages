@@ -1,0 +1,5 @@
+004+ [Breakpoint #0 in 7f46bc0810c0 at /root/php-src/sapi/phpdbg/tests/phpdbg_break_next.php:4, hits: 1]
+005+ >00004: phpdbg_break_next();
+006+  00005: echo 'B';
+004- [Breakpoint #0 in %s at %s:5, hits: 1]
+005- >00005: echo 'B';

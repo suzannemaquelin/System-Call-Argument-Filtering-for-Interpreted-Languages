@@ -1,0 +1,15 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+NULL
+NULL
+array(4) {
+  ["type"]=>
+  int(8)
+  ["message"]=>
+  string(21) "Undefined variable: b"
+  ["file"]=>
+  string(71) "/root/php-src/ext/standard/tests/general_functions/error_clear_last.php"
+  ["line"]=>
+  int(7)
+}
+NULL
+Done

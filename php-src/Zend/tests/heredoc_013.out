@@ -1,0 +1,3 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Parse error: syntax error, unexpected '<<<"MYLABEL"' (T_START_HEREDOC) in /root/php-src/Zend/tests/heredoc_013.php on line 4

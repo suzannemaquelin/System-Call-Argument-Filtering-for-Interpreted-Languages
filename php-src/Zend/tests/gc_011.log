@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+object(Foo)#%d (1) {
+  ["a"]=>
+  *RECURSION*
+}
+__destruct
+int(1)
+ok
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(Foo)#1 (1) {
+  ["a"]=>
+  *RECURSION*
+}
+__destruct
+int(1)
+ok
+---- FAILED

@@ -1,0 +1,16 @@
+Notice: Undefined variable: ch1 in %s on line %d
+
+Warning: curl_setopt() expects parameter 1 to be resource, null given in %s on line %d
+
+Notice: Undefined variable: ch1 in %s on line %d
+
+Warning: curl_setopt() expects parameter 1 to be resource, null given in %s on line %d
+
+Notice: Undefined variable: ch1 in %s on line %d
+
+Warning: curl_multi_add_handle() expects parameter 2 to be resource, null given in %s on line %d
+
+Notice: Undefined variable: ch1 in %s on line %d
+
+Warning: curl_multi_getcontent() expects parameter 1 to be resource, null given in %s on line %d
+CURL2

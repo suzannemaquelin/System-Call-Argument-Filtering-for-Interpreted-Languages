@@ -1,0 +1,33 @@
+array(3) {
+  ["a"]=>
+  int(1)
+  ["b"]=>
+  string(5) "hello"
+  ["c"]=>
+  float(3.14)
+}
+array(3) {
+  ["a"]=>
+  int(1)
+  ["b"]=>
+  string(5) "hello"
+  ["c"]=>
+  float(3.14)
+}
+array(3) {
+  ["a"]=>
+  int(0)
+  ["b"]=>
+  string(2) "42"
+  ["c"]=>
+  float(0.42)
+}
+array(3) {
+  ["a"]=>
+  int(3)
+  ["b"]=>
+  string(5) "world"
+  ["c"]=>
+  float(3.15)
+}
+==DONE==

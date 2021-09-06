@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+object(Object)#%d (0) {
+}
+Exception: Too few arguments to function Object1::__construct(), 0 passed and exactly 1 expected
+string(4) "test"
+object(Object1)#%d (0) {
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(Object)#2 (0) {
+}
+Exception: Too few arguments to function Object1::__construct(), 0 passed and exactly 1 expected
+string(4) "test"
+object(Object1)#1 (0) {
+}
+Done
+---- FAILED

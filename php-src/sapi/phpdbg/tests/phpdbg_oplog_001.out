@@ -1,0 +1,27 @@
+[Successful compilation of /root/php-src/sapi/phpdbg/tests/phpdbg_oplog_001.php]
+prompt> halloarray(2) {
+  ["/root/php-src/sapi/phpdbg/tests/phpdbg_oplog_001.php"]=>
+  array(5) {
+    [13]=>
+    int(1)
+    [17]=>
+    int(3)
+    [18]=>
+    int(2)
+    [19]=>
+    int(3)
+    [21]=>
+    int(4)
+  }
+  ["A::b"]=>
+  array(3) {
+    [4]=>
+    int(2)
+    [5]=>
+    int(3)
+    [8]=>
+    int(2)
+  }
+}
+[Script ended normally]
+prompt>

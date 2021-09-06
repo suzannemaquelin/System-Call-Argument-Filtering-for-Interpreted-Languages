@@ -1,0 +1,53 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing get_declared_interfaces() : basic functionality ***
+
+-- Testing get_declared_interfaces() function with Zero arguments --
+array(20) {
+  [0]=>
+  string(11) "Traversable"
+  [1]=>
+  string(17) "IteratorAggregate"
+  [2]=>
+  string(8) "Iterator"
+  [3]=>
+  string(11) "ArrayAccess"
+  [4]=>
+  string(12) "Serializable"
+  [5]=>
+  string(9) "Throwable"
+  [6]=>
+  string(18) "_ZendTestInterface"
+  [7]=>
+  string(17) "DateTimeInterface"
+  [8]=>
+  string(17) "RecursiveIterator"
+  [9]=>
+  string(13) "OuterIterator"
+  [10]=>
+  string(9) "Countable"
+  [11]=>
+  string(16) "SeekableIterator"
+  [12]=>
+  string(11) "SplObserver"
+  [13]=>
+  string(10) "SplSubject"
+  [14]=>
+  string(16) "JsonSerializable"
+  [15]=>
+  string(23) "SessionHandlerInterface"
+  [16]=>
+  string(18) "SessionIdInterface"
+  [17]=>
+  string(38) "SessionUpdateTimestampHandlerInterface"
+  [18]=>
+  string(9) "Reflector"
+  [19]=>
+  string(1) "I"
+}
+
+-- Ensure userspace classes are not listed --
+bool(false)
+
+-- Ensure userspace interfaces are listed --
+bool(true)
+Done

@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_slice() : error conditions ***
+
+-- Testing array_slice() function with more than expected no. of arguments --
+
+Warning: array_slice() expects at most 4 parameters, 5 given in /root/php-src/ext/standard/tests/array/array_slice_error.php on line 20
+NULL
+
+-- Testing array_slice() function with less than expected no. of arguments --
+
+Warning: array_slice() expects at least 2 parameters, 1 given in /root/php-src/ext/standard/tests/array/array_slice_error.php on line 24
+NULL
+Done

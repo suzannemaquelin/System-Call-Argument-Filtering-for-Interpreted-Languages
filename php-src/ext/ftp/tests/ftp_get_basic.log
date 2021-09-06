@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+bool(true)
+bool(true)
+For sale: baby shoes, never worn.
+bool(true)
+string(21) "BINARYFoo%00Bar%0D%0A"
+
+Warning: ftp_get(): a warning: No such file or directory  in %sftp_get_basic.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(true)
+bool(true)
+For sale: baby shoes, never worn.
+bool(true)
+string(21) "BINARYFoo%00Bar%0D%0A"
+
+Warning: ftp_get(): a warning: No such file or directory  in /root/php-src/ext/ftp/tests/ftp_get_basic.php on line 22
+---- FAILED

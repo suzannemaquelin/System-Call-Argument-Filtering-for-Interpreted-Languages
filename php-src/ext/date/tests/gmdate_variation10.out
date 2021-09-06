@@ -1,0 +1,27 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing gmdate() : usage variation ***
+
+-- Testing gmdate() function with Timezone identifier format --
+string(3) "UTC"
+string(3) "UTC"
+
+-- Testing gmdate() function with checking whether date is in daylight saving time format --
+string(1) "0"
+string(1) "0"
+
+-- Testing gmdate() function with difference to GMT in hours format --
+string(5) "+0000"
+string(5) "+0000"
+
+-- Testing gmdate() function with Difference to GMT in hours using colon as separator format --
+string(6) "+00:00"
+string(6) "+00:00"
+
+-- Testing gmdate() function with timezone abbreviation format --
+string(3) "GMT"
+string(3) "GMT"
+
+-- Testing gmdate() function with timezone offset format --
+string(3) "GMT"
+string(3) "GMT"
+===DONE===

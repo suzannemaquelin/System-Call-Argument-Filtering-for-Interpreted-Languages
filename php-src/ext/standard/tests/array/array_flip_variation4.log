@@ -1,0 +1,61 @@
+
+---- EXPECTED OUTPUT
+*** Testing array_flip() : different invalid values in 'input' array argument ***
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in %s on line %d
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in %s on line %d
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in %s on line %d
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in %s on line %d
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in %s on line %d
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in %s on line %d
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in %s on line %d
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in %s on line %d
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in %s on line %d
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in %s on line %d
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in %s on line %d
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in %s on line %d
+array(0) {
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_flip() : different invalid values in 'input' array argument ***
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in /root/php-src/ext/standard/tests/array/array_flip_variation4.php on line 52
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in /root/php-src/ext/standard/tests/array/array_flip_variation4.php on line 52
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in /root/php-src/ext/standard/tests/array/array_flip_variation4.php on line 52
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in /root/php-src/ext/standard/tests/array/array_flip_variation4.php on line 52
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in /root/php-src/ext/standard/tests/array/array_flip_variation4.php on line 52
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in /root/php-src/ext/standard/tests/array/array_flip_variation4.php on line 52
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in /root/php-src/ext/standard/tests/array/array_flip_variation4.php on line 52
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in /root/php-src/ext/standard/tests/array/array_flip_variation4.php on line 52
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in /root/php-src/ext/standard/tests/array/array_flip_variation4.php on line 52
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in /root/php-src/ext/standard/tests/array/array_flip_variation4.php on line 52
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in /root/php-src/ext/standard/tests/array/array_flip_variation4.php on line 52
+
+Warning: array_flip(): Can only flip STRING and INTEGER values! in /root/php-src/ext/standard/tests/array/array_flip_variation4.php on line 52
+array(0) {
+}
+Done
+---- FAILED

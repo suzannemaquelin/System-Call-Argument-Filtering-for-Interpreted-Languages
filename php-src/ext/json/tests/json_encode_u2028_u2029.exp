@@ -1,0 +1,14 @@
+string(12) "["a\u00e1b"]"
+string(8) "["aáb"]"
+string(10) ""a\u2027b""
+string(7) ""a‧b""
+string(10) ""a\u2028b""
+string(10) ""a\u2028b""
+string(10) ""a\u2028b""
+string(7) ""a b""
+string(10) ""a\u2029b""
+string(10) ""a\u2029b""
+string(10) ""a\u2029b""
+string(7) ""a b""
+string(10) ""a\u202ab""
+string(7) ""a‪b""

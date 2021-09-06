@@ -1,0 +1,9 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(35) "/root/php-src/ext/phar/tests/mytest"
+string(35) "/root/php-src/ext/phar/tests/mytest"
+
+Fatal error: Uncaught UnexpectedValueException: Cannot create phar '0000000000000000000', file extension (or combination) not recognised or the directory does not exist in /root/php-src/ext/phar/tests/bug46032.php:17
+Stack trace:
+#0 /root/php-src/ext/phar/tests/bug46032.php(17): PharData->__construct('000000000000000...')
+#1 {main}
+  thrown in /root/php-src/ext/phar/tests/bug46032.php on line 17

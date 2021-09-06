@@ -1,0 +1,20 @@
+*** Testing DateTime::setDate() : error conditions ***
+
+-- Testing DateTime::setDate() function with zero arguments --
+
+Warning: DateTime::setDate() expects exactly 3 parameters, 0 given in %s on line %d
+bool(false)
+
+-- Testing DateTime::setDate() function with less than expected no. of arguments --
+
+Warning: DateTime::setDate() expects exactly 3 parameters, 1 given in %s on line %d
+bool(false)
+
+Warning: DateTime::setDate() expects exactly 3 parameters, 2 given in %s on line %d
+bool(false)
+
+-- Testing DateTime::setDate() function with more than expected no. of arguments --
+
+Warning: DateTime::setDate() expects exactly 3 parameters, 4 given in %s on line %d
+bool(false)
+===DONE===

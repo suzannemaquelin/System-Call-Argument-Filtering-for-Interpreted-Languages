@@ -1,0 +1,7 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: call_user_func() expects parameter 1 to be a valid callback, class 'Foo' not found in /root/php-src/ext/standard/tests/general_functions/callbacks_002.php on line 3
+
+Warning: call_user_func() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /root/php-src/ext/standard/tests/general_functions/callbacks_002.php on line 4
+
+Warning: call_user_func() expects parameter 1 to be a valid callback, second array member is not a valid method in /root/php-src/ext/standard/tests/general_functions/callbacks_002.php on line 5

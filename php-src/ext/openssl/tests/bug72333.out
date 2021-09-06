@@ -1,0 +1,14 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: stream_socket_client(): SSL: Success in /root/php-src/ext/openssl/tests/ServerClientTestCase.inc(96) : eval()'d code on line 4
+
+Warning: stream_socket_client(): Failed to enable crypto in /root/php-src/ext/openssl/tests/ServerClientTestCase.inc(96) : eval()'d code on line 4
+
+Warning: stream_socket_client(): unable to connect to ssl://127.0.0.1:10011 (Unknown error) in /root/php-src/ext/openssl/tests/ServerClientTestCase.inc(96) : eval()'d code on line 4
+
+Warning: stream_set_blocking() expects parameter 1 to be resource, boolean given in /root/php-src/ext/openssl/tests/ServerClientTestCase.inc(96) : eval()'d code on line 5
+
+Warning: stream_select(): supplied argument is not a valid stream resource in /root/php-src/ext/openssl/tests/ServerClientTestCase.inc(96) : eval()'d code on line 10
+
+Warning: stream_select(): No stream arrays were passed in /root/php-src/ext/openssl/tests/ServerClientTestCase.inc(96) : eval()'d code on line 10
+done

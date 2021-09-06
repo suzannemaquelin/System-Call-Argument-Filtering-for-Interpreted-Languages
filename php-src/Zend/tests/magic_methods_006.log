@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Warning: The magic method __callStatic() must have public visibility and be static in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: The magic method __callStatic() must have public visibility and be static in /root/php-src/Zend/tests/magic_methods_006.php on line 4
+---- FAILED

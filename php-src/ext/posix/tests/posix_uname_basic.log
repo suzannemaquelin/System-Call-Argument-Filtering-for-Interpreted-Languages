@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+Basic test of POSIX uname function
+Array
+(
+    [sysname] => %s
+    [nodename] => %s
+    [release] => %s
+    [version] => %s
+    [machine] => %s
+)
+===DONE====
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Basic test of POSIX uname function
+Array
+(
+    [sysname] => Linux
+    [nodename] => 8a42d42cec47
+    [release] => 5.4.0-107-generic
+    [version] => #121-Ubuntu SMP Thu Mar 24 16:04:27 UTC 2022
+    [machine] => x86_64
+)
+===DONE====
+---- FAILED

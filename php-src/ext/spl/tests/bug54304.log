@@ -1,0 +1,13 @@
+
+---- EXPECTED OUTPUT
+int(42)
+string(5) "test3"
+string(2) "42"
+int(42)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(42)
+string(5) "test3"
+string(2) "42"
+int(42)
+---- FAILED

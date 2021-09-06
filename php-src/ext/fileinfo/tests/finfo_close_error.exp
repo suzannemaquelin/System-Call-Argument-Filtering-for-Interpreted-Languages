@@ -1,0 +1,17 @@
+*** Testing finfo_close() : error conditions ***
+
+-- Testing finfo_close() function with Zero arguments --
+
+Warning: finfo_close() expects exactly 1 parameter, 0 given in %s on line %d
+bool(false)
+
+-- Testing finfo_close() function with more than expected no. of arguments --
+
+Warning: finfo_close() expects exactly 1 parameter, 2 given in %s on line %d
+bool(false)
+
+-- Testing finfo_close() function with wrong resource type --
+
+Warning: finfo_close(): supplied resource is not a valid file_info resource in %s on line %d
+bool(false)
+===DONE===

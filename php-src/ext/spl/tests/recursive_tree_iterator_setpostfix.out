@@ -1,0 +1,31 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+----
+
+
+----
+POSTFIX
+
+----
+[0] => |-ArrayPOSTFIX
+[0] => | |-aPOSTFIX
+[1] => | \-1POSTFIX
+[a] => \-ArrayPOSTFIX
+[0] =>   |-2POSTFIX
+[1] =>   |-bPOSTFIX
+[3] =>   \-ArrayPOSTFIX
+[0] =>     |-4POSTFIX
+[1] =>     \-cPOSTFIX
+----
+
+
+----
+[0] => |-Array
+[0] => | |-a
+[1] => | \-1
+[a] => \-Array
+[0] =>   |-2
+[1] =>   |-b
+[3] =>   \-Array
+[0] =>     |-4
+[1] =>     \-c
+===DONE===

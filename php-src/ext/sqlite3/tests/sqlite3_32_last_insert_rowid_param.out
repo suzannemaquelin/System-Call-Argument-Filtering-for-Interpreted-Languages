@@ -1,0 +1,11 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Creating Table
+bool(true)
+Inserting data
+bool(true)
+Request last inserted id
+
+Warning: SQLite3::lastInsertRowID() expects exactly 0 parameters, 1 given in /root/php-src/ext/sqlite3/tests/sqlite3_32_last_insert_rowid_param.php on line 13
+Closing database
+bool(true)
+Done

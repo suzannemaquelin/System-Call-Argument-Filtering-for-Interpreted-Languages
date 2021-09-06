@@ -1,0 +1,293 @@
+
+---- EXPECTED OUTPUT
+*** Testing class_uses() : variation ***
+
+--int 0--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--int 1--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--int 12345--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--int -12345--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--float 10.5--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--float -10.5--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--float 12.3456789000e10--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--float -12.3456789000e10--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--float .5--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--empty array--
+Error: 2 - class_uses() expects parameter 2 to be boolean, array given, %s(%d)
+bool(false)
+
+--int indexed array--
+Error: 2 - class_uses() expects parameter 2 to be boolean, array given, %s(%d)
+bool(false)
+
+--associative array--
+Error: 2 - class_uses() expects parameter 2 to be boolean, array given, %s(%d)
+bool(false)
+
+--nested arrays--
+Error: 2 - class_uses() expects parameter 2 to be boolean, array given, %s(%d)
+bool(false)
+
+--uppercase NULL--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--lowercase null--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--lowercase true--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--lowercase false--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--uppercase TRUE--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--uppercase FALSE--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--empty string DQ--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--empty string SQ--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--instance of classWithToString--
+Error: 2 - class_uses() expects parameter 2 to be boolean, object given, %s(%d)
+bool(false)
+
+--instance of classWithoutToString--
+Error: 2 - class_uses() expects parameter 2 to be boolean, object given, %s(%d)
+bool(false)
+
+--undefined var--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--unset var--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--resource--
+Error: 2 - class_uses() expects parameter 2 to be boolean, resource given, %s(%d)
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing class_uses() : variation ***
+
+--int 0--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--int 1--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--int 12345--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--int -12345--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--float 10.5--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--float -10.5--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--float 12.3456789000e10--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--float -12.3456789000e10--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--float .5--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--empty array--
+Error: 2 - class_uses() expects parameter 2 to be boolean, array given, /root/php-src/ext/spl/tests/class_uses_variation2.php(107)
+bool(false)
+
+--int indexed array--
+Error: 2 - class_uses() expects parameter 2 to be boolean, array given, /root/php-src/ext/spl/tests/class_uses_variation2.php(107)
+bool(false)
+
+--associative array--
+Error: 2 - class_uses() expects parameter 2 to be boolean, array given, /root/php-src/ext/spl/tests/class_uses_variation2.php(107)
+bool(false)
+
+--nested arrays--
+Error: 2 - class_uses() expects parameter 2 to be boolean, array given, /root/php-src/ext/spl/tests/class_uses_variation2.php(107)
+bool(false)
+
+--uppercase NULL--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--lowercase null--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--lowercase true--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--lowercase false--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--uppercase TRUE--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--uppercase FALSE--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--empty string DQ--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--empty string SQ--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--instance of classWithToString--
+Error: 2 - class_uses() expects parameter 2 to be boolean, object given, /root/php-src/ext/spl/tests/class_uses_variation2.php(107)
+bool(false)
+
+--instance of classWithoutToString--
+Error: 2 - class_uses() expects parameter 2 to be boolean, object given, /root/php-src/ext/spl/tests/class_uses_variation2.php(107)
+bool(false)
+
+--undefined var--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--unset var--
+array(1) {
+  ["foo"]=>
+  string(3) "foo"
+}
+
+--resource--
+Error: 2 - class_uses() expects parameter 2 to be boolean, resource given, /root/php-src/ext/spl/tests/class_uses_variation2.php(107)
+bool(false)
+===DONE===
+---- FAILED

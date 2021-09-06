@@ -1,0 +1,8 @@
+Warning: file_put_contents(): supplied resource is not a valid stream resource in %s on line %d
+bool(false)
+bool(false)
+int(15)
+
+Warning: file_put_contents(): supplied resource is not a valid Stream-Context resource in %s on line %d
+int(6)
+Done

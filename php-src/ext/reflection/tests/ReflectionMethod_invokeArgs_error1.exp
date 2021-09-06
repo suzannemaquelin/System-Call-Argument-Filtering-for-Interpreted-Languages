@@ -1,0 +1,8 @@
+Method with args:
+
+Fatal error: Uncaught ArgumentCountError: Too few arguments to function TestClass::methodWithArgs(), 0 passed and exactly 2 expected in %sReflectionMethod_invokeArgs_error1.php:5
+Stack trace:
+#0 [internal function]: TestClass->methodWithArgs()
+#1 %sReflectionMethod_invokeArgs_error1.php(19): ReflectionMethod->invokeArgs(Object(TestClass), Array)
+#2 {main}
+  thrown in %sReflectionMethod_invokeArgs_error1.php on line 5

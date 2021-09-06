@@ -1,0 +1,83 @@
+
+---- EXPECTED OUTPUT
+Class [ <user> class c ] {
+  @@ %s 2-5
+
+  - Constants [0] {
+  }
+
+  - Static properties [1] {
+    Property [ private static $b ]
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ <default> private $a ]
+  }
+
+  - Methods [0] {
+  }
+}
+
+Class [ <user> class d extends c ] {
+  @@ %s 7-7
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Class [ <user> class c ] {
+  @@ /root/php-src/ext/reflection/tests/ReflectionClass_export_basic2.php 2-5
+
+  - Constants [0] {
+  }
+
+  - Static properties [1] {
+    Property [ private static $b ]
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ <default> private $a ]
+  }
+
+  - Methods [0] {
+  }
+}
+
+Class [ <user> class d extends c ] {
+  @@ /root/php-src/ext/reflection/tests/ReflectionClass_export_basic2.php 7-7
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}
+---- FAILED

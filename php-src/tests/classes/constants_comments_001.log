@@ -1,0 +1,17 @@
+
+---- EXPECTED OUTPUT
+Y1 : /** comment Y1 */
+Y2 : 
+Y3 : /** comment Y3 */
+X1 : /** comment X1 */
+X2 : 
+X3 : /** comment X3 */
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Y1 : /** comment Y1 */
+Y2 : 
+Y3 : /** comment Y3 */
+X1 : /** comment X1 */
+X2 : 
+X3 : /** comment X3 */
+---- FAILED

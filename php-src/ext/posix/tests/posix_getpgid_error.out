@@ -1,0 +1,16 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing posix_getpgid() : error conditions ***
+
+-- Testing posix_getpgid() function no arguments --
+
+Warning: posix_getpgid() expects exactly 1 parameter, 0 given in /root/php-src/ext/posix/tests/posix_getpgid_error.php on line 11
+bool(false)
+
+-- Testing posix_getpgid() with one extra argument --
+
+Warning: posix_getpgid() expects exactly 1 parameter, 2 given in /root/php-src/ext/posix/tests/posix_getpgid_error.php on line 16
+bool(false)
+
+-- Testing posix_getpgid() with negative pid  --
+bool(false)
+Done

@@ -1,0 +1,51 @@
+
+---- EXPECTED OUTPUT
+---> Invoke __call via simple method call.
+object(A)#%d (0) {
+}
+Exception caught OK; continuing.
+
+
+---> Invoke __call via scope resolution operator within instance.
+object(A)#%d (0) {
+}
+Exception caught OK; continuing.
+
+
+---> Invoke __call via scope resolution operator within child instance.
+object(B)#%d (0) {
+}
+Exception caught OK; continuing.
+
+
+---> Invoke __call via callback.
+object(B)#%d (0) {
+}
+Exception caught OK; continuing.
+==DONE==
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+---> Invoke __call via simple method call.
+object(A)#1 (0) {
+}
+Exception caught OK; continuing.
+
+
+---> Invoke __call via scope resolution operator within instance.
+object(A)#1 (0) {
+}
+Exception caught OK; continuing.
+
+
+---> Invoke __call via scope resolution operator within child instance.
+object(B)#2 (0) {
+}
+Exception caught OK; continuing.
+
+
+---> Invoke __call via callback.
+object(B)#2 (0) {
+}
+Exception caught OK; continuing.
+==DONE==
+---- FAILED

@@ -1,0 +1,39 @@
+
+---- EXPECTED OUTPUT
+--- testing: 7fffffffffffffff ---
+int(9223372036854775807)
+--- testing: ffffffffffffffff ---
+float(1.844674407371E+19)
+--- testing: 7fffffff ---
+int(2147483647)
+--- testing: ffffffff ---
+int(4294967295)
+--- testing: 7ffffffffffffffff ---
+float(1.4757395258968E+20)
+--- testing: ffffffffffffffffff ---
+float(4.7223664828696E+21)
+--- testing: 7ffffffff ---
+int(34359738367)
+--- testing: fffffffff ---
+int(68719476735)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+--- testing: 7fffffffffffffff ---
+int(9223372036854775807)
+--- testing: ffffffffffffffff ---
+float(1.844674407371E+19)
+--- testing: 7fffffff ---
+int(2147483647)
+--- testing: ffffffff ---
+int(4294967295)
+--- testing: 7ffffffffffffffff ---
+float(1.4757395258968E+20)
+--- testing: ffffffffffffffffff ---
+float(4.7223664828696E+21)
+--- testing: 7ffffffff ---
+int(34359738367)
+--- testing: fffffffff ---
+int(68719476735)
+===DONE===
+---- FAILED

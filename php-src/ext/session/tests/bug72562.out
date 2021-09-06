@@ -1,0 +1,8 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: session_decode(): Failed to decode session object. Session has been destroyed in /root/php-src/ext/session/tests/bug72562.php on line 6
+
+Notice: unserialize(): Error at offset 0 of 1 bytes in /root/php-src/ext/session/tests/bug72562.php on line 8
+
+Notice: unserialize(): Error at offset 4 of 4 bytes in /root/php-src/ext/session/tests/bug72562.php on line 20
+bool(false)

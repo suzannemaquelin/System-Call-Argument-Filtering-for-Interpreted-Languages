@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught Exception: blah in %sbug76025.php:%d
+Stack trace:
+#0 %sbug76025.php(%d): handleError(8, 'Undefined varia...', '%s', %d, Array)
+#1 {main}
+  thrown in %sbug76025.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Exception: blah in /root/php-src/Zend/tests/bug76025.php:4
+Stack trace:
+#0 /root/php-src/Zend/tests/bug76025.php(8): handleError(8, 'Undefined varia...', '/root/php-src/Z...', 8, Array)
+#1 {main}
+  thrown in /root/php-src/Zend/tests/bug76025.php on line 4
+---- FAILED

@@ -1,0 +1,143 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing date_format() : usage variation -  unexpected values to first argument $object***
+
+-- int 0 --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, integer given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- int 1 --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, integer given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- int 12345 --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, integer given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- int -12345 --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, integer given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- float 10.5 --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, float given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- float -10.5 --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, float given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- float .5 --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, float given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- empty array --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, array given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- int indexed array --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, array given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- associative array --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, array given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- nested arrays --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, array given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- uppercase NULL --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, null given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- lowercase null --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, null given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- lowercase true --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, boolean given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- lowercase false --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, boolean given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- uppercase TRUE --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, boolean given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- uppercase FALSE --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, boolean given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- empty string DQ --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, string given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- empty string SQ --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, string given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- string DQ --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, string given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- string SQ --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, string given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- mixed case string --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, string given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- heredoc --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, string given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- instance of classWithToString --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, object given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- instance of classWithoutToString --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, object given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- undefined var --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, null given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- unset var --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, null given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+
+-- resource --
+
+Warning: date_format() expects parameter 1 to be DateTimeInterface, resource given in /root/php-src/ext/date/tests/date_format_variation1.php on line 99
+bool(false)
+===DONE===

@@ -1,0 +1,4 @@
+bool(true)
+
+Warning: socket_set_option(): unable to set socket option [19]: No such device in %s on line %d
+bool(false)

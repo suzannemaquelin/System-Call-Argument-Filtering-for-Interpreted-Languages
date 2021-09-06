@@ -1,0 +1,27 @@
+
+---- EXPECTED OUTPUT
+DATE_ATOM:	OK
+DATE_COOKIE:	OK
+DATE_ISO8601:	OK
+DATE_RFC822:	OK
+DATE_RFC850:	OK
+DATE_RFC1036:	OK
+DATE_RFC1123:	OK
+DATE_RFC2822:	OK
+DATE_RFC3339:	OK
+DATE_RSS:	OK
+DATE_W3C:	OK
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+DATE_ATOM:	OK
+DATE_COOKIE:	OK
+DATE_ISO8601:	OK
+DATE_RFC822:	OK
+DATE_RFC850:	OK
+DATE_RFC1036:	OK
+DATE_RFC1123:	OK
+DATE_RFC2822:	OK
+DATE_RFC3339:	OK
+DATE_RSS:	OK
+DATE_W3C:	OK
+---- FAILED

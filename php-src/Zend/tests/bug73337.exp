@@ -1,0 +1,4 @@
+Notice: Object of class d could not be converted to int in %sbug73337.php on line 3
+
+Notice: Object of class d could not be converted to int in %sbug73337.php on line 3
+Exception properly caught

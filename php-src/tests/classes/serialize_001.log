@@ -1,0 +1,63 @@
+
+---- EXPECTED OUTPUT
+==========
+%unicode|string%(6) "String"
+Test::__construct(String)
+Test::serialize(String)
+Test::unserialize(String)
+object(Test)#%d (1) {
+  [%u|b%"data"]=>
+  %unicode|string%(6) "String"
+}
+object(Test)#%d (1) {
+  [%u|b%"data"]=>
+  %unicode|string%(6) "String"
+}
+==========
+NULL
+Test::__construct()
+Test::serialize()
+NULL
+==========
+int(42)
+Test::__construct(42)
+Test::serialize(42)
+Exception: Test::serialize() must return a string or NULL
+==========
+bool(false)
+Test::__construct()
+Test::serialize()
+Exception: Test::serialize() must return a string or NULL
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+==========
+string(6) "String"
+Test::__construct(String)
+Test::serialize(String)
+Test::unserialize(String)
+object(Test)#1 (1) {
+  ["data"]=>
+  string(6) "String"
+}
+object(Test)#1 (1) {
+  ["data"]=>
+  string(6) "String"
+}
+==========
+NULL
+Test::__construct()
+Test::serialize()
+NULL
+==========
+int(42)
+Test::__construct(42)
+Test::serialize(42)
+Exception: Test::serialize() must return a string or NULL
+==========
+bool(false)
+Test::__construct()
+Test::serialize()
+Exception: Test::serialize() must return a string or NULL
+===DONE===
+---- FAILED

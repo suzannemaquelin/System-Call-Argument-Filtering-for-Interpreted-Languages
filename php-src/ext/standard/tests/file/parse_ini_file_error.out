@@ -1,0 +1,18 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing parse_ini_file() : error conditions ***
+
+-- Testing parse_ini_file() function with Zero arguments --
+
+Warning: parse_ini_file() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/parse_ini_file_error.php on line 12
+bool(false)
+
+-- Testing parse_ini_file() function with more than expected no. of arguments --
+
+Warning: parse_ini_file(string_val): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/file/parse_ini_file_error.php on line 19
+bool(false)
+
+-- Testing parse_ini_file() function with a non-existent file --
+
+Warning: parse_ini_file(/root/php-src/ext/standard/tests/file/parse_ini_file_error.phpinvalidfilename): failed to open stream: No such file or directory in /root/php-src/ext/standard/tests/file/parse_ini_file_error.php on line 23
+bool(false)
+Done

@@ -1,0 +1,9 @@
+
+---- EXPECTED OUTPUT
+resource(%d) of type (stream)
+resource(%d) of type (stream)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+resource(6) of type (stream)
+resource(7) of type (stream)
+---- FAILED

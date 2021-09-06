@@ -1,0 +1,35 @@
+
+---- EXPECTED OUTPUT
+A Object
+(
+    [a_var] => Array
+        (
+            [1] => foo1_value
+            [2] => foo2_value
+        )
+
+)
+Array
+(
+    [1] => foo1_value
+    [2] => foo2_value
+)
+foo
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+A Object
+(
+    [a_var] => Array
+        (
+            [1] => foo1_value
+            [2] => foo2_value
+        )
+
+)
+Array
+(
+    [1] => foo1_value
+    [2] => foo2_value
+)
+foo
+---- FAILED

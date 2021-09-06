@@ -1,0 +1,37 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_multisort() : usage variation  - test sort order of all types***
+
+Notice: Object of class classWithToString could not be converted to float in /root/php-src/ext/standard/tests/array/array_multisort_variation9.php on line 32
+
+Notice: Object of class classWithToString could not be converted to float in /root/php-src/ext/standard/tests/array/array_multisort_variation9.php on line 32
+
+Notice: Object of class classWithoutToString could not be converted to float in /root/php-src/ext/standard/tests/array/array_multisort_variation9.php on line 32
+
+Notice: Object of class classWithoutToString could not be converted to float in /root/php-src/ext/standard/tests/array/array_multisort_variation9.php on line 32
+bool(true)
+array(10) {
+  ["float -10.5"]=>
+  float(-10.5)
+  ["int 0"]=>
+  int(0)
+  [0]=>
+  array(0) {
+  }
+  ["uppercase NULL"]=>
+  NULL
+  ["empty string DQ"]=>
+  string(0) ""
+  ["string DQ"]=>
+  string(6) "string"
+  ["undefined var"]=>
+  NULL
+  ["lowercase true"]=>
+  bool(true)
+  ["instance of classWithToString"]=>
+  object(classWithToString)#1 (0) {
+  }
+  ["instance of classWithoutToString"]=>
+  object(classWithoutToString)#2 (0) {
+  }
+}
+===DONE===

@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+From foo::__callStatic:
+string(3) "abc"
+Exception: Using $this when not in object context
+From foo::__call:
+string(3) "abc"
+object(foo)#%d (0) {
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+From foo::__callStatic:
+string(3) "abc"
+Exception: Using $this when not in object context
+From foo::__call:
+string(3) "abc"
+object(foo)#2 (0) {
+}
+---- FAILED

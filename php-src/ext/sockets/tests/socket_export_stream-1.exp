@@ -1,0 +1,2 @@
+resource(%d) of type (stream)
+string(12) "test message"

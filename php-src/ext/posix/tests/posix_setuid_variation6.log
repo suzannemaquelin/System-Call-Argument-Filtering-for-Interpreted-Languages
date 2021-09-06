@@ -1,0 +1,31 @@
+
+---- EXPECTED OUTPUT
+*** Test substituting argument 1 with string values ***
+
+Warning: posix_setuid() expects parameter 1 to be integer, string given in %s on line 21
+bool(false)
+
+Warning: posix_setuid() expects parameter 1 to be integer, string given in %s on line 21
+bool(false)
+
+Warning: posix_setuid() expects parameter 1 to be integer, string given in %s on line 21
+bool(false)
+
+Warning: posix_setuid() expects parameter 1 to be integer, string given in %s on line 21
+bool(false)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Test substituting argument 1 with string values ***
+
+Warning: posix_setuid() expects parameter 1 to be integer, string given in /root/php-src/ext/posix/tests/posix_setuid_variation6.php on line 21
+bool(false)
+
+Warning: posix_setuid() expects parameter 1 to be integer, string given in /root/php-src/ext/posix/tests/posix_setuid_variation6.php on line 21
+bool(false)
+
+Warning: posix_setuid() expects parameter 1 to be integer, string given in /root/php-src/ext/posix/tests/posix_setuid_variation6.php on line 21
+bool(false)
+
+Warning: posix_setuid() expects parameter 1 to be integer, string given in /root/php-src/ext/posix/tests/posix_setuid_variation6.php on line 21
+bool(false)
+---- FAILED

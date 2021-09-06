@@ -1,0 +1,5 @@
+*** Testing fputcsv() : with default enclosure & delimiter of two chars ***
+
+Warning: SplFileObject::fputcsv(): delimiter must be a character in %s on line %d
+bool(false)
+Done

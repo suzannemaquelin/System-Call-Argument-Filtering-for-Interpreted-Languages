@@ -1,0 +1,38 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing fileattime(), filemtime(), filectime() & touch() : usage variations ***
+
+*** testing touch ***
+bool(false)
+bool(false)
+bool(false)
+bool(true)
+bool(true)
+
+*** testing file info ***
+-- File '' --
+-- File access time is => 
+-- File modification time is => 
+-- inode change time is => 
+
+-- File '' --
+-- File access time is => 
+-- File modification time is => 
+-- inode change time is => 
+
+-- File '' --
+-- File access time is => 
+-- File modification time is => 
+-- inode change time is => 
+
+-- File ' ' --
+-- File access time is => 1652019508
+-- File modification time is => 1652019508
+-- inode change time is => 1652019508
+
+-- File '|' --
+-- File access time is => 1652019508
+-- File modification time is => 1652019508
+-- inode change time is => 1652019508
+bool(true)
+bool(true)
+Done

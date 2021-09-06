@@ -1,0 +1,62 @@
+
+---- EXPECTED OUTPUT
+*** Testing array_keys() on range of values ***
+array(6) {
+  [0]=>
+  int(2147483647)
+  [1]=>
+  int(2147483648)
+  [2]=>
+  int(-2147483647)
+  [3]=>
+  int(-2147483648)
+  [4]=>
+  int(-2147483649)
+  [5]=>
+  int(0)
+}
+
+*** Testing array_keys() on an array created on the fly ***
+array(3) {
+  [0]=>
+  string(1) "a"
+  [1]=>
+  string(1) "b"
+  [2]=>
+  string(1) "c"
+}
+array(0) {
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+*** Testing array_keys() on range of values ***
+array(6) {
+  [0]=>
+  int(2147483647)
+  [1]=>
+  int(2147483648)
+  [2]=>
+  int(-2147483647)
+  [3]=>
+  int(-2147483648)
+  [4]=>
+  int(-2147483649)
+  [5]=>
+  int(0)
+}
+
+*** Testing array_keys() on an array created on the fly ***
+array(3) {
+  [0]=>
+  string(1) "a"
+  [1]=>
+  string(1) "b"
+  [2]=>
+  string(1) "c"
+}
+array(0) {
+}
+Done
+---- FAILED

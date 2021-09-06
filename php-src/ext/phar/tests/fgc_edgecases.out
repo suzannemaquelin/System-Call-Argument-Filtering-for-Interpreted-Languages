@@ -1,0 +1,52 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: file_get_contents() expects parameter 1 to be a valid path, array given in /root/php-src/ext/phar/tests/fgc_edgecases.php on line 8
+blah
+<?php
+echo file_get_contents("foo/" . basename(__FILE__));
+$context = stream_context_create();
+file_get_contents("./hi", 0, $context, 0, -1);
+echo file_get_contents("foob");
+set_include_path("/root/php-src/ext/phar/tests");
+echo file_get_contents("foob", true);
+echo file_get_contents("./hi", 0, $context);
+echo file_get_contents("../oops");
+echo file_get_contents("./hi", 0, $context, 50000);
+echo file_get_contents("./hi");
+echo file_get_contents("./hi", 0, $context, 0, 0);
+?>
+
+Warning: file_get_contents(): length must be greater than or equal to zero in phar:///root/php-src/ext/phar/tests/fgc_edgecases.phar.php/foo/hi on line 4
+test
+test
+<?php
+echo file_get_contents("foo/" . basename(__FILE__));
+$context = stream_context_create();
+file_get_contents("./hi", 0, $context, 0, -1);
+echo file_get_contents("foob");
+set_include_path("/root/php-src/ext/phar/tests");
+echo file_get_contents("foob", true);
+echo file_get_contents("./hi", 0, $context);
+echo file_get_contents("../oops");
+echo file_get_contents("./hi", 0, $context, 50000);
+echo file_get_contents("./hi");
+echo file_get_contents("./hi", 0, $context, 0, 0);
+?>
+
+Warning: file_get_contents(phar:///root/php-src/ext/phar/tests/fgc_edgecases.phar.php/oops): failed to open stream: phar error: path "oops" is a directory in phar:///root/php-src/ext/phar/tests/fgc_edgecases.phar.php/foo/hi on line 9
+
+Warning: file_get_contents(): Failed to seek to position 50000 in the stream in phar:///root/php-src/ext/phar/tests/fgc_edgecases.phar.php/foo/hi on line 10
+<?php
+echo file_get_contents("foo/" . basename(__FILE__));
+$context = stream_context_create();
+file_get_contents("./hi", 0, $context, 0, -1);
+echo file_get_contents("foob");
+set_include_path("/root/php-src/ext/phar/tests");
+echo file_get_contents("foob", true);
+echo file_get_contents("./hi", 0, $context);
+echo file_get_contents("../oops");
+echo file_get_contents("./hi", 0, $context, 50000);
+echo file_get_contents("./hi");
+echo file_get_contents("./hi", 0, $context, 0, 0);
+?>
+===DONE===

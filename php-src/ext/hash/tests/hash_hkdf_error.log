@@ -1,0 +1,119 @@
+
+---- EXPECTED OUTPUT
+*** Testing hash_hkdf(): error conditions ***
+
+-- Testing hash_hkdf() function with less than expected no. of arguments --
+
+Warning: hash_hkdf() expects at least 2 parameters, 0 given in %s on line %d
+NULL
+
+Warning: hash_hkdf() expects at least 2 parameters, 1 given in %s on line %d
+NULL
+
+-- Testing hash_hkdf() function with more than expected no. of arguments --
+
+Warning: hash_hkdf() expects at most 5 parameters, 6 given in %s on line %d
+NULL
+
+-- Testing hash_hkdf() function with invalid hash algorithm --
+
+Warning: hash_hkdf(): Unknown hashing algorithm: foo in %s on line %d
+bool(false)
+
+-- Testing hash_hkdf() function with non-cryptographic hash algorithm --
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: adler32 in %s on line %d
+bool(false)
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: crc32 in %s on line %d
+bool(false)
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: crc32b in %s on line %d
+bool(false)
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: fnv132 in %s on line %d
+bool(false)
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: fnv1a32 in %s on line %d
+bool(false)
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: fnv164 in %s on line %d
+bool(false)
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: fnv1a64 in %s on line %d
+bool(false)
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: joaat in %s on line %d
+bool(false)
+
+-- Testing hash_hkdf() function with invalid parameters --
+
+Warning: hash_hkdf(): Input keying material cannot be empty in %s on line %d
+bool(false)
+
+Warning: hash_hkdf(): Length must be greater than or equal to 0: -1 in %s on line %d
+bool(false)
+
+Warning: hash_hkdf(): Length must be less than or equal to 5100: 5101 in %s on line %d
+bool(false)
+===Done===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing hash_hkdf(): error conditions ***
+
+-- Testing hash_hkdf() function with less than expected no. of arguments --
+
+Warning: hash_hkdf() expects at least 2 parameters, 0 given in /root/php-src/ext/hash/tests/hash_hkdf_error.php on line 13
+NULL
+
+Warning: hash_hkdf() expects at least 2 parameters, 1 given in /root/php-src/ext/hash/tests/hash_hkdf_error.php on line 14
+NULL
+
+-- Testing hash_hkdf() function with more than expected no. of arguments --
+
+Warning: hash_hkdf() expects at most 5 parameters, 6 given in /root/php-src/ext/hash/tests/hash_hkdf_error.php on line 17
+NULL
+
+-- Testing hash_hkdf() function with invalid hash algorithm --
+
+Warning: hash_hkdf(): Unknown hashing algorithm: foo in /root/php-src/ext/hash/tests/hash_hkdf_error.php on line 20
+bool(false)
+
+-- Testing hash_hkdf() function with non-cryptographic hash algorithm --
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: adler32 in /root/php-src/ext/hash/tests/hash_hkdf_error.php on line 23
+bool(false)
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: crc32 in /root/php-src/ext/hash/tests/hash_hkdf_error.php on line 24
+bool(false)
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: crc32b in /root/php-src/ext/hash/tests/hash_hkdf_error.php on line 25
+bool(false)
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: fnv132 in /root/php-src/ext/hash/tests/hash_hkdf_error.php on line 26
+bool(false)
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: fnv1a32 in /root/php-src/ext/hash/tests/hash_hkdf_error.php on line 27
+bool(false)
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: fnv164 in /root/php-src/ext/hash/tests/hash_hkdf_error.php on line 28
+bool(false)
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: fnv1a64 in /root/php-src/ext/hash/tests/hash_hkdf_error.php on line 29
+bool(false)
+
+Warning: hash_hkdf(): Non-cryptographic hashing algorithm: joaat in /root/php-src/ext/hash/tests/hash_hkdf_error.php on line 30
+bool(false)
+
+-- Testing hash_hkdf() function with invalid parameters --
+
+Warning: hash_hkdf(): Input keying material cannot be empty in /root/php-src/ext/hash/tests/hash_hkdf_error.php on line 33
+bool(false)
+
+Warning: hash_hkdf(): Length must be greater than or equal to 0: -1 in /root/php-src/ext/hash/tests/hash_hkdf_error.php on line 34
+bool(false)
+
+Warning: hash_hkdf(): Length must be less than or equal to 5100: 5101 in /root/php-src/ext/hash/tests/hash_hkdf_error.php on line 35
+bool(false)
+===Done===
+---- FAILED

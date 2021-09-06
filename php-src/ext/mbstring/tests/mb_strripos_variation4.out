@@ -1,0 +1,115 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_strripos() : usage variations ***
+
+-- Iteration 1 --
+
+Warning: mb_strripos(): Unknown encoding "0" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 2 --
+
+Warning: mb_strripos(): Unknown encoding "1" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 3 --
+
+Warning: mb_strripos(): Unknown encoding "12345" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 4 --
+
+Warning: mb_strripos(): Unknown encoding "-2345" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 5 --
+
+Warning: mb_strripos(): Unknown encoding "10.5" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 6 --
+
+Warning: mb_strripos(): Unknown encoding "-10.5" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 7 --
+
+Warning: mb_strripos(): Unknown encoding "123456789000" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 8 --
+
+Warning: mb_strripos(): Unknown encoding "1.23456789E-9" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 9 --
+
+Warning: mb_strripos(): Unknown encoding "0.5" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 10 --
+
+Warning: mb_strripos(): Unknown encoding "" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 11 --
+
+Warning: mb_strripos(): Unknown encoding "" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 12 --
+
+Warning: mb_strripos(): Unknown encoding "1" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 13 --
+
+Warning: mb_strripos(): Unknown encoding "" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 14 --
+
+Warning: mb_strripos(): Unknown encoding "1" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 15 --
+
+Warning: mb_strripos(): Unknown encoding "" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 16 --
+
+Warning: mb_strripos(): Unknown encoding "" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 17 --
+
+Warning: mb_strripos(): Unknown encoding "" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 18 --
+int(7)
+
+-- Iteration 19 --
+int(7)
+
+-- Iteration 20 --
+int(7)
+
+-- Iteration 21 --
+int(7)
+
+-- Iteration 22 --
+
+Warning: mb_strripos(): Unknown encoding "" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 23 --
+
+Warning: mb_strripos(): Unknown encoding "" in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+bool(false)
+
+-- Iteration 24 --
+
+Warning: mb_strripos() expects parameter 4 to be string, resource given in /root/php-src/ext/mbstring/tests/mb_strripos_variation4.php on line 92
+NULL
+Done

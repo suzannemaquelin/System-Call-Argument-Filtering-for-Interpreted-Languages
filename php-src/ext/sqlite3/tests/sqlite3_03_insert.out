@@ -1,0 +1,22 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Creating Table
+bool(true)
+INSERT into table
+bool(true)
+bool(true)
+SELECTING results
+array(2) {
+  [0]=>
+  int(1652019397)
+  [1]=>
+  string(1) "a"
+}
+array(2) {
+  [0]=>
+  int(1652019397)
+  [1]=>
+  string(1) "b"
+}
+Closing database
+bool(true)
+Done

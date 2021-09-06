@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+NULL
+
+Fatal error: Uncaught TypeError: Argument 1 passed to foo\bar::__construct() must be of the type array or null, object given, called in %s on line %d and defined in %s:%d
+Stack trace:
+#0 %s(%d): foo\bar->__construct(Object(stdClass))
+#1 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+NULL
+
+Fatal error: Uncaught TypeError: Argument 1 passed to foo\bar::__construct() must be of the type array or null, object given, called in /root/php-src/Zend/tests/ns_071.php on line 12 and defined in /root/php-src/Zend/tests/ns_071.php:6
+Stack trace:
+#0 /root/php-src/Zend/tests/ns_071.php(12): foo\bar->__construct(Object(stdClass))
+#1 {main}
+  thrown in /root/php-src/Zend/tests/ns_071.php on line 6
+---- FAILED

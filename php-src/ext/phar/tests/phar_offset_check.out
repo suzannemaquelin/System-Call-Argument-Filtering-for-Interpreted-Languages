@@ -1,0 +1,10 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Entry .phar/stub.php does not exist
+Entry .phar/alias.txt does not exist
+Cannot set stub ".phar/stub.php" directly in phar "/root/php-src/ext/phar/tests/phar_offset_check.phar.php", use setStub
+int(6643)
+int(6643)
+Cannot set alias ".phar/alias.txt" directly in phar "/root/php-src/ext/phar/tests/phar_offset_check.phar.php", use setAlias
+string(5) "susan"
+string(5) "susan"
+===DONE===

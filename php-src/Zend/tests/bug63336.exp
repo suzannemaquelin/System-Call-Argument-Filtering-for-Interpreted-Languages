@@ -1,0 +1,3 @@
+Warning: Declaration of Child::foo($var = TEST, array $more = Array) should be compatible with Base::foo($var = TEST, $more = NULL) in %sbug63336.php on line %d
+
+Warning: Declaration of Child::bar($var, $more = self::DUMMY) should be compatible with Base::bar($more = self::DUMMY) in %sbug63336.php on line %d

@@ -1,0 +1,15 @@
+
+---- EXPECTED OUTPUT
+int(0)
+string(14) "Illegal mode 7"
+int(0)
+
+Warning: RegexIterator::setMode() expects parameter 1 to be integer, string given in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(0)
+string(14) "Illegal mode 7"
+int(0)
+
+Warning: RegexIterator::setMode() expects parameter 1 to be integer, string given in /root/php-src/ext/spl/tests/regexIterator_setMode_error.php on line 15
+---- FAILED

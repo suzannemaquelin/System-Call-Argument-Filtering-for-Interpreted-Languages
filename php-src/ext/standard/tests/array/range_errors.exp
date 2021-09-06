@@ -1,0 +1,65 @@
+*** Testing error conditions ***
+
+-- Testing ( (low < high) && (step = 0) ) --
+Warning: range(): step exceeds the specified range in %s on line %d
+bool(false)
+
+Warning: range(): step exceeds the specified range in %s on line %d
+bool(false)
+
+
+-- Testing ( (low > high) && (step = 0) ) --
+Warning: range(): step exceeds the specified range in %s on line %d
+bool(false)
+
+Warning: range(): step exceeds the specified range in %s on line %d
+bool(false)
+
+
+-- Testing ( (low < high) && (high-low < step) ) --
+Warning: range(): step exceeds the specified range in %s on line %d
+bool(false)
+
+
+-- Testing ( (low > high) && (low-high < step) ) --
+Warning: range(): step exceeds the specified range in %s on line %d
+bool(false)
+
+-- Testing Invalid number of arguments --
+Warning: range() expects at least 2 parameters, 0 given in %s on line %d
+bool(false)
+
+Warning: range() expects at least 2 parameters, 1 given in %s on line %d
+bool(false)
+
+Warning: range() expects at most 3 parameters, 4 given in %s on line %d
+bool(false)
+
+Warning: range(): step exceeds the specified range in %s on line %d
+bool(false)
+
+Warning: range(): Invalid range string - must be numeric in %s on line %d
+bool(false)
+
+Warning: range(): step exceeds the specified range in %s on line %d
+bool(false)
+
+Warning: range(): Invalid range string - must be numeric in %s on line %d
+bool(false)
+
+-- Testing Invalid steps --
+Warning: range(): Invalid range string - must be numeric in %s on line %d
+bool(false)
+
+Warning: range(): step exceeds the specified range in %s on line %d
+bool(false)
+
+Warning: range(): step exceeds the specified range in %s on line %d
+bool(false)
+
+Warning: range(): Invalid range string - must be numeric in %s on line %d
+bool(false)
+
+Warning: range(): Invalid range string - must be numeric in %s on line %d
+bool(false)
+Done

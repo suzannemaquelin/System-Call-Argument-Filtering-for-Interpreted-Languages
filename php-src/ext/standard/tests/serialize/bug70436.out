@@ -1,0 +1,7 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: unserialize(): Error at offset 0 of 3 bytes in /root/php-src/ext/standard/tests/serialize/bug70436.php on line 14
+
+Notice: unserialize(): Error at offset 93 of 94 bytes in /root/php-src/ext/standard/tests/serialize/bug70436.php on line 28
+bool(false)
+DONE

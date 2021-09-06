@@ -1,0 +1,8 @@
+X::x
+string(24) "/**
+     * doc 1
+     */"
+X::y
+bool(false)
+X::z
+string(12) "/** doc 2 */"

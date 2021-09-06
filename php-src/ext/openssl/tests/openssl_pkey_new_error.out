@@ -1,0 +1,7 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: openssl_pkey_get_details() expects parameter 1 to be resource, boolean given in /root/php-src/ext/openssl/tests/openssl_pkey_new_error.php on line 9
+
+Warning: openssl_pkey_get_details() expects parameter 1 to be resource, boolean given in /root/php-src/ext/openssl/tests/openssl_pkey_new_error.php on line 10
+
+Warning: openssl_pkey_get_details() expects parameter 1 to be resource, boolean given in /root/php-src/ext/openssl/tests/openssl_pkey_new_error.php on line 11

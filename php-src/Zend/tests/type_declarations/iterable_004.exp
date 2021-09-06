@@ -1,0 +1,1 @@
+Warning: Declaration of Bar::testScalar(iterable $iterable) should be compatible with Foo::testScalar(int $int) in %s on line %d

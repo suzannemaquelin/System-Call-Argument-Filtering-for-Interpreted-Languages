@@ -1,0 +1,9 @@
+*** Testing array_push() : error conditions ***
+
+Warning: array_push(): Cannot add element to the array as the next element is already occupied in %s on line %d
+bool(false)
+array(1) {
+  [%d]=>
+  string(3) "max"
+}
+Done

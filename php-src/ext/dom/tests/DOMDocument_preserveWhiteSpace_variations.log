@@ -1,0 +1,37 @@
+
+---- EXPECTED OUTPUT
+Load document with preserveWhiteSpace on
+<?xml version="1.0"?>
+<books>
+ <book>
+  <title>The Grapes of Wrath</title>
+  <author>John Steinbeck</author>
+ </book>
+ <book>
+  <title>The Pearl</title>
+  <author>John Steinbeck</author>
+ </book>
+</books>
+
+Load document with preserveWhiteSpace off
+<?xml version="1.0"?>
+<books><book><title>The Grapes of Wrath</title><author>John Steinbeck</author></book><book><title>The Pearl</title><author>John Steinbeck</author></book></books>
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Load document with preserveWhiteSpace on
+<?xml version="1.0"?>
+<books>
+ <book>
+  <title>The Grapes of Wrath</title>
+  <author>John Steinbeck</author>
+ </book>
+ <book>
+  <title>The Pearl</title>
+  <author>John Steinbeck</author>
+ </book>
+</books>
+
+Load document with preserveWhiteSpace off
+<?xml version="1.0"?>
+<books><book><title>The Grapes of Wrath</title><author>John Steinbeck</author></book><book><title>The Pearl</title><author>John Steinbeck</author></book></books>
+---- FAILED

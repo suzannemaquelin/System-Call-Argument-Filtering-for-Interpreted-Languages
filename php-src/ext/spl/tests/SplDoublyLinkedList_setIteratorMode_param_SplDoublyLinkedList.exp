@@ -1,0 +1,1 @@
+Warning: SplDoublyLinkedList::setIteratorMode() expects parameter 1 to be integer, object given in %s on line %d

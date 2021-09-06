@@ -1,0 +1,1 @@
+Warning: file_get_contents(phar://%s/a): failed to open stream: phar error: internal corruption of phar "%s" (actual filesize mismatch on file "a") in %s on line %d

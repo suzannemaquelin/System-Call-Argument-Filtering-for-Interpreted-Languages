@@ -1,0 +1,3 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: DOMDocument::loadXML(): Element book content does not follow the DTD, expecting (title , author), got (title author author ) in Entity, line: 15 in /root/php-src/ext/dom/tests/DOMDocument_loadXML_variation2.php on line 8

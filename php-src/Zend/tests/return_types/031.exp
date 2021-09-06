@@ -1,0 +1,1 @@
+Fatal error: Declaration of B::foo(): ?int must be compatible with A::foo(): int in %s031.php on line 7

@@ -1,0 +1,15 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+filter: string.rot13
+resource(5) of type (stream filter)
+string(12) "Uryyb Gurer!"
+filter: string.toupper
+resource(7) of type (stream filter)
+string(12) "HELLO THERE!"
+filter: string.tolower
+resource(9) of type (stream filter)
+string(12) "hello there!"
+filter: string.rot13
+resource(11) of type (stream filter)
+filter: string.toupper
+resource(12) of type (stream filter)
+string(12) "URYYB GURER!"

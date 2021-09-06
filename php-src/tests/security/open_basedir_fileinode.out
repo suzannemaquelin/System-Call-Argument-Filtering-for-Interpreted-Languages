@@ -1,0 +1,40 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing open_basedir configuration [fileinode] ***
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+
+Warning: fileinode(): open_basedir restriction in effect. File(../bad) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 78
+bool(false)
+
+Warning: fileinode(): open_basedir restriction in effect. File(../bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 79
+bool(false)
+
+Warning: fileinode(): open_basedir restriction in effect. File(..) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 80
+bool(false)
+
+Warning: fileinode(): open_basedir restriction in effect. File(../) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 81
+bool(false)
+
+Warning: fileinode(): open_basedir restriction in effect. File(/) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 82
+bool(false)
+
+Warning: fileinode(): open_basedir restriction in effect. File(../bad/.) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 83
+bool(false)
+
+Warning: fileinode(): open_basedir restriction in effect. File(/root/php-src/test/bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 85
+bool(false)
+
+Warning: fileinode(): open_basedir restriction in effect. File(/root/php-src/test/bad/../bad/bad.txt) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 86
+bool(false)
+
+Warning: fileinode(): open_basedir restriction in effect. File(./../.) is not within the allowed path(s): (.) in /root/php-src/tests/security/open_basedir.inc on line 128
+bool(false)
+int(17727794)
+int(17705251)
+int(17705251)
+int(17705251)
+int(17705251)
+*** Finished testing open_basedir configuration [fileinode] ***

@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+bool(true)
+--- child 0 ---
+DOMText
+string(2) "
+	"
+--- child 1 ---
+DOMComment
+string(14) " Hello World! "
+--- child 2 ---
+DOMText
+string(1) "
+"
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(true)
+--- child 0 ---
+DOMText
+string(2) "
+	"
+--- child 1 ---
+DOMComment
+string(14) " Hello World! "
+--- child 2 ---
+DOMText
+string(1) "
+"
+---- FAILED

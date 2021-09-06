@@ -1,0 +1,66 @@
+
+---- EXPECTED OUTPUT
+Warning: array_fill_keys() expects parameter 1 to be array, string given in %s on line %d
+NULL
+array(0) {
+}
+array(2) {
+  ["foo"]=>
+  NULL
+  ["bar"]=>
+  NULL
+}
+array(4) {
+  [5]=>
+  int(123)
+  ["foo"]=>
+  int(123)
+  [10]=>
+  int(123)
+  ["1.23"]=>
+  int(123)
+}
+array(4) {
+  ["test"]=>
+  string(0) ""
+  [1]=>
+  string(0) ""
+  [10]=>
+  string(0) ""
+  [100]=>
+  string(0) ""
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: array_fill_keys() expects parameter 1 to be array, string given in /root/php-src/ext/standard/tests/array/array_fill_keys.php on line 2
+NULL
+array(0) {
+}
+array(2) {
+  ["foo"]=>
+  NULL
+  ["bar"]=>
+  NULL
+}
+array(4) {
+  [5]=>
+  int(123)
+  ["foo"]=>
+  int(123)
+  [10]=>
+  int(123)
+  ["1.23"]=>
+  int(123)
+}
+array(4) {
+  ["test"]=>
+  string(0) ""
+  [1]=>
+  string(0) ""
+  [10]=>
+  string(0) ""
+  [100]=>
+  string(0) ""
+}
+---- FAILED

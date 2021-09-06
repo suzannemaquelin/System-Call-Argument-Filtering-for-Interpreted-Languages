@@ -1,0 +1,17 @@
+*** Testing array_diff_ukey() : error conditions ***
+
+-- Testing array_diff_ukey() function with more than expected no. of arguments --
+
+Warning: array_diff_ukey() expects parameter 4 to be a valid callback, no array or string given in %s on line %d
+NULL
+
+-- Testing array_diff_ukey() function with less than expected no. of arguments --
+
+Warning: array_diff_ukey(): at least 3 parameters are required, 2 given in %s on line %d
+NULL
+
+-- Testing array_diff_ukey() function with no arguments --
+
+Warning: array_diff_ukey(): at least 3 parameters are required, 0 given in %s on line %d
+NULL
+===DONE===

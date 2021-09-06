@@ -1,0 +1,12 @@
+
+---- EXPECTED OUTPUT
+Warning: rename(): phar error: cannot rename "phar://a.phar/x" to "phar://a.phar/y" from extracted phar archive, source does not exist in %sbug47085.php on line %d
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: rename(): phar error: cannot rename "phar://a.phar/x" to "phar://a.phar/y" from extracted phar archive, source does not exist in /root/php-src/ext/phar/tests/bug47085.php on line 8
+bool(false)
+===DONE===
+---- FAILED

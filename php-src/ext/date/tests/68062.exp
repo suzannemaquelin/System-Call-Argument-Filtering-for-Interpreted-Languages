@@ -1,0 +1,2 @@
+3600
+Warning: DateTimeZone::getOffset() expects parameter 1 to be DateTimeInterface, integer given in %s

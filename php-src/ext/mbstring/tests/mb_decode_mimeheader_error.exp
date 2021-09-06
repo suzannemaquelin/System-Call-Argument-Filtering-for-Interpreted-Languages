@@ -1,0 +1,12 @@
+*** Testing mb_decode_mimeheader() : error conditions ***
+
+-- Testing mb_decode_mimeheader() function with Zero arguments --
+
+Warning: mb_decode_mimeheader() expects exactly 1 parameter, 0 given in %s on line %d
+NULL
+
+-- Testing mb_decode_mimeheader() function with more than expected no. of arguments --
+
+Warning: mb_decode_mimeheader() expects exactly 1 parameter, 2 given in %s on line %d
+NULL
+===DONE===

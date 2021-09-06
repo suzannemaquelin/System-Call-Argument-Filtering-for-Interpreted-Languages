@@ -1,0 +1,131 @@
+
+---- EXPECTED OUTPUT
+===0===
+object(SplFileInfo)#%d (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(%d) "%s"
+  ["fileName":"SplFileInfo":private]=>
+  string(%d) "fileobject_001a.txt"
+}
+object(SplFileInfo)#%d (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(%d) "%s"
+  ["fileName":"SplFileInfo":private]=>
+  string(%d) "fileobject_001a.txt"
+}
+bool(false)
+bool(true)
+bool(true)
+%s(%d) "%sfileobject_001a.txt"
+string(%d) "%sfileobject_001a.txt"
+bool(true)
+string(19) "fileobject_001a.txt"
+bool(true)
+string(%d) "%stests"
+bool(true)
+string(%d) "%sfileobject_001a.txt"
+string(19) "fileobject_001a.txt"
+string(%d) "%stests"
+===1===
+object(SplFileInfo)#%d (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(%d) "%s"
+  ["fileName":"SplFileInfo":private]=>
+  string(%d) "%s"
+}
+object(SplFileInfo)#%d (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(%d) "%s"
+  ["fileName":"SplFileInfo":private]=>
+  string(%d) "%s"
+}
+bool(false)
+bool(true)
+bool(true)
+LogicException: Cannot use SplFileObject with directories
+LogicException: Cannot use SplFileObject with directories
+===2===
+object(SplFileInfo)#%d (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(%d) "%s"
+  ["fileName":"SplFileInfo":private]=>
+  string(%d) "%s"
+}
+object(SplFileInfo)#%d (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(%d) "%s"
+  ["fileName":"SplFileInfo":private]=>
+  string(%d) "%s"
+}
+bool(false)
+bool(true)
+bool(true)
+LogicException: Cannot use SplFileObject with directories
+LogicException: Cannot use SplFileObject with directories
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+===0===
+object(SplFileInfo)#1 (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(47) "/root/php-src/ext/spl/tests/fileobject_001a.txt"
+  ["fileName":"SplFileInfo":private]=>
+  string(19) "fileobject_001a.txt"
+}
+object(SplFileInfo)#2 (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(47) "/root/php-src/ext/spl/tests/fileobject_001a.txt"
+  ["fileName":"SplFileInfo":private]=>
+  string(19) "fileobject_001a.txt"
+}
+bool(false)
+bool(true)
+bool(true)
+string(47) "/root/php-src/ext/spl/tests/fileobject_001a.txt"
+string(47) "/root/php-src/ext/spl/tests/fileobject_001a.txt"
+bool(true)
+string(19) "fileobject_001a.txt"
+bool(true)
+string(27) "/root/php-src/ext/spl/tests"
+bool(true)
+string(47) "/root/php-src/ext/spl/tests/fileobject_001a.txt"
+string(19) "fileobject_001a.txt"
+string(27) "/root/php-src/ext/spl/tests"
+===1===
+object(SplFileInfo)#4 (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(27) "/root/php-src/ext/spl/tests"
+  ["fileName":"SplFileInfo":private]=>
+  string(5) "tests"
+}
+object(SplFileInfo)#3 (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(27) "/root/php-src/ext/spl/tests"
+  ["fileName":"SplFileInfo":private]=>
+  string(5) "tests"
+}
+bool(false)
+bool(true)
+bool(true)
+LogicException: Cannot use SplFileObject with directories
+LogicException: Cannot use SplFileObject with directories
+===2===
+object(SplFileInfo)#5 (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(27) "/root/php-src/ext/spl/tests"
+  ["fileName":"SplFileInfo":private]=>
+  string(5) "tests"
+}
+object(SplFileInfo)#3 (2) {
+  ["pathName":"SplFileInfo":private]=>
+  string(27) "/root/php-src/ext/spl/tests"
+  ["fileName":"SplFileInfo":private]=>
+  string(5) "tests"
+}
+bool(false)
+bool(true)
+bool(true)
+LogicException: Cannot use SplFileObject with directories
+LogicException: Cannot use SplFileObject with directories
+===DONE===
+---- FAILED

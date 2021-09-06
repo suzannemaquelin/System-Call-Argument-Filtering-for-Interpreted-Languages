@@ -1,0 +1,18 @@
+
+---- EXPECTED OUTPUT
+Deprecated: Function mcrypt_module_open() is deprecated in %s%ebug41252.php on line 2
+
+Deprecated: Function mcrypt_generic() is deprecated in %s%ebug41252.php on line 3
+
+Warning: mcrypt_generic(): Operation disallowed prior to mcrypt_generic_init(). in %sbug41252.php on line 3
+I'm alive!
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Deprecated: Function mcrypt_module_open() is deprecated in /root/php-src/ext/mcrypt/tests/bug41252.php on line 2
+
+Deprecated: Function mcrypt_generic() is deprecated in /root/php-src/ext/mcrypt/tests/bug41252.php on line 3
+
+Warning: mcrypt_generic(): Operation disallowed prior to mcrypt_generic_init(). in /root/php-src/ext/mcrypt/tests/bug41252.php on line 3
+I'm alive!
+---- FAILED

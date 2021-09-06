@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+int(0)
+
+Warning: json_last_error() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+
+Warning: json_last_error() expects exactly 0 parameters, 4 given in %s on line %d
+NULL
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(0)
+
+Warning: json_last_error() expects exactly 0 parameters, 1 given in /root/php-src/ext/json/tests/json_last_error_error.php on line 4
+NULL
+
+Warning: json_last_error() expects exactly 0 parameters, 4 given in /root/php-src/ext/json/tests/json_last_error_error.php on line 5
+NULL
+---- FAILED

@@ -1,0 +1,23 @@
+NULL
+bool(false)
+array(0) {
+}
+
+Warning: Cannot modify header information - headers already sent by (output started at %s:%d) in %s on line %d
+NULL
+
+Warning: Cannot modify header information - headers already sent by (output started at %s:%d) in %s on line %d
+NULL
+bool(true)
+array(0) {
+}
+
+Warning: Cannot modify header information - headers already sent by (output started at %s:%d) in %s on line %d
+NULL
+
+Warning: Cannot modify header information - headers already sent by (output started at %s:%d) in %s on line %d
+NULL
+bool(true)
+array(0) {
+}
+Done

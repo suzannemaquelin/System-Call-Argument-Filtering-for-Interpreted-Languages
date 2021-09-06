@@ -1,0 +1,4 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing json_encode() : basic functionality with UTF-8 input***
+string(103) ""\u65e5\u672c\u8a9e\u30c6\u30ad\u30b9\u30c8\u3067\u3059\u300201234\uff15\uff16\uff17\uff18\uff19\u3002""
+===Done===

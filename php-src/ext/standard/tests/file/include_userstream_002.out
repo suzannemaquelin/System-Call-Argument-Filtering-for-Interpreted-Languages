@@ -1,0 +1,11 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+<?php echo "Hello World\n";?>
+<?php echo "Hello World\n";?>
+
+Warning: fopen(): test1:// wrapper is disabled in the server configuration by allow_url_include=0 in /root/php-src/ext/standard/tests/file/include_userstream_002.php on line 10
+
+Warning: fopen(test1://hello): failed to open stream: no suitable wrapper could be found in /root/php-src/ext/standard/tests/file/include_userstream_002.php on line 10
+
+Warning: include(test2://hello): failed to open stream: "test::stream_open" call failed in /root/php-src/ext/standard/tests/file/include_userstream_002.php on line 89
+
+Warning: include(): Failed opening 'test2://hello' for inclusion (include_path='.:/opt/php-7.1/lib/php') in /root/php-src/ext/standard/tests/file/include_userstream_002.php on line 89

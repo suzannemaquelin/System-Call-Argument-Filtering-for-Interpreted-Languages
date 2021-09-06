@@ -1,0 +1,221 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing asort() : usage variations ***
+
+-- Testing asort() by supplying different unexpected values for 'sort_flags' argument --
+-- Iteration 1 --
+bool(true)
+array(3) {
+  [2]=>
+  int(2)
+  [1]=>
+  int(10)
+  [3]=>
+  int(45)
+}
+-- Iteration 2 --
+bool(true)
+array(3) {
+  [1]=>
+  int(10)
+  [2]=>
+  int(2)
+  [3]=>
+  int(45)
+}
+-- Iteration 3 --
+bool(true)
+array(3) {
+  [2]=>
+  int(2)
+  [1]=>
+  int(10)
+  [3]=>
+  int(45)
+}
+-- Iteration 4 --
+bool(true)
+array(3) {
+  [2]=>
+  int(2)
+  [1]=>
+  int(10)
+  [3]=>
+  int(45)
+}
+-- Iteration 5 --
+bool(true)
+array(3) {
+  [2]=>
+  int(2)
+  [1]=>
+  int(10)
+  [3]=>
+  int(45)
+}
+-- Iteration 6 --
+bool(true)
+array(3) {
+  [2]=>
+  int(2)
+  [1]=>
+  int(10)
+  [3]=>
+  int(45)
+}
+-- Iteration 7 --
+bool(true)
+array(3) {
+  [2]=>
+  int(2)
+  [1]=>
+  int(10)
+  [3]=>
+  int(45)
+}
+-- Iteration 8 --
+bool(true)
+array(3) {
+  [2]=>
+  int(2)
+  [1]=>
+  int(10)
+  [3]=>
+  int(45)
+}
+-- Iteration 9 --
+bool(true)
+array(3) {
+  [2]=>
+  int(2)
+  [1]=>
+  int(10)
+  [3]=>
+  int(45)
+}
+-- Iteration 10 --
+bool(true)
+array(3) {
+  [2]=>
+  int(2)
+  [1]=>
+  int(10)
+  [3]=>
+  int(45)
+}
+-- Iteration 11 --
+bool(true)
+array(3) {
+  [2]=>
+  int(2)
+  [1]=>
+  int(10)
+  [3]=>
+  int(45)
+}
+-- Iteration 12 --
+bool(true)
+array(3) {
+  [2]=>
+  int(2)
+  [1]=>
+  int(10)
+  [3]=>
+  int(45)
+}
+-- Iteration 13 --
+
+Warning: asort() expects parameter 2 to be integer, string given in /root/php-src/ext/standard/tests/array/asort_variation2.php on line 78
+bool(false)
+array(3) {
+  [1]=>
+  int(10)
+  [2]=>
+  int(2)
+  [3]=>
+  int(45)
+}
+-- Iteration 14 --
+
+Warning: asort() expects parameter 2 to be integer, string given in /root/php-src/ext/standard/tests/array/asort_variation2.php on line 78
+bool(false)
+array(3) {
+  [1]=>
+  int(10)
+  [2]=>
+  int(2)
+  [3]=>
+  int(45)
+}
+-- Iteration 15 --
+
+Warning: asort() expects parameter 2 to be integer, string given in /root/php-src/ext/standard/tests/array/asort_variation2.php on line 78
+bool(false)
+array(3) {
+  [1]=>
+  int(10)
+  [2]=>
+  int(2)
+  [3]=>
+  int(45)
+}
+-- Iteration 16 --
+
+Warning: asort() expects parameter 2 to be integer, string given in /root/php-src/ext/standard/tests/array/asort_variation2.php on line 78
+bool(false)
+array(3) {
+  [1]=>
+  int(10)
+  [2]=>
+  int(2)
+  [3]=>
+  int(45)
+}
+-- Iteration 17 --
+
+Warning: asort() expects parameter 2 to be integer, object given in /root/php-src/ext/standard/tests/array/asort_variation2.php on line 78
+bool(false)
+array(3) {
+  [1]=>
+  int(10)
+  [2]=>
+  int(2)
+  [3]=>
+  int(45)
+}
+-- Iteration 18 --
+
+Warning: asort() expects parameter 2 to be integer, string given in /root/php-src/ext/standard/tests/array/asort_variation2.php on line 78
+bool(false)
+array(3) {
+  [1]=>
+  int(10)
+  [2]=>
+  int(2)
+  [3]=>
+  int(45)
+}
+-- Iteration 19 --
+
+Warning: asort() expects parameter 2 to be integer, string given in /root/php-src/ext/standard/tests/array/asort_variation2.php on line 78
+bool(false)
+array(3) {
+  [1]=>
+  int(10)
+  [2]=>
+  int(2)
+  [3]=>
+  int(45)
+}
+-- Iteration 20 --
+
+Warning: asort() expects parameter 2 to be integer, resource given in /root/php-src/ext/standard/tests/array/asort_variation2.php on line 78
+bool(false)
+array(3) {
+  [1]=>
+  int(10)
+  [2]=>
+  int(2)
+  [3]=>
+  int(45)
+}
+Done

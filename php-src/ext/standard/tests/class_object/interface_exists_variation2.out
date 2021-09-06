@@ -1,0 +1,102 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing interface_exists() : usage variation ***
+
+--int 0--
+bool(false)
+
+--int 1--
+bool(false)
+
+--int 12345--
+bool(false)
+
+--int -12345--
+bool(false)
+
+--float 10.5--
+bool(false)
+
+--float -10.5--
+bool(false)
+
+--float 12.3456789000e10--
+bool(false)
+
+--float -12.3456789000e10--
+bool(false)
+
+--float .5--
+bool(false)
+
+--empty array--
+
+Warning: interface_exists() expects parameter 2 to be boolean, array given in /root/php-src/ext/standard/tests/class_object/interface_exists_variation2.php on line 95
+NULL
+
+--int indexed array--
+
+Warning: interface_exists() expects parameter 2 to be boolean, array given in /root/php-src/ext/standard/tests/class_object/interface_exists_variation2.php on line 95
+NULL
+
+--associative array--
+
+Warning: interface_exists() expects parameter 2 to be boolean, array given in /root/php-src/ext/standard/tests/class_object/interface_exists_variation2.php on line 95
+NULL
+
+--nested arrays--
+
+Warning: interface_exists() expects parameter 2 to be boolean, array given in /root/php-src/ext/standard/tests/class_object/interface_exists_variation2.php on line 95
+NULL
+
+--uppercase NULL--
+bool(false)
+
+--lowercase null--
+bool(false)
+
+--lowercase true--
+bool(false)
+
+--lowercase false--
+bool(false)
+
+--uppercase TRUE--
+bool(false)
+
+--uppercase FALSE--
+bool(false)
+
+--empty string DQ--
+bool(false)
+
+--empty string SQ--
+bool(false)
+
+--string DQ--
+bool(false)
+
+--string SQ--
+bool(false)
+
+--mixed case string--
+bool(false)
+
+--heredoc--
+bool(false)
+
+--instance of classWithToString--
+
+Warning: interface_exists() expects parameter 2 to be boolean, object given in /root/php-src/ext/standard/tests/class_object/interface_exists_variation2.php on line 95
+NULL
+
+--instance of classWithoutToString--
+
+Warning: interface_exists() expects parameter 2 to be boolean, object given in /root/php-src/ext/standard/tests/class_object/interface_exists_variation2.php on line 95
+NULL
+
+--undefined var--
+bool(false)
+
+--unset var--
+bool(false)
+===DONE===

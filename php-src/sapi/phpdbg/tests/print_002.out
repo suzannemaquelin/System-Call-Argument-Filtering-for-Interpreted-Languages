@@ -1,0 +1,26 @@
+[Successful compilation of /root/php-src/sapi/phpdbg/tests/print_002.php]
+prompt> [Breakpoint #0 added at foo]
+prompt> string(4) "test"
+[Breakpoint #0 in foo() at /root/php-src/sapi/phpdbg/tests/print_002.php:14, hits: 1]
+>00014: 	function foo($baz) {
+ 00015: 		var_dump(strrev($baz));
+ 00016: 	}
+prompt> [Stack in foo() (15 ops)]
+L14-16 foo() /root/php-src/sapi/phpdbg/tests/print_002.php - 0x7fc0a6284000 + 15 ops
+ L14   #0     EXT_NOP                                                                               
+ L14   #1     RECV                    1                                         $baz                
+ L15   #2     EXT_STMT                                                                              
+ L15   #3     INIT_FCALL              96                   "var_dump"                               
+ L15   #4     EXT_FCALL_BEGIN                                                                       
+ L15   #5     INIT_FCALL              96                   "strrev"                                 
+ L15   #6     EXT_FCALL_BEGIN                                                                       
+ L15   #7     SEND_VAR                $baz                 1                                        
+ L15   #8     DO_FCALL                                                          @0                  
+ L15   #9     EXT_FCALL_END                                                                         
+ L15   #10    SEND_VAR                @0                   1                                        
+ L15   #11    DO_FCALL                                                                              
+ L15   #12    EXT_FCALL_END                                                                         
+ L16   #13    EXT_STMT                                                                              
+ L16   #14    RETURN                  null                                                          
+prompt> [L14      0x7fc0a6284020 RECV                    1                                         $baz                 /root/php-src/sapi/phpdbg/tests/print_002.php]
+prompt>

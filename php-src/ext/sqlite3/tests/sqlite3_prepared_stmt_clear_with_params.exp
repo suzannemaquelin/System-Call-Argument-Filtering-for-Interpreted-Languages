@@ -1,0 +1,10 @@
+Creating Table
+INSERT into table
+bool(true)
+SELECTING results
+
+Warning: SQLite3Stmt::clear() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+Closing database
+bool(true)
+Done

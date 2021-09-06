@@ -1,0 +1,29 @@
+
+---- EXPECTED OUTPUT
+*** Testing array_reduce() : error conditions ***
+
+-- Testing array_reduce() function with more than expected no. of arguments --
+
+Warning: array_reduce() expects at most 3 parameters, 4 given in %sarray_reduce_error.php on line %d
+NULL
+
+-- Testing array_reduce() function with less than expected no. of arguments --
+
+Warning: array_reduce() expects at least 2 parameters, 1 given in %sarray_reduce_error.php on line %d
+NULL
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_reduce() : error conditions ***
+
+-- Testing array_reduce() function with more than expected no. of arguments --
+
+Warning: array_reduce() expects at most 3 parameters, 4 given in /root/php-src/ext/standard/tests/array/array_reduce_error.php on line 17
+NULL
+
+-- Testing array_reduce() function with less than expected no. of arguments --
+
+Warning: array_reduce() expects at least 2 parameters, 1 given in /root/php-src/ext/standard/tests/array/array_reduce_error.php on line 22
+NULL
+===DONE===
+---- FAILED

@@ -1,0 +1,3 @@
+string(2) "hi"
+%string|unicode%(3) "hi2"
+ok

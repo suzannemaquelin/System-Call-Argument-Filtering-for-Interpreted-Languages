@@ -1,0 +1,184 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing array_unshift() : Passing object to $var argument ***
+-- Iteration 1 --
+int(5)
+array(5) {
+  [0]=>
+  object(SimpleClass)#1 (1) {
+    ["var1"]=>
+    int(1)
+  }
+  ["f"]=>
+  string(5) "first"
+  ["s"]=>
+  string(6) "second"
+  [1]=>
+  int(1)
+  [2]=>
+  float(2.222)
+}
+int(7)
+array(7) {
+  [0]=>
+  object(SimpleClass)#1 (1) {
+    ["var1"]=>
+    int(1)
+  }
+  [1]=>
+  string(5) "hello"
+  [2]=>
+  string(5) "world"
+  ["f"]=>
+  string(5) "first"
+  ["s"]=>
+  string(6) "second"
+  [3]=>
+  int(1)
+  [4]=>
+  float(2.222)
+}
+-- Iteration 2 --
+int(5)
+array(5) {
+  [0]=>
+  object(EmptyClass)#2 (0) {
+  }
+  ["f"]=>
+  string(5) "first"
+  ["s"]=>
+  string(6) "second"
+  [1]=>
+  int(1)
+  [2]=>
+  float(2.222)
+}
+int(7)
+array(7) {
+  [0]=>
+  object(EmptyClass)#2 (0) {
+  }
+  [1]=>
+  string(5) "hello"
+  [2]=>
+  string(5) "world"
+  ["f"]=>
+  string(5) "first"
+  ["s"]=>
+  string(6) "second"
+  [3]=>
+  int(1)
+  [4]=>
+  float(2.222)
+}
+-- Iteration 3 --
+int(5)
+array(5) {
+  [0]=>
+  object(ChildClass)#3 (2) {
+    ["var3":"ChildClass":private]=>
+    NULL
+    ["var2":protected]=>
+    int(5)
+  }
+  ["f"]=>
+  string(5) "first"
+  ["s"]=>
+  string(6) "second"
+  [1]=>
+  int(1)
+  [2]=>
+  float(2.222)
+}
+int(7)
+array(7) {
+  [0]=>
+  object(ChildClass)#3 (2) {
+    ["var3":"ChildClass":private]=>
+    NULL
+    ["var2":protected]=>
+    int(5)
+  }
+  [1]=>
+  string(5) "hello"
+  [2]=>
+  string(5) "world"
+  ["f"]=>
+  string(5) "first"
+  ["s"]=>
+  string(6) "second"
+  [3]=>
+  int(1)
+  [4]=>
+  float(2.222)
+}
+-- Iteration 4 --
+int(5)
+array(5) {
+  [0]=>
+  object(FinalClass)#4 (1) {
+    ["var4":"FinalClass":private]=>
+    NULL
+  }
+  ["f"]=>
+  string(5) "first"
+  ["s"]=>
+  string(6) "second"
+  [1]=>
+  int(1)
+  [2]=>
+  float(2.222)
+}
+int(7)
+array(7) {
+  [0]=>
+  object(FinalClass)#4 (1) {
+    ["var4":"FinalClass":private]=>
+    NULL
+  }
+  [1]=>
+  string(5) "hello"
+  [2]=>
+  string(5) "world"
+  ["f"]=>
+  string(5) "first"
+  ["s"]=>
+  string(6) "second"
+  [3]=>
+  int(1)
+  [4]=>
+  float(2.222)
+}
+-- Iteration 5 --
+int(5)
+array(5) {
+  [0]=>
+  object(StaticClass)#5 (0) {
+  }
+  ["f"]=>
+  string(5) "first"
+  ["s"]=>
+  string(6) "second"
+  [1]=>
+  int(1)
+  [2]=>
+  float(2.222)
+}
+int(7)
+array(7) {
+  [0]=>
+  object(StaticClass)#5 (0) {
+  }
+  [1]=>
+  string(5) "hello"
+  [2]=>
+  string(5) "world"
+  ["f"]=>
+  string(5) "first"
+  ["s"]=>
+  string(6) "second"
+  [3]=>
+  int(1)
+  [4]=>
+  float(2.222)
+}
+Done

@@ -1,0 +1,2 @@
+Warning: range(): Invalid range supplied: start=inf end=inf in %srange_bug70239_1.php on line %d
+===DONE===

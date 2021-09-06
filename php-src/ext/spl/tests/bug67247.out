@@ -1,0 +1,4 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+size: 1
+
+Fatal error: Possible integer overflow in memory allocation (2305843009213693953 * 16 + 0) in /root/php-src/ext/spl/tests/bug67247.php on line 4

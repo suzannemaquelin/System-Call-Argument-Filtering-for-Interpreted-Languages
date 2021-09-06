@@ -1,0 +1,22 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Implicit foreach:
+int(1)
+#0  gen() called at [/root/php-src/Zend/tests/generators/yield_from_backtrace.php:16]
+int(2)
+#0  from(2) called at [/root/php-src/Zend/tests/generators/yield_from_backtrace.php:11]
+#1  gen() called at [/root/php-src/Zend/tests/generators/yield_from_backtrace.php:16]
+int(3)
+#0  gen() called at [/root/php-src/Zend/tests/generators/yield_from_backtrace.php:16]
+
+Explicit iterator:
+int(1)
+#0  gen()
+#1  Generator->next() called at [/root/php-src/Zend/tests/generators/yield_from_backtrace.php:21]
+int(2)
+#0  from(2) called at [/root/php-src/Zend/tests/generators/yield_from_backtrace.php:11]
+#1  gen()
+#2  Generator->next() called at [/root/php-src/Zend/tests/generators/yield_from_backtrace.php:21]
+int(3)
+#0  gen()
+#1  Generator->next() called at [/root/php-src/Zend/tests/generators/yield_from_backtrace.php:21]

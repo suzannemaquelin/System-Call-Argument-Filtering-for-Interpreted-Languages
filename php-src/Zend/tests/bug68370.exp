@@ -1,0 +1,1 @@
+Fatal error: Cannot unset $this in %sbug68370.php on line 4

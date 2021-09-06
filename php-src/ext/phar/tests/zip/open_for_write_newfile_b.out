@@ -1,0 +1,14 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: fopen(phar:///root/php-src/ext/phar/tests/zip/open_for_write_newfile_b.phar.zip/b/new.php): failed to open stream: phar error: write operations disabled by the php.ini setting phar.readonly in /root/php-src/ext/phar/tests/zip/open_for_write_newfile_b.php on line 28
+
+Warning: fwrite() expects parameter 1 to be resource, boolean given in /root/php-src/ext/phar/tests/zip/open_for_write_newfile_b.php on line 29
+
+Warning: fclose() expects parameter 1 to be resource, boolean given in /root/php-src/ext/phar/tests/zip/open_for_write_newfile_b.php on line 30
+This is b/c
+
+Warning: include(phar:///root/php-src/ext/phar/tests/zip/open_for_write_newfile_b.phar.zip/b/new.php): failed to open stream: phar error: "b/new.php" is not a file in phar "/root/php-src/ext/phar/tests/zip/open_for_write_newfile_b.phar.zip" in /root/php-src/ext/phar/tests/zip/open_for_write_newfile_b.php on line 33
+
+Warning: include(): Failed opening 'phar:///root/php-src/ext/phar/tests/zip/open_for_write_newfile_b.phar.zip/b/new.php' for inclusion (include_path='.:/opt/php-7.1/lib/php') in /root/php-src/ext/phar/tests/zip/open_for_write_newfile_b.php on line 33
+
+===DONE===

@@ -1,0 +1,12 @@
+*** Testing mktime() : error conditions ***
+
+-- Testing mktime() function with Zero arguments --
+
+Deprecated: mktime(): You should be using the time() function instead in %s on line %d
+int(%d)
+
+-- Testing mktime() function with more than expected no. of arguments --
+
+Warning: mktime() expects at most 6 parameters, 7 given in %s on line %d
+bool(false)
+===DONE===

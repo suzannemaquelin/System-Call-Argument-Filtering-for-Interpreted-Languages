@@ -1,0 +1,10 @@
+
+---- EXPECTED OUTPUT
+Warning: Phar::mapPhar() expects at most 2 parameters, 3 given in %s002.php on line %d
+internal corruption of phar "%s002.php" (truncated manifest at manifest length)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: Phar::mapPhar() expects at most 2 parameters, 3 given in /root/php-src/ext/phar/tests/002.php on line 3
+internal corruption of phar "/root/php-src/ext/phar/tests/002.php" (truncated manifest at manifest length)
+---- FAILED

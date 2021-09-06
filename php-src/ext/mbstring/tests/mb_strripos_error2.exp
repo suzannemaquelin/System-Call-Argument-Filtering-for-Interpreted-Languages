@@ -1,0 +1,5 @@
+*** Testing mb_strripos() : error conditions ***
+
+Warning: mb_strripos(): Unknown encoding "unknown-encoding" in %s on line %d
+bool(false)
+Done

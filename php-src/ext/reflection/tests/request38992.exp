@@ -1,0 +1,4 @@
+Warning: ReflectionMethod::invoke() expects parameter 1 to be object, string given in %s%erequest38992.php on line %d
+
+Warning: ReflectionMethod::invokeArgs() expects parameter 1 to be object, string given in %s%erequest38992.php on line %d
+===DONE===

@@ -1,0 +1,12 @@
+array(2) {
+  ["foo"]=>
+  NULL
+  ["bar"]=>
+  NULL
+}
+array(2) {
+  ["bar"]=>
+  NULL
+  ["foo"]=>
+  NULL
+}

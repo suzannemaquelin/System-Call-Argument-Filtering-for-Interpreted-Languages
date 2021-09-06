@@ -1,0 +1,6 @@
+009+ [Breakpoint #0 in foo() at /root/php-src/sapi/phpdbg/tests/info_001.php:14, hits: 1]
+010+ >00014: 	function foo($baz) {
+011+  00015: 		var_dump(strrev($baz));
+009- [Breakpoint #0 in foo() at %s:15, hits: 1]
+010- >00015: 		var_dump(strrev($baz));
+012-  00017: 

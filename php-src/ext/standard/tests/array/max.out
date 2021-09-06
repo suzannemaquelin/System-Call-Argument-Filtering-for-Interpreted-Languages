@@ -1,0 +1,21 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: max() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/array/max.php on line 3
+NULL
+
+Warning: max(): When only one parameter is given, it must be an array in /root/php-src/ext/standard/tests/array/max.php on line 4
+NULL
+
+Warning: max(): Array must contain at least one element in /root/php-src/ext/standard/tests/array/max.php on line 5
+bool(false)
+
+Warning: max(): When only one parameter is given, it must be an array in /root/php-src/ext/standard/tests/array/max.php on line 6
+NULL
+int(2)
+float(2.11)
+string(1) "t"
+bool(true)
+bool(true)
+int(1)
+bool(true)
+Done

@@ -1,0 +1,195 @@
+
+---- EXPECTED OUTPUT
+*** Testing timezone_name_from_abbr() : usage variation -  unexpected values to first argument $abbr***
+
+-- int 0 --
+string(13) "Europe/London"
+
+-- int 12345 --
+string(13) "Europe/London"
+
+-- int -12345 --
+string(13) "Europe/London"
+
+-- float 10.5 --
+string(13) "Europe/London"
+
+-- float -10.5 --
+string(13) "Europe/London"
+
+-- float .5 --
+string(13) "Europe/London"
+
+-- empty array --
+
+Warning: timezone_name_from_abbr() expects parameter 1 to be string, array given in %s on line %d
+bool(false)
+
+-- int indexed array --
+
+Warning: timezone_name_from_abbr() expects parameter 1 to be string, array given in %s on line %d
+bool(false)
+
+-- associative array --
+
+Warning: timezone_name_from_abbr() expects parameter 1 to be string, array given in %s on line %d
+bool(false)
+
+-- nested arrays --
+
+Warning: timezone_name_from_abbr() expects parameter 1 to be string, array given in %s on line %d
+bool(false)
+
+-- uppercase NULL --
+string(13) "Europe/London"
+
+-- lowercase null --
+string(13) "Europe/London"
+
+-- lowercase true --
+string(13) "Europe/London"
+
+-- lowercase false --
+string(13) "Europe/London"
+
+-- uppercase TRUE --
+string(13) "Europe/London"
+
+-- uppercase FALSE --
+string(13) "Europe/London"
+
+-- empty string DQ --
+string(13) "Europe/London"
+
+-- empty string SQ --
+string(13) "Europe/London"
+
+-- string DQ --
+string(13) "Europe/London"
+
+-- string SQ --
+string(13) "Europe/London"
+
+-- mixed case string --
+string(13) "Europe/London"
+
+-- heredoc --
+string(13) "Europe/London"
+
+-- instance of classWithToString --
+string(13) "Europe/London"
+
+-- instance of classWithoutToString --
+
+Warning: timezone_name_from_abbr() expects parameter 1 to be string, object given in %s on line %d
+bool(false)
+
+-- undefined var --
+string(13) "Europe/London"
+
+-- unset var --
+string(13) "Europe/London"
+
+-- resource --
+
+Warning: timezone_name_from_abbr() expects parameter 1 to be string, resource given in %s on line %d
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing timezone_name_from_abbr() : usage variation -  unexpected values to first argument $abbr***
+
+-- int 0 --
+string(13) "Europe/London"
+
+-- int 12345 --
+string(13) "Europe/London"
+
+-- int -12345 --
+string(13) "Europe/London"
+
+-- float 10.5 --
+string(13) "Europe/London"
+
+-- float -10.5 --
+string(13) "Europe/London"
+
+-- float .5 --
+string(13) "Europe/London"
+
+-- empty array --
+
+Warning: timezone_name_from_abbr() expects parameter 1 to be string, array given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation1.php on line 99
+bool(false)
+
+-- int indexed array --
+
+Warning: timezone_name_from_abbr() expects parameter 1 to be string, array given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation1.php on line 99
+bool(false)
+
+-- associative array --
+
+Warning: timezone_name_from_abbr() expects parameter 1 to be string, array given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation1.php on line 99
+bool(false)
+
+-- nested arrays --
+
+Warning: timezone_name_from_abbr() expects parameter 1 to be string, array given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation1.php on line 99
+bool(false)
+
+-- uppercase NULL --
+string(13) "Europe/London"
+
+-- lowercase null --
+string(13) "Europe/London"
+
+-- lowercase true --
+string(13) "Europe/London"
+
+-- lowercase false --
+string(13) "Europe/London"
+
+-- uppercase TRUE --
+string(13) "Europe/London"
+
+-- uppercase FALSE --
+string(13) "Europe/London"
+
+-- empty string DQ --
+string(13) "Europe/London"
+
+-- empty string SQ --
+string(13) "Europe/London"
+
+-- string DQ --
+string(13) "Europe/London"
+
+-- string SQ --
+string(13) "Europe/London"
+
+-- mixed case string --
+string(13) "Europe/London"
+
+-- heredoc --
+string(13) "Europe/London"
+
+-- instance of classWithToString --
+string(13) "Europe/London"
+
+-- instance of classWithoutToString --
+
+Warning: timezone_name_from_abbr() expects parameter 1 to be string, object given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation1.php on line 99
+bool(false)
+
+-- undefined var --
+string(13) "Europe/London"
+
+-- unset var --
+string(13) "Europe/London"
+
+-- resource --
+
+Warning: timezone_name_from_abbr() expects parameter 1 to be string, resource given in /root/php-src/ext/date/tests/timezone_name_from_abbr_variation1.php on line 99
+bool(false)
+===DONE===
+---- FAILED

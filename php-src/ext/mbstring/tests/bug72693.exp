@@ -1,0 +1,14 @@
+bool(true)
+int(0)
+bool(true)
+int(0)
+bool(true)
+int(3)
+array(1) {
+  [0]=>
+  string(3) "foo"
+}
+bool(true)
+int(3)
+bool(true)
+int(3)

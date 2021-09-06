@@ -1,0 +1,5 @@
+isset
+empty
+
+Notice: Undefined property: myclass::$foo in %s on line %d
+empty

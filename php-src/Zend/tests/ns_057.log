@@ -1,0 +1,35 @@
+
+---- EXPECTED OUTPUT
+const ok
+func ok
+const ok
+const ok
+var ok
+method ok
+const ok
+const ok
+class ok
+ok
+
+Fatal error: Uncaught Error: Undefined constant 'Test\ns1\unknown' in %sns_057.php:%d
+Stack trace:
+#0 {main}
+  thrown in %sns_057.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+const ok
+func ok
+const ok
+const ok
+var ok
+method ok
+const ok
+const ok
+class ok
+ok
+
+Fatal error: Uncaught Error: Undefined constant 'Test\ns1\unknown' in /root/php-src/Zend/tests/ns_057.php:42
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/Zend/tests/ns_057.php on line 42
+---- FAILED

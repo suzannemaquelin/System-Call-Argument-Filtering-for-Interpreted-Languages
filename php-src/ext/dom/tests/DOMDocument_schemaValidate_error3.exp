@@ -1,0 +1,2 @@
+Warning: DOMDocument::schemaValidate(): Invalid Schema source in %s.php on line %d
+bool(false)

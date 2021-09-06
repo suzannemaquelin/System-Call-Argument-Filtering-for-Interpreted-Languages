@@ -1,0 +1,6 @@
+Warning: exif_read_data(%s.jpg): Thumbnail goes IFD boundary or end of file reached in %s on line %d
+
+Warning: exif_read_data(%s.jpg): File structure corrupted in %s on line %d
+
+Warning: exif_read_data(%s.jpg): Invalid JPEG file in %s on line %d
+===DONE===

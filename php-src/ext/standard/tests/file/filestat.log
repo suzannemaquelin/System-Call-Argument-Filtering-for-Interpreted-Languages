@@ -1,0 +1,67 @@
+
+---- EXPECTED OUTPUT
+int(%d)
+int(%d)
+int(%d)
+int(%d)
+int(%d)
+int(%d)
+int(%d)
+int(%d)
+int(%d)
+int(%d)
+int(%d)
+int(%d)
+int(%d)
+int(%d)
+int(%d)
+
+Warning: fileinode(): stat failed for /no/such/file/or/dir in %s on line %d
+bool(false)
+
+Warning: fileowner(): stat failed for /no/such/file/or/dir in %s on line %d
+bool(false)
+
+Warning: filegroup(): stat failed for /no/such/file/or/dir in %s on line %d
+bool(false)
+
+Warning: fileatime(): stat failed for /no/such/file/or/dir in %s on line %d
+bool(false)
+
+Warning: filectime(): stat failed for /no/such/file/or/dir in %s on line %d
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(17717774)
+int(1001)
+int(27)
+int(1652019517)
+int(1652019539)
+int(16912112)
+int(1000)
+int(1000)
+int(1652019477)
+int(1652019477)
+int(17879572)
+int(0)
+int(0)
+int(1652019545)
+int(1652019545)
+
+Warning: fileinode(): stat failed for /no/such/file/or/dir in /root/php-src/ext/standard/tests/file/filestat.php on line 21
+bool(false)
+
+Warning: fileowner(): stat failed for /no/such/file/or/dir in /root/php-src/ext/standard/tests/file/filestat.php on line 22
+bool(false)
+
+Warning: filegroup(): stat failed for /no/such/file/or/dir in /root/php-src/ext/standard/tests/file/filestat.php on line 23
+bool(false)
+
+Warning: fileatime(): stat failed for /no/such/file/or/dir in /root/php-src/ext/standard/tests/file/filestat.php on line 24
+bool(false)
+
+Warning: filectime(): stat failed for /no/such/file/or/dir in /root/php-src/ext/standard/tests/file/filestat.php on line 25
+bool(false)
+Done
+---- FAILED

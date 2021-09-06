@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+Simple testcase for get_magic_quotes_runtime() function
+bool(false)
+
+-- Error cases --
+
+Warning: get_magic_quotes_runtime() expects exactly 0 parameters, 1 given in %s on line %d
+NULL
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Simple testcase for get_magic_quotes_runtime() function
+bool(false)
+
+-- Error cases --
+
+Warning: get_magic_quotes_runtime() expects exactly 0 parameters, 1 given in /root/php-src/ext/standard/tests/general_functions/get_magic_quotes_runtime.php on line 12
+NULL
+===DONE===
+---- FAILED

@@ -1,0 +1,15 @@
+*** Testing array_udiff() : usage variation ***
+
+-- comparison function with an incorrect return value --
+array(1) {
+  [0]=>
+  int(1)
+}
+
+-- comparison function taking too many parameters --
+Exception: Too few arguments to function too_many_parameters(), 2 passed and exactly 3 expected
+
+-- comparison function taking too few parameters --
+array(0) {
+}
+===DONE===

@@ -1,0 +1,30 @@
+
+---- EXPECTED OUTPUT
+From parent scope
+array(1) {
+  ["prot"]=>
+  string(13) "protected var"
+}
+string(13) "protected var"
+
+ From child scope
+array(1) {
+  ["prot"]=>
+  string(13) "protected var"
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+ From parent scope
+array(1) {
+  ["prot"]=>
+  string(13) "protected var"
+}
+string(13) "protected var"
+
+ From child scope
+array(1) {
+  ["prot"]=>
+  string(13) "protected var"
+}
+---- FAILED

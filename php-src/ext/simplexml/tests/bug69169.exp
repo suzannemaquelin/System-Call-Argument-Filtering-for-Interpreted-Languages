@@ -1,0 +1,48 @@
+SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [a] => b
+        )
+
+    [row] => Array
+        (
+            [0] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [b] => y
+                        )
+
+                    [item] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [s] => t
+                                )
+
+                        )
+
+                )
+
+            [1] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [p] => c
+                        )
+
+                    [item] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [y] => n
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,4 @@
+test filtering of buffered data
+
+Warning: stream_filter_append(): Filter failed to process pre-buffered data in %s
+test filtering of non buffered data

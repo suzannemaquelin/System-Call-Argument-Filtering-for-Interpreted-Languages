@@ -1,0 +1,45 @@
+
+---- EXPECTED OUTPUT
+*** Testing shuffle() : error conditions ***
+
+-- Testing shuffle() function with Zero arguments --
+
+Warning: shuffle() expects exactly 1 parameter, 0 given in %s on line %d
+bool(false)
+
+-- Testing shuffle() function with more than expected no. of arguments --
+
+Warning: shuffle() expects exactly 1 parameter, 2 given in %s on line %d
+bool(false)
+
+-- original input array --
+array(2) {
+  [0]=>
+  int(1)
+  ["two"]=>
+  int(2)
+}
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing shuffle() : error conditions ***
+
+-- Testing shuffle() function with Zero arguments --
+
+Warning: shuffle() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/array/shuffle_error.php on line 15
+bool(false)
+
+-- Testing shuffle() function with more than expected no. of arguments --
+
+Warning: shuffle() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/array/shuffle_error.php on line 21
+bool(false)
+
+-- original input array --
+array(2) {
+  [0]=>
+  int(1)
+  ["two"]=>
+  int(2)
+}
+Done
+---- FAILED

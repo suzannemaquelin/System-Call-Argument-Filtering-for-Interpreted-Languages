@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+int(127)
+
+Warning: A non-numeric value encountered in %s on line %d
+int(11)
+
+Notice: A non well formed numeric value encountered in %s on line %d
+int(45345)
+string(1) "f"
+string(2) "ff"
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+int(127)
+
+Warning: A non-numeric value encountered in /root/php-src/Zend/tests/self_or.php on line 12
+int(11)
+
+Notice: A non well formed numeric value encountered in /root/php-src/Zend/tests/self_or.php on line 15
+int(45345)
+string(1) "f"
+string(2) "ff"
+Done
+---- FAILED

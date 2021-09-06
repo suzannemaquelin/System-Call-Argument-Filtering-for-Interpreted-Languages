@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Interface 'a' not found in %sbug30519.php on line 2
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Interface 'a' not found in /root/php-src/Zend/tests/bug30519.php on line 2
+---- FAILED

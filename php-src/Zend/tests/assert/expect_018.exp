@@ -1,0 +1,12 @@
+bool(true)
+bool(true)
+bool(true)
+bool(true)
+
+Warning: assert(): assert(false) failed in %sexpect_018.php on line 10
+bool(false)
+bool(true)
+
+Warning: assert(): assert(false) failed in %sexpect_018.php on line 12
+bool(false)
+bool(true)

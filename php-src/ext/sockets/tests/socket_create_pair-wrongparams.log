@@ -1,0 +1,42 @@
+
+---- EXPECTED OUTPUT
+Warning: socket_create_pair() expects exactly 4 parameters, 3 given in %s on line %d
+NULL
+
+Warning: socket_create_pair() expects parameter 1 to be integer, %unicode_string_optional% given in %s on line %d
+NULL
+
+Warning: socket_create_pair(): unable to create socket pair [%d]: %s not supported in %s on line %d
+bool(false)
+
+Warning: socket_create_pair(): invalid socket domain [31337] specified for argument 1, assuming AF_INET in %s on line %d
+
+Warning: socket_create_pair(): unable to create socket pair [%d]: %s not supported in %s on line %d
+bool(false)
+
+Warning: socket_create_pair(): invalid socket type [31337] specified for argument 2, assuming SOCK_STREAM in %s on line %d
+
+Warning: socket_create_pair(): unable to create socket pair [%d]: %s not supported %s on line %d
+bool(false)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: socket_create_pair() expects exactly 4 parameters, 3 given in /root/php-src/ext/sockets/tests/socket_create_pair-wrongparams.php on line 2
+NULL
+
+Warning: socket_create_pair() expects parameter 1 to be integer, string given in /root/php-src/ext/sockets/tests/socket_create_pair-wrongparams.php on line 5
+NULL
+
+Warning: socket_create_pair(): unable to create socket pair [94]: Socket type not supported in /root/php-src/ext/sockets/tests/socket_create_pair-wrongparams.php on line 7
+bool(false)
+
+Warning: socket_create_pair(): invalid socket domain [31337] specified for argument 1, assuming AF_INET in /root/php-src/ext/sockets/tests/socket_create_pair-wrongparams.php on line 9
+
+Warning: socket_create_pair(): unable to create socket pair [94]: Socket type not supported in /root/php-src/ext/sockets/tests/socket_create_pair-wrongparams.php on line 9
+bool(false)
+
+Warning: socket_create_pair(): invalid socket type [31337] specified for argument 2, assuming SOCK_STREAM in /root/php-src/ext/sockets/tests/socket_create_pair-wrongparams.php on line 11
+
+Warning: socket_create_pair(): unable to create socket pair [95]: Operation not supported in /root/php-src/ext/sockets/tests/socket_create_pair-wrongparams.php on line 11
+bool(false)
+---- FAILED

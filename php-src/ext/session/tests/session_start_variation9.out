@@ -1,0 +1,10 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing session_start() : variation ***
+string(32) "0949eb6b594f69ed695e4ac1d9a28bd9"
+
+Notice: A session had already been started - ignoring session_start() in /root/php-src/ext/session/tests/session_start_variation9.php on line 14
+bool(true)
+string(32) "0949eb6b594f69ed695e4ac1d9a28bd9"
+bool(true)
+string(0) ""
+Done

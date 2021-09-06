@@ -1,0 +1,23 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing session_set_save_handler() : basic class wrapping existing handler ***
+Open 
+Old Create SID 
+Read 8eeda50a723ef138338046ad1aaad1ca
+string(32) "8eeda50a723ef138338046ad1aaad1ca"
+string(5) "files"
+string(4) "user"
+int(3)
+array(0) {
+}
+Write 8eeda50a723ef138338046ad1aaad1ca
+Close 8eeda50a723ef138338046ad1aaad1ca
+Open 8eeda50a723ef138338046ad1aaad1ca
+Validate ID 8eeda50a723ef138338046ad1aaad1ca
+Read 8eeda50a723ef138338046ad1aaad1ca
+array(1) {
+  ["foo"]=>
+  string(5) "hello"
+}
+Update Timestamp 8eeda50a723ef138338046ad1aaad1ca
+Close 8eeda50a723ef138338046ad1aaad1ca
+int(10)

@@ -1,0 +1,11 @@
+Warning: Cannot add element to the array as the next element is already occupied in %s on line %d
+array(1) {
+  [%d]=>
+  int(42)
+}
+
+Warning: Cannot add element to the array as the next element is already occupied in %s on line %d
+array(1) {
+  [%d]=>
+  int(42)
+}

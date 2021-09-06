@@ -1,0 +1,11 @@
+
+---- EXPECTED OUTPUT
+string(5) "/.at/"
+string(2) "//"
+string(43) "|\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b|"
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(5) "/.at/"
+string(2) "//"
+string(43) "|\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b|"
+---- FAILED

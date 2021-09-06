@@ -1,0 +1,2 @@
+Warning: ftp_login(): %rdummy|bogus msg%r in %sbug37799.php on line 8
+bool(false)

@@ -1,0 +1,12 @@
+*** Testing session_create_id() : basic functionality ***
+string(32) "%s"
+string(36) "ABCD%s"
+string(35) "XYZ%s"
+string(0) ""
+string(32) "%s"
+bool(false)
+string(35) "XYZ%s"
+string(0) ""
+string(35) "XYZ%s"
+bool(true)
+Done

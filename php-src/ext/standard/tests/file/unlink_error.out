@@ -1,0 +1,44 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing unlink() : error conditions ***
+-- Testing unlink() on unexpected no. of arguments --
+
+Warning: unlink() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/file/unlink_error.php on line 19
+bool(false)
+
+Warning: unlink() expects at most 2 parameters, 3 given in /root/php-src/ext/standard/tests/file/unlink_error.php on line 21
+bool(false)
+bool(true)
+
+-- Testing unlink() on invalid arguments --
+
+Warning: unlink(): No such file or directory in /root/php-src/ext/standard/tests/file/unlink_error.php on line 26
+bool(false)
+bool(false)
+
+Warning: unlink(): No such file or directory in /root/php-src/ext/standard/tests/file/unlink_error.php on line 29
+bool(false)
+bool(false)
+
+Warning: unlink(): No such file or directory in /root/php-src/ext/standard/tests/file/unlink_error.php on line 32
+bool(false)
+bool(false)
+
+Warning: unlink() expects parameter 2 to be resource, string given in /root/php-src/ext/standard/tests/file/unlink_error.php on line 35
+bool(false)
+
+Warning: unlink() expects parameter 2 to be resource, boolean given in /root/php-src/ext/standard/tests/file/unlink_error.php on line 36
+bool(false)
+
+Warning: unlink() expects parameter 2 to be resource, null given in /root/php-src/ext/standard/tests/file/unlink_error.php on line 37
+bool(false)
+
+-- Testing unlink() on non-existent file --
+
+Warning: unlink(/root/php-src/ext/standard/tests/file/non_existent_file.tmp): No such file or directory in /root/php-src/ext/standard/tests/file/unlink_error.php on line 41
+bool(false)
+
+-- Testing unlink() on directory --
+
+Warning: unlink(/root/php-src/ext/standard/tests/file/unlink_error): Is a directory in /root/php-src/ext/standard/tests/file/unlink_error.php on line 49
+bool(false)
+Done

@@ -1,0 +1,83 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_stripos() : usage variations ***
+
+**-- Offset is: -30 --**
+-- ASCII String --
+
+Warning: mb_stripos(): Offset not contained in string in /root/php-src/ext/mbstring/tests/mb_stripos_variation5_Bug45923.php on line 31
+bool(false)
+--Multibyte String --
+
+Warning: mb_stripos(): Offset not contained in string in /root/php-src/ext/mbstring/tests/mb_stripos_variation5_Bug45923.php on line 33
+bool(false)
+
+**-- Offset is: -20 --**
+-- ASCII String --
+int(9)
+--Multibyte String --
+int(9)
+
+**-- Offset is: -10 --**
+-- ASCII String --
+int(20)
+--Multibyte String --
+int(20)
+
+**-- Offset is: 0 --**
+-- ASCII String --
+int(9)
+--Multibyte String --
+int(9)
+
+**-- Offset is: 10 --**
+-- ASCII String --
+int(20)
+--Multibyte String --
+int(20)
+
+**-- Offset is: 20 --**
+-- ASCII String --
+int(20)
+--Multibyte String --
+int(20)
+
+**-- Offset is: 30 --**
+-- ASCII String --
+
+Warning: mb_stripos(): Offset not contained in string in /root/php-src/ext/mbstring/tests/mb_stripos_variation5_Bug45923.php on line 31
+bool(false)
+--Multibyte String --
+
+Warning: mb_stripos(): Offset not contained in string in /root/php-src/ext/mbstring/tests/mb_stripos_variation5_Bug45923.php on line 33
+bool(false)
+
+**-- Offset is: 40 --**
+-- ASCII String --
+
+Warning: mb_stripos(): Offset not contained in string in /root/php-src/ext/mbstring/tests/mb_stripos_variation5_Bug45923.php on line 31
+bool(false)
+--Multibyte String --
+
+Warning: mb_stripos(): Offset not contained in string in /root/php-src/ext/mbstring/tests/mb_stripos_variation5_Bug45923.php on line 33
+bool(false)
+
+**-- Offset is: 50 --**
+-- ASCII String --
+
+Warning: mb_stripos(): Offset not contained in string in /root/php-src/ext/mbstring/tests/mb_stripos_variation5_Bug45923.php on line 31
+bool(false)
+--Multibyte String --
+
+Warning: mb_stripos(): Offset not contained in string in /root/php-src/ext/mbstring/tests/mb_stripos_variation5_Bug45923.php on line 33
+bool(false)
+
+**-- Offset is: 60 --**
+-- ASCII String --
+
+Warning: mb_stripos(): Offset not contained in string in /root/php-src/ext/mbstring/tests/mb_stripos_variation5_Bug45923.php on line 31
+bool(false)
+--Multibyte String --
+
+Warning: mb_stripos(): Offset not contained in string in /root/php-src/ext/mbstring/tests/mb_stripos_variation5_Bug45923.php on line 33
+bool(false)
+Done

@@ -1,0 +1,19 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Testing int:
+*** Caught Too few arguments to function {closure}(), 0 passed in /root/php-src/Zend/tests/type_declarations/scalar_none.php on line 27 and exactly 1 expected
+Testing float:
+*** Caught Too few arguments to function {closure}(), 0 passed in /root/php-src/Zend/tests/type_declarations/scalar_none.php on line 27 and exactly 1 expected
+Testing string:
+*** Caught Too few arguments to function {closure}(), 0 passed in /root/php-src/Zend/tests/type_declarations/scalar_none.php on line 27 and exactly 1 expected
+Testing bool:
+*** Caught Too few arguments to function {closure}(), 0 passed in /root/php-src/Zend/tests/type_declarations/scalar_none.php on line 27 and exactly 1 expected
+Testing int nullable:
+NULL
+Testing float nullable:
+NULL
+Testing string nullable:
+NULL
+Testing bool nullable:
+NULL
+
+Done

@@ -1,0 +1,12 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Deprecated: Non-static method foo::aa() should not be called statically in /root/php-src/Zend/tests/call_static_006.php on line 12
+ok
+
+Deprecated: Non-static method foo::aa() should not be called statically in /root/php-src/Zend/tests/call_static_006.php on line 15
+ok
+
+Fatal error: Uncaught Error: Cannot call constructor in /root/php-src/Zend/tests/call_static_006.php:17
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/Zend/tests/call_static_006.php on line 17

@@ -1,0 +1,12 @@
+string(2) "ok"
+object(Test)#2 (2) {
+  ["name":"Test":private]=>
+  string(2) "ok"
+  ["storage":"ArrayObject":private]=>
+  array(2) {
+    ["a"]=>
+    string(1) "a"
+    ["b"]=>
+    string(1) "b"
+  }
+}

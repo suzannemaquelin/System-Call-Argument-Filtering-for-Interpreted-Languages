@@ -1,0 +1,15 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing gmdate() : usage variation ***
+
+-- Testing gmdate() function with minimum range of timestamp --
+string(24) "1901-12-13T20:45:54+0000"
+
+-- Testing gmdate() function with less than the range of timestamp --
+string(24) "1901-12-13T20:45:50+0000"
+
+-- Testing gmdate() function with maximum range of timestamp --
+string(24) "2038-01-19T03:14:07+0000"
+
+-- Testing gmdate() function with greater than the range of timestamp --
+string(24) "2038-01-19T03:14:10+0000"
+===DONE===

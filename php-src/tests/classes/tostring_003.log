@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Method Test::__toString() must not throw an exception, caught Exception: Damn! in %stostring_003.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Method Test::__toString() must not throw an exception, caught Exception: Damn! in /root/php-src/tests/classes/tostring_003.php on line 0
+---- FAILED

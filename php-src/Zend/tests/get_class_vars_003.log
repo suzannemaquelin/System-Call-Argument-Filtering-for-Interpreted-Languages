@@ -1,0 +1,33 @@
+
+---- EXPECTED OUTPUT
+array(6) {
+  ["aaa"]=>
+  int(7)
+  ["ccc"]=>
+  int(9)
+  ["a"]=>
+  int(1)
+  ["aa"]=>
+  int(4)
+  ["bb"]=>
+  int(5)
+  ["cc"]=>
+  int(6)
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+array(6) {
+  ["aaa"]=>
+  int(7)
+  ["ccc"]=>
+  int(9)
+  ["a"]=>
+  int(1)
+  ["aa"]=>
+  int(4)
+  ["bb"]=>
+  int(5)
+  ["cc"]=>
+  int(6)
+}
+---- FAILED

@@ -1,0 +1,13 @@
+Notice: unserialize(): Error at offset 4 of 4 bytes in %s on line %d
+bool(false)
+
+Warning: unserialize(): Function evil() hasn't defined the class it was called for in %s on line %d
+array(2) {
+  [0]=>
+  int(42)
+  [1]=>
+  object(__PHP_Incomplete_Class)#1 (1) {
+    ["__PHP_Incomplete_Class_Name"]=>
+    string(4) "evil"
+  }
+}

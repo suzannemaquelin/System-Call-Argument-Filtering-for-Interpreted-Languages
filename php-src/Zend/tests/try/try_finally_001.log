@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+string(7) "finally"
+
+Fatal error: Uncaught Exception: ex %s
+Stack trace:
+#0 %stry_finally_001.php(%d): foo('finally')
+#1 {main}
+  thrown in %stry_finally_001.php on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(7) "finally"
+
+Fatal error: Uncaught Exception: ex in /root/php-src/Zend/tests/try/try_finally_001.php:4
+Stack trace:
+#0 /root/php-src/Zend/tests/try/try_finally_001.php(10): foo('finally')
+#1 {main}
+  thrown in /root/php-src/Zend/tests/try/try_finally_001.php on line 4
+---- FAILED

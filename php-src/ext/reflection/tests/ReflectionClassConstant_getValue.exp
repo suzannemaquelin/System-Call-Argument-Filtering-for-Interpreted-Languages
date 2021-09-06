@@ -1,0 +1,22 @@
+int(2)
+Constant [ public integer X ] { 2 }
+Class [ <user> class C ] {
+  @@ %s 12-15
+
+  - Constants [2] {
+    Constant [ public integer X ] { 2 }
+    Constant [ public integer Y ] { 1 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}

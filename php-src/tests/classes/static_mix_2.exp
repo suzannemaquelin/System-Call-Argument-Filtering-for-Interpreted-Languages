@@ -1,0 +1,1 @@
+Fatal error: Cannot make non static method pass::show() static in class fail in %s on line %d

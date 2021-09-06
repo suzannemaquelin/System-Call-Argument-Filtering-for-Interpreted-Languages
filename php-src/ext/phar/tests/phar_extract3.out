@@ -1,0 +1,5 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Invalid argument, /root/php-src/ext/phar/tests/files/bogus.zip cannot be found
+phar:///root/php-src/ext/phar/tests/files/notbogus.zip/nonsense.txt
+phar:///root/php-src/ext/phar/tests/files/notbogus.zip/stuff.txt
+===DONE===

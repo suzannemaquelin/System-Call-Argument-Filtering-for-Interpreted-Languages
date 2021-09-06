@@ -1,0 +1,11 @@
+Creating Table
+bool(true)
+Creating Same Table Again
+
+Warning: SQLite3::exec(): table test already exists in %s on line %d
+bool(false)
+Dropping database
+bool(true)
+Closing database
+bool(true)
+Done

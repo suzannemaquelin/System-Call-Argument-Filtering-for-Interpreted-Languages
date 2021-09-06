@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+rad2deg 0= float(%f)
+Pass
+rad2deg 1.570796327 = float(%f)
+Pass
+rad2deg 3.141592654  = float(%f)
+Pass
+rad2deg 6.283185307 = float(%f)
+Pass
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+rad2deg 0= float(0)
+Pass
+rad2deg 1.570796327 = float(90.000000011752)
+Pass
+rad2deg 3.141592654  = float(180.0000000235)
+Pass
+rad2deg 6.283185307 = float(359.99999998971)
+Pass
+---- FAILED

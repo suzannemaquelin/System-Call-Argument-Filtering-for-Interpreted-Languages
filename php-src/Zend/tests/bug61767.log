@@ -1,0 +1,39 @@
+
+---- EXPECTED OUTPUT
+Error handler called (Undefined variable: undefined)
+
+Fatal error: Uncaught ErrorException: Undefined variable: undefined in %sbug61767.php:%d
+Stack trace:
+#0 %sbug61767.php(%d): {closure}(%s, 'Undefined varia...', '%s', %d, Array)
+#1 {main}
+  thrown in %sbug61767.php on line %d
+Shutting down
+Array
+(
+    [type] => 1
+    [message] => %a
+    [file] => %sbug61767.php
+    [line] => %d
+)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Error handler called (Undefined variable: undefined)
+
+Fatal error: Uncaught ErrorException: Undefined variable: undefined in /root/php-src/Zend/tests/bug61767.php:13
+Stack trace:
+#0 /root/php-src/Zend/tests/bug61767.php(13): {closure}(8, 'Undefined varia...', '/root/php-src/Z...', 13, Array)
+#1 {main}
+  thrown in /root/php-src/Zend/tests/bug61767.php on line 13
+Shutting down
+Array
+(
+    [type] => 1
+    [message] => Uncaught ErrorException: Undefined variable: undefined in /root/php-src/Zend/tests/bug61767.php:13
+Stack trace:
+#0 /root/php-src/Zend/tests/bug61767.php(13): {closure}(8, 'Undefined varia...', '/root/php-src/Z...', 13, Array)
+#1 {main}
+  thrown
+    [file] => /root/php-src/Zend/tests/bug61767.php
+    [line] => 13
+)
+---- FAILED

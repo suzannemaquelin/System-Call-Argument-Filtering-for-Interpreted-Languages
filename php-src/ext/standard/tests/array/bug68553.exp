@@ -1,0 +1,42 @@
+array(8) {
+  [10]=>
+  array(1) {
+    ["a"]=>
+    int(10)
+  }
+  [20]=>
+  array(1) {
+    ["a"]=>
+    int(20)
+  }
+  [1]=>
+  array(1) {
+    ["a"]=>
+    bool(true)
+  }
+  [0]=>
+  array(1) {
+    ["a"]=>
+    bool(false)
+  }
+  [%d]=>
+  array(1) {
+    ["a"]=>
+    resource(%d) of type (stream)
+  }
+  [-5]=>
+  array(1) {
+    ["a"]=>
+    int(-5)
+  }
+  [7]=>
+  array(1) {
+    ["a"]=>
+    float(7.38)
+  }
+  [""]=>
+  array(1) {
+    ["a"]=>
+    NULL
+  }
+}

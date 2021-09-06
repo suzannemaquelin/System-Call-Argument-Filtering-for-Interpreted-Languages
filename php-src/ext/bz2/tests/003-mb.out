@@ -1,0 +1,23 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: bzread() expects at least 1 parameter, 0 given in /root/php-src/ext/bz2/tests/003-mb.php on line 4
+bool(false)
+
+Warning: bzread() expects at most 2 parameters, 3 given in /root/php-src/ext/bz2/tests/003-mb.php on line 5
+bool(false)
+string(0) ""
+
+Warning: bzread(): length may not be negative in /root/php-src/ext/bz2/tests/003-mb.php on line 7
+bool(false)
+string(1) "R"
+string(2) "is"
+string(251) "ing up from the heart of the desert
+Rising up for Jerusalem
+Rising up from the heat of the desert
+Building up Old Jerusalem
+Rising up from the heart of the desert
+Rising up for Jerusalem
+Rising up from the heat of the desert
+Heading out for Jerusalem
+"
+Done

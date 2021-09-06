@@ -1,0 +1,39 @@
+
+---- EXPECTED OUTPUT
+"aa\ud83f\udffdzz"
+"aa\ud87f\udffdzz"
+"aa\ud8bf\udffdzz"
+"aa\ud8ff\udffdzz"
+"aa\ud93f\udffdzz"
+"aa\ud97f\udffdzz"
+"aa\ud9bf\udffdzz"
+"aa\ud9ff\udffdzz"
+"aa\uda3f\udffdzz"
+"aa\uda7f\udffdzz"
+"aa\udabf\udffdzz"
+"aa\udaff\udffdzz"
+"aa\udb3f\udffdzz"
+"aa\udb7f\udffdzz"
+"aa\udbbf\udffdzz"
+"aa\udbff\udffdzz"
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+"aa\ud83f\udffdzz"
+"aa\ud87f\udffdzz"
+"aa\ud8bf\udffdzz"
+"aa\ud8ff\udffdzz"
+"aa\ud93f\udffdzz"
+"aa\ud97f\udffdzz"
+"aa\ud9bf\udffdzz"
+"aa\ud9ff\udffdzz"
+"aa\uda3f\udffdzz"
+"aa\uda7f\udffdzz"
+"aa\udabf\udffdzz"
+"aa\udaff\udffdzz"
+"aa\udb3f\udffdzz"
+"aa\udb7f\udffdzz"
+"aa\udbbf\udffdzz"
+"aa\udbff\udffdzz"
+Done
+---- FAILED

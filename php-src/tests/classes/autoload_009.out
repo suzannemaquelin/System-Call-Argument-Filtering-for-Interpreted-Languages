@@ -1,0 +1,7 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught TypeError: Argument 1 passed to f() must be an instance of UndefClass, instance of stdClass given, called in /root/php-src/tests/classes/autoload_009.php on line 11 and defined in /root/php-src/tests/classes/autoload_009.php:8
+Stack trace:
+#0 /root/php-src/tests/classes/autoload_009.php(11): f(Object(stdClass))
+#1 {main}
+  thrown in /root/php-src/tests/classes/autoload_009.php on line 8

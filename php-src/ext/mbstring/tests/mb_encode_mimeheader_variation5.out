@@ -1,0 +1,106 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mb_encode_mimeheader() : usage variations ***
+
+-- Iteration 1 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66zrXOr868?=
+ =?UTF-8?B?zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 2 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66zrXOr868?=
+ =?UTF-8?B?zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 3 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66zrXOr868?=
+ =?UTF-8?B?zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 4 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66zrXOr868?=
+ =?UTF-8?B?zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 5 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66?=
+ =?UTF-8?B?zrXOr868zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 6 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66zrXOr868?=
+ =?UTF-8?B?zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 7 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66zrXOr868?=
+ =?UTF-8?B?zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 8 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66zrXOr868?=
+ =?UTF-8?B?zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 9 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66zrXOr868?=
+ =?UTF-8?B?zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 10 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66zrXOr868?=
+ =?UTF-8?B?zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 11 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66zrXOr868?=
+ =?UTF-8?B?zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 12 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66zrXOr868?=
+ =?UTF-8?B?zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 13 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66zrXOr868?=
+ =?UTF-8?B?zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 14 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66zrXOr868?=
+ =?UTF-8?B?zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 15 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66zrXOr868?=
+ =?UTF-8?B?zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 16 --
+
+Warning: mb_encode_mimeheader() expects parameter 5 to be integer, string given in /root/php-src/ext/mbstring/tests/mb_encode_mimeheader_variation5.php on line 94
+NULL
+
+-- Iteration 17 --
+
+Warning: mb_encode_mimeheader() expects parameter 5 to be integer, string given in /root/php-src/ext/mbstring/tests/mb_encode_mimeheader_variation5.php on line 94
+NULL
+
+-- Iteration 18 --
+
+Warning: mb_encode_mimeheader() expects parameter 5 to be integer, string given in /root/php-src/ext/mbstring/tests/mb_encode_mimeheader_variation5.php on line 94
+NULL
+
+-- Iteration 19 --
+
+Warning: mb_encode_mimeheader() expects parameter 5 to be integer, string given in /root/php-src/ext/mbstring/tests/mb_encode_mimeheader_variation5.php on line 94
+NULL
+
+-- Iteration 20 --
+
+Warning: mb_encode_mimeheader() expects parameter 5 to be integer, string given in /root/php-src/ext/mbstring/tests/mb_encode_mimeheader_variation5.php on line 94
+NULL
+
+-- Iteration 21 --
+
+Warning: mb_encode_mimeheader() expects parameter 5 to be integer, object given in /root/php-src/ext/mbstring/tests/mb_encode_mimeheader_variation5.php on line 94
+NULL
+
+-- Iteration 22 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66zrXOr868?=
+ =?UTF-8?B?zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 23 --
+string(115) "=?UTF-8?B?zpHPhc+Ez4wgzrXOr869zrHOuSDOtc67zrvOt869zrnOus+MIM66zrXOr868?=
+ =?UTF-8?B?zrXOvc6/LiAwMTIzNDU2Nzg5Lg==?="
+
+-- Iteration 24 --
+
+Warning: mb_encode_mimeheader() expects parameter 5 to be integer, resource given in /root/php-src/ext/mbstring/tests/mb_encode_mimeheader_variation5.php on line 94
+NULL
+Done

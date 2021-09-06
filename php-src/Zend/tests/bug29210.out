@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+test_func1
+test_func2
+test_func3
+test_func4
+test_func1 isn't callable from outside
+test_func2 isn't callable from outside
+test_func3 isn't callable from outside
+test_func4 isn't callable from outside
+test_func1 isn't callable from child
+test_func2
+test_func3 isn't callable from child
+test_func4

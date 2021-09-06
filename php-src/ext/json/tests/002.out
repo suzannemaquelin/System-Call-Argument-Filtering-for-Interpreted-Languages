@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(2) """"
+string(4) "null"
+string(4) "true"
+string(7) "{"":""}"
+string(5) "[[1]]"
+string(2) "[]"
+string(7) "{"":""}"
+string(13) "{"0":{"0":1}}"
+string(2) "{}"
+string(1) "1"
+string(38) ""\u0440\u0443\u0441\u0441\u0438\u0448""
+Done

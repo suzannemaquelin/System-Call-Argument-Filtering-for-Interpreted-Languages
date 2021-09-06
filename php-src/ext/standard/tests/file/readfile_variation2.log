@@ -1,0 +1,45 @@
+
+---- EXPECTED OUTPUT
+*** Testing readfile() on soft link ***
+bool(true)
+line
+line of text
+line
+line of text
+line
+line of t
+int(50)
+
+*** Testing readfile() on hard link ***
+bool(true)
+line
+line of text
+line
+line of text
+line
+line of t
+int(50)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing readfile() on soft link ***
+bool(true)
+line
+line of text
+line
+line of text
+line
+line of t
+int(50)
+
+*** Testing readfile() on hard link ***
+bool(true)
+line
+line of text
+line
+line of text
+line
+line of t
+int(50)
+Done
+---- FAILED

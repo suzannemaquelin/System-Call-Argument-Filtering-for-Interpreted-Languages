@@ -1,0 +1,843 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing fgetcsv() : with enclosure as NULL ***
+
+-- Testing fgetcsv() with file opened using r mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using rb mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using rt mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using rb mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using rt mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using rb mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using rt mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using rb mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using rt mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using rb mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using rt mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using rb mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using rt mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using rb mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using rt mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using rb mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using rt mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using r+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using a+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using w+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+ mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+b mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+
+-- Testing fgetcsv() with file opened using x+t mode --
+
+Warning: fgetcsv(): enclosure must be a character in /root/php-src/ext/standard/tests/file/fgetcsv_variation4.php on line 73
+bool(false)
+int(0)
+bool(false)
+Done

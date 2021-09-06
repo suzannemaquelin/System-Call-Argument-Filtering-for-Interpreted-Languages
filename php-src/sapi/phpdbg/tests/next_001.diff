@@ -1,0 +1,15 @@
+007+ prompt> [L4       0x7fed36c76100 ECHO                    0                                                              /root/php-src/sapi/phpdbg/tests/next_001.php]
+008+ 0
+009+ [L5       0x7fed36c76120 EXT_STMT                                                                               /root/php-src/sapi/phpdbg/tests/next_001.php]
+007- prompt> 0
+008- [L5 %s RETURN                  null                                                           %s]
+012- prompt> [L8 %s ECHO                    1                                                              %s]
+013+ prompt> [L5       0x7fed36c76140 RETURN                  null                                                           /root/php-src/sapi/phpdbg/tests/next_001.php]
+014+ [L7       0x7fed36c810c0 EXT_FCALL_END                                                                          /root/php-src/sapi/phpdbg/tests/next_001.php]
+015+ >00007: foo();
+016+  00008: echo 1;
+017+  00009: 
+018+ prompt> [L8       0x7fed36c810e0 EXT_STMT                                                                               /root/php-src/sapi/phpdbg/tests/next_001.php]
+015- prompt> 1
+016- [L9 %s RETURN                  1                                                              %s]
+017- >00009: 

@@ -1,0 +1,9 @@
+object(SimpleXMLElement)#%d (1) {
+  ["@attributes"]=>
+  array(2) {
+    ["type"]=>
+    string(5) "obj_6"
+    ["label"]=>
+    string(18) "Label for object 6"
+  }
+}

@@ -1,0 +1,1 @@
+Fatal error: Class test must implement interface Traversable as part of either Iterator or IteratorAggregate in %s on line %d

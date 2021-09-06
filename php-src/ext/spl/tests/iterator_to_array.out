@@ -1,0 +1,11 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: iterator_to_array() expects at least 1 parameter, 0 given in /root/php-src/ext/spl/tests/iterator_to_array.php on line 6
+
+Warning: iterator_to_array() expects at most 2 parameters, 3 given in /root/php-src/ext/spl/tests/iterator_to_array.php on line 9
+
+Fatal error: Uncaught TypeError: Argument 1 passed to iterator_to_array() must implement interface Traversable, string given in /root/php-src/ext/spl/tests/iterator_to_array.php:11
+Stack trace:
+#0 /root/php-src/ext/spl/tests/iterator_to_array.php(11): iterator_to_array('test', 'test')
+#1 {main}
+  thrown in /root/php-src/ext/spl/tests/iterator_to_array.php on line 11

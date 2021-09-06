@@ -1,0 +1,6 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Error: Cannot declare self-referencing constant 'self::BAR' in /root/php-src/Zend/tests/constant_expressions_self_referencing_array.php:6
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/Zend/tests/constant_expressions_self_referencing_array.php on line 6

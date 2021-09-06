@@ -1,0 +1,41 @@
+
+---- EXPECTED OUTPUT
+*** Testing strftime() : usage variation ***
+
+--Abbreviated weekday name--
+string(%d) "%s"
+string(3) "Fri"
+
+--Full weekday name--
+string(%d) "%s"
+string(6) "Friday"
+
+--Week number of the year--
+string(%d) "%d"
+string(2) "31"
+
+--Week number of the year in decimal number--
+string(%d) "%d"
+string(2) "31"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing strftime() : usage variation ***
+
+--Abbreviated weekday name--
+string(3) "Sun"
+string(3) "Fri"
+
+--Full weekday name--
+string(6) "Sunday"
+string(6) "Friday"
+
+--Week number of the year--
+string(2) "19"
+string(2) "31"
+
+--Week number of the year in decimal number--
+string(2) "18"
+string(2) "31"
+===DONE===
+---- FAILED

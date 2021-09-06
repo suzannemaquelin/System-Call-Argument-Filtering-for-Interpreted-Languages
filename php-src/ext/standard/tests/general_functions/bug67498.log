@@ -1,0 +1,75 @@
+
+---- EXPECTED OUTPUT
+phpinfo()
+
+PHP Variables
+%A
+==DONE==
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+phpinfo()
+
+PHP Variables
+
+Variable => Value
+$_SERVER['PDO_MYSQL_TEST_DB'] => test
+$_SERVER['MYSQL_TEST_PASSWD'] => test
+$_SERVER['MYSQL_TEST_PASS'] => test
+$_SERVER['HOSTNAME'] => 8a42d42cec47
+$_SERVER['SHLVL'] => 1
+$_SERVER['HOME'] => /root
+$_SERVER['OLDPWD'] => /root/stage1/interpreter-static-analysis
+$_SERVER['MYSQL_TEST_USER'] => test
+$_SERVER['PATH_TRANSLATED'] => /root/php-src/ext/standard/tests/general_functions/bug67498.php
+$_SERVER['SCRIPT_FILENAME'] => /root/php-src/ext/standard/tests/general_functions/bug67498.php
+$_SERVER['ZEND_DONT_UNLOAD_MODULES'] => 0
+$_SERVER['TEST_PHP_EXECUTABLE'] => /opt/php-7.1/bin/php
+$_SERVER['_'] => /root/stage1/interpreter-tracing/TR_strace/strace
+$_SERVER['PDO_MYSQL_TEST_DSN'] => mysql:dbname=test;host=localhost;port=3306
+$_SERVER['TERM'] => xterm
+$_SERVER['MYSQL_TEST_DB'] => test
+$_SERVER['PATH'] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+$_SERVER['PDO_MYSQL_TEST_PASS'] => test
+$_SERVER['TEST_PHPDBG_EXECUTABLE'] => /root/php-src/sapi/phpdbg/phpdbg
+$_SERVER['REDIRECT_STATUS'] => 1
+$_SERVER['PDO_MYSQL_TEST_USER'] => test
+$_SERVER['REQUEST_METHOD'] => GET
+$_SERVER['PWD'] => /root/php-src
+$_SERVER['USE_ZEND_ALLOC'] => 1
+$_SERVER['PHP_SELF'] => /root/php-src/ext/standard/tests/general_functions/bug67498.php
+$_SERVER['SCRIPT_NAME'] => /root/php-src/ext/standard/tests/general_functions/bug67498.php
+$_SERVER['DOCUMENT_ROOT'] => 
+$_SERVER['REQUEST_TIME_FLOAT'] => 1652019637.9816
+$_SERVER['REQUEST_TIME'] => 1652019637
+$_SERVER['argv'] => Array
+(
+    [0] => /root/php-src/ext/standard/tests/general_functions/bug67498.php
+)
+
+$_SERVER['argc'] => 1
+$_ENV['PDO_MYSQL_TEST_DB'] => test
+$_ENV['MYSQL_TEST_PASSWD'] => test
+$_ENV['MYSQL_TEST_PASS'] => test
+$_ENV['HOSTNAME'] => 8a42d42cec47
+$_ENV['SHLVL'] => 1
+$_ENV['HOME'] => /root
+$_ENV['OLDPWD'] => /root/stage1/interpreter-static-analysis
+$_ENV['MYSQL_TEST_USER'] => test
+$_ENV['PATH_TRANSLATED'] => /root/php-src/ext/standard/tests/general_functions/bug67498.php
+$_ENV['SCRIPT_FILENAME'] => /root/php-src/ext/standard/tests/general_functions/bug67498.php
+$_ENV['ZEND_DONT_UNLOAD_MODULES'] => 0
+$_ENV['TEST_PHP_EXECUTABLE'] => /opt/php-7.1/bin/php
+$_ENV['_'] => /root/stage1/interpreter-tracing/TR_strace/strace
+$_ENV['PDO_MYSQL_TEST_DSN'] => mysql:dbname=test;host=localhost;port=3306
+$_ENV['TERM'] => xterm
+$_ENV['MYSQL_TEST_DB'] => test
+$_ENV['PATH'] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+$_ENV['PDO_MYSQL_TEST_PASS'] => test
+$_ENV['TEST_PHPDBG_EXECUTABLE'] => /root/php-src/sapi/phpdbg/phpdbg
+$_ENV['REDIRECT_STATUS'] => 1
+$_ENV['PDO_MYSQL_TEST_USER'] => test
+$_ENV['REQUEST_METHOD'] => GET
+$_ENV['PWD'] => /root/php-src
+$_ENV['USE_ZEND_ALLOC'] => 1
+==DONE==
+---- FAILED

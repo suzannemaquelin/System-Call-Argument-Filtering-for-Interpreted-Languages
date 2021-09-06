@@ -1,0 +1,1 @@
+Fatal error: Declaration of Test::__construct() must be compatible with TestInterface::__construct(ExampleClass $var) in %s on line %d

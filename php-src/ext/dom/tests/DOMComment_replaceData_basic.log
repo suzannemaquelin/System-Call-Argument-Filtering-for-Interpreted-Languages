@@ -1,0 +1,13 @@
+
+---- EXPECTED OUTPUT
+<?xml version="1.0"?>
+<!--testreplacedcomment-->
+<?xml version="1.0"?>
+<!--replaced-->
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+<?xml version="1.0"?>
+<!--testreplacedcomment-->
+<?xml version="1.0"?>
+<!--replaced-->
+---- FAILED

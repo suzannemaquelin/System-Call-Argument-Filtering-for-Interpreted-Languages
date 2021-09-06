@@ -1,0 +1,27 @@
+
+---- EXPECTED OUTPUT
+bool(false)
+bool(false)
+bool(true)
+
+Warning: libxml_use_internal_errors() expects parameter 1 to be boolean, object given in %s001.php on line 6
+NULL
+array(0) {
+}
+bool(false)
+NULL
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(false)
+bool(false)
+bool(true)
+
+Warning: libxml_use_internal_errors() expects parameter 1 to be boolean, object given in /root/php-src/ext/libxml/tests/001.php on line 6
+NULL
+array(0) {
+}
+bool(false)
+NULL
+Done
+---- FAILED

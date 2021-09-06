@@ -1,0 +1,39 @@
+
+---- EXPECTED OUTPUT
+bool(true)
+metadata: test://testdir/touch, 1
+
+metadata: test://testdir/touch, 1
+1,1
+metadata: test://testdir/touch, 1
+1,2
+metadata: test://testdir/chown, 2
+test
+metadata: test://testdir/chown, 3
+42
+metadata: test://testdir/chgrp, 4
+test
+metadata: test://testdir/chgrp, 5
+42
+metadata: test://testdir/chmod, 6
+493
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(true)
+metadata: test://testdir/touch, 1
+
+metadata: test://testdir/touch, 1
+1,1
+metadata: test://testdir/touch, 1
+1,2
+metadata: test://testdir/chown, 2
+test
+metadata: test://testdir/chown, 3
+42
+metadata: test://testdir/chgrp, 4
+test
+metadata: test://testdir/chgrp, 5
+42
+metadata: test://testdir/chmod, 6
+493
+---- FAILED

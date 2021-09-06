@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+string(10) "-//FOO/BAR"
+string(%d) "%sfoobar.dtd"
+
+Warning: DOMDocument::validate(): Could not load the external subset "foobar.dtd" in %s on line %d
+bool(false)
+bool(true)
+Done.
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+string(10) "-//FOO/BAR"
+string(41) "/root/php-src/ext/libxml/tests/foobar.dtd"
+
+Warning: DOMDocument::validate(): Could not load the external subset "foobar.dtd" in /root/php-src/ext/libxml/tests/libxml_set_external_entity_loader_variation2.php on line 22
+bool(false)
+bool(true)
+Done.
+---- FAILED

@@ -1,0 +1,229 @@
+
+---- EXPECTED OUTPUT
+*** Testing date() : usage variation -  unexpected values to second argument $timestamp***
+
+-- int 0 --
+string(24) "January 1, 1970, 1:00 am"
+
+-- int 1 --
+string(24) "January 1, 1970, 1:00 am"
+
+-- int 12345 --
+string(24) "January 1, 1970, 4:25 am"
+
+-- int -12345 --
+string(26) "December 31, 1969, 9:34 pm"
+
+-- float 10.5 --
+string(24) "January 1, 1970, 1:00 am"
+
+-- float -10.5 --
+string(25) "January 1, 1970, 12:59 am"
+
+-- float .5 --
+string(24) "January 1, 1970, 1:00 am"
+
+-- empty array --
+
+Warning: date() expects parameter 2 to be integer, array given in %s on line %d
+bool(false)
+
+-- int indexed array --
+
+Warning: date() expects parameter 2 to be integer, array given in %s on line %d
+bool(false)
+
+-- associative array --
+
+Warning: date() expects parameter 2 to be integer, array given in %s on line %d
+bool(false)
+
+-- nested arrays --
+
+Warning: date() expects parameter 2 to be integer, array given in %s on line %d
+bool(false)
+
+-- uppercase NULL --
+string(24) "January 1, 1970, 1:00 am"
+
+-- lowercase null --
+string(24) "January 1, 1970, 1:00 am"
+
+-- lowercase true --
+string(24) "January 1, 1970, 1:00 am"
+
+-- lowercase false --
+string(24) "January 1, 1970, 1:00 am"
+
+-- uppercase TRUE --
+string(24) "January 1, 1970, 1:00 am"
+
+-- uppercase FALSE --
+string(24) "January 1, 1970, 1:00 am"
+
+-- empty string DQ --
+
+Warning: date() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+-- empty string SQ --
+
+Warning: date() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+-- string DQ --
+
+Warning: date() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+-- string SQ --
+
+Warning: date() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+-- mixed case string --
+
+Warning: date() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+-- heredoc --
+
+Warning: date() expects parameter 2 to be integer, string given in %s on line %d
+bool(false)
+
+-- instance of classWithToString --
+
+Warning: date() expects parameter 2 to be integer, object given in %s on line %d
+bool(false)
+
+-- instance of classWithoutToString --
+
+Warning: date() expects parameter 2 to be integer, object given in %s on line %d
+bool(false)
+
+-- undefined var --
+string(24) "January 1, 1970, 1:00 am"
+
+-- unset var --
+string(24) "January 1, 1970, 1:00 am"
+
+-- resource --
+
+Warning: date() expects parameter 2 to be integer, resource given in %s on line %d
+bool(false)
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing date() : usage variation -  unexpected values to second argument $timestamp***
+
+-- int 0 --
+string(24) "January 1, 1970, 1:00 am"
+
+-- int 1 --
+string(24) "January 1, 1970, 1:00 am"
+
+-- int 12345 --
+string(24) "January 1, 1970, 4:25 am"
+
+-- int -12345 --
+string(26) "December 31, 1969, 9:34 pm"
+
+-- float 10.5 --
+string(24) "January 1, 1970, 1:00 am"
+
+-- float -10.5 --
+string(25) "January 1, 1970, 12:59 am"
+
+-- float .5 --
+string(24) "January 1, 1970, 1:00 am"
+
+-- empty array --
+
+Warning: date() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/date_variation2.php on line 98
+bool(false)
+
+-- int indexed array --
+
+Warning: date() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/date_variation2.php on line 98
+bool(false)
+
+-- associative array --
+
+Warning: date() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/date_variation2.php on line 98
+bool(false)
+
+-- nested arrays --
+
+Warning: date() expects parameter 2 to be integer, array given in /root/php-src/ext/date/tests/date_variation2.php on line 98
+bool(false)
+
+-- uppercase NULL --
+string(24) "January 1, 1970, 1:00 am"
+
+-- lowercase null --
+string(24) "January 1, 1970, 1:00 am"
+
+-- lowercase true --
+string(24) "January 1, 1970, 1:00 am"
+
+-- lowercase false --
+string(24) "January 1, 1970, 1:00 am"
+
+-- uppercase TRUE --
+string(24) "January 1, 1970, 1:00 am"
+
+-- uppercase FALSE --
+string(24) "January 1, 1970, 1:00 am"
+
+-- empty string DQ --
+
+Warning: date() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/date_variation2.php on line 98
+bool(false)
+
+-- empty string SQ --
+
+Warning: date() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/date_variation2.php on line 98
+bool(false)
+
+-- string DQ --
+
+Warning: date() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/date_variation2.php on line 98
+bool(false)
+
+-- string SQ --
+
+Warning: date() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/date_variation2.php on line 98
+bool(false)
+
+-- mixed case string --
+
+Warning: date() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/date_variation2.php on line 98
+bool(false)
+
+-- heredoc --
+
+Warning: date() expects parameter 2 to be integer, string given in /root/php-src/ext/date/tests/date_variation2.php on line 98
+bool(false)
+
+-- instance of classWithToString --
+
+Warning: date() expects parameter 2 to be integer, object given in /root/php-src/ext/date/tests/date_variation2.php on line 98
+bool(false)
+
+-- instance of classWithoutToString --
+
+Warning: date() expects parameter 2 to be integer, object given in /root/php-src/ext/date/tests/date_variation2.php on line 98
+bool(false)
+
+-- undefined var --
+string(24) "January 1, 1970, 1:00 am"
+
+-- unset var --
+string(24) "January 1, 1970, 1:00 am"
+
+-- resource --
+
+Warning: date() expects parameter 2 to be integer, resource given in /root/php-src/ext/date/tests/date_variation2.php on line 98
+bool(false)
+===DONE===
+---- FAILED

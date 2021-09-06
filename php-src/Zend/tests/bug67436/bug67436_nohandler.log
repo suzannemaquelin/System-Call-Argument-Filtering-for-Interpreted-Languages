@@ -1,0 +1,12 @@
+
+---- EXPECTED OUTPUT
+Warning: Declaration of b::test() should be compatible with a::test($arg = c::TESTCONSTANT) in %s%ebug67436%eb.php on line %d
+b::test()
+a::test(c::TESTCONSTANT)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: Declaration of b::test() should be compatible with a::test($arg = c::TESTCONSTANT) in /root/php-src/Zend/tests/bug67436/b.php on line 8
+b::test()
+a::test(c::TESTCONSTANT)
+---- FAILED

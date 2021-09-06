@@ -1,0 +1,18 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing date_default_timezone_set() : error variations ***
+
+-- Testing date_default_timezone_set() function with less than expected no. of arguments --
+
+Warning: date_default_timezone_set() expects exactly 1 parameter, 0 given in /root/php-src/ext/date/tests/date_default_timezone_set_error.php on line 10
+bool(false)
+
+-- Testing date_default_timezone_set() function with more than expected no. of arguments --
+
+Warning: date_default_timezone_set() expects exactly 1 parameter, 2 given in /root/php-src/ext/date/tests/date_default_timezone_set_error.php on line 14
+bool(false)
+
+-- Testing date_default_timezone_set() function with invalid timezone identifier  --
+
+Notice: date_default_timezone_set(): Timezone ID 'foo' is invalid in /root/php-src/ext/date/tests/date_default_timezone_set_error.php on line 17
+bool(false)
+===Done===

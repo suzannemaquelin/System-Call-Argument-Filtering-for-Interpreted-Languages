@@ -1,0 +1,9 @@
+
+---- EXPECTED OUTPUT
+Hello World!
+Hello World!
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Hello World!
+Hello World!
+---- FAILED

@@ -1,0 +1,12 @@
+
+---- EXPECTED OUTPUT
+Warning: is_finite() expects exactly 1 parameter, 0 given in %s on line 2
+
+Warning: is_finite() expects exactly 1 parameter, 3 given in %s on line 3
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: is_finite() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/math/is_finite_error.php on line 2
+
+Warning: is_finite() expects exactly 1 parameter, 3 given in /root/php-src/ext/standard/tests/math/is_finite_error.php on line 3
+---- FAILED

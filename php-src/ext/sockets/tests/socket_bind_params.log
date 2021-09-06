@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Warning: socket_bind() expects at least 2 parameters, 0 given in %s on line %i
+NULL
+
+Warning: socket_bind() expects at least 2 parameters, 1 given in %s on line %i
+NULL
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: socket_bind() expects at least 2 parameters, 0 given in /root/php-src/ext/sockets/tests/socket_bind_params.php on line 4
+NULL
+
+Warning: socket_bind() expects at least 2 parameters, 1 given in /root/php-src/ext/sockets/tests/socket_bind_params.php on line 6
+NULL
+---- FAILED

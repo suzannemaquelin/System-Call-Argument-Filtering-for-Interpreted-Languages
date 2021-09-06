@@ -1,0 +1,9 @@
+Warning: DOMDocument::load%r(XML){0,1}%r(): AttValue: " or ' expected %s
+
+Warning: DOMDocument::load%r(XML){0,1}%r(): attributes construct error %s
+
+Warning: DOMDocument::load%r(XML){0,1}%r(): Couldn't find end of Start Tag book %s
+
+Warning: DOMDocument::load%r(XML){0,1}%r(): Opening and ending tag mismatch: books %s
+
+Warning: DOMDocument::load%r(XML){0,1}%r(): Extra content at the end of the document %s

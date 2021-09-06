@@ -1,0 +1,7 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: Undefined variable: var in /root/php-src/ext/mbstring/tests/bug72994.php on line 2
+
+Warning: mbereg_replace(): Pattern is not valid under UTF-8 encoding in /root/php-src/ext/mbstring/tests/bug72994.php on line 2
+bool(false)
+===DONE===

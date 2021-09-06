@@ -1,0 +1,31 @@
+
+---- EXPECTED OUTPUT
+*** Testing finfo_open() : basic functionality ***
+resource(%d) of type (file_info)
+resource(%d) of type (file_info)
+resource(%d) of type (file_info)
+resource(%d) of type (file_info)
+resource(%d) of type (file_info)
+resource(%d) of type (file_info)
+resource(%d) of type (file_info)
+object(finfo)#%d (%d) {
+}
+object(finfo)#%d (%d) {
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing finfo_open() : basic functionality ***
+resource(6) of type (file_info)
+resource(9) of type (file_info)
+resource(12) of type (file_info)
+resource(15) of type (file_info)
+resource(18) of type (file_info)
+resource(21) of type (file_info)
+resource(24) of type (file_info)
+object(finfo)#1 (0) {
+}
+object(finfo)#1 (0) {
+}
+===DONE===
+---- FAILED

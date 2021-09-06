@@ -1,0 +1,80 @@
+
+---- EXPECTED OUTPUT
+[Successful compilation of %s]
+prompt> [Breakpoint #0 added at ZEND_THROW]
+prompt> [Breakpoint #0 in ZEND_THROW at %s:4, hits: 1]
+>00004: 	throw new Exception;
+ 00005: }
+ 00006: 
+prompt> [L0 %s HANDLE_EXCEPTION                                                                       %s]
+>00004: 	throw new Exception;
+ 00005: }
+ 00006: 
+prompt> [L0 %s HANDLE_EXCEPTION                                                                       %s]
+[L9 %s CATCH                   "Exception"          $e                   1                    %s]
+>00008: 	foo();
+ 00009: } catch (Exception $e) {
+ 00010: 	echo "ok";
+prompt> [L10 %s ECHO                    "ok"                                                           %s]
+>00010: 	echo "ok";
+ 00011: } finally {
+ 00012: 	echo " ... ok";
+prompt> ok
+[L11 %s FAST_CALL               J8                                        ~%d                   %s]
+>00011: } finally {
+ 00012: 	echo " ... ok";
+ 00013: }
+prompt> [L12 %s ECHO                    " ... ok"                                                      %s]
+>00012: 	echo " ... ok";
+ 00013: }
+ 00014: 
+prompt>  ... ok
+[L12 %s FAST_RET                ~%d                                                             %s]
+[L11 %s JMP                     J10                                                            %s]
+>00011: } finally {
+ 00012: 	echo " ... ok";
+ 00013: }
+prompt> [L14 %s RETURN                  1                                                              %s]
+>00014: 
+prompt>
+---- ACTUAL OUTPUT
+[Successful compilation of /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+prompt> [Breakpoint #0 added at ZEND_THROW]
+prompt> [Breakpoint #0 in ZEND_THROW at /root/php-src/sapi/phpdbg/tests/stepping_001.php:4, hits: 1]
+>00004: 	throw new Exception;
+ 00005: }
+ 00006: 
+prompt> [L0       0x556408276468 HANDLE_EXCEPTION                                                                       /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+>00004: 	throw new Exception;
+ 00005: }
+ 00006: 
+prompt> [L0       0x556408276468 HANDLE_EXCEPTION                                                                       /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+[L9       0x7f857ce66120 CATCH                   "Exception"          $e                   1                    /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+>00008: 	foo();
+ 00009: } catch (Exception $e) {
+ 00010: 	echo "ok";
+prompt> [L10      0x7f857ce66140 EXT_STMT                                                                               /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+>00010: 	echo "ok";
+ 00011: } finally {
+ 00012: 	echo " ... ok";
+prompt> [L10      0x7f857ce66160 ECHO                    "ok"                                                           /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+ok
+[L11      0x7f857ce66180 FAST_CALL               J14                                       ~0                   /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+>00011: } finally {
+ 00012: 	echo " ... ok";
+ 00013: }
+prompt> [L12      0x7f857ce661c0 EXT_STMT                                                                               /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+>00012: 	echo " ... ok";
+ 00013: }
+ 00014: 
+prompt> [L12      0x7f857ce661e0 ECHO                    " ... ok"                                                      /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+ ... ok
+[L12      0x7f857ce66200 FAST_RET                ~0                                                             /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+[L11      0x7f857ce661a0 JMP                     J17                                                            /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+>00011: } finally {
+ 00012: 	echo " ... ok";
+ 00013: }
+prompt> [L14      0x7f857ce66220 RETURN                  1                                                              /root/php-src/sapi/phpdbg/tests/stepping_001.php]
+>00014: 
+prompt>
+---- FAILED

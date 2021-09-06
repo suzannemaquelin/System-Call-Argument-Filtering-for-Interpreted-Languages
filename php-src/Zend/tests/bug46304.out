@@ -1,0 +1,27 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+value1
+value1
+value1
+value2
+value2
+value2
+value3
+value3
+value3
+value4
+value4
+value4
+value4
+value5
+value5
+value5
+value5
+value6
+value6
+value6
+value6
+
+Fatal error: Uncaught Error: Undefined constant 'NS1\ns2\coNSt1' in /root/php-src/Zend/tests/bug46304.php:37
+Stack trace:
+#0 {main}
+  thrown in /root/php-src/Zend/tests/bug46304.php on line 37

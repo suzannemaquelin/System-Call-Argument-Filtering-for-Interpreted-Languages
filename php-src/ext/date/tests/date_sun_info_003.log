@@ -1,0 +1,45 @@
+
+---- EXPECTED OUTPUT
+sunrise: 21:00:00
+sunset: 21:00:00
+transit: 10:04:02
+civil_twilight_begin: 21:00:00
+civil_twilight_end: 21:00:00
+nautical_twilight_begin: 21:00:00
+nautical_twilight_end: 21:00:00
+astronomical_twilight_begin: 21:00:00
+astronomical_twilight_end: 21:00:00
+
+sunrise: 21:00:01
+sunset: 21:00:01
+transit: 08:52:30
+civil_twilight_begin: 21:00:01
+civil_twilight_end: 21:00:01
+nautical_twilight_begin: 21:00:01
+nautical_twilight_end: 21:00:01
+astronomical_twilight_begin: 21:00:01
+astronomical_twilight_end: 21:00:01
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+sunrise: 21:00:00
+sunset: 21:00:00
+transit: 10:04:02
+civil_twilight_begin: 21:00:00
+civil_twilight_end: 21:00:00
+nautical_twilight_begin: 21:00:00
+nautical_twilight_end: 21:00:00
+astronomical_twilight_begin: 21:00:00
+astronomical_twilight_end: 21:00:00
+
+sunrise: 21:00:01
+sunset: 21:00:01
+transit: 08:52:30
+civil_twilight_begin: 21:00:01
+civil_twilight_end: 21:00:01
+nautical_twilight_begin: 21:00:01
+nautical_twilight_end: 21:00:01
+astronomical_twilight_begin: 21:00:01
+astronomical_twilight_end: 21:00:01
+Done
+---- FAILED

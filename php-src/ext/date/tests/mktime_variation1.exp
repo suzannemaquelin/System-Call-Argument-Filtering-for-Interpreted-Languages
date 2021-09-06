@@ -1,0 +1,109 @@
+*** Testing mktime() : usage variation -  unexpected values to first argument $hour***
+
+-- int 0 --
+int(%i)
+
+-- int 12345 --
+int(%i)
+
+-- int -12345 --
+int(%i)
+
+-- float 10.5 --
+int(%i)
+
+-- float -10.5 --
+int(%i)
+
+-- float .5 --
+int(%i)
+
+-- empty array --
+
+Warning: mktime() expects parameter 1 to be integer, array given in %s on line %d
+bool(false)
+
+-- int indexed array --
+
+Warning: mktime() expects parameter 1 to be integer, array given in %s on line %d
+bool(false)
+
+-- associative array --
+
+Warning: mktime() expects parameter 1 to be integer, array given in %s on line %d
+bool(false)
+
+-- nested arrays --
+
+Warning: mktime() expects parameter 1 to be integer, array given in %s on line %d
+bool(false)
+
+-- uppercase NULL --
+int(%i)
+
+-- lowercase null --
+int(%i)
+
+-- lowercase true --
+int(%i)
+
+-- lowercase false --
+int(%i)
+
+-- uppercase TRUE --
+int(%i)
+
+-- uppercase FALSE --
+int(%i)
+
+-- empty string DQ --
+
+Warning: mktime() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- empty string SQ --
+
+Warning: mktime() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- string DQ --
+
+Warning: mktime() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- string SQ --
+
+Warning: mktime() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- mixed case string --
+
+Warning: mktime() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- heredoc --
+
+Warning: mktime() expects parameter 1 to be integer, string given in %s on line %d
+bool(false)
+
+-- instance of classWithToString --
+
+Warning: mktime() expects parameter 1 to be integer, object given in %s on line %d
+bool(false)
+
+-- instance of classWithoutToString --
+
+Warning: mktime() expects parameter 1 to be integer, object given in %s on line %d
+bool(false)
+
+-- undefined var --
+int(%i)
+
+-- unset var --
+int(%i)
+
+-- resource --
+
+Warning: mktime() expects parameter 1 to be integer, resource given in %s on line %d
+bool(false)
+===DONE===

@@ -1,0 +1,43 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Notice: String offset cast occurred in /root/php-src/Zend/tests/bug39018.php on line 6
+
+Notice: Uninitialized string offset: 430646668853805056 in /root/php-src/Zend/tests/bug39018.php on line 6
+
+Notice: Uninitialized string offset: 0 in /root/php-src/Zend/tests/bug39018.php on line 10
+
+Notice: Uninitialized string offset: 0 in /root/php-src/Zend/tests/bug39018.php on line 12
+
+Notice: String offset cast occurred in /root/php-src/Zend/tests/bug39018.php on line 14
+
+Notice: Uninitialized string offset: -6171178737961271296 in /root/php-src/Zend/tests/bug39018.php on line 14
+
+Notice: String offset cast occurred in /root/php-src/Zend/tests/bug39018.php on line 16
+
+Notice: Uninitialized string offset: -6171178737961271296 in /root/php-src/Zend/tests/bug39018.php on line 16
+
+Notice: Uninitialized string offset: 0 in /root/php-src/Zend/tests/bug39018.php on line 18
+
+Notice: Uninitialized string offset: 4 in /root/php-src/Zend/tests/bug39018.php on line 28
+
+Notice: Uninitialized string offset: 4 in /root/php-src/Zend/tests/bug39018.php on line 34
+
+Notice: Uninitialized string offset: 4 in /root/php-src/Zend/tests/bug39018.php on line 38
+
+Notice: Uninitialized string offset: 4 in /root/php-src/Zend/tests/bug39018.php on line 42
+
+Notice: Uninitialized string offset: 4 in /root/php-src/Zend/tests/bug39018.php on line 46
+
+Notice: String offset cast occurred in /root/php-src/Zend/tests/bug39018.php on line 50
+
+Notice: Uninitialized string offset: 12 in /root/php-src/Zend/tests/bug39018.php on line 50
+
+Notice: String offset cast occurred in /root/php-src/Zend/tests/bug39018.php on line 52
+
+Notice: Uninitialized string offset: 12 in /root/php-src/Zend/tests/bug39018.php on line 52
+
+Notice: String offset cast occurred in /root/php-src/Zend/tests/bug39018.php on line 54
+
+Notice: String offset cast occurred in /root/php-src/Zend/tests/bug39018.php on line 56
+b
+Done

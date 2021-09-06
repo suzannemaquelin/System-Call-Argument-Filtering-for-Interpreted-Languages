@@ -1,0 +1,5 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+SoapFault exception: [4298448493] 4298448543 in :0
+Stack trace:
+#0 /root/php-src/ext/soap/tests/bug73452.php(4): unserialize('O:9:"SoapFault"...')
+#1 {main}==DONE==

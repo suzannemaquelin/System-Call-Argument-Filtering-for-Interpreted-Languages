@@ -1,0 +1,12 @@
+string(10) "/index.php"
+string(10) "/index.php"
+string(76) "phar:///root/php-src/ext/phar/tests/tar/frontcontroller21.phar.php/index.php"
+string(18) "/index.php?test=hi"
+string(37) "/frontcontroller21.phar.php/index.php"
+string(27) "/frontcontroller21.phar.php"
+string(59) "/root/php-src/ext/phar/tests/tar/frontcontroller21.phar.php"
+string(45) "/frontcontroller21.phar.php/index.php?test=hi"
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so: cannot open shared object file: No such file or directory in Unknown on line 0

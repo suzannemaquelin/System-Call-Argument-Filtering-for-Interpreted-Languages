@@ -1,0 +1,5 @@
+Fatal error: Uncaught UnexpectedValueException: Phar creation or opening failed in %s/bug77396.php:%d
+Stack trace:
+#0 %s/bug77396.php(%d): PharData->__construct(%s)
+#1 {main}
+  thrown in %s/bug77396.php on line %d

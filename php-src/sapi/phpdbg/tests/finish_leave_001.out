@@ -1,0 +1,17 @@
+[Successful compilation of /root/php-src/sapi/phpdbg/tests/finish_leave_001.php]
+prompt> [Breakpoint #0 added at bar]
+prompt> [Breakpoint #1 added at /root/php-src/sapi/phpdbg/tests/finish_leave_001.php:5]
+prompt> [Breakpoint #0 in bar() at /root/php-src/sapi/phpdbg/tests/finish_leave_001.php:8, hits: 1]
+>00008: function bar() {
+ 00009:     return "world";
+ 00010: }
+prompt> [Breakpoint #1 at /root/php-src/sapi/phpdbg/tests/finish_leave_001.php:5, hits: 1]
+>00005:     return ["hello", $other];
+ 00006: }
+ 00007: 
+prompt> [Breaking for leave at /root/php-src/sapi/phpdbg/tests/finish_leave_001.php:5]
+>00005:     return ["hello", $other];
+ 00006: }
+ 00007: 
+prompt> [Already at the end of the function]
+prompt>

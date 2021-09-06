@@ -1,0 +1,13 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing ip2long() : error conditions ***
+
+-- Testing ip2long() function with Zero arguments --
+
+Warning: ip2long() expects exactly 1 parameter, 0 given in /root/php-src/ext/standard/tests/network/ip2long_error.php on line 12
+NULL
+
+-- Testing ip2long() function with more than expected no. of arguments --
+
+Warning: ip2long() expects exactly 1 parameter, 2 given in /root/php-src/ext/standard/tests/network/ip2long_error.php on line 18
+NULL
+===DONE===

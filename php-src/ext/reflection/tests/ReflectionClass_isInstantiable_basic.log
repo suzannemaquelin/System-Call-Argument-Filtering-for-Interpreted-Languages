@@ -1,0 +1,15 @@
+
+---- EXPECTED OUTPUT
+Is C instantiable?  bool(true)
+Is iface instantiable?  bool(false)
+Is ifaceImpl instantiable?  bool(true)
+Is abstractClass instantiable?  bool(false)
+Is D instantiable?  bool(true)
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Is C instantiable?  bool(true)
+Is iface instantiable?  bool(false)
+Is ifaceImpl instantiable?  bool(true)
+Is abstractClass instantiable?  bool(false)
+Is D instantiable?  bool(true)
+---- FAILED

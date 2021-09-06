@@ -1,0 +1,16 @@
+
+---- EXPECTED OUTPUT
+Warning: Cannot bind method SplDoublyLinkedList::count() to object of class cls in %s on line %d
+NULL
+
+Warning: Cannot rebind scope of closure created by ReflectionFunctionAbstract::getClosure() in %s on line %d
+NULL
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Warning: Cannot bind method SplDoublyLinkedList::count() to object of class cls in /root/php-src/Zend/tests/bug70685.php on line 6
+NULL
+
+Warning: Cannot rebind scope of closure created by ReflectionFunctionAbstract::getClosure() in /root/php-src/Zend/tests/bug70685.php on line 10
+NULL
+---- FAILED

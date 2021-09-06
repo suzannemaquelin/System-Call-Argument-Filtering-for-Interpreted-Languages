@@ -1,0 +1,25 @@
+
+---- EXPECTED OUTPUT
+Empty Encoding Read: 
+
+Warning: main(): Invalid Document Encoding in %s on line %d
+Adding invalid encoding: NYPHP DOMinatrix
+Adding ISO-8859-1 encoding: ISO-8859-1
+ISO-8859-1 Encoding Read: ISO-8859-1
+Adding UTF-8 encoding: UTF-8
+UTF-8 Encoding Read: UTF-8
+Adding UTF-16 encoding: UTF-16
+UTF-16 Encoding Read: UTF-16
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+Empty Encoding Read: 
+
+Warning: main(): Invalid Document Encoding in /root/php-src/ext/dom/tests/DOMDocument_encoding_basic.php on line 16
+Adding invalid encoding: NYPHP DOMinatrix
+Adding ISO-8859-1 encoding: ISO-8859-1
+ISO-8859-1 Encoding Read: ISO-8859-1
+Adding UTF-8 encoding: UTF-8
+UTF-8 Encoding Read: UTF-8
+Adding UTF-16 encoding: UTF-16
+UTF-16 Encoding Read: UTF-16
+---- FAILED

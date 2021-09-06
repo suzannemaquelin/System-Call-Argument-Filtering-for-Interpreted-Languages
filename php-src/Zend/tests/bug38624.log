@@ -1,0 +1,18 @@
+
+---- EXPECTED OUTPUT
+Fatal error: Uncaught Exception: doesn't work in %s:%d
+Stack trace:
+#0 %s(%d): impl->__get('counter')
+#1 %s(%d): impl->__construct()
+#2 {main}
+  thrown in %s on line %d
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+
+Fatal error: Uncaught Exception: doesn't work in /root/php-src/Zend/tests/bug38624.php:16
+Stack trace:
+#0 /root/php-src/Zend/tests/bug38624.php(7): impl->__get('counter')
+#1 /root/php-src/Zend/tests/bug38624.php(21): impl->__construct()
+#2 {main}
+  thrown in /root/php-src/Zend/tests/bug38624.php on line 16
+---- FAILED

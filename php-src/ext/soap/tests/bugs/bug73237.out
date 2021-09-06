@@ -1,0 +1,47 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(stdClass)#2 (1) {
+  ["result"]=>
+  object(stdClass)#3 (4) {
+    ["done"]=>
+    string(4) "true"
+    ["queryLocator"]=>
+    NULL
+    ["records"]=>
+    object(SoapVar)#6 (4) {
+      ["enc_type"]=>
+      int(0)
+      ["enc_value"]=>
+      object(stdClass)#4 (3) {
+        ["type"]=>
+        string(14) "CampaignMember"
+        ["Id"]=>
+        array(2) {
+          [0]=>
+          string(18) "00vi0000011VMgeAAG"
+          [1]=>
+          string(18) "00vi0000011VMgeAAG"
+        }
+        ["any"]=>
+        array(2) {
+          [0]=>
+          string(175) "<sf:CampaignId>701i0000001lreeAAA</sf:CampaignId><sf:Status>Sent</sf:Status><sf:ContactId xsi:nil="true"/><sf:LeadId>00Qi000001UrbYFEAZ</sf:LeadId><sf:Contact xsi:nil="true"/>"
+          ["Lead"]=>
+          object(stdClass)#5 (3) {
+            ["type"]=>
+            string(4) "Lead"
+            ["Id"]=>
+            NULL
+            ["any"]=>
+            string(44) "<sf:Email>angela.lansbury@cbs.com</sf:Email>"
+          }
+        }
+      }
+      ["enc_stype"]=>
+      string(13) "genericObject"
+      ["enc_ns"]=>
+      string(27) "urn:object.test.example.org"
+    }
+    ["size"]=>
+    string(1) "1"
+  }
+}

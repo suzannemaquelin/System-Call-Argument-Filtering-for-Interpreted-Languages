@@ -1,0 +1,69 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+object(DOMAttr)#2 (21) {
+  ["name"]=>
+  string(1) "a"
+  ["specified"]=>
+  bool(true)
+  ["value"]=>
+  string(1) "b"
+  ["ownerElement"]=>
+  string(22) "(object value omitted)"
+  ["schemaTypeInfo"]=>
+  NULL
+  ["nodeName"]=>
+  string(1) "a"
+  ["nodeValue"]=>
+  string(1) "b"
+  ["nodeType"]=>
+  int(2)
+  ["parentNode"]=>
+  string(22) "(object value omitted)"
+  ["childNodes"]=>
+  string(22) "(object value omitted)"
+  ["firstChild"]=>
+  string(22) "(object value omitted)"
+  ["lastChild"]=>
+  string(22) "(object value omitted)"
+  ["previousSibling"]=>
+  NULL
+  ["nextSibling"]=>
+  NULL
+  ["attributes"]=>
+  NULL
+  ["ownerDocument"]=>
+  string(22) "(object value omitted)"
+  ["namespaceURI"]=>
+  NULL
+  ["prefix"]=>
+  string(0) ""
+  ["localName"]=>
+  string(1) "a"
+  ["baseURI"]=>
+  string(14) "/root/php-src/"
+  ["textContent"]=>
+  string(1) "b"
+}
+DOMAttr Object
+(
+    [name] => a
+    [specified] => 1
+    [value] => b
+    [ownerElement] => (object value omitted)
+    [schemaTypeInfo] => 
+    [nodeName] => a
+    [nodeValue] => b
+    [nodeType] => 2
+    [parentNode] => (object value omitted)
+    [childNodes] => (object value omitted)
+    [firstChild] => (object value omitted)
+    [lastChild] => (object value omitted)
+    [previousSibling] => 
+    [nextSibling] => 
+    [attributes] => 
+    [ownerDocument] => (object value omitted)
+    [namespaceURI] => 
+    [prefix] => 
+    [localName] => a
+    [baseURI] => /root/php-src/
+    [textContent] => b
+)

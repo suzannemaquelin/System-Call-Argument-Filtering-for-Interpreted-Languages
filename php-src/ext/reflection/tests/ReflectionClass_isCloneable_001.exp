@@ -1,0 +1,20 @@
+User class
+bool(true)
+bool(true)
+User class - private __clone
+bool(false)
+bool(false)
+Closure
+bool(true)
+bool(true)
+Internal class - SimpleXMLElement
+bool(true)
+bool(true)
+Internal class - XMLWriter
+bool(false)
+bool(false)
+
+Fatal error: Uncaught Error: Trying to clone an uncloneable object of class XMLWriter in %s:%d
+Stack trace:
+#0 {main}
+  thrown in %s on line %d

@@ -1,0 +1,23 @@
+
+---- EXPECTED OUTPUT
+tar-based phar "%star_004.phar.tar" does not have a signature
+bool(false)
+array(2) {
+  ["hash"]=>
+  string(32) "%s"
+  ["hash_type"]=>
+  string(3) "MD5"
+}
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+tar-based phar "/root/php-src/ext/phar/tests/tar/tar_004.phar.tar" does not have a signature
+bool(false)
+array(2) {
+  ["hash"]=>
+  string(32) "E2421E1089F388D9D74410D394C7055F"
+  ["hash_type"]=>
+  string(3) "MD5"
+}
+===DONE===
+---- FAILED

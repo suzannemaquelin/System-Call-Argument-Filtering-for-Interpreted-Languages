@@ -1,0 +1,305 @@
+*** Testing asort() : usage variations ***
+
+-- Testing asort() by supplying different unexpected values for 'array' argument --
+
+-- Flag values are defualt, SORT_REGULAR, SORT_NUMERIC, SORT_STRING --
+-- Iteration 1 --
+
+Warning: asort() expects parameter 1 to be array, integer given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, integer given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, integer given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, integer given in %s on line %d
+bool(false)
+-- Iteration 2 --
+
+Warning: asort() expects parameter 1 to be array, integer given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, integer given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, integer given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, integer given in %s on line %d
+bool(false)
+-- Iteration 3 --
+
+Warning: asort() expects parameter 1 to be array, integer given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, integer given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, integer given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, integer given in %s on line %d
+bool(false)
+-- Iteration 4 --
+
+Warning: asort() expects parameter 1 to be array, integer given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, integer given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, integer given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, integer given in %s on line %d
+bool(false)
+-- Iteration 5 --
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+-- Iteration 6 --
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+-- Iteration 7 --
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+-- Iteration 8 --
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+-- Iteration 9 --
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, float given in %s on line %d
+bool(false)
+-- Iteration 10 --
+
+Warning: asort() expects parameter 1 to be array, null given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, null given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, null given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, null given in %s on line %d
+bool(false)
+-- Iteration 11 --
+
+Warning: asort() expects parameter 1 to be array, null given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, null given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, null given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, null given in %s on line %d
+bool(false)
+-- Iteration 12 --
+
+Warning: asort() expects parameter 1 to be array, boolean given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, boolean given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, boolean given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, boolean given in %s on line %d
+bool(false)
+-- Iteration 13 --
+
+Warning: asort() expects parameter 1 to be array, boolean given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, boolean given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, boolean given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, boolean given in %s on line %d
+bool(false)
+-- Iteration 14 --
+
+Warning: asort() expects parameter 1 to be array, boolean given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, boolean given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, boolean given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, boolean given in %s on line %d
+bool(false)
+-- Iteration 15 --
+
+Warning: asort() expects parameter 1 to be array, boolean given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, boolean given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, boolean given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, boolean given in %s on line %d
+bool(false)
+-- Iteration 16 --
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+-- Iteration 17 --
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+-- Iteration 18 --
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+-- Iteration 19 --
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+-- Iteration 20 --
+
+Warning: asort() expects parameter 1 to be array, object given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, object given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, object given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, object given in %s on line %d
+bool(false)
+-- Iteration 21 --
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+-- Iteration 22 --
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, string given in %s on line %d
+bool(false)
+-- Iteration 23 --
+
+Warning: asort() expects parameter 1 to be array, resource given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, resource given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, resource given in %s on line %d
+bool(false)
+
+Warning: asort() expects parameter 1 to be array, resource given in %s on line %d
+bool(false)
+Done

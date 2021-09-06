@@ -1,0 +1,12 @@
+*** Testing basename() : error conditions ***
+
+-- Testing basename() function with Zero arguments --
+
+Warning: basename() expects at least 1 parameter, 0 given in %s on line %d
+NULL
+
+-- Testing basename() function with more than expected no. of arguments --
+
+Warning: basename() expects at most 2 parameters, 3 given in %s on line %d
+NULL
+===DONE===

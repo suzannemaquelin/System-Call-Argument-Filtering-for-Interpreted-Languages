@@ -1,0 +1,2 @@
+Warning: SplDoublyLinkedList::offsetSet() expects exactly 2 parameters, 1 given in %s on line %d
+PASS

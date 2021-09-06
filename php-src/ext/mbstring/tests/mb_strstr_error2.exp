@@ -1,0 +1,7 @@
+*** Testing mb_strstr() : error conditions ***
+
+-- Testing mb_strstr() with unknown encoding --
+
+Warning: mb_strstr(): Unknown encoding "unknown-encoding" in %s on line %d
+bool(false)
+===DONE===

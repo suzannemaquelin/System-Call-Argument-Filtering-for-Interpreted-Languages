@@ -1,0 +1,21 @@
+
+---- EXPECTED OUTPUT
+bool(true)
+bool(true)
+int(40)
+int(40)
+int(40)
+string(80) "537472696e672077697468200a2077696c6c20656e6420696e206f6e652062797465206d6f72652e"
+string(80) "537472696e672077697468200a2077696c6c20656e6420696e206f6e652062797465206d6f72652e"
+===DONE===
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+bool(true)
+bool(true)
+int(40)
+int(40)
+int(40)
+string(80) "537472696e672077697468200a2077696c6c20656e6420696e206f6e652062797465206d6f72652e"
+string(80) "537472696e672077697468200a2077696c6c20656e6420696e206f6e652062797465206d6f72652e"
+===DONE===
+---- FAILED

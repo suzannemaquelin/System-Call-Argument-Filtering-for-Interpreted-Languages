@@ -1,0 +1,24 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing filesize(): usage variations ***
+
+*** Testing filesize() with data written using different file modes and by creating holes in file ***
+-- opening the file in 'w' mode and get the size --
+int(192)
+int(192)
+-- opening the file in 'wt' mode and get the size --
+int(192)
+int(192)
+-- opening the file in 'a' mode, adding data and checking the file --
+int(204)
+-- opening the file in 'at' mode, adding data and checking the file --
+int(217)
+-- creating a hole and checking the size --
+bool(true)
+int(220)
+-- writing data after hole and checking the size --
+int(226)
+-- opening the existing file in write mode --
+int(0)
+-- with empty file --
+int(0)
+*** Done ***

@@ -1,0 +1,1 @@
+Warning: socket_set_nonblock() expects parameter 1 to be resource, array given in %s on line %d

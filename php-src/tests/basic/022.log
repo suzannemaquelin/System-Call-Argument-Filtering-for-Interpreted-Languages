@@ -1,0 +1,52 @@
+
+---- EXPECTED OUTPUT
+array(10) {
+  ["cookie1"]=>
+  string(6) "val1  "
+  ["cookie2"]=>
+  string(5) "val2 "
+  ["cookie3"]=>
+  string(6) "val 3."
+  ["cookie_4"]=>
+  string(10) " value 4 ;"
+  ["cookie__5"]=>
+  string(7) "  value"
+  ["cookie_6"]=>
+  string(3) "þæö"
+  ["cookie_7"]=>
+  string(0) ""
+  ["$cookie_8"]=>
+  string(0) ""
+  ["cookie-9"]=>
+  string(1) "1"
+  ["-_&_%_$cookie_10"]=>
+  string(2) "10"
+}
+---- ACTUAL OUTPUT
+array(10) {
+  ["cookie1"]=>
+  string(6) "val1  "
+  ["cookie2"]=>
+  string(5) "val2 "
+  ["cookie3"]=>
+  string(6) "val 3."
+  ["cookie_4"]=>
+  string(10) " value 4 ;"
+  ["cookie__5"]=>
+  string(7) "  value"
+  ["cookie_6"]=>
+  string(3) "þæö"
+  ["cookie_7"]=>
+  string(0) ""
+  ["$cookie_8"]=>
+  string(0) ""
+  ["cookie-9"]=>
+  string(1) "1"
+  ["-_&_%_$cookie_10"]=>
+  string(2) "10"
+}
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/php_mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library '/opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so' - /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/gd.so: cannot open shared object file: No such file or directory in Unknown on line 0
+---- FAILED

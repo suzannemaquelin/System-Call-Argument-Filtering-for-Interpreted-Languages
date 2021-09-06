@@ -1,0 +1,133 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing mcrypt_encrypt() : usage variation ***
+
+--int 0--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 1, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--int 1--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 1, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--int 12345--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 5, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--int -12345--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 5, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--float 10.5--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 4, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--float -10.5--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 5, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--float 12.3456789000e10--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 12, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--float -12.3456789000e10--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 13, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--float .5--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 3, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--empty array--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt() expects parameter 5 to be string, array given, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--int indexed array--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt() expects parameter 5 to be string, array given, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--associative array--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt() expects parameter 5 to be string, array given, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--nested arrays--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt() expects parameter 5 to be string, array given, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--uppercase NULL--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 0, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--lowercase null--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 0, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--lowercase true--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 1, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--lowercase false--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 0, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--uppercase TRUE--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 1, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--uppercase FALSE--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 0, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--empty string DQ--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 0, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--empty string SQ--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 0, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--instance of classWithToString--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 14, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--instance of classWithoutToString--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt() expects parameter 5 to be string, object given, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--undefined var--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 0, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--unset var--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt(): Received initialization vector of size 0, but size 8 is required for this encryption mode, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+
+--resource--
+Error: 8192 - Function mcrypt_encrypt() is deprecated, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+Error: 2 - mcrypt_encrypt() expects parameter 5 to be string, resource given, /root/php-src/ext/mcrypt/tests/mcrypt_encrypt_variation5.php(108)
+string(0) ""
+===DONE===

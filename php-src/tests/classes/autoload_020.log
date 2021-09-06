@@ -1,0 +1,15 @@
+
+---- EXPECTED OUTPUT
+in autoload: C
+object(__PHP_Incomplete_Class)#%d (1) {
+  ["__PHP_Incomplete_Class_Name"]=>
+  string(1) "C"
+}
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+in autoload: C
+object(__PHP_Incomplete_Class)#1 (1) {
+  ["__PHP_Incomplete_Class_Name"]=>
+  string(1) "C"
+}
+---- FAILED

@@ -1,0 +1,23 @@
+
+---- EXPECTED OUTPUT
+*** Creating a hard link to a non-existent file ***
+
+Warning: link(): No such file or directory in %s on line %d
+bool(false)
+
+Warning: linkinfo(): No such file or directory in %s on line %d
+int(-1)
+bool(false)
+Done
+---- ACTUAL OUTPUT
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Creating a hard link to a non-existent file ***
+
+Warning: link(): No such file or directory in /root/php-src/ext/standard/tests/file/symlink_link_linkinfo_is_link_variation2.php on line 25
+bool(false)
+
+Warning: linkinfo(): No such file or directory in /root/php-src/ext/standard/tests/file/symlink_link_linkinfo_is_link_variation2.php on line 28
+int(-1)
+bool(false)
+Done
+---- FAILED

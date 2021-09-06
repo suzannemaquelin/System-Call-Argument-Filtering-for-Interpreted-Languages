@@ -1,0 +1,5 @@
+Warning: socket_bind() expects at least 2 parameters, 0 given in %s on line %i
+NULL
+
+Warning: socket_bind() expects at least 2 parameters, 1 given in %s on line %i
+NULL

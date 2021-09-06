@@ -1,0 +1,14 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+3
+3
+5
+5
+7
+7
+Destroyed
+
+Fatal error: Uncaught Error: Using $this when not in object context in /root/php-src/Zend/tests/closure_005.php:28
+Stack trace:
+#0 /root/php-src/Zend/tests/closure_005.php(58): A::{closure}()
+#1 {main}
+  thrown in /root/php-src/Zend/tests/closure_005.php on line 28

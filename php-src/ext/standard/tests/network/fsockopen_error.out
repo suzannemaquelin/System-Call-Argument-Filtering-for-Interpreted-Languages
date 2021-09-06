@@ -1,0 +1,27 @@
+Failed loading /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so:  /opt/php-7.1/lib/php/extensions/debug-non-zts-20160303/xdebug.so: cannot open shared object file: No such file or directory
+*** Testing fsockopen() : basic error conditions ***
+
+-- Testing fsockopen() function with more than expected no. of arguments --
+
+Warning: fsockopen() expects at most 5 parameters, 6 given in /root/php-src/ext/standard/tests/network/fsockopen_error.php on line 19
+bool(false)
+string(10) "string_val"
+int(10)
+
+-- Testing fsockopen() function with less than expected no. of arguments --
+
+Warning: fsockopen() expects at least 1 parameter, 0 given in /root/php-src/ext/standard/tests/network/fsockopen_error.php on line 24
+bool(false)
+
+-- Attempting to connect to a non-existent socket --
+
+Warning: fsockopen(): unable to connect to tcp://127.0.0.1:31337 (Connection refused) in /root/php-src/ext/standard/tests/network/fsockopen_error.php on line 32
+bool(false)
+string(18) "Connection refused"
+
+-- Attempting to connect using an invalid protocol --
+
+Warning: fsockopen(): unable to connect to invalid://127.0.0.1:31337 (Unable to find the socket transport "invalid" - did you forget to enable it when you configured PHP?) in /root/php-src/ext/standard/tests/network/fsockopen_error.php on line 41
+bool(false)
+string(100) "Unable to find the socket transport "invalid" - did you forget to enable it when you configured PHP?"
+Done
